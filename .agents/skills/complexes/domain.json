@@ -1,0 +1,154 @@
+{
+  "slug": "complexes",
+  "name": "Complexes",
+  "family": "small_molecule",
+  "description": "Radiometal coordination complexes for PET/SPECT imaging.",
+  "aliases": [
+    "radiometal",
+    "coordination complex",
+    "pet",
+    "spect"
+  ],
+  "fields": [
+    {
+      "name": "pdf",
+      "description": "ChemX parquet gold column `pdf`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "doi",
+      "description": "ChemX parquet gold column `doi`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "doi_sourse",
+      "description": "ChemX parquet gold column `doi_sourse`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "supplementary",
+      "description": "ChemX parquet gold column `supplementary`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "title",
+      "description": "ChemX parquet gold column `title`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "publisher",
+      "description": "ChemX parquet gold column `publisher`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "year",
+      "description": "ChemX parquet gold column `year`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "access",
+      "description": "ChemX parquet gold column `access`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "compound_id",
+      "description": "ChemX parquet gold column `compound_id`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "compound_name",
+      "description": "ChemX parquet gold column `compound_name`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "SMILES",
+      "description": "ChemX parquet gold column `SMILES`.",
+      "type": "string",
+      "required": true,
+      "smiles": true
+    },
+    {
+      "name": "SMILES_type",
+      "description": "ChemX parquet gold column `SMILES_type`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "metal",
+      "description": "ChemX parquet gold column `metal`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "target",
+      "description": "ChemX parquet gold column `target`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "page_smiles",
+      "description": "ChemX parquet gold column `page_smiles`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "origin_smiles",
+      "description": "ChemX parquet gold column `origin_smiles`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "page_metal",
+      "description": "ChemX parquet gold column `page_metal`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "origin_metal",
+      "description": "ChemX parquet gold column `origin_metal`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "page_target_value",
+      "description": "ChemX parquet gold column `page_target_value`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "origin_target_value",
+      "description": "ChemX parquet gold column `origin_target_value`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    }
+  ]
+}

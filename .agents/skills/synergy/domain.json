@@ -1,0 +1,306 @@
+{
+  "slug": "synergy",
+  "name": "Synergy",
+  "family": "nanomaterials",
+  "description": "Nanoparticle-based antimicrobial synergy.",
+  "aliases": [
+    "synergistic",
+    "biofabricated gold nanoparticle"
+  ],
+  "fields": [
+    {
+      "name": "sn",
+      "description": "ChemX parquet gold column `sn`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "NP",
+      "description": "ChemX parquet gold column `NP`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "bacteria",
+      "description": "ChemX parquet gold column `bacteria`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "strain",
+      "description": "ChemX parquet gold column `strain`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "NP_synthesis",
+      "description": "ChemX parquet gold column `NP_synthesis`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "drug",
+      "description": "ChemX parquet gold column `drug`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "drug_dose_µg_disk",
+      "description": "ChemX parquet gold column `drug_dose_µg_disk`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "NP_concentration_µg_ml",
+      "description": "ChemX parquet gold column `NP_concentration_µg_ml`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "NP_size_min_nm",
+      "description": "ChemX parquet gold column `NP_size_min_nm`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "NP_size_max_nm",
+      "description": "ChemX parquet gold column `NP_size_max_nm`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "NP_size_avg_nm",
+      "description": "ChemX parquet gold column `NP_size_avg_nm`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "shape",
+      "description": "ChemX parquet gold column `shape`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "method",
+      "description": "ChemX parquet gold column `method`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "ZOI_drug_mm_or_MIC _µg_ml",
+      "description": "ChemX parquet gold column `ZOI_drug_mm_or_MIC _µg_ml`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "error_ZOI_drug_mm_or_MIC_µg_ml",
+      "description": "ChemX parquet gold column `error_ZOI_drug_mm_or_MIC_µg_ml`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "ZOI_NP_mm_or_MIC_np_µg_ml",
+      "description": "ChemX parquet gold column `ZOI_NP_mm_or_MIC_np_µg_ml`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "error_ZOI_NP_mm_or_MIC_np_µg_ml",
+      "description": "ChemX parquet gold column `error_ZOI_NP_mm_or_MIC_np_µg_ml`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "ZOI_drug_NP_mm_or_MIC_drug_NP_µg_ml",
+      "description": "ChemX parquet gold column `ZOI_drug_NP_mm_or_MIC_drug_NP_µg_ml`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "error_ZOI_drug_NP_mm_or_MIC_drug_NP_µg_ml",
+      "description": "ChemX parquet gold column `error_ZOI_drug_NP_mm_or_MIC_drug_NP_µg_ml`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "fold_increase_in_antibacterial_activity",
+      "description": "ChemX parquet gold column `fold_increase_in_antibacterial_activity`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "zeta_potential_mV",
+      "description": "ChemX parquet gold column `zeta_potential_mV`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "MDR",
+      "description": "ChemX parquet gold column `MDR`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "FIC",
+      "description": "ChemX parquet gold column `FIC`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "effect",
+      "description": "ChemX parquet gold column `effect`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "reference",
+      "description": "ChemX parquet gold column `reference`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "doi",
+      "description": "ChemX parquet gold column `doi`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "article_list",
+      "description": "ChemX parquet gold column `article_list`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "time_hr",
+      "description": "ChemX parquet gold column `time_hr`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "coating_with_antimicrobial_peptide_polymers",
+      "description": "ChemX parquet gold column `coating_with_antimicrobial_peptide_polymers`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "combined_MIC",
+      "description": "ChemX parquet gold column `combined_MIC`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "peptide_MIC",
+      "description": "ChemX parquet gold column `peptide_MIC`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "viability_%",
+      "description": "ChemX parquet gold column `viability_%`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "viability_error",
+      "description": "ChemX parquet gold column `viability_error`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "journal_name",
+      "description": "ChemX parquet gold column `journal_name`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "publisher",
+      "description": "ChemX parquet gold column `publisher`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "year",
+      "description": "ChemX parquet gold column `year`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "title",
+      "description": "ChemX parquet gold column `title`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "journal_is_oa",
+      "description": "ChemX parquet gold column `journal_is_oa`.",
+      "type": "boolean",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "is_oa",
+      "description": "ChemX parquet gold column `is_oa`.",
+      "type": "boolean",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "oa_status",
+      "description": "ChemX parquet gold column `oa_status`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "pdf",
+      "description": "ChemX parquet gold column `pdf`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "access",
+      "description": "ChemX parquet gold column `access`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    }
+  ]
+}

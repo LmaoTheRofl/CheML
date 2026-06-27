@@ -1,0 +1,264 @@
+{
+  "slug": "seltox",
+  "name": "SelTox",
+  "family": "nanomaterials",
+  "description": "Selective toxicity of nanomaterials across organisms or populations.",
+  "aliases": [
+    "selective toxicity",
+    "d3ra07733k"
+  ],
+  "fields": [
+    {
+      "name": "sn",
+      "description": "ChemX parquet gold column `sn`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "np",
+      "description": "ChemX parquet gold column `np`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "coating",
+      "description": "ChemX parquet gold column `coating`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "bacteria",
+      "description": "ChemX parquet gold column `bacteria`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "mdr",
+      "description": "ChemX parquet gold column `mdr`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "strain",
+      "description": "ChemX parquet gold column `strain`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "np_synthesis",
+      "description": "ChemX parquet gold column `np_synthesis`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "method",
+      "description": "ChemX parquet gold column `method`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "mic_np_µg_ml",
+      "description": "ChemX parquet gold column `mic_np_µg_ml`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "concentration",
+      "description": "ChemX parquet gold column `concentration`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "zoi_np_mm",
+      "description": "ChemX parquet gold column `zoi_np_mm`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "np_size_min_nm",
+      "description": "ChemX parquet gold column `np_size_min_nm`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "np_size_max_nm",
+      "description": "ChemX parquet gold column `np_size_max_nm`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "np_size_avg_nm",
+      "description": "ChemX parquet gold column `np_size_avg_nm`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "shape",
+      "description": "ChemX parquet gold column `shape`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "time_set_hours",
+      "description": "ChemX parquet gold column `time_set_hours`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "zeta_potential_mV",
+      "description": "ChemX parquet gold column `zeta_potential_mV`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "solvent_for_extract",
+      "description": "ChemX parquet gold column `solvent_for_extract`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "temperature_for_extract_C",
+      "description": "ChemX parquet gold column `temperature_for_extract_C`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "duration_preparing_extract_min",
+      "description": "ChemX parquet gold column `duration_preparing_extract_min`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "precursor_of_np",
+      "description": "ChemX parquet gold column `precursor_of_np`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "concentration_of_precursor_mM",
+      "description": "ChemX parquet gold column `concentration_of_precursor_mM`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "hydrodynamic_diameter_nm",
+      "description": "ChemX parquet gold column `hydrodynamic_diameter_nm`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "ph_during_synthesis",
+      "description": "ChemX parquet gold column `ph_during_synthesis`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "reference",
+      "description": "ChemX parquet gold column `reference`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "doi",
+      "description": "ChemX parquet gold column `doi`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "article_list",
+      "description": "ChemX parquet gold column `article_list`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "journal_name",
+      "description": "ChemX parquet gold column `journal_name`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "publisher",
+      "description": "ChemX parquet gold column `publisher`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "year",
+      "description": "ChemX parquet gold column `year`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "title",
+      "description": "ChemX parquet gold column `title`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "journal_is_oa",
+      "description": "ChemX parquet gold column `journal_is_oa`.",
+      "type": "boolean",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "is_oa",
+      "description": "ChemX parquet gold column `is_oa`.",
+      "type": "boolean",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "oa_status",
+      "description": "ChemX parquet gold column `oa_status`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "pdf",
+      "description": "ChemX parquet gold column `pdf`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "access",
+      "description": "ChemX parquet gold column `access`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    }
+  ]
+}

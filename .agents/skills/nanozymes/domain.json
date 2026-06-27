@@ -1,0 +1,201 @@
+{
+  "slug": "nanozymes",
+  "name": "Nanozymes",
+  "family": "nanomaterials",
+  "description": "Nanozyme catalytic activity and kinetics.",
+  "aliases": [
+    "nanozyme",
+    "enzyme-like"
+  ],
+  "fields": [
+    {
+      "name": "formula",
+      "description": "ChemX parquet gold column `formula`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "activity",
+      "description": "ChemX parquet gold column `activity`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "syngony",
+      "description": "ChemX parquet gold column `syngony`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "length",
+      "description": "ChemX parquet gold column `length`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "width",
+      "description": "ChemX parquet gold column `width`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "depth",
+      "description": "ChemX parquet gold column `depth`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "surface",
+      "description": "ChemX parquet gold column `surface`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "km_value",
+      "description": "ChemX parquet gold column `km_value`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "km_unit",
+      "description": "ChemX parquet gold column `km_unit`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "vmax_value",
+      "description": "ChemX parquet gold column `vmax_value`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "vmax_unit",
+      "description": "ChemX parquet gold column `vmax_unit`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "target_source",
+      "description": "ChemX parquet gold column `target_source`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "reaction_type",
+      "description": "ChemX parquet gold column `reaction_type`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "c_min",
+      "description": "ChemX parquet gold column `c_min`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "c_max",
+      "description": "ChemX parquet gold column `c_max`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "c_const",
+      "description": "ChemX parquet gold column `c_const`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "c_const_unit",
+      "description": "ChemX parquet gold column `c_const_unit`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "ccat_value",
+      "description": "ChemX parquet gold column `ccat_value`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "ccat_unit",
+      "description": "ChemX parquet gold column `ccat_unit`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "ph",
+      "description": "ChemX parquet gold column `ph`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "temperature",
+      "description": "ChemX parquet gold column `temperature`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "doi",
+      "description": "ChemX parquet gold column `doi`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "pdf",
+      "description": "ChemX parquet gold column `pdf`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "access",
+      "description": "ChemX parquet gold column `access`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "title",
+      "description": "ChemX parquet gold column `title`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "journal",
+      "description": "ChemX parquet gold column `journal`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "year",
+      "description": "ChemX parquet gold column `year`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    }
+  ]
+}

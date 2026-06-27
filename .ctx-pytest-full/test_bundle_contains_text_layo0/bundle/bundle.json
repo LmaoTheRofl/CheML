@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-06-27T06:50:12.892053Z",
+  "parser": "pymupdf-fallback",
+  "metadata": {
+    "title": "Synthetic ChemX article",
+    "author": "Tests",
+    "subject": null,
+    "keywords": null,
+    "creator": null,
+    "producer": null,
+    "page_count": 1,
+    "sha256": "7cb6fcbd6feb9bb6ec7aa3763dad838f86029358573abe27cc25539d4b0ca3f3",
+    "source_name": "article.pdf"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "width": 300.0,
+      "height": 200.0,
+      "text": "Compound A permeability 1.25 cm/s\n",
+      "blocks": [
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Compound A permeability 1.25 cm/s",
+          "bbox": {
+            "x0": 30.0,
+            "y0": 28.174999237060547,
+            "x1": 207.28697204589844,
+            "y1": 43.28900146484375
+          }
+        }
+      ],
+      "render_path": "assets/page-0001.png"
+    }
+  ],
+  "tables": [],
+  "figures": [],
+  "marker_markdown_path": null
+}

@@ -1,0 +1,113 @@
+{
+  "run_id": "test",
+  "run_dir": "C:\\PyProjects\\CheML-master\\.ctx-pytest-full\\test_local_column_gold_can_rea0",
+  "source_pdf": "article.pdf",
+  "domain": "eyedrops",
+  "gold_path": "C:\\PyProjects\\CheML-master\\.ctx-pytest-full\\reference.json",
+  "gold_rows": 1,
+  "gold_doi_matches": [],
+  "predicted_records": 1,
+  "field_count": 12,
+  "macro_f1": 1.0,
+  "gold_schema_matches_contract": false,
+  "gold_schema": null,
+  "all_fields_f1_1": true,
+  "fields": {
+    "PMID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "access": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "doi": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "logP": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "name": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "origin": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "page": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "perm (cm/s)": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "publisher": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "smiles": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "title": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "year": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    }
+  }
+}

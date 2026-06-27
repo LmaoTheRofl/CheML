@@ -1,0 +1,96 @@
+{
+  "slug": "eyedrops",
+  "name": "EyeDrops",
+  "family": "small_molecule",
+  "description": "Corneal permeability measurements for drug-like compounds.",
+  "aliases": [
+    "eye drops",
+    "corneal permeability"
+  ],
+  "fields": [
+    {
+      "name": "smiles",
+      "description": "ChemX parquet gold column `smiles`.",
+      "type": "string",
+      "required": true,
+      "smiles": true
+    },
+    {
+      "name": "name",
+      "description": "ChemX parquet gold column `name`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "perm (cm/s)",
+      "description": "ChemX parquet gold column `perm (cm/s)`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "logP",
+      "description": "ChemX parquet gold column `logP`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "doi",
+      "description": "ChemX parquet gold column `doi`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "PMID",
+      "description": "ChemX parquet gold column `PMID`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "title",
+      "description": "ChemX parquet gold column `title`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "publisher",
+      "description": "ChemX parquet gold column `publisher`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "year",
+      "description": "ChemX parquet gold column `year`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "access",
+      "description": "ChemX parquet gold column `access`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "page",
+      "description": "ChemX parquet gold column `page`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "origin",
+      "description": "ChemX parquet gold column `origin`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    }
+  ]
+}

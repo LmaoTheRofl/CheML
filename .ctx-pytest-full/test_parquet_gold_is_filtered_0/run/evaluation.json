@@ -1,0 +1,128 @@
+{
+  "run_id": "test",
+  "run_dir": "C:\\PyProjects\\CheML-master\\.ctx-pytest-full\\test_parquet_gold_is_filtered_0\\run",
+  "source_pdf": "C:\\PyProjects\\CheML-master\\.ctx-pytest-full\\test_parquet_gold_is_filtered_0\\article.pdf",
+  "domain": "eyedrops",
+  "gold_path": "C:\\PyProjects\\CheML-master\\.ctx-pytest-full\\test_parquet_gold_is_filtered_0\\train-00000-of-00001.parquet",
+  "gold_rows": 1,
+  "gold_doi_matches": [
+    "10.1234/test.doi"
+  ],
+  "predicted_records": 1,
+  "field_count": 12,
+  "macro_f1": 1.0,
+  "gold_schema_matches_contract": true,
+  "gold_schema": {
+    "smiles": "string",
+    "name": "string",
+    "perm (cm/s)": "string",
+    "logP": "string",
+    "doi": "string",
+    "PMID": "number",
+    "title": "string",
+    "publisher": "string",
+    "year": "integer",
+    "access": "integer",
+    "page": "integer",
+    "origin": "string"
+  },
+  "all_fields_f1_1": true,
+  "fields": {
+    "PMID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "access": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "doi": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "logP": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "name": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "origin": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "page": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "perm (cm/s)": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "publisher": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "smiles": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "title": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    },
+    "year": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 1,
+      "predicted": 1,
+      "expected": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+domain,field,precision,recall,f1,true_positive,predicted,expected,gold_rows,gold_doi,gold_path,macro_f1
+eyedrops,PMID,1.0,1.0,1.0,1,1,1,1,10.1234/test.doi,C:\PyProjects\CheML-master\.ctx-pytest-full\test_parquet_gold_is_filtered_0\train-00000-of-00001.parquet,1.0
+eyedrops,access,1.0,1.0,1.0,1,1,1,1,10.1234/test.doi,C:\PyProjects\CheML-master\.ctx-pytest-full\test_parquet_gold_is_filtered_0\train-00000-of-00001.parquet,1.0
+eyedrops,doi,1.0,1.0,1.0,1,1,1,1,10.1234/test.doi,C:\PyProjects\CheML-master\.ctx-pytest-full\test_parquet_gold_is_filtered_0\train-00000-of-00001.parquet,1.0
+eyedrops,logP,1.0,1.0,1.0,1,1,1,1,10.1234/test.doi,C:\PyProjects\CheML-master\.ctx-pytest-full\test_parquet_gold_is_filtered_0\train-00000-of-00001.parquet,1.0
+eyedrops,name,1.0,1.0,1.0,1,1,1,1,10.1234/test.doi,C:\PyProjects\CheML-master\.ctx-pytest-full\test_parquet_gold_is_filtered_0\train-00000-of-00001.parquet,1.0
+eyedrops,origin,1.0,1.0,1.0,1,1,1,1,10.1234/test.doi,C:\PyProjects\CheML-master\.ctx-pytest-full\test_parquet_gold_is_filtered_0\train-00000-of-00001.parquet,1.0
+eyedrops,page,1.0,1.0,1.0,1,1,1,1,10.1234/test.doi,C:\PyProjects\CheML-master\.ctx-pytest-full\test_parquet_gold_is_filtered_0\train-00000-of-00001.parquet,1.0
+eyedrops,perm (cm/s),1.0,1.0,1.0,1,1,1,1,10.1234/test.doi,C:\PyProjects\CheML-master\.ctx-pytest-full\test_parquet_gold_is_filtered_0\train-00000-of-00001.parquet,1.0
+eyedrops,publisher,1.0,1.0,1.0,1,1,1,1,10.1234/test.doi,C:\PyProjects\CheML-master\.ctx-pytest-full\test_parquet_gold_is_filtered_0\train-00000-of-00001.parquet,1.0
+eyedrops,smiles,1.0,1.0,1.0,1,1,1,1,10.1234/test.doi,C:\PyProjects\CheML-master\.ctx-pytest-full\test_parquet_gold_is_filtered_0\train-00000-of-00001.parquet,1.0
+eyedrops,title,1.0,1.0,1.0,1,1,1,1,10.1234/test.doi,C:\PyProjects\CheML-master\.ctx-pytest-full\test_parquet_gold_is_filtered_0\train-00000-of-00001.parquet,1.0
+eyedrops,year,1.0,1.0,1.0,1,1,1,1,10.1234/test.doi,C:\PyProjects\CheML-master\.ctx-pytest-full\test_parquet_gold_is_filtered_0\train-00000-of-00001.parquet,1.0
