@@ -1,0 +1,2520 @@
+{
+  "schema_version": "1.0",
+  "domain": "benzimidazoles",
+  "records": [
+    {
+      "values": {
+        "smiles": null,
+        "doi": "10.5772/intechopen.108949",
+        "title": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+        "publisher": "IntechOpen",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "(XVII)",
+        "target_type": "IC50",
+        "target_relation": "=",
+        "target_value": "0.06–0.2",
+        "target_units": "μM",
+        "bacteria": "HCT116 and H460 cell lines",
+        "bacteria_unified": "HCT116; H460",
+        "page_bacteria": 4,
+        "origin_bacteria": "The compounds (XVI) and (XVII) displayed excellent antiproliferative action against HCT116 and H460 cell lines.",
+        "section_bacteria": "2.1 Anticancer activity",
+        "subsection_bacteria": "Perin et al. 2-substituted benzimidazo[1,2-a]-quinoline derivatives",
+        "page_target": 13,
+        "origin_target": "(XVII) Anticancer activity IC50= 0.06–0.2 μM",
+        "section_target": "2.4 Summary",
+        "subsection_target": "Table 1. Biological activity of benzimidazole-quinoline hybrids",
+        "page_scaffold": 4,
+        "origin_scaffold": "Amino substituted benzo[4,5]imidazo[1,2-a]quinoline derivatives.",
+        "page_residue": 4,
+        "origin_residue": "Figure 2: (XVII): R1 = R2 = NH3+ Cl-, R3 = CN.",
+        "pdf": "Current_Development_in_the_Synthesis_of_Benzimidaz.pdf"
+      },
+      "evidence": {
+        "smiles": [
+          {
+            "page": 4,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 2 chemical structure for compound (XVII) was inspected; exact SMILES was not recoverable from text.",
+            "asset_path": "assets/page-0004.png"
+          }
+        ],
+        "doi": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": null,
+            "text": "DOI: http://dx.doi.org/10.5772/intechopen.108949",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 93.67577362060547,
+              "x1": 486.6713562011719,
+              "y1": 243.38546752929688
+            },
+            "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+            "asset_path": null
+          }
+        ],
+        "publisher": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "Creative Commons Attribution License permits unrestricted use, distribution, and reproduction.",
+            "asset_path": null
+          }
+        ],
+        "compound_id": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68603515625,
+              "y0": 627.349609375,
+              "x1": 502.1077575683594,
+              "y1": 640.2691650390625
+            },
+            "text": "(XVII) Anticancer activity IC50= 0.06–0.2 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_type": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68603515625,
+              "y0": 627.349609375,
+              "x1": 502.1077575683594,
+              "y1": 640.2691650390625
+            },
+            "text": "IC50= 0.06–0.2 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_relation": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68603515625,
+              "y0": 627.349609375,
+              "x1": 502.1077575683594,
+              "y1": 640.2691650390625
+            },
+            "text": "IC50= 0.06–0.2 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_value": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68603515625,
+              "y0": 627.349609375,
+              "x1": 502.1077575683594,
+              "y1": 640.2691650390625
+            },
+            "text": "IC50= 0.06–0.2 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_units": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68603515625,
+              "y0": 627.349609375,
+              "x1": 502.1077575683594,
+              "y1": 640.2691650390625
+            },
+            "text": "IC50= 0.06–0.2 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "bacteria": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.07003784179688,
+              "y0": 92.94427490234375,
+              "x1": 520.1651611328125,
+              "y1": 521.8701782226562
+            },
+            "text": "displayed excellent antiproliferative action against HCT116 and H460 cell lines",
+            "asset_path": null
+          }
+        ],
+        "bacteria_unified": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.07003784179688,
+              "y0": 92.94427490234375,
+              "x1": 520.1651611328125,
+              "y1": 521.8701782226562
+            },
+            "text": "against HCT116 and H460 cell lines",
+            "asset_path": null
+          }
+        ],
+        "page_bacteria": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.07003784179688,
+              "y0": 92.94427490234375,
+              "x1": 520.1651611328125,
+              "y1": 521.8701782226562
+            },
+            "text": "against HCT116 and H460 cell lines",
+            "asset_path": null
+          }
+        ],
+        "origin_bacteria": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.07003784179688,
+              "y0": 92.94427490234375,
+              "x1": 520.1651611328125,
+              "y1": 521.8701782226562
+            },
+            "text": "The compounds (XVI) and (XVII) ... HCT116 and H460 cell lines",
+            "asset_path": null
+          }
+        ],
+        "section_bacteria": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "2.1 Anticancer activity",
+            "asset_path": null
+          }
+        ],
+        "subsection_bacteria": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.07003784179688,
+              "y0": 92.94427490234375,
+              "x1": 520.1651611328125,
+              "y1": 521.8701782226562
+            },
+            "text": "Perin et al. synthesised 2-substituted benzimidazo[1,2-a]-quinoline derivatives",
+            "asset_path": null
+          }
+        ],
+        "page_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68603515625,
+              "y0": 627.349609375,
+              "x1": 502.1077575683594,
+              "y1": 640.2691650390625
+            },
+            "text": "(XVII) Anticancer activity IC50= 0.06–0.2 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "origin_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68603515625,
+              "y0": 627.349609375,
+              "x1": 502.1077575683594,
+              "y1": 640.2691650390625
+            },
+            "text": "(XVII) Anticancer activity IC50= 0.06–0.2 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "section_target": [
+          {
+            "page": 13,
+            "kind": "text",
+            "bbox": null,
+            "text": "2.4 Summary",
+            "asset_path": null
+          }
+        ],
+        "subsection_target": [
+          {
+            "page": 13,
+            "kind": "caption",
+            "bbox": null,
+            "text": "Table 1. Biological activity of benzimidazole-quinoline hybrids.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "page_scaffold": [
+          {
+            "page": 4,
+            "kind": "caption",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 641.1731567382812,
+              "x1": 340.5123291015625,
+              "y1": 661.4879760742188
+            },
+            "text": "Figure 2. Amino substituted benzo[4,5]imidazo[1,2-a]quinoline derivatives.",
+            "asset_path": "assets/page-0004.png"
+          }
+        ],
+        "origin_scaffold": [
+          {
+            "page": 4,
+            "kind": "caption",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 641.1731567382812,
+              "x1": 340.5123291015625,
+              "y1": 661.4879760742188
+            },
+            "text": "Figure 2. Amino substituted benzo[4,5]imidazo[1,2-a]quinoline derivatives.",
+            "asset_path": "assets/page-0004.png"
+          }
+        ],
+        "page_residue": [
+          {
+            "page": 4,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 2: (XVII): R1 = R2 = NH3+ Cl-, R3 = CN.",
+            "asset_path": "assets/page-0004.png"
+          }
+        ],
+        "origin_residue": [
+          {
+            "page": 4,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 2: (XVII): R1 = R2 = NH3+ Cl-, R3 = CN.",
+            "asset_path": "assets/page-0004.png"
+          }
+        ],
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Current_Development_in_the_Synthesis_of_Benzimidaz.pdf",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "smiles": null,
+        "doi": "10.5772/intechopen.108949",
+        "title": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+        "publisher": "IntechOpen",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "(LIV)",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "0.5",
+        "target_units": "μg/mL",
+        "bacteria": "C. albicans biofilms fungal cells",
+        "bacteria_unified": "Candida albicans",
+        "page_bacteria": 10,
+        "origin_bacteria": "Compound (LIV) significantly reduced the metabolic activity of C. albicans biofilms fungal cells at MIC value of 0.5 μg/mL.",
+        "section_bacteria": "2.2 Antimicrobial activity",
+        "subsection_bacteria": "Villa et al. 12H-benzo[4',5']imidazo[1',2':1,2]pyrrolo[3,4-b]quinoline derivatives",
+        "page_target": 13,
+        "origin_target": "(LIV) Antimicrobial activity MIC = 0.5 μg/mL",
+        "section_target": "2.4 Summary",
+        "subsection_target": "Table 1. Biological activity of benzimidazole-quinoline hybrids",
+        "page_scaffold": 10,
+        "origin_scaffold": "12H-benzo[40,50]imidazo[10,20:1,2]pyrrolo[3,4-b]quinoline derivatives.",
+        "page_residue": 10,
+        "origin_residue": "Figure 19: compound (LIV) structure shown without a variable residue table.",
+        "pdf": "Current_Development_in_the_Synthesis_of_Benzimidaz.pdf"
+      },
+      "evidence": {
+        "smiles": [
+          {
+            "page": 10,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 19 chemical structure for compound (LIV) was inspected; exact SMILES was not recoverable from text.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "doi": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": null,
+            "text": "DOI: http://dx.doi.org/10.5772/intechopen.108949",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 93.67577362060547,
+              "x1": 486.6713562011719,
+              "y1": 243.38546752929688
+            },
+            "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+            "asset_path": null
+          }
+        ],
+        "publisher": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "Creative Commons Attribution License permits unrestricted use, distribution, and reproduction.",
+            "asset_path": null
+          }
+        ],
+        "compound_id": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68682861328125,
+              "y0": 646.5061645507812,
+              "x1": 499.57403564453125,
+              "y1": 657.21337890625
+            },
+            "text": "(LIV) Antimicrobial activity MIC = 0.5 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_type": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68682861328125,
+              "y0": 646.5061645507812,
+              "x1": 499.57403564453125,
+              "y1": 657.21337890625
+            },
+            "text": "MIC = 0.5 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_relation": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68682861328125,
+              "y0": 646.5061645507812,
+              "x1": 499.57403564453125,
+              "y1": 657.21337890625
+            },
+            "text": "MIC = 0.5 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_value": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68682861328125,
+              "y0": 646.5061645507812,
+              "x1": 499.57403564453125,
+              "y1": 657.21337890625
+            },
+            "text": "MIC = 0.5 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_units": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68682861328125,
+              "y0": 646.5061645507812,
+              "x1": 499.57403564453125,
+              "y1": 657.21337890625
+            },
+            "text": "MIC = 0.5 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "bacteria": [
+          {
+            "page": 10,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.069580078125,
+              "y0": 485.3273010253906,
+              "x1": 513.5220336914062,
+              "y1": 727.5464477539062
+            },
+            "text": "C. albicans biofilms fungal cells at MIC value of 0.5 μg/mL",
+            "asset_path": null
+          }
+        ],
+        "bacteria_unified": [
+          {
+            "page": 10,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.069580078125,
+              "y0": 485.3273010253906,
+              "x1": 513.5220336914062,
+              "y1": 727.5464477539062
+            },
+            "text": "C. albicans biofilms fungal cells",
+            "asset_path": null
+          }
+        ],
+        "page_bacteria": [
+          {
+            "page": 10,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.069580078125,
+              "y0": 485.3273010253906,
+              "x1": 513.5220336914062,
+              "y1": 727.5464477539062
+            },
+            "text": "C. albicans biofilms fungal cells",
+            "asset_path": null
+          }
+        ],
+        "origin_bacteria": [
+          {
+            "page": 10,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.069580078125,
+              "y0": 485.3273010253906,
+              "x1": 513.5220336914062,
+              "y1": 727.5464477539062
+            },
+            "text": "compound (LIV) significantly reduced the metabolic activity of C. albicans biofilms fungal cells",
+            "asset_path": null
+          }
+        ],
+        "section_bacteria": [
+          {
+            "page": 8,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 94.29755401611328,
+              "x1": 220.42784118652344,
+              "y1": 106.66828155517578
+            },
+            "text": "2.2 Antimicrobial activity",
+            "asset_path": null
+          }
+        ],
+        "subsection_bacteria": [
+          {
+            "page": 10,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.069580078125,
+              "y0": 485.3273010253906,
+              "x1": 513.5220336914062,
+              "y1": 727.5464477539062
+            },
+            "text": "Villa et al. synthesised 12H-benzo[40,50]imidazo[10,20:1,2]pyrrolo[3,4-b]quinoline derivatives",
+            "asset_path": null
+          }
+        ],
+        "page_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68682861328125,
+              "y0": 646.5061645507812,
+              "x1": 499.57403564453125,
+              "y1": 657.21337890625
+            },
+            "text": "(LIV) Antimicrobial activity MIC = 0.5 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "origin_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68682861328125,
+              "y0": 646.5061645507812,
+              "x1": 499.57403564453125,
+              "y1": 657.21337890625
+            },
+            "text": "(LIV) Antimicrobial activity MIC = 0.5 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "section_target": [
+          {
+            "page": 13,
+            "kind": "text",
+            "bbox": null,
+            "text": "2.4 Summary",
+            "asset_path": null
+          }
+        ],
+        "subsection_target": [
+          {
+            "page": 13,
+            "kind": "caption",
+            "bbox": null,
+            "text": "Table 1. Biological activity of benzimidazole-quinoline hybrids.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "page_scaffold": [
+          {
+            "page": 10,
+            "kind": "caption",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 298.3780822753906,
+              "x1": 363.076416015625,
+              "y1": 318.6929931640625
+            },
+            "text": "Figure 19. 12H-benzo[40,50]imidazo[10,20:1,2]pyrrolo[3,4-b]quinoline derivatives.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "origin_scaffold": [
+          {
+            "page": 10,
+            "kind": "caption",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 298.3780822753906,
+              "x1": 363.076416015625,
+              "y1": 318.6929931640625
+            },
+            "text": "Figure 19. 12H-benzo[40,50]imidazo[10,20:1,2]pyrrolo[3,4-b]quinoline derivatives.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "page_residue": [
+          {
+            "page": 10,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 19 shows compound (LIV) structure.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "origin_residue": [
+          {
+            "page": 10,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 19: compound (LIV) structure shown without a variable residue table.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Current_Development_in_the_Synthesis_of_Benzimidaz.pdf",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "smiles": null,
+        "doi": "10.5772/intechopen.108949",
+        "title": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+        "publisher": "IntechOpen",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "(LVI)",
+        "target_type": "Protection dose",
+        "target_relation": "=",
+        "target_value": "55",
+        "target_units": "%",
+        "bacteria": null,
+        "bacteria_unified": null,
+        "page_bacteria": null,
+        "origin_bacteria": null,
+        "section_bacteria": null,
+        "subsection_bacteria": null,
+        "page_target": 13,
+        "origin_target": "(LVI) Anti-inflammatory activity Protection dose (%) = 55",
+        "section_target": "2.4 Summary",
+        "subsection_target": "Table 1. Biological activity of benzimidazole-quinoline hybrids",
+        "page_scaffold": 11,
+        "origin_scaffold": "2-(2-(6-Fluoro-2-(4-fluorophenyl)quinolin-4-yl)-1H-benzo[d]imidazol-1-yl)-N-(4-methoxyphenyl) acetamide derivatives.",
+        "page_residue": 11,
+        "origin_residue": "Figure 21: compound (LVI) structure shown without a variable residue table.",
+        "pdf": "Current_Development_in_the_Synthesis_of_Benzimidaz.pdf"
+      },
+      "evidence": {
+        "smiles": [
+          {
+            "page": 11,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 21 chemical structure for compound (LVI) was inspected; exact SMILES was not recoverable from text.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "doi": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": null,
+            "text": "DOI: http://dx.doi.org/10.5772/intechopen.108949",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 93.67577362060547,
+              "x1": 486.6713562011719,
+              "y1": 243.38546752929688
+            },
+            "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+            "asset_path": null
+          }
+        ],
+        "publisher": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "Creative Commons Attribution License permits unrestricted use, distribution, and reproduction.",
+            "asset_path": null
+          }
+        ],
+        "compound_id": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 664.6123657226562,
+              "x1": 514.0245971679688,
+              "y1": 674.9942626953125
+            },
+            "text": "(LVI) Anti-inflammatory activity Protection dose (%) = 55",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_type": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 664.6123657226562,
+              "x1": 514.0245971679688,
+              "y1": 674.9942626953125
+            },
+            "text": "Protection dose (%) = 55",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_relation": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 664.6123657226562,
+              "x1": 514.0245971679688,
+              "y1": 674.9942626953125
+            },
+            "text": "Protection dose (%) = 55",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_value": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 664.6123657226562,
+              "x1": 514.0245971679688,
+              "y1": 674.9942626953125
+            },
+            "text": "Protection dose (%) = 55",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_units": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 664.6123657226562,
+              "x1": 514.0245971679688,
+              "y1": 674.9942626953125
+            },
+            "text": "Protection dose (%) = 55",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "bacteria": [],
+        "bacteria_unified": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 664.6123657226562,
+              "x1": 514.0245971679688,
+              "y1": 674.9942626953125
+            },
+            "text": "(LVI) Anti-inflammatory activity Protection dose (%) = 55",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "origin_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 664.6123657226562,
+              "x1": 514.0245971679688,
+              "y1": 674.9942626953125
+            },
+            "text": "(LVI) Anti-inflammatory activity Protection dose (%) = 55",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "section_target": [
+          {
+            "page": 13,
+            "kind": "text",
+            "bbox": null,
+            "text": "2.4 Summary",
+            "asset_path": null
+          }
+        ],
+        "subsection_target": [
+          {
+            "page": 13,
+            "kind": "caption",
+            "bbox": null,
+            "text": "Table 1. Biological activity of benzimidazole-quinoline hybrids.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "page_scaffold": [
+          {
+            "page": 11,
+            "kind": "caption",
+            "bbox": {
+              "x0": 91.79495239257812,
+              "y0": 232.7781219482422,
+              "x1": 491.7145690917969,
+              "y1": 263.835205078125
+            },
+            "text": "Figure 21. 2-(2-(6-Fluoro-2-(4-fluorophenyl)quinolin-4-yl)-1H-benzo[d]imidazol-1-yl)-N-(4-methoxyphenyl) acetamide derivatives.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "origin_scaffold": [
+          {
+            "page": 11,
+            "kind": "caption",
+            "bbox": {
+              "x0": 91.79495239257812,
+              "y0": 232.7781219482422,
+              "x1": 491.7145690917969,
+              "y1": 263.835205078125
+            },
+            "text": "Figure 21. 2-(2-(6-Fluoro-2-(4-fluorophenyl)quinolin-4-yl)-1H-benzo[d]imidazol-1-yl)-N-(4-methoxyphenyl) acetamide derivatives.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "page_residue": [
+          {
+            "page": 11,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 21 shows compound (LVI) structure.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "origin_residue": [
+          {
+            "page": 11,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 21: compound (LVI) structure shown without a variable residue table.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Current_Development_in_the_Synthesis_of_Benzimidaz.pdf",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "smiles": null,
+        "doi": "10.5772/intechopen.108949",
+        "title": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+        "publisher": "IntechOpen",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "(LX) and (LXI)",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "1.56",
+        "target_units": "μg/mL",
+        "bacteria": "M. tuberculosis H37Rv ATCC 27294",
+        "bacteria_unified": "Mycobacterium tuberculosis H37Rv",
+        "page_bacteria": 11,
+        "origin_bacteria": "Compounds (LX) and (LXI) showed the highest activity against M. tuberculosis H37Rv ATCC 27294 with MIC value of 1.56 μg/mL.",
+        "section_bacteria": "2.3 Miscellaneous activity",
+        "subsection_bacteria": "Ukrainets and co-workers benzimidazo-2-ylamides of 4-hydroxy-2-oxo-1,2-dihydroquinoline-3-carboxylic acids",
+        "page_target": 13,
+        "origin_target": "(LX) and (LXI) Antimycobacterial activity MIC = 1.56 μg/mL",
+        "section_target": "2.4 Summary",
+        "subsection_target": "Table 1. Biological activity of benzimidazole-quinoline hybrids",
+        "page_scaffold": 11,
+        "origin_scaffold": "N-(1H-benzo[d]imidazol-yl-)-4-hydroxy-2-oxo-1,2-dihydroquinoline-3-carboxamide derivatives.",
+        "page_residue": 11,
+        "origin_residue": "Figure 23: (LX): R = Me; (LXI): R = C7H15.",
+        "pdf": "Current_Development_in_the_Synthesis_of_Benzimidaz.pdf"
+      },
+      "evidence": {
+        "smiles": [
+          {
+            "page": 11,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 23 chemical structures for compounds (LX) and (LXI) were inspected; exact SMILES were not recoverable from text.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "doi": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": null,
+            "text": "DOI: http://dx.doi.org/10.5772/intechopen.108949",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 93.67577362060547,
+              "x1": 486.6713562011719,
+              "y1": 243.38546752929688
+            },
+            "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+            "asset_path": null
+          }
+        ],
+        "publisher": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "Creative Commons Attribution License permits unrestricted use, distribution, and reproduction.",
+            "asset_path": null
+          }
+        ],
+        "compound_id": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 682.71826171875,
+              "x1": 501.33099365234375,
+              "y1": 693.4254760742188
+            },
+            "text": "(LX) and (LXI) Antimycobacterial activity MIC = 1.56 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_type": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 682.71826171875,
+              "x1": 501.33099365234375,
+              "y1": 693.4254760742188
+            },
+            "text": "MIC = 1.56 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_relation": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 682.71826171875,
+              "x1": 501.33099365234375,
+              "y1": 693.4254760742188
+            },
+            "text": "MIC = 1.56 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_value": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 682.71826171875,
+              "x1": 501.33099365234375,
+              "y1": 693.4254760742188
+            },
+            "text": "MIC = 1.56 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_units": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 682.71826171875,
+              "x1": 501.33099365234375,
+              "y1": 693.4254760742188
+            },
+            "text": "MIC = 1.56 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "bacteria": [
+          {
+            "page": 11,
+            "kind": "text",
+            "bbox": {
+              "x0": 91.79364013671875,
+              "y0": 273.124267578125,
+              "x1": 530.712646484375,
+              "y1": 557.6729125976562
+            },
+            "text": "against M. tuberculosis H37Rv ATCC 27294 with MIC value of 1.56 μg/mL",
+            "asset_path": null
+          }
+        ],
+        "bacteria_unified": [
+          {
+            "page": 11,
+            "kind": "text",
+            "bbox": {
+              "x0": 91.79364013671875,
+              "y0": 273.124267578125,
+              "x1": 530.712646484375,
+              "y1": 557.6729125976562
+            },
+            "text": "M. tuberculosis H37Rv ATCC 27294",
+            "asset_path": null
+          }
+        ],
+        "page_bacteria": [
+          {
+            "page": 11,
+            "kind": "text",
+            "bbox": {
+              "x0": 91.79364013671875,
+              "y0": 273.124267578125,
+              "x1": 530.712646484375,
+              "y1": 557.6729125976562
+            },
+            "text": "M. tuberculosis H37Rv ATCC 27294",
+            "asset_path": null
+          }
+        ],
+        "origin_bacteria": [
+          {
+            "page": 11,
+            "kind": "text",
+            "bbox": {
+              "x0": 91.79364013671875,
+              "y0": 273.124267578125,
+              "x1": 530.712646484375,
+              "y1": 557.6729125976562
+            },
+            "text": "Compounds (LX) and (LXI) showed the highest activity against M. tuberculosis H37Rv ATCC 27294",
+            "asset_path": null
+          }
+        ],
+        "section_bacteria": [
+          {
+            "page": 10,
+            "kind": "text",
+            "bbox": null,
+            "text": "2.3 Miscellaneous activity",
+            "asset_path": null
+          }
+        ],
+        "subsection_bacteria": [
+          {
+            "page": 11,
+            "kind": "text",
+            "bbox": {
+              "x0": 91.79364013671875,
+              "y0": 273.124267578125,
+              "x1": 530.712646484375,
+              "y1": 557.6729125976562
+            },
+            "text": "Ukrainets and co-workers synthesised benzimidazo-2-ylamides of 4-hydroxy-2-oxo-1,2-dihydroquinoline-3-carboxylic acids",
+            "asset_path": null
+          }
+        ],
+        "page_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 682.71826171875,
+              "x1": 501.33099365234375,
+              "y1": 693.4254760742188
+            },
+            "text": "(LX) and (LXI) Antimycobacterial activity MIC = 1.56 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "origin_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.6871337890625,
+              "y0": 682.71826171875,
+              "x1": 501.33099365234375,
+              "y1": 693.4254760742188
+            },
+            "text": "(LX) and (LXI) Antimycobacterial activity MIC = 1.56 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "section_target": [
+          {
+            "page": 13,
+            "kind": "text",
+            "bbox": null,
+            "text": "2.4 Summary",
+            "asset_path": null
+          }
+        ],
+        "subsection_target": [
+          {
+            "page": 13,
+            "kind": "caption",
+            "bbox": null,
+            "text": "Table 1. Biological activity of benzimidazole-quinoline hybrids.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "page_scaffold": [
+          {
+            "page": 11,
+            "kind": "caption",
+            "bbox": {
+              "x0": 91.79570007324219,
+              "y0": 783.18212890625,
+              "x1": 477.6419677734375,
+              "y1": 803.4970092773438
+            },
+            "text": "Figure 23. N-(1H-benzo[d]imidazol-yl-)-4-hydroxy-2-oxo-1,2-dihydroquinoline-3-carboxamide derivatives.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "origin_scaffold": [
+          {
+            "page": 11,
+            "kind": "caption",
+            "bbox": {
+              "x0": 91.79570007324219,
+              "y0": 783.18212890625,
+              "x1": 477.6419677734375,
+              "y1": 803.4970092773438
+            },
+            "text": "Figure 23. N-(1H-benzo[d]imidazol-yl-)-4-hydroxy-2-oxo-1,2-dihydroquinoline-3-carboxamide derivatives.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "page_residue": [
+          {
+            "page": 11,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 23: (LX): R = Me; (LXI): R = C7H15.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "origin_residue": [
+          {
+            "page": 11,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 23: (LX): R = Me; (LXI): R = C7H15.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Current_Development_in_the_Synthesis_of_Benzimidaz.pdf",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "smiles": null,
+        "doi": "10.5772/intechopen.108949",
+        "title": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+        "publisher": "IntechOpen",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "(LXIV)",
+        "target_type": "IC50",
+        "target_relation": "=",
+        "target_value": "0.151",
+        "target_units": "μM",
+        "bacteria": "multi-drug resistant K1 strains of the human malaria parasite",
+        "bacteria_unified": "Plasmodium falciparum K1",
+        "page_bacteria": 12,
+        "origin_bacteria": "Phenyl (LXIV) showed excellent antiplasmodial activity against multi-drug resistant K1 strains of the human malaria parasite at IC50 value of 0.151 μM.",
+        "section_bacteria": "2.3 Miscellaneous activity",
+        "subsection_bacteria": "Baartzes et al. phenyl-benzimidazole and ferrocenyl-benzimidazoles fused aminoquinoline derivatives",
+        "page_target": 13,
+        "origin_target": "(LXIV) Antiplasmodial activity IC50 = 0.151 μM",
+        "section_target": "2.4 Summary",
+        "subsection_target": "Table 1. Biological activity of benzimidazole-quinoline hybrids",
+        "page_scaffold": 12,
+        "origin_scaffold": "7-Chloro-N-(3-(2-phenyl/ferrocenyl-5-(trifuoromethyl)-1H-benzo[d]imidazol-1-yl)propyl)quinolin-4-amine derivatives.",
+        "page_residue": 12,
+        "origin_residue": "Figure 25: (LXIV) phenyl analogue shown on left.",
+        "pdf": "Current_Development_in_the_Synthesis_of_Benzimidaz.pdf"
+      },
+      "evidence": {
+        "smiles": [
+          {
+            "page": 12,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 25 chemical structure for compound (LXIV) was inspected; exact SMILES was not recoverable from text.",
+            "asset_path": "assets/page-0012.png"
+          }
+        ],
+        "doi": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": null,
+            "text": "DOI: http://dx.doi.org/10.5772/intechopen.108949",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 93.67577362060547,
+              "x1": 486.6713562011719,
+              "y1": 243.38546752929688
+            },
+            "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+            "asset_path": null
+          }
+        ],
+        "publisher": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "Creative Commons Attribution License permits unrestricted use, distribution, and reproduction.",
+            "asset_path": null
+          }
+        ],
+        "compound_id": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68807983398438,
+              "y0": 700.8233032226562,
+              "x1": 496.8391418457031,
+              "y1": 712.692138671875
+            },
+            "text": "(LXIV) Antiplasmodial activity IC50 = 0.151 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_type": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68807983398438,
+              "y0": 700.8233032226562,
+              "x1": 496.8391418457031,
+              "y1": 712.692138671875
+            },
+            "text": "IC50 = 0.151 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_relation": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68807983398438,
+              "y0": 700.8233032226562,
+              "x1": 496.8391418457031,
+              "y1": 712.692138671875
+            },
+            "text": "IC50 = 0.151 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_value": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68807983398438,
+              "y0": 700.8233032226562,
+              "x1": 496.8391418457031,
+              "y1": 712.692138671875
+            },
+            "text": "IC50 = 0.151 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_units": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68807983398438,
+              "y0": 700.8233032226562,
+              "x1": 496.8391418457031,
+              "y1": 712.692138671875
+            },
+            "text": "IC50 = 0.151 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "bacteria": [
+          {
+            "page": 12,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.06878662109375,
+              "y0": 386.48828125,
+              "x1": 520.1891479492188,
+              "y1": 685.3777465820312
+            },
+            "text": "multi-drug resistant K1 strains of the human malaria parasite at IC50 values of 0.151 and 0.283 μM",
+            "asset_path": null
+          }
+        ],
+        "bacteria_unified": [
+          {
+            "page": 12,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.06878662109375,
+              "y0": 386.48828125,
+              "x1": 520.1891479492188,
+              "y1": 685.3777465820312
+            },
+            "text": "multi-drug resistant K1 strains of the human malaria parasite",
+            "asset_path": null
+          }
+        ],
+        "page_bacteria": [
+          {
+            "page": 12,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.06878662109375,
+              "y0": 386.48828125,
+              "x1": 520.1891479492188,
+              "y1": 685.3777465820312
+            },
+            "text": "multi-drug resistant K1 strains of the human malaria parasite",
+            "asset_path": null
+          }
+        ],
+        "origin_bacteria": [
+          {
+            "page": 12,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.06878662109375,
+              "y0": 386.48828125,
+              "x1": 520.1891479492188,
+              "y1": 685.3777465820312
+            },
+            "text": "phenyl (LXIV) ... antiplasmodial activity against multi-drug resistant K1 strains",
+            "asset_path": null
+          }
+        ],
+        "section_bacteria": [
+          {
+            "page": 10,
+            "kind": "text",
+            "bbox": null,
+            "text": "2.3 Miscellaneous activity",
+            "asset_path": null
+          }
+        ],
+        "subsection_bacteria": [
+          {
+            "page": 12,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.06878662109375,
+              "y0": 386.48828125,
+              "x1": 520.1891479492188,
+              "y1": 685.3777465820312
+            },
+            "text": "Baartzes and co-workers synthesised phenyl-benzimidazole and ferrocenyl-benzimidazoles fused aminoquinoline derivatives",
+            "asset_path": null
+          }
+        ],
+        "page_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68807983398438,
+              "y0": 700.8233032226562,
+              "x1": 496.8391418457031,
+              "y1": 712.692138671875
+            },
+            "text": "(LXIV) Antiplasmodial activity IC50 = 0.151 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "origin_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68807983398438,
+              "y0": 700.8233032226562,
+              "x1": 496.8391418457031,
+              "y1": 712.692138671875
+            },
+            "text": "(LXIV) Antiplasmodial activity IC50 = 0.151 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "section_target": [
+          {
+            "page": 13,
+            "kind": "text",
+            "bbox": null,
+            "text": "2.4 Summary",
+            "asset_path": null
+          }
+        ],
+        "subsection_target": [
+          {
+            "page": 13,
+            "kind": "caption",
+            "bbox": null,
+            "text": "Table 1. Biological activity of benzimidazole-quinoline hybrids.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "page_scaffold": [
+          {
+            "page": 12,
+            "kind": "caption",
+            "bbox": {
+              "x0": 81.06930541992188,
+              "y0": 346.1420593261719,
+              "x1": 513.6881103515625,
+              "y1": 377.19915771484375
+            },
+            "text": "Figure 25. 7-Chloro-N-(3-(2-phenyl/ferrocenyl-5-(trifuoromethyl)-1H-benzo[d]imidazol-1-yl)propyl)quinolin-4-amine derivatives.",
+            "asset_path": "assets/page-0012.png"
+          }
+        ],
+        "origin_scaffold": [
+          {
+            "page": 12,
+            "kind": "caption",
+            "bbox": {
+              "x0": 81.06930541992188,
+              "y0": 346.1420593261719,
+              "x1": 513.6881103515625,
+              "y1": 377.19915771484375
+            },
+            "text": "Figure 25. 7-Chloro-N-(3-(2-phenyl/ferrocenyl-5-(trifuoromethyl)-1H-benzo[d]imidazol-1-yl)propyl)quinolin-4-amine derivatives.",
+            "asset_path": "assets/page-0012.png"
+          }
+        ],
+        "page_residue": [
+          {
+            "page": 12,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 25: (LXIV) phenyl analogue shown on left.",
+            "asset_path": "assets/page-0012.png"
+          }
+        ],
+        "origin_residue": [
+          {
+            "page": 12,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 25: (LXIV) phenyl analogue shown on left.",
+            "asset_path": "assets/page-0012.png"
+          }
+        ],
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Current_Development_in_the_Synthesis_of_Benzimidaz.pdf",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "smiles": null,
+        "doi": "10.5772/intechopen.108949",
+        "title": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+        "publisher": "IntechOpen",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "(LXVI)",
+        "target_type": "IC50",
+        "target_relation": "=",
+        "target_value": "1.98",
+        "target_units": "μM",
+        "bacteria": "T. b. gambiense",
+        "bacteria_unified": "Trypanosoma brucei gambiense",
+        "page_bacteria": 12,
+        "origin_bacteria": "T. b. gambiense, a human parasite, was used in vitro to test antitrypanosomal activity.",
+        "section_bacteria": "2.3 Miscellaneous activity",
+        "subsection_bacteria": "Pomel et al. 7-chloro-4-(4-(5-fluoro-1H-benzo[d]imidazol-2-yl)phenoxy)quinoline derivatives",
+        "page_target": 13,
+        "origin_target": "(LXVI) Antitrypanosomal activity IC50 = 1.98 μM",
+        "section_target": "2.4 Summary",
+        "subsection_target": "Table 1. Biological activity of benzimidazole-quinoline hybrids",
+        "page_scaffold": 12,
+        "origin_scaffold": "7-Chloro-4-(4-(5-fluoro-1H-benzo[d]imidazol-2-yl)phenoxy)quinoline derivatives.",
+        "page_residue": 12,
+        "origin_residue": "Figure 26: compound (LXVI) structure shown without a variable residue table.",
+        "pdf": "Current_Development_in_the_Synthesis_of_Benzimidaz.pdf"
+      },
+      "evidence": {
+        "smiles": [
+          {
+            "page": 12,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 26 chemical structure for compound (LXVI) was inspected; exact SMILES was not recoverable from text.",
+            "asset_path": "assets/page-0012.png"
+          }
+        ],
+        "doi": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": null,
+            "text": "DOI: http://dx.doi.org/10.5772/intechopen.108949",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 93.67577362060547,
+              "x1": 486.6713562011719,
+              "y1": 243.38546752929688
+            },
+            "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+            "asset_path": null
+          }
+        ],
+        "publisher": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "Creative Commons Attribution License permits unrestricted use, distribution, and reproduction.",
+            "asset_path": null
+          }
+        ],
+        "compound_id": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68820190429688,
+              "y0": 718.9292602539062,
+              "x1": 494.7448425292969,
+              "y1": 730.7981567382812
+            },
+            "text": "(LXVI) Antitrypanosomal activity IC50 = 1.98 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_type": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68820190429688,
+              "y0": 718.9292602539062,
+              "x1": 494.7448425292969,
+              "y1": 730.7981567382812
+            },
+            "text": "IC50 = 1.98 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_relation": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68820190429688,
+              "y0": 718.9292602539062,
+              "x1": 494.7448425292969,
+              "y1": 730.7981567382812
+            },
+            "text": "IC50 = 1.98 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_value": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68820190429688,
+              "y0": 718.9292602539062,
+              "x1": 494.7448425292969,
+              "y1": 730.7981567382812
+            },
+            "text": "IC50 = 1.98 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_units": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68820190429688,
+              "y0": 718.9292602539062,
+              "x1": 494.7448425292969,
+              "y1": 730.7981567382812
+            },
+            "text": "IC50 = 1.98 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "bacteria": [
+          {
+            "page": 12,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.06878662109375,
+              "y0": 386.48828125,
+              "x1": 520.1891479492188,
+              "y1": 685.3777465820312
+            },
+            "text": "T. b. gambiense, a human parasite, was used in vitro to test antitrypanosomal activity",
+            "asset_path": null
+          }
+        ],
+        "bacteria_unified": [
+          {
+            "page": 12,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.06878662109375,
+              "y0": 386.48828125,
+              "x1": 520.1891479492188,
+              "y1": 685.3777465820312
+            },
+            "text": "T. b. gambiense",
+            "asset_path": null
+          }
+        ],
+        "page_bacteria": [
+          {
+            "page": 12,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.06878662109375,
+              "y0": 386.48828125,
+              "x1": 520.1891479492188,
+              "y1": 685.3777465820312
+            },
+            "text": "T. b. gambiense",
+            "asset_path": null
+          }
+        ],
+        "origin_bacteria": [
+          {
+            "page": 12,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.06878662109375,
+              "y0": 386.48828125,
+              "x1": 520.1891479492188,
+              "y1": 685.3777465820312
+            },
+            "text": "T. b. gambiense, a human parasite, was used in vitro to test antitrypanosomal activity",
+            "asset_path": null
+          }
+        ],
+        "section_bacteria": [
+          {
+            "page": 10,
+            "kind": "text",
+            "bbox": null,
+            "text": "2.3 Miscellaneous activity",
+            "asset_path": null
+          }
+        ],
+        "subsection_bacteria": [
+          {
+            "page": 12,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.06878662109375,
+              "y0": 386.48828125,
+              "x1": 520.1891479492188,
+              "y1": 685.3777465820312
+            },
+            "text": "Pomel et al. synthesised 7-chloro-4-(4-(5-fluoro-1H-benzo[d]imidazol-2-yl)phenoxy)quinoline derivatives",
+            "asset_path": null
+          }
+        ],
+        "page_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68820190429688,
+              "y0": 718.9292602539062,
+              "x1": 494.7448425292969,
+              "y1": 730.7981567382812
+            },
+            "text": "(LXVI) Antitrypanosomal activity IC50 = 1.98 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "origin_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68820190429688,
+              "y0": 718.9292602539062,
+              "x1": 494.7448425292969,
+              "y1": 730.7981567382812
+            },
+            "text": "(LXVI) Antitrypanosomal activity IC50 = 1.98 μM",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "section_target": [
+          {
+            "page": 13,
+            "kind": "text",
+            "bbox": null,
+            "text": "2.4 Summary",
+            "asset_path": null
+          }
+        ],
+        "subsection_target": [
+          {
+            "page": 13,
+            "kind": "caption",
+            "bbox": null,
+            "text": "Table 1. Biological activity of benzimidazole-quinoline hybrids.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "page_scaffold": [
+          {
+            "page": 12,
+            "kind": "caption",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 783.9241333007812,
+              "x1": 411.0443115234375,
+              "y1": 804.2389526367188
+            },
+            "text": "Figure 26. 7-Chloro-4-(4-(5-fluoro-1H-benzo[d]imidazol-2-yl)phenoxy)quinoline derivatives.",
+            "asset_path": "assets/page-0012.png"
+          }
+        ],
+        "origin_scaffold": [
+          {
+            "page": 12,
+            "kind": "caption",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 783.9241333007812,
+              "x1": 411.0443115234375,
+              "y1": 804.2389526367188
+            },
+            "text": "Figure 26. 7-Chloro-4-(4-(5-fluoro-1H-benzo[d]imidazol-2-yl)phenoxy)quinoline derivatives.",
+            "asset_path": "assets/page-0012.png"
+          }
+        ],
+        "page_residue": [
+          {
+            "page": 12,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 26 shows compound (LXVI) structure.",
+            "asset_path": "assets/page-0012.png"
+          }
+        ],
+        "origin_residue": [
+          {
+            "page": 12,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 26: compound (LXVI) structure shown without a variable residue table.",
+            "asset_path": "assets/page-0012.png"
+          }
+        ],
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Current_Development_in_the_Synthesis_of_Benzimidaz.pdf",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "smiles": null,
+        "doi": "10.5772/intechopen.108949",
+        "title": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+        "publisher": "IntechOpen",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "(LXVII)",
+        "target_type": "IC50",
+        "target_relation": "=",
+        "target_value": "0.66",
+        "target_units": "μg/mL",
+        "bacteria": null,
+        "bacteria_unified": null,
+        "page_bacteria": null,
+        "origin_bacteria": null,
+        "section_bacteria": null,
+        "subsection_bacteria": null,
+        "page_target": 13,
+        "origin_target": "(LXVII) Anticoagulant activity IC50 = 0.66 μg/mL",
+        "section_target": "2.4 Summary",
+        "subsection_target": "Table 1. Biological activity of benzimidazole-quinoline hybrids",
+        "page_scaffold": 13,
+        "origin_scaffold": "2-(2-(5-Bromothiophen-2-yl)-1-methyl-1H-benzo[d]imidazol-5-yl)-5-(2-phenylquinolin-4-yl)-1,3,4-oxadiazole derivatives.",
+        "page_residue": 13,
+        "origin_residue": "Figure 27: (LXVII) structure shown at left.",
+        "pdf": "Current_Development_in_the_Synthesis_of_Benzimidaz.pdf"
+      },
+      "evidence": {
+        "smiles": [
+          {
+            "page": 13,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 27 chemical structure for compound (LXVII) was inspected; exact SMILES was not recoverable from text.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "doi": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": null,
+            "text": "DOI: http://dx.doi.org/10.5772/intechopen.108949",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 93.67577362060547,
+              "x1": 486.6713562011719,
+              "y1": 243.38546752929688
+            },
+            "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+            "asset_path": null
+          }
+        ],
+        "publisher": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "Creative Commons Attribution License permits unrestricted use, distribution, and reproduction.",
+            "asset_path": null
+          }
+        ],
+        "compound_id": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68792724609375,
+              "y0": 737.03515625,
+              "x1": 501.73626708984375,
+              "y1": 748.9031982421875
+            },
+            "text": "(LXVII) Anticoagulant activity IC50 = 0.66 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_type": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68792724609375,
+              "y0": 737.03515625,
+              "x1": 501.73626708984375,
+              "y1": 748.9031982421875
+            },
+            "text": "IC50 = 0.66 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_relation": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68792724609375,
+              "y0": 737.03515625,
+              "x1": 501.73626708984375,
+              "y1": 748.9031982421875
+            },
+            "text": "IC50 = 0.66 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_value": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68792724609375,
+              "y0": 737.03515625,
+              "x1": 501.73626708984375,
+              "y1": 748.9031982421875
+            },
+            "text": "IC50 = 0.66 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_units": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68792724609375,
+              "y0": 737.03515625,
+              "x1": 501.73626708984375,
+              "y1": 748.9031982421875
+            },
+            "text": "IC50 = 0.66 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "bacteria": [],
+        "bacteria_unified": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68792724609375,
+              "y0": 737.03515625,
+              "x1": 501.73626708984375,
+              "y1": 748.9031982421875
+            },
+            "text": "(LXVII) Anticoagulant activity IC50 = 0.66 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "origin_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68792724609375,
+              "y0": 737.03515625,
+              "x1": 501.73626708984375,
+              "y1": 748.9031982421875
+            },
+            "text": "(LXVII) Anticoagulant activity IC50 = 0.66 μg/mL",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "section_target": [
+          {
+            "page": 13,
+            "kind": "text",
+            "bbox": null,
+            "text": "2.4 Summary",
+            "asset_path": null
+          }
+        ],
+        "subsection_target": [
+          {
+            "page": 13,
+            "kind": "caption",
+            "bbox": null,
+            "text": "Table 1. Biological activity of benzimidazole-quinoline hybrids.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "page_scaffold": [
+          {
+            "page": 13,
+            "kind": "caption",
+            "bbox": {
+              "x0": 91.79522705078125,
+              "y0": 274.8680725097656,
+              "x1": 497.9552917480469,
+              "y1": 305.9248046875
+            },
+            "text": "Figure 27. 2-(2-(5-Bromothiophen-2-yl)-1-methyl-1H-benzo[d]imidazol-5-yl)-5-(2-phenylquinolin-4-yl)-1,3,4-oxadiazole derivatives.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "origin_scaffold": [
+          {
+            "page": 13,
+            "kind": "caption",
+            "bbox": {
+              "x0": 91.79522705078125,
+              "y0": 274.8680725097656,
+              "x1": 497.9552917480469,
+              "y1": 305.9248046875
+            },
+            "text": "Figure 27. 2-(2-(5-Bromothiophen-2-yl)-1-methyl-1H-benzo[d]imidazol-5-yl)-5-(2-phenylquinolin-4-yl)-1,3,4-oxadiazole derivatives.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "page_residue": [
+          {
+            "page": 13,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 27: (LXVII) structure shown at left.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "origin_residue": [
+          {
+            "page": 13,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 27: (LXVII) structure shown at left.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Current_Development_in_the_Synthesis_of_Benzimidaz.pdf",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "smiles": null,
+        "doi": "10.5772/intechopen.108949",
+        "title": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+        "publisher": "IntechOpen",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "(LXII)",
+        "target_type": "Antithyroid activity",
+        "target_relation": "=",
+        "target_value": "1.46",
+        "target_units": "nmol/l",
+        "bacteria": null,
+        "bacteria_unified": null,
+        "page_bacteria": null,
+        "origin_bacteria": null,
+        "section_bacteria": null,
+        "subsection_bacteria": null,
+        "page_target": 13,
+        "origin_target": "(LXII) Antithyroid activity 1.46 nmol/l",
+        "section_target": "2.4 Summary",
+        "subsection_target": "Table 1. Biological activity of benzimidazole-quinoline hybrids",
+        "page_scaffold": 11,
+        "origin_scaffold": "N-(1H-benzo[d]imidazol-yl-)-4-hydroxy-2-oxo-1,2-dihydroquinoline-3-carboxamide derivatives.",
+        "page_residue": 11,
+        "origin_residue": "Figure 23: (LXII): R = H.",
+        "pdf": "Current_Development_in_the_Synthesis_of_Benzimidaz.pdf"
+      },
+      "evidence": {
+        "smiles": [
+          {
+            "page": 11,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 23 chemical structure for compound (LXII) was inspected; exact SMILES was not recoverable from text.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "doi": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": null,
+            "text": "DOI: http://dx.doi.org/10.5772/intechopen.108949",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 81.0707015991211,
+              "y0": 93.67577362060547,
+              "x1": 486.6713562011719,
+              "y1": 243.38546752929688
+            },
+            "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues and their Biological Applications",
+            "asset_path": null
+          }
+        ],
+        "publisher": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "© 2022 The Author(s). Licensee IntechOpen.",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 14,
+            "kind": "text",
+            "bbox": null,
+            "text": "Creative Commons Attribution License permits unrestricted use, distribution, and reproduction.",
+            "asset_path": null
+          }
+        ],
+        "compound_id": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68734741210938,
+              "y0": 755.1411743164062,
+              "x1": 488.4998779296875,
+              "y1": 765.5230712890625
+            },
+            "text": "(LXII) Antithyroid activity 1.46 nmol/l",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_type": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68734741210938,
+              "y0": 755.1411743164062,
+              "x1": 488.4998779296875,
+              "y1": 765.5230712890625
+            },
+            "text": "Antithyroid activity 1.46 nmol/l",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_relation": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68734741210938,
+              "y0": 755.1411743164062,
+              "x1": 488.4998779296875,
+              "y1": 765.5230712890625
+            },
+            "text": "Antithyroid activity 1.46 nmol/l",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_value": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68734741210938,
+              "y0": 755.1411743164062,
+              "x1": 488.4998779296875,
+              "y1": 765.5230712890625
+            },
+            "text": "1.46 nmol/l",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "target_units": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68734741210938,
+              "y0": 755.1411743164062,
+              "x1": 488.4998779296875,
+              "y1": 765.5230712890625
+            },
+            "text": "1.46 nmol/l",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "bacteria": [],
+        "bacteria_unified": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68734741210938,
+              "y0": 755.1411743164062,
+              "x1": 488.4998779296875,
+              "y1": 765.5230712890625
+            },
+            "text": "(LXII) Antithyroid activity 1.46 nmol/l",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "origin_target": [
+          {
+            "page": 13,
+            "kind": "table",
+            "bbox": {
+              "x0": 108.68734741210938,
+              "y0": 755.1411743164062,
+              "x1": 488.4998779296875,
+              "y1": 765.5230712890625
+            },
+            "text": "(LXII) Antithyroid activity 1.46 nmol/l",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "section_target": [
+          {
+            "page": 13,
+            "kind": "text",
+            "bbox": null,
+            "text": "2.4 Summary",
+            "asset_path": null
+          }
+        ],
+        "subsection_target": [
+          {
+            "page": 13,
+            "kind": "caption",
+            "bbox": null,
+            "text": "Table 1. Biological activity of benzimidazole-quinoline hybrids.",
+            "asset_path": "assets/page-0013.png"
+          }
+        ],
+        "page_scaffold": [
+          {
+            "page": 11,
+            "kind": "caption",
+            "bbox": {
+              "x0": 91.79570007324219,
+              "y0": 783.18212890625,
+              "x1": 477.6419677734375,
+              "y1": 803.4970092773438
+            },
+            "text": "Figure 23. N-(1H-benzo[d]imidazol-yl-)-4-hydroxy-2-oxo-1,2-dihydroquinoline-3-carboxamide derivatives.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "origin_scaffold": [
+          {
+            "page": 11,
+            "kind": "caption",
+            "bbox": {
+              "x0": 91.79570007324219,
+              "y0": 783.18212890625,
+              "x1": 477.6419677734375,
+              "y1": 803.4970092773438
+            },
+            "text": "Figure 23. N-(1H-benzo[d]imidazol-yl-)-4-hydroxy-2-oxo-1,2-dihydroquinoline-3-carboxamide derivatives.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "page_residue": [
+          {
+            "page": 11,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 23: (LXII): R = H.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "origin_residue": [
+          {
+            "page": 11,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 23: (LXII): R = H.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Current_Development_in_the_Synthesis_of_Benzimidaz.pdf",
+            "asset_path": null
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1534 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-06-27T11:25:32.122406Z",
+  "parser": "pymupdf-fallback",
+  "metadata": {
+    "title": "Synthesis, Antibacterial and Anthelmintic Activity of Novel 3-(3-Pyridyl)-oxazolidinone-5-methyl Ester Derivatives",
+    "author": "Bo Jin, Jia-yi Chen, Zun-lai Sheng, Meng-qing Sun and Hong-liang Yang",
+    "subject": "In this study, a series of 3-(3-pyridyl)-oxazolidone-5-methyl ester derivatives was synthesized and characterized by 1H NMR, 13C NMR, and LC-MS. The conducted screening antibacterial studies of the new 3-(3-pyridyl)-oxazolidone-5-methyl ester derivatives established that the methyl sulfonic acid esters have broad activity spectrum towards Staphylococcus aureus, Streptococcus pneumoniae, Bacillus subtilis and Staphylococcus epidermidis. Among them, compound 12e has the most potent activity, with an MIC of 16 g/mL against B.subtilis, and could reduce the instantaneous growth rate of bacteria. Furthermore, molecular docking studies were also simulated for compound 12e to predict the specific binding mode of this compound. In addition, anthelmintic activity of these compounds was also evaluated against adult Indian earthworms (Pheretima posthuman). The results showed that compound 11b had the best effect. These results above can provide experimental reference for the development of novel antibacterial and anthelmintic drugs.",
+    "keywords": "pyridinyl-oxazolidinone derivatives; synthesis; antibacterial activity; molecular docking; anthelmintic activity",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.21",
+    "page_count": 14,
+    "sha256": "f920e892f742019b921531239c5e8d2703477a6ede734e4acfd49419a561e65f",
+    "source_name": "Synthesis_Antibacterial_and_Anthelmintic_Activity_.pdf"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "\u0001\u0002\u0003\u0001\u0004\u0005\u0006\u0007\b\n\u0001\u0002\u0003\u0004\u0005\u0006\u0007\nCitation: Jin, B.; Chen, J.-y.; Sheng,\nZ.-l.; Sun, M.-q.; Yang, H.-l. Synthesis,\nAntibacterial and Anthelmintic\nActivity of Novel 3-(3-Pyridyl)-\noxazolidinone-5-methyl Ester\nDerivatives. Molecules 2022, 27, 1103.\nhttps://doi.org/10.3390/\nmolecules27031103\nAcademic Editor: Victor Mamane\nReceived: 25 December 2021\nAccepted: 3 February 2022\nPublished: 7 February 2022\nPublisher’s Note: MDPI stays neutral\nwith regard to jurisdictional claims in\npublished maps and institutional afﬁl-\niations.\nCopyright:\n© 2022 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\nmolecules\nArticle\nSynthesis, Antibacterial and Anthelmintic Activity of Novel\n3-(3-Pyridyl)-oxazolidinone-5-methyl Ester Derivatives\nBo Jin 1\n, Jia-yi Chen 1, Zun-lai Sheng 1,2, Meng-qing Sun 1,2 and Hong-liang Yang 1,2,*\n1\nDepartment of Veterinary Medicine, Northeast Agricultural University, Harbin 150030, China;\ncnborgin@163.com (B.J.); bear2320581078@163.com (J.-y.C.); shengzunlai@neau.edu.cn (Z.-l.S.);\nsmq1536578652@163.com (M.-q.S.)\n2\nHeilongjiang Key Laboratory for Animal Disease Control and Pharmaceutical Development,\nNortheast Agricultural University, Harbin 150030, China\n*\nCorrespondence: hongl_yang@126.com\nAbstract: In this study, a series of 3-(3-pyridyl)-oxazolidone-5-methyl ester derivatives was synthe-\nsized and characterized by 1H NMR, 13C NMR, and LC-MS. The conducted screening antibacterial\nstudies of the new 3-(3-pyridyl)-oxazolidone-5-methyl ester derivatives established that the methyl\nsulfonic acid esters have broad activity spectrum towards Staphylococcus aureus, Streptococcus pneumo-\nniae, Bacillus subtilis and Staphylococcus epidermidis. Among them, compound 12e has the most potent\nactivity, with an MIC of 16 µg/mL against B.subtilis, and could reduce the instantaneous growth rate\nof bacteria. Furthermore, molecular docking studies were also simulated for compound 12e to predict\nthe speciﬁc binding mode of this compound. In addition, anthelmintic activity of these compounds\nwas also evaluated against adult Indian earthworms (Pheretima posthuman). The results showed that\ncompound 11b had the best effect. These results above can provide experimental reference for the\ndevelopment of novel antibacterial and anthelmintic drugs.\nKeywords: pyridinyl-oxazolidinone derivatives; synthesis; antibacterial activity; molecular docking;\nanthelmintic activity\n1. Introduction\nWith bacterial resistance comes a grave threat to global public health security. Owing\nto the rapid growth of clinical drug-resistant bacteria, the number of effective anti-infective\ndrugs has declined, and patient mortality is increasing [1–5]. It is estimated that about\n10 million people all over the world will die from drug-resistant bacterial infections, which\nwill become the leading cause of human disease death, and lead to the loss of global\nGDP of US $100 trillion by 2050 [6]. Therefore, how to effectively deal with the bacterial\nresistance crisis is a challenging question. Many new therapies, such as those utilizing\nnanoparticles, phages, and protic ionic liquids, are being developed [7–11]. However, these\ntechnologies are still immature and have not been effectively used clinically [12–14]. At\npresent, chemosynthesized antibacterial agents still play an indispensable role in clinical\npractice. Therefore, for pharmaceutical chemists all over the world, the discovery of novel\nactive antibacterial compounds is an urgent mission and the direction of continuous efforts.\nLinezolid, an oxazolidinone antibacterial agent, has been widely used in the treatment\nof infection caused by multi-drug-resistant Gram-positive bacteria since it was approved\nfor clinical use in 2000. However, with clinical use gradually increasing, many linezolid-\nresistant strains have also been reported [15–18]. To ﬁnd novel, safe and effective antibacte-\nrial drugs, there have been many studies in recent years on the structural modiﬁcation of\nlinezolid [19–25]. Among them, many have focused on the modiﬁcation of ﬁve-position\nside chains of oxazolidine and the morpholine ring, while a few have explored the benzene\nring of linezolid. In addition, anthelmintic properties of linezolid derivatives have also\nbeen found [26].\nMolecules 2022, 27, 1103. https://doi.org/10.3390/molecules27031103\nhttps://www.mdpi.com/journal/molecules\n",
+      "blocks": [
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "\u0001\u0002\u0003\u0001\u0004\u0005\u0006\u0007\b\n\u0001\u0002\u0003\u0004\u0005\u0006\u0007",
+          "bbox": {
+            "x0": 55.23212432861328,
+            "y0": 416.319580078125,
+            "x1": 85.8030014038086,
+            "y1": 431.343017578125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Citation: Jin, B.; Chen, J.-y.; Sheng,",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 438.9087829589844,
+            "x1": 142.3106689453125,
+            "y1": 445.9485778808594
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Z.-l.; Sun, M.-q.; Yang, H.-l. Synthesis,",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 450.8997802734375,
+            "x1": 152.58290100097656,
+            "y1": 457.8735656738281
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Antibacterial and Anthelmintic",
+          "bbox": {
+            "x0": 35.444000244140625,
+            "y0": 462.82476806640625,
+            "x1": 131.71035766601562,
+            "y1": 469.7985534667969
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Activity of Novel 3-(3-Pyridyl)-",
+          "bbox": {
+            "x0": 35.444000244140625,
+            "y0": 474.7507629394531,
+            "x1": 132.2891845703125,
+            "y1": 481.72454833984375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "oxazolidinone-5-methyl Ester",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 486.6757507324219,
+            "x1": 126.71713256835938,
+            "y1": 493.6495361328125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Derivatives. Molecules 2022, 27, 1103.",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 498.47991943359375,
+            "x1": 148.8519287109375,
+            "y1": 505.57452392578125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "https://doi.org/10.3390/",
+          "bbox": {
+            "x0": 35.71599578857422,
+            "y0": 510.5267333984375,
+            "x1": 114.93836212158203,
+            "y1": 517.5005493164062
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "molecules27031103",
+          "bbox": {
+            "x0": 35.71599578857422,
+            "y0": 522.4517211914062,
+            "x1": 94.57487487792969,
+            "y1": 529.425537109375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Academic Editor: Victor Mamane",
+          "bbox": {
+            "x0": 35.71599578857422,
+            "y0": 540.354736328125,
+            "x1": 139.13046264648438,
+            "y1": 547.3285522460938
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Received: 25 December 2021",
+          "bbox": {
+            "x0": 35.71599578857422,
+            "y0": 559.2537231445312,
+            "x1": 123.32089233398438,
+            "y1": 566.2275390625
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Accepted: 3 February 2022",
+          "bbox": {
+            "x0": 35.44399642944336,
+            "y0": 571.1787109375,
+            "x1": 117.39312744140625,
+            "y1": 578.1525268554688
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Published: 7 February 2022",
+          "bbox": {
+            "x0": 35.71599578857422,
+            "y0": 583.1046752929688,
+            "x1": 119.58988952636719,
+            "y1": 590.0784912109375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Publisher’s Note: MDPI stays neutral",
+          "bbox": {
+            "x0": 35.71599578857422,
+            "y0": 600.941650390625,
+            "x1": 151.94000244140625,
+            "y1": 607.9815063476562
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "with regard to jurisdictional claims in",
+          "bbox": {
+            "x0": 35.42300033569336,
+            "y0": 612.9326782226562,
+            "x1": 151.93426513671875,
+            "y1": 619.906494140625
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "published maps and institutional afﬁl-",
+          "bbox": {
+            "x0": 35.50699996948242,
+            "y0": 624.8577270507812,
+            "x1": 153.0922393798828,
+            "y1": 631.83154296875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "iations.",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 636.78369140625,
+            "x1": 58.101898193359375,
+            "y1": 643.7575073242188
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Copyright:\n© 2022 by the authors.",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 683.5787353515625,
+            "x1": 153.15797424316406,
+            "y1": 690.6185913085938
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Licensee MDPI, Basel, Switzerland.",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 695.5707397460938,
+            "x1": 153.15476989746094,
+            "y1": 702.5445556640625
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "This article is an open access article",
+          "bbox": {
+            "x0": 35.5,
+            "y0": 707.4957885742188,
+            "x1": 151.9345703125,
+            "y1": 714.4696044921875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "distributed\nunder\nthe\nterms\nand",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 719.4207763671875,
+            "x1": 151.93438720703125,
+            "y1": 726.3945922851562
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "conditions of the Creative Commons",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 731.3468017578125,
+            "x1": 151.9344024658203,
+            "y1": 738.3206176757812
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Attribution (CC BY) license (https://",
+          "bbox": {
+            "x0": 35.444000244140625,
+            "y0": 743.2717895507812,
+            "x1": 153.20361328125,
+            "y1": 750.24560546875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "creativecommons.org/licenses/by/",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 755.19677734375,
+            "x1": 146.17401123046875,
+            "y1": 762.1705932617188
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "4.0/).",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 767.122802734375,
+            "x1": 52.725101470947266,
+            "y1": 774.0966186523438
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "molecules",
+          "bbox": {
+            "x0": 74.18983459472656,
+            "y0": 49.19297790527344,
+            "x1": 177.7771759033203,
+            "y1": 74.39057922363281
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Article\nSynthesis, Antibacterial and Anthelmintic Activity of Novel\n3-(3-Pyridyl)-oxazolidinone-5-methyl Ester Derivatives",
+          "bbox": {
+            "x0": 35.358001708984375,
+            "y0": 105.81095886230469,
+            "x1": 527.2720336914062,
+            "y1": 155.6875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Bo Jin 1\n, Jia-yi Chen 1, Zun-lai Sheng 1,2, Meng-qing Sun 1,2 and Hong-liang Yang 1,2,*",
+          "bbox": {
+            "x0": 35.71600341796875,
+            "y0": 166.54420471191406,
+            "x1": 435.4504089355469,
+            "y1": 180.12380981445312
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "1\nDepartment of Veterinary Medicine, Northeast Agricultural University, Harbin 150030, China;\ncnborgin@163.com (B.J.); bear2320581078@163.com (J.-y.C.); shengzunlai@neau.edu.cn (Z.-l.S.);\nsmq1536578652@163.com (M.-q.S.)\n2\nHeilongjiang Key Laboratory for Animal Disease Control and Pharmaceutical Development,\nNortheast Agricultural University, Harbin 150030, China\n*\nCorrespondence: hongl_yang@126.com",
+          "bbox": {
+            "x0": 165.6840362548828,
+            "y0": 202.34548950195312,
+            "x1": 512.2644653320312,
+            "y1": 265.578125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Abstract: In this study, a series of 3-(3-pyridyl)-oxazolidone-5-methyl ester derivatives was synthe-\nsized and characterized by 1H NMR, 13C NMR, and LC-MS. The conducted screening antibacterial\nstudies of the new 3-(3-pyridyl)-oxazolidone-5-methyl ester derivatives established that the methyl\nsulfonic acid esters have broad activity spectrum towards Staphylococcus aureus, Streptococcus pneumo-\nniae, Bacillus subtilis and Staphylococcus epidermidis. Among them, compound 12e has the most potent\nactivity, with an MIC of 16 µg/mL against B.subtilis, and could reduce the instantaneous growth rate\nof bacteria. Furthermore, molecular docking studies were also simulated for compound 12e to predict\nthe speciﬁc binding mode of this compound. In addition, anthelmintic activity of these compounds\nwas also evaluated against adult Indian earthworms (Pheretima posthuman). The results showed that\ncompound 11b had the best effect. These results above can provide experimental reference for the\ndevelopment of novel antibacterial and anthelmintic drugs.",
+          "bbox": {
+            "x0": 166.01699829101562,
+            "y0": 281.9794006347656,
+            "x1": 560.7678833007812,
+            "y1": 420.74462890625
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Keywords: pyridinyl-oxazolidinone derivatives; synthesis; antibacterial activity; molecular docking;\nanthelmintic activity",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 436.6193542480469,
+            "x1": 560.3984985351562,
+            "y1": 458.6416015625
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "1. Introduction",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 498.9661865234375,
+            "x1": 234.50828552246094,
+            "y1": 508.9288024902344
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "With bacterial resistance comes a grave threat to global public health security. Owing\nto the rapid growth of clinical drug-resistant bacteria, the number of effective anti-infective\ndrugs has declined, and patient mortality is increasing [1–5]. It is estimated that about\n10 million people all over the world will die from drug-resistant bacterial infections, which\nwill become the leading cause of human disease death, and lead to the loss of global\nGDP of US $100 trillion by 2050 [6]. Therefore, how to effectively deal with the bacterial\nresistance crisis is a challenging question. Many new therapies, such as those utilizing\nnanoparticles, phages, and protic ionic liquids, are being developed [7–11]. However, these\ntechnologies are still immature and have not been effectively used clinically [12–14]. At\npresent, chemosynthesized antibacterial agents still play an indispensable role in clinical\npractice. Therefore, for pharmaceutical chemists all over the world, the discovery of novel\nactive antibacterial compounds is an urgent mission and the direction of continuous efforts.\nLinezolid, an oxazolidinone antibacterial agent, has been widely used in the treatment\nof infection caused by multi-drug-resistant Gram-positive bacteria since it was approved\nfor clinical use in 2000. However, with clinical use gradually increasing, many linezolid-\nresistant strains have also been reported [15–18]. To ﬁnd novel, safe and effective antibacte-\nrial drugs, there have been many studies in recent years on the structural modiﬁcation of\nlinezolid [19–25]. Among them, many have focused on the modiﬁcation of ﬁve-position\nside chains of oxazolidine and the morpholine ring, while a few have explored the benzene\nring of linezolid. In addition, anthelmintic properties of linezolid derivatives have also\nbeen found [26].",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 514.6275634765625,
+            "x1": 561.0188598632812,
+            "y1": 775.6240844726562
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103. https://doi.org/10.3390/molecules27031103\nhttps://www.mdpi.com/journal/molecules",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 814.77392578125,
+            "x1": 559.2717895507812,
+            "y1": 822.882080078125
+          }
+        }
+      ],
+      "render_path": "assets/page-0001.png"
+    },
+    {
+      "number": 2,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n2 of 14\nThe pyridine heterocyclic ring has been widely used in the medicine ﬁeld because\nof its distinctive aromatic and electronegative properties [27–31]. In our previous stud-\nies, a series of pyridine heterocyclic derivatives were evaluated to have good biological\nactivities [32–34]. Among them, compound 1 showed good antibacterial and anthelmintic\nactivities in vitro. Based on previous research and theory [35], here we replaced the benzene\nring with pyridine and a nitrogen atom with an oxygen atom at the 5-position side chain of\nthe oxazolidone ring. A series of 3-(3-pyridyl)-oxazolidinone-5-methyl ester derivatives\nwere designed and synthesized (Figure 1), and their antibacterial and anthelmintic effects\nin vitro were evaluated.\nFigure 1. Design strategy of 3-(3-pyridyl)-oxazolidone-5-methyl ester derivatives.\n2. Results and Discussion\n2.1. Chemistry\nThe general synthetic route for the target compounds is illustrated in Scheme 1.\nThe commercially available 2-chloro-5-nitropyridine was reacted with morpholine to pro-\nduce intermediate 2. Then, the nitro group was reduced to prepare amine 4. After the\nintroduction of the Cbz group, intermediate 6 was cyclized with (R)-(-)-butylglycidyl ester\nunder the condition of −78 ◦C and n-butyllithium (n-BuLi) to produce oxazolidinone\nintermediate 9. Finally, ester derivatives 11a–i were prepared with intermediate 9 and\ndifferent acids, sulfonyl chlorides and isocyanates. Compounds 12a–h were obtained by\nsimilar methods.\nScheme 1. Synthesis route of the target compounds.\n",
+      "blocks": [
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n2 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "The pyridine heterocyclic ring has been widely used in the medicine ﬁeld because\nof its distinctive aromatic and electronegative properties [27–31]. In our previous stud-\nies, a series of pyridine heterocyclic derivatives were evaluated to have good biological\nactivities [32–34]. Among them, compound 1 showed good antibacterial and anthelmintic\nactivities in vitro. Based on previous research and theory [35], here we replaced the benzene\nring with pyridine and a nitrogen atom with an oxygen atom at the 5-position side chain of\nthe oxazolidone ring. A series of 3-(3-pyridyl)-oxazolidinone-5-methyl ester derivatives\nwere designed and synthesized (Figure 1), and their antibacterial and anthelmintic effects\nin vitro were evaluated.",
+          "bbox": {
+            "x0": 165.97500610351562,
+            "y0": 97.60338592529297,
+            "x1": 560.9260864257812,
+            "y1": 208.06105041503906
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Figure 1. Design strategy of 3-(3-pyridyl)-oxazolidone-5-methyl ester derivatives.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 361.246337890625,
+            "x1": 489.07574462890625,
+            "y1": 370.297607421875
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "2. Results and Discussion\n2.1. Chemistry",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 380.80718994140625,
+            "x1": 283.17559814453125,
+            "y1": 404.14154052734375
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "The general synthetic route for the target compounds is illustrated in Scheme 1.\nThe commercially available 2-chloro-5-nitropyridine was reacted with morpholine to pro-\nduce intermediate 2. Then, the nitro group was reduced to prepare amine 4. After the\nintroduction of the Cbz group, intermediate 6 was cyclized with (R)-(-)-butylglycidyl ester\nunder the condition of −78 ◦C and n-butyllithium (n-BuLi) to produce oxazolidinone\nintermediate 9. Finally, ester derivatives 11a–i were prepared with intermediate 9 and\ndifferent acids, sulfonyl chlorides and isocyanates. Compounds 12a–h were obtained by\nsimilar methods.",
+          "bbox": {
+            "x0": 166.0850067138672,
+            "y0": 409.8213806152344,
+            "x1": 561.0198364257812,
+            "y1": 507.7261047363281
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Scheme 1. Synthesis route of the target compounds.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 759.3843383789062,
+            "x1": 372.2171630859375,
+            "y1": 768.4356079101562
+          }
+        }
+      ],
+      "render_path": "assets/page-0002.png"
+    },
+    {
+      "number": 3,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n3 of 14\n2.2. Antibacterial Activity Assay\n2.2.1. Screening of Antibacterial Activity\nAll twelve synthesized compounds were tested against four Gram-positive strains,\nincluding S. aureus (ATCC25923), S. pneumoniae (ATCC49619), B. subtilis (BNCC109047) and\nS. epidermidis (BNCC186652) by broth dilution method with linezolid as the standard drug,\nand the MIC values are listed in Table 1.\nTable 1. In vitro antibacterial activity of target derivatives (MIC: µg/mL).\nCompound\nAntimicrobial Screening MIC (µg/mL)\nS. Aureus\nAtcc 25923\nS. Pneumoniae\nAtcc 49619\nB. Subtilis\nBncc 109047\nS. Epidermidis\nBncc 186652\n11a\n128\n>256\n256\n>256\n11b\n128\n>256\n128\n>256\n11c\n>256\n>256\n128\n>256\n11d\n>256\n>256\n256\n>256\n11e\n>256\n>256\n>256\n>256\n11f\n256\n128\n128\n128\n11g\n>256\n256\n>256\n128\n11h\n128\n128\n64\n128\n11i\n>256\n256\n>256\n>256\n12a\n32\n32\n32\n16\n12b\n128\n128\n128\n128\n12c\n64\n32\n32\n32\n12d\n32\n64\n64\n64\n12e\n32\n32\n16\n32\n12f\n128\n128\n64\n64\n12g\n128\n32\n32\n128\n12h\n128\n128\n128\n128\nLinezolid\n2\n2\n2\n2\nMIC: minimal inhibit concentration.\nInitially, keeping the morpholine ring of linezolid in our structure, compounds 11a–i\nwere synthesized and evaluated for antibacterial activity against four gram-positive strains.\nUnfortunately, the activity of most compounds was generally weak, with only compounds\n11f and 11h showing a broad-spectrum effect.\nTherefore, while maintaining the methyl sulfonyl group on the C-5 side chain, com-\npounds 12a–h were synthesized by replacing the morpholine ring with a piperazine ring\nand modifying the side chain further. Their activity was signiﬁcantly improved and they\nall had broad-spectrum antibacterial action. Among these compounds, compounds 12a\nand 12e had the best antibacterial activity, with the lowest MIC values reaching 16 µg/mL,\nindicating that the ﬂexible substituents linked with piperazine had stronger antibacterial\nactivity. The activity of 12c and 12d was slightly weaker than that of 12a and 12e, probably\ndue to the presence of long-chain substituents, which were less binding than ﬂexible rings,\nbut their long chains were morphologically consistent with the target. Conversely, rigid\nrings, such as 12b, reduced antibacterial activity. Compared with our previous work, these\ncompounds still retain antibacterial activity after changing the core structure to oxazolidi-\nnone [34]. Here the antibacterial activity of the synthesized compounds was not as good as\nlinezolid, which may be due to its reduced afﬁnity with the target caused by the structural\nchanges. In addition, a bacterial inhibitory zone test of 12e against S. aureus was provided\nto visually observe bacteriostatic effects of 12e (Figure 2). It can be seen from the ﬁgure that\nthe bacteriostatic zone increased with the increase of drug concentration, and the diameter\nof the zone was similar to that of linezolid at a concentration of 20 × MIC.\n",
+      "blocks": [
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n3 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2.2. Antibacterial Activity Assay\n2.2.1. Screening of Antibacterial Activity",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 97.50193786621094,
+            "x1": 344.0968322753906,
+            "y1": 121.08712005615234
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "All twelve synthesized compounds were tested against four Gram-positive strains,\nincluding S. aureus (ATCC25923), S. pneumoniae (ATCC49619), B. subtilis (BNCC109047) and\nS. epidermidis (BNCC186652) by broth dilution method with linezolid as the standard drug,\nand the MIC values are listed in Table 1.",
+          "bbox": {
+            "x0": 166.11500549316406,
+            "y0": 126.59539031982422,
+            "x1": 560.5218505859375,
+            "y1": 174.2870635986328
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Table 1. In vitro antibacterial activity of target derivatives (MIC: µg/mL).",
+          "bbox": {
+            "x0": 166.09799194335938,
+            "y0": 186.5723114013672,
+            "x1": 456.71014404296875,
+            "y1": 196.1465606689453
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Compound\nAntimicrobial Screening MIC (µg/mL)",
+          "bbox": {
+            "x0": 182.51699829101562,
+            "y0": 207.62855529785156,
+            "x1": 480.68280029296875,
+            "y1": 230.44073486328125
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "S. Aureus\nAtcc 25923\nS. Pneumoniae\nAtcc 49619\nB. Subtilis\nBncc 109047\nS. Epidermidis\nBncc 186652",
+          "bbox": {
+            "x0": 262.7929992675781,
+            "y0": 223.81932067871094,
+            "x1": 548.8775024414062,
+            "y1": 243.8607177734375
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "11a\n128\n>256\n256\n>256\n11b\n128\n>256\n128\n>256\n11c\n>256\n>256\n128\n>256\n11d\n>256\n>256\n256\n>256\n11e\n>256\n>256\n>256\n>256\n11f\n256\n128\n128\n128\n11g\n>256\n256\n>256\n128\n11h\n128\n128\n64\n128\n11i\n>256\n256\n>256\n>256\n12a\n32\n32\n32\n16\n12b\n128\n128\n128\n128\n12c\n64\n32\n32\n32\n12d\n32\n64\n64\n64\n12e\n32\n32\n16\n32\n12f\n128\n128\n64\n64\n12g\n128\n32\n32\n128\n12h\n128\n128\n128\n128\nLinezolid\n2\n2\n2\n2",
+          "bbox": {
+            "x0": 186.00997924804688,
+            "y0": 250.65536499023438,
+            "x1": 529.427001953125,
+            "y1": 446.0074157714844
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "MIC: minimal inhibit concentration.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 450.3190002441406,
+            "x1": 293.2940368652344,
+            "y1": 458.2890930175781
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Initially, keeping the morpholine ring of linezolid in our structure, compounds 11a–i\nwere synthesized and evaluated for antibacterial activity against four gram-positive strains.\nUnfortunately, the activity of most compounds was generally weak, with only compounds\n11f and 11h showing a broad-spectrum effect.\nTherefore, while maintaining the methyl sulfonyl group on the C-5 side chain, com-\npounds 12a–h were synthesized by replacing the morpholine ring with a piperazine ring\nand modifying the side chain further. Their activity was signiﬁcantly improved and they\nall had broad-spectrum antibacterial action. Among these compounds, compounds 12a\nand 12e had the best antibacterial activity, with the lowest MIC values reaching 16 µg/mL,\nindicating that the ﬂexible substituents linked with piperazine had stronger antibacterial\nactivity. The activity of 12c and 12d was slightly weaker than that of 12a and 12e, probably\ndue to the presence of long-chain substituents, which were less binding than ﬂexible rings,\nbut their long chains were morphologically consistent with the target. Conversely, rigid\nrings, such as 12b, reduced antibacterial activity. Compared with our previous work, these\ncompounds still retain antibacterial activity after changing the core structure to oxazolidi-\nnone [34]. Here the antibacterial activity of the synthesized compounds was not as good as\nlinezolid, which may be due to its reduced afﬁnity with the target caused by the structural\nchanges. In addition, a bacterial inhibitory zone test of 12e against S. aureus was provided\nto visually observe bacteriostatic effects of 12e (Figure 2). It can be seen from the ﬁgure that\nthe bacteriostatic zone increased with the increase of drug concentration, and the diameter\nof the zone was similar to that of linezolid at a concentration of 20 × MIC.",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 467.4971923828125,
+            "x1": 561.0196533203125,
+            "y1": 728.6130981445312
+          }
+        }
+      ],
+      "render_path": "assets/page-0003.png"
+    },
+    {
+      "number": 4,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n4 of 14\nFigure 2. Bacteriostatic zone of 12e against S. aureus at different concentrations. (MIC: minimal\ninhibit concentration).\n2.2.2. Bacterial Growth Kinetic Study\nThe growth curve of bacteria directly shows the process and rule of the change of\nbacterial concentration with time, while the growth inhibition curve of bacteria can directly\nreﬂect the inﬂuence of drugs on the growth process of bacteria [36]. The growth inhibition\ncurve of compound 12e against Bacillus subtilis is shown in Figure 3.\nFigure 3. Inhibition of the growth of Bacillus subtilis by different concentrations of compound 12e.\n(MIC: minimal inhibit concentration; O. D.: optical density.)\nWithout treatment (red) or the presence of 1/4 MIC (blue) of 12e, the bacteria increased\nsharply in the log phase (2–10 h). With the increase in concentration, the lag phase was\nprolonged and the duration of the logarithmic phase was shortened. The signiﬁcantly\nchange was that the decreased instantaneous growth rate led to the plateau phase concen-\ntration reduction, which was manifested by the difference of the ﬁnal turbidity of bacterial\nliquid. Until 2 × MIC of 12e (green) and linezolid (yellow), there was no obvious growth\nof bacteria.\nThese ﬁndings revealed that 12e was an excellent bactericidal agent in a concentration-\ndependent manner, and mainly disturbed the instantaneous growth rate of bacteria in the\nlogarithmic phase.\n2.3. Binding Mode Study\nTo explore the mechanism of the active compound 12e, Auto-Dock software was used\nto perform docking analysis with the 50S ribosomal subunit (PDB ID: 3CPW).\nThe docking result from Figure 4 demonstrated that 12e was inclined to locate in a\nlong and narrow channel with a fully extended state. The ﬁve-position side chain of the\n",
+      "blocks": [
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n4 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Figure 2. Bacteriostatic zone of 12e against S. aureus at different concentrations. (MIC: minimal\ninhibit concentration).",
+          "bbox": {
+            "x0": 166.38900756835938,
+            "y0": 277.5303039550781,
+            "x1": 559.2801513671875,
+            "y1": 299.4796447753906
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "2.2.2. Bacterial Growth Kinetic Study",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 308.9114990234375,
+            "x1": 329.133056640625,
+            "y1": 318.8741149902344
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "The growth curve of bacteria directly shows the process and rule of the change of\nbacterial concentration with time, while the growth inhibition curve of bacteria can directly\nreﬂect the inﬂuence of drugs on the growth process of bacteria [36]. The growth inhibition\ncurve of compound 12e against Bacillus subtilis is shown in Figure 3.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 324.3813781738281,
+            "x1": 559.66162109375,
+            "y1": 372.0740966796875
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Figure 3. Inhibition of the growth of Bacillus subtilis by different concentrations of compound 12e.\n(MIC: minimal inhibit concentration; O. D.: optical density.)",
+          "bbox": {
+            "x0": 166.09800720214844,
+            "y0": 551.642333984375,
+            "x1": 560.8441772460938,
+            "y1": 573.515625
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Without treatment (red) or the presence of 1/4 MIC (blue) of 12e, the bacteria increased\nsharply in the log phase (2–10 h). With the increase in concentration, the lag phase was\nprolonged and the duration of the logarithmic phase was shortened. The signiﬁcantly\nchange was that the decreased instantaneous growth rate led to the plateau phase concen-\ntration reduction, which was manifested by the difference of the ﬁnal turbidity of bacterial\nliquid. Until 2 × MIC of 12e (green) and linezolid (yellow), there was no obvious growth\nof bacteria.\nThese ﬁndings revealed that 12e was an excellent bactericidal agent in a concentration-\ndependent manner, and mainly disturbed the instantaneous growth rate of bacteria in the\nlogarithmic phase.",
+          "bbox": {
+            "x0": 166.09500122070312,
+            "y0": 584.9442138671875,
+            "x1": 560.9313354492188,
+            "y1": 707.9780883789062
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "2.3. Binding Mode Study",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 720.2589111328125,
+            "x1": 269.1183166503906,
+            "y1": 730.2214965820312
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "To explore the mechanism of the active compound 12e, Auto-Dock software was used\nto perform docking analysis with the 50S ribosomal subunit (PDB ID: 3CPW).\nThe docking result from Figure 4 demonstrated that 12e was inclined to locate in a\nlong and narrow channel with a fully extended state. The ﬁve-position side chain of the",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 735.8792114257812,
+            "x1": 559.2800903320312,
+            "y1": 783.6231079101562
+          }
+        }
+      ],
+      "render_path": "assets/page-0004.png"
+    },
+    {
+      "number": 5,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n5 of 14\noxazolidine ring was binding to a relatively small cavity (yellow), which could only accom-\nmodate a small group. This might be the reason for the moderate activity of compound\n11h. In addition, it was discovered that the 4′-position side chain of the piperazine ring\nextended into a deep cavity (red), which could accommodate bigger structural groups\nafter containing the ﬂexible cyclohexyl group. Presumably, compounds 12a–h had better\nantibacterial effect than 11a–i, because they were suitable for the narrow cavity (yellow),\nand occupied the larger and deeper region (red) at the same time, making them more\nclosely combined with the target.\nFigure 4. Binding pocket of compound 12b with the 50S ribosomal subunit.\nThe speciﬁc mechanism of action is shown in Figure 5; the oxygen atoms of the\nsulfonyl group formed two hydrogen bonds with A2473. It followed that the sulfonyl\ngroup presumedly had better ability to form hydrogen bonds than the carbonyl group,\nwhich explained why 11h had the best antibacterial activity among 11a–i. In addition, the\npiperazine-linked urea group of 12e extended into the deep cavity forming a hydrogen\nbond with G2283, making 12b more effective.\nFigure 5. Binding mode of compound 12e to the ribosomal subunit 50S.\n2.4. Anthelmintic Activity Assay\nAnthelmintic activity assay of 17 target compounds was performed using adult Indian\nearthworm (Pheretima posthuman) with albendazole as the positive standard drug. Efﬁcacy\nwas assessed by counting the paralysis and death time, and the results are shown in Table 2.\n",
+      "blocks": [
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n5 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "oxazolidine ring was binding to a relatively small cavity (yellow), which could only accom-\nmodate a small group. This might be the reason for the moderate activity of compound\n11h. In addition, it was discovered that the 4′-position side chain of the piperazine ring\nextended into a deep cavity (red), which could accommodate bigger structural groups\nafter containing the ﬂexible cyclohexyl group. Presumably, compounds 12a–h had better\nantibacterial effect than 11a–i, because they were suitable for the narrow cavity (yellow),\nand occupied the larger and deeper region (red) at the same time, making them more\nclosely combined with the target.",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 97.74272918701172,
+            "x1": 560.9328002929688,
+            "y1": 195.50807189941406
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Figure 4. Binding pocket of compound 12b with the 50S ribosomal subunit.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 376.72833251953125,
+            "x1": 464.391357421875,
+            "y1": 385.77960205078125
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "The speciﬁc mechanism of action is shown in Figure 5; the oxygen atoms of the\nsulfonyl group formed two hydrogen bonds with A2473. It followed that the sulfonyl\ngroup presumedly had better ability to form hydrogen bonds than the carbonyl group,\nwhich explained why 11h had the best antibacterial activity among 11a–i. In addition, the\npiperazine-linked urea group of 12e extended into the deep cavity forming a hydrogen\nbond with G2283, making 12b more effective.",
+          "bbox": {
+            "x0": 165.97500610351562,
+            "y0": 398.4043884277344,
+            "x1": 560.5213623046875,
+            "y1": 471.2030944824219
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Figure 5. Binding mode of compound 12e to the ribosomal subunit 50S.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 658.664306640625,
+            "x1": 449.6224365234375,
+            "y1": 667.715576171875
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "2.4. Anthelmintic Activity Assay",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 678.1459350585938,
+            "x1": 301.0185852050781,
+            "y1": 688.1085205078125
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Anthelmintic activity assay of 17 target compounds was performed using adult Indian\nearthworm (Pheretima posthuman) with albendazole as the positive standard drug. Efﬁcacy\nwas assessed by counting the paralysis and death time, and the results are shown in Table 2.",
+          "bbox": {
+            "x0": 165.97500610351562,
+            "y0": 693.9323120117188,
+            "x1": 561.01953125,
+            "y1": 728.9008178710938
+          }
+        }
+      ],
+      "render_path": "assets/page-0005.png"
+    },
+    {
+      "number": 6,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n6 of 14\nTable 2. Anthelmintic Activities of Target Compounds.\nCompound\nMean Paralysis Time/Min\nMean Death Time/Min\n11a\n11.0 ± 1.8\n35.9 ± 5.2\n11b\n3.6 ± 0.2\n8.1 ± 0.8\n11c\n28.3 ± 5.8\n>60\n11d\n8.6 ± 1.4\n35.6 ± 6.0\n11e\n13.0 ± 0.4\n>60\n11f\n11.6 ± 1.0\n>60\n11g\n13.7 ± 1.7\n52.1 ± 7.0\n11h\n14.8 ± 0.9\n>60\n11i\n18.8 ± 2.7\n>60\n12a\n17.4 ± 1.7\n55.2 ± 2.9\n12b\n22.6 ± 4.3\n>60\n12c\n19.5 ± 2.2\n50.3 ± 1.9\n12d\n18.3 ± 2.1\n55.2 ± 5.0\n12e\n33.1 ± 2.3\n>60\n12f\n35.8 ± 2.3\n>60\n12g\n32.6 ± 3.6\n>60\n12h\n15.6 ± 1.7\n>60\nAlbendazole\n15.0 ± 1.5\n40.8 ± 4.3\nFor compounds 11a–i, the paralysis time of most compounds was less than 15 min,\nand the death time was more than 50 min, indicating that these compounds had signiﬁcant\nparalysis effect on earthworms, but poor insecticidal action. In terms of shorter paralysis\ntime (3.6 ± 0.2 min) and death time (8.1 ± 0.8 min), the anthelmintic effect of compound\n11b was better than albendazole and our previous compounds, indicating that it has\npotential to be developed into a new anthelmintic drug [34]. For compounds 12a–h, the\nparalysis time was more than 15 min and death time was not discovered within 50 min,\nindicating that these compounds had poor anthelmintic activity, even though they had\ngood antibacterial activity.\n3. Materials and Methods\n3.1. Chemical Reagents and Instruments\nBefore using, tetrahydrofuran (THF) was dried with sodium under reflux, dichloromethane\n(DCM) was dried with CaH2 under reflux and triethylamine (TEA) was dried with molecular\nsieve. All the reagents above were chemically pure (Tianjin Tianli Chemical Reagent Co., Ltd.,\nTianjin, China). All the other reagents and compounds used in this study were commercially\navailable analytically pure (AR) without further puriﬁcation.\nAll the chemical reactions were detected by thin-layer chromatography (TLC), which\nwas conducted on silica gel G plates (Taizhou Luqiao Sijia Biochemical Plastic Products\nFactory, Taizhou, China). The plates were observed under a Zf-2 tri-use ultraviolet analyzer\n(Shanghai Anting Electronic Instruments Factory, Shanghai, China). Most of the reaction\nmixtures were puriﬁed by column chromatography carried out on 200–300 mesh sieve\nspeciﬁcations Silica Gel (Qingdao Ocean Chemical Co., Ltd., Qingdao, China).\nAll the puriﬁed compounds underwent the following tests to verify their purity and\nstructure: a WRS-1A melting point apparatus (Shanghai Shinuo Physical Optical Instru-\nment Co., Ltd., Shanghai, China) was used to assess the compounds’ melting points.\nThe 1H-NMR and 13C-NMR of each compound were recorded on an NMR spectrometer\n(Varian, Salt Lake City, UT, USA) in DMSO-d6 with tetramethyl-silane (TMS) as an inter-\nnal standard. The mass spectra (MS) of each compound were registered in an Agilent\n1100 liquid chromatography-mass spectrometry (LC/MS) instrument (Agilent Technolo-\ngies Co., Ltd., Santa Clara, CA, USA).\nIn addition, all the work in the biological activity test was completed in a DL-CJ-2N high-\nperformance aseptic test stand (Beijing Donglian Haer Instrument Manufacturing Co., Ltd.,\nBeijing, China). All biological media such as Mueller–Hinton (MH) broth medium, Luria–\nBertani (LB) broth medium and Nutrient Agar (Qingdao High-tech Park Haibo Biotech-\n",
+      "blocks": [
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n6 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Table 2. Anthelmintic Activities of Target Compounds.",
+          "bbox": {
+            "x0": 166.09800720214844,
+            "y0": 97.31735229492188,
+            "x1": 383.7384033203125,
+            "y1": 106.36861419677734
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Compound\nMean Paralysis Time/Min\nMean Death Time/Min",
+          "bbox": {
+            "x0": 208.70899963378906,
+            "y0": 118.39736938476562,
+            "x1": 540.6990356445312,
+            "y1": 127.36376953125
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "11a\n11.0 ± 1.8\n35.9 ± 5.2\n11b\n3.6 ± 0.2\n8.1 ± 0.8\n11c\n28.3 ± 5.8\n>60\n11d\n8.6 ± 1.4\n35.6 ± 6.0\n11e\n13.0 ± 0.4\n>60\n11f\n11.6 ± 1.0\n>60\n11g\n13.7 ± 1.7\n52.1 ± 7.0\n11h\n14.8 ± 0.9\n>60\n11i\n18.8 ± 2.7\n>60\n12a\n17.4 ± 1.7\n55.2 ± 2.9\n12b\n22.6 ± 4.3\n>60\n12c\n19.5 ± 2.2\n50.3 ± 1.9\n12d\n18.3 ± 2.1\n55.2 ± 5.0\n12e\n33.1 ± 2.3\n>60\n12f\n35.8 ± 2.3\n>60\n12g\n32.6 ± 3.6\n>60\n12h\n15.6 ± 1.7\n>60\nAlbendazole\n15.0 ± 1.5\n40.8 ± 4.3",
+          "bbox": {
+            "x0": 206.72409057617188,
+            "y0": 133.25205993652344,
+            "x1": 513.2300415039062,
+            "y1": 329.5093688964844
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "For compounds 11a–i, the paralysis time of most compounds was less than 15 min,\nand the death time was more than 50 min, indicating that these compounds had signiﬁcant\nparalysis effect on earthworms, but poor insecticidal action. In terms of shorter paralysis\ntime (3.6 ± 0.2 min) and death time (8.1 ± 0.8 min), the anthelmintic effect of compound\n11b was better than albendazole and our previous compounds, indicating that it has\npotential to be developed into a new anthelmintic drug [34]. For compounds 12a–h, the\nparalysis time was more than 15 min and death time was not discovered within 50 min,\nindicating that these compounds had poor anthelmintic activity, even though they had\ngood antibacterial activity.",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 344.065185546875,
+            "x1": 560.5196533203125,
+            "y1": 454.54510498046875
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "3. Materials and Methods\n3.1. Chemical Reagents and Instruments",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 466.9041748046875,
+            "x1": 330.4681091308594,
+            "y1": 490.238525390625
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Before using, tetrahydrofuran (THF) was dried with sodium under reflux, dichloromethane\n(DCM) was dried with CaH2 under reflux and triethylamine (TEA) was dried with molecular\nsieve. All the reagents above were chemically pure (Tianjin Tianli Chemical Reagent Co., Ltd.,\nTianjin, China). All the other reagents and compounds used in this study were commercially\navailable analytically pure (AR) without further puriﬁcation.\nAll the chemical reactions were detected by thin-layer chromatography (TLC), which\nwas conducted on silica gel G plates (Taizhou Luqiao Sijia Biochemical Plastic Products\nFactory, Taizhou, China). The plates were observed under a Zf-2 tri-use ultraviolet analyzer\n(Shanghai Anting Electronic Instruments Factory, Shanghai, China). Most of the reaction\nmixtures were puriﬁed by column chromatography carried out on 200–300 mesh sieve\nspeciﬁcations Silica Gel (Qingdao Ocean Chemical Co., Ltd., Qingdao, China).\nAll the puriﬁed compounds underwent the following tests to verify their purity and\nstructure: a WRS-1A melting point apparatus (Shanghai Shinuo Physical Optical Instru-\nment Co., Ltd., Shanghai, China) was used to assess the compounds’ melting points.\nThe 1H-NMR and 13C-NMR of each compound were recorded on an NMR spectrometer\n(Varian, Salt Lake City, UT, USA) in DMSO-d6 with tetramethyl-silane (TMS) as an inter-\nnal standard. The mass spectra (MS) of each compound were registered in an Agilent\n1100 liquid chromatography-mass spectrometry (LC/MS) instrument (Agilent Technolo-\ngies Co., Ltd., Santa Clara, CA, USA).\nIn addition, all the work in the biological activity test was completed in a DL-CJ-2N high-\nperformance aseptic test stand (Beijing Donglian Haer Instrument Manufacturing Co., Ltd.,\nBeijing, China). All biological media such as Mueller–Hinton (MH) broth medium, Luria–\nBertani (LB) broth medium and Nutrient Agar (Qingdao High-tech Park Haibo Biotech-",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 496.06231689453125,
+            "x1": 561.0193481445312,
+            "y1": 782.1461181640625
+          }
+        }
+      ],
+      "render_path": "assets/page-0006.png"
+    },
+    {
+      "number": 7,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n7 of 14\nnology Co., Ltd., Qingdao, China) were all dissolved directly with deionized water then\nsterilized by a vertical autoclave (Zealway Instrument Co., Ltd., Xiamen, China). Bac-\nteria used in this experiment were grown in an MCO-20AIC carbon dioxide incubator\n(SANYO Co., Ltd., Osaka, Japan).\n3.2. Synthesis of the Target Compounds\nIntermediates 2–10 were synthesized according to the steps in the literature [31–34].\n3.2.1. General Procedure for the Preparation of Compounds (11a–e)\nTake compound (R)-(3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl) methyl ac-\netate (11a) as an example. To a solution of compound 9 (0.29 mmol), 4-dimethyl aminopy-\nridine (DMAP, 0.06 mmol) and 1-ethyl-3-(3-dimethyl aminopropyl) carbodiimide (EDCI,\n1.5 mmol) in 4 mL DCM, was added drop of acetyl chloride (0.38 mmol) and stirred\novernight. After the reaction completed, the reaction mixture was extracted with water\nand DCM (5 mL × 3). The combined organic phase was dried with anhydrous Na2SO4\nand concentrated under reduced pressure. The target compound (11a) was separated by\ncolumn chromatography (PE/EA, 3/1). Yield 72%. A white solid, m. p. 92.9–95.1 ◦C; 1H\nNMR (600 MHz, DMSO-d6) δ 8.23 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.83 (dd, J = 9.0, 3.0 Hz, 1H,\nH4-pyridine), 6.89 (d, J = 9.0 Hz, 1H, H5-pyridine), 4.94–4.90 (m, 1H, H5-oxazolidone), 4.31–4.24\n(m, 2H, OCH2), 4.12–4.10 (m, 1H, H4-oxazolidone), 3.80–3.77 (m, 1H, H4-oxazolidone), 3.72–3.68\n(m, 4H, morpholine), 3.42–3.37 (m, 4H, morpholine), 2.06 (s, 3H, CH3); 13C NMR (150 MHz,\nDMSO-d6) δ 170.7, 156.8, 154.9, 139.2, 130.0, 126.8, 107.5, 71.1, 66.4, 64.8, 47.0, 46.0, 21.0; ES-MS:\nm/z calcd. for C15H19N3O5 [M + H]+: 322.1; found: 322.110.\n(R)-(3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl)methyl cyclohexanecarboxylate (11b).\nA pink solid; yield 65%; m. p. 96.6–99.1 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 8.24 (d,\nJ = 3.0 Hz, 1H, H2-pyridine), 7.83 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 6.90 (d, J = 9.0 Hz,\n1H, H5-pyridine), 5.03–4.96 (m, 1H, H5-oxazolidone), 4.23–4.18 (m, 1H, OCH2), 4.04–3.92\n(m, 2H, OCH2 and H4-oxazolidone), 3.76–3.74 (m, 1H, H4-oxazolidone), 3.72–3.68 (m, 4H,\nmorpholine), 3.42–3.38 (m, 4H, morpholine), 3.09–3.05 (m, 4H, cyclohexane), 1.20–1.18 (m,\n7H, cyclohexane); 13C NMR (150 MHz, DMSO-d6) δ 175.8, 159.3, 154.4, 146.4, 135.1, 114.8,\n106.7, 78.9, 65.8, 44.8, 43.8, 41.5, 28.6, 25.3, 25.2, 14.1; ES-MS: m/z calcd. for C20H27N3O5\n[M + H]+: 390.2; found: 390.204.\n((R)-3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl)methyl tetrahydrofuran-2-carboxylate (11c).\nRed oil; yield 51%; 1H NMR (600 MHz, DMSO-d6) δ 8.23 (d, J = 3.0 Hz, 1H, H2-pyridine),\n7.83 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 6.90 (d, J = 9.0 Hz, 1H, H5-pyridine), 4.97–4.93\n(m, 1H, H5-oxazolidone), 4.48–4.27 (m, 3H, tetrahydrofuran), 4.15–4.12 (m, 1H, OCH2),\n3.82–3.73 (m, 3H, OCH2 and H4-oxazolidone), 3.73–3.66 (m, 4H, morpholine), 3.44–3.38 (m,\n4H, morpholine), 2.17–2.11 (m, 1H, tetrahydrofuran), 1.93–1.70 (m, 3H, tetrahydrofuran);\n13C NMR (150 MHz, DMSO-d6) δ 173.1, 159.4, 154.4, 146.4, 135.1, 114.7, 106.7, 78.5, 77.6,\n68.5, 65.8, 44.8, 41.4, 37.2, 30.0, 24.8; ES-MS: m/z calcd. for C18H23N3O6 [M + H]+: 378.2;\nfound: 378.138.\n(R)-(3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl)methyl benzoate (11d).\nA red solid; yield 62%; m. p. 97.4–100.0 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 8.24 (d,\nJ = 3.0 Hz, 1H, H2-pyridine), 7.83 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 7.30–7.12 (m, 5H,\nbenzene), 6.89 (d, J = 9.0 Hz, 1H, H5-pyridine), 4.92–4.89 (m, 1H, H5-oxazolidone), 4.35–4.24\n(m, 2H, OCH2), 4.13–4.08 (m, 1H, H4-oxazolidone), 3.79–3.72 (m, 1H, H4-oxazolidone),\n3.72–3.67 (m, 4H, morpholine), 3.45–3.34 (m, 4H, morpholine), 2.85–2.82 (m, 2H, CH2),\n2.68–2.64 (m, 2H, CH2); 13C NMR (150 MHz, DMSO-d6) δ 171.9, 159.4, 154.5, 146.4, 141.2,\n135.2, 128.2, 128.1, 125.8, 114.8, 106.7, 78.9, 65.9, 44.8, 42.0, 41.6, 36.8, 31.1; ES-MS: m/Z calcd.\nfor C22H25N3O5 [M + H]+: 412.2; found: 412.148.\n(R)-(3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl)methyl nicotinate (11e).\nA red solid; yield 65%; m. p. 120.3–121.0 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 9.05\n(d, J = 1.8 Hz, 1H, pyridine), 8.82 (dd, J = 4.8, 1.8 Hz, 1H, pyridine), 8.29–8.23 (m, 2H,\npyridine (B ring) and pyridine), 7.84 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine (B ring)), 7.57 (dd,\n",
+      "blocks": [
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n7 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "nology Co., Ltd., Qingdao, China) were all dissolved directly with deionized water then\nsterilized by a vertical autoclave (Zealway Instrument Co., Ltd., Xiamen, China). Bac-\nteria used in this experiment were grown in an MCO-20AIC carbon dioxide incubator\n(SANYO Co., Ltd., Osaka, Japan).",
+          "bbox": {
+            "x0": 166.06500244140625,
+            "y0": 97.61046600341797,
+            "x1": 560.9279174804688,
+            "y1": 145.2960968017578
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "3.2. Synthesis of the Target Compounds",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 157.5769500732422,
+            "x1": 325.945068359375,
+            "y1": 167.53955078125
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Intermediates 2–10 were synthesized according to the steps in the literature [31–34].",
+          "bbox": {
+            "x0": 187.6529998779297,
+            "y0": 173.1972198486328,
+            "x1": 555.1937255859375,
+            "y1": 183.2541046142578
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "3.2.1. General Procedure for the Preparation of Compounds (11a–e)",
+          "bbox": {
+            "x0": 166.39398193359375,
+            "y0": 195.6132354736328,
+            "x1": 462.59051513671875,
+            "y1": 205.6701202392578
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Take compound (R)-(3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl) methyl ac-\netate (11a) as an example. To a solution of compound 9 (0.29 mmol), 4-dimethyl aminopy-\nridine (DMAP, 0.06 mmol) and 1-ethyl-3-(3-dimethyl aminopropyl) carbodiimide (EDCI,\n1.5 mmol) in 4 mL DCM, was added drop of acetyl chloride (0.38 mmol) and stirred\novernight. After the reaction completed, the reaction mixture was extracted with water\nand DCM (5 mL × 3). The combined organic phase was dried with anhydrous Na2SO4\nand concentrated under reduced pressure. The target compound (11a) was separated by\ncolumn chromatography (PE/EA, 3/1). Yield 72%. A white solid, m. p. 92.9–95.1 ◦C; 1H\nNMR (600 MHz, DMSO-d6) δ 8.23 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.83 (dd, J = 9.0, 3.0 Hz, 1H,\nH4-pyridine), 6.89 (d, J = 9.0 Hz, 1H, H5-pyridine), 4.94–4.90 (m, 1H, H5-oxazolidone), 4.31–4.24\n(m, 2H, OCH2), 4.12–4.10 (m, 1H, H4-oxazolidone), 3.80–3.77 (m, 1H, H4-oxazolidone), 3.72–3.68\n(m, 4H, morpholine), 3.42–3.37 (m, 4H, morpholine), 2.06 (s, 3H, CH3); 13C NMR (150 MHz,\nDMSO-d6) δ 170.7, 156.8, 154.9, 139.2, 130.0, 126.8, 107.5, 71.1, 66.4, 64.8, 47.0, 46.0, 21.0; ES-MS:\nm/z calcd. for C15H19N3O5 [M + H]+: 322.1; found: 322.110.\n(R)-(3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl)methyl cyclohexanecarboxylate (11b).\nA pink solid; yield 65%; m. p. 96.6–99.1 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 8.24 (d,\nJ = 3.0 Hz, 1H, H2-pyridine), 7.83 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 6.90 (d, J = 9.0 Hz,\n1H, H5-pyridine), 5.03–4.96 (m, 1H, H5-oxazolidone), 4.23–4.18 (m, 1H, OCH2), 4.04–3.92\n(m, 2H, OCH2 and H4-oxazolidone), 3.76–3.74 (m, 1H, H4-oxazolidone), 3.72–3.68 (m, 4H,\nmorpholine), 3.42–3.38 (m, 4H, morpholine), 3.09–3.05 (m, 4H, cyclohexane), 1.20–1.18 (m,\n7H, cyclohexane); 13C NMR (150 MHz, DMSO-d6) δ 175.8, 159.3, 154.4, 146.4, 135.1, 114.8,\n106.7, 78.9, 65.8, 44.8, 43.8, 41.5, 28.6, 25.3, 25.2, 14.1; ES-MS: m/z calcd. for C20H27N3O5\n[M + H]+: 390.2; found: 390.204.\n((R)-3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl)methyl tetrahydrofuran-2-carboxylate (11c).\nRed oil; yield 51%; 1H NMR (600 MHz, DMSO-d6) δ 8.23 (d, J = 3.0 Hz, 1H, H2-pyridine),\n7.83 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 6.90 (d, J = 9.0 Hz, 1H, H5-pyridine), 4.97–4.93\n(m, 1H, H5-oxazolidone), 4.48–4.27 (m, 3H, tetrahydrofuran), 4.15–4.12 (m, 1H, OCH2),\n3.82–3.73 (m, 3H, OCH2 and H4-oxazolidone), 3.73–3.66 (m, 4H, morpholine), 3.44–3.38 (m,\n4H, morpholine), 2.17–2.11 (m, 1H, tetrahydrofuran), 1.93–1.70 (m, 3H, tetrahydrofuran);\n13C NMR (150 MHz, DMSO-d6) δ 173.1, 159.4, 154.4, 146.4, 135.1, 114.7, 106.7, 78.5, 77.6,\n68.5, 65.8, 44.8, 41.4, 37.2, 30.0, 24.8; ES-MS: m/z calcd. for C18H23N3O6 [M + H]+: 378.2;\nfound: 378.138.\n(R)-(3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl)methyl benzoate (11d).\nA red solid; yield 62%; m. p. 97.4–100.0 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 8.24 (d,\nJ = 3.0 Hz, 1H, H2-pyridine), 7.83 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 7.30–7.12 (m, 5H,\nbenzene), 6.89 (d, J = 9.0 Hz, 1H, H5-pyridine), 4.92–4.89 (m, 1H, H5-oxazolidone), 4.35–4.24\n(m, 2H, OCH2), 4.13–4.08 (m, 1H, H4-oxazolidone), 3.79–3.72 (m, 1H, H4-oxazolidone),\n3.72–3.67 (m, 4H, morpholine), 3.45–3.34 (m, 4H, morpholine), 2.85–2.82 (m, 2H, CH2),\n2.68–2.64 (m, 2H, CH2); 13C NMR (150 MHz, DMSO-d6) δ 171.9, 159.4, 154.5, 146.4, 141.2,\n135.2, 128.2, 128.1, 125.8, 114.8, 106.7, 78.9, 65.9, 44.8, 42.0, 41.6, 36.8, 31.1; ES-MS: m/Z calcd.\nfor C22H25N3O5 [M + H]+: 412.2; found: 412.148.\n(R)-(3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl)methyl nicotinate (11e).\nA red solid; yield 65%; m. p. 120.3–121.0 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 9.05\n(d, J = 1.8 Hz, 1H, pyridine), 8.82 (dd, J = 4.8, 1.8 Hz, 1H, pyridine), 8.29–8.23 (m, 2H,\npyridine (B ring) and pyridine), 7.84 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine (B ring)), 7.57 (dd,",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 211.02952575683594,
+            "x1": 563.1644897460938,
+            "y1": 774.6864624023438
+          }
+        }
+      ],
+      "render_path": "assets/page-0007.png"
+    },
+    {
+      "number": 8,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n8 of 14\nJ = 7.8, 4.8 Hz, 1H, pyridine), 6.90 (d, J = 9.0 Hz, 1H, H5-pyridine (B ring)), 5.13–5.06 (m, 1H,\nH5-oxazolidone), 4.66–4.53 (m, 2H, OCH2), 4.23–4.22 (m, 1H, H4-oxazolidone), 4.01–3.99\n(m, 1H, H4-oxazolidone), 3.72–3.68 (m, 4H, morpholine), 3.42–3.38 (m, 4H, morpholine);\n13C NMR (150 MHz, DMSO-d6) δ 165.3, 159.4, 154.5, 151.9, 148.4, 146.5, 135.2, 135.0, 129.7,\n123.4, 114.7, 106.7, 78.5, 65.9, 44.8, 42.6, 37.5; ES-MS: m/z calcd. for C19H20N4O5 [M + H]+:\n385.1; found: 385.133.\nRaw data for the above products are presented in Supplementary Materials (Figures S1–S16).\n3.2.2. General Procedure for the Preparation of Compounds (11f–i and 12a–h)\nTake compound (R)-(3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl) methyl cy-\nclohexylcarbamate (11f) as an example. To a solution of compound 9 (0.29 mmol), TEA\n(0.58 mmol) in 4 mL DCM was added drop of isocyanatocyclohexane (0.44 mmol) under\n0 ◦C, then the mixture was raised to room temperature and stirred overnight. After the\nreaction completed, the mixture was extracted with water and DCM (5 mL × 3). The com-\nbined organic phase was dried with anhydrous Na2SO4 and concentrated under reduced\npressure. The mixture was recrystallized with petroleum ether (PE) and ethyl acetate (EA)\nto obtain compound (11f). Yield 65%. A red solid, m. p. 200.7–203.0 ◦C; 1H NMR (600 MHz,\nDMSO-d6) δ 8.24 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.83 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine),\n7.27 (d, J = 7.8 Hz, 1H, NHCO), 6.89 (d, J = 9.0 Hz, 1H, H5-pyridine), 4.89–4.85 (m, 1H,\nH5-oxazolidone), 4.28–4.16 (m, 2H, OCH2), 4.11–4.08 (m, 1H, H4-oxazolidone), 3.86–3.72\n(m, 1H, H4-oxazolidone), 3.71–3.69 (m, 4H, morpholine), 3.40–3.39 (m, 4H, morpholine),\n1.75–1.59 (m, 4H, cyclohexane), 1.55–1.49 (m, 2H, cyclohexane), 1.29–1.20 (m, 3H, cyclohex-\nane), 1.18–1.06 (m, 1H, cyclohexane), 1.04–0.96 (m, 1H, cyclohexane); 13C NMR (150 MHz,\nDMSO-d6) δ 159.3, 157.4, 154.6, 146.4, 135.2, 114.8, 106.7, 79.7, 65.8, 47.6, 44.8, 42.4, 36.9, 33.2,\n25.3, 24.4; ES-MS: m/z calcd. for C20H28N4O5 [M + H]+: 405.2; found: 405.174.\n(R)-(3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl)methyl (4-chlorophenyl)carbamate (11g).\nA red solid; yield 58%; m. p. 185.0–187.9 ◦C; 1H NMR (600 MHz, DMSO-d6) δ\n8.90 (s, 1H, NHCO), 8.25 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.84 (dd, J = 9.0, 3.0 Hz, 1H,\nH4-pyridine), 7.50–7.46 (m, 2H, benzene), 7.35–7.31 (m, 2H, benzene), 6.89 (d, J = 9.0 Hz,\n1H, H5-pyridine), 4.99–4.96 (m, 1H, H5-oxazolidone), 4.12–4.35 (m, 2H, OCH2), 4.15–4.12\n(m, 1H, H4-oxazolidone), 3.85–3.82 (m, 1H, H4-oxazolidone), 3.71–3.69 (m, 4H, morpholine),\n3.43–3.38 (m, 4H, morpholine); 13C NMR (150 MHz, DMSO-d6) δ 156.7, 154.9, 153.5, 152.8,\n139.1, 129.9, 129.1, 126.8, 126.0, 120.3, 107.5, 71.5, 66.4, 65.1, 46.8, 46.0; ES-MS: m/z calcd. for\nC20H21ClN4O5 [M + H]+: 433.1; found: 433.098.\n(R)-(3-(6-morpholinpyridin-3-yl)-2-oxooxazolidin-5-yl)methyl methanesulfonate (11h).\nA yellow solid; yield 75%; m. p. 184.2—185.9 ◦C; 1H NMR (600 MHz, DMSO-d6),\nδ: 8.23 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.82 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 6.90\n(d, J = 9.0 Hz, 1H, H5-pyridine), 5.02–4.96 (m, 1H, H5-oxazolidone), 4.53–4.44 (m, 2H,\nOCH2), 4.17–4.12 (m, 1H, H4-oxazolidone), 3.80–3.76 (m, 1H, H4-oxazolidone), 3.71– 3.68\n(m, 4H, morpholine), 3.41– 3.39 (m, 4H, morpholine), 3.26 (s, 3H, CH3); 13C NMR (150 MHz,\nDMSO-d6) δ 156.8, 154.7, 139.2, 130.1, 126.6, 107.5, 70.8, 70.3, 66.4, 46.6, 45.9, 37.3; ES-MS:\nm/z calcd. for C14H19N3O6S [M + H]+: 358.1; found: 358.096.\n(R)-(3-(6-morpholinpyridin-3-yl)-2-oxooxazolidin-5-yl)methyl benzenesulfonate (11i).\nRed oil; yield 55%; 1H NMR (600 MHz, DMSO-d6) δ 8.13 (d, J = 3.0 Hz, 1H, H2-pyridine),\n7.94 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 7.85–7.80 (m, 1H, benzene), 7.63–7.59 (m, 2H,\nbenzene), 7.36–7.26 (m, 2H, benzene), 7.16 (d, J = 9.0 Hz, 1H, H5-pyridine), 5.00–4.95 (m,\n1H, H5-oxazolidone), 4.41–4.33 (m, 1H, OCH2), 4.19–4.11 (m, 1H, OCH2), 3.83–3.79 (m, 2H,\nH4-oxazolidone), 3.74–3.72 (m, 4H, morpholine), 3.51–3.48 (m, 4H, morpholine); 13C NMR\n(150 MHz, DMSO-d6) δ 159.9, 154.9, 146.9, 141.0, 135.7, 132.9, 129.7, 126.9, 115.1, 107.2, 79.1,\n66.3, 46.1 45.2, 37.6; ES-MS: m/z calcd. for C19H21N3O6S [M + H]+: 420.2; found: 420.111.\n(R)-(3-(6-(4-(cyclohexanecarbonyl)piperazin-1-yl)pyridin-3-yl)-2-oxooxazolidin-5-yl)methyl\nmethanesulfonate (12a).\nA white solid; yield 73%; m. p. 111.3–112.5 ◦C; 1H NMR (600 MHz, DMSO-d6) δ\n8.23 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.84 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 6.94\n",
+      "blocks": [
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n8 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "J = 7.8, 4.8 Hz, 1H, pyridine), 6.90 (d, J = 9.0 Hz, 1H, H5-pyridine (B ring)), 5.13–5.06 (m, 1H,\nH5-oxazolidone), 4.66–4.53 (m, 2H, OCH2), 4.23–4.22 (m, 1H, H4-oxazolidone), 4.01–3.99\n(m, 1H, H4-oxazolidone), 3.72–3.68 (m, 4H, morpholine), 3.42–3.38 (m, 4H, morpholine);\n13C NMR (150 MHz, DMSO-d6) δ 165.3, 159.4, 154.5, 151.9, 148.4, 146.5, 135.2, 135.0, 129.7,\n123.4, 114.7, 106.7, 78.5, 65.9, 44.8, 42.6, 37.5; ES-MS: m/z calcd. for C19H20N4O5 [M + H]+:\n385.1; found: 385.133.\nRaw data for the above products are presented in Supplementary Materials (Figures S1–S16).",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 97.50193786621094,
+            "x1": 561.011474609375,
+            "y1": 182.95509338378906
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "3.2.2. General Procedure for the Preparation of Compounds (11f–i and 12a–h)",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 195.31422424316406,
+            "x1": 507.6805419921875,
+            "y1": 205.37110900878906
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Take compound (R)-(3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl) methyl cy-\nclohexylcarbamate (11f) as an example. To a solution of compound 9 (0.29 mmol), TEA\n(0.58 mmol) in 4 mL DCM was added drop of isocyanatocyclohexane (0.44 mmol) under\n0 ◦C, then the mixture was raised to room temperature and stirred overnight. After the\nreaction completed, the mixture was extracted with water and DCM (5 mL × 3). The com-\nbined organic phase was dried with anhydrous Na2SO4 and concentrated under reduced\npressure. The mixture was recrystallized with petroleum ether (PE) and ethyl acetate (EA)\nto obtain compound (11f). Yield 65%. A red solid, m. p. 200.7–203.0 ◦C; 1H NMR (600 MHz,\nDMSO-d6) δ 8.24 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.83 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine),\n7.27 (d, J = 7.8 Hz, 1H, NHCO), 6.89 (d, J = 9.0 Hz, 1H, H5-pyridine), 4.89–4.85 (m, 1H,\nH5-oxazolidone), 4.28–4.16 (m, 2H, OCH2), 4.11–4.08 (m, 1H, H4-oxazolidone), 3.86–3.72\n(m, 1H, H4-oxazolidone), 3.71–3.69 (m, 4H, morpholine), 3.40–3.39 (m, 4H, morpholine),\n1.75–1.59 (m, 4H, cyclohexane), 1.55–1.49 (m, 2H, cyclohexane), 1.29–1.20 (m, 3H, cyclohex-\nane), 1.18–1.06 (m, 1H, cyclohexane), 1.04–0.96 (m, 1H, cyclohexane); 13C NMR (150 MHz,\nDMSO-d6) δ 159.3, 157.4, 154.6, 146.4, 135.2, 114.8, 106.7, 79.7, 65.8, 47.6, 44.8, 42.4, 36.9, 33.2,\n25.3, 24.4; ES-MS: m/z calcd. for C20H28N4O5 [M + H]+: 405.2; found: 405.174.\n(R)-(3-(6-morpholinopyridin-3-yl)-2-oxooxazolidin-5-yl)methyl (4-chlorophenyl)carbamate (11g).\nA red solid; yield 58%; m. p. 185.0–187.9 ◦C; 1H NMR (600 MHz, DMSO-d6) δ\n8.90 (s, 1H, NHCO), 8.25 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.84 (dd, J = 9.0, 3.0 Hz, 1H,\nH4-pyridine), 7.50–7.46 (m, 2H, benzene), 7.35–7.31 (m, 2H, benzene), 6.89 (d, J = 9.0 Hz,\n1H, H5-pyridine), 4.99–4.96 (m, 1H, H5-oxazolidone), 4.12–4.35 (m, 2H, OCH2), 4.15–4.12\n(m, 1H, H4-oxazolidone), 3.85–3.82 (m, 1H, H4-oxazolidone), 3.71–3.69 (m, 4H, morpholine),\n3.43–3.38 (m, 4H, morpholine); 13C NMR (150 MHz, DMSO-d6) δ 156.7, 154.9, 153.5, 152.8,\n139.1, 129.9, 129.1, 126.8, 126.0, 120.3, 107.5, 71.5, 66.4, 65.1, 46.8, 46.0; ES-MS: m/z calcd. for\nC20H21ClN4O5 [M + H]+: 433.1; found: 433.098.\n(R)-(3-(6-morpholinpyridin-3-yl)-2-oxooxazolidin-5-yl)methyl methanesulfonate (11h).\nA yellow solid; yield 75%; m. p. 184.2—185.9 ◦C; 1H NMR (600 MHz, DMSO-d6),\nδ: 8.23 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.82 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 6.90\n(d, J = 9.0 Hz, 1H, H5-pyridine), 5.02–4.96 (m, 1H, H5-oxazolidone), 4.53–4.44 (m, 2H,\nOCH2), 4.17–4.12 (m, 1H, H4-oxazolidone), 3.80–3.76 (m, 1H, H4-oxazolidone), 3.71– 3.68\n(m, 4H, morpholine), 3.41– 3.39 (m, 4H, morpholine), 3.26 (s, 3H, CH3); 13C NMR (150 MHz,\nDMSO-d6) δ 156.8, 154.7, 139.2, 130.1, 126.6, 107.5, 70.8, 70.3, 66.4, 46.6, 45.9, 37.3; ES-MS:\nm/z calcd. for C14H19N3O6S [M + H]+: 358.1; found: 358.096.\n(R)-(3-(6-morpholinpyridin-3-yl)-2-oxooxazolidin-5-yl)methyl benzenesulfonate (11i).\nRed oil; yield 55%; 1H NMR (600 MHz, DMSO-d6) δ 8.13 (d, J = 3.0 Hz, 1H, H2-pyridine),\n7.94 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 7.85–7.80 (m, 1H, benzene), 7.63–7.59 (m, 2H,\nbenzene), 7.36–7.26 (m, 2H, benzene), 7.16 (d, J = 9.0 Hz, 1H, H5-pyridine), 5.00–4.95 (m,\n1H, H5-oxazolidone), 4.41–4.33 (m, 1H, OCH2), 4.19–4.11 (m, 1H, OCH2), 3.83–3.79 (m, 2H,\nH4-oxazolidone), 3.74–3.72 (m, 4H, morpholine), 3.51–3.48 (m, 4H, morpholine); 13C NMR\n(150 MHz, DMSO-d6) δ 159.9, 154.9, 146.9, 141.0, 135.7, 132.9, 129.7, 126.9, 115.1, 107.2, 79.1,\n66.3, 46.1 45.2, 37.6; ES-MS: m/z calcd. for C19H21N3O6S [M + H]+: 420.2; found: 420.111.\n(R)-(3-(6-(4-(cyclohexanecarbonyl)piperazin-1-yl)pyridin-3-yl)-2-oxooxazolidin-5-yl)methyl\nmethanesulfonate (12a).\nA white solid; yield 73%; m. p. 111.3–112.5 ◦C; 1H NMR (600 MHz, DMSO-d6) δ\n8.23 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.84 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 6.94",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 210.73414611816406,
+            "x1": 563.1138305664062,
+            "y1": 774.3875122070312
+          }
+        }
+      ],
+      "render_path": "assets/page-0008.png"
+    },
+    {
+      "number": 9,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n9 of 14\n(d, J = 9.0 Hz, 1H, H5-pyridine), 5.02–4.98 (m, 1H, H5-oxazolidone), 4.54–4.44 (m, 2H,\nOCH2), 4.15–4.13 (m, 1H, H4-oxazolidone), 3.82–3.73 (m, 1H, H4-oxazolidone), 3.61–3.59\n(m, 4H, piperazine), 3.50–3.48 (m, 4H, piperazine), 3.26 (s, 3H, CH3), 1.77–1.65 (m, 11H,\ncyclohexane); 13C NMR (150 MHz, DMSO-d6) δ 174.1, 154.7, 139.2, 130.3, 128.9, 126.5, 107.9,\n70.8, 70.3, 46.6, 46.0, 45.4, 44.8, 37.3, 29.6, 26.1, 25.6; ES-MS: m/z calcd. for C21H30N4O6S\n[M + H]+: 467.5; found: 467.183.\n(R)-(2-oxo-3-(6-(4-(4-(trifluoromethyl)benzoyl)piperazin-1-yl)pyridin-3-yl)oxazolidin-5-yl)methyl\nmethanesulfonate (12b).\nA white solid; yield 72%; m. p. 164.2–165.3 ◦C; 1H NMR (600 MHz, DMSO-d6) δ\n8.24 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.87–7.82 (m, 3H, H4-pyridine and benzene), 7.68\n(d, J = 7.8 Hz, 2H, benzene), 6.94 (d, J = 9.0 Hz, 1H, H5-pyridine), 5.02–4.98 (m, 1H,\nH5-oxazolidone), 4.54–4.44 (m, 2H, OCH2), 4.17–4.13 (m, 1H, H4-oxazolidone), 3.80–3.60\n(m, 5H, H4-oxazolidone and piperazine), 3.49–3.36 (m, 4H, piperazine), 3.26 (s, 3H, CH3);\n13C NMR (150 MHz, DMSO-d6) δ 168.3, 166.4, 156.3 (d, J = 231.1 Hz), 154.8, 140.5, 139.3,\n130.2, 128.3, 126.6, 126.0, 107.8, 70.8, 70.3, 46.6, 41.7, 40.5, 37.3.; ES-MS: m/z calcd. for\nC22H23F3N4O6S [M + H]+: 529.5; found: 529.104.\n(R)-(2-oxo-3-(6-(4-(3-phenylpropanoyl)piperazin-1-yl)pyridin-3-yl)oxazolidin-5-yl)methyl\nmethanesulfonate (12c).\nA yellow solid; yield 74%; m. p. 133.0–135.0 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 8.22\n(d, J = 3.0 Hz, 1H, H2-pyridine), 7.82 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 7.31–7.24 (m, 5H,\nbenzene), 6.91 (d, J = 9.0 Hz, 1H, H5-pyridine), 5.014.97 (m, 1H, H5-oxazolidone), 4.54–4.44\n(m, 2H, OCH2), 4.16–4.13 (m, 1H, H4-oxazolidone), 3.79–3.77 (m, 1H, H4-oxazolidone),\n3.58–3.51 (m, 4H, piperazine), 3.43–3.40 (m, 4H, piperazine), 3.26 (s, 3H, CH3), 2.86–2.76\n(m, 2H, CH2), 2.70–2.62 (m, 2H, CH2).; 13C NMR (150 MHz, DMSO-d6) δ 170.6, 156.3, 154.7,\n141.9, 139.4, 130.2, 128.9, 128.7, 126.4, 126.3, 107.7, 70.8, 46.6, 45.6, 44.9, 41.1, 37.3, 34.5, 31.2;\nES-MS: m/z calcd. for C23H28N4O6S [M + H]+: 489.56; found: 489.163.\n(R,E)-(2-oxo-3-(6-(4-(3-(pyridin-3-yl)acryloyl)piperazin-1-yl)pyridin-3-yl)oxazolidin-5-yl)methyl\nmethanesulfonate (12d).\nA yellow solid; yield 75%; m. p. 104.5–106.7 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 8.91\n(d, J = 2.4 Hz, 1H, pyridine), 8.56 (dd, J = 4.8, 1.8 Hz, 1H, pyridine), 8.25 (d, J = 3.0 Hz, 1H,\nH2-pyridine (B ring)), 8.23–8.20 (m, 1H, pyridine), 7.88–7.83 (m, 1H, H4-pyridine (B ring)),\n7.58–7.46 (m, 3H, pyridine and alkene), 6.98–6.95 (m, 1H, H5-pyridine (B ring)), 5.02–4.79\n(m, 1H, H5-oxazolidone), 4.54–4.46 (m, 1H, OCH2), 4.19–4.05 (m, 1H, OCH2), 3.88–3.66 (m,\n6H, H4-oxazolidone and piperazine), 3.56–3.51 (m, 4H, piperazine), 3.27 (s, 3H, CH3). 13C\nNMR (150 MHz, DMSO-d6) δ 164.7, 156.1, 155.1, 150.6, 150.0, 138.8, 135.1, 131.4, 130.2, 130.0,\n126.9, 124.3, 120.8, 107.8, 73.0, 72.2, 70.8, 59.2, 46.9, 37.3; ES-MS: m/z calcd. for C22H25N5O6S\n[M + H]+: 488.5; found: 489.181.\n(R)-(3-(6-(4-(cyclohexylcarbamoyl)piperazin-1-yl)pyridin-3-yl)-2-oxooxazolidin-5-yl)methyl\nmethanesulfonate (12e).\nA white solid; yield 61%; m. p. 195.0–197.6 ◦C; 1H NMR (600 MHz, DMSO-d6) δ\n8.22 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.82 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 6.93\n(d, J = 9.0 Hz, 1H, H5-pyridine), 6.25 (d, J = 7.8 Hz, 1H, NHCON), 5.02–4.97 (m, 1H,\nH5-oxazolidone), 4.54–4.43 (m, 2H, OCH2), 4.18–4.13 (m, 1H, H4-oxazolidone), 3.80–3.77\n(m, 1H, H4-oxazolidone), 3.46–3.37 (m, 8H, piperazine), 3.27 (s, 3H, CH3), 1.78–1.73 (m, 2H,\ncyclohexane), 1.71–1.67 (m, 2H, cyclohexane), 1.60–1.55 (m, 1H, cyclohexane), 1.29–1.13 (m,\n5H, cyclohexane), 1.12–1.03 (m, 1H, cyclohexane); 13C NMR (150 MHz, DMSO-d6) δ 157.3,\n156.6, 154.7, 139.4, 130.1, 126.3, 107.7, 70.8, 70.3, 49.6, 46.6, 45.4, 43.5, 37.3, 33.6, 25.9, 25.6;\nES-MS: m/z calcd. for C21H31N5O6S [M + H]+: 482.2; found: 482.203.\n(R)-((3-(6-(4-(4-chlorophenyl)carbamoyl)piperazin-1-yl)pyridin-3-yl)-2-oxooxazolidin-5-yl)methyl\nmethanesulfonate (12f).\nA white solid; yield 53%; m. p. 210.5—212.9 ◦C; 1H NMR (600 MHz, DMSO-d6) δ\n8.73 (s, 1H, NHCON), 8.24 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.84 (dd, J = 9.0, 3.0 Hz, 1H,\nH4-pyridine), 7.55–7.50 (m, 2H, benzene), 7.31–7.27 (m, 2H, benzene), 6.97 (d, J = 9.0 Hz,\n1H, H5-pyridine), 5.03–4.98 (m, 1H, H5-oxazolidone), 4.53–4.46 (m, 2H, OCH2), 4.17–4.14\n",
+      "blocks": [
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n9 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "(d, J = 9.0 Hz, 1H, H5-pyridine), 5.02–4.98 (m, 1H, H5-oxazolidone), 4.54–4.44 (m, 2H,\nOCH2), 4.15–4.13 (m, 1H, H4-oxazolidone), 3.82–3.73 (m, 1H, H4-oxazolidone), 3.61–3.59\n(m, 4H, piperazine), 3.50–3.48 (m, 4H, piperazine), 3.26 (s, 3H, CH3), 1.77–1.65 (m, 11H,\ncyclohexane); 13C NMR (150 MHz, DMSO-d6) δ 174.1, 154.7, 139.2, 130.3, 128.9, 126.5, 107.9,\n70.8, 70.3, 46.6, 46.0, 45.4, 44.8, 37.3, 29.6, 26.1, 25.6; ES-MS: m/z calcd. for C21H30N4O6S\n[M + H]+: 467.5; found: 467.183.\n(R)-(2-oxo-3-(6-(4-(4-(trifluoromethyl)benzoyl)piperazin-1-yl)pyridin-3-yl)oxazolidin-5-yl)methyl\nmethanesulfonate (12b).\nA white solid; yield 72%; m. p. 164.2–165.3 ◦C; 1H NMR (600 MHz, DMSO-d6) δ\n8.24 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.87–7.82 (m, 3H, H4-pyridine and benzene), 7.68\n(d, J = 7.8 Hz, 2H, benzene), 6.94 (d, J = 9.0 Hz, 1H, H5-pyridine), 5.02–4.98 (m, 1H,\nH5-oxazolidone), 4.54–4.44 (m, 2H, OCH2), 4.17–4.13 (m, 1H, H4-oxazolidone), 3.80–3.60\n(m, 5H, H4-oxazolidone and piperazine), 3.49–3.36 (m, 4H, piperazine), 3.26 (s, 3H, CH3);\n13C NMR (150 MHz, DMSO-d6) δ 168.3, 166.4, 156.3 (d, J = 231.1 Hz), 154.8, 140.5, 139.3,\n130.2, 128.3, 126.6, 126.0, 107.8, 70.8, 70.3, 46.6, 41.7, 40.5, 37.3.; ES-MS: m/z calcd. for\nC22H23F3N4O6S [M + H]+: 529.5; found: 529.104.\n(R)-(2-oxo-3-(6-(4-(3-phenylpropanoyl)piperazin-1-yl)pyridin-3-yl)oxazolidin-5-yl)methyl\nmethanesulfonate (12c).\nA yellow solid; yield 74%; m. p. 133.0–135.0 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 8.22\n(d, J = 3.0 Hz, 1H, H2-pyridine), 7.82 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 7.31–7.24 (m, 5H,\nbenzene), 6.91 (d, J = 9.0 Hz, 1H, H5-pyridine), 5.014.97 (m, 1H, H5-oxazolidone), 4.54–4.44\n(m, 2H, OCH2), 4.16–4.13 (m, 1H, H4-oxazolidone), 3.79–3.77 (m, 1H, H4-oxazolidone),\n3.58–3.51 (m, 4H, piperazine), 3.43–3.40 (m, 4H, piperazine), 3.26 (s, 3H, CH3), 2.86–2.76\n(m, 2H, CH2), 2.70–2.62 (m, 2H, CH2).; 13C NMR (150 MHz, DMSO-d6) δ 170.6, 156.3, 154.7,\n141.9, 139.4, 130.2, 128.9, 128.7, 126.4, 126.3, 107.7, 70.8, 46.6, 45.6, 44.9, 41.1, 37.3, 34.5, 31.2;\nES-MS: m/z calcd. for C23H28N4O6S [M + H]+: 489.56; found: 489.163.\n(R,E)-(2-oxo-3-(6-(4-(3-(pyridin-3-yl)acryloyl)piperazin-1-yl)pyridin-3-yl)oxazolidin-5-yl)methyl\nmethanesulfonate (12d).\nA yellow solid; yield 75%; m. p. 104.5–106.7 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 8.91\n(d, J = 2.4 Hz, 1H, pyridine), 8.56 (dd, J = 4.8, 1.8 Hz, 1H, pyridine), 8.25 (d, J = 3.0 Hz, 1H,\nH2-pyridine (B ring)), 8.23–8.20 (m, 1H, pyridine), 7.88–7.83 (m, 1H, H4-pyridine (B ring)),\n7.58–7.46 (m, 3H, pyridine and alkene), 6.98–6.95 (m, 1H, H5-pyridine (B ring)), 5.02–4.79\n(m, 1H, H5-oxazolidone), 4.54–4.46 (m, 1H, OCH2), 4.19–4.05 (m, 1H, OCH2), 3.88–3.66 (m,\n6H, H4-oxazolidone and piperazine), 3.56–3.51 (m, 4H, piperazine), 3.27 (s, 3H, CH3). 13C\nNMR (150 MHz, DMSO-d6) δ 164.7, 156.1, 155.1, 150.6, 150.0, 138.8, 135.1, 131.4, 130.2, 130.0,\n126.9, 124.3, 120.8, 107.8, 73.0, 72.2, 70.8, 59.2, 46.9, 37.3; ES-MS: m/z calcd. for C22H25N5O6S\n[M + H]+: 488.5; found: 489.181.\n(R)-(3-(6-(4-(cyclohexylcarbamoyl)piperazin-1-yl)pyridin-3-yl)-2-oxooxazolidin-5-yl)methyl\nmethanesulfonate (12e).\nA white solid; yield 61%; m. p. 195.0–197.6 ◦C; 1H NMR (600 MHz, DMSO-d6) δ\n8.22 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.82 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 6.93\n(d, J = 9.0 Hz, 1H, H5-pyridine), 6.25 (d, J = 7.8 Hz, 1H, NHCON), 5.02–4.97 (m, 1H,\nH5-oxazolidone), 4.54–4.43 (m, 2H, OCH2), 4.18–4.13 (m, 1H, H4-oxazolidone), 3.80–3.77\n(m, 1H, H4-oxazolidone), 3.46–3.37 (m, 8H, piperazine), 3.27 (s, 3H, CH3), 1.78–1.73 (m, 2H,\ncyclohexane), 1.71–1.67 (m, 2H, cyclohexane), 1.60–1.55 (m, 1H, cyclohexane), 1.29–1.13 (m,\n5H, cyclohexane), 1.12–1.03 (m, 1H, cyclohexane); 13C NMR (150 MHz, DMSO-d6) δ 157.3,\n156.6, 154.7, 139.4, 130.1, 126.3, 107.7, 70.8, 70.3, 49.6, 46.6, 45.4, 43.5, 37.3, 33.6, 25.9, 25.6;\nES-MS: m/z calcd. for C21H31N5O6S [M + H]+: 482.2; found: 482.203.\n(R)-((3-(6-(4-(4-chlorophenyl)carbamoyl)piperazin-1-yl)pyridin-3-yl)-2-oxooxazolidin-5-yl)methyl\nmethanesulfonate (12f).\nA white solid; yield 53%; m. p. 210.5—212.9 ◦C; 1H NMR (600 MHz, DMSO-d6) δ\n8.73 (s, 1H, NHCON), 8.24 (d, J = 3.0 Hz, 1H, H2-pyridine), 7.84 (dd, J = 9.0, 3.0 Hz, 1H,\nH4-pyridine), 7.55–7.50 (m, 2H, benzene), 7.31–7.27 (m, 2H, benzene), 6.97 (d, J = 9.0 Hz,\n1H, H5-pyridine), 5.03–4.98 (m, 1H, H5-oxazolidone), 4.53–4.46 (m, 2H, OCH2), 4.17–4.14",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 97.4291000366211,
+            "x1": 560.5257568359375,
+            "y1": 774.0885009765625
+          }
+        }
+      ],
+      "render_path": "assets/page-0009.png"
+    },
+    {
+      "number": 10,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n10 of 14\n(m, 1H, H4-oxazolidone), 3.81–3.78 (m, 1H, H4-oxazolidone), 3.58–3.56 (m, 4H, piperazine),\n3.53–3.51 (m, 4H, piperazine), 3.27 (s, 3H, CH3); 13C NMR (150 MHz, DMSO-d6) δ 156.5,\n155.3, 154.7, 140.0, 139.4, 130.2, 128.7, 126.4, 125.8, 121.5, 107.8, 70.8, 70.3, 46.6, 45.4, 43.8,\n37.3; ES-MS: m/z calcd. for C21H24ClN5O6S [M + H]+:510.1; found: 510.122.\n(R)-(3-(6-(4-((4-fluorophenyl)sulfonyl)piperazin-1-yl)pyridin-3-yl)-2-oxooxazolidin-5-yl)methyl\nmethanesulfonate (12g).\nA white solid; yield 58%; m. p. 215.7—218.3 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 8.19\n(d, J = 3.0 Hz, 1H, H2-pyridine), 7.87–7.82 (m, 2H, benzene), 7.81 (dd, J = 9.0, 3.0 Hz, 1H,\nH4-pyridine), 7.53–7.46 (m, 2H, benzene), 6.90 (d, J = 9.0 Hz, 1H, H5-pyridine), 5.00–4.96\n(m, 1H, H5-oxazolidone), 4.52–4.42 (m, 2H, OCH2), 4.14–4.11 (m, 1H, H4-oxazolidone),\n3.77–3.75 (m, 1H, H4-oxazolidone), 3.60–3.55 (m, 4H, piperazine), 3.26 (s, 3H, CH3), 3.00–2.98\n(m, 4H, piperazine); 13C NMR (150 MHz, DMSO-d6) δ 165.2 (d, J = 252.2 Hz), 155.7, 154.7,\n138.9, 131.2, 130.2, 126.8, 117.3, 108.1, 70.8, 70.3, 46.5, 45.9, 44.9, 37.3; ES-MS: m/z calcd. for\nC20H23FN4O7S2 [M + H]+: 515.1; found: 515.107.\n(R)-(3-(6-(4-((2,4-difluorophenyl)sulfonyl)piperazin-1-yl)pyridin-3-yl)-2-oxooxazolidin-5-yl)methyl\nmethanesulfonate (12h).\nA white solid; yield 71%; m. p. 214.6—215.6 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 8.20\n(d, J = 3.0 Hz, 1H, H2-pyridine), 7.82 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 7.72–7.67 (m,\n1H, benzene), 7.11 (dd, J = 12.6, 2.4 Hz, 1H, benzene), 6.98 (dd, J = 9.0, 2.4 Hz, 1H, benzene),\n6.91 (d, J = 9.0 Hz, 1H, H5-pyridine), 5.01–4.96 (m, 1H, H5-oxazolidone), 4.52–4.41 (m, 2H,\nOCH2), 4.15–4.11 (m, 1H, H4-oxazolidone), 3.82–3.68 (m, 1H, H4-oxazolidone), 3.58–3.56\n(m, 4H, piperazine), 3.26 (s, 3H, CH3), 3.10–3.07 (m, 4H, piperazine). 13C NMR (150 MHz,\nDMSO-d6) δ 165.3, 160.2 (d, JC-F = 253.1 Hz), 155.9, 154.7 (d, J = 176.7 Hz), 139.1, 132.8,\n130.1, 126.7, 115.4, 111.5, 108.1, 103.8, 70.8, 70.3, 56.8, 46.5, 45.6, 45.1; ES-MS: m/z calcd. for\nC20H22F2N4O7S2 [M + H]+: 533.5; found: 533.206.\nRaw data for the above products are presented in Supplementary Materials (Figure S17-S52).\n3.3. Antibacterial Activity Assay\n3.3.1. Minimum Inhibitory Concentration (MIC) Study\nAccording to the standard procedure recommended by the Clinical Laboratory Stan-\ndards Institute (CLSI) [37], the minimum inhibitory concentration (MIC) in vitro of all\nsynthesized compounds for Gram-positive strains was evaluated on 96-well microplates\nby the broth microdilution technique to screen for antibacterial activities. In Mueller–\nHinton (MH) sterile medium, a series of compound solutions was prepared by double-fold\ndilution method from 0.5 to 256 µg/mL. After that, 100 µL diluted standard inoculum\n(1 × 106 CFU/mL) was added into the gradient solution. The 96-well plates were cultured\nat 37 ◦C for 16–18 h, and the MIC of each well was considered to be the lowest concentration\nthat could signiﬁcantly inhibit the growth of bacteria. The untreated inoculum was used as\na negative control and linezolid was used as a positive control [38].\n3.3.2. Bacterial Inhibitory Zone Test\nThe bacterial inhibitory zone of 12e against S. aureus (ATCC 25923) was determined\nby pore diffusion method [39]. A total of 100 µL of fresh culture was dispersed on sterile\npetri dishes containing nutrient AGAR media. The holes were made in the petri plates\nusing 100 µL micro pipette tips and injected with varied concentrations of 12e (160, 320,\n640, and 1600 µg/mL) and 40 µg/mL of control (linezolid), following which the petri plates\nwere kept overnight at 37 ◦C. After incubation, a band was formed around the holes by\ninhibiting biological growth.\n3.3.3. Growth Kinetic Study\nBased on the previous result of antibacterial activity, compound 12e was selected\nfor further research. According to the literature [36], the growth kinetics of Bacillus sub-\ntilis (BNCC 109047) was determined after treatment with compound 12e and linezolid.\nThe log-phase strain was diluted to 106–107 CFU/mL in LB broth containing compound\n",
+      "blocks": [
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n10 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "(m, 1H, H4-oxazolidone), 3.81–3.78 (m, 1H, H4-oxazolidone), 3.58–3.56 (m, 4H, piperazine),\n3.53–3.51 (m, 4H, piperazine), 3.27 (s, 3H, CH3); 13C NMR (150 MHz, DMSO-d6) δ 156.5,\n155.3, 154.7, 140.0, 139.4, 130.2, 128.7, 126.4, 125.8, 121.5, 107.8, 70.8, 70.3, 46.6, 45.4, 43.8,\n37.3; ES-MS: m/z calcd. for C21H24ClN5O6S [M + H]+:510.1; found: 510.122.\n(R)-(3-(6-(4-((4-fluorophenyl)sulfonyl)piperazin-1-yl)pyridin-3-yl)-2-oxooxazolidin-5-yl)methyl\nmethanesulfonate (12g).\nA white solid; yield 58%; m. p. 215.7—218.3 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 8.19\n(d, J = 3.0 Hz, 1H, H2-pyridine), 7.87–7.82 (m, 2H, benzene), 7.81 (dd, J = 9.0, 3.0 Hz, 1H,\nH4-pyridine), 7.53–7.46 (m, 2H, benzene), 6.90 (d, J = 9.0 Hz, 1H, H5-pyridine), 5.00–4.96\n(m, 1H, H5-oxazolidone), 4.52–4.42 (m, 2H, OCH2), 4.14–4.11 (m, 1H, H4-oxazolidone),\n3.77–3.75 (m, 1H, H4-oxazolidone), 3.60–3.55 (m, 4H, piperazine), 3.26 (s, 3H, CH3), 3.00–2.98\n(m, 4H, piperazine); 13C NMR (150 MHz, DMSO-d6) δ 165.2 (d, J = 252.2 Hz), 155.7, 154.7,\n138.9, 131.2, 130.2, 126.8, 117.3, 108.1, 70.8, 70.3, 46.5, 45.9, 44.9, 37.3; ES-MS: m/z calcd. for\nC20H23FN4O7S2 [M + H]+: 515.1; found: 515.107.\n(R)-(3-(6-(4-((2,4-difluorophenyl)sulfonyl)piperazin-1-yl)pyridin-3-yl)-2-oxooxazolidin-5-yl)methyl\nmethanesulfonate (12h).\nA white solid; yield 71%; m. p. 214.6—215.6 ◦C; 1H NMR (600 MHz, DMSO-d6) δ 8.20\n(d, J = 3.0 Hz, 1H, H2-pyridine), 7.82 (dd, J = 9.0, 3.0 Hz, 1H, H4-pyridine), 7.72–7.67 (m,\n1H, benzene), 7.11 (dd, J = 12.6, 2.4 Hz, 1H, benzene), 6.98 (dd, J = 9.0, 2.4 Hz, 1H, benzene),\n6.91 (d, J = 9.0 Hz, 1H, H5-pyridine), 5.01–4.96 (m, 1H, H5-oxazolidone), 4.52–4.41 (m, 2H,\nOCH2), 4.15–4.11 (m, 1H, H4-oxazolidone), 3.82–3.68 (m, 1H, H4-oxazolidone), 3.58–3.56\n(m, 4H, piperazine), 3.26 (s, 3H, CH3), 3.10–3.07 (m, 4H, piperazine). 13C NMR (150 MHz,\nDMSO-d6) δ 165.3, 160.2 (d, JC-F = 253.1 Hz), 155.9, 154.7 (d, J = 176.7 Hz), 139.1, 132.8,\n130.1, 126.7, 115.4, 111.5, 108.1, 103.8, 70.8, 70.3, 56.8, 46.5, 45.6, 45.1; ES-MS: m/z calcd. for\nC20H22F2N4O7S2 [M + H]+: 533.5; found: 533.206.\nRaw data for the above products are presented in Supplementary Materials (Figure S17-S52).",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 97.72471618652344,
+            "x1": 561.3966064453125,
+            "y1": 421.46112060546875
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "3.3. Antibacterial Activity Assay\n3.3.1. Minimum Inhibitory Concentration (MIC) Study",
+          "bbox": {
+            "x0": 166.39398193359375,
+            "y0": 433.741943359375,
+            "x1": 406.3432312011719,
+            "y1": 457.3271179199219
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "According to the standard procedure recommended by the Clinical Laboratory Stan-\ndards Institute (CLSI) [37], the minimum inhibitory concentration (MIC) in vitro of all\nsynthesized compounds for Gram-positive strains was evaluated on 96-well microplates\nby the broth microdilution technique to screen for antibacterial activities. In Mueller–\nHinton (MH) sterile medium, a series of compound solutions was prepared by double-fold\ndilution method from 0.5 to 256 µg/mL. After that, 100 µL diluted standard inoculum\n(1 × 106 CFU/mL) was added into the gradient solution. The 96-well plates were cultured\nat 37 ◦C for 16–18 h, and the MIC of each well was considered to be the lowest concentration\nthat could signiﬁcantly inhibit the growth of bacteria. The untreated inoculum was used as\na negative control and linezolid was used as a positive control [38].",
+          "bbox": {
+            "x0": 166.06500244140625,
+            "y0": 462.8886413574219,
+            "x1": 560.92578125,
+            "y1": 585.8450927734375
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "3.3.2. Bacterial Inhibitory Zone Test",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 598.2985229492188,
+            "x1": 322.10943603515625,
+            "y1": 608.2611083984375
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "The bacterial inhibitory zone of 12e against S. aureus (ATCC 25923) was determined\nby pore diffusion method [39]. A total of 100 µL of fresh culture was dispersed on sterile\npetri dishes containing nutrient AGAR media. The holes were made in the petri plates\nusing 100 µL micro pipette tips and injected with varied concentrations of 12e (160, 320,\n640, and 1600 µg/mL) and 40 µg/mL of control (linezolid), following which the petri plates\nwere kept overnight at 37 ◦C. After incubation, a band was formed around the holes by\ninhibiting biological growth.",
+          "bbox": {
+            "x0": 165.97500610351562,
+            "y0": 613.6168823242188,
+            "x1": 560.5213012695312,
+            "y1": 699.12109375
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "3.3.3. Growth Kinetic Study",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 711.5745239257812,
+            "x1": 288.4159240722656,
+            "y1": 721.537109375
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Based on the previous result of antibacterial activity, compound 12e was selected\nfor further research. According to the literature [36], the growth kinetics of Bacillus sub-\ntilis (BNCC 109047) was determined after treatment with compound 12e and linezolid.\nThe log-phase strain was diluted to 106–107 CFU/mL in LB broth containing compound",
+          "bbox": {
+            "x0": 166.0850067138672,
+            "y0": 727.0211791992188,
+            "x1": 561.0167846679688,
+            "y1": 774.7650756835938
+          }
+        }
+      ],
+      "render_path": "assets/page-0010.png"
+    },
+    {
+      "number": 11,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n11 of 14\n12e at a series of concentrations (0, 1/4, 1/2, 1 and 2 × MIC), then incubated at 37 ◦C and\n150 rpm. Linezolid at the concentration of 2 µg/mL was used as a positive control. At the\nbeginning, culture mixture (3 mL) was removed from each sample solution at intervals of\n1 h, and turbidity was measured by ultraviolet spectrophotometer at 600 nm. When the\nO.D. value became stable, the time interval was gradually increased and the time–kill curve\nwas drawn.\n3.4. Binding Mode Study\nMolecular docking assay was performed using the AutoDock 4.2.6® software. The X-ray\ncrystal 3D structure of the 50S ribosomal subunit (PDB ID: 3CPW) was obtained from the\nProtein Data Bank (PDB) database. The ligands and proteins were removed from the\nstructure and RNA chains were retained using PyMOL 1.5.0.3. The modiﬁed structure was\nprepared for further molecular docking. 2D structures of the ligands were built with the\naid of ChemDraw 19.0 and the 3D structures were established by Chem3D 19.0 software.\nThe docking results were analyzed and visualized with PyMOL 1.5.0.3.\n3.5. Anthelmintic Activity Assay\nDue to the high similarity between adult Indian earthworms (P. posthuma) and intesti-\nnal roundworms (A. bricoides) in terms of anatomical and physiological characteristics [40],\nanthelmintic activities of all compounds were evaluated [41,42].\nBefore use, the earthworms with an average length of 6–10 cm and width of 0.2–0.3 cm\nwere cleaned with normal saline solution [41], and the target compounds and positive\ncontrol drug (albendazole) were dissolved with the minimum amount of DMSO and diluted\nwith normal saline solution.\nThen, the tested solution with a massive concentration of 2 g/L was prepared and\nplaced in a Petri dish (d = 6 cm). After being divided into different groups with six (6)\nworms, they were transferred to Petri dishes with sterile forceps and the paralysis and\ndeath time were monitored and recorded with stopwatches for 1 h. Earthworms tested\nin standard saline (0.9% w/v) were taken as the control group. The paralysis time was\nconsidered as the time when the worm showed no obvious movement at rest or under\nmild vibration. In a similar way, death time was considered when there was no obvious\nmovement after severe shaking and exposure to 50 ◦C water [41,42]. The mean paralysis\nand death times were was used to reﬂect the anthelmintic effect of these compounds; the\nshorter time, the better the effect.\n4. Conclusions\nSeventeen novel 3-(3-pyridyl)-oxazolidone-5-methyl derivatives were designed and syn-\nthesized, and their structures were identified by 1H NMR, 13C NMR and MS. The primary\nscreening of antibacterial activity, which was tested on Staphylococcus aureus (ATCC25923),\nStreptococcus pneumoniae (ATCC49619), Bacillus subtilis (BNCC109047) and Staphylococcus\nepidermidis (BNCC186652), showed that most of the compounds had certain antibacterial\nactivity, among which compound 12a and 12e had the best antimicrobial activity. In a\nfurther bactericidal kinetic assay, 12e was mainly interfering in the logarithmic phase of\nbacteria in a concentration-dependent manner. Molecular docking between the 12e and\nthe 50S ribosomal subunit was studied to predict the mechanism of action. In addition,\nthe anthelmintic activity test demonstrated that the compound 11b had the most signiﬁ-\ncant anthelmintic effect. These results provide a preliminary basis for the development\nof novel pyridine heterocyclic compounds as antibacterial and anthelmintic agents. Fur-\nther structural optimization and biological activity conﬁrmation of the action model are\nin progress.\nSupplementary Materials: Figure S1: Structure and Numbering of 11a, Figure S2: 1H NMR Spectrum\nof 11a, Figure S3: 13C NMR Spectrum of 11a. Figure S4: ES-MS for compound 11a, Figure S5: 1H\nNMR Spectrum of 11b, Figure S6: 13C NMR Spectrum of 11b. Figure S7: ES-MS for compound\n",
+      "blocks": [
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n11 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "12e at a series of concentrations (0, 1/4, 1/2, 1 and 2 × MIC), then incubated at 37 ◦C and\n150 rpm. Linezolid at the concentration of 2 µg/mL was used as a positive control. At the\nbeginning, culture mixture (3 mL) was removed from each sample solution at intervals of\n1 h, and turbidity was measured by ultraviolet spectrophotometer at 600 nm. When the\nO.D. value became stable, the time interval was gradually increased and the time–kill curve\nwas drawn.",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 94.93777465820312,
+            "x1": 559.2791748046875,
+            "y1": 170.40211486816406
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "3.4. Binding Mode Study",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 182.68296813964844,
+            "x1": 269.1183166503906,
+            "y1": 192.64556884765625
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Molecular docking assay was performed using the AutoDock 4.2.6® software. The X-ray\ncrystal 3D structure of the 50S ribosomal subunit (PDB ID: 3CPW) was obtained from the\nProtein Data Bank (PDB) database. The ligands and proteins were removed from the\nstructure and RNA chains were retained using PyMOL 1.5.0.3. The modiﬁed structure was\nprepared for further molecular docking. 2D structures of the ligands were built with the\naid of ChemDraw 19.0 and the 3D structures were established by Chem3D 19.0 software.\nThe docking results were analyzed and visualized with PyMOL 1.5.0.3.",
+          "bbox": {
+            "x0": 166.0850067138672,
+            "y0": 194.7591094970703,
+            "x1": 561.019287109375,
+            "y1": 283.6781311035156
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "3.5. Anthelmintic Activity Assay",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 295.95794677734375,
+            "x1": 301.0185852050781,
+            "y1": 305.9205322265625
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Due to the high similarity between adult Indian earthworms (P. posthuma) and intesti-\nnal roundworms (A. bricoides) in terms of anatomical and physiological characteristics [40],\nanthelmintic activities of all compounds were evaluated [41,42].\nBefore use, the earthworms with an average length of 6–10 cm and width of 0.2–0.3 cm\nwere cleaned with normal saline solution [41], and the target compounds and positive\ncontrol drug (albendazole) were dissolved with the minimum amount of DMSO and diluted\nwith normal saline solution.\nThen, the tested solution with a massive concentration of 2 g/L was prepared and\nplaced in a Petri dish (d = 6 cm). After being divided into different groups with six (6)\nworms, they were transferred to Petri dishes with sterile forceps and the paralysis and\ndeath time were monitored and recorded with stopwatches for 1 h. Earthworms tested\nin standard saline (0.9% w/v) were taken as the control group. The paralysis time was\nconsidered as the time when the worm showed no obvious movement at rest or under\nmild vibration. In a similar way, death time was considered when there was no obvious\nmovement after severe shaking and exposure to 50 ◦C water [41,42]. The mean paralysis\nand death times were was used to reﬂect the anthelmintic effect of these compounds; the\nshorter time, the better the effect.",
+          "bbox": {
+            "x0": 165.97500610351562,
+            "y0": 311.5329284667969,
+            "x1": 560.9287719726562,
+            "y1": 522.4830932617188
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "4. Conclusions",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 534.8422241210938,
+            "x1": 233.39247131347656,
+            "y1": 544.8048095703125
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Seventeen novel 3-(3-pyridyl)-oxazolidone-5-methyl derivatives were designed and syn-\nthesized, and their structures were identified by 1H NMR, 13C NMR and MS. The primary\nscreening of antibacterial activity, which was tested on Staphylococcus aureus (ATCC25923),\nStreptococcus pneumoniae (ATCC49619), Bacillus subtilis (BNCC109047) and Staphylococcus\nepidermidis (BNCC186652), showed that most of the compounds had certain antibacterial\nactivity, among which compound 12a and 12e had the best antimicrobial activity. In a\nfurther bactericidal kinetic assay, 12e was mainly interfering in the logarithmic phase of\nbacteria in a concentration-dependent manner. Molecular docking between the 12e and\nthe 50S ribosomal subunit was studied to predict the mechanism of action. In addition,\nthe anthelmintic activity test demonstrated that the compound 11b had the most signiﬁ-\ncant anthelmintic effect. These results provide a preliminary basis for the development\nof novel pyridine heterocyclic compounds as antibacterial and anthelmintic agents. Fur-\nther structural optimization and biological activity conﬁrmation of the action model are\nin progress.",
+          "bbox": {
+            "x0": 166.11500549316406,
+            "y0": 550.5205078125,
+            "x1": 560.929931640625,
+            "y1": 723.6290893554688
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Supplementary Materials: Figure S1: Structure and Numbering of 11a, Figure S2: 1H NMR Spectrum\nof 11a, Figure S3: 13C NMR Spectrum of 11a. Figure S4: ES-MS for compound 11a, Figure S5: 1H\nNMR Spectrum of 11b, Figure S6: 13C NMR Spectrum of 11b. Figure S7: ES-MS for compound",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 736.540771484375,
+            "x1": 559.2781982421875,
+            "y1": 771.4177856445312
+          }
+        }
+      ],
+      "render_path": "assets/page-0011.png"
+    },
+    {
+      "number": 12,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n12 of 14\n11b, Figure S8: 1H NMR Spectrum of 11c, Figure S9: 13C NMR Spectrum of 11c. Figure S10: ES-\nMS for compound 11c, Figure S11: 1H NMR Spectrum of 11d, Figure S12: 13C NMR Spectrum of\n11d. Figure S13: ES-MS for compound 11d, Figure S14: 1H NMR Spectrum of 11e, Figure S15: 13C\nNMR Spectrum of 11e. Figure S16: ES-MS for compound 11e, Figure S17: 1H NMR Spectrum of\n11f, Figure S18: 13C NMR Spectrum of 11f. Figure S19: ES-MS for compound 11f, Figure S20: 1H\nNMR Spectrum of 11g, Figure S21: 13C NMR Spectrum of 11g. Figure S22: ES-MS for compound\n11g, Figure S23: 1H NMR Spectrum of 11h, Figure S24: 13C NMR Spectrum of 11h. Figure S25:\nES-MS for compound 11h, Figure S26: 1H NMR Spectrum of 11i, Figure S27: 13C NMR Spectrum\nof 11i. Figure S28: ES-MS for compound 11i, Figure S29: 1H NMR Spectrum of 12a, Figure S30: 13C\nNMR Spectrum of 12a. Figure S31: ES-MS for compound 12a, Figure S32: 1H NMR Spectrum of\n12b, Figure S33: 13C NMR Spectrum of 12b. Figure S34: ES-MS for compound 12b, Figure S35: 1H\nNMR Spectrum of 12c, Figure S36: 13C NMR Spectrum of 12c. Figure S37: ES-MS for compound\n12c, Figure S38: 1H NMR Spectrum of 12d, Figure S39: 13C NMR Spectrum of 12d. Figure S40:\nES-MS for compound 12d, Figure S41: 1H NMR Spectrum of 12e, Figure S42: 13C NMR Spectrum\nof 12e. Figure S43: ES-MS for compound 12e, Figure S44: 1H NMR Spectrum of 12f, Figure S45: 13C\nNMR Spectrum of 12f. Figure S46: ES-MS for compound 12f, Figure S47: 1H NMR Spectrum of 12g,\nFigure S48: 13C NMR Spectrum of 12g. Figure S49: ES-MS for compound 12g, Figure S50: 1H NMR\nSpectrum of 12h, Figure S51: 13C NMR Spectrum of 12h. Figure S52: ES-MS for compound 12h.\nAuthor Contributions: Conceptualization, B.J. and H.-l.Y.; methodology, B.J., J.-y.C., Z.-l.S., M.-q.S.\nand H.-l.Y.; software, Z.-l.S.; validation, B.J., J.-y.C., Z.-l.S., M.-q.S. and H.-l.Y.; formal analysis, B.J.\nand H.-l.Y.; investigation, H.-l.Y.; resources, H.-l.Y.; data curation, B.J. and H.-l.Y.; writing—original\ndraft preparation, B.J.; writing—review and editing, H.-l.Y.; visualization, Z.-l.S.; supervision, H.-l.Y.;\nproject administration, H.-l.Y.; funding acquisition, H.-l.Y.. All authors have read and agreed to the\npublished version of the manuscript.\nFunding: This research was funded by the National Natural Science Foundation of China (Grant\nNo. 31802227).\nInstitutional Review Board Statement: Not applicable.\nInformed Consent Statement: Not applicable.\nData Availability Statement: Not applicable.\nConﬂicts of Interest: The authors declare no conﬂict of interest.\nSample Availability: Samples of the compounds are not available from the authors.\nReferences\n1.\nChen, L.; Wang, X. Molecular mechanism of bacterial drug resistance based on embedded system and rapid detection method of\ndrug resistance gene. Microprocess. Microsyst. 2021, 82, 103912. [CrossRef]\n2.\nLin, X.J.; Zou, J.; Yao, K.; Li, L.; Zhong, L. Analysis of antibiotic sensitivity and resistance genes of Bordetella pertussis in Chinese\nchildren. Medicine 2021, 100, e24090. [CrossRef] [PubMed]\n3.\nObp, A.; Jose, F. Bacterial upper respiratory tract infections in Brazil: Bacterial resistance, human resistance, scientiﬁc darkness.\nBraz. J. Otorhinolaryngol. 2021, 87, 123. [CrossRef]\n4.\nLiu, C.H.; Xue, W.Q. Comparisons of Japanese Kanpo medicine and Chinese patent medicine for medication guidance. Int. Med.\nHealth Guid. News 2019, 25, 585.\n5.\nDenegre, A.A.; Myers, K.; Fefferman, N.H. Impact of Strain Competition on Bacterial Resistance in Immunocompromised\nPopulations. Antibiotics 2020, 9, 114. [CrossRef]\n6.\nBassetti, M.; Poulakou, G.; Ruppe, E.; Bouza, E.; Van Hal, S.J.; Brink, A. Antimicrobial resistance in the next 30 years, humankind,\nbugs and drugs: A visionary approach. Intensive Care Med. 2017, 43, 1464–1475. [CrossRef]\n7.\nDing, Y.J.; Nie, Y.; Yu, Y. Anti-microbial Activities of Protic Ionic Liquids Studied with Microcalorimetry Method. Chem. Res.\nChin. Univ. 2011, 4, 132.\n8.\nDing, H.H.; Zhao, M.H.; Zhai, L.; Zhen, J.B.; Yang, K.W. Quinine-based quaternized polymer: A potent scaffold with bactericidal\nproperties without resistance. Polym. Chem. 2021, 12, 2397. [CrossRef]\n9.\nMotsoeneng, T.S.; Mochane, M.J.; Mokhena, T.C.; Sadiku, E.R. Recent Progress on Antibiotic Polymer/Metal Nanocomposites for\nHealth Applications. In Antibiotic Materials in Healthcare; Academic Press: Santiago, Chile, 2020. [CrossRef]\n10.\nZhang, Q.; Chu, X.; Buckling, A. Overcoming the growth–infectivity trade-off in a bacteriophage slows bacterial resistance\nevolution. Evol. Appl. 2021, 14, 7. [CrossRef]\n",
+      "blocks": [
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n12 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "11b, Figure S8: 1H NMR Spectrum of 11c, Figure S9: 13C NMR Spectrum of 11c. Figure S10: ES-\nMS for compound 11c, Figure S11: 1H NMR Spectrum of 11d, Figure S12: 13C NMR Spectrum of\n11d. Figure S13: ES-MS for compound 11d, Figure S14: 1H NMR Spectrum of 11e, Figure S15: 13C\nNMR Spectrum of 11e. Figure S16: ES-MS for compound 11e, Figure S17: 1H NMR Spectrum of\n11f, Figure S18: 13C NMR Spectrum of 11f. Figure S19: ES-MS for compound 11f, Figure S20: 1H\nNMR Spectrum of 11g, Figure S21: 13C NMR Spectrum of 11g. Figure S22: ES-MS for compound\n11g, Figure S23: 1H NMR Spectrum of 11h, Figure S24: 13C NMR Spectrum of 11h. Figure S25:\nES-MS for compound 11h, Figure S26: 1H NMR Spectrum of 11i, Figure S27: 13C NMR Spectrum\nof 11i. Figure S28: ES-MS for compound 11i, Figure S29: 1H NMR Spectrum of 12a, Figure S30: 13C\nNMR Spectrum of 12a. Figure S31: ES-MS for compound 12a, Figure S32: 1H NMR Spectrum of\n12b, Figure S33: 13C NMR Spectrum of 12b. Figure S34: ES-MS for compound 12b, Figure S35: 1H\nNMR Spectrum of 12c, Figure S36: 13C NMR Spectrum of 12c. Figure S37: ES-MS for compound\n12c, Figure S38: 1H NMR Spectrum of 12d, Figure S39: 13C NMR Spectrum of 12d. Figure S40:\nES-MS for compound 12d, Figure S41: 1H NMR Spectrum of 12e, Figure S42: 13C NMR Spectrum\nof 12e. Figure S43: ES-MS for compound 12e, Figure S44: 1H NMR Spectrum of 12f, Figure S45: 13C\nNMR Spectrum of 12f. Figure S46: ES-MS for compound 12f, Figure S47: 1H NMR Spectrum of 12g,\nFigure S48: 13C NMR Spectrum of 12g. Figure S49: ES-MS for compound 12g, Figure S50: 1H NMR\nSpectrum of 12h, Figure S51: 13C NMR Spectrum of 12h. Figure S52: ES-MS for compound 12h.",
+          "bbox": {
+            "x0": 165.94500732421875,
+            "y0": 96.56376647949219,
+            "x1": 560.7621459960938,
+            "y1": 311.8645935058594
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Author Contributions: Conceptualization, B.J. and H.-l.Y.; methodology, B.J., J.-y.C., Z.-l.S., M.-q.S.\nand H.-l.Y.; software, Z.-l.S.; validation, B.J., J.-y.C., Z.-l.S., M.-q.S. and H.-l.Y.; formal analysis, B.J.\nand H.-l.Y.; investigation, H.-l.Y.; resources, H.-l.Y.; data curation, B.J. and H.-l.Y.; writing—original\ndraft preparation, B.J.; writing—review and editing, H.-l.Y.; visualization, Z.-l.S.; supervision, H.-l.Y.;\nproject administration, H.-l.Y.; funding acquisition, H.-l.Y.. All authors have read and agreed to the\npublished version of the manuscript.",
+          "bbox": {
+            "x0": 166.04400634765625,
+            "y0": 320.5063171386719,
+            "x1": 560.8494262695312,
+            "y1": 388.13861083984375
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Funding: This research was funded by the National Natural Science Foundation of China (Grant\nNo. 31802227).",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 396.7813415527344,
+            "x1": 559.2717895507812,
+            "y1": 417.5486145019531
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Institutional Review Board Statement: Not applicable.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 426.1903381347656,
+            "x1": 386.6160583496094,
+            "y1": 435.2416076660156
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Informed Consent Statement: Not applicable.",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 443.88433837890625,
+            "x1": 350.5170593261719,
+            "y1": 452.93560791015625
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Data Availability Statement: Not applicable.",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 461.5783386230469,
+            "x1": 345.8910827636719,
+            "y1": 470.6296081542969
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Conﬂicts of Interest: The authors declare no conﬂict of interest.",
+          "bbox": {
+            "x0": 166.39402770996094,
+            "y0": 479.2713317871094,
+            "x1": 418.0879211425781,
+            "y1": 488.3226013183594
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Sample Availability: Samples of the compounds are not available from the authors.",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 496.96533203125,
+            "x1": 498.8126525878906,
+            "y1": 506.0166015625
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "References",
+          "bbox": {
+            "x0": 35.71601867675781,
+            "y0": 520.7491455078125,
+            "x1": 85.51905059814453,
+            "y1": 530.7117309570312
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "1.\nChen, L.; Wang, X. Molecular mechanism of bacterial drug resistance based on embedded system and rapid detection method of\ndrug resistance gene. Microprocess. Microsyst. 2021, 82, 103912. [CrossRef]\n2.\nLin, X.J.; Zou, J.; Yao, K.; Li, L.; Zhong, L. Analysis of antibiotic sensitivity and resistance genes of Bordetella pertussis in Chinese\nchildren. Medicine 2021, 100, e24090. [CrossRef] [PubMed]\n3.\nObp, A.; Jose, F. Bacterial upper respiratory tract infections in Brazil: Bacterial resistance, human resistance, scientiﬁc darkness.\nBraz. J. Otorhinolaryngol. 2021, 87, 123. [CrossRef]\n4.\nLiu, C.H.; Xue, W.Q. Comparisons of Japanese Kanpo medicine and Chinese patent medicine for medication guidance. Int. Med.\nHealth Guid. News 2019, 25, 585.\n5.\nDenegre, A.A.; Myers, K.; Fefferman, N.H. Impact of Strain Competition on Bacterial Resistance in Immunocompromised\nPopulations. Antibiotics 2020, 9, 114. [CrossRef]\n6.\nBassetti, M.; Poulakou, G.; Ruppe, E.; Bouza, E.; Van Hal, S.J.; Brink, A. Antimicrobial resistance in the next 30 years, humankind,\nbugs and drugs: A visionary approach. Intensive Care Med. 2017, 43, 1464–1475. [CrossRef]\n7.\nDing, Y.J.; Nie, Y.; Yu, Y. Anti-microbial Activities of Protic Ionic Liquids Studied with Microcalorimetry Method. Chem. Res.\nChin. Univ. 2011, 4, 132.\n8.\nDing, H.H.; Zhao, M.H.; Zhai, L.; Zhen, J.B.; Yang, K.W. Quinine-based quaternized polymer: A potent scaffold with bactericidal\nproperties without resistance. Polym. Chem. 2021, 12, 2397. [CrossRef]\n9.\nMotsoeneng, T.S.; Mochane, M.J.; Mokhena, T.C.; Sadiku, E.R. Recent Progress on Antibiotic Polymer/Metal Nanocomposites for\nHealth Applications. In Antibiotic Materials in Healthcare; Academic Press: Santiago, Chile, 2020. [CrossRef]\n10.\nZhang, Q.; Chu, X.; Buckling, A. Overcoming the growth–infectivity trade-off in a bacteriophage slows bacterial resistance\nevolution. Evol. Appl. 2021, 14, 7. [CrossRef]",
+          "bbox": {
+            "x0": 35.71598815917969,
+            "y0": 536.05419921875,
+            "x1": 560.8424072265625,
+            "y1": 763.651611328125
+          }
+        }
+      ],
+      "render_path": "assets/page-0012.png"
+    },
+    {
+      "number": 13,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n13 of 14\n11.\nZheng, W.; Jia, Y.; Zhao, Y.; Zhang, J.; Jiang, X. Reversing Bacterial Resistance to Gold Nanoparticles by Size Modulation. Nano Lett.\n2021, 21, 5. [CrossRef]\n12.\nAbouelhassan, Y.; Garrison, A.; Yang, H.; Riveros, A.C.; Burch, G.; Huigens, R.W. Recent Progress in Natural Product-Inspired\nPrograms Aimed at Addressing Antibiotic Resistance and Tolerance. J. Med. Chem. 2019, 62, 7618. [CrossRef]\n13.\nValente, L.; Prazak, J.; Que, Y.A.; Cameron, D.R. Progress and Pitfalls of Bacteriophage Therapy in Critical Care: A Concise\nDeﬁnitive Review. Crit. Care Explor. 2021, 3, e0351. [CrossRef]\n14.\nZhao, Y.; Chen, L. Nanomaterial-based strategies in antimicrobial applications: Progress and perspectives. Nano Res. 2021, 14,\n4417–4441. [CrossRef]\n15.\nShariati, A.; Dadashi, M.; Chegini, Z.; van Belkum, A.; Mirzaii, M.; Khoramrooz, S.S.; Darban-Sarokhalil, D. The global prevalence\nof Daptomycin, Tigecycline, Quinupristin/Dalfopristin, and Linezolid-resistant Staphylococcus aureus and coagulase-negative\nstaphylococci strains: A systematic review and meta-analysis. Antimicrob. Resist. Infect. Control. 2020, 9, 56. [CrossRef]\n16.\nBao, P.; Zhang, Z.; Zhao, W.; Jiang, Y.; Wang, D. Isolation and whole genome sequencing of a new type of linezolid-resistant\nEnterococcus faecalis from two cases of infective endocarditis after renal transplantation. J. Glob. Antimicrob. Resist. 2020, 20, 346.\n[CrossRef]\n17.\nLe, T.; Nguyen, K.; Le, T.; Nguyen, K.; Le, P.; Caﬁni, F.; Duong, H.X. The emergence of plasmid-borne cfr-mediated linezolid\nresistant-staphylococci in Vietnam. J. Glob. Antimicrob. Resist. 2020, 22, 462. [CrossRef]\n18.\nMaarouf, L.; Omar, H.; El-Nakeeb, M.; Abouelfetouh, A. Prevalence and mechanisms of linezolid resistance among staphylococcal\nclinical isolates from Egypt. Eur. J. Clin. Microbiol. Infect. Dis. 2020, 40, 815. [CrossRef]\n19.\nChristos, M.; Taha, A.A.; Shirin, J.; Charlotte, H.; Melanie, C.; Mark, S.; Khondaker, M.R. Synthesis, microbiological evaluation\nand structure activity relationship analysis of linezolid analogues with different C5-acylamino substituents. Bioorg. Med. Chem.\n2021, 8, 116397. [CrossRef]\n20.\nXu, B.X.; Ding, X.D.; Tang, H.; Xiang, M.; Xu, B.; Li, Y.; Han, W. One-step Synthesis of N-Doped Mesoporous Carbon as Highly\nEfﬁcient Support of Pd Catalyst for Hydrodechlorination of 2,4-Dichlorophenol. Chem. Res. Chin. Univ. 2018, 34, 51. [CrossRef]\n21.\nFeng, F.; Jiang, L.; Yuting, G. Mitochondrion-anchoring AIEgen with Large Stokes Shift for Imaging-guided Photodynamic\nTherapy. Chem. Res. Chin. Univ. 2021, 37, 668. [CrossRef]\n22.\nGarcía-Olaiz, G.D.; Alcántar-Zavala, E.; Ochoa-Terán, A.; Cabrera, A.; Laniado-Laborín, R. Design, synthesis and evaluation of\nthe antibacterial activity of new Linezolid dipeptide-type analogues. Bioorg. Chem. 2019, 95, 103483. [CrossRef]\n23.\nQureshi, S.I.; Chaudhari, H.K. Design, synthesis, in-silico studies and biological screening of Quinazolinone analogues as potential\nantibacterial agents against MRSA. Bioorg. Med. Chem. 2019, 27, 2676. [CrossRef]\n24.\nSong, D.; Zhang, N.; Zhang, P.; Zhang, N.; Ma, S. Design, synthesis and evaluation of novel 9-arylalkyl-10-methylacridinium\nderivatives as highly potent FtsZ-targeting antibacterial agents. Eur. J. Med. Chem. 2021, 221, 113480. [CrossRef]\n25.\nXu, S.; Jiang, J.; Qi, Y.; Ding, X.; Zhao, Y. Design and synthesis of biaryloxazolidinone derivatives containing amide or acrylamide\nmoiety as novel antibacterial agents against Gram-positive bacteria. Bioorg. Med. Chem. Lett. 2019, 29, 126747. [CrossRef]\n26.\nEleazar, A.Z.; Esteban, H.G.; Adrián, O.T.; Julio, M.Á.; Edgar, A.E.Z.; Alex, J.S.M.; Efraín, A.; Alberto, C.; Gerardo, A.;\nValentín, M.S.; et al. Novel Linezolid analogues with antiparasitic activity against Hymenolepis nana. Bioorg. Chem. 2020,\n105, 104359. [CrossRef]\n27.\nIqbal, M.A.; Husain, A.; Alam, O.; Khan, S.A.; Ahmad, A.; Haider, M.R.; Alam, M.A. Design, synthesis, and biological evaluation\nof imidazopyridine-linked thiazolidinone as potential anticancer agents. Arch. Pharm. 2020, 353, 2000071. [CrossRef]\n28.\nPankaja, K.K. Aminoalkylpyridine compounds which are useful as anitconvulsant drugs, excitatory amino acid inhibitors and\nNMDA sigma receptor antagonists. U.S. Patent 5648369, 15 July 1997.\n29.\nKuthyala, S.; Hanumanthappa, M.; Kumar, S.M.; Sheik, S.; Prabhu, A. Crystal, Hirshfeld, ADMET, drug-like and anticancer study\nof some newly synthesized imidazopyridine containing pyrazoline derivatives. J. Mol. Struct. 2019, 1197, 65. [CrossRef]\n30.\nRibeiro, J.; Soares, J.; Almeida, S.; Soares, J.; Alves, J.; Ribeiro, A.G.; Lima, M. COVID-19 therapy: What weapons do we bring into\nbattle? Bioorganic Med. Chem. 2020, 29, 115855. [CrossRef]\n31.\nSalituro, F.; Bemis, G.; Evindar, G. Pyridine Derivatives as Inhibitors of P38. Patent WO070695, 27 September 2001.\n32.\nYang, H.L.; Xu, G.X.; Pei, Y.Z. Synthesis, Preliminary Structure-activity Relationships and Biological Evaluation of\nPyridinyl-4,5-2H-isoxazole Derivatives as Potent Antitumor Agents. Chem. Res. Chin. Univ. 2017, 33, 61. [CrossRef]\n33.\nJin, B.; Tao, Y.; Yang, H.L. Synthesis, Biological Evaluation and Molecular Docking of Novel Phenylpyrimidine Derivatives as\nPotential Anticancer Agents. Chem. Res. Chin. Univ. 2018, 34, 6. [CrossRef]\n34.\nYang, H.L.; Jin, B. Synthesis and Biological Activity of Pyridinyl-4,5-2H-isoxazole Heterocyclic Derivatives. Fine Chem. 2019, 36, 487.\n[CrossRef]\n35.\nNicholas, A. Synopsis of Some Recent Tactical Application of Bioisosteres in Drug Design. J. Med. Chem. 2011, 54, 2529. [CrossRef]\n36.\nAneja, B.; Azam, M.; Alam, S.; Perwez, A.; Maguire, R.; Yadava, U.; Kavanagh, K.; Daniliuc, C.G.; Rizvi, M.M.A.;\nHaq, Q.M.R.; et al. Natural Product-Based 1,2,3-Triazole/Sulfonate Analogues as Potential Chemotherapeutic Agents for\nBacterial Infections. ACS Omega 2018, 3, 6912–6930. [CrossRef] [PubMed]\n37.\nCLSI. M100 Performance Standards for Antimicrobial Susceptibility Testing, 29th ed.; CLSI: Wayne, PA, USA, 2019.\n38.\nZhang, L.; Fu, Y.H.; Ding, Y.; Meng, J.; Wang, Z.C.; Wang, P.Y. Antibacterial Activity of Novel 18β-Glycyrrhetinic Hydrazide or\nAmide Derivatives. Chem. Res. Chin. Univ. 2021, 37, 662. [CrossRef]\n",
+      "blocks": [
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n13 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "11.\nZheng, W.; Jia, Y.; Zhao, Y.; Zhang, J.; Jiang, X. Reversing Bacterial Resistance to Gold Nanoparticles by Size Modulation. Nano Lett.\n2021, 21, 5. [CrossRef]\n12.\nAbouelhassan, Y.; Garrison, A.; Yang, H.; Riveros, A.C.; Burch, G.; Huigens, R.W. Recent Progress in Natural Product-Inspired\nPrograms Aimed at Addressing Antibiotic Resistance and Tolerance. J. Med. Chem. 2019, 62, 7618. [CrossRef]\n13.\nValente, L.; Prazak, J.; Que, Y.A.; Cameron, D.R. Progress and Pitfalls of Bacteriophage Therapy in Critical Care: A Concise\nDeﬁnitive Review. Crit. Care Explor. 2021, 3, e0351. [CrossRef]\n14.\nZhao, Y.; Chen, L. Nanomaterial-based strategies in antimicrobial applications: Progress and perspectives. Nano Res. 2021, 14,\n4417–4441. [CrossRef]\n15.\nShariati, A.; Dadashi, M.; Chegini, Z.; van Belkum, A.; Mirzaii, M.; Khoramrooz, S.S.; Darban-Sarokhalil, D. The global prevalence\nof Daptomycin, Tigecycline, Quinupristin/Dalfopristin, and Linezolid-resistant Staphylococcus aureus and coagulase-negative\nstaphylococci strains: A systematic review and meta-analysis. Antimicrob. Resist. Infect. Control. 2020, 9, 56. [CrossRef]\n16.\nBao, P.; Zhang, Z.; Zhao, W.; Jiang, Y.; Wang, D. Isolation and whole genome sequencing of a new type of linezolid-resistant\nEnterococcus faecalis from two cases of infective endocarditis after renal transplantation. J. Glob. Antimicrob. Resist. 2020, 20, 346.\n[CrossRef]\n17.\nLe, T.; Nguyen, K.; Le, T.; Nguyen, K.; Le, P.; Caﬁni, F.; Duong, H.X. The emergence of plasmid-borne cfr-mediated linezolid\nresistant-staphylococci in Vietnam. J. Glob. Antimicrob. Resist. 2020, 22, 462. [CrossRef]\n18.\nMaarouf, L.; Omar, H.; El-Nakeeb, M.; Abouelfetouh, A. Prevalence and mechanisms of linezolid resistance among staphylococcal\nclinical isolates from Egypt. Eur. J. Clin. Microbiol. Infect. Dis. 2020, 40, 815. [CrossRef]\n19.\nChristos, M.; Taha, A.A.; Shirin, J.; Charlotte, H.; Melanie, C.; Mark, S.; Khondaker, M.R. Synthesis, microbiological evaluation\nand structure activity relationship analysis of linezolid analogues with different C5-acylamino substituents. Bioorg. Med. Chem.\n2021, 8, 116397. [CrossRef]\n20.\nXu, B.X.; Ding, X.D.; Tang, H.; Xiang, M.; Xu, B.; Li, Y.; Han, W. One-step Synthesis of N-Doped Mesoporous Carbon as Highly\nEfﬁcient Support of Pd Catalyst for Hydrodechlorination of 2,4-Dichlorophenol. Chem. Res. Chin. Univ. 2018, 34, 51. [CrossRef]\n21.\nFeng, F.; Jiang, L.; Yuting, G. Mitochondrion-anchoring AIEgen with Large Stokes Shift for Imaging-guided Photodynamic\nTherapy. Chem. Res. Chin. Univ. 2021, 37, 668. [CrossRef]\n22.\nGarcía-Olaiz, G.D.; Alcántar-Zavala, E.; Ochoa-Terán, A.; Cabrera, A.; Laniado-Laborín, R. Design, synthesis and evaluation of\nthe antibacterial activity of new Linezolid dipeptide-type analogues. Bioorg. Chem. 2019, 95, 103483. [CrossRef]\n23.\nQureshi, S.I.; Chaudhari, H.K. Design, synthesis, in-silico studies and biological screening of Quinazolinone analogues as potential\nantibacterial agents against MRSA. Bioorg. Med. Chem. 2019, 27, 2676. [CrossRef]\n24.\nSong, D.; Zhang, N.; Zhang, P.; Zhang, N.; Ma, S. Design, synthesis and evaluation of novel 9-arylalkyl-10-methylacridinium\nderivatives as highly potent FtsZ-targeting antibacterial agents. Eur. J. Med. Chem. 2021, 221, 113480. [CrossRef]\n25.\nXu, S.; Jiang, J.; Qi, Y.; Ding, X.; Zhao, Y. Design and synthesis of biaryloxazolidinone derivatives containing amide or acrylamide\nmoiety as novel antibacterial agents against Gram-positive bacteria. Bioorg. Med. Chem. Lett. 2019, 29, 126747. [CrossRef]\n26.\nEleazar, A.Z.; Esteban, H.G.; Adrián, O.T.; Julio, M.Á.; Edgar, A.E.Z.; Alex, J.S.M.; Efraín, A.; Alberto, C.; Gerardo, A.;\nValentín, M.S.; et al. Novel Linezolid analogues with antiparasitic activity against Hymenolepis nana. Bioorg. Chem. 2020,\n105, 104359. [CrossRef]\n27.\nIqbal, M.A.; Husain, A.; Alam, O.; Khan, S.A.; Ahmad, A.; Haider, M.R.; Alam, M.A. Design, synthesis, and biological evaluation\nof imidazopyridine-linked thiazolidinone as potential anticancer agents. Arch. Pharm. 2020, 353, 2000071. [CrossRef]\n28.\nPankaja, K.K. Aminoalkylpyridine compounds which are useful as anitconvulsant drugs, excitatory amino acid inhibitors and\nNMDA sigma receptor antagonists. U.S. Patent 5648369, 15 July 1997.\n29.\nKuthyala, S.; Hanumanthappa, M.; Kumar, S.M.; Sheik, S.; Prabhu, A. Crystal, Hirshfeld, ADMET, drug-like and anticancer study\nof some newly synthesized imidazopyridine containing pyrazoline derivatives. J. Mol. Struct. 2019, 1197, 65. [CrossRef]\n30.\nRibeiro, J.; Soares, J.; Almeida, S.; Soares, J.; Alves, J.; Ribeiro, A.G.; Lima, M. COVID-19 therapy: What weapons do we bring into\nbattle? Bioorganic Med. Chem. 2020, 29, 115855. [CrossRef]\n31.\nSalituro, F.; Bemis, G.; Evindar, G. Pyridine Derivatives as Inhibitors of P38. Patent WO070695, 27 September 2001.\n32.\nYang, H.L.; Xu, G.X.; Pei, Y.Z. Synthesis, Preliminary Structure-activity Relationships and Biological Evaluation of\nPyridinyl-4,5-2H-isoxazole Derivatives as Potent Antitumor Agents. Chem. Res. Chin. Univ. 2017, 33, 61. [CrossRef]\n33.\nJin, B.; Tao, Y.; Yang, H.L. Synthesis, Biological Evaluation and Molecular Docking of Novel Phenylpyrimidine Derivatives as\nPotential Anticancer Agents. Chem. Res. Chin. Univ. 2018, 34, 6. [CrossRef]\n34.\nYang, H.L.; Jin, B. Synthesis and Biological Activity of Pyridinyl-4,5-2H-isoxazole Heterocyclic Derivatives. Fine Chem. 2019, 36, 487.\n[CrossRef]\n35.\nNicholas, A. Synopsis of Some Recent Tactical Application of Bioisosteres in Drug Design. J. Med. Chem. 2011, 54, 2529. [CrossRef]\n36.\nAneja, B.; Azam, M.; Alam, S.; Perwez, A.; Maguire, R.; Yadava, U.; Kavanagh, K.; Daniliuc, C.G.; Rizvi, M.M.A.;\nHaq, Q.M.R.; et al. Natural Product-Based 1,2,3-Triazole/Sulfonate Analogues as Potential Chemotherapeutic Agents for\nBacterial Infections. ACS Omega 2018, 3, 6912–6930. [CrossRef] [PubMed]\n37.\nCLSI. M100 Performance Standards for Antimicrobial Susceptibility Testing, 29th ed.; CLSI: Wayne, PA, USA, 2019.\n38.\nZhang, L.; Fu, Y.H.; Ding, Y.; Meng, J.; Wang, Z.C.; Wang, P.Y. Antibacterial Activity of Novel 18β-Glycyrrhetinic Hydrazide or\nAmide Derivatives. Chem. Res. Chin. Univ. 2021, 37, 662. [CrossRef]",
+          "bbox": {
+            "x0": 35.71599578857422,
+            "y0": 98.23390197753906,
+            "x1": 560.8444213867188,
+            "y1": 763.2485961914062
+          }
+        }
+      ],
+      "render_path": "assets/page-0013.png"
+    },
+    {
+      "number": 14,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2022, 27, 1103\n14 of 14\n39.\nGunasekaran, S.; Sivaji, S.; Sandhanasamy, D.; Mohamad, S.A.; Aruliah, R.; Murali, K.M.; Ranganathan, B. Phytosynthesis of\nsilver nanoparticles from Jatropha integerrima Jacq. ﬂower extract and their possible applications as antibacterial and antioxidant\nagent. Saudi J. Biol. Sci. 2021, in press. [CrossRef]\n40.\nNiaz, A.; Syed, S.; Ismail, S.; Ghayour, A.; Mehreen, G.; Imran, K. Cytotoxic and anthelmintic potential of crude saponins isolated\nfrom Achillea Wilhelmsii, C. Koch and Teucrium Stocksianum boiss. BMC Complementary Altern. Med. 2011, 11, 106. [CrossRef]\n41.\nAyaz, M.; Junaid, M.; Subhan, F.; Ullah, F.; Sadiq, A.; Ahmad, S.; Imran, M.; Kamal, Z.; Hussain, S. Heavy metals analysis,\nphytochemical, phytotoxic and anthelmintic investigations of crude methanolic extract, subsequent fractions and crude saponins\nfrom Polygonum hydropiper L. BMC Complementary Altern. Med. 2014, 14, 465. [CrossRef]\n42.\nChitikina, S.S.; Buddiga, P.; Deb, P.K.; Mailavaram, R.P.; Kar, S. Synthesis and anthelmintic activity of some novel\n(E)-2-methyl/propyl-4-(2-(substitutedbenzylidene)hydrazinyl)-5,6,7,8-tetrahydrobenzo[4,5]thieno[2,3-d]pyrimidines.\nMed.\nChem. Res. 2020, 29, 1600. [CrossRef]\n",
+      "blocks": [
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Molecules 2022, 27, 1103\n14 of 14",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 57.1229248046875,
+            "x1": 559.2760009765625,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "39.\nGunasekaran, S.; Sivaji, S.; Sandhanasamy, D.; Mohamad, S.A.; Aruliah, R.; Murali, K.M.; Ranganathan, B. Phytosynthesis of\nsilver nanoparticles from Jatropha integerrima Jacq. ﬂower extract and their possible applications as antibacterial and antioxidant\nagent. Saudi J. Biol. Sci. 2021, in press. [CrossRef]\n40.\nNiaz, A.; Syed, S.; Ismail, S.; Ghayour, A.; Mehreen, G.; Imran, K. Cytotoxic and anthelmintic potential of crude saponins isolated\nfrom Achillea Wilhelmsii, C. Koch and Teucrium Stocksianum boiss. BMC Complementary Altern. Med. 2011, 11, 106. [CrossRef]\n41.\nAyaz, M.; Junaid, M.; Subhan, F.; Ullah, F.; Sadiq, A.; Ahmad, S.; Imran, M.; Kamal, Z.; Hussain, S. Heavy metals analysis,\nphytochemical, phytotoxic and anthelmintic investigations of crude methanolic extract, subsequent fractions and crude saponins\nfrom Polygonum hydropiper L. BMC Complementary Altern. Med. 2014, 14, 465. [CrossRef]\n42.\nChitikina, S.S.; Buddiga, P.; Deb, P.K.; Mailavaram, R.P.; Kar, S. Synthesis and anthelmintic activity of some novel\n(E)-2-methyl/propyl-4-(2-(substitutedbenzylidene)hydrazinyl)-5,6,7,8-tetrahydrobenzo[4,5]thieno[2,3-d]pyrimidines.\nMed.\nChem. Res. 2020, 29, 1600. [CrossRef]",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 98.32520294189453,
+            "x1": 560.3965454101562,
+            "y1": 222.42457580566406
+          }
+        }
+      ],
+      "render_path": "assets/page-0014.png"
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 35.715999603271484,
+        "y0": 656.8805541992188,
+        "x1": 92.40879821777344,
+        "y1": 676.7230224609375
+      },
+      "asset_path": "assets/page-0001-image-001.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 516.8984375,
+        "y0": 55.98485565185547,
+        "x1": 558.498291015625,
+        "y1": 83.460693359375
+      },
+      "asset_path": "assets/page-0001-image-002.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 516.8984375,
+        "y0": 55.98485565185547,
+        "x1": 558.498291015625,
+        "y1": 83.460693359375
+      },
+      "asset_path": "assets/page-0001-image-003.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 516.8984375,
+        "y0": 55.98485565185547,
+        "x1": 558.498291015625,
+        "y1": 83.460693359375
+      },
+      "asset_path": "assets/page-0001-image-004.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 516.8984375,
+        "y0": 55.98485565185547,
+        "x1": 558.498291015625,
+        "y1": 83.460693359375
+      },
+      "asset_path": "assets/page-0001-image-005.png",
+      "caption": null
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 166.3939971923828,
+        "y0": 218.4110107421875,
+        "x1": 415.03399658203125,
+        "y1": 352.8110046386719
+      },
+      "asset_path": "assets/page-0002-image-001.jpeg",
+      "caption": "Figure 1. Design strategy of 3-(3-pyridyl)-oxazolidone-5-methyl ester derivatives."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 74.05599975585938,
+        "y0": 518.0759887695312,
+        "x1": 520.93603515625,
+        "y1": 748.9559936523438
+      },
+      "asset_path": "assets/page-0002-image-002.jpeg",
+      "caption": null
+    },
+    {
+      "page": 4,
+      "bbox": {
+        "x0": 78.13600158691406,
+        "y0": 94.8590087890625,
+        "x1": 516.8560180664062,
+        "y1": 267.17901611328125
+      },
+      "asset_path": "assets/page-0004-image-001.jpeg",
+      "caption": "Figure 2. Bacteriostatic zone of 12e against S. aureus at different concentrations. (MIC: minimal\ninhibit concentration)."
+    },
+    {
+      "page": 4,
+      "bbox": {
+        "x0": 166.3939971923828,
+        "y0": 383.8470458984375,
+        "x1": 432.79400634765625,
+        "y1": 543.20703125
+      },
+      "asset_path": "assets/page-0004-image-002.jpeg",
+      "caption": "Figure 2. Bacteriostatic zone of 12e against S. aureus at different concentrations. (MIC: minimal\ninhibit concentration)."
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 166.3939971923828,
+        "y0": 208.45303344726562,
+        "x1": 353.593994140625,
+        "y1": 368.29302978515625
+      },
+      "asset_path": "assets/page-0005-image-001.jpeg",
+      "caption": "Figure 4. Binding pocket of compound 12b with the 50S ribosomal subunit."
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 166.3939971923828,
+        "y0": 484.14898681640625,
+        "x1": 428.9539794921875,
+        "y1": 650.22900390625
+      },
+      "asset_path": "assets/page-0005-image-002.jpeg",
+      "caption": "Figure 4. Binding pocket of compound 12b with the 50S ribosomal subunit."
+    }
+  ],
+  "marker_markdown_path": null
+}

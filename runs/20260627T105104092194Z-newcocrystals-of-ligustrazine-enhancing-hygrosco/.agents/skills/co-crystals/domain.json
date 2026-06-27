@@ -1,0 +1,272 @@
+{
+  "slug": "co-crystals",
+  "name": "Co-crystals",
+  "family": "small_molecule",
+  "description": "Pharmaceutical co-crystal composition and stability properties.",
+  "aliases": [
+    "cocrystal",
+    "co-crystal",
+    "photostability"
+  ],
+  "fields": [
+    {
+      "name": "pdf",
+      "description": "ChemX parquet gold column `pdf`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "doi",
+      "description": "ChemX parquet gold column `doi`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "supplementary",
+      "description": "ChemX parquet gold column `supplementary`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "authors",
+      "description": "ChemX parquet gold column `authors`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "title",
+      "description": "ChemX parquet gold column `title`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "journal",
+      "description": "ChemX parquet gold column `journal`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "year",
+      "description": "ChemX parquet gold column `year`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "page",
+      "description": "ChemX parquet gold column `page`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "access",
+      "description": "ChemX parquet gold column `access`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "name_cocrystal",
+      "description": "ChemX parquet gold column `name_cocrystal`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "name_cocrystal_type_file",
+      "description": "ChemX parquet gold column `name_cocrystal_type_file`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "name_cocrystal_page",
+      "description": "ChemX parquet gold column `name_cocrystal_page`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "name_cocrystal_origin",
+      "description": "ChemX parquet gold column `name_cocrystal_origin`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "ratio_cocrystal",
+      "description": "ChemX parquet gold column `ratio_cocrystal`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "ratio_cocrystal_page",
+      "description": "ChemX parquet gold column `ratio_cocrystal_page`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "ratio_cocrystal_page.1",
+      "description": "ChemX parquet gold column `ratio_cocrystal_page.1`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "ratio_cocrystal_origin",
+      "description": "ChemX parquet gold column `ratio_cocrystal_origin`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "name_drug",
+      "description": "ChemX parquet gold column `name_drug`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "name_drug_type_file",
+      "description": "ChemX parquet gold column `name_drug_type_file`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "name_drug_origin",
+      "description": "ChemX parquet gold column `name_drug_origin`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "name_drug_page",
+      "description": "ChemX parquet gold column `name_drug_page`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "SMILES_drug",
+      "description": "ChemX parquet gold column `SMILES_drug`.",
+      "type": "string",
+      "required": true,
+      "smiles": true
+    },
+    {
+      "name": "SMILES_drug_type_file",
+      "description": "ChemX parquet gold column `SMILES_drug_type_file`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "SMILES_drug_origin",
+      "description": "ChemX parquet gold column `SMILES_drug_origin`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "SMILES_drug_page",
+      "description": "ChemX parquet gold column `SMILES_drug_page`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "name_coformer",
+      "description": "ChemX parquet gold column `name_coformer`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "name_coformer_type file",
+      "description": "ChemX parquet gold column `name_coformer_type file`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "name_coformer_origin",
+      "description": "ChemX parquet gold column `name_coformer_origin`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "name_coformer_page",
+      "description": "ChemX parquet gold column `name_coformer_page`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "SMILES_coformer",
+      "description": "ChemX parquet gold column `SMILES_coformer`.",
+      "type": "string",
+      "required": true,
+      "smiles": true
+    },
+    {
+      "name": "SMILES_coformer_type file",
+      "description": "ChemX parquet gold column `SMILES_coformer_type file`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "SMILES_coformer_origin",
+      "description": "ChemX parquet gold column `SMILES_coformer_origin`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "SMILES_coformer_page",
+      "description": "ChemX parquet gold column `SMILES_coformer_page`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "photostability_change",
+      "description": "ChemX parquet gold column `photostability_change`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "photostability_change_type_file",
+      "description": "ChemX parquet gold column `photostability_change_type_file`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "photostability_change_origin",
+      "description": "ChemX parquet gold column `photostability_change_origin`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "photostability_change_page",
+      "description": "ChemX parquet gold column `photostability_change_page`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    }
+  ]
+}

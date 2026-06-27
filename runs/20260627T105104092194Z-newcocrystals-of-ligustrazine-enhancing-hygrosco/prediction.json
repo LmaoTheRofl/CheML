@@ -1,0 +1,1659 @@
+{
+  "schema_version": "1.0",
+  "domain": "co-crystals",
+  "records": [
+    {
+      "values": {
+        "pdf": "NewCocrystals_of_Ligustrazine_Enhancing_Hygroscopicity_and_Stability.pdf",
+        "doi": "10.3390/molecules29102208",
+        "supplementary": 0,
+        "authors": "Yifei Xie, Lixiang Gong, Yue Tao, Baoxi Zhang, Li Zhang, Shiying Yang, Dezhi Yang, Yang Lu and Guanhua Du",
+        "title": "New Cocrystals of Ligustrazine: Enhancing Hygroscopicity and Stability",
+        "journal": "Molecules",
+        "year": 2024,
+        "page": 2208,
+        "access": 1,
+        "name_cocrystal": "TMP-PABA",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": 2,
+        "ratio_cocrystal": "1:2",
+        "ratio_cocrystal_page": "2",
+        "ratio_cocrystal_page.1": "2",
+        "ratio_cocrystal_origin": 2,
+        "name_drug": "Ligustrazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "text",
+        "name_drug_page": 1,
+        "SMILES_drug": "Cc1nc(C)c(C)nc1C",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "figure",
+        "SMILES_drug_page": 2,
+        "name_coformer": "p-aminobenzoic acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "text",
+        "name_coformer_page": 2,
+        "SMILES_coformer": "Nc1ccc(C(=O)O)cc1",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "figure",
+        "SMILES_coformer_page": 2,
+        "photostability_change": "good stability under HH and SI conditions",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "text",
+        "photostability_change_page": 9
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: NewCocrystals_of_Ligustrazine_Enhancing_Hygroscopicity_and_Stability.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.715999603271484,
+              "y0": 814.77392578125,
+              "x1": 559.2717895507812,
+              "y1": 822.882080078125
+            },
+            "text": "https://doi.org/10.3390/molecules29102208",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "main PDF bundle; no supplementary file in manifest",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.388004302978516,
+              "y0": 168.39312744140625,
+              "x1": 518.7576904296875,
+              "y1": 192.78677368164062
+            },
+            "text": "Yifei Xie ... Yang Lu and Guanhua Du",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.358001708984375,
+              "y0": 105.92192077636719,
+              "x1": 518.915283203125,
+              "y1": 155.79742431640625
+            },
+            "text": "New Cocrystals of Ligustrazine: Enhancing Hygroscopicity and Stability",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.715999603271484,
+              "y0": 814.77392578125,
+              "x1": 559.2717895507812,
+              "y1": 822.882080078125
+            },
+            "text": "Molecules 2024, 29, 2208",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.715999603271484,
+              "y0": 814.77392578125,
+              "x1": 559.2717895507812,
+              "y1": 822.882080078125
+            },
+            "text": "Molecules 2024, 29, 2208",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.720001220703125,
+              "y0": 540.4100341796875,
+              "x1": 150.3849334716797,
+              "y1": 547.504638671875
+            },
+            "text": "Molecules 2024, 29, 2208",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.5,
+              "y0": 707.4459838867188,
+              "x1": 151.9372100830078,
+              "y1": 714.4891967773438
+            },
+            "text": "This article is an open access article",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-PABA cocrystal (1:2)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-PABA cocrystal (1:2)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-PABA cocrystal (1:2)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-PABA cocrystal (1:2)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-PABA cocrystal (1:2)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-PABA cocrystal (1:2)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-PABA cocrystal (1:2)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-PABA cocrystal (1:2)",
+            "asset_path": null
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 573.6189575195312,
+              "x1": 560.9325561523438,
+              "y1": 771.8790893554688
+            },
+            "text": "Ligustrazine (Tetramethylpyrazine, TMP)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 573.6189575195312,
+              "x1": 560.9325561523438,
+              "y1": 771.8790893554688
+            },
+            "text": "Ligustrazine (Tetramethylpyrazine, TMP)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 573.6189575195312,
+              "x1": 560.9325561523438,
+              "y1": 771.8790893554688
+            },
+            "text": "Ligustrazine (Tetramethylpyrazine, TMP)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 573.6189575195312,
+              "x1": 560.9325561523438,
+              "y1": 771.8790893554688
+            },
+            "text": "Ligustrazine (Tetramethylpyrazine, TMP)",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "Figure 1 molecule structures of TMP, PABA, MABA, and DNBA",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "TMP structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "TMP structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "TMP structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 89.63335418701172,
+              "x1": 560.9291381835938,
+              "y1": 212.6441192626953
+            },
+            "text": "p-aminobenzoic acid (PABA)",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 89.63335418701172,
+              "x1": 560.9291381835938,
+              "y1": 212.6441192626953
+            },
+            "text": "p-aminobenzoic acid (PABA)",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 89.63335418701172,
+              "x1": 560.9291381835938,
+              "y1": 212.6441192626953
+            },
+            "text": "p-aminobenzoic acid (PABA)",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 89.63335418701172,
+              "x1": 560.9291381835938,
+              "y1": 212.6441192626953
+            },
+            "text": "p-aminobenzoic acid (PABA)",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "PABA structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "PABA structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "PABA structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "PABA structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 582.6277465820312,
+              "x1": 561.0161743164062,
+              "y1": 733.4100952148438
+            },
+            "text": "TMP-PABA cocrystal has good stability under HH and SI conditions",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 582.6277465820312,
+              "x1": 561.0161743164062,
+              "y1": 733.4100952148438
+            },
+            "text": "TMP-PABA cocrystal has good stability under HH and SI conditions",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 582.6277465820312,
+              "x1": 561.0161743164062,
+              "y1": 733.4100952148438
+            },
+            "text": "TMP-PABA cocrystal has good stability under HH and SI conditions",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 582.6277465820312,
+              "x1": 561.0161743164062,
+              "y1": 733.4100952148438
+            },
+            "text": "TMP-PABA cocrystal has good stability under HH and SI conditions",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "NewCocrystals_of_Ligustrazine_Enhancing_Hygroscopicity_and_Stability.pdf",
+        "doi": "10.3390/molecules29102208",
+        "supplementary": 0,
+        "authors": "Yifei Xie, Lixiang Gong, Yue Tao, Baoxi Zhang, Li Zhang, Shiying Yang, Dezhi Yang, Yang Lu and Guanhua Du",
+        "title": "New Cocrystals of Ligustrazine: Enhancing Hygroscopicity and Stability",
+        "journal": "Molecules",
+        "year": 2024,
+        "page": 2208,
+        "access": 1,
+        "name_cocrystal": "TMP-MABA",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": 2,
+        "ratio_cocrystal": "1.5:1",
+        "ratio_cocrystal_page": "2",
+        "ratio_cocrystal_page.1": "2",
+        "ratio_cocrystal_origin": 2,
+        "name_drug": "Ligustrazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "text",
+        "name_drug_page": 1,
+        "SMILES_drug": "Cc1nc(C)c(C)nc1C",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "figure",
+        "SMILES_drug_page": 2,
+        "name_coformer": "3-aminobenzoic acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "text",
+        "name_coformer_page": 2,
+        "SMILES_coformer": "Nc1cccc(C(=O)O)c1",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "figure",
+        "SMILES_coformer_page": 2,
+        "photostability_change": "maintain good stability under SI conditions",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "text",
+        "photostability_change_page": 9
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: NewCocrystals_of_Ligustrazine_Enhancing_Hygroscopicity_and_Stability.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.715999603271484,
+              "y0": 814.77392578125,
+              "x1": 559.2717895507812,
+              "y1": 822.882080078125
+            },
+            "text": "https://doi.org/10.3390/molecules29102208",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "main PDF bundle; no supplementary file in manifest",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.388004302978516,
+              "y0": 168.39312744140625,
+              "x1": 518.7576904296875,
+              "y1": 192.78677368164062
+            },
+            "text": "Yifei Xie ... Yang Lu and Guanhua Du",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.358001708984375,
+              "y0": 105.92192077636719,
+              "x1": 518.915283203125,
+              "y1": 155.79742431640625
+            },
+            "text": "New Cocrystals of Ligustrazine: Enhancing Hygroscopicity and Stability",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.715999603271484,
+              "y0": 814.77392578125,
+              "x1": 559.2717895507812,
+              "y1": 822.882080078125
+            },
+            "text": "Molecules 2024, 29, 2208",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.715999603271484,
+              "y0": 814.77392578125,
+              "x1": 559.2717895507812,
+              "y1": 822.882080078125
+            },
+            "text": "Molecules 2024, 29, 2208",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.720001220703125,
+              "y0": 540.4100341796875,
+              "x1": 150.3849334716797,
+              "y1": 547.504638671875
+            },
+            "text": "Molecules 2024, 29, 2208",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.5,
+              "y0": 707.4459838867188,
+              "x1": 151.9372100830078,
+              "y1": 714.4891967773438
+            },
+            "text": "This article is an open access article",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-MABA cocrystal (1.5:1)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-MABA cocrystal (1.5:1)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-MABA cocrystal (1.5:1)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-MABA cocrystal (1.5:1)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-MABA cocrystal (1.5:1)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-MABA cocrystal (1.5:1)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-MABA cocrystal (1.5:1)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-MABA cocrystal (1.5:1)",
+            "asset_path": null
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 573.6189575195312,
+              "x1": 560.9325561523438,
+              "y1": 771.8790893554688
+            },
+            "text": "Ligustrazine (Tetramethylpyrazine, TMP)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 573.6189575195312,
+              "x1": 560.9325561523438,
+              "y1": 771.8790893554688
+            },
+            "text": "Ligustrazine (Tetramethylpyrazine, TMP)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 573.6189575195312,
+              "x1": 560.9325561523438,
+              "y1": 771.8790893554688
+            },
+            "text": "Ligustrazine (Tetramethylpyrazine, TMP)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 573.6189575195312,
+              "x1": 560.9325561523438,
+              "y1": 771.8790893554688
+            },
+            "text": "Ligustrazine (Tetramethylpyrazine, TMP)",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "Figure 1 molecule structures of TMP, PABA, MABA, and DNBA",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "TMP structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "TMP structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "TMP structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 89.63335418701172,
+              "x1": 560.9291381835938,
+              "y1": 212.6441192626953
+            },
+            "text": "3-aminobenzoic acid (MABA)",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 89.63335418701172,
+              "x1": 560.9291381835938,
+              "y1": 212.6441192626953
+            },
+            "text": "3-aminobenzoic acid (MABA)",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 89.63335418701172,
+              "x1": 560.9291381835938,
+              "y1": 212.6441192626953
+            },
+            "text": "3-aminobenzoic acid (MABA)",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 89.63335418701172,
+              "x1": 560.9291381835938,
+              "y1": 212.6441192626953
+            },
+            "text": "3-aminobenzoic acid (MABA)",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "MABA structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "MABA structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "MABA structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "MABA structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 582.6277465820312,
+              "x1": 561.0161743164062,
+              "y1": 733.4100952148438
+            },
+            "text": "TMP-MABA cocrystal can maintain good stability under SI conditions",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 582.6277465820312,
+              "x1": 561.0161743164062,
+              "y1": 733.4100952148438
+            },
+            "text": "TMP-MABA cocrystal can maintain good stability under SI conditions",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 582.6277465820312,
+              "x1": 561.0161743164062,
+              "y1": 733.4100952148438
+            },
+            "text": "TMP-MABA cocrystal can maintain good stability under SI conditions",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 582.6277465820312,
+              "x1": 561.0161743164062,
+              "y1": 733.4100952148438
+            },
+            "text": "TMP-MABA cocrystal can maintain good stability under SI conditions",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "NewCocrystals_of_Ligustrazine_Enhancing_Hygroscopicity_and_Stability.pdf",
+        "doi": "10.3390/molecules29102208",
+        "supplementary": 0,
+        "authors": "Yifei Xie, Lixiang Gong, Yue Tao, Baoxi Zhang, Li Zhang, Shiying Yang, Dezhi Yang, Yang Lu and Guanhua Du",
+        "title": "New Cocrystals of Ligustrazine: Enhancing Hygroscopicity and Stability",
+        "journal": "Molecules",
+        "year": 2024,
+        "page": 2208,
+        "access": 1,
+        "name_cocrystal": "TMP-DNBA",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": 2,
+        "ratio_cocrystal": "0.5:1",
+        "ratio_cocrystal_page": "2",
+        "ratio_cocrystal_page.1": "2",
+        "ratio_cocrystal_origin": 2,
+        "name_drug": "Ligustrazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "text",
+        "name_drug_page": 1,
+        "SMILES_drug": "Cc1nc(C)c(C)nc1C",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "figure",
+        "SMILES_drug_page": 2,
+        "name_coformer": "3,5-dinitrobenzoic acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "text",
+        "name_coformer_page": 2,
+        "SMILES_coformer": "O=C(O)c1cc([N+](=O)[O-])cc([N+](=O)[O-])c1",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "figure",
+        "SMILES_coformer_page": 2,
+        "photostability_change": "best stability under the three conditions",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "text",
+        "photostability_change_page": 9
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: NewCocrystals_of_Ligustrazine_Enhancing_Hygroscopicity_and_Stability.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.715999603271484,
+              "y0": 814.77392578125,
+              "x1": 559.2717895507812,
+              "y1": 822.882080078125
+            },
+            "text": "https://doi.org/10.3390/molecules29102208",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "main PDF bundle; no supplementary file in manifest",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.388004302978516,
+              "y0": 168.39312744140625,
+              "x1": 518.7576904296875,
+              "y1": 192.78677368164062
+            },
+            "text": "Yifei Xie ... Yang Lu and Guanhua Du",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.358001708984375,
+              "y0": 105.92192077636719,
+              "x1": 518.915283203125,
+              "y1": 155.79742431640625
+            },
+            "text": "New Cocrystals of Ligustrazine: Enhancing Hygroscopicity and Stability",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.715999603271484,
+              "y0": 814.77392578125,
+              "x1": 559.2717895507812,
+              "y1": 822.882080078125
+            },
+            "text": "Molecules 2024, 29, 2208",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.715999603271484,
+              "y0": 814.77392578125,
+              "x1": 559.2717895507812,
+              "y1": 822.882080078125
+            },
+            "text": "Molecules 2024, 29, 2208",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.720001220703125,
+              "y0": 540.4100341796875,
+              "x1": 150.3849334716797,
+              "y1": 547.504638671875
+            },
+            "text": "Molecules 2024, 29, 2208",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 35.5,
+              "y0": 707.4459838867188,
+              "x1": 151.9372100830078,
+              "y1": 714.4891967773438
+            },
+            "text": "This article is an open access article",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-DNBA cocrystal (0.5:1)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-DNBA cocrystal (0.5:1)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-DNBA cocrystal (0.5:1)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-DNBA cocrystal (0.5:1)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-DNBA cocrystal (0.5:1)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-DNBA cocrystal (0.5:1)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-DNBA cocrystal (0.5:1)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.06500244140625,
+              "y0": 384.8525390625,
+              "x1": 560.9259033203125,
+              "y1": 457.6051025390625
+            },
+            "text": "TMP-DNBA cocrystal (0.5:1)",
+            "asset_path": null
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 573.6189575195312,
+              "x1": 560.9325561523438,
+              "y1": 771.8790893554688
+            },
+            "text": "Ligustrazine (Tetramethylpyrazine, TMP)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 573.6189575195312,
+              "x1": 560.9325561523438,
+              "y1": 771.8790893554688
+            },
+            "text": "Ligustrazine (Tetramethylpyrazine, TMP)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 573.6189575195312,
+              "x1": 560.9325561523438,
+              "y1": 771.8790893554688
+            },
+            "text": "Ligustrazine (Tetramethylpyrazine, TMP)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 573.6189575195312,
+              "x1": 560.9325561523438,
+              "y1": 771.8790893554688
+            },
+            "text": "Ligustrazine (Tetramethylpyrazine, TMP)",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "Figure 1 molecule structures of TMP, PABA, MABA, and DNBA",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "TMP structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "TMP structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "TMP structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 89.63335418701172,
+              "x1": 560.9291381835938,
+              "y1": 212.6441192626953
+            },
+            "text": "3,5-dinitrobenzoic acid (DNBA)",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 89.63335418701172,
+              "x1": 560.9291381835938,
+              "y1": 212.6441192626953
+            },
+            "text": "3,5-dinitrobenzoic acid (DNBA)",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 89.63335418701172,
+              "x1": 560.9291381835938,
+              "y1": 212.6441192626953
+            },
+            "text": "3,5-dinitrobenzoic acid (DNBA)",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 89.63335418701172,
+              "x1": 560.9291381835938,
+              "y1": 212.6441192626953
+            },
+            "text": "3,5-dinitrobenzoic acid (DNBA)",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "DNBA structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "DNBA structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "DNBA structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 71.4175033569336,
+              "y0": 226.10560607910156,
+              "x1": 524.783447265625,
+              "y1": 329.6506042480469
+            },
+            "text": "DNBA structure in Figure 1",
+            "asset_path": "assets/page-0002-image-001.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 582.6277465820312,
+              "x1": 561.0161743164062,
+              "y1": 733.4100952148438
+            },
+            "text": "TMP-DNBA cocrystal showed the best stability under the three conditions",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 582.6277465820312,
+              "x1": 561.0161743164062,
+              "y1": 733.4100952148438
+            },
+            "text": "TMP-DNBA cocrystal showed the best stability under the three conditions",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 582.6277465820312,
+              "x1": 561.0161743164062,
+              "y1": 733.4100952148438
+            },
+            "text": "TMP-DNBA cocrystal showed the best stability under the three conditions",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 166.0850067138672,
+              "y0": 582.6277465820312,
+              "x1": 561.0161743164062,
+              "y1": 733.4100952148438
+            },
+            "text": "TMP-DNBA cocrystal showed the best stability under the three conditions",
+            "asset_path": null
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2026 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-06-27T06:30:45.922707Z",
+  "parser": "pymupdf-fallback",
+  "metadata": {
+    "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+    "author": "Ismail Celik, Ulviye Acar Çevik, Arzu Karayel, Ayşen Işık, Uğur Kayış, Ülküye Dudu Gül, Hayrani Eren Bostancı, Süheyl Furkan Konca, Yusuf Özkay, and Zafer Asım Kaplancıklı",
+    "subject": "ACS Omega 0.0",
+    "keywords": null,
+    "creator": "Arbortext Publishing Engine",
+    "producer": "PDFlib+PDI 9.1.2p4 (C++/Win64); modified using iText 4.2.0 by 1T3XT",
+    "page_count": 16,
+    "sha256": "c5fbf0dd2790496cedc0a90f7602f860d777b447427a501642402407493af3b0",
+    "source_name": "acsomega.2c06142.pdf"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical\nComputation, and Antimicrobial Activity Studies of Some New\nBenzimidazole−Thiadiazole Hybrids\nIsmail Celik,* Ulviye Acar Çevik, Arzu Karayel, Ayşen Işık, Uğur Kayış, Ülküye Dudu Gül,\nHayrani Eren Bostancı, Süheyl Furkan Konca, Yusuf Özkay, and Zafer Asım Kaplancıklı\nCite This: https://doi.org/10.1021/acsomega.2c06142\nRead Online\nACCESS\nMetrics & More\nArticle Recommendations\n*\nsı\nSupporting Information\nABSTRACT: In this study, some new compounds, which are 2-\naminothiadiazole derivatives linked by a phenyl bridge to the 2-\nposition of the benzimidazole ring, were designed and synthesized\nas antimicrobial agents. The structures of the compounds were\nelucidated by 1H and 13C NMR spectroscopy, high-resolution mass\nspectrometry, and elemental analysis. The antifungal activities of\nthe synthesized compounds were tested on Candida albicans,\nCandida krusei, Candida glabrata, and Candida parapsilosis.\nCompound 5f is more active against C. albicans and C. glabrata\nthan standard fluconazole and varicanazole. Compounds were also\nevaluated for their counteracting activity against Gram-positive\nEscherichia coli, Serratia marcescens, Klebsiella pneumoniae, and\nPseudomonas aeruginosa and Gram-negative Enterococcus faecalis, Bacillus subtilis, and Staphylococcus aureus. Compounds 5c and 5h\nhad minimum inhibitory concentrations against E. faecalis close to that of the standard azithromycin. Molecular docking studies were\nperformed against Candida species’ 14-α demethylase enzyme. 5f was the most active compound against Candida species, which gave\nthe highest docking interaction energy. The stabilities of compounds 5c and 5f with CYP51 were tested using 100 ns molecular\ndynamics simulations. According to the theoretical ADME calculations, the profiles of the compounds are suitable in terms of\nlimiting rules. HOMO−LUMO analysis showed that 5h is chemically more reactive (represented with the lower ΔE = 3.432 eV)\nthan the other molecules, which is compatible with the highest antibacterial activity result.\n1. INTRODUCTION\nThe advancements of modern medicine are being undermined\nby antibiotic resistance as infectious illnesses become once\nmore serious concern as a result of the global spread of\nantibiotic-resistant pathogens.1 Antimicrobial agents come in a\nvariety of forms, including antibiotics, and can be used to treat\nmicroorganisms to decrease their ability to grow, prevent their\nreproduction, or even kill them. Some substances can\nsignificantly change physiological and metabolic processes.2\nThe ability of microorganisms to remain and be alive in the\npresence of antimicrobial drugs is known as antimicrobial\nresistance (AMR). Prolonged and extensive use of antibiotics\nover time has resulted in the development of AMR within\nmicroorganisms.3 Antimicrobial medicines are used to treat\nmicrobial infections, although this type of infection therapy is\nseverely hampered by the development of antibiotic resistance.\nTherefore, the discovery and development of new antimicro-\nbial drugs is crucial to effectively treat microbial illnesses.4 To\nfight antimicrobial-resistant microorganisms, new therapeutic\napproaches are considered necessary.\nFungal infection is on the rise around the world, posing a\ndanger to human health and life. Invasive candidiasis, in\nparticular, has risen to become the fourth main reason for\nbloodstream infection,5 causing up to 40% mortality in\npatients.6\nCandida species are among the most prevalent causes of\ninvasive infections and have distinct properties regarding\nvirulence, antifungal susceptibility, and capability for invasion.\nMany Candida spp. can cause infectious diseases, but the\nmajority are caused by Candida albicans and non-albicans\nCandida species like Candida glabrata, Candida krusei, Candida\nparapsilosis, and Candida tropicalis.7\nAzoles are a significant class of compounds used in the\ntreatment of human, animal, and plant fungus illnesses as well\nas in the preservation of material. Howver, the widespread\napplication of the same antifungal class in many biotopes does\nReceived:\nSeptember 22, 2022\nAccepted:\nNovember 21, 2022\nArticle\nhttp://pubs.acs.org/journal/acsodf\n© XXXX The Authors. Published by\nAmerican Chemical Society\nA\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nDownloaded via 85.153.236.216 on December 10, 2022 at 04:56:54 (UTC).\nSee https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.\n",
+      "blocks": [
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical\nComputation, and Antimicrobial Activity Studies of Some New\nBenzimidazole−Thiadiazole Hybrids",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 111.18110656738281,
+            "x1": 521.801513671875,
+            "y1": 164.17999267578125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Ismail Celik,* Ulviye Acar Çevik, Arzu Karayel, Ayşen Işık, Uğur Kayış, Ülküye Dudu Gül,\nHayrani Eren Bostancı, Süheyl Furkan Konca, Yusuf Özkay, and Zafer Asım Kaplancıklı",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 167.3029327392578,
+            "x1": 499.3145446777344,
+            "y1": 198.06719970703125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Cite This: https://doi.org/10.1021/acsomega.2c06142\nRead Online",
+          "bbox": {
+            "x0": 75.17479705810547,
+            "y0": 211.68798828125,
+            "x1": 385.89202880859375,
+            "y1": 220.68798828125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "ACCESS\nMetrics & More\nArticle Recommendations\n*\nsı\nSupporting Information",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 243.07501220703125,
+            "x1": 529.8231811523438,
+            "y1": 258.07501220703125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "ABSTRACT: In this study, some new compounds, which are 2-\naminothiadiazole derivatives linked by a phenyl bridge to the 2-\nposition of the benzimidazole ring, were designed and synthesized\nas antimicrobial agents. The structures of the compounds were\nelucidated by 1H and 13C NMR spectroscopy, high-resolution mass\nspectrometry, and elemental analysis. The antifungal activities of\nthe synthesized compounds were tested on Candida albicans,\nCandida krusei, Candida glabrata, and Candida parapsilosis.\nCompound 5f is more active against C. albicans and C. glabrata\nthan standard fluconazole and varicanazole. Compounds were also\nevaluated for their counteracting activity against Gram-positive\nEscherichia coli, Serratia marcescens, Klebsiella pneumoniae, and\nPseudomonas aeruginosa and Gram-negative Enterococcus faecalis, Bacillus subtilis, and Staphylococcus aureus. Compounds 5c and 5h\nhad minimum inhibitory concentrations against E. faecalis close to that of the standard azithromycin. Molecular docking studies were\nperformed against Candida species’ 14-α demethylase enzyme. 5f was the most active compound against Candida species, which gave\nthe highest docking interaction energy. The stabilities of compounds 5c and 5f with CYP51 were tested using 100 ns molecular\ndynamics simulations. According to the theoretical ADME calculations, the profiles of the compounds are suitable in terms of\nlimiting rules. HOMO−LUMO analysis showed that 5h is chemically more reactive (represented with the lower ΔE = 3.432 eV)\nthan the other molecules, which is compatible with the highest antibacterial activity result.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 271.0149841308594,
+            "x1": 555.4750366210938,
+            "y1": 479.0420227050781
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "1. INTRODUCTION",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 502.87200927734375,
+            "x1": 136.66151428222656,
+            "y1": 513.3720092773438
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "The advancements of modern medicine are being undermined\nby antibiotic resistance as infectious illnesses become once\nmore serious concern as a result of the global spread of\nantibiotic-resistant pathogens.1 Antimicrobial agents come in a\nvariety of forms, including antibiotics, and can be used to treat\nmicroorganisms to decrease their ability to grow, prevent their\nreproduction, or even kill them. Some substances can\nsignificantly change physiological and metabolic processes.2",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 519.386962890625,
+            "x1": 291.4789733886719,
+            "y1": 606.3759155273438
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "The ability of microorganisms to remain and be alive in the\npresence of antimicrobial drugs is known as antimicrobial\nresistance (AMR). Prolonged and extensive use of antibiotics\nover time has resulted in the development of AMR within\nmicroorganisms.3 Antimicrobial medicines are used to treat\nmicrobial infections, although this type of infection therapy is\nseverely hampered by the development of antibiotic resistance.\nTherefore, the discovery and development of new antimicro-\nbial drugs is crucial to effectively treat microbial illnesses.4 To\nfight antimicrobial-resistant microorganisms, new therapeutic\napproaches are considered necessary.\nFungal infection is on the rise around the world, posing a\ndanger to human health and life. Invasive candidiasis, in",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 607.375,
+            "x1": 291.48016357421875,
+            "y1": 749.3549194335938
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "particular, has risen to become the fourth main reason for\nbloodstream infection,5 causing up to 40% mortality in\npatients.6",
+          "bbox": {
+            "x0": 315.43902587890625,
+            "y0": 503.57196044921875,
+            "x1": 555.427001953125,
+            "y1": 536.9839477539062
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Candida species are among the most prevalent causes of\ninvasive infections and have distinct properties regarding\nvirulence, antifungal susceptibility, and capability for invasion.\nMany Candida spp. can cause infectious diseases, but the\nmajority are caused by Candida albicans and non-albicans\nCandida species like Candida glabrata, Candida krusei, Candida\nparapsilosis, and Candida tropicalis.7",
+          "bbox": {
+            "x0": 315.43994140625,
+            "y0": 538.322998046875,
+            "x1": 555.4849853515625,
+            "y1": 618.5650024414062
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Azoles are a significant class of compounds used in the\ntreatment of human, animal, and plant fungus illnesses as well\nas in the preservation of material. Howver, the widespread\napplication of the same antifungal class in many biotopes does",
+          "bbox": {
+            "x0": 315.4399719238281,
+            "y0": 619.9599609375,
+            "x1": 555.4409790039062,
+            "y1": 665.0519409179688
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Received:\nSeptember 22, 2022\nAccepted:\nNovember 21, 2022",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 681.2429809570312,
+            "x1": 429.34930419921875,
+            "y1": 701.240966796875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Article\nhttp://pubs.acs.org/journal/acsodf",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 85.2519760131836,
+            "x1": 548.4727172851562,
+            "y1": 93.44596099853516
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "© XXXX The Authors. Published by\nAmerican Chemical Society",
+          "bbox": {
+            "x0": 187.1999969482422,
+            "y0": 757.9650268554688,
+            "x1": 280.94525146484375,
+            "y1": 770.0471801757812
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "A",
+          "bbox": {
+            "x0": 301.09600830078125,
+            "y0": 769.0272827148438,
+            "x1": 305.8659362792969,
+            "y1": 776.5272216796875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 762.555419921875,
+            "x1": 555.47802734375,
+            "y1": 768.555419921875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX",
+          "bbox": {
+            "x0": 468.9634094238281,
+            "y0": 769.0744018554688,
+            "x1": 555.4804077148438,
+            "y1": 775.0744018554688
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Downloaded via 85.153.236.216 on December 10, 2022 at 04:56:54 (UTC).",
+          "bbox": {
+            "x0": 0.5760002136230469,
+            "y0": 278.91094970703125,
+            "x1": 11.248000144958496,
+            "y1": 521.990966796875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.",
+          "bbox": {
+            "x0": 9.576000213623047,
+            "y0": 238.12298583984375,
+            "x1": 20.24799919128418,
+            "y1": 562.77099609375
+          }
+        }
+      ],
+      "render_path": "assets/page-0001.png"
+    },
+    {
+      "number": 2,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "carry a danger since the development of antifungal resistance\nthrough use in one field of application may impair the\neffectiveness of related compounds in other fields of\napplication.8 Multiple azole resistance mechanisms in Candida\nspecies have been identified.9 Antifungal medication resistance\nis characterized as a heritable alteration in the fungus’\nsensitivity to medicine or fungicide that decreases the drug’s\neffectiveness in treating the fungus. During long-term azole\ntherapy, resistance to medical azoles with action against\nantifungal drugs may develop.10 These problems must be\novercome for an effective treatment to be carried out.\nFigure 1. Structures of the designed and synthesized N-substituted 5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)phenyl)-1,3,4-thiadiazol-2-amine\nderivatives 5a−h as antimicrobial agents, the antibacterial cefazolin, and the antifungals chlormidazole and carbendazim.\nFigure 2. Synthesis pathway for the target 1,3,4-thiazole−benzimidazole hybrid compounds 5a−h. Reagents and conditions: (a) Na2S2O5, EtOH,\nrt, 1 h; (b) DMF, 12, 5 h; (c) NH2NH2, EtOH, reflux, 12 h; (d) RNCS, EtOH, reflux, 3 h; (e) H2SO4, 0 °C, 10 min, then 25 °C, 10 min.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nB\n",
+      "blocks": [
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "carry a danger since the development of antifungal resistance\nthrough use in one field of application may impair the\neffectiveness of related compounds in other fields of\napplication.8 Multiple azole resistance mechanisms in Candida\nspecies have been identified.9 Antifungal medication resistance\nis characterized as a heritable alteration in the fungus’",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 690.032958984375,
+            "x1": 291.4711608886719,
+            "y1": 755.1948852539062
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "sensitivity to medicine or fungicide that decreases the drug’s\neffectiveness in treating the fungus. During long-term azole\ntherapy, resistance to medical azoles with action against\nantifungal drugs may develop.10 These problems must be\novercome for an effective treatment to be carried out.",
+          "bbox": {
+            "x0": 315.43798828125,
+            "y0": 690.0338745117188,
+            "x1": 555.447021484375,
+            "y1": 755.1947021484375
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Figure 1. Structures of the designed and synthesized N-substituted 5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)phenyl)-1,3,4-thiadiazol-2-amine\nderivatives 5a−h as antimicrobial agents, the antibacterial cefazolin, and the antifungals chlormidazole and carbendazim.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 379.9770202636719,
+            "x1": 555.4552612304688,
+            "y1": 398.95440673828125
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Figure 2. Synthesis pathway for the target 1,3,4-thiazole−benzimidazole hybrid compounds 5a−h. Reagents and conditions: (a) Na2S2O5, EtOH,\nrt, 1 h; (b) DMF, 12, 5 h; (c) NH2NH2, EtOH, reflux, 12 h; (d) RNCS, EtOH, reflux, 3 h; (e) H2SO4, 0 °C, 10 min, then 25 °C, 10 min.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 658.5419921875,
+            "x1": 555.4656982421875,
+            "y1": 679.0816040039062
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nB",
+          "bbox": {
+            "x0": 301.322998046875,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0002.png"
+    },
+    {
+      "number": 3,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "Thiadiazoles are azole derivatives that are used as structural\ncomponents of physiologically active compounds and as\npractical intermediates. Thiadiazole is a heterocyclic nucleus\ncontaining sulfur and nitrogen that belongs to a large class of\nheterocyclic compounds with many isomers that are important\nin medicine.11 The biological activities of molecules containing\ntriazole or thiadiazole are very diverse. Because of the variety of\nbiological activities, 1,3,4 thiadiazole is one of the most\nbeneficial isomeric forms.12−15 The 1,3,4-thiadiazole structure\nis one of the most significant and well-known heterocycles,\nwhich is a common and complementary advantage of a range\nof pharmaceutical and natural substances. The thiadiazole ring\nis present as a key component in an assemblage of\npharmacological categories because 1,3,4-thiadiazole deriva-\ntives have a wide range of biological activities, including\nantimicrobial,16 antiviral,17 anti-inflammatory, and analgesic,18\nand anticancer activity.19\nIn this study, new benzimidazole−thiadiazole hybrids 5a−h\nwere designed by combining the thiadiazole core of the\nantibacterial cefazolin and the benzimidazole core of the\nantifungals chlormidazole and carbendazim (the active\nmetabolite of benomyl) (Figure 1). A common method for\nfinding structurally new, powerful molecules with enhanced\ncharacteristics is scaffold hopping.20,21 In the present study, we\nadopted the scaffold-hopping strategy22−24 and incorporated\nthe benzimidazole group in the thiadiazole moiety to design\nnew antimicrobial scaffold.\nBenzimidazole−thiadiazole derivatives were prepared in five\nsteps. The synthesized thiadiazoles were characterized by 1H\nand 13C NMR spectroscopy, high-resolution mass spectrom-\netry (HRMS), and elemental analysis and studied as\nantimicrobial agents against bacterial and fungal species. In\naddition, molecular docking studies were performed with 14-α\ndemethylase (CYP51) of Candida. To examine the stability of\ncompounds with CYP51, 100 ns molecular dynamics (MD)\nsimulations were performed. In the molecular docking study, it\nis essential to determine the accurate structure of the ligand\npossessing the lowest minimum energy. For this purpose, the\neight newly synthesized compounds were modeled with\ndensity functional theory (DFT). Moreover, to understand\nhow electrostatic interactions affect the binding of CYP51 of\nCandida with the newly synthesized benzimidazole−thiadia-\nzole hybrids, molecular electrostatic potential (MEP) and\nHOMO−LUMO analyses were performed at the B3LYP/6-\n311G(d,p) level.\n2. RESULTS AND DISCUSSION\n2.1. Chemistry. As shown in Figure 2, the target molecules\nwere synthesized in five steps. First of all, the aldehyde part of\nmethyl 4-formylbenzoate was treated with sodium metabisul-\nfite in ethanol to obtain compound 1, the sodium metabisulfite\naddition product of the aldehyde. In the second step, as a result\nof the condensation reaction of 1 and 4,5-dimethyl-1,2-\nphenylenediamine under reflux, methyl 4-(5,6-dimethyl-1H-\nbenzimidazol-2-yl)benzoate (2) was obtained. A significant\nconceptual innovation in organic synthesis is selectivity\ncontrol, which frequently becomes the bottleneck in the\nproduction process. Due to the competitive synthesis of 1,2-\ndisubstituted and 2-substituted benzimidazoles, such a\nsituation has a significant potential to arise during the direct\ncyclocondensation of o-phenylenediamines with aldehydes.25,26\nWith this method, the 2-substituted benzimidazole derivative\nwas obtained selectively.\nBased on certain information from the literature, a\nmechanism has been proposed for the production of\nbenzimidazole 2 (Figure 3). The amine group on the o-\nphenylenediamine makes a nucleophilic assault on the carbon\natom of the aldehyde bisulfite compound to start the reaction.\nFigure 3. Reaction mechanism for compound 2.\nFigure 4. Reaction mechanism for compound 3.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nC\n",
+      "blocks": [
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Thiadiazoles are azole derivatives that are used as structural\ncomponents of physiologically active compounds and as\npractical intermediates. Thiadiazole is a heterocyclic nucleus\ncontaining sulfur and nitrogen that belongs to a large class of\nheterocyclic compounds with many isomers that are important\nin medicine.11 The biological activities of molecules containing\ntriazole or thiadiazole are very diverse. Because of the variety of\nbiological activities, 1,3,4 thiadiazole is one of the most\nbeneficial isomeric forms.12−15 The 1,3,4-thiadiazole structure\nis one of the most significant and well-known heterocycles,\nwhich is a common and complementary advantage of a range\nof pharmaceutical and natural substances. The thiadiazole ring\nis present as a key component in an assemblage of\npharmacological categories because 1,3,4-thiadiazole deriva-\ntives have a wide range of biological activities, including\nantimicrobial,16 antiviral,17 anti-inflammatory, and analgesic,18",
+          "bbox": {
+            "x0": 51.477596282958984,
+            "y0": 379.5830078125,
+            "x1": 291.4850158691406,
+            "y1": 555.8059692382812
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "and anticancer activity.19",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 554.6995239257812,
+            "x1": 147.56788635253906,
+            "y1": 566.8609619140625
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "In this study, new benzimidazole−thiadiazole hybrids 5a−h\nwere designed by combining the thiadiazole core of the\nantibacterial cefazolin and the benzimidazole core of the\nantifungals chlormidazole and carbendazim (the active\nmetabolite of benomyl) (Figure 1). A common method for\nfinding structurally new, powerful molecules with enhanced\ncharacteristics is scaffold hopping.20,21 In the present study, we\nadopted the scaffold-hopping strategy22−24 and incorporated\nthe benzimidazole group in the thiadiazole moiety to design\nnew antimicrobial scaffold.\nBenzimidazole−thiadiazole derivatives were prepared in five\nsteps. The synthesized thiadiazoles were characterized by 1H\nand 13C NMR spectroscopy, high-resolution mass spectrom-\netry (HRMS), and elemental analysis and studied as\nantimicrobial agents against bacterial and fungal species. In\naddition, molecular docking studies were performed with 14-α\ndemethylase (CYP51) of Candida. To examine the stability of",
+          "bbox": {
+            "x0": 51.477596282958984,
+            "y0": 567.1959838867188,
+            "x1": 291.47064208984375,
+            "y1": 755.1941528320312
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "compounds with CYP51, 100 ns molecular dynamics (MD)\nsimulations were performed. In the molecular docking study, it\nis essential to determine the accurate structure of the ligand\npossessing the lowest minimum energy. For this purpose, the\neight newly synthesized compounds were modeled with\ndensity functional theory (DFT). Moreover, to understand\nhow electrostatic interactions affect the binding of CYP51 of\nCandida with the newly synthesized benzimidazole−thiadia-\nzole hybrids, molecular electrostatic potential (MEP) and\nHOMO−LUMO analyses were performed at the B3LYP/6-\n311G(d,p) level.",
+          "bbox": {
+            "x0": 315.4366760253906,
+            "y0": 379.5851745605469,
+            "x1": 555.4755859375,
+            "y1": 499.5681457519531
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2. RESULTS AND DISCUSSION",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 509.7879638671875,
+            "x1": 453.4562683105469,
+            "y1": 520.2879638671875
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2.1. Chemistry. As shown in Figure 2, the target molecules\nwere synthesized in five steps. First of all, the aldehyde part of\nmethyl 4-formylbenzoate was treated with sodium metabisul-\nfite in ethanol to obtain compound 1, the sodium metabisulfite\naddition product of the aldehyde. In the second step, as a result\nof the condensation reaction of 1 and 4,5-dimethyl-1,2-\nphenylenediamine under reflux, methyl 4-(5,6-dimethyl-1H-\nbenzimidazol-2-yl)benzoate (2) was obtained. A significant\nconceptual innovation in organic synthesis is selectivity\ncontrol, which frequently becomes the bottleneck in the\nproduction process. Due to the competitive synthesis of 1,2-\ndisubstituted and 2-substituted benzimidazoles, such a\nsituation has a significant potential to arise during the direct\ncyclocondensation of o-phenylenediamines with aldehydes.25,26",
+          "bbox": {
+            "x0": 315.43994140625,
+            "y0": 524.4500122070312,
+            "x1": 555.4749755859375,
+            "y1": 678.1480102539062
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "With this method, the 2-substituted benzimidazole derivative\nwas obtained selectively.\nBased on certain information from the literature, a\nmechanism has been proposed for the production of\nbenzimidazole 2 (Figure 3). The amine group on the o-\nphenylenediamine makes a nucleophilic assault on the carbon\natom of the aldehyde bisulfite compound to start the reaction.",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 679.2049560546875,
+            "x1": 555.4800415039062,
+            "y1": 755.1949462890625
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Figure 3. Reaction mechanism for compound 2.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 199.69297790527344,
+            "x1": 221.45828247070312,
+            "y1": 208.69297790527344
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Figure 4. Reaction mechanism for compound 3.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 358.7740173339844,
+            "x1": 221.45828247070312,
+            "y1": 367.7740173339844
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nC",
+          "bbox": {
+            "x0": 301.2659912109375,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0003.png"
+    },
+    {
+      "number": 4,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "There is a loss of one mole of water. The resultant\nalkylsulfonate then interacts with the other amine group of\nthe o-phenylenediamine to produce the intermediate dihy-\ndroimidazole. Finally, the benzimidazole ring is obtained by\naromatization.27,28\nIn the next step, compound 2 was treated with hydrazine\nhydrate in ethanol to obtain 4-(5,6-dimethyl-1H-benzimidazol-\n2-yl)benzene-1-carbohydrazide (3). The proposed mechanism\nfor the reaction of ester derivative compound 2 with hydrazine\nhydrate to give 3 is given in Figure 4.29\nThe hydrazide derivative compound and the appropriate\nisothiocyanate derivatives in ethanol were refluxed, and the\nprecipitated products were filtered off. In the last step, the\nthiadiazole derivatives 5a−h were obtained by cyclization of\nthe thiosemicarbazide compound in the presence of con-\ncentrated sulfuric acid.30,31 The tendency for the 1,3,4-\nthiadiazole ring to form under acidic conditions may stem\nfrom loss of nucleophilicity of N4 as a result of protonation,\nwhich then causes a corresponding increase in the sulfur atom’s\nnucleophilicity toward the attack of the carbonyl carbon. The\nFigure 5. Reaction mechanism for compounds 4a−h and 5a−h.\nTable 1. Antifungal Activities of Compounds 5a−h as MIC Values (μg/mL)a\naA: C. albicans. B: C. krusei., C: C. glabrata. D: C. parapsilosis.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nD\n",
+      "blocks": [
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "There is a loss of one mole of water. The resultant\nalkylsulfonate then interacts with the other amine group of\nthe o-phenylenediamine to produce the intermediate dihy-\ndroimidazole. Finally, the benzimidazole ring is obtained by\naromatization.27,28",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 625.5159912109375,
+            "x1": 291.4811096191406,
+            "y1": 689.2030029296875
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "In the next step, compound 2 was treated with hydrazine\nhydrate in ethanol to obtain 4-(5,6-dimethyl-1H-benzimidazol-\n2-yl)benzene-1-carbohydrazide (3). The proposed mechanism\nfor the reaction of ester derivative compound 2 with hydrazine\nhydrate to give 3 is given in Figure 4.29",
+          "bbox": {
+            "x0": 51.477596282958984,
+            "y0": 691.449951171875,
+            "x1": 291.4765930175781,
+            "y1": 755.1939697265625
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "The hydrazide derivative compound and the appropriate\nisothiocyanate derivatives in ethanol were refluxed, and the\nprecipitated products were filtered off. In the last step, the\nthiadiazole derivatives 5a−h were obtained by cyclization of\nthe thiosemicarbazide compound in the presence of con-\ncentrated sulfuric acid.30,31 The tendency for the 1,3,4-\nthiadiazole ring to form under acidic conditions may stem\nfrom loss of nucleophilicity of N4 as a result of protonation,\nwhich then causes a corresponding increase in the sulfur atom’s\nnucleophilicity toward the attack of the carbonyl carbon. The",
+          "bbox": {
+            "x0": 315.44000244140625,
+            "y0": 625.5159912109375,
+            "x1": 555.4760131835938,
+            "y1": 755.1939697265625
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Figure 5. Reaction mechanism for compounds 4a−h and 5a−h.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 236.9730224609375,
+            "x1": 277.0395812988281,
+            "y1": 246.6210174560547
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Table 1. Antifungal Activities of Compounds 5a−h as MIC Values (μg/mL)a",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 256.4945068359375,
+            "x1": 365.84698486328125,
+            "y1": 268.6559753417969
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "aA: C. albicans. B: C. krusei., C: C. glabrata. D: C. parapsilosis.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 599.0885620117188,
+            "x1": 270.1208190917969,
+            "y1": 610.0230102539062
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nD",
+          "bbox": {
+            "x0": 300.8689880371094,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0004.png"
+    },
+    {
+      "number": 5,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "reaction mechanism for 1,3,4-thiadiazole derivatives 5a−h is\nshown in Figure 5.32−34\n2.2. Antimicrobial Activity. 2.2.1. Antifungal Activity. In\nvitro antifungal screening of the synthesized compounds was\nassessed against C. albicans ATCC 24433, C. glabrata (ATCC\n90030), C. krusei ATCC 6258, C. parapsilosis (ATCC 22019).\nThe minimum inhibitory concentration (MIC) values of the\nsynthesized compounds and the control drugs against fungus\nstrains are summarized in Table 1. Voriconazole and\nfluconazole were used as reference drugs for antifungal activity.\nThe majority of the synthesized compounds effectively\nsuppressed the growth of C. albicans, according to the results of\nthe antifungal screening. Compounds 5a, 5c, 5d, 5e, 5f, and 5g\nwere found to be twice as effective as the reference drug\nvoriconazole (MIC = 1.95 μg/mL). In addition, against C.\nalbicans compound 5b had the same effect profile as the\nreference drug fluconazole (MIC = 7.81 μg/mL). Compound\n5f was the most effective against C. glabrata, which was found\nto be twice as effective as the reference drug voriconazole\n(MIC = 0.97 μg/mL), whereas compound 5c showed the same\neffect profile as the reference drug voriconazole (MIC = 1.95\nμg/mL). Compound 5a showed the same effect profile as the\nreference drug fluconazole (MIC = 3.90 μg/mL). Compound\n5c was the only compound that was effective against C. krusei\n(MIC = 15.625 μg/mL) and had an effect profile close to that\nof the reference drug fluconazole (MIC = 7.81 μg/mL). The\nsynthesized compounds have relatively low efficacy as\nantifungal agents against C. krusei and C. parapsilosis among\nthe fungus strains.\n2.2.2. Antibacterial Activity. In vitro antibacterial screening\nof the synthesized compounds was assessed against Escherichia\ncoli (ATCC 25922), Serratia marcescens (ATCC 8100),\nKlebsiella pneumoniae (ATCC 13883), and Pseudomonas\naeruginosa (ATCC 27853), Enterococcus faecalis (ATCC\n2942), Bacillus subtilis (NRRL NRS 744), Staphylococcus\naureus (ATCC 29213), and S. epidermidis (ATCC 12228).\nAzithromycin was used as the reference drug for antibacterial\nactivity. The MIC values of the synthesized compounds and\nthe control drug against the bacterial strains are summarized in\nTable 2. In general, it could be observed that the 2-chloroethyl\nderivative 5c and the 4-methoxyphenyl derivative 5h exhibited\npotent activity against the Gram-positive bacteria E. faecalis,\nwith MIC values of 1.95 μg/mL compared to azithromycin.For\nthese compounds, the electron-withdrawing −Cl group at the\n2-position of the ethyl group and the −OCH3 group at the 4-\nposition on the phenyl ring, respectively, appeared to increase\nthe antimicrobial activity. Compounds 5d and 5e also had\nnotable efficacy (MIC 3.90 μg/mL) against E. faecalis ATCC\n2942, whereas compounds containing electron-donating CH3\ngroups (5a, 5b, 5f, and 5g) had lower antimicrobial activity.\nStructure−Activity Relationship. We discuss the structure−\nactivity relationship (SAR) due to the variations in chemical\nstructures and antimicrobial activity profiles of these\nsubstances (Figure 6). The compounds differed in the\nTable 2. Antibacterial Activities of Compounds 5a−h as MIC Values (μg/mL)a\naA: E. coli. B: S. marcescens. C: K. pneumoniae. D: P. aeruginosa. E: E. faecalis. F: B. subtilis. G: S. aureus. A−D are Gram-negative bacteria, and E−G\nare Gram positive bacteria.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nE\n",
+      "blocks": [
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "reaction mechanism for 1,3,4-thiadiazole derivatives 5a−h is\nshown in Figure 5.32−34",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 457.3819885253906,
+            "x1": 291.4471435546875,
+            "y1": 479.156982421875
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "2.2. Antimicrobial Activity. 2.2.1. Antifungal Activity. In\nvitro antifungal screening of the synthesized compounds was\nassessed against C. albicans ATCC 24433, C. glabrata (ATCC\n90030), C. krusei ATCC 6258, C. parapsilosis (ATCC 22019).\nThe minimum inhibitory concentration (MIC) values of the\nsynthesized compounds and the control drugs against fungus\nstrains are summarized in Table 1. Voriconazole and\nfluconazole were used as reference drugs for antifungal activity.\nThe majority of the synthesized compounds effectively\nsuppressed the growth of C. albicans, according to the results of\nthe antifungal screening. Compounds 5a, 5c, 5d, 5e, 5f, and 5g\nwere found to be twice as effective as the reference drug\nvoriconazole (MIC = 1.95 μg/mL). In addition, against C.\nalbicans compound 5b had the same effect profile as the\nreference drug fluconazole (MIC = 7.81 μg/mL). Compound\n5f was the most effective against C. glabrata, which was found\nto be twice as effective as the reference drug voriconazole\n(MIC = 0.97 μg/mL), whereas compound 5c showed the same\neffect profile as the reference drug voriconazole (MIC = 1.95\nμg/mL). Compound 5a showed the same effect profile as the\nreference drug fluconazole (MIC = 3.90 μg/mL). Compound\n5c was the only compound that was effective against C. krusei\n(MIC = 15.625 μg/mL) and had an effect profile close to that\nof the reference drug fluconazole (MIC = 7.81 μg/mL). The\nsynthesized compounds have relatively low efficacy as",
+          "bbox": {
+            "x0": 51.478084564208984,
+            "y0": 479.4360046386719,
+            "x1": 291.482177734375,
+            "y1": 755.1929321289062
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "antifungal agents against C. krusei and C. parapsilosis among\nthe fungus strains.\n2.2.2. Antibacterial Activity. In vitro antibacterial screening\nof the synthesized compounds was assessed against Escherichia\ncoli (ATCC 25922), Serratia marcescens (ATCC 8100),\nKlebsiella pneumoniae (ATCC 13883), and Pseudomonas\naeruginosa (ATCC 27853), Enterococcus faecalis (ATCC\n2942), Bacillus subtilis (NRRL NRS 744), Staphylococcus\naureus (ATCC 29213), and S. epidermidis (ATCC 12228).\nAzithromycin was used as the reference drug for antibacterial\nactivity. The MIC values of the synthesized compounds and\nthe control drug against the bacterial strains are summarized in\nTable 2. In general, it could be observed that the 2-chloroethyl\nderivative 5c and the 4-methoxyphenyl derivative 5h exhibited\npotent activity against the Gram-positive bacteria E. faecalis,\nwith MIC values of 1.95 μg/mL compared to azithromycin.For\nthese compounds, the electron-withdrawing −Cl group at the\n2-position of the ethyl group and the −OCH3 group at the 4-\nposition on the phenyl ring, respectively, appeared to increase\nthe antimicrobial activity. Compounds 5d and 5e also had\nnotable efficacy (MIC 3.90 μg/mL) against E. faecalis ATCC\n2942, whereas compounds containing electron-donating CH3\ngroups (5a, 5b, 5f, and 5g) had lower antimicrobial activity.\nStructure−Activity Relationship. We discuss the structure−\nactivity relationship (SAR) due to the variations in chemical\nstructures and antimicrobial activity profiles of these\nsubstances (Figure 6). The compounds differed in the",
+          "bbox": {
+            "x0": 315.4371643066406,
+            "y0": 458.10296630859375,
+            "x1": 555.4759521484375,
+            "y1": 755.1942749023438
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Table 2. Antibacterial Activities of Compounds 5a−h as MIC Values (μg/mL)a",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 58.4665412902832,
+            "x1": 375.31500244140625,
+            "y1": 70.68502807617188
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "aA: E. coli. B: S. marcescens. C: K. pneumoniae. D: P. aeruginosa. E: E. faecalis. F: B. subtilis. G: S. aureus. A−D are Gram-negative bacteria, and E−G\nare Gram positive bacteria.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 421.6965637207031,
+            "x1": 555.4713134765625,
+            "y1": 442.6643981933594
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nE",
+          "bbox": {
+            "x0": 301.54998779296875,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0005.png"
+    },
+    {
+      "number": 6,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "derivatization of the amine group at the 2-position of the\nthiadiazole ring. The electron-withdrawing −OCH3 at the 4-\nposition of the phenyl substituent (compound 5h) showed\noutstanding antibacterial activity with a MIC value of 1.95 μg/\nmL against E. faecalis. The electron-withdrawing −Cl group at\nthe 2-position of the ethyl group in 5c appears to increase both\nthe antibacterial and antifungal activity. Compounds 5a−h\nshowed relatively similar antifungal activities, which suggests\nthat there are no significant differences in the contributions of\ndifferent N-substituted moieties to the antifungal activity,\nmaking consideration of the SARs very difficult. Looking at the\nchemical structure of the compounds that showed stronger\nantifungal activity, one can see that compound 5f carrying the\nN-isopropyl structure is the most effective compound.\n2.3. Cytotoxicity Assay. To prove the safety of these\ncompounds to the human body, the cytotoxicity of the\ncompounds to the mouse fibroblast normal cell line (L929)\nwas determined by MTT assay. As shown in Figure 7,\ncompounds 5b, 5e, and 5h were found to have the lowest\ntoxicity. These findings show that the antimicrobial activities of\ncompounds 5e and 5h is not due to general toxicity. Views of\nthe L929 cell line after administration of the synthesized\ncompounds are shown in Figure 8.\n2.4. Molecular Docking Analysis. The interactions of\ncompounds 5a−h, which consist of a substituted thiadiazole\nderivative bridged to the benzimidazole 2-position by a phenyl\ngroup and show good antifungal activity, with the target\nCandida sterol 14-α demethylase (CYP51) were analyzed by\nthe in silico molecular docking method. On the basis of\nprevious studies, benzimidazole derivative compounds show\nantifungal activity by inhibiting this enzyme.35−37 For this\nreason, CYP51 was identified as the target protein. The azole\ngroup of antifungal compounds such as fluconazole and\nvoriconazole is responsible for the interaction with the heme\nstructure in the CYP51 structure, and this interaction is key for\ninhibition.38\nAccording to molecular docking, the compounds have\nsimilar binding poses. As shown in Figure 9, in the\nbenzimidazole−thiadiazole derivative compounds, like azoles,\nthe thiadiazole core is responsible for the interaction with\nheme. A hydrogen bond is formed between Met508 and the\nhydrogen at the 1-position of the benzimidazole ring. The\nmolecular docking interaction energies of the compounds are\ngiven in Table 3. The most active compound, 5f, is the\ncompound with the highest docking energy (−10.928 kcal/\nmol). As with the antifungal activity results, most of the\ncompounds (except 5b and 5h) have higher interaction\nenergies than standard fluconazole and voriconazole. As shown\nin Figure 9B, compound 5c has a 2.09 Å hydrogen bond\nbetween the benzimidazole core H and Met508, a 5.15 Å π−π\nstacking interaction with heme, and other π−π stacking\ninteractions with Phe233 (5.47 Å), Hie377 (4.46 Å), and Tyr\n118 (4.96 Å). In addition, 5c forms hydrophobic van der Waals\ninteractions with Leu87, Tyr64, Leu376, Ile379, Phe380,\nPro230, Phe228, Leu121, Phe126, Ile304, Ile131, Tyr132, and\nTyr505. As shown in Figure 9D, as in 5c, the most active\ncompound 5f has a 2.10 Å hydrogen bond with Met508 and\nπ−π stacking interactions with heme (5.10 Å), Phe233 (5.44\nÅ), Hie377 (4.48 Å), and Tyr 118 (4.99 Å). In addition, 5f\ngave polar interactions with Hie377, Ser378, Ser506, and\nSer507 and hydrophobic interactions with Phe233, Met508,\nTyr118, Pro230, Phe233, Leu121, Tyr505, Leu87, Tyr64,\nLeu376, Ile379, Phe380, Ile304, and Gly303. For compounds\n5d and 5h carrying the substituted phenyl ring, compound 5e\ncarrying the cyclohexyl group, and compound 5g carrying the\npropyl group, the π−π stacking interactions between the\nthiadiazole ring and the heme group could not occur. Small\ngroups such as methyl, ethyl, chloroethyl, and isopropyl are\nmore important for interaction. 2D protein−ligand interaction\ndetails are given in Figure S1.\n2.5. Molecular Dynamics Simulations. To evaluate the\nstability of the protein−ligand complexes formed by the\npotential antifungal compounds 5c and 5f with Candida sterol\n14-α demethylase, 100 ns duration MD simulations were\nperformed.36,39 Also, the complex of the standard compound\nvoriconazole with CYP51 was simulated for MD validation and\ncompared with the complexes with synthesized compounds 5c\nand 5f (Figure S2). Charmm36m force fields for topology files\nof CYP51 and compounds 5c and 5f were chosen to be\ncompatible with protein−ligand complexes containing the\nheme structure. The numbers of hydrogen bonds between\nCYP51 and 5c and between CYP51 and 5f, the root-mean-\nsquare deviation (RMSD), and the root-mean-square fluctua-\ntion (RMSF) were analyzed from the trajectory as time-\ndependent for 100 ns, and the results are shown in Figure 10.\nThe RMSD, which is used to analyze the deviations in the\nprotein structure, indicates the stability of the protein. As\nshown in Figure 10A, the CYP51−5c complex remained stable\nat around 0.2 nm, and the CYP51−5f complex remained stable\nFigure 6. SAR outline for compounds 5a−h.\nFigure 7. Cell viabilities (%) of the L929 fibroblast cell line against\ncompounds 5a−h for 24 h.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nF\n",
+      "blocks": [
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "derivatization of the amine group at the 2-position of the\nthiadiazole ring. The electron-withdrawing −OCH3 at the 4-\nposition of the phenyl substituent (compound 5h) showed\noutstanding antibacterial activity with a MIC value of 1.95 μg/\nmL against E. faecalis. The electron-withdrawing −Cl group at\nthe 2-position of the ethyl group in 5c appears to increase both\nthe antibacterial and antifungal activity. Compounds 5a−h\nshowed relatively similar antifungal activities, which suggests\nthat there are no significant differences in the contributions of\ndifferent N-substituted moieties to the antifungal activity,\nmaking consideration of the SARs very difficult. Looking at the\nchemical structure of the compounds that showed stronger\nantifungal activity, one can see that compound 5f carrying the\nN-isopropyl structure is the most effective compound.\n2.3. Cytotoxicity Assay. To prove the safety of these\ncompounds to the human body, the cytotoxicity of the\ncompounds to the mouse fibroblast normal cell line (L929)\nwas determined by MTT assay. As shown in Figure 7,",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 235.92300415039062,
+            "x1": 291.4840087890625,
+            "y1": 432.8940124511719
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "compounds 5b, 5e, and 5h were found to have the lowest\ntoxicity. These findings show that the antimicrobial activities of\ncompounds 5e and 5h is not due to general toxicity. Views of\nthe L929 cell line after administration of the synthesized\ncompounds are shown in Figure 8.\n2.4. Molecular Docking Analysis. The interactions of\ncompounds 5a−h, which consist of a substituted thiadiazole\nderivative bridged to the benzimidazole 2-position by a phenyl",
+          "bbox": {
+            "x0": 51.478973388671875,
+            "y0": 668.14599609375,
+            "x1": 291.468994140625,
+            "y1": 755.19091796875
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "group and show good antifungal activity, with the target\nCandida sterol 14-α demethylase (CYP51) were analyzed by\nthe in silico molecular docking method. On the basis of\nprevious studies, benzimidazole derivative compounds show\nantifungal activity by inhibiting this enzyme.35−37 For this\nreason, CYP51 was identified as the target protein. The azole\ngroup of antifungal compounds such as fluconazole and\nvoriconazole is responsible for the interaction with the heme\nstructure in the CYP51 structure, and this interaction is key for\ninhibition.38",
+          "bbox": {
+            "x0": 315.43896484375,
+            "y0": 60.17596435546875,
+            "x1": 555.4850463867188,
+            "y1": 169.6129913330078
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "According to molecular docking, the compounds have\nsimilar binding poses. As shown in Figure 9, in the\nbenzimidazole−thiadiazole derivative compounds, like azoles,\nthe thiadiazole core is responsible for the interaction with\nheme. A hydrogen bond is formed between Met508 and the\nhydrogen at the 1-position of the benzimidazole ring. The\nmolecular docking interaction energies of the compounds are\ngiven in Table 3. The most active compound, 5f, is the\ncompound with the highest docking energy (−10.928 kcal/\nmol). As with the antifungal activity results, most of the\ncompounds (except 5b and 5h) have higher interaction\nenergies than standard fluconazole and voriconazole. As shown\nin Figure 9B, compound 5c has a 2.09 Å hydrogen bond\nbetween the benzimidazole core H and Met508, a 5.15 Å π−π\nstacking interaction with heme, and other π−π stacking\ninteractions with Phe233 (5.47 Å), Hie377 (4.46 Å), and Tyr\n118 (4.96 Å). In addition, 5c forms hydrophobic van der Waals\ninteractions with Leu87, Tyr64, Leu376, Ile379, Phe380,\nPro230, Phe228, Leu121, Phe126, Ile304, Ile131, Tyr132, and\nTyr505. As shown in Figure 9D, as in 5c, the most active\ncompound 5f has a 2.10 Å hydrogen bond with Met508 and\nπ−π stacking interactions with heme (5.10 Å), Phe233 (5.44\nÅ), Hie377 (4.48 Å), and Tyr 118 (4.99 Å). In addition, 5f\ngave polar interactions with Hie377, Ser378, Ser506, and\nSer507 and hydrophobic interactions with Phe233, Met508,\nTyr118, Pro230, Phe233, Leu121, Tyr505, Leu87, Tyr64,\nLeu376, Ile379, Phe380, Ile304, and Gly303. For compounds\n5d and 5h carrying the substituted phenyl ring, compound 5e\ncarrying the cyclohexyl group, and compound 5g carrying the\npropyl group, the π−π stacking interactions between the\nthiadiazole ring and the heme group could not occur. Small\ngroups such as methyl, ethyl, chloroethyl, and isopropyl are\nmore important for interaction. 2D protein−ligand interaction\ndetails are given in Figure S1.\n2.5. Molecular Dynamics Simulations. To evaluate the\nstability of the protein−ligand complexes formed by the\npotential antifungal compounds 5c and 5f with Candida sterol\n14-α demethylase, 100 ns duration MD simulations were\nperformed.36,39 Also, the complex of the standard compound\nvoriconazole with CYP51 was simulated for MD validation and\ncompared with the complexes with synthesized compounds 5c\nand 5f (Figure S2). Charmm36m force fields for topology files\nof CYP51 and compounds 5c and 5f were chosen to be\ncompatible with protein−ligand complexes containing the\nheme structure. The numbers of hydrogen bonds between\nCYP51 and 5c and between CYP51 and 5f, the root-mean-\nsquare deviation (RMSD), and the root-mean-square fluctua-\ntion (RMSF) were analyzed from the trajectory as time-\ndependent for 100 ns, and the results are shown in Figure 10.\nThe RMSD, which is used to analyze the deviations in the\nprotein structure, indicates the stability of the protein. As\nshown in Figure 10A, the CYP51−5c complex remained stable\nat around 0.2 nm, and the CYP51−5f complex remained stable",
+          "bbox": {
+            "x0": 315.4399719238281,
+            "y0": 170.66897583007812,
+            "x1": 555.4840698242188,
+            "y1": 755.1929931640625
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Figure 6. SAR outline for compounds 5a−h.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 214.40899658203125,
+            "x1": 209.46128845214844,
+            "y1": 224.05699157714844
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Figure 7. Cell viabilities (%) of the L929 fibroblast cell line against\ncompounds 5a−h for 24 h.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 629.31201171875,
+            "x1": 291.45941162109375,
+            "y1": 648.3461303710938
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nF",
+          "bbox": {
+            "x0": 301.54998779296875,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0006.png"
+    },
+    {
+      "number": 7,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "below 0.15 nm. RMSF measurements were performed to\nmeasure the mobility and flexibility per residue. As shown in\nFigure 10B, the complex formed by CYP51 and compound 5f\nshowed less fluctuation than the complex formed by 5c and\nmade CYP51 more stable. Analyzing the mobility of the\nprotein and ligand system and the hydrogen-bond exchange\nbetween the compounds and CYP51 over time is another way\nof understanding protein−ligand stability. As shown in Figure\n10C,D, compound 5c often formed one hydrogen bond for\n100 ns, while compound 5f formed two hydrogen bonds most\nof the time. According to the trajectory analysis, stable\nstructures were formed with CYP51 in each compound.\nHowever, when the RMSD, RMSF, and hydrogen bond data\nwere examined, compound 5f formed a more stable protein−\nligand complex than voricanazole.\nAnimations were created to monitor the changes of\ncompounds 5c and 5f over 100 ns (Videos S1 and S2). Both\ncompounds appear to be stable at the CYP51 active site. In\naddition, protein−ligand binding poses were created to show\nthe positions of the compounds with heme at the end of the\nMD simulation (Figure 11). Accordingly, although there are\nchanges in some interactions, interactions with heme are\npreserved, and stability continues.\n2.6. ADME Estimations. Absorption, distribution, metab-\nolism, and excretion (ADME) estimates of the newly\nsynthesized benzimidazole−thiadiazole hybrids were made\nusing in silico methods with Schrodinger QikProp.40 As\ngiven in Table 3, the oral absorption of the compounds is full.\nThe lipophilicities of the compounds (in the range of 3.924 to\n5.812) are higher than those of fluconazole (0.573) and\nvoriconazole (2.889). The number of stars (#stars), expressing\ndrug-likeness, is obtained from the sum of many parameters\nand should be in the range of 0−5. The compounds have a\n#stars value of 1, except for 5a. According to Lipinski’s rule of\nfive, compounds should have mol_MW < 500, QPlogPo/w < 5,\ndonorHB ≤5,and accptHB ≤10 and show a deviation of at\nmost 1. According to Jorgensen’s rule of three, compounds\nshould have QPlogS > −5.7, QPPCaco >22 nm/s, and #\nPrimary Metabolites <7 and preferably should show no\ndeviation. Compounds 5a−f comply with Lipinski’s rule of\nfive but deviate by one from Jorgensen’s rule of three. In\ngeneral, the ADME profiles of the compounds are suitable for\nlimiting rules.\nFigure 8. Views of the L929 cell line after administration of the synthesized compounds.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nG\n",
+      "blocks": [
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "below 0.15 nm. RMSF measurements were performed to\nmeasure the mobility and flexibility per residue. As shown in\nFigure 10B, the complex formed by CYP51 and compound 5f\nshowed less fluctuation than the complex formed by 5c and\nmade CYP51 more stable. Analyzing the mobility of the\nprotein and ligand system and the hydrogen-bond exchange\nbetween the compounds and CYP51 over time is another way\nof understanding protein−ligand stability. As shown in Figure\n10C,D, compound 5c often formed one hydrogen bond for\n100 ns, while compound 5f formed two hydrogen bonds most\nof the time. According to the trajectory analysis, stable\nstructures were formed with CYP51 in each compound.\nHowever, when the RMSD, RMSF, and hydrogen bond data\nwere examined, compound 5f formed a more stable protein−\nligand complex than voricanazole.\nAnimations were created to monitor the changes of\ncompounds 5c and 5f over 100 ns (Videos S1 and S2). Both\ncompounds appear to be stable at the CYP51 active site. In\naddition, protein−ligand binding poses were created to show\nthe positions of the compounds with heme at the end of the\nMD simulation (Figure 11). Accordingly, although there are",
+          "bbox": {
+            "x0": 51.47702407836914,
+            "y0": 506.6310119628906,
+            "x1": 291.48309326171875,
+            "y1": 755.1929931640625
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "changes in some interactions, interactions with heme are\npreserved, and stability continues.\n2.6. ADME Estimations. Absorption, distribution, metab-\nolism, and excretion (ADME) estimates of the newly\nsynthesized benzimidazole−thiadiazole hybrids were made\nusing in silico methods with Schrodinger QikProp.40 As\ngiven in Table 3, the oral absorption of the compounds is full.\nThe lipophilicities of the compounds (in the range of 3.924 to\n5.812) are higher than those of fluconazole (0.573) and\nvoriconazole (2.889). The number of stars (#stars), expressing\ndrug-likeness, is obtained from the sum of many parameters\nand should be in the range of 0−5. The compounds have a\n#stars value of 1, except for 5a. According to Lipinski’s rule of\nfive, compounds should have mol_MW < 500, QPlogPo/w < 5,\ndonorHB ≤5,and accptHB ≤10 and show a deviation of at\nmost 1. According to Jorgensen’s rule of three, compounds\nshould have QPlogS > −5.7, QPPCaco >22 nm/s, and #\nPrimary Metabolites <7 and preferably should show no\ndeviation. Compounds 5a−f comply with Lipinski’s rule of\nfive but deviate by one from Jorgensen’s rule of three. In\ngeneral, the ADME profiles of the compounds are suitable for\nlimiting rules.",
+          "bbox": {
+            "x0": 315.4370422363281,
+            "y0": 506.6310119628906,
+            "x1": 555.4849853515625,
+            "y1": 755.1940307617188
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Figure 8. Views of the L929 cell line after administration of the synthesized compounds.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 485.822998046875,
+            "x1": 364.28387451171875,
+            "y1": 494.822998046875
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nG",
+          "bbox": {
+            "x0": 300.9830017089844,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0007.png"
+    },
+    {
+      "number": 8,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "2.7. Quantum-Chemical Calculations. The optimized\ngeometries of 5a−h and the standard compounds azithromy-\ncin, voriconazole, and fluconazole correspond to the true\nglobal minima, as no imaginary frequencies were observed in\nthe vibrational frequency investigation. To investigate the\nelectronic characteristics of both these compounds, HOMO\nand LUMO analyses were carried out. The band gap energy,\nelectron affinity, chemical hardness, ionization potential,\nelectronegativity, chemical potential, chemical softness, and\nelectrophilic index were calculated from the HOMO and\nLUMO energies. The molecular electrostatic potential (MEP)\nand HOMO−LUMO diagrams are shown in Figures 12 and\n13, respectively. These diagrams for the standard compounds\nare given in Figures S3 and S4. In addition, the Mulliken\natomic charge distributions of 5c, 5f, and 5h are given in\nFigure S5.\nIn the MEPs, positive regions indicating low electron density\n(shown in blue) represent nucleophilic attack, negative areas\nindicating high electron density (shown in red, orange, or\nyellow) represent electrophilic attack, and neutral areas are\nFigure 9. Binding poses and protein−ligand interactions of (A, B) 5c and (C, D) 5f with Candida sterol 14-α demethylase (CYP51) (PDB ID\n5TZ1).\nTable 3. Molecular Docking Binding Energies (kcal/mol) and Some ADME Parameters of Compounds 5a−h, Voriconazole\n(Vor), and Fluconazole (Flu)\nGlide docking\nQikProp ADME\ncompd\nXPa GScore\nMM-GBSAb dG Bind\n#stars\nQPlogPo/w\nPHOAc\nROFd\nROTe\n5a\n−8.897\n−53.72\n0\n3.924\n100.000\n0\n1\n5b\n−9.679\n−78.24\n1\n5.219\n100.000\n1\n1\n5c\n−9.975\n−70.73\n1\n4.849\n100.000\n0\n1\n5d\n−8.499\n−70.74\n1\n5.812\n100.000\n1\n1\n5e\n−9.498\n−68.40\n1\n5.536\n100.000\n1\n1\n5f\n−10.928\n−60.37\n1\n4.578\n100.000\n0\n1\n5g\n−10.655\n−61.19\n1\n4.321\n100.000\n0\n1\n5h\n−9.942\n−63.29\n1\n5.372\n100.000\n1\n1\nVor\n−6.180\n−58.87\n0\n2.889\n100.000\n0\n0\nFlu\n−5.235\n−50.33\n0\n0.573\n81.840\n0\n0\naXP: extra precision. bMM-GBSA: molecular mechanics−generalized Born surface area. cPHOA: percent human oral absorption. dROF: Lipinski’s\nrule of five. eROT: Jorgensen’s rule of three.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nH\n",
+      "blocks": [
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "2.7. Quantum-Chemical Calculations. The optimized\ngeometries of 5a−h and the standard compounds azithromy-\ncin, voriconazole, and fluconazole correspond to the true\nglobal minima, as no imaginary frequencies were observed in\nthe vibrational frequency investigation. To investigate the\nelectronic characteristics of both these compounds, HOMO\nand LUMO analyses were carried out. The band gap energy,\nelectron affinity, chemical hardness, ionization potential,\nelectronegativity, chemical potential, chemical softness, and\nelectrophilic index were calculated from the HOMO and",
+          "bbox": {
+            "x0": 51.478084564208984,
+            "y0": 638.7429809570312,
+            "x1": 291.4831237792969,
+            "y1": 755.1939697265625
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "LUMO energies. The molecular electrostatic potential (MEP)\nand HOMO−LUMO diagrams are shown in Figures 12 and\n13, respectively. These diagrams for the standard compounds\nare given in Figures S3 and S4. In addition, the Mulliken\natomic charge distributions of 5c, 5f, and 5h are given in\nFigure S5.\nIn the MEPs, positive regions indicating low electron density\n(shown in blue) represent nucleophilic attack, negative areas\nindicating high electron density (shown in red, orange, or\nyellow) represent electrophilic attack, and neutral areas are",
+          "bbox": {
+            "x0": 315.4371032714844,
+            "y0": 639.4629516601562,
+            "x1": 555.4811401367188,
+            "y1": 755.1939697265625
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Figure 9. Binding poses and protein−ligand interactions of (A, B) 5c and (C, D) 5f with Candida sterol 14-α demethylase (CYP51) (PDB ID\n5TZ1).",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 409.32000732421875,
+            "x1": 555.4581909179688,
+            "y1": 428.9454040527344
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Table 3. Molecular Docking Binding Energies (kcal/mol) and Some ADME Parameters of Compounds 5a−h, Voriconazole\n(Vor), and Fluconazole (Flu)",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 440.99798583984375,
+            "x1": 555.13623046875,
+            "y1": 462.7159729003906
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Glide docking\nQikProp ADME",
+          "bbox": {
+            "x0": 167.9810028076172,
+            "y0": 470.9670715332031,
+            "x1": 443.2039489746094,
+            "y1": 478.9669494628906
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "compd\nXPa GScore\nMM-GBSAb dG Bind\n#stars\nQPlogPo/w\nPHOAc\nROFd\nROTe",
+          "bbox": {
+            "x0": 65.82148742675781,
+            "y0": 481.3980712890625,
+            "x1": 542.9949340820312,
+            "y1": 493.65081787109375
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "5a\n−8.897\n−53.72\n0\n3.924\n100.000\n0\n1\n5b\n−9.679\n−78.24\n1\n5.219\n100.000\n1\n1\n5c\n−9.975\n−70.73\n1\n4.849\n100.000\n0\n1\n5d\n−8.499\n−70.74\n1\n5.812\n100.000\n1\n1\n5e\n−9.498\n−68.40\n1\n5.536\n100.000\n1\n1\n5f\n−10.928\n−60.37\n1\n4.578\n100.000\n0\n1\n5g\n−10.655\n−61.19\n1\n4.321\n100.000\n0\n1\n5h\n−9.942\n−63.29\n1\n5.372\n100.000\n1\n1\nVor\n−6.180\n−58.87\n0\n2.889\n100.000\n0\n0\nFlu\n−5.235\n−50.33\n0\n0.573\n81.840\n0\n0\naXP: extra precision. bMM-GBSA: molecular mechanics−generalized Born surface area. cPHOA: percent human oral absorption. dROF: Lipinski’s\nrule of five. eROT: Jorgensen’s rule of three.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 497.2630615234375,
+            "x1": 555.4474487304688,
+            "y1": 627.6541137695312
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nH",
+          "bbox": {
+            "x0": 300.9259948730469,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0008.png"
+    },
+    {
+      "number": 9,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "shown in green.41 According to the MEP diagrams (Figure\n12), while negative regions (red color) representing high\nelectron density in all of the molecules are seen around the N\natoms in the benzimidazole and thiadiazole ring, whereas the\nFigure 10. (A) Root-mean-square deviation (RMSD), (B) root-mean-square fluctuation (RMSF), and (C, D) hydrogen bond analysis of the\nCYP51−5c and CYP51−5f complexes throughout 100 ns.\nFigure 11. Protein−ligand binding poses of (A) the CYP51−5c complex and (B) the CYP51−5f complex after 100 ns molecular dynamics\nsimulations.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nI\n",
+      "blocks": [
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "shown in green.41 According to the MEP diagrams (Figure\n12), while negative regions (red color) representing high\nelectron density in all of the molecules are seen around the N\natoms in the benzimidazole and thiadiazole ring, whereas the",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 729.7178955078125,
+            "x1": 555.4440307617188,
+            "y1": 755.194580078125
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Figure 10. (A) Root-mean-square deviation (RMSD), (B) root-mean-square fluctuation (RMSF), and (C, D) hydrogen bond analysis of the\nCYP51−5c and CYP51−5f complexes throughout 100 ns.",
+          "bbox": {
+            "x0": 51.47706604003906,
+            "y0": 348.51202392578125,
+            "x1": 555.4725952148438,
+            "y1": 367.4894104003906
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Figure 11. Protein−ligand binding poses of (A) the CYP51−5c complex and (B) the CYP51−5f complex after 100 ns molecular dynamics\nsimulations.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 695.44873046875,
+            "x1": 555.4500732421875,
+            "y1": 715.0741577148438
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nI",
+          "bbox": {
+            "x0": 302.4570007324219,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0009.png"
+    },
+    {
+      "number": 10,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "blue-colored regions with low electron density are formed\naround the N−H group in the benzimidazole and the N−H\ngroup bonded with the thiadiazole ring. This is due to the fact\nthat the nitrogen atoms in the benzimidazole and thiadiazole\nrings are more basic than those in the N−H group. In Figure\n13, it can be seen that the charge distribution in the LUMOs is\nconcentrated on the benzene ring, whereas the HOMO is\npositioned around the whole of the molecules with the π\nelectron system. The HOMO of π nature (i.e., the benzene\nring) is delocalized over the whole C−C bond. The lower\nenergy gap (ΔE) means greater chemical reactivity. Under-\nstanding the connection between structural stability and global\nchemical reactivity requires an understanding of global\nreactivity features. A lower value of the ionization potential\n(IP) indicates that it has a better electron-donor property.42\nThe calculated values of the electrophilic index (ω) of all\nmolecules belong to the group of “strong electrophiles” (ω >\n1.50 eV).43 According to Table 4, 5h is chemically more\nreactive than the other molecules. The chemical reactivity\norder is 5h > 5d > 5c > 5e > 5b > 5a = 5f > 5g > azithromycin\n> voriconazole > fluconazole. Moreover, 5f is chemically more\nreactive than the standard compounds voriconazole and\nfluconazole according to the energy gap, as did the antifungal\nactivity results.\n3. CONCLUSION\nWe synthesized novel benzimidazole−1,3,4-thiadiazole hybrid\ncompounds, and their chemical structures were elucidated by\n1H and\n13C NMR, HRMS, and elemental analysis. The\nantimicrobial activities of the new compounds were tested\nFigure 12. Molecular electrostatic potential (MEP) diagrams for compounds 5a−h at the B3LYP/6-311G(d,p) level. Atom colors: carbon in gray,\nnitrogen in blue, chlorine in green, oxygen in red, sulfur in yellow, and hydrogen in white. The surfaces plotted by the 0.0004 electrons/Å3 contour\nof the electron density. Color ranges are in a.u.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nJ\n",
+      "blocks": [
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "blue-colored regions with low electron density are formed\naround the N−H group in the benzimidazole and the N−H\ngroup bonded with the thiadiazole ring. This is due to the fact\nthat the nitrogen atoms in the benzimidazole and thiadiazole\nrings are more basic than those in the N−H group. In Figure\n13, it can be seen that the charge distribution in the LUMOs is\nconcentrated on the benzene ring, whereas the HOMO is\npositioned around the whole of the molecules with the π\nelectron system. The HOMO of π nature (i.e., the benzene\nring) is delocalized over the whole C−C bond. The lower\nenergy gap (ΔE) means greater chemical reactivity. Under-\nstanding the connection between structural stability and global\nchemical reactivity requires an understanding of global\nreactivity features. A lower value of the ionization potential\n(IP) indicates that it has a better electron-donor property.42",
+          "bbox": {
+            "x0": 51.477081298828125,
+            "y0": 585.6609497070312,
+            "x1": 291.4791259765625,
+            "y1": 755.1929321289062
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "The calculated values of the electrophilic index (ω) of all\nmolecules belong to the group of “strong electrophiles” (ω >\n1.50 eV).43 According to Table 4, 5h is chemically more\nreactive than the other molecules. The chemical reactivity\norder is 5h > 5d > 5c > 5e > 5b > 5a = 5f > 5g > azithromycin\n> voriconazole > fluconazole. Moreover, 5f is chemically more\nreactive than the standard compounds voriconazole and\nfluconazole according to the energy gap, as did the antifungal\nactivity results.",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 584.9409790039062,
+            "x1": 555.4810180664062,
+            "y1": 683.64794921875
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "3. CONCLUSION\nWe synthesized novel benzimidazole−1,3,4-thiadiazole hybrid\ncompounds, and their chemical structures were elucidated by\n1H and\n13C NMR, HRMS, and elemental analysis. The\nantimicrobial activities of the new compounds were tested",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 695.3441772460938,
+            "x1": 555.4450073242188,
+            "y1": 755.1942138671875
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Figure 12. Molecular electrostatic potential (MEP) diagrams for compounds 5a−h at the B3LYP/6-311G(d,p) level. Atom colors: carbon in gray,\nnitrogen in blue, chlorine in green, oxygen in red, sulfur in yellow, and hydrogen in white. The surfaces plotted by the 0.0004 electrons/Å3 contour\nof the electron density. Color ranges are in a.u.",
+          "bbox": {
+            "x0": 51.47706604003906,
+            "y0": 544.1920166015625,
+            "x1": 555.4370727539062,
+            "y1": 573.8521118164062
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nJ",
+          "bbox": {
+            "x0": 302.00299072265625,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0010.png"
+    },
+    {
+      "number": 11,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "Figure 13. Highest occupied molecular orbital (HOMO) and lowest unoccupied molecular orbital (LUMO) diagrams of current molecules 5a−h\ncalculated at the B3LYP/6-311G(d,p) level. Atom colors: carbon in gray, nitrogen in blue, chlorine in green, oxygen in red, sulfur in yellow, and\nhydrogen in white.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nK\n",
+      "blocks": [
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Figure 13. Highest occupied molecular orbital (HOMO) and lowest unoccupied molecular orbital (LUMO) diagrams of current molecules 5a−h\ncalculated at the B3LYP/6-311G(d,p) level. Atom colors: carbon in gray, nitrogen in blue, chlorine in green, oxygen in red, sulfur in yellow, and\nhydrogen in white.",
+          "bbox": {
+            "x0": 51.47699737548828,
+            "y0": 725.2125244140625,
+            "x1": 555.4608154296875,
+            "y1": 754.8729248046875
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nK",
+          "bbox": {
+            "x0": 301.2659912109375,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0011.png"
+    },
+    {
+      "number": 12,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "against E. coli, S. marcescens, K. pneumoniae, P. aeruginosa, E.\nfaecalis, B. subtilis, S. aureus, and four Candida species in vitro.\nThe novel derivatives were more active against Gram-negative\nbacteria and Candida species than Gram-positive bacteria.\nCompounds 5c and 5h had a substantial antimicrobial effect\nagainst E. faecalis, while the other derivatives demonstrated\nrelatively moderate activity. Many of the compounds appear to\nhave significant activity against C. albicans with a MIC value of\n1.95 μg/mL. Additionally, docking studies were performed on\nthe most promising compounds 5c and 5f in the active site of\n14-α demethylase. According to MD trajectory analysis,\ncompound 5f was more potent than 5c, in accordance with\nthe antifungal activities and docking scores. In addition, 5f is\nchemically more reactive than the standard compounds\n(voriconazole and fluconazole) according to the energy gaps\nobtained from HOMO−LUMO analyses and the biological\nactivity results against C. albicans and C. glabrata. ADME\nanalysis of the synthesized compounds was performed. The\nhydrogen at the 1-position of the benzimidazole ring in all of\nthe molecules are responsible for nucleophilic attack according\nto the MEP diagrams. This state supports the intermolecular\nhydrogen bond between Met508 and the hydrogen at the 1-\nposition of the benzimidazole ring in accordance with\nmolecular docking analysis.\n4. MATERIALS AND METHODS\n4.1. Synthesis. All of the chemicals used in the synthetic\nprocess were bought from Merck (Darmstadt, Germany) or\nSigma-Aldrich (St. Louis, MO, USA). The MP90 digital\nmelting point instrument (Mettler Toledo, OH, USA) was\nused to determine the uncorrected melting points of the\ncompounds that were obtained. A Bruker digital FT NMR\nspectrometer (Bruker Bioscience, Billerica, MA, USA) was\nused to record the 1H and 13C NMR spectra of the produced\ncompounds in DMSO-d6. Splitting patterns in the NMR\nspectra were designated as follows: s, singlet; d, doublet; t,\ntriplet; m, multiplet. Coupling constants (J) are reported in\nhertz. [M + 1] peaks were determined using a Shimadzu LC/\nMSMS system (Shimadzu, Tokyo, Japan). Using silica gel 60\nF254 TLC plates (Merck), thin-layer chromatography (TLC)\nwas used to monitor each reaction.\n4.1.1. Methyl 4-Formylbenzoate Sodium Metabisulfite\nSalt Derivative (1). Ethanol was used to dissolve methyl 4-\nformylbenzoate (5 g, 0.03 mol), and ethanol-dissolved sodium\nmetabisulfite (6.84 g, 0.036 mol) was added dropwise to the\nbenzaldehyde solution. The reaction components were mixed\nfor 1 h at room temperature once the addition process was\nfinished, and the reaction solution was filtered to remove the\nprecipitated product.\n4.1.2. Methyl 4-(5,6-Dimethyl-1H-benzimidazol-2-yl)-\nbenzoate (2). 5,6-Dimethylbenzene-1,2-diamine (0.022 mol)\nwas dissolved in DMF, and compound 1 (7.09 g, 0.026 mol)\nwas then added. By adding the reaction contents to iced water\nat the end, the result was precipitated. From ethanol, the\nprecipitated product was removed and crystallized.\n4.1.3. 4-(5,6-Dimethyl-1H-benzimidazol-2-yl)benzene-1-\ncarbohydrazide (3). The same vial was filled with compound\n2 (0.018 mol), an excess of hydrazine hydrate (5 mL), and\nethanol (15 mL). For 12 h, the mixture was refluxed. The\nliquid was placed into iced water when the reaction was\nfinished, and the end result was filtered.\n4.1.4. N-Substituted 2-(4-(5,6-Dimethyl-1H-benzimidazol-\n2-yl)benzoyl)hydrazine-1-carbothioamides (4a−h). Com-\npound 3 (1 mmol) was dissolved in 10 mL of ethanol, and\nthe appropriate isothiocyanate (1.1 mmol) was added. The\nreaction mixture was refluxed for 3 h, and the precipitated\nproduct was filtered off.\n4.1.5. N-Substituted 5-(4-(5,6-Dimethyl-1H-benzimidazol-\n2-yl)phenyl)-1,3,4-thiadiazole-2-amines (5a−h). The appro-\npriate thiosemicarbazide derivative 4 was stirred in 10 mL of\nH2SO4 in an ice bath. The mixture was stirred at room\ntemperature for 10 min and then poured into ice water, and\nthe pH was adjusted to 8 with aqueous ammonia. The product\nwas washed with water and crystallized from ethanol.\n1H\nNMR, 13C NMR, and HRMS spectra of compounds 5a−h are\ngiven in Figures S6−S27.\nN-Methyl-5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)-\nphenyl)-1,3,4-thiadiazole-2-amine (5a). Yield: 68%. Mp:\n311.8 °C. 1H NMR (300 MHz, DMSO-d6): δ = 2.35 (6H, s,\n−CH3), 2.95 (3H, s, −CH3), 7.47−7.48 (2H, m, aromatic\nCH), 7.95−8.01 (2H, m, aromatic CH), 8.23−8.26 (1H, m,\naromatic CH), 8.31−8.33 (1H, m, aromatic CH). 13C NMR\n(75 MHz, DMSO-d6): δ = 20.52, 35.85, 125.66, 126.04,\n127.32, 127.48, 128.23, 128.92, 129.43, 131.21, 133.17, 145.70,\n164.40, 168.92. HRMS (m/z): [M + H]+ calcd for C18H17N5S\n336.1277, found 336.1271. Anal. Calcd for C18H17N5S: C,\n64.45; H, 5.11; N, 20.88. Found: C, 64.62; H, 5.10; N, 20.91.\nTable 4. HOMO−LUMO Energies (eV) and Calculated Global Reactivity Parametersa of the Best Stable States of Compounds\n5a−h at the B3LYP/6-311G(d,p) Level in the Gas Phase\ncompd\nELUMO\nEHOMO\nΔE(eV)\nIP (eV)\nEA (eV)\nχ (eV)\nη (eV)\nS (eV)−1\nμ (eV)\nω (eV)\n5a\n−1.901\n−5.576\n3.675\n5.576\n1.900\n3.739\n1.838\n0.272\n−3.739\n3.803\n5b\n−1.886\n−5.560\n3.674\n5.560\n1.886\n3.723\n1.837\n0.272\n−3.723\n3.773\n5c\n−2.035\n−5.692\n3.657\n5.692\n2.035\n3.864\n1.828\n0.273\n−3.864\n4.083\n5d\n−2.120\n−5.693\n3.573\n5.693\n2.120\n3.907\n1.787\n0.280\n−3.907\n4.272\n5e\n−1.857\n−5.528\n3.671\n5.528\n1.857\n3.693\n1.836\n0.272\n−3.693\n3.715\n5f\n−1.878\n−5.553\n3.675\n5.553\n1.878\n3.715\n1.838\n0.272\n−3.715\n3.756\n5g\n−1.882\n−5.560\n3.678\n5.560\n1.882\n3.721\n1.839\n0.272\n−3.721\n3.764\n5h\n−1.981\n−5.413\n3.432\n5.413\n1.981\n3.697\n1.716\n0.291\n−3.697\n3.982\nVorb\n−1.727\n−7.070\n5.343\n7.070\n1.727\n4.398\n2.671\n0.187\n−4.398\n3.621\nFluc\n−1.039\n−7.238\n6.199\n7.238\n1.039\n4.139\n3.099\n0.161\n−4.139\n2,763\nAzmd\n−0.280\n−5.052\n4.772\n5.052\n0.280\n2.666\n2.386\n0.209\n−2.666\n1.490\naΔE is the band gap (ELUMO −EHOMO). IP is the ionization potential (=−EHOMO). EA is the electron affinity (=−ELUMO). χ is the electronegativity\n(=(IP + EA)/2). η is the chemical hardness (=(IP −EA)/2). S is the chemical softness (=1/2η). μ is the chemical potential (=−(IP + EA)/2). ω is\nthe electrophilic index (=μ2/2η). bVor = voriconazole. cFlu = fluconazole. dAzm = azithromycin.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nL\n",
+      "blocks": [
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "against E. coli, S. marcescens, K. pneumoniae, P. aeruginosa, E.\nfaecalis, B. subtilis, S. aureus, and four Candida species in vitro.\nThe novel derivatives were more active against Gram-negative\nbacteria and Candida species than Gram-positive bacteria.\nCompounds 5c and 5h had a substantial antimicrobial effect\nagainst E. faecalis, while the other derivatives demonstrated\nrelatively moderate activity. Many of the compounds appear to\nhave significant activity against C. albicans with a MIC value of\n1.95 μg/mL. Additionally, docking studies were performed on\nthe most promising compounds 5c and 5f in the active site of\n14-α demethylase. According to MD trajectory analysis,\ncompound 5f was more potent than 5c, in accordance with\nthe antifungal activities and docking scores. In addition, 5f is\nchemically more reactive than the standard compounds\n(voriconazole and fluconazole) according to the energy gaps\nobtained from HOMO−LUMO analyses and the biological\nactivity results against C. albicans and C. glabrata. ADME\nanalysis of the synthesized compounds was performed. The\nhydrogen at the 1-position of the benzimidazole ring in all of\nthe molecules are responsible for nucleophilic attack according\nto the MEP diagrams. This state supports the intermolecular\nhydrogen bond between Met508 and the hydrogen at the 1-\nposition of the benzimidazole ring in accordance with\nmolecular docking analysis.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 265.4599914550781,
+            "x1": 291.4821472167969,
+            "y1": 528.4219970703125
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "4. MATERIALS AND METHODS",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 541.7630004882812,
+            "x1": 191.74868774414062,
+            "y1": 552.2630004882812
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "4.1. Synthesis. All of the chemicals used in the synthetic\nprocess were bought from Merck (Darmstadt, Germany) or\nSigma-Aldrich (St. Louis, MO, USA). The MP90 digital\nmelting point instrument (Mettler Toledo, OH, USA) was\nused to determine the uncorrected melting points of the\ncompounds that were obtained. A Bruker digital FT NMR\nspectrometer (Bruker Bioscience, Billerica, MA, USA) was\nused to record the 1H and 13C NMR spectra of the produced\ncompounds in DMSO-d6. Splitting patterns in the NMR\nspectra were designated as follows: s, singlet; d, doublet; t,\ntriplet; m, multiplet. Coupling constants (J) are reported in\nhertz. [M + 1] peaks were determined using a Shimadzu LC/\nMSMS system (Shimadzu, Tokyo, Japan). Using silica gel 60\nF254 TLC plates (Merck), thin-layer chromatography (TLC)\nwas used to monitor each reaction.\n4.1.1. Methyl 4-Formylbenzoate Sodium Metabisulfite\nSalt Derivative (1). Ethanol was used to dissolve methyl 4-\nformylbenzoate (5 g, 0.03 mol), and ethanol-dissolved sodium",
+          "bbox": {
+            "x0": 51.47748565673828,
+            "y0": 557.4450073242188,
+            "x1": 291.4794616699219,
+            "y1": 755.1943359375
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "metabisulfite (6.84 g, 0.036 mol) was added dropwise to the\nbenzaldehyde solution. The reaction components were mixed\nfor 1 h at room temperature once the addition process was\nfinished, and the reaction solution was filtered to remove the\nprecipitated product.\n4.1.2. Methyl 4-(5,6-Dimethyl-1H-benzimidazol-2-yl)-\nbenzoate (2). 5,6-Dimethylbenzene-1,2-diamine (0.022 mol)\nwas dissolved in DMF, and compound 1 (7.09 g, 0.026 mol)\nwas then added. By adding the reaction contents to iced water\nat the end, the result was precipitated. From ethanol, the\nprecipitated product was removed and crystallized.\n4.1.3. 4-(5,6-Dimethyl-1H-benzimidazol-2-yl)benzene-1-\ncarbohydrazide (3). The same vial was filled with compound\n2 (0.018 mol), an excess of hydrazine hydrate (5 mL), and\nethanol (15 mL). For 12 h, the mixture was refluxed. The\nliquid was placed into iced water when the reaction was\nfinished, and the end result was filtered.\n4.1.4. N-Substituted 2-(4-(5,6-Dimethyl-1H-benzimidazol-\n2-yl)benzoyl)hydrazine-1-carbothioamides (4a−h). Com-\npound 3 (1 mmol) was dissolved in 10 mL of ethanol, and\nthe appropriate isothiocyanate (1.1 mmol) was added. The\nreaction mixture was refluxed for 3 h, and the precipitated\nproduct was filtered off.\n4.1.5. N-Substituted 5-(4-(5,6-Dimethyl-1H-benzimidazol-\n2-yl)phenyl)-1,3,4-thiadiazole-2-amines (5a−h). The appro-\npriate thiosemicarbazide derivative 4 was stirred in 10 mL of\nH2SO4 in an ice bath. The mixture was stirred at room\ntemperature for 10 min and then poured into ice water, and\nthe pH was adjusted to 8 with aqueous ammonia. The product\nwas washed with water and crystallized from ethanol.\n1H\nNMR, 13C NMR, and HRMS spectra of compounds 5a−h are\ngiven in Figures S6−S27.\nN-Methyl-5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)-\nphenyl)-1,3,4-thiadiazole-2-amine (5a). Yield: 68%. Mp:\n311.8 °C. 1H NMR (300 MHz, DMSO-d6): δ = 2.35 (6H, s,\n−CH3), 2.95 (3H, s, −CH3), 7.47−7.48 (2H, m, aromatic\nCH), 7.95−8.01 (2H, m, aromatic CH), 8.23−8.26 (1H, m,\naromatic CH), 8.31−8.33 (1H, m, aromatic CH). 13C NMR\n(75 MHz, DMSO-d6): δ = 20.52, 35.85, 125.66, 126.04,\n127.32, 127.48, 128.23, 128.92, 129.43, 131.21, 133.17, 145.70,\n164.40, 168.92. HRMS (m/z): [M + H]+ calcd for C18H17N5S\n336.1277, found 336.1271. Anal. Calcd for C18H17N5S: C,\n64.45; H, 5.11; N, 20.88. Found: C, 64.62; H, 5.10; N, 20.91.",
+          "bbox": {
+            "x0": 315.4375,
+            "y0": 265.4634094238281,
+            "x1": 555.4760131835938,
+            "y1": 755.1940307617188
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Table 4. HOMO−LUMO Energies (eV) and Calculated Global Reactivity Parametersa of the Best Stable States of Compounds\n5a−h at the B3LYP/6-311G(d,p) Level in the Gas Phase",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 56.206024169921875,
+            "x1": 555.4400024414062,
+            "y1": 81.68302917480469
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "compd\nELUMO\nEHOMO\nΔE(eV)\nIP (eV)\nEA (eV)\nχ (eV)\nη (eV)\nS (eV)−1\nμ (eV)\nω (eV)",
+          "bbox": {
+            "x0": 60.434600830078125,
+            "y0": 88.22021484375,
+            "x1": 543.3712158203125,
+            "y1": 98.72783660888672
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "5a\n−1.901\n−5.576\n3.675\n5.576\n1.900\n3.739\n1.838\n0.272\n−3.739\n3.803\n5b\n−1.886\n−5.560\n3.674\n5.560\n1.886\n3.723\n1.837\n0.272\n−3.723\n3.773\n5c\n−2.035\n−5.692\n3.657\n5.692\n2.035\n3.864\n1.828\n0.273\n−3.864\n4.083\n5d\n−2.120\n−5.693\n3.573\n5.693\n2.120\n3.907\n1.787\n0.280\n−3.907\n4.272\n5e\n−1.857\n−5.528\n3.671\n5.528\n1.857\n3.693\n1.836\n0.272\n−3.693\n3.715\n5f\n−1.878\n−5.553\n3.675\n5.553\n1.878\n3.715\n1.838\n0.272\n−3.715\n3.756\n5g\n−1.882\n−5.560\n3.678\n5.560\n1.882\n3.721\n1.839\n0.272\n−3.721\n3.764\n5h\n−1.981\n−5.413\n3.432\n5.413\n1.981\n3.697\n1.716\n0.291\n−3.697\n3.982\nVorb\n−1.727\n−7.070\n5.343\n7.070\n1.727\n4.398\n2.671\n0.187\n−4.398\n3.621\nFluc\n−1.039\n−7.238\n6.199\n7.238\n1.039\n4.139\n3.099\n0.161\n−4.139\n2,763\nAzmd\n−0.280\n−5.052\n4.772\n5.052\n0.280\n2.666\n2.386\n0.209\n−2.666\n1.490\naΔE is the band gap (ELUMO −EHOMO). IP is the ionization potential (=−EHOMO). EA is the electron affinity (=−ELUMO). χ is the electronegativity\n(=(IP + EA)/2). η is the chemical hardness (=(IP −EA)/2). S is the chemical softness (=1/2η). μ is the chemical potential (=−(IP + EA)/2). ω is\nthe electrophilic index (=μ2/2η). bVor = voriconazole. cFlu = fluconazole. dAzm = azithromycin.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 102.33951568603516,
+            "x1": 555.4611206054688,
+            "y1": 253.59397888183594
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nL",
+          "bbox": {
+            "x0": 301.6059875488281,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0012.png"
+    },
+    {
+      "number": 13,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "N-Ethyl-5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)phenyl)-\n1,3,4-thiadiazole-2-amine (5b). Yield: 69%. Mp: 299.2 °C. 1H\nNMR (300 MHz, DMSO-d6): δ = 1.22 (3H, t, J = 7.17 Hz,\n−CH3), 2.40 (6H, s, −CH3), 3.37 (2H, q, J = 6.99 Hz, CH2),\n7.62−7.63 (2H, m, aromatic C−H), 8.05−8.08 (2H, m,\naromatic CH), 8.23−8.27 (2H, m, aromatic CH). 13C NMR\n(75 MHz, DMSO-d6): δ = 20.47, 25.14, 38.21, 114.06, 114.57,\n118.17, 124.52, 127.51, 128.88, 130.74, 134.92, 135.25, 136.31,\n147.28, 154.58, 169.59. HRMS (m/z): [M + H]+ calcd for\nC19H19N5S 350.1434, found 350.1432. Anal. Calcd for\nC19H19N5S: C, 65.30; H, 5.48; N, 20.04. Found: C, 65.42;\nH, 5.46; N, 20.08.\nN-(2-Chloroethyl)-5-(4-(5,6-dimethyl-1H-benzimidazol-2-\nyl)phenyl)-1,3,4-thiadiazole-2-amine (5c). Yield: 66%. Mp:\n202.4 °C. 1H NMR (300 MHz, DMSO-d6): δ = 2.32 (6H, s,\n−CH3), 3.37 (4H, s, −CH2), 7.39−7.41 (2H, m, aromatic\nCH), 7.95−7.97 (1H, m, aromatic CH), 8.06−8.09 (1H, m,\naromatic C−H), 8.23−8.28 (2H, m, aromatic CH). 13C NMR\n(75 MHz, DMSO-d6): δ = 21.40, 45.20, 55.69, 112.22, 113.98,\n119.38, 124.27, 125.93, 126.55, 129.29, 134.03, 135.70, 137.46,\n142.66, 147.75, 160.11. Anal. Calcd for C19H18N5SCl: C,\n59.44; H, 4.73; N, 18.24. Found: C, 59.56; H, 4.72; N, 18.28.\nN-(2-Chlorophenyl)-5-(4-(5,6-dimethyl-1H-benzimidazol-\n2-yl)phenyl)-1,3,4-thiadiazole-2-amine (5d). Yield: 70%. Mp:\n262.8 °C. 1H NMR (300 MHz, DMSO-d6): δ = 2.44 (6H, s,\n−CH3), 7.06−7.09 (2H, m, aromatic CH), 7.38−7.42 (2H, m,\naromatic CH), 7.51−7.54 (2H, m, aromatic CH), 8.02−8.04\n(2H, m, aromatic CH), 8.27−8.31 (2H, m, aromatic CH). 13C\nNMR (75 MHz, DMSO-d6): δ = 22.65, 123.59, 125.76,\n126.47, 126.60, 127.32, 128.66, 129.57, 131.38, 131.75, 132.36,\n132.57, 133.14, 134.69, 136.10, 137.79, 139.23, 139.44, 150.20,\n165.58. HRMS (m/z): [M + H]+ calcd for C23H18N5SCl\n432.1044, found 432.1059. Anal. Calcd for C23H18N5SCl: C,\n63.95; H, 4.20; N, 16.21. Found: C, 64.17; H, 4.19; N, 16.25.\nN-Cyclohexyl-5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)-\nphenyl)-1,3,4-thiadiazole-2-amine (5e). Yield: 73%. Mp:\n241.5 °C. 1H NMR (300 MHz, DMSO-d6): δ = 1.17−1.36\n(5H, m, cyclohexyl CH), 1.56−1.71 (3H, m, cyclohexyl CH),\n1.99−2.02 (2H, m, cyclohexyl CH), 2.38 (6H, s, −CH3), 3.58\n(1H, s, cyclohexyl CH), 7.54 (2H, s, aromatic CH), 8.00 (2H,\nd, J = 7.80 Hz, aromatic CH), 8.22 (2H, d, J = 7.92 Hz,\naromatic CH). 13C NMR (75 MHz, DMSO-d6): δ = 20.45,\n21.29, 23.01, 24.76, 25.66, 32.49, 54.35, 114.46, 115.18,\n126.02, 126.25, 127.36, 128.39, 129.43, 132.96, 134.23, 134.91,\n148.11, 154.65, 168.71. HRMS (m/z): [M + H]+ calcd for\nC23H25N5S 404.1903, found 404.1919. Anal. Calcd for\nC23H25N5S: C, 68.46; H, 6.24; N, 17.35. Found: C, 68.70;\nH, 6.22; N, 17.41.\nN-Isopropyl-5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)-\nphenyl)-1,3,4-thiadiazole-2-amine (5f). Yield: 73%. Mp:\n292.8 °C. 1H NMR (300 MHz, DMSO-d6): δ = 0.93 (2H,\nd, J = 6.69 Hz, CH3), 2.40 (6H, s, −CH3), 3.18−3.20 (1H, m,\n−CH), 7.64 (2H, s, aromatic CH), 8.07 (2H, d, J = 8.88 Hz,\naromatic CH), 8.27 (2H, d, J = 8.67 Hz, aromatic CH). 13C\nNMR (75 MHz, DMSO-d6): δ = 19.43, 21.26, 23.59, 107.23,\n109.72, 115.20, 115.99, 124.06, 124.48, 126.48, 127.81, 130.74,\n134.81, 136.81, 136.94, 154.09. Anal. Calcd for C20H21N5S: C,\n66.09; H, 5.82; N, 19.27. Found: C, 66.23; H, 5.80; N, 19.30.\nN-Propyl-5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)-\nphenyl)-1,3,4-thiadiazole-2-amine (5g). Yield: 68%. Mp:\n148.4 °C. 1H NMR (300 MHz, DMSO-d6): δ = 0.94 (3H, t,\nJ = 7.41 Hz, −CH3), 1.60 (2H, m, −CH2), 2.33 (6H, s, CH3),\n3.22−3.24 (2H, m, CH2), 7.38 (2H, s, aromatic CH), 7.90\n(2H, d, J = 8.61 Hz, aromatic CH), 8.21 (2H, d, J = 8.25 Hz,\naromatic CH). 13C NMR (75 MHz, DMSO-d6): δ = 11.12,\n20.99, 25.87, 29.09, 112.84, 115.33, 123.54, 126.35, 127.40,\n129.67, 130.92, 134.45, 135.59, 141.72, 148.58, 152.11, 169.72.\nHRMS (m/z): [M + H]+ calcd for C20H21N5S 364.1590, found\n364.1601. Anal. Calcd for C20H21N5S: C, 66.09; H, 5.82; N,\n19.27. Found: C, 66.18; H, 5.81; N, 19.31.\nN-(4-Methoxyphenyl)-5-(4-(5,6-dimethyl-1H-benzimida-\nzol-2-yl)phenyl)-1,3,4-thiadiazole-2-amine (5h). Yield: 74%.\nMp: 319.9 °C. 1H NMR (300 MHz, DMSO-d6): δ = 2.33 (6H,\ns, −CH3), 3.75 (3H, s, −OCH3), 6.99 (2H, d, J = 8.85 Hz,\naromatic CH), 7.12 (2H, br s, aromatic C−H), 7.76 (1H, dd,\nJ1 = 2.88 Hz, J2 = 8.76 Hz, aromatic CH), 7.86−7.87 (1H, m,\naromatic CH), 7.99 (2H, d, J = 8.52 Hz, aromatic CH), 8.24\n(2H, d, J = 8.52 Hz, aromatic CH). 13C NMR (75 MHz,\nDMSO-d6): δ = 20.52, 56.23, 113.13, 115.02, 119.21, 119.62,\n120.24, 122.78, 127.30, 127.52, 129.16, 131.50, 132.00, 133.06,\n136.75, 149.92, 152.31, 156.75, 165.42. HRMS (m/z): [M +\nH]+ calcd for C24H21N5OS 428.1540, found 428.1540. Anal.\nCalcd for C24H21N5OS: C, 67.43; H, 4.95; N, 16.38. Found: C,\n67.54; H, 4.94; N, 16.40.\n4.2. Antimicrobial Assay. The minimum inhibitory\nconcentration (MIC) tests using 96-well microplates were\nperformed by the microdilution standard methods CLSI M07-\nA9 (2012)44 and NCCLS M27-A2 (2002)45 for bacteria and\nyeasts, respectively. The test microorganisms in the anti-\nbacterial assays were E. coli (ATCC 25922), S. marcescens\n(ATCC 8100), K. pneumonia (ATCC 13883), P. aeruginosa\n(ATCC 27853), E. faecalis (ATCC 2942), B. subtilis (NRRL\nNRS 744), S. aureus (ATCC 29213), S. epidermidis (ATCC\n12228), and in the antifungal assays C. albicans ATCC 24433,\nC. glabrata (ATCC 90030), C. krusei ATCC 6258, and C.\nparapsilosis (ATCC 22019) were used. MHA and MHB media\nfor bacteria and SDA and SDB media were used for the growth\nof test microorganisms used in the antimicrobial experiments.\nThe wells were prepared to contain a volume of 100 μL in the\nfinal case. Using 1000 ppm stock solutions, each compound\nconcentration in the first well was prepared to be 250 μg/mL.\nSerial dilutions were made in a 1:2 ratio, and the\nconcentrations of the next wells were adjusted to 125, 62.5,\n31.25, 15.625, 7.81, 3.90, 1.95, and 0.97 μg/mL, respectively.\nThe microbial suspension adjusted to a 0.5 McFarland\nstandard was inoculated into wells. The bacteria and yeasts\nwere incubated for 24 h at 37 °C and 48 h at 35 °C,\nrespectively. The same procedures were applied to azithromy-\ncin for bacteria as the positive control. Voriconazole and\nfluconazole were used as the positive controls for yeast cells.\nNegative controls were pure liquids devoid of any microbes.\nTurbidity that appeared after 24−48 h was used to compare\nboth positive and negative outcomes to those in the control\nwells. The lowest concentration at which each microbe showed\nno discernible growth was designated as the MIC. The\nturbidity showing microbial growth after incubation was\nmeasured as the optical density at 600 nm with a multiwell\nplate reader (Multiskan FC, Thermo Scientific, Waltham, MA,\nUSA). All of the chemicals used in the experiments were\npurchased from Merck. All of the antimicrobial studies were\ncarried out in triplicate with aseptic conditions.\n4.3. Cytotoxicity Assay. 4.3.1. Cell Culture. The fibroblast\ncell line L929 was obtained from the American Type Culture\nCollection and cultured in Dulbecco’s modified Eagle’s\nmedium (DMEM) (Thermo Fisher Scientific) supplemented\nwith 10% fetal bovine serum (FBS) (Sigma-Aldrich), 1% L-\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nM\n",
+      "blocks": [
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "N-Ethyl-5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)phenyl)-\n1,3,4-thiadiazole-2-amine (5b). Yield: 69%. Mp: 299.2 °C. 1H\nNMR (300 MHz, DMSO-d6): δ = 1.22 (3H, t, J = 7.17 Hz,\n−CH3), 2.40 (6H, s, −CH3), 3.37 (2H, q, J = 6.99 Hz, CH2),\n7.62−7.63 (2H, m, aromatic C−H), 8.05−8.08 (2H, m,\naromatic CH), 8.23−8.27 (2H, m, aromatic CH). 13C NMR\n(75 MHz, DMSO-d6): δ = 20.47, 25.14, 38.21, 114.06, 114.57,\n118.17, 124.52, 127.51, 128.88, 130.74, 134.92, 135.25, 136.31,\n147.28, 154.58, 169.59. HRMS (m/z): [M + H]+ calcd for\nC19H19N5S 350.1434, found 350.1432. Anal. Calcd for\nC19H19N5S: C, 65.30; H, 5.48; N, 20.04. Found: C, 65.42;\nH, 5.46; N, 20.08.\nN-(2-Chloroethyl)-5-(4-(5,6-dimethyl-1H-benzimidazol-2-\nyl)phenyl)-1,3,4-thiadiazole-2-amine (5c). Yield: 66%. Mp:\n202.4 °C. 1H NMR (300 MHz, DMSO-d6): δ = 2.32 (6H, s,\n−CH3), 3.37 (4H, s, −CH2), 7.39−7.41 (2H, m, aromatic\nCH), 7.95−7.97 (1H, m, aromatic CH), 8.06−8.09 (1H, m,\naromatic C−H), 8.23−8.28 (2H, m, aromatic CH). 13C NMR\n(75 MHz, DMSO-d6): δ = 21.40, 45.20, 55.69, 112.22, 113.98,\n119.38, 124.27, 125.93, 126.55, 129.29, 134.03, 135.70, 137.46,\n142.66, 147.75, 160.11. Anal. Calcd for C19H18N5SCl: C,\n59.44; H, 4.73; N, 18.24. Found: C, 59.56; H, 4.72; N, 18.28.\nN-(2-Chlorophenyl)-5-(4-(5,6-dimethyl-1H-benzimidazol-\n2-yl)phenyl)-1,3,4-thiadiazole-2-amine (5d). Yield: 70%. Mp:\n262.8 °C. 1H NMR (300 MHz, DMSO-d6): δ = 2.44 (6H, s,\n−CH3), 7.06−7.09 (2H, m, aromatic CH), 7.38−7.42 (2H, m,\naromatic CH), 7.51−7.54 (2H, m, aromatic CH), 8.02−8.04\n(2H, m, aromatic CH), 8.27−8.31 (2H, m, aromatic CH). 13C\nNMR (75 MHz, DMSO-d6): δ = 22.65, 123.59, 125.76,\n126.47, 126.60, 127.32, 128.66, 129.57, 131.38, 131.75, 132.36,\n132.57, 133.14, 134.69, 136.10, 137.79, 139.23, 139.44, 150.20,\n165.58. HRMS (m/z): [M + H]+ calcd for C23H18N5SCl\n432.1044, found 432.1059. Anal. Calcd for C23H18N5SCl: C,\n63.95; H, 4.20; N, 16.21. Found: C, 64.17; H, 4.19; N, 16.25.\nN-Cyclohexyl-5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)-\nphenyl)-1,3,4-thiadiazole-2-amine (5e). Yield: 73%. Mp:\n241.5 °C. 1H NMR (300 MHz, DMSO-d6): δ = 1.17−1.36\n(5H, m, cyclohexyl CH), 1.56−1.71 (3H, m, cyclohexyl CH),\n1.99−2.02 (2H, m, cyclohexyl CH), 2.38 (6H, s, −CH3), 3.58\n(1H, s, cyclohexyl CH), 7.54 (2H, s, aromatic CH), 8.00 (2H,\nd, J = 7.80 Hz, aromatic CH), 8.22 (2H, d, J = 7.92 Hz,\naromatic CH). 13C NMR (75 MHz, DMSO-d6): δ = 20.45,\n21.29, 23.01, 24.76, 25.66, 32.49, 54.35, 114.46, 115.18,\n126.02, 126.25, 127.36, 128.39, 129.43, 132.96, 134.23, 134.91,\n148.11, 154.65, 168.71. HRMS (m/z): [M + H]+ calcd for\nC23H25N5S 404.1903, found 404.1919. Anal. Calcd for\nC23H25N5S: C, 68.46; H, 6.24; N, 17.35. Found: C, 68.70;\nH, 6.22; N, 17.41.\nN-Isopropyl-5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)-\nphenyl)-1,3,4-thiadiazole-2-amine (5f). Yield: 73%. Mp:\n292.8 °C. 1H NMR (300 MHz, DMSO-d6): δ = 0.93 (2H,\nd, J = 6.69 Hz, CH3), 2.40 (6H, s, −CH3), 3.18−3.20 (1H, m,\n−CH), 7.64 (2H, s, aromatic CH), 8.07 (2H, d, J = 8.88 Hz,\naromatic CH), 8.27 (2H, d, J = 8.67 Hz, aromatic CH). 13C\nNMR (75 MHz, DMSO-d6): δ = 19.43, 21.26, 23.59, 107.23,\n109.72, 115.20, 115.99, 124.06, 124.48, 126.48, 127.81, 130.74,\n134.81, 136.81, 136.94, 154.09. Anal. Calcd for C20H21N5S: C,\n66.09; H, 5.82; N, 19.27. Found: C, 66.23; H, 5.80; N, 19.30.\nN-Propyl-5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)-\nphenyl)-1,3,4-thiadiazole-2-amine (5g). Yield: 68%. Mp:\n148.4 °C. 1H NMR (300 MHz, DMSO-d6): δ = 0.94 (3H, t,\nJ = 7.41 Hz, −CH3), 1.60 (2H, m, −CH2), 2.33 (6H, s, CH3),\n3.22−3.24 (2H, m, CH2), 7.38 (2H, s, aromatic CH), 7.90",
+          "bbox": {
+            "x0": 51.47796630859375,
+            "y0": 59.45501708984375,
+            "x1": 291.48199462890625,
+            "y1": 756.1166381835938
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "(2H, d, J = 8.61 Hz, aromatic CH), 8.21 (2H, d, J = 8.25 Hz,\naromatic CH). 13C NMR (75 MHz, DMSO-d6): δ = 11.12,\n20.99, 25.87, 29.09, 112.84, 115.33, 123.54, 126.35, 127.40,\n129.67, 130.92, 134.45, 135.59, 141.72, 148.58, 152.11, 169.72.\nHRMS (m/z): [M + H]+ calcd for C20H21N5S 364.1590, found\n364.1601. Anal. Calcd for C20H21N5S: C, 66.09; H, 5.82; N,\n19.27. Found: C, 66.18; H, 5.81; N, 19.31.\nN-(4-Methoxyphenyl)-5-(4-(5,6-dimethyl-1H-benzimida-\nzol-2-yl)phenyl)-1,3,4-thiadiazole-2-amine (5h). Yield: 74%.\nMp: 319.9 °C. 1H NMR (300 MHz, DMSO-d6): δ = 2.33 (6H,\ns, −CH3), 3.75 (3H, s, −OCH3), 6.99 (2H, d, J = 8.85 Hz,\naromatic CH), 7.12 (2H, br s, aromatic C−H), 7.76 (1H, dd,\nJ1 = 2.88 Hz, J2 = 8.76 Hz, aromatic CH), 7.86−7.87 (1H, m,\naromatic CH), 7.99 (2H, d, J = 8.52 Hz, aromatic CH), 8.24\n(2H, d, J = 8.52 Hz, aromatic CH). 13C NMR (75 MHz,\nDMSO-d6): δ = 20.52, 56.23, 113.13, 115.02, 119.21, 119.62,\n120.24, 122.78, 127.30, 127.52, 129.16, 131.50, 132.00, 133.06,\n136.75, 149.92, 152.31, 156.75, 165.42. HRMS (m/z): [M +\nH]+ calcd for C24H21N5OS 428.1540, found 428.1540. Anal.\nCalcd for C24H21N5OS: C, 67.43; H, 4.95; N, 16.38. Found: C,\n67.54; H, 4.94; N, 16.40.\n4.2. Antimicrobial Assay. The minimum inhibitory\nconcentration (MIC) tests using 96-well microplates were\nperformed by the microdilution standard methods CLSI M07-\nA9 (2012)44 and NCCLS M27-A2 (2002)45 for bacteria and\nyeasts, respectively. The test microorganisms in the anti-\nbacterial assays were E. coli (ATCC 25922), S. marcescens\n(ATCC 8100), K. pneumonia (ATCC 13883), P. aeruginosa\n(ATCC 27853), E. faecalis (ATCC 2942), B. subtilis (NRRL\nNRS 744), S. aureus (ATCC 29213), S. epidermidis (ATCC\n12228), and in the antifungal assays C. albicans ATCC 24433,\nC. glabrata (ATCC 90030), C. krusei ATCC 6258, and C.\nparapsilosis (ATCC 22019) were used. MHA and MHB media\nfor bacteria and SDA and SDB media were used for the growth\nof test microorganisms used in the antimicrobial experiments.\nThe wells were prepared to contain a volume of 100 μL in the\nfinal case. Using 1000 ppm stock solutions, each compound\nconcentration in the first well was prepared to be 250 μg/mL.\nSerial dilutions were made in a 1:2 ratio, and the\nconcentrations of the next wells were adjusted to 125, 62.5,\n31.25, 15.625, 7.81, 3.90, 1.95, and 0.97 μg/mL, respectively.\nThe microbial suspension adjusted to a 0.5 McFarland\nstandard was inoculated into wells. The bacteria and yeasts\nwere incubated for 24 h at 37 °C and 48 h at 35 °C,\nrespectively. The same procedures were applied to azithromy-\ncin for bacteria as the positive control. Voriconazole and\nfluconazole were used as the positive controls for yeast cells.\nNegative controls were pure liquids devoid of any microbes.\nTurbidity that appeared after 24−48 h was used to compare\nboth positive and negative outcomes to those in the control\nwells. The lowest concentration at which each microbe showed\nno discernible growth was designated as the MIC. The\nturbidity showing microbial growth after incubation was\nmeasured as the optical density at 600 nm with a multiwell\nplate reader (Multiskan FC, Thermo Scientific, Waltham, MA,\nUSA). All of the chemicals used in the experiments were\npurchased from Merck. All of the antimicrobial studies were\ncarried out in triplicate with aseptic conditions.\n4.3. Cytotoxicity Assay. 4.3.1. Cell Culture. The fibroblast\ncell line L929 was obtained from the American Type Culture\nCollection and cultured in Dulbecco’s modified Eagle’s\nmedium (DMEM) (Thermo Fisher Scientific) supplemented\nwith 10% fetal bovine serum (FBS) (Sigma-Aldrich), 1% L-",
+          "bbox": {
+            "x0": 315.43798828125,
+            "y0": 60.179107666015625,
+            "x1": 555.4830322265625,
+            "y1": 755.195068359375
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nM",
+          "bbox": {
+            "x0": 300.3590087890625,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0013.png"
+    },
+    {
+      "number": 14,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "glutamine (Sigma-Aldrich), and 1% penicillin/streptomycin\n(Sigma-Aldrich). The cultivated cells were kept at a temper-\nature of 37 °C in a humid environment that contained 5%\nCO2. Since the final DMSO concentration did not go over\n0.5%, all of the recently produced compounds were dissolved\nin DMSO, and stock solutions were diluted with DMEM.\n4.3.2. Cell Viability Assay. The MTT assay was used to\nexamine how 5a−h affected the viability of the L929 cell line.\nThe cells were treated with 100 M concentrations of each after\nbeing plated at a density of 1 × 104 cells per well for 24 h.\nUntreated cells were used as control. After incubation, 20 μL\nof MTT solution (5 mg/mL in PBS, Sigma) was added to the\ncells, and they were then incubated at 37 °C for 3 h to allow\nthe metabolically active cells to convert the MTT dye into\nformazan crystals. The formazan crystals were dissolved in\nDMSO (Sigma). Utilizing a microplate reader (Thermo,\nGermany) to measure the absorbance at 540 nm, the decrease\nof MTT was measured. Data are reported as mean ± standard\ndeviation.\n4.4. Molecular Modeling. 4.4.1. Molecular Docking.\nMolecular docking studies were carried out using the Maestro\nmolecular modeling environment of the Schrödinger version\n2021−2. Since the mechanism of action of benzimidazole\nderivatives is via 14-α demethylase (CYP51)46 of Candida, the\nCYP51 structure was downloaded from the Protein Data Bank\n(PDB) with PDB ID 5TZ1 and prepared using the OPLS4\nforce field with Protein Preparation Wizard. The structures of\nthe compounds were drawn with ChemDraw Professional 16\nversion, and 3D minimized structures obtained from DFT\nstudies with the B3LYP/6-311G(d,p) basis set. Active-site\ncoordinates were determined as (x, y, z) = (70.610, 66.284,\n4.177) based on the cocrystal ligand VT1 in the 5TZ1\nstructure and prepared as 20 Å × 20 Å × 20 Å by Receptor\nGrid Preparation. Molecular docking was performed with\nGlide XP ligand docking.47 For validation of the docking study,\ncocrystal VT1 redocking was performed, and the RMSD\nbetween the natural pose and docking pose was measured as\n0.3865 Å. Visualization and detailed analysis of protein−ligand\ninteractions were performed with UCSF Chimera version 1.16\nand the Maestro Ligand Interaction module.\n4.4.2. Molecular Dynamics Simulations. MD simulations\nwere performed with Gromacs version 2020.4 as in our\nprevious studies.48−50 Input files were created via CHARMM-\nGUI server solution builder (https://charmm-gui.org/).51 The\ntopology file of CYP51 protein, heme and compounds 5c and\n5f were prepared using the Charmm36m force field.52 The\nTIP3 water model was used for solvation and neutralized with\n0.15 M KCl. The rectangular box system consisting of protein,\nheme, compounds, water, and ions was minimized in 5000\nsteps. It was equilibrated with the NVT/NPT ensemble at 1\natm pressure and 300 K temperature for 300 ps. The 100 ns\nMD simulations were run for 1000 frames to 2 fs. RMSD,\nRMSF, and hydrogen-bond analyses were performed with gmx\nscripts from the trajectory. MD graphics were created with\nQtGrace tool version 0.2.6 and animation videos with UCSF\nChimera version 1.16.\n4.4.3. ADME Estimations. The QikProp module of\nSchrodinger version 2021−2 was used to do prediction studies\nof in silico ADME features of compounds.38\n4.4.4. Quantum-Chemical Computations. In the struc-\nture−activity relationship, it is essential to determine the\naccurate structure. For this purpose, the eight newly\nsynthesized compounds were modeled with density functional\ntheory. The DFT calculations were performed using the\nGaussian 09 package53 at the B3LYP/6-311G(d,p) level of\ntheory to find steady states of the models. GaussView 5.0 was\nused to visualize the optimized geometries.30\n■ASSOCIATED CONTENT\n*\nsı Supporting Information\nThe Supporting Information is available free of charge at\nhttps://pubs.acs.org/doi/10.1021/acsomega.2c06142.\n1H NMR, 13C NMR, and HRMS spectra, molecular\ndocking binding poses, MD trajectory analysis, HOMO\nand LUMO plots, MEP diagrams, and Mulliken atomic\ncharge distributions (PDF)\nMD animation videos (ZIP)\n■AUTHOR INFORMATION\nCorresponding Author\nIsmail Celik −Department of Pharmaceutical Chemistry,\nFaculty of Pharmacy, Erciyes University, 38039 Kayseri,\nTurkey;\norcid.org/0000-0002-8146-1663; Phone: +90-\n222-335-0580/3775; Email: ismailcelik@erciyes.edu.tr\nAuthors\nUlviye Acar Çevik −Department of Pharmaceutical\nChemistry, Faculty of Pharmacy, Anadolu University, 26470\nEskişehir, Turkey;\norcid.org/0000-0003-3537-2544\nArzu Karayel −Department of Physics, Faculty of Arts and\nScience, Hitit University, 19030 Çorum, Turkey\nAyşen Işık −Department of Biochemistry, Faculty of Science,\nSelçuk University, 42250 Konya, Turkey\nUğur Kayış −Pazaryeri Vocational School, Program of\nPharmacy Services, Bilecik Şeyh Edebali University, 11230\nBilecik, Turkey;\norcid.org/0000-0003-0020-0857\nÜlküye Dudu Gül −Department of Bioengineering, Faculty of\nEngineering, Bilecik Şeyh Edebali University, 11230 Bilecik,\nTurkey\nHayrani Eren Bostancı −Department of Pharmaceutical\nBasic Sciences, Faculty of Pharmacy, Cumhuriyet University,\n58140 Sivas, Turkey\nSüheyl Furkan Konca −Department of Pharmaceutical\nBiotechnology, Faculty of Pharmacy, Erciyes University,\n38039 Kayseri, Turkey\nYusuf Özkay −Department of Pharmaceutical Chemistry,\nFaculty of Pharmacy, Anadolu University, 26470 Eskişehir,\nTurkey\nZafer Asım Kaplancıklı −Department of Pharmaceutical\nChemistry, Faculty of Pharmacy, Anadolu University, 26470\nEskişehir, Turkey\nComplete contact information is available at:\nhttps://pubs.acs.org/10.1021/acsomega.2c06142\nAuthor Contributions\nI.C.: Conceptualization, investigation, writing\u0001original draft,\nmolecular docking, and ADME. U.A.Ç. and A.I.: Conceptu-\nalization, investigation, writing\u0001original draft, synthesis, and\nelucidation of compounds. A.K.: Investigation, writing\u0001\noriginal draft, DFT calculations. U.K. and Ü.D.G.: Inves-\ntigation, antimicrobial activity measurements. H.E.B.: Inves-\ntigation, writing\u0001original draft, cytotoxic activity study.\nS.F.K.: Writing and editing. Y.Ö. and Z.A.K.: Writing\u0001review\nand editing.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nN\n",
+      "blocks": [
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "glutamine (Sigma-Aldrich), and 1% penicillin/streptomycin\n(Sigma-Aldrich). The cultivated cells were kept at a temper-\nature of 37 °C in a humid environment that contained 5%\nCO2. Since the final DMSO concentration did not go over\n0.5%, all of the recently produced compounds were dissolved\nin DMSO, and stock solutions were diluted with DMEM.\n4.3.2. Cell Viability Assay. The MTT assay was used to\nexamine how 5a−h affected the viability of the L929 cell line.\nThe cells were treated with 100 M concentrations of each after\nbeing plated at a density of 1 × 104 cells per well for 24 h.\nUntreated cells were used as control. After incubation, 20 μL\nof MTT solution (5 mg/mL in PBS, Sigma) was added to the\ncells, and they were then incubated at 37 °C for 3 h to allow\nthe metabolically active cells to convert the MTT dye into\nformazan crystals. The formazan crystals were dissolved in\nDMSO (Sigma). Utilizing a microplate reader (Thermo,\nGermany) to measure the absorbance at 540 nm, the decrease\nof MTT was measured. Data are reported as mean ± standard\ndeviation.\n4.4. Molecular Modeling. 4.4.1. Molecular Docking.\nMolecular docking studies were carried out using the Maestro\nmolecular modeling environment of the Schrödinger version\n2021−2. Since the mechanism of action of benzimidazole\nderivatives is via 14-α demethylase (CYP51)46 of Candida, the\nCYP51 structure was downloaded from the Protein Data Bank\n(PDB) with PDB ID 5TZ1 and prepared using the OPLS4\nforce field with Protein Preparation Wizard. The structures of\nthe compounds were drawn with ChemDraw Professional 16\nversion, and 3D minimized structures obtained from DFT\nstudies with the B3LYP/6-311G(d,p) basis set. Active-site\ncoordinates were determined as (x, y, z) = (70.610, 66.284,\n4.177) based on the cocrystal ligand VT1 in the 5TZ1\nstructure and prepared as 20 Å × 20 Å × 20 Å by Receptor\nGrid Preparation. Molecular docking was performed with\nGlide XP ligand docking.47 For validation of the docking study,\ncocrystal VT1 redocking was performed, and the RMSD\nbetween the natural pose and docking pose was measured as\n0.3865 Å. Visualization and detailed analysis of protein−ligand\ninteractions were performed with UCSF Chimera version 1.16\nand the Maestro Ligand Interaction module.\n4.4.2. Molecular Dynamics Simulations. MD simulations\nwere performed with Gromacs version 2020.4 as in our\nprevious studies.48−50 Input files were created via CHARMM-\nGUI server solution builder (https://charmm-gui.org/).51 The\ntopology file of CYP51 protein, heme and compounds 5c and\n5f were prepared using the Charmm36m force field.52 The\nTIP3 water model was used for solvation and neutralized with\n0.15 M KCl. The rectangular box system consisting of protein,\nheme, compounds, water, and ions was minimized in 5000\nsteps. It was equilibrated with the NVT/NPT ensemble at 1\natm pressure and 300 K temperature for 300 ps. The 100 ns\nMD simulations were run for 1000 frames to 2 fs. RMSD,\nRMSF, and hydrogen-bond analyses were performed with gmx\nscripts from the trajectory. MD graphics were created with\nQtGrace tool version 0.2.6 and animation videos with UCSF\nChimera version 1.16.\n4.4.3. ADME Estimations. The QikProp module of\nSchrodinger version 2021−2 was used to do prediction studies\nof in silico ADME features of compounds.38",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 60.175018310546875,
+            "x1": 291.4850158691406,
+            "y1": 710.9730224609375
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "4.4.4. Quantum-Chemical Computations. In the struc-\nture−activity relationship, it is essential to determine the\naccurate structure. For this purpose, the eight newly\nsynthesized compounds were modeled with density functional",
+          "bbox": {
+            "x0": 51.47812271118164,
+            "y0": 711.3096923828125,
+            "x1": 291.4711608886719,
+            "y1": 755.1946411132812
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "theory. The DFT calculations were performed using the\nGaussian 09 package53 at the B3LYP/6-311G(d,p) level of\ntheory to find steady states of the models. GaussView 5.0 was\nused to visualize the optimized geometries.30\n■ASSOCIATED CONTENT\n*\nsı Supporting Information\nThe Supporting Information is available free of charge at\nhttps://pubs.acs.org/doi/10.1021/acsomega.2c06142.",
+          "bbox": {
+            "x0": 315.4371643066406,
+            "y0": 60.178619384765625,
+            "x1": 555.4760131835938,
+            "y1": 162.9800262451172
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "1H NMR, 13C NMR, and HRMS spectra, molecular\ndocking binding poses, MD trajectory analysis, HOMO\nand LUMO plots, MEP diagrams, and Mulliken atomic\ncharge distributions (PDF)\nMD animation videos (ZIP)\n■AUTHOR INFORMATION",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 167.1234893798828,
+            "x1": 555.4520263671875,
+            "y1": 264.8550109863281
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Corresponding Author",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 258.02801513671875,
+            "x1": 409.3075256347656,
+            "y1": 267.52801513671875
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Ismail Celik −Department of Pharmaceutical Chemistry,\nFaculty of Pharmacy, Erciyes University, 38039 Kayseri,\nTurkey;\norcid.org/0000-0002-8146-1663; Phone: +90-\n222-335-0580/3775; Email: ismailcelik@erciyes.edu.tr",
+          "bbox": {
+            "x0": 325.4739990234375,
+            "y0": 269.33203125,
+            "x1": 553.1430053710938,
+            "y1": 313.0469970703125
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Authors",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 321.58099365234375,
+            "x1": 348.3564758300781,
+            "y1": 331.08099365234375
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Ulviye Acar Çevik −Department of Pharmaceutical\nChemistry, Faculty of Pharmacy, Anadolu University, 26470\nEskişehir, Turkey;\norcid.org/0000-0003-3537-2544\nArzu Karayel −Department of Physics, Faculty of Arts and\nScience, Hitit University, 19030 Çorum, Turkey\nAyşen Işık −Department of Biochemistry, Faculty of Science,\nSelçuk University, 42250 Konya, Turkey\nUğur Kayış −Pazaryeri Vocational School, Program of\nPharmacy Services, Bilecik Şeyh Edebali University, 11230\nBilecik, Turkey;\norcid.org/0000-0003-0020-0857\nÜlküye Dudu Gül −Department of Bioengineering, Faculty of\nEngineering, Bilecik Şeyh Edebali University, 11230 Bilecik,\nTurkey\nHayrani Eren Bostancı −Department of Pharmaceutical\nBasic Sciences, Faculty of Pharmacy, Cumhuriyet University,\n58140 Sivas, Turkey\nSüheyl Furkan Konca −Department of Pharmaceutical\nBiotechnology, Faculty of Pharmacy, Erciyes University,\n38039 Kayseri, Turkey\nYusuf Özkay −Department of Pharmaceutical Chemistry,\nFaculty of Pharmacy, Anadolu University, 26470 Eskişehir,\nTurkey\nZafer Asım Kaplancıklı −Department of Pharmaceutical\nChemistry, Faculty of Pharmacy, Anadolu University, 26470\nEskişehir, Turkey\nComplete contact information is available at:\nhttps://pubs.acs.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 315.4399719238281,
+            "y0": 332.8840026855469,
+            "x1": 555.4660034179688,
+            "y1": 633.5869750976562
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Author Contributions\nI.C.: Conceptualization, investigation, writing\u0001original draft,\nmolecular docking, and ADME. U.A.Ç. and A.I.: Conceptu-\nalization, investigation, writing\u0001original draft, synthesis, and\nelucidation of compounds. A.K.: Investigation, writing\u0001\noriginal draft, DFT calculations. U.K. and Ü.D.G.: Inves-\ntigation, antimicrobial activity measurements. H.E.B.: Inves-\ntigation, writing\u0001original draft, cytotoxic activity study.\nS.F.K.: Writing and editing. Y.Ö. and Z.A.K.: Writing\u0001review\nand editing.",
+          "bbox": {
+            "x0": 315.43896484375,
+            "y0": 645.1270141601562,
+            "x1": 555.470947265625,
+            "y1": 755.1939697265625
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nN",
+          "bbox": {
+            "x0": 300.9259948730469,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0014.png"
+    },
+    {
+      "number": 15,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "Notes\nThe authors declare no competing financial interest.\n■ACKNOWLEDGMENTS\nThe authors thank Ankara University-Scientific Research Unity\nfor supplying the Schrödinger software purchased under Grant\nBAP-21B0237004. The molecular dynamics and DFT\nnumerical calculations reported in this paper were partially\nperformed at TUBITAK ULAKBIM in Turkey, High Perform-\nance and Grid Computing Center (TRUBA resources).\n■REFERENCES\n(1) Bush, K.; Courvalin, P.; Dantas, G.; Davies, J.; Eisenstein, B.;\nHuovinen, P.; Jacoby, G. A.; Kishony, R.; Kreiswirth, B. N.; Kutter, E.;\net al. Tackling antibiotic resistance. Nat. Rev. Microbiol. 2011, 9 (12),\n894−896.\n(2) Tenover, F. C. Mechanisms of antimicrobial resistance in\nbacteria. Am. J. Med. 2006, 119 (6), S3−S10.\n(3) Read, A. F.; Woods, R. J. Antibiotic resistance management. Evol.\nMed. Public Health 2014, 2014 (1), 147.\n(4) Kharb, R.; Shahar Yar, M.; Sharma, P. C. New insights into\nchemistry and anti-infective potential of triazole scaffold. Curr. Med.\nChem. 2011, 18 (21), 3265−3297.\n(5) Wisplinghoff, H.; Bischoff, T.; Tallent, S. M.; Seifert, H.; Wenzel,\nR. P.; Edmond, M. B. Nosocomial bloodstream infections in US\nhospitals: analysis of 24,179 cases from a prospective nationwide\nsurveillance study. Clin. Infect. Dis. 2004, 39 (3), 309−317.\n(6) Kullberg, B. J.; Arendrup, M. C. Invasive candidiasis. N. Engl. J.\nMed. 2015, 373 (15), 1445−1456.\n(7) Yapar, N. Epidemiology and risk factors for invasive candidiasis.\nTher. Clin. Risk Manage. 2014, 10, 95.\n(8) Fisher, M. C.; Hawkins, N. J.; Sanglard, D.; Gurr, S. J.\nWorldwide emergence of resistance to antifungal drugs challenges\nhuman health and food security. Science 2018, 360 (6390), 739−742.\n(9) Cowen, L. E.; Sanglard, D.; Howard, S. J.; Rogers, P. D.; Perlin,\nD. S. Mechanisms of antifungal drug resistance. Cold Spring Harbor\nPerspect. Med. 2015, 5 (7), a019752.\n(10) Howard, S. J.; Cerar, D.; Anderson, M. J.; Albarrag, A.; Fisher,\nM. C.; Pasqualotto, A. C.; Laverdiere, M.; Arendrup, M. C.; Perlin, D.\nS.; Denning, D. W. Frequency and evolution of azole resistance in\nAspergillus fumigatus associated with treatment failure. Emerging\nInfect. Dis. 2009, 15 (7), 1068.\n(11) Bayrak, H.; Demirbas, A.; Demirbas, N.; Karaoglu, S. A.\nSynthesis of some new 1,2,4-triazoles starting from isonicotinic acid\nhydrazide and evaluation of their antimicrobial activities. Eur. J. Med.\nChem. 2009, 44 (11), 4362−4366.\n(12) Gond, M. K.; Pandey, S. K.; Chandra, S.; Tiwari, N.; Bharty, M.\nK.; Maiti, B.; Katiyar, D.; Butcher, R.J. Zinc(II) catalyzed synthesis of\n2-(4-methoxyphenyl)-5-(2-pyridyl)-1,3,4-thiadiazole: Characteriza-\ntions, crystal structure, DFT calculation, Hirshfeld surface analysis,\nand molecular docking analysis. J. Mol. Struct. 2022, 1267, 133586.\n(13) Lou, J.; Wang, H.; Wang, S.; Han, J.; Wang, M. Synthesis,\nantimicrobial activity and 3D-QSAR study of novel 5-substituted-\n1,3,4-thiadiazole Schiff base derivatives. J. Mol. Struct. 2022, 1267,\n133629.\n(14) Zhang, R.; Li, B.; Chi, C.; Liu, Y.; Liu, X.; Li, J.; Li, W.; Chen,\nB. Design, synthesis, antiproliferative and antimicrobial evaluation of a\nnew class of disulfides containing 1,3,4-thiadiazole units. Med. Chem.\nRes. 2022, 31 (9), 1571−1583.\n(15) Kalantarian, S. J.; Kefayati, H.; Montazeri, N. Synthesis and\nantimicrobial evaluation of novel tris-thiadiazole derivatives. J.\nHeterocycl. Chem. 2022, 59 (7), 1253−1259.\n(16) Abu-Hashem, A. A.; Faty, R. A. Synthesis, antimicrobial\nevaluation of some new 1,3,4-thiadiazoles and 1,3,4-thiadiazines. Curr.\nOrg. Synth. 2018, 15 (8), 1161−1170.\n(17) Hamad, N. S.; Al-Haidery, N. H.; Al-Masoudi, I. A.; Sabri, M.;\nSabri, L.; Al-Masoudi, N. A. Amino Acid Derivatives, Part 4: Synthesis\nand Anti-HIV Activity of New Naphthalene Derivatives. Arch. Pharm.\n2010, 343 (7), 397−403.\n(18) Sainy, J.; Mishra, G. P.; Sharma, R.; Chaturvedi, S. C. 2-Amino-\n5-sulfanyl-1,3,4-thiadiazoles: a novel series of anti-inflammatory and\nanalgesic agents. Pharm. Chem. J. 2009, 43 (1), 19−24.\n(19) Kumar, D.; Maruthi Kumar, N.; Chang, K.-H.; Shah, K.\nSynthesis and anticancer activity of 5- (3-indolyl)-1,3,4-thiadiazoles.\nEur. J. Med. Chem. 2010, 45 (10), 4664−4668.\n(20) Seth, K.; Garg, S. K.; Kumar, R.; Purohit, P.; Meena, V. S.;\nGoyal, R.; Banerjee, U. C.; Chakraborti, A. K. 2- (2-Arylphenyl)-\nbenzoxazole as a novel anti-inflammatory scaffold: synthesis and\nbiological evaluation. ACS Med. Chem. Lett. 2014, 5 (5), 512−516.\n(21) Pancholia, S.; Dhameliya, T. M.; Shah, P.; Jadhavar, P. S.;\nSridevi, J. P.; Yogeshwari, P.; Sriram, D.; Chakraborti, A. K.\nBenzo[d]thiazol-2-yl(piperazin-1-yl)methanones as new anti-myco-\nbacterial chemotypes: Design, synthesis, biological evaluation and 3D-\nQSAR studies. Eur. J. Med. Chem. 2016, 116, 187−199.\n(22) Tanwar, B.; Kumar, A.; Yogeeswari, P.; Sriram, D.; Chakraborti,\nA. K. Design, development of new synthetic methodology, and\nbiological evaluation of substituted quinolines as new anti-tubercular\nleads. Bioorg. Med. Chem. Lett. 2016, 26 (24), 5960−5966.\n(23) Dhameliya, T. M.; Tiwari, R.; Banerjee, A.; Pancholia, S.;\nSriram, D.; Panda, D.; Chakraborti, A. K. Benzo[d]thiazole-2-\ncarbanilides as new anti-TB chemotypes: design, synthesis, biological\nevaluation, and structure-activity relationship. Eur. J. Med. Chem.\n2018, 155, 364−380.\n(24) Bhagat, S.; Supriya, M.; Pathak, S.; Sriram, D.; Chakraborti, A.\nK. α-Sulfonamidophosphonates as new anti-mycobacterial chemo-\ntypes: Design, development of synthetic methodology, and biological\nevaluation. Bioorg. Chem. 2019, 82, 246−252.\n(25) Kumar, D.; Kommi, D. N.; Chebolu, R.; Garg, S. K.; Kumar, R.;\nChakraborti, A. K. Selectivity control during the solid supported\nprotic acids catalysed synthesis of 1, 2-disubstituted benzimidazoles\nand mechanistic insight to rationalize selectivity. RSC Adv. 2013, 3\n(1), 91−98.\n(26) Chebolu, R.; Kommi, D. N.; Kumar, D.; Bollineni, N.;\nChakraborti, A. K. Hydrogen-bond-driven electrophilic activation for\nselectivity control: scope and limitations of fluorous alcohol-promoted\nselective formation of 1, 2-disubstituted benzimidazoles and\nmechanistic insight for rationale of selectivity. J. Org. Chem. 2012,\n77 (22), 10158−10167.\n(27) Eren, B.; Bekdemir, Y. Simple, mild, and highly efficient\nsynthesis of 2-substituted benzimidazoles and bis-benzimidazoles.\nQuim. Nova 2014, 37 (4), 643−647.\n(28) Fishel, K. J.; Gulledge, A. L.; Pingitore, A. T.; Hoffman, J. P.;\nSteckle Jr, W. P.; Benicewicz, B. C. Solution polymerization of\npolybenzimidazole. J. Polym. Sci. 2016, 54 (12), 1795−1802.\n(29) Abdel-Aziz, H. A.; Elsaman, T.; Attia, M. I.; Alanazi, A. M. The\nreaction of ethyl 2-oxo-2 H-chromene-3-carboxylate with hydrazine\nhydrate. Molecules 2013, 18 (2), 2084−2095.\n(30) Dennington, R. D.; Keith, T. A.; Millam, J. M. GaussView, ver.\n5; Semichem, Inc.: Shawnee Mission, KS, 2009.\n(31) Celik, I.; Ayhan-Kılcıgil, G.; Karayel, A.; Guven, B.; Onay-\nBesikci, A. Synthesis, molecular docking, in silico ADME, and EGFR\nkinase inhibitor activity studies of some new benzimidazole\nderivatives bearing thiosemicarbazide, triazole, and thiadiazole. J.\nHeterocycl. Chem. 2022, 59 (2), 371−387.\n(32) Hu, Y.; Li, C. Y.; Wang, X. M.; Yang, Y. H.; Zhu, H. L. 1,3,4-\nThiadiazole: synthesis, reactions, and applications in medicinal,\nagricultural, and materials chemistry. Chem. Rev. 2014, 114 (10),\n5572−5610.\n(33) Guda, D. R.; Cho, H. M.; Lee, M. E. Mild and convenient one-\npot synthesis of 2-amino-1,3,4-thiadiazoles using trimethylsilyl\nisothiocyanate (TMSNCS). RSC Adv. 2013, 3 (19), 6813−6816.\n(34) Çoruh, I.; Rollas, S.; Turan, S.; Akbuğa, J. Synthesis and\nevaluation of cytotoxic activities of some 1,4-disubstituted thiosemi-\ncarbazides, 2,5-disubstituted-1,3,4-thiadiazoles and 1,2,4-triazole-5-\nthiones derived from benzilic acid hydrazide. Marmara Pharm. J.\n2012, 16 (1), 56−63.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nO\n",
+      "blocks": [
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "Notes\nThe authors declare no competing financial interest.\n■ACKNOWLEDGMENTS",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 59.31903076171875,
+            "x1": 254.77911376953125,
+            "y1": 117.39701843261719
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "The authors thank Ankara University-Scientific Research Unity\nfor supplying the Schrödinger software purchased under Grant\nBAP-21B0237004. The molecular dynamics and DFT\nnumerical calculations reported in this paper were partially\nperformed at TUBITAK ULAKBIM in Turkey, High Perform-\nance and Grid Computing Center (TRUBA resources).\n■REFERENCES",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 111.53799438476562,
+            "x1": 291.4801330566406,
+            "y1": 211.9609832763672
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "(1) Bush, K.; Courvalin, P.; Dantas, G.; Davies, J.; Eisenstein, B.;\nHuovinen, P.; Jacoby, G. A.; Kishony, R.; Kreiswirth, B. N.; Kutter, E.;\net al. Tackling antibiotic resistance. Nat. Rev. Microbiol. 2011, 9 (12),\n894−896.\n(2) Tenover, F. C. Mechanisms of antimicrobial resistance in\nbacteria. Am. J. Med. 2006, 119 (6), S3−S10.\n(3) Read, A. F.; Woods, R. J. Antibiotic resistance management. Evol.\nMed. Public Health 2014, 2014 (1), 147.\n(4) Kharb, R.; Shahar Yar, M.; Sharma, P. C. New insights into\nchemistry and anti-infective potential of triazole scaffold. Curr. Med.\nChem. 2011, 18 (21), 3265−3297.\n(5) Wisplinghoff, H.; Bischoff, T.; Tallent, S. M.; Seifert, H.; Wenzel,\nR. P.; Edmond, M. B. Nosocomial bloodstream infections in US\nhospitals: analysis of 24,179 cases from a prospective nationwide\nsurveillance study. Clin. Infect. Dis. 2004, 39 (3), 309−317.\n(6) Kullberg, B. J.; Arendrup, M. C. Invasive candidiasis. N. Engl. J.\nMed. 2015, 373 (15), 1445−1456.\n(7) Yapar, N. Epidemiology and risk factors for invasive candidiasis.\nTher. Clin. Risk Manage. 2014, 10, 95.\n(8) Fisher, M. C.; Hawkins, N. J.; Sanglard, D.; Gurr, S. J.\nWorldwide emergence of resistance to antifungal drugs challenges\nhuman health and food security. Science 2018, 360 (6390), 739−742.\n(9) Cowen, L. E.; Sanglard, D.; Howard, S. J.; Rogers, P. D.; Perlin,\nD. S. Mechanisms of antifungal drug resistance. Cold Spring Harbor\nPerspect. Med. 2015, 5 (7), a019752.\n(10) Howard, S. J.; Cerar, D.; Anderson, M. J.; Albarrag, A.; Fisher,\nM. C.; Pasqualotto, A. C.; Laverdiere, M.; Arendrup, M. C.; Perlin, D.\nS.; Denning, D. W. Frequency and evolution of azole resistance in\nAspergillus fumigatus associated with treatment failure. Emerging\nInfect. Dis. 2009, 15 (7), 1068.\n(11) Bayrak, H.; Demirbas, A.; Demirbas, N.; Karaoglu, S. A.\nSynthesis of some new 1,2,4-triazoles starting from isonicotinic acid\nhydrazide and evaluation of their antimicrobial activities. Eur. J. Med.\nChem. 2009, 44 (11), 4362−4366.\n(12) Gond, M. K.; Pandey, S. K.; Chandra, S.; Tiwari, N.; Bharty, M.\nK.; Maiti, B.; Katiyar, D.; Butcher, R.J. Zinc(II) catalyzed synthesis of\n2-(4-methoxyphenyl)-5-(2-pyridyl)-1,3,4-thiadiazole: Characteriza-\ntions, crystal structure, DFT calculation, Hirshfeld surface analysis,\nand molecular docking analysis. J. Mol. Struct. 2022, 1267, 133586.\n(13) Lou, J.; Wang, H.; Wang, S.; Han, J.; Wang, M. Synthesis,\nantimicrobial activity and 3D-QSAR study of novel 5-substituted-\n1,3,4-thiadiazole Schiff base derivatives. J. Mol. Struct. 2022, 1267,\n133629.\n(14) Zhang, R.; Li, B.; Chi, C.; Liu, Y.; Liu, X.; Li, J.; Li, W.; Chen,\nB. Design, synthesis, antiproliferative and antimicrobial evaluation of a\nnew class of disulfides containing 1,3,4-thiadiazole units. Med. Chem.\nRes. 2022, 31 (9), 1571−1583.\n(15) Kalantarian, S. J.; Kefayati, H.; Montazeri, N. Synthesis and\nantimicrobial evaluation of novel tris-thiadiazole derivatives. J.\nHeterocycl. Chem. 2022, 59 (7), 1253−1259.\n(16) Abu-Hashem, A. A.; Faty, R. A. Synthesis, antimicrobial\nevaluation of some new 1,3,4-thiadiazoles and 1,3,4-thiadiazines. Curr.\nOrg. Synth. 2018, 15 (8), 1161−1170.\n(17) Hamad, N. S.; Al-Haidery, N. H.; Al-Masoudi, I. A.; Sabri, M.;\nSabri, L.; Al-Masoudi, N. A. Amino Acid Derivatives, Part 4: Synthesis",
+          "bbox": {
+            "x0": 51.47749328613281,
+            "y0": 205.8729705810547,
+            "x1": 291.48681640625,
+            "y1": 754.873046875
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "and Anti-HIV Activity of New Naphthalene Derivatives. Arch. Pharm.\n2010, 343 (7), 397−403.\n(18) Sainy, J.; Mishra, G. P.; Sharma, R.; Chaturvedi, S. C. 2-Amino-\n5-sulfanyl-1,3,4-thiadiazoles: a novel series of anti-inflammatory and\nanalgesic agents. Pharm. Chem. J. 2009, 43 (1), 19−24.\n(19) Kumar, D.; Maruthi Kumar, N.; Chang, K.-H.; Shah, K.\nSynthesis and anticancer activity of 5- (3-indolyl)-1,3,4-thiadiazoles.\nEur. J. Med. Chem. 2010, 45 (10), 4664−4668.\n(20) Seth, K.; Garg, S. K.; Kumar, R.; Purohit, P.; Meena, V. S.;\nGoyal, R.; Banerjee, U. C.; Chakraborti, A. K. 2- (2-Arylphenyl)-\nbenzoxazole as a novel anti-inflammatory scaffold: synthesis and\nbiological evaluation. ACS Med. Chem. Lett. 2014, 5 (5), 512−516.\n(21) Pancholia, S.; Dhameliya, T. M.; Shah, P.; Jadhavar, P. S.;\nSridevi, J. P.; Yogeshwari, P.; Sriram, D.; Chakraborti, A. K.\nBenzo[d]thiazol-2-yl(piperazin-1-yl)methanones as new anti-myco-\nbacterial chemotypes: Design, synthesis, biological evaluation and 3D-\nQSAR studies. Eur. J. Med. Chem. 2016, 116, 187−199.\n(22) Tanwar, B.; Kumar, A.; Yogeeswari, P.; Sriram, D.; Chakraborti,\nA. K. Design, development of new synthetic methodology, and\nbiological evaluation of substituted quinolines as new anti-tubercular\nleads. Bioorg. Med. Chem. Lett. 2016, 26 (24), 5960−5966.\n(23) Dhameliya, T. M.; Tiwari, R.; Banerjee, A.; Pancholia, S.;\nSriram, D.; Panda, D.; Chakraborti, A. K. Benzo[d]thiazole-2-\ncarbanilides as new anti-TB chemotypes: design, synthesis, biological\nevaluation, and structure-activity relationship. Eur. J. Med. Chem.\n2018, 155, 364−380.\n(24) Bhagat, S.; Supriya, M.; Pathak, S.; Sriram, D.; Chakraborti, A.\nK. α-Sulfonamidophosphonates as new anti-mycobacterial chemo-\ntypes: Design, development of synthetic methodology, and biological\nevaluation. Bioorg. Chem. 2019, 82, 246−252.\n(25) Kumar, D.; Kommi, D. N.; Chebolu, R.; Garg, S. K.; Kumar, R.;\nChakraborti, A. K. Selectivity control during the solid supported\nprotic acids catalysed synthesis of 1, 2-disubstituted benzimidazoles\nand mechanistic insight to rationalize selectivity. RSC Adv. 2013, 3\n(1), 91−98.\n(26) Chebolu, R.; Kommi, D. N.; Kumar, D.; Bollineni, N.;\nChakraborti, A. K. Hydrogen-bond-driven electrophilic activation for\nselectivity control: scope and limitations of fluorous alcohol-promoted\nselective formation of 1, 2-disubstituted benzimidazoles and\nmechanistic insight for rationale of selectivity. J. Org. Chem. 2012,\n77 (22), 10158−10167.\n(27) Eren, B.; Bekdemir, Y. Simple, mild, and highly efficient\nsynthesis of 2-substituted benzimidazoles and bis-benzimidazoles.\nQuim. Nova 2014, 37 (4), 643−647.\n(28) Fishel, K. J.; Gulledge, A. L.; Pingitore, A. T.; Hoffman, J. P.;\nSteckle Jr, W. P.; Benicewicz, B. C. Solution polymerization of\npolybenzimidazole. J. Polym. Sci. 2016, 54 (12), 1795−1802.\n(29) Abdel-Aziz, H. A.; Elsaman, T.; Attia, M. I.; Alanazi, A. M. The\nreaction of ethyl 2-oxo-2 H-chromene-3-carboxylate with hydrazine\nhydrate. Molecules 2013, 18 (2), 2084−2095.\n(30) Dennington, R. D.; Keith, T. A.; Millam, J. M. GaussView, ver.\n5; Semichem, Inc.: Shawnee Mission, KS, 2009.\n(31) Celik, I.; Ayhan-Kılcıgil, G.; Karayel, A.; Guven, B.; Onay-\nBesikci, A. Synthesis, molecular docking, in silico ADME, and EGFR\nkinase inhibitor activity studies of some new benzimidazole\nderivatives bearing thiosemicarbazide, triazole, and thiadiazole. J.\nHeterocycl. Chem. 2022, 59 (2), 371−387.\n(32) Hu, Y.; Li, C. Y.; Wang, X. M.; Yang, Y. H.; Zhu, H. L. 1,3,4-\nThiadiazole: synthesis, reactions, and applications in medicinal,\nagricultural, and materials chemistry. Chem. Rev. 2014, 114 (10),\n5572−5610.\n(33) Guda, D. R.; Cho, H. M.; Lee, M. E. Mild and convenient one-\npot synthesis of 2-amino-1,3,4-thiadiazoles using trimethylsilyl\nisothiocyanate (TMSNCS). RSC Adv. 2013, 3 (19), 6813−6816.\n(34) Çoruh, I.; Rollas, S.; Turan, S.; Akbuğa, J. Synthesis and\nevaluation of cytotoxic activities of some 1,4-disubstituted thiosemi-\ncarbazides, 2,5-disubstituted-1,3,4-thiadiazoles and 1,2,4-triazole-5-\nthiones derived from benzilic acid hydrazide. Marmara Pharm. J.\n2012, 16 (1), 56−63.",
+          "bbox": {
+            "x0": 315.4383850097656,
+            "y0": 59.832706451416016,
+            "x1": 555.48388671875,
+            "y1": 754.873046875
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nO",
+          "bbox": {
+            "x0": 300.81298828125,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0015.png"
+    },
+    {
+      "number": 16,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "(35) Karaburun, A. Ç.; Acar Çevik, U.; Osmaniye, D.; Sağlık, B. N.;\nKaya Çavuşoğlu, B.; Levent, S.; Özkay, Y.; Koparal, A. S.; Behçet, M.;\nKaplancıklı, Z. A. Synthesis and evaluation of new 1,3,4-thiadiazole\nderivatives as potent antifungal agents. Molecules 2018, 23 (12), 3129.\n(36) Çevik, U. A.; Celik, I.; Işık, A.; Pillai, R. R.; Tallei, T. E.; Yadav,\nR.; Özkay, Y.; Kaplancıklı, Z. A. Synthesis, molecular modeling,\nquantum mechanical calculations and ADME estimation studies of\nbenzimidazole-oxadiazole derivatives as potent antifungal agents. J.\nMol. Struct. 2022, 1252, 132095.\n(37) Morcoss, M. M.; Abdelhafez, E. S. M. N.; Ibrahem, R. A.;\nAbdel-Rahman, H. M.; Abdel-Aziz, M.; Abou El-Ella, D. A. Design,\nsynthesis, mechanistic studies and in silico ADME predictions of\nbenzimidazole derivatives as novel antifungal agents. Bioorg. Chem.\n2020, 101, 103956.\n(38) Yeşilçayır, E.; Çelik, İ.; Şen, H. T.; Gürpınar, S. S.; Eryılmaz,\nM.; Ayhan-Kilcigil, G. Novel Benzimidazole-Based Compounds as\nAntimicrobials: Synthesis, Molecular Docking, Molecular Dynamics\nand in silico ADME Profile Studies. Acta Chim. Slov. 2022, 69 (2),\n419−429.\n(39) Poonia, N.; Lal, K.; Kumar, A.; Kumar, A.; Sahu, S.; Baidya, A.\nT.; Kumar, R. Urea-thiazole/benzothiazole hybrids with a triazole\nlinker: synthesis, antimicrobial potential, pharmacokinetic profile and\nin silico mechanistic studies. Mol. Diversity 2022, 26, 2375−2391.\n(40) Acar Çevik, U.; Celik, I.; Işık, A.; Ahmad, I.; Patel, H.; Özkay,\nY.; Kaplancıklı, Z. A. Design, synthesis, molecular modeling, DFT,\nADME and biological evaluation studies of some new 1,3,4-oxadiazole\nlinked benzimidazoles as anticancer agents and aromatase inhibitors. J.\nBiomol. Struct. Dyn. 2022, 1−15.\n(41) Ouaket, A.; Chraka, A.; Raissouni, I.; El Amrani, M. A.;\nBerrada, M.; Knouzi, N. Synthesis, spectroscopic (13C/1H NMR, FT-\nIR) investigations, quantum chemical modelling (FMO, MEP, NBO\nanalysis), and antioxidant activity of the bis-benzimidazole molecule.\nJ. Mol. Struct. 2022, 1259, 132729.\n(42) Karnan, M.; Balachandran, V.; Murugan, M.; Murali, M.\nQuantum chemical vibrational study, molecular property, FTIR, FT-\nRaman spectra, NBO, HOMO-LUMO energies and thermodynamic\nproperties of 1-methyl-2-phenyl benzimidazole. Spectrochim. Acta, Part\nA 2014, 130, 143−151.\n(43) Domingo, L. R.; Aurell, M. J.; Pérez, P.; Contreras, R.\nQuantitative characterization of the local electrophilicity of organic\nmolecules. Understanding the regioselectivity on Diels−Alder\nreactions. J. Phys. Chem. A 2002, 106 (29), 6871−6875.\n(44) Methods for Dilution Antimicrobial Susceptibility Tests for\nBacteria That Grow Aerobically, Approved Standard, 9th ed.; CLSI\ndocument M07-A9 (ISBN 1-56238-783-9 [Print]; ISBN 1-56238-\n784-7 [Electronic]); Clinical and Laboratory Standards Institute:\nWayne, PA, 2012.\n(45) Reference Method for Broth Dilution Antifungal Susceptibility\nTesting of Yeasts, Approved Standard, 2nd ed.; NCCLS document\nM27-A2 (ISBN 1-56238-469-4); National Committee for Clinical\nLaboratory Standards: Wayne, PA, 2002.\n(46) Hargrove, T. Y.; Friggeri, L.; Wawrzak, Z.; Qi, A.; Hoekstra, W.\nJ.; Schotzinger, R. J.; York, J. D.; Guengerich, F. P.; Lepesheva, G. I.\nStructural analyses of Candida albicans sterol 14α-demethylase\ncomplexed with azole drugs address the molecular basis of azole-\nmediated inhibition of fungal sterol biosynthesis. J. Biol. Chem. 2017,\n292 (16), 6728−6743.\n(47) Friesner, R. A.; Murphy, R. B.; Repasky, M. P.; Frye, L. L.;\nGreenwood, J. R.; Halgren, T. A.; Sanschagrin, P. C.; Mainz, D. T.\nExtra precision glide: Docking and scoring incorporating a model of\nhydrophobic enclosure for protein- ligand complexes. J. Med. Chem.\n2006, 49 (21), 6177−6196.\n(48) Abraham, M. J.; Murtola, T.; Schulz, R.; Páll, S.; Smith, J. C.;\nHess, B.; Lindahl, E. GROMACS: High performance molecular\nsimulations through multi-level parallelism from laptops to super-\ncomputers. SoftwareX 2015, 1, 19−25.\n(49) Celik, I.; Tallei, T. E. A computational comparative analysis of\nthe binding mechanism of molnupiravir’s active metabolite to RNA-\ndependent RNA polymerase of wild-type and Delta subvariant AY. 4\nof SARS-CoV-2. J. Cell. Biochem. 2022, 123 (4), 807−818.\n(50) Mellado, M.; González, C.; Mella, J.; Aguilar, L. F.; Celik, I.;\nBorges, F.; Uriarte, E.; Delogu, G.; Viña, D.; Matos, M. J. Coumarin-\nResveratrol-Inspired Hybrids as Monoamine Oxidase B Inhibitors: 3-\nPhenylcoumarin versus trans-6-Styrylcoumarin. Molecules 2022, 27\n(3), 928.\n(51) Jo, S.; Kim, T.; Iyer, V. G.; Im, W. CHARMM-GUI: a web-\nbased graphical user interface for CHARMM. J. Comput. Chem. 2008,\n29 (11), 1859−1865.\n(52) Lee, J.; Cheng, X.; Swails, J. M.; Yeom, M. S.; Eastman, P. K.;\nLemkul, J. A.; Wei, S.; Buckner, J.; Jeong, J. C.; Qi, Y.; et al.\nCHARMM-GUI input generator for NAMD, GROMACS, AMBER,\nOpenMM, and CHARMM/OpenMM simulations using the\nCHARMM36 additive force field. J. Chem. Theory Comput. 2016,\n12 (1), 405−413.\n(53) Frisch, M. J.; Trucks, G. W.; Schlegel, H. B.; Scuseria, G. E.;\nRobb, M. A.; Cheeseman, J. R.; Scalmani, G.; Barone, V.; Mennucci,\nB.; Petersson, G.; et al. Gaussian 09, rev. D.01; Gaussian, Inc.:\nWallingford, CT, 2009.\nACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle\nhttps://doi.org/10.1021/acsomega.2c06142\nACS Omega XXXX, XXX, XXX−XXX\nP\n",
+      "blocks": [
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "(35) Karaburun, A. Ç.; Acar Çevik, U.; Osmaniye, D.; Sağlık, B. N.;\nKaya Çavuşoğlu, B.; Levent, S.; Özkay, Y.; Koparal, A. S.; Behçet, M.;\nKaplancıklı, Z. A. Synthesis and evaluation of new 1,3,4-thiadiazole\nderivatives as potent antifungal agents. Molecules 2018, 23 (12), 3129.\n(36) Çevik, U. A.; Celik, I.; Işık, A.; Pillai, R. R.; Tallei, T. E.; Yadav,\nR.; Özkay, Y.; Kaplancıklı, Z. A. Synthesis, molecular modeling,\nquantum mechanical calculations and ADME estimation studies of\nbenzimidazole-oxadiazole derivatives as potent antifungal agents. J.\nMol. Struct. 2022, 1252, 132095.\n(37) Morcoss, M. M.; Abdelhafez, E. S. M. N.; Ibrahem, R. A.;\nAbdel-Rahman, H. M.; Abdel-Aziz, M.; Abou El-Ella, D. A. Design,\nsynthesis, mechanistic studies and in silico ADME predictions of\nbenzimidazole derivatives as novel antifungal agents. Bioorg. Chem.\n2020, 101, 103956.\n(38) Yeşilçayır, E.; Çelik, İ.; Şen, H. T.; Gürpınar, S. S.; Eryılmaz,\nM.; Ayhan-Kilcigil, G. Novel Benzimidazole-Based Compounds as\nAntimicrobials: Synthesis, Molecular Docking, Molecular Dynamics\nand in silico ADME Profile Studies. Acta Chim. Slov. 2022, 69 (2),\n419−429.\n(39) Poonia, N.; Lal, K.; Kumar, A.; Kumar, A.; Sahu, S.; Baidya, A.\nT.; Kumar, R. Urea-thiazole/benzothiazole hybrids with a triazole\nlinker: synthesis, antimicrobial potential, pharmacokinetic profile and\nin silico mechanistic studies. Mol. Diversity 2022, 26, 2375−2391.\n(40) Acar Çevik, U.; Celik, I.; Işık, A.; Ahmad, I.; Patel, H.; Özkay,\nY.; Kaplancıklı, Z. A. Design, synthesis, molecular modeling, DFT,\nADME and biological evaluation studies of some new 1,3,4-oxadiazole\nlinked benzimidazoles as anticancer agents and aromatase inhibitors. J.\nBiomol. Struct. Dyn. 2022, 1−15.\n(41) Ouaket, A.; Chraka, A.; Raissouni, I.; El Amrani, M. A.;\nBerrada, M.; Knouzi, N. Synthesis, spectroscopic (13C/1H NMR, FT-\nIR) investigations, quantum chemical modelling (FMO, MEP, NBO\nanalysis), and antioxidant activity of the bis-benzimidazole molecule.\nJ. Mol. Struct. 2022, 1259, 132729.\n(42) Karnan, M.; Balachandran, V.; Murugan, M.; Murali, M.\nQuantum chemical vibrational study, molecular property, FTIR, FT-\nRaman spectra, NBO, HOMO-LUMO energies and thermodynamic\nproperties of 1-methyl-2-phenyl benzimidazole. Spectrochim. Acta, Part\nA 2014, 130, 143−151.\n(43) Domingo, L. R.; Aurell, M. J.; Pérez, P.; Contreras, R.\nQuantitative characterization of the local electrophilicity of organic\nmolecules. Understanding the regioselectivity on Diels−Alder\nreactions. J. Phys. Chem. A 2002, 106 (29), 6871−6875.\n(44) Methods for Dilution Antimicrobial Susceptibility Tests for\nBacteria That Grow Aerobically, Approved Standard, 9th ed.; CLSI\ndocument M07-A9 (ISBN 1-56238-783-9 [Print]; ISBN 1-56238-\n784-7 [Electronic]); Clinical and Laboratory Standards Institute:\nWayne, PA, 2012.\n(45) Reference Method for Broth Dilution Antifungal Susceptibility\nTesting of Yeasts, Approved Standard, 2nd ed.; NCCLS document\nM27-A2 (ISBN 1-56238-469-4); National Committee for Clinical\nLaboratory Standards: Wayne, PA, 2002.\n(46) Hargrove, T. Y.; Friggeri, L.; Wawrzak, Z.; Qi, A.; Hoekstra, W.\nJ.; Schotzinger, R. J.; York, J. D.; Guengerich, F. P.; Lepesheva, G. I.\nStructural analyses of Candida albicans sterol 14α-demethylase\ncomplexed with azole drugs address the molecular basis of azole-\nmediated inhibition of fungal sterol biosynthesis. J. Biol. Chem. 2017,\n292 (16), 6728−6743.\n(47) Friesner, R. A.; Murphy, R. B.; Repasky, M. P.; Frye, L. L.;\nGreenwood, J. R.; Halgren, T. A.; Sanschagrin, P. C.; Mainz, D. T.\nExtra precision glide: Docking and scoring incorporating a model of\nhydrophobic enclosure for protein- ligand complexes. J. Med. Chem.\n2006, 49 (21), 6177−6196.\n(48) Abraham, M. J.; Murtola, T.; Schulz, R.; Páll, S.; Smith, J. C.;\nHess, B.; Lindahl, E. GROMACS: High performance molecular\nsimulations through multi-level parallelism from laptops to super-\ncomputers. SoftwareX 2015, 1, 19−25.\n(49) Celik, I.; Tallei, T. E. A computational comparative analysis of\nthe binding mechanism of molnupiravir’s active metabolite to RNA-",
+          "bbox": {
+            "x0": 51.47718811035156,
+            "y0": 58.90142059326172,
+            "x1": 291.486572265625,
+            "y1": 754.8726196289062
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "dependent RNA polymerase of wild-type and Delta subvariant AY. 4\nof SARS-CoV-2. J. Cell. Biochem. 2022, 123 (4), 807−818.\n(50) Mellado, M.; González, C.; Mella, J.; Aguilar, L. F.; Celik, I.;\nBorges, F.; Uriarte, E.; Delogu, G.; Viña, D.; Matos, M. J. Coumarin-\nResveratrol-Inspired Hybrids as Monoamine Oxidase B Inhibitors: 3-\nPhenylcoumarin versus trans-6-Styrylcoumarin. Molecules 2022, 27\n(3), 928.\n(51) Jo, S.; Kim, T.; Iyer, V. G.; Im, W. CHARMM-GUI: a web-\nbased graphical user interface for CHARMM. J. Comput. Chem. 2008,\n29 (11), 1859−1865.\n(52) Lee, J.; Cheng, X.; Swails, J. M.; Yeom, M. S.; Eastman, P. K.;\nLemkul, J. A.; Wei, S.; Buckner, J.; Jeong, J. C.; Qi, Y.; et al.\nCHARMM-GUI input generator for NAMD, GROMACS, AMBER,\nOpenMM, and CHARMM/OpenMM simulations using the\nCHARMM36 additive force field. J. Chem. Theory Comput. 2016,\n12 (1), 405−413.\n(53) Frisch, M. J.; Trucks, G. W.; Schlegel, H. B.; Scuseria, G. E.;\nRobb, M. A.; Cheeseman, J. R.; Scalmani, G.; Barone, V.; Mennucci,\nB.; Petersson, G.; et al. Gaussian 09, rev. D.01; Gaussian, Inc.:\nWallingford, CT, 2009.",
+          "bbox": {
+            "x0": 315.4390563964844,
+            "y0": 59.83320999145508,
+            "x1": 555.4862060546875,
+            "y1": 258.8673400878906
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "ACS Omega\nhttp://pubs.acs.org/journal/acsodf\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.470703125,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acsomega.2c06142",
+          "bbox": {
+            "x0": 447.364013671875,
+            "y0": 765.8436279296875,
+            "x1": 555.47802734375,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "ACS Omega XXXX, XXX, XXX−XXX\nP",
+          "bbox": {
+            "x0": 301.3800048828125,
+            "y0": 764.7186889648438,
+            "x1": 555.4804077148438,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0016.png"
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 53.048413377059134,
+        "y0": 203.9580078125,
+        "x1": 307.4580078125,
+        "y1": 226.20768229166666
+      },
+      "rows": [
+        [
+          "",
+          "Cite This: https://doi.org/10.1021/acsomega.2c06142"
+        ]
+      ],
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 314.1246744791667,
+        "y0": 203.9580078125,
+        "x1": 392.4580078125,
+        "y1": 226.20768229166666
+      },
+      "rows": [
+        [
+          "",
+          "Read Online"
+        ]
+      ],
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 314.1246744791667,
+        "y0": 675.599494934082,
+        "x1": 555.4002532958984,
+        "y1": 735.4850667317709
+      },
+      "rows": [
+        [
+          "Received: September 22, 2022\nAccepted: November 21, 2022",
+          ""
+        ]
+      ],
+      "caption": null
+    },
+    {
+      "page": 8,
+      "bbox": {
+        "x0": 105.65499877929688,
+        "y0": 468.47100830078125,
+        "x1": 555.4629923502604,
+        "y1": 495.3500061035156
+      },
+      "rows": [
+        [
+          "Glide docking",
+          "",
+          "QikProp ADME",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "XPa GScore",
+          "MM-GBSAb dG Bind",
+          "#stars",
+          "QPlogP\no/w",
+          "PHOAc",
+          "ROFd",
+          "ROTe"
+        ]
+      ],
+      "caption": "Table 3. Molecular Docking Binding Energies (kcal/mol) and Some ADME Parameters of Compounds 5a−h, Voriconazole\n(Vor), and Fluconazole (Flu)"
+    },
+    {
+      "page": 12,
+      "bbox": {
+        "x0": 51.45759963989258,
+        "y0": 87.447021484375,
+        "x1": 555.4636433919271,
+        "y1": 100.385986328125
+      },
+      "rows": [
+        [
+          "compd",
+          "E\nLUMO",
+          "E\nHOMO",
+          "ΔE(eV)",
+          "IP (eV)",
+          "EA (eV)",
+          "χ (eV)",
+          "η (eV)",
+          "S (eV)−1",
+          "μ (eV)",
+          "ω (eV)"
+        ]
+      ],
+      "caption": "Table 4. HOMO−LUMO Energies (eV) and Calculated Global Reactivity Parametersa of the Best Stable States of Compounds\n5a−h at the B3LYP/6-311G(d,p) Level in the Gas Phase"
+    }
+  ],
+  "figures": [
+    {
+      "page": 1,
+      "bbox": null,
+      "asset_path": "assets/page-0001-image-001.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 511.6099853515625,
+        "y0": 60.00102615356445,
+        "x1": 524.4099731445312,
+        "y1": 72.801025390625
+      },
+      "asset_path": "assets/page-0001-image-002.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": null,
+      "asset_path": "assets/page-0001-image-003.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 527.3099975585938,
+        "y0": 60.00102615356445,
+        "x1": 539.4099731445312,
+        "y1": 72.801025390625
+      },
+      "asset_path": "assets/page-0001-image-004.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": null,
+      "asset_path": "assets/page-0001-image-005.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 542.3099975585938,
+        "y0": 60.00102615356445,
+        "x1": 554.4099731445312,
+        "y1": 72.801025390625
+      },
+      "asset_path": "assets/page-0001-image-006.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 315.4389953613281,
+        "y0": 270.14202880859375,
+        "x1": 555.4199829101562,
+        "y1": 385.342041015625
+      },
+      "asset_path": "assets/page-0001-image-007.jpeg",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 515.5089721679688,
+        "y0": 677.3671264648438,
+        "x1": 553.3231811523438,
+        "y1": 735.13720703125
+      },
+      "asset_path": "assets/page-0001-image-008.jpeg",
+      "caption": null
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 98.87239837646484,
+        "y0": 60.43499755859375,
+        "x1": 508.0254211425781,
+        "y1": 370.0350036621094
+      },
+      "asset_path": "assets/page-0002-image-001.jpeg",
+      "caption": "Figure 1. Structures of the designed and synthesized N-substituted 5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)phenyl)-1,3,4-thiadiazol-2-amine\nderivatives 5a−h as antimicrobial agents, the antibacterial cefazolin, and the antifungals chlormidazole and carbendazim."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 123.7040023803711,
+        "y0": 411.4770202636719,
+        "x1": 483.1940002441406,
+        "y1": 649.3040161132812
+      },
+      "asset_path": "assets/page-0002-image-002.jpeg",
+      "caption": "Figure 1. Structures of the designed and synthesized N-substituted 5-(4-(5,6-dimethyl-1H-benzimidazol-2-yl)phenyl)-1,3,4-thiadiazol-2-amine\nderivatives 5a−h as antimicrobial agents, the antibacterial cefazolin, and the antifungals chlormidazole and carbendazim."
+    },
+    {
+      "page": 3,
+      "bbox": {
+        "x0": 124.66799926757812,
+        "y0": 220.47900390625,
+        "x1": 482.2300109863281,
+        "y1": 348.8320007324219
+      },
+      "asset_path": "assets/page-0003-image-001.jpeg",
+      "caption": "Figure 3. Reaction mechanism for compound 2."
+    },
+    {
+      "page": 3,
+      "bbox": {
+        "x0": 123.47699737548828,
+        "y0": 60.43397521972656,
+        "x1": 483.47698974609375,
+        "y1": 189.7509765625
+      },
+      "asset_path": "assets/page-0003-image-002.jpeg",
+      "caption": "Figure 3. Reaction mechanism for compound 2."
+    },
+    {
+      "page": 4,
+      "bbox": {
+        "x0": 218.1540069580078,
+        "y0": 274.4505920410156,
+        "x1": 388.7430114746094,
+        "y1": 328.64898681640625
+      },
+      "asset_path": "assets/page-0004-image-001.jpeg",
+      "caption": "Figure 5. Reaction mechanism for compounds 4a−h and 5a−h."
+    },
+    {
+      "page": 4,
+      "bbox": {
+        "x0": 133.3979949951172,
+        "y0": 334.7149658203125,
+        "x1": 473.4420166015625,
+        "y1": 594.1419677734375
+      },
+      "asset_path": "assets/page-0004-image-002.jpeg",
+      "caption": "Figure 5. Reaction mechanism for compounds 4a−h and 5a−h."
+    },
+    {
+      "page": 4,
+      "bbox": {
+        "x0": 109.0770034790039,
+        "y0": 60.43501281738281,
+        "x1": 497.8769836425781,
+        "y1": 227.67901611328125
+      },
+      "asset_path": "assets/page-0004-image-003.jpeg",
+      "caption": "Figure 5. Reaction mechanism for compounds 4a−h and 5a−h."
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 212.9949951171875,
+        "y0": 76.42222595214844,
+        "x1": 393.9019775390625,
+        "y1": 133.51202392578125
+      },
+      "asset_path": "assets/page-0005-image-001.jpeg",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 134.64599609375,
+        "y0": 139.5780029296875,
+        "x1": 472.3089904785156,
+        "y1": 416.75
+      },
+      "asset_path": "assets/page-0005-image-002.jpeg",
+      "caption": null
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 51.47719955444336,
+        "y0": 60.43499755859375,
+        "x1": 291.45819091796875,
+        "y1": 205.114990234375
+      },
+      "asset_path": "assets/page-0006-image-001.jpeg",
+      "caption": "Figure 6. SAR outline for compounds 5a−h."
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 61.05830001831055,
+        "y0": 445.6629943847656,
+        "x1": 281.8202819824219,
+        "y1": 619.3699951171875
+      },
+      "asset_path": "assets/page-0006-image-002.jpeg",
+      "caption": "Figure 7. Cell viabilities (%) of the L929 fibroblast cell line against\ncompounds 5a−h for 24 h."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 82.43150329589844,
+        "y0": 60.43499755859375,
+        "x1": 524.4664916992188,
+        "y1": 475.8240051269531
+      },
+      "asset_path": "assets/page-0007-image-001.jpeg",
+      "caption": "Figure 8. Views of the L929 cell line after administration of the synthesized compounds."
+    },
+    {
+      "page": 8,
+      "bbox": {
+        "x0": 76.535400390625,
+        "y0": 60.433990478515625,
+        "x1": 530.3624267578125,
+        "y1": 400.0249938964844
+      },
+      "asset_path": "assets/page-0008-image-001.jpeg",
+      "caption": "Figure 9. Binding poses and protein−ligand interactions of (A, B) 5c and (C, D) 5f with Candida sterol 14-α demethylase (CYP51) (PDB ID\n5TZ1)."
+    },
+    {
+      "page": 9,
+      "bbox": {
+        "x0": 76.535400390625,
+        "y0": 379.5019836425781,
+        "x1": 530.3624267578125,
+        "y1": 686.2109985351562
+      },
+      "asset_path": "assets/page-0009-image-001.jpeg",
+      "caption": "Figure 10. (A) Root-mean-square deviation (RMSD), (B) root-mean-square fluctuation (RMSF), and (C, D) hydrogen bond analysis of the\nCYP51−5c and CYP51−5f complexes throughout 100 ns."
+    },
+    {
+      "page": 9,
+      "bbox": {
+        "x0": 76.535400390625,
+        "y0": 60.43499755859375,
+        "x1": 530.3624267578125,
+        "y1": 338.57000732421875
+      },
+      "asset_path": "assets/page-0009-image-002.jpeg",
+      "caption": "Figure 10. (A) Root-mean-square deviation (RMSD), (B) root-mean-square fluctuation (RMSF), and (C, D) hydrogen bond analysis of the\nCYP51−5c and CYP51−5f complexes throughout 100 ns."
+    },
+    {
+      "page": 10,
+      "bbox": {
+        "x0": 81.80789947509766,
+        "y0": 60.43499755859375,
+        "x1": 525.0328979492188,
+        "y1": 534.8980102539062
+      },
+      "asset_path": "assets/page-0010-image-001.jpeg",
+      "caption": "Figure 12. Molecular electrostatic potential (MEP) diagrams for compounds 5a−h at the B3LYP/6-311G(d,p) level. Atom colors: carbon in gray,\nnitrogen in blue, chlorine in green, oxygen in red, sulfur in yellow, and hydrogen in white. The surfaces plotted by the 0.0004 electrons/Å3 contour\nof the electron density. Color ranges are in a.u."
+    },
+    {
+      "page": 11,
+      "bbox": {
+        "x0": 93.82679748535156,
+        "y0": 60.43499755859375,
+        "x1": 513.07080078125,
+        "y1": 694.9420166015625
+      },
+      "asset_path": "assets/page-0011-image-001.jpeg",
+      "caption": "Figure 13. Highest occupied molecular orbital (HOMO) and lowest unoccupied molecular orbital (LUMO) diagrams of current molecules 5a−h\ncalculated at the B3LYP/6-311G(d,p) level. Atom colors: carbon in gray, nitrogen in blue, chlorine in green, oxygen in red, sulfur in yellow, and\nhydrogen in white."
+    }
+  ],
+  "marker_markdown_path": null
+}

@@ -1,0 +1,27 @@
+domain,field,precision,recall,f1,true_positive,predicted,expected,gold_rows,gold_doi,gold_pdf,gold_title,gold_match_mode,gold_path,macro_f1
+benzimidazoles,access,1.0,1.0,1.0,8,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,bacteria,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,bacteria_unified,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,compound_id,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,doi,1.0,1.0,1.0,8,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,origin_bacteria,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,origin_residue,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,origin_scaffold,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,origin_target,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,page_bacteria,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,page_residue,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,page_scaffold,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,page_target,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,pdf,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,publisher,1.0,1.0,1.0,8,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,section_bacteria,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,section_target,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,smiles,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,subsection_bacteria,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,subsection_target,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,target_relation,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,target_type,0.25,0.25,0.25,2,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,target_units,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,target_value,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,title,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125
+benzimidazoles,year,0.0,0.0,0.0,0,8,8,8,10.5772/intechopen.108949,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Benzimidazoles\train-00000-of-00001 (1).parquet,0.125

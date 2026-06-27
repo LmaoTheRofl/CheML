@@ -1,0 +1,203 @@
+{
+  "run_id": "20260627T105927776817Z-coordinating-radiometals-of-copper-gallium-indiu",
+  "run_dir": "C:\\PyProjects\\CheML-master\\runs\\20260627T105927776817Z-coordinating-radiometals-of-copper-gallium-indiu",
+  "source_pdf": "C:\\PyProjects\\CheML-master\\datasets\\SMALL_MOL\\Complexes\\coordinating-radiometals-of-copper-gallium-indium-yttrium-and-zirconium-for-pet-and-spect-imaging-of-disease.pdf",
+  "domain": "complexes",
+  "gold_path": "C:\\PyProjects\\CheML-master\\datasets\\SMALL_MOL\\Complexes\\train-00000-of-00001 (4).parquet",
+  "gold_rows": 23,
+  "gold_doi_matches": [
+    "10.1021/cr900325h"
+  ],
+  "gold_pdf_matches": [],
+  "gold_title_matches": [],
+  "gold_match_mode": "doi",
+  "predicted_records": 0,
+  "field_count": 20,
+  "macro_f1": 0.0,
+  "gold_schema_matches_contract": true,
+  "gold_schema": {
+    "pdf": "string",
+    "doi": "string",
+    "doi_sourse": "string",
+    "supplementary": "integer",
+    "title": "string",
+    "publisher": "string",
+    "year": "integer",
+    "access": "integer",
+    "compound_id": "string",
+    "compound_name": "string",
+    "SMILES": "string",
+    "SMILES_type": "string",
+    "metal": "string",
+    "target": "string",
+    "page_smiles": "integer",
+    "origin_smiles": "string",
+    "page_metal": "integer",
+    "origin_metal": "string",
+    "page_target_value": "number",
+    "origin_target_value": "string"
+  },
+  "all_fields_f1_1": false,
+  "fields": {
+    "SMILES": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "SMILES_type": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "access": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "compound_id": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "compound_name": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "doi": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "doi_sourse": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "metal": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "origin_metal": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "origin_smiles": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "origin_target_value": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "page_metal": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "page_smiles": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "page_target_value": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "pdf": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "publisher": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "supplementary": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "title": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    },
+    "year": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 0,
+      "expected": 23
+    }
+  }
+}

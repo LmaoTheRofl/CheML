@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260627T105927776817Z-coordinating-radiometals-of-copper-gallium-indiu",
+  "source_pdf": "C:\\PyProjects\\CheML-master\\datasets\\SMALL_MOL\\Complexes\\coordinating-radiometals-of-copper-gallium-indium-yttrium-and-zirconium-for-pet-and-spect-imaging-of-disease.pdf",
+  "domain": "complexes",
+  "backend": "codex",
+  "state": "inference_complete",
+  "created_at": "2026-06-27T10:59:27.779817Z",
+  "bundle_path": "C:\\PyProjects\\CheML-master\\runs\\20260627T105927776817Z-coordinating-radiometals-of-copper-gallium-indiu\\bundle.json",
+  "prediction_path": "C:\\PyProjects\\CheML-master\\runs\\20260627T105927776817Z-coordinating-radiometals-of-copper-gallium-indiu\\prediction.json",
+  "error": null
+}

@@ -1,0 +1,193 @@
+{
+  "slug": "benzimidazoles",
+  "name": "Benzimidazoles",
+  "family": "small_molecule",
+  "description": "Benzimidazole synthesis and biological activity.",
+  "aliases": [
+    "benzimidazole"
+  ],
+  "fields": [
+    {
+      "name": "smiles",
+      "description": "ChemX parquet gold column `smiles`.",
+      "type": "string",
+      "required": true,
+      "smiles": true
+    },
+    {
+      "name": "doi",
+      "description": "ChemX parquet gold column `doi`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "title",
+      "description": "ChemX parquet gold column `title`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "publisher",
+      "description": "ChemX parquet gold column `publisher`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "year",
+      "description": "ChemX parquet gold column `year`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "access",
+      "description": "ChemX parquet gold column `access`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "compound_id",
+      "description": "ChemX parquet gold column `compound_id`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "target_type",
+      "description": "ChemX parquet gold column `target_type`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "target_relation",
+      "description": "ChemX parquet gold column `target_relation`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "target_value",
+      "description": "ChemX parquet gold column `target_value`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "target_units",
+      "description": "ChemX parquet gold column `target_units`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "bacteria",
+      "description": "ChemX parquet gold column `bacteria`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "bacteria_unified",
+      "description": "ChemX parquet gold column `bacteria_unified`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "page_bacteria",
+      "description": "ChemX parquet gold column `page_bacteria`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "origin_bacteria",
+      "description": "ChemX parquet gold column `origin_bacteria`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "section_bacteria",
+      "description": "ChemX parquet gold column `section_bacteria`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "subsection_bacteria",
+      "description": "ChemX parquet gold column `subsection_bacteria`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "page_target",
+      "description": "ChemX parquet gold column `page_target`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "origin_target",
+      "description": "ChemX parquet gold column `origin_target`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "section_target",
+      "description": "ChemX parquet gold column `section_target`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "subsection_target",
+      "description": "ChemX parquet gold column `subsection_target`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "page_scaffold",
+      "description": "ChemX parquet gold column `page_scaffold`.",
+      "type": "integer",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "origin_scaffold",
+      "description": "ChemX parquet gold column `origin_scaffold`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "page_residue",
+      "description": "ChemX parquet gold column `page_residue`.",
+      "type": "number",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "origin_residue",
+      "description": "ChemX parquet gold column `origin_residue`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    },
+    {
+      "name": "pdf",
+      "description": "ChemX parquet gold column `pdf`.",
+      "type": "string",
+      "required": true,
+      "smiles": false
+    }
+  ]
+}

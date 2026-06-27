@@ -1,0 +1,2631 @@
+{
+  "schema_version": "1.0",
+  "domain": "co-crystals",
+  "records": [
+    {
+      "values": {
+        "pdf": "Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+        "doi": "10.1021/acs.molpharmaceut.4c00393",
+        "supplementary": 0,
+        "authors": "Luan F. Diniz, Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes",
+        "title": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+        "journal": "Molecular Pharmaceutics",
+        "year": 2024,
+        "page": 3661,
+        "access": 1,
+        "name_cocrystal": "DTIC-HOXA",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": null,
+        "ratio_cocrystal": "1:1",
+        "ratio_cocrystal_page": "4",
+        "ratio_cocrystal_page.1": "4",
+        "ratio_cocrystal_origin": null,
+        "name_drug": "Dacarbazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "Dacarbazine, DTIC",
+        "name_drug_page": 1,
+        "SMILES_drug": "CN(C)N=Nc1[nH]cnc1C(N)=O",
+        "SMILES_drug_type_file": "figure",
+        "SMILES_drug_origin": "inferred from Scheme 1 structure",
+        "SMILES_drug_page": 1,
+        "name_coformer": "Oxalic acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "Oxalic acid",
+        "name_coformer_page": 1,
+        "SMILES_coformer": "O=C(O)C(=O)O",
+        "SMILES_coformer_type file": "figure",
+        "SMILES_coformer_origin": "inferred from Scheme 1 structure",
+        "SMILES_coformer_page": 1,
+        "photostability_change": "Improved solid-state photostability versus DTIC control; after 15 days in photostability chamber: 97.1 ± 0.3% DTIC and 2.2 ± 0.4% 2-AZA.",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "Table 3",
+        "photostability_change_page": 10
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 423.4389953613281,
+              "y0": 762.555419921875,
+              "x1": 555.4390258789062,
+              "y1": 768.555419921875
+            },
+            "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "Main article PDF source; supporting information is referenced separately.",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 152.22206115722656,
+              "x1": 546.0322875976562,
+              "y1": 166.09295654296875
+            },
+            "text": "Luan F. Diniz,* Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes*",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 111.18110656738281,
+              "x1": 555.439208984375,
+              "y1": 146.20770263671875
+            },
+            "text": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 85.2519760131836,
+              "x1": 548.4727172851562,
+              "y1": 93.44596099853516
+            },
+            "text": "Article pubs.acs.org/molecularpharmaceutics",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 75.17479705810547,
+              "y0": 179.656982421875,
+              "x1": 385.89202880859375,
+              "y1": 188.656982421875
+            },
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661−3673",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 75.17479705810547,
+              "y0": 179.656982421875,
+              "x1": 385.89202880859375,
+              "y1": 188.656982421875
+            },
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661−3673",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 211.0999755859375,
+              "x1": 529.8231811523438,
+              "y1": 226.0999755859375
+            },
+            "text": "ACCESS; Supporting Information",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47745895385742,
+              "y0": 388.9540100097656,
+              "x1": 291.4831848144531,
+              "y1": 755.1949462890625
+            },
+            "text": "Dacarbazine Hydrogen-Oxalate Salt (DTIC-HOXA). 50 mg of DTIC ... and 24.7 mg of oxalic acid ...",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47745895385742,
+              "y0": 388.9540100097656,
+              "x1": 291.4831848144531,
+              "y1": 755.1949462890625
+            },
+            "text": "Dacarbazine Hydrogen-Oxalate Salt (DTIC-HOXA).",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47745895385742,
+              "y0": 388.9540100097656,
+              "x1": 291.4831848144531,
+              "y1": 755.1949462890625
+            },
+            "text": "Dacarbazine Hydrogen-Oxalate Salt (DTIC-HOXA).",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [],
+        "ratio_cocrystal": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 352.9393005371094,
+              "x1": 555.4819946289062,
+              "y1": 755.1939697265625
+            },
+            "text": "The DTIC-HOXA is a 1:1 salt ... comprises a dacarbazinum (DTICH+) cation and a hydrogen-oxalate (HOXA−) anion.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 352.9393005371094,
+              "x1": 555.4819946289062,
+              "y1": 755.1939697265625
+            },
+            "text": "The DTIC-HOXA is a 1:1 salt.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 4,
+            "kind": "text",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 352.9393005371094,
+              "x1": 555.4819946289062,
+              "y1": 755.1939697265625
+            },
+            "text": "The DTIC-HOXA is a 1:1 salt.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [],
+        "name_drug": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC) and the Coformers...",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC).",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Dacarbazine (DTIC)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC).",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Oxalic acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Oxalic acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Oxalic acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Oxalic acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Oxalic acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 117.19410705566406,
+              "x1": 534.4295043945312,
+              "y1": 193.7830047607422
+            },
+            "text": "DTIC-HOXA: 100.1 ± 0.1 initial; after 15 days 97.1 ± 0.3% DTIC and 2.2 ± 0.4% 2-AZA.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 60.685028076171875,
+              "x1": 509.0940856933594,
+              "y1": 70.68502807617188
+            },
+            "text": "Table 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 60.685028076171875,
+              "x1": 509.0940856933594,
+              "y1": 70.68502807617188
+            },
+            "text": "Table 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 117.19410705566406,
+              "x1": 534.4295043945312,
+              "y1": 193.7830047607422
+            },
+            "text": "DTIC-HOXA row in Table 3.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+        "doi": "10.1021/acs.molpharmaceut.4c00393",
+        "supplementary": 0,
+        "authors": "Luan F. Diniz, Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes",
+        "title": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+        "journal": "Molecular Pharmaceutics",
+        "year": 2024,
+        "page": 3661,
+        "access": 1,
+        "name_cocrystal": "DTIC-HMAL",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": null,
+        "ratio_cocrystal": "1:1",
+        "ratio_cocrystal_page": "6",
+        "ratio_cocrystal_page.1": "6",
+        "ratio_cocrystal_origin": null,
+        "name_drug": "Dacarbazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "Dacarbazine, DTIC",
+        "name_drug_page": 1,
+        "SMILES_drug": "CN(C)N=Nc1[nH]cnc1C(N)=O",
+        "SMILES_drug_type_file": "figure",
+        "SMILES_drug_origin": "inferred from Scheme 1 structure",
+        "SMILES_drug_page": 1,
+        "name_coformer": "Maleic acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "Maleic acid",
+        "name_coformer_page": 1,
+        "SMILES_coformer": "O=C(O)/C=C\\C(=O)O",
+        "SMILES_coformer_type file": "figure",
+        "SMILES_coformer_origin": "inferred from Scheme 1 structure",
+        "SMILES_coformer_page": 1,
+        "photostability_change": "Improved solid-state photostability versus DTIC control; after 15 days in photostability chamber: 98.4 ± 0.2% DTIC and 1.7 ± 0.2% 2-AZA.",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "Table 3",
+        "photostability_change_page": 10
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 423.4389953613281,
+              "y0": 762.555419921875,
+              "x1": 555.4390258789062,
+              "y1": 768.555419921875
+            },
+            "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "Main article PDF source; supporting information is referenced separately.",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 152.22206115722656,
+              "x1": 546.0322875976562,
+              "y1": 166.09295654296875
+            },
+            "text": "Luan F. Diniz,* Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes*",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 111.18110656738281,
+              "x1": 555.439208984375,
+              "y1": 146.20770263671875
+            },
+            "text": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 85.2519760131836,
+              "x1": 548.4727172851562,
+              "y1": 93.44596099853516
+            },
+            "text": "Article pubs.acs.org/molecularpharmaceutics",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 75.17479705810547,
+              "y0": 179.656982421875,
+              "x1": 385.89202880859375,
+              "y1": 188.656982421875
+            },
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661−3673",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 75.17479705810547,
+              "y0": 179.656982421875,
+              "x1": 385.89202880859375,
+              "y1": 188.656982421875
+            },
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661−3673",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 211.0999755859375,
+              "x1": 529.8231811523438,
+              "y1": 226.0999755859375
+            },
+            "text": "ACCESS; Supporting Information",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47745895385742,
+              "y0": 388.9540100097656,
+              "x1": 291.4831848144531,
+              "y1": 755.1949462890625
+            },
+            "text": "Dacarbazine Hydrogen-Maleate Salt (DTIC-HMAL). 50 mg of DTIC ... and 31.8 mg of maleic acid ...",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47745895385742,
+              "y0": 388.9540100097656,
+              "x1": 291.4831848144531,
+              "y1": 755.1949462890625
+            },
+            "text": "Dacarbazine Hydrogen-Maleate Salt (DTIC-HMAL).",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47745895385742,
+              "y0": 388.9540100097656,
+              "x1": 291.4831848144531,
+              "y1": 755.1949462890625
+            },
+            "text": "Dacarbazine Hydrogen-Maleate Salt (DTIC-HMAL).",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [],
+        "ratio_cocrystal": [
+          {
+            "page": 6,
+            "kind": "text",
+            "bbox": {
+              "x0": 315.43798828125,
+              "y0": 403.39300537109375,
+              "x1": 555.4829711914062,
+              "y1": 755.195068359375
+            },
+            "text": "DTIC-HMAL is a hydrated salt ... The ASU comprises a dacarbazinum (DTICH+) cation, a hydrogen-maleate anion (HMAL−), and a water molecule.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 6,
+            "kind": "text",
+            "bbox": {
+              "x0": 315.43798828125,
+              "y0": 403.39300537109375,
+              "x1": 555.4829711914062,
+              "y1": 755.195068359375
+            },
+            "text": "The ASU comprises a dacarbazinum cation and a hydrogen-maleate anion.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 6,
+            "kind": "text",
+            "bbox": {
+              "x0": 315.43798828125,
+              "y0": 403.39300537109375,
+              "x1": 555.4829711914062,
+              "y1": 755.195068359375
+            },
+            "text": "The ASU comprises a dacarbazinum cation and a hydrogen-maleate anion.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [],
+        "name_drug": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC) and the Coformers...",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC).",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Dacarbazine (DTIC)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC).",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Maleic acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Maleic acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Maleic acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Maleic acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Maleic acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 117.19410705566406,
+              "x1": 534.4295043945312,
+              "y1": 193.7830047607422
+            },
+            "text": "DTIC-HMAL: 99.6 ± 0.4 initial; after 15 days 98.4 ± 0.2% DTIC and 1.7 ± 0.2% 2-AZA.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 60.685028076171875,
+              "x1": 509.0940856933594,
+              "y1": 70.68502807617188
+            },
+            "text": "Table 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 60.685028076171875,
+              "x1": 509.0940856933594,
+              "y1": 70.68502807617188
+            },
+            "text": "Table 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 117.19410705566406,
+              "x1": 534.4295043945312,
+              "y1": 193.7830047607422
+            },
+            "text": "DTIC-HMAL row in Table 3.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+        "doi": "10.1021/acs.molpharmaceut.4c00393",
+        "supplementary": 0,
+        "authors": "Luan F. Diniz, Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes",
+        "title": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+        "journal": "Molecular Pharmaceutics",
+        "year": 2024,
+        "page": 3661,
+        "access": 1,
+        "name_cocrystal": "DTIC-H2FUM",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": null,
+        "ratio_cocrystal": "1:1",
+        "ratio_cocrystal_page": "6",
+        "ratio_cocrystal_page.1": "6",
+        "ratio_cocrystal_origin": null,
+        "name_drug": "Dacarbazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "Dacarbazine, DTIC",
+        "name_drug_page": 1,
+        "SMILES_drug": "CN(C)N=Nc1[nH]cnc1C(N)=O",
+        "SMILES_drug_type_file": "figure",
+        "SMILES_drug_origin": "inferred from Scheme 1 structure",
+        "SMILES_drug_page": 1,
+        "name_coformer": "Fumaric acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "Fumaric acid",
+        "name_coformer_page": 1,
+        "SMILES_coformer": "O=C(O)/C=C/C(=O)O",
+        "SMILES_coformer_type file": "figure",
+        "SMILES_coformer_origin": "inferred from Scheme 1 structure",
+        "SMILES_coformer_page": 1,
+        "photostability_change": "Improved solid-state photostability versus DTIC control; after 15 days in photostability chamber: 97.3 ± 0.2% DTIC and 1.1 ± 0.1% 2-AZA.",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "Table 3",
+        "photostability_change_page": 10
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 423.4389953613281,
+              "y0": 762.555419921875,
+              "x1": 555.4390258789062,
+              "y1": 768.555419921875
+            },
+            "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "Main article PDF source; supporting information is referenced separately.",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 152.22206115722656,
+              "x1": 546.0322875976562,
+              "y1": 166.09295654296875
+            },
+            "text": "Luan F. Diniz,* Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes*",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 111.18110656738281,
+              "x1": 555.439208984375,
+              "y1": 146.20770263671875
+            },
+            "text": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 85.2519760131836,
+              "x1": 548.4727172851562,
+              "y1": 93.44596099853516
+            },
+            "text": "Article pubs.acs.org/molecularpharmaceutics",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 75.17479705810547,
+              "y0": 179.656982421875,
+              "x1": 385.89202880859375,
+              "y1": 188.656982421875
+            },
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661−3673",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 75.17479705810547,
+              "y0": 179.656982421875,
+              "x1": 385.89202880859375,
+              "y1": 188.656982421875
+            },
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661−3673",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 211.0999755859375,
+              "x1": 529.8231811523438,
+              "y1": 226.0999755859375
+            },
+            "text": "ACCESS; Supporting Information",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47745895385742,
+              "y0": 388.9540100097656,
+              "x1": 291.4831848144531,
+              "y1": 755.1949462890625
+            },
+            "text": "Dacarbazine-Fumaric Acid Cocrystal (DTIC-H2FUM). 50 mg of DTIC ... and 31.8 mg of fumaric acid ...",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47745895385742,
+              "y0": 388.9540100097656,
+              "x1": 291.4831848144531,
+              "y1": 755.1949462890625
+            },
+            "text": "Dacarbazine-Fumaric Acid Cocrystal (DTIC-H2FUM).",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47745895385742,
+              "y0": 388.9540100097656,
+              "x1": 291.4831848144531,
+              "y1": 755.1949462890625
+            },
+            "text": "Dacarbazine-Fumaric Acid Cocrystal (DTIC-H2FUM).",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [],
+        "ratio_cocrystal": [
+          {
+            "page": 6,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47699737548828,
+              "y0": 403.39300537109375,
+              "x1": 291.48101806640625,
+              "y1": 756.1166381835938
+            },
+            "text": "Reacting DTIC and fumaric acid (H2FUM) yielded a 1:1 cocrystal ... The ASU is characterized by a H2FUM and a neutral DTIC molecule.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 6,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47699737548828,
+              "y0": 403.39300537109375,
+              "x1": 291.48101806640625,
+              "y1": 756.1166381835938
+            },
+            "text": "Reacting DTIC and fumaric acid (H2FUM) yielded a 1:1 cocrystal.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 6,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47699737548828,
+              "y0": 403.39300537109375,
+              "x1": 291.48101806640625,
+              "y1": 756.1166381835938
+            },
+            "text": "Reacting DTIC and fumaric acid (H2FUM) yielded a 1:1 cocrystal.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [],
+        "name_drug": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC) and the Coformers...",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC).",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Dacarbazine (DTIC)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC).",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Fumaric acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Fumaric acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Fumaric acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Fumaric acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Fumaric acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 117.19410705566406,
+              "x1": 534.4295043945312,
+              "y1": 193.7830047607422
+            },
+            "text": "DTIC-H2FUM: 99.5 ± 0.3 initial; after 15 days 97.3 ± 0.2% DTIC and 1.1 ± 0.1% 2-AZA.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 60.685028076171875,
+              "x1": 509.0940856933594,
+              "y1": 70.68502807617188
+            },
+            "text": "Table 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 60.685028076171875,
+              "x1": 509.0940856933594,
+              "y1": 70.68502807617188
+            },
+            "text": "Table 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 117.19410705566406,
+              "x1": 534.4295043945312,
+              "y1": 193.7830047607422
+            },
+            "text": "DTIC-H2FUM row in Table 3.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+        "doi": "10.1021/acs.molpharmaceut.4c00393",
+        "supplementary": 0,
+        "authors": "Luan F. Diniz, Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes",
+        "title": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+        "journal": "Molecular Pharmaceutics",
+        "year": 2024,
+        "page": 3661,
+        "access": 1,
+        "name_cocrystal": "DTIC-H2SUC",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": null,
+        "ratio_cocrystal": "1:1",
+        "ratio_cocrystal_page": "4",
+        "ratio_cocrystal_page.1": "4",
+        "ratio_cocrystal_origin": null,
+        "name_drug": "Dacarbazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "Dacarbazine, DTIC",
+        "name_drug_page": 1,
+        "SMILES_drug": "CN(C)N=Nc1[nH]cnc1C(N)=O",
+        "SMILES_drug_type_file": "figure",
+        "SMILES_drug_origin": "inferred from Scheme 1 structure",
+        "SMILES_drug_page": 1,
+        "name_coformer": "Succinic acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "Succinic acid",
+        "name_coformer_page": 1,
+        "SMILES_coformer": "O=C(O)CCC(=O)O",
+        "SMILES_coformer_type file": "figure",
+        "SMILES_coformer_origin": "inferred from Scheme 1 structure",
+        "SMILES_coformer_page": 1,
+        "photostability_change": "Improved solid-state photostability versus DTIC control; after 15 days in photostability chamber: 98.7 ± 0.3% DTIC and 0.8 ± 0.1% 2-AZA.",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "Table 3",
+        "photostability_change_page": 10
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 423.4389953613281,
+              "y0": 762.555419921875,
+              "x1": 555.4390258789062,
+              "y1": 768.555419921875
+            },
+            "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "Main article PDF source; supporting information is referenced separately.",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 152.22206115722656,
+              "x1": 546.0322875976562,
+              "y1": 166.09295654296875
+            },
+            "text": "Luan F. Diniz,* Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes*",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 111.18110656738281,
+              "x1": 555.439208984375,
+              "y1": 146.20770263671875
+            },
+            "text": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 85.2519760131836,
+              "x1": 548.4727172851562,
+              "y1": 93.44596099853516
+            },
+            "text": "Article pubs.acs.org/molecularpharmaceutics",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 75.17479705810547,
+              "y0": 179.656982421875,
+              "x1": 385.89202880859375,
+              "y1": 188.656982421875
+            },
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661−3673",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 75.17479705810547,
+              "y0": 179.656982421875,
+              "x1": 385.89202880859375,
+              "y1": 188.656982421875
+            },
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661−3673",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 211.0999755859375,
+              "x1": 529.8231811523438,
+              "y1": 226.0999755859375
+            },
+            "text": "ACCESS; Supporting Information",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 59.45501708984375,
+              "x1": 555.4859619140625,
+              "y1": 755.1381225585938
+            },
+            "text": "Dacarbazine-Succinic Acid Cocrystal (DTIC-H2SUC). 50 mg of DTIC ... and 32.4 mg of succinic acid ...",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 59.45501708984375,
+              "x1": 555.4859619140625,
+              "y1": 755.1381225585938
+            },
+            "text": "Dacarbazine-Succinic Acid Cocrystal (DTIC-H2SUC).",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 59.45501708984375,
+              "x1": 555.4859619140625,
+              "y1": 755.1381225585938
+            },
+            "text": "Dacarbazine-Succinic Acid Cocrystal (DTIC-H2SUC).",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [],
+        "ratio_cocrystal": [
+          {
+            "page": 4,
+            "kind": "table",
+            "bbox": {
+              "x0": 67.01100158691406,
+              "y0": 91.91731262207031,
+              "x1": 541.8713989257812,
+              "y1": 340.5794372558594
+            },
+            "text": "Table 1 lists DTIC-H2SUC chemical formula C10H16N6O5.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 4,
+            "kind": "table",
+            "bbox": {
+              "x0": 67.01100158691406,
+              "y0": 91.91731262207031,
+              "x1": 541.8713989257812,
+              "y1": 340.5794372558594
+            },
+            "text": "chemical formula ... C10H16N6O5 under DTIC-H2SUC",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 4,
+            "kind": "table",
+            "bbox": {
+              "x0": 67.01100158691406,
+              "y0": 91.91731262207031,
+              "x1": 541.8713989257812,
+              "y1": 340.5794372558594
+            },
+            "text": "chemical formula ... C10H16N6O5 under DTIC-H2SUC",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [],
+        "name_drug": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC) and the Coformers...",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC).",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Dacarbazine (DTIC)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC).",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Succinic acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Succinic acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Succinic acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Succinic acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Succinic acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 117.19410705566406,
+              "x1": 534.4295043945312,
+              "y1": 193.7830047607422
+            },
+            "text": "DTIC-H2SUC: 99.7 ± 0.2 initial; after 15 days 98.7 ± 0.3% DTIC and 0.8 ± 0.1% 2-AZA.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 60.685028076171875,
+              "x1": 509.0940856933594,
+              "y1": 70.68502807617188
+            },
+            "text": "Table 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 60.685028076171875,
+              "x1": 509.0940856933594,
+              "y1": 70.68502807617188
+            },
+            "text": "Table 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 117.19410705566406,
+              "x1": 534.4295043945312,
+              "y1": 193.7830047607422
+            },
+            "text": "DTIC-H2SUC row in Table 3.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+        "doi": "10.1021/acs.molpharmaceut.4c00393",
+        "supplementary": 0,
+        "authors": "Luan F. Diniz, Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes",
+        "title": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+        "journal": "Molecular Pharmaceutics",
+        "year": 2024,
+        "page": 3661,
+        "access": 1,
+        "name_cocrystal": "DTIC-HCIT",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": null,
+        "ratio_cocrystal": "2:1",
+        "ratio_cocrystal_page": "7",
+        "ratio_cocrystal_page.1": "7",
+        "ratio_cocrystal_origin": null,
+        "name_drug": "Dacarbazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "Dacarbazine, DTIC",
+        "name_drug_page": 1,
+        "SMILES_drug": "CN(C)N=Nc1[nH]cnc1C(N)=O",
+        "SMILES_drug_type_file": "figure",
+        "SMILES_drug_origin": "inferred from Scheme 1 structure",
+        "SMILES_drug_page": 1,
+        "name_coformer": "Citric acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "Citric acid",
+        "name_coformer_page": 1,
+        "SMILES_coformer": "O=C(O)CC(O)(CC(=O)O)C(=O)O",
+        "SMILES_coformer_type file": "figure",
+        "SMILES_coformer_origin": "inferred from Scheme 1 structure",
+        "SMILES_coformer_page": 1,
+        "photostability_change": "Improved solid-state photostability versus DTIC control; after 15 days in photostability chamber: 97.0 ± 0.4% DTIC and 1.8 ± 0.2% 2-AZA.",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "Table 3",
+        "photostability_change_page": 10
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 423.4389953613281,
+              "y0": 762.555419921875,
+              "x1": 555.4390258789062,
+              "y1": 768.555419921875
+            },
+            "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "Main article PDF source; supporting information is referenced separately.",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 152.22206115722656,
+              "x1": 546.0322875976562,
+              "y1": 166.09295654296875
+            },
+            "text": "Luan F. Diniz,* Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes*",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 111.18110656738281,
+              "x1": 555.439208984375,
+              "y1": 146.20770263671875
+            },
+            "text": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 85.2519760131836,
+              "x1": 548.4727172851562,
+              "y1": 93.44596099853516
+            },
+            "text": "Article pubs.acs.org/molecularpharmaceutics",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 75.17479705810547,
+              "y0": 179.656982421875,
+              "x1": 385.89202880859375,
+              "y1": 188.656982421875
+            },
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661−3673",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 75.17479705810547,
+              "y0": 179.656982421875,
+              "x1": 385.89202880859375,
+              "y1": 188.656982421875
+            },
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661−3673",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 211.0999755859375,
+              "x1": 529.8231811523438,
+              "y1": 226.0999755859375
+            },
+            "text": "ACCESS; Supporting Information",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 59.45501708984375,
+              "x1": 555.4859619140625,
+              "y1": 755.1381225585938
+            },
+            "text": "Dacarbazine Hydrogen-Citrate Salt-Cocrystal (DTIC-HCIT). 50 mg of DTIC ... citric acid was added ...",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 59.45501708984375,
+              "x1": 555.4859619140625,
+              "y1": 755.1381225585938
+            },
+            "text": "Dacarbazine Hydrogen-Citrate Salt-Cocrystal (DTIC-HCIT).",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 59.45501708984375,
+              "x1": 555.4859619140625,
+              "y1": 755.1381225585938
+            },
+            "text": "Dacarbazine Hydrogen-Citrate Salt-Cocrystal (DTIC-HCIT).",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [],
+        "ratio_cocrystal": [
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.478004455566406,
+              "y0": 541.4010009765625,
+              "x1": 291.4830017089844,
+              "y1": 756.1166381835938
+            },
+            "text": "The ASU contains a DTICH+ cation, a hydrogen-citrate anion (H2CIT−), a neutral DTIC, and four independent water molecules.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.478004455566406,
+              "y0": 541.4010009765625,
+              "x1": 291.4830017089844,
+              "y1": 756.1166381835938
+            },
+            "text": "The ASU contains a DTICH+ cation, a hydrogen-citrate anion (H2CIT−), a neutral DTIC, and four independent water molecules.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": {
+              "x0": 51.478004455566406,
+              "y0": 541.4010009765625,
+              "x1": 291.4830017089844,
+              "y1": 756.1166381835938
+            },
+            "text": "The ASU contains a DTICH+ cation, a hydrogen-citrate anion (H2CIT−), a neutral DTIC, and four independent water molecules.",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [],
+        "name_drug": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC) and the Coformers...",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC).",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Dacarbazine (DTIC)",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC).",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 molecular structure of Dacarbazine, DTIC.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "Citric acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 1,
+            "kind": "caption",
+            "bbox": {
+              "x0": 315.43896484375,
+              "y0": 463.4309997558594,
+              "x1": 555.4649658203125,
+              "y1": 495.427001953125
+            },
+            "text": "the Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric Acids",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Citric acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Citric acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Citric acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 1,
+            "kind": "figure",
+            "bbox": {
+              "x0": 315.4389953613281,
+              "y0": 501.22198486328125,
+              "x1": 555.4199829101562,
+              "y1": 605.593994140625
+            },
+            "text": "Scheme 1 structure labeled Citric acid.",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 117.19410705566406,
+              "x1": 534.4295043945312,
+              "y1": 193.7830047607422
+            },
+            "text": "DTIC-HCIT: 99.8 ± 0.4 initial; after 15 days 97.0 ± 0.4% DTIC and 1.8 ± 0.2% 2-AZA.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 60.685028076171875,
+              "x1": 509.0940856933594,
+              "y1": 70.68502807617188
+            },
+            "text": "Table 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 60.685028076171875,
+              "x1": 509.0940856933594,
+              "y1": 70.68502807617188
+            },
+            "text": "Table 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples",
+            "asset_path": "assets/page-0010.png"
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": {
+              "x0": 51.47710037231445,
+              "y0": 117.19410705566406,
+              "x1": 534.4295043945312,
+              "y1": 193.7830047607422
+            },
+            "text": "DTIC-HCIT row in Table 3.",
+            "asset_path": "assets/page-0010.png"
+          }
+        ]
+      }
+    }
+  ]
+}

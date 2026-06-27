@@ -1,0 +1,38 @@
+domain,field,precision,recall,f1,true_positive,predicted,expected,gold_rows,gold_doi,gold_pdf,gold_title,gold_match_mode,gold_path,macro_f1
+co-crystals,SMILES_coformer,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,SMILES_coformer_origin,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,SMILES_coformer_page,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,SMILES_coformer_type file,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,SMILES_drug,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,SMILES_drug_origin,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,SMILES_drug_page,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,SMILES_drug_type_file,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,access,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,authors,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,doi,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,journal,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,name_cocrystal,0.3333333333333333,0.3333333333333333,0.3333333333333333,1,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,name_cocrystal_origin,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,name_cocrystal_page,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,name_cocrystal_type_file,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,name_coformer,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,name_coformer_origin,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,name_coformer_page,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,name_coformer_type file,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,name_drug,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,name_drug_origin,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,name_drug_page,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,name_drug_type_file,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,page,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,pdf,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,photostability_change,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,photostability_change_origin,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,photostability_change_page,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,photostability_change_type_file,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,ratio_cocrystal,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,ratio_cocrystal_origin,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,ratio_cocrystal_page,0.0,0.0,0.0,0,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,ratio_cocrystal_page.1,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,supplementary,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,title,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846
+co-crystals,year,1.0,1.0,1.0,3,3,3,3,10.3390/cryst9110553,,,doi,C:\PyProjects\CheML-master\datasets\SMALL_MOL\Co-crystals\train-00000-of-00001 (3).parquet,0.46846846846846846

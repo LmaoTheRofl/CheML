@@ -1,0 +1,1749 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "domain": {
+      "type": "string",
+      "const": "complexes"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "values": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "pdf": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "doi": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "doi_sourse": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "supplementary": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "title": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "publisher": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "year": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "access": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "compound_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "compound_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "SMILES": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "SMILES_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "metal": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "target": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "page_smiles": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "origin_smiles": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "page_metal": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "origin_metal": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "page_target_value": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "origin_target_value": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "pdf",
+              "doi",
+              "doi_sourse",
+              "supplementary",
+              "title",
+              "publisher",
+              "year",
+              "access",
+              "compound_id",
+              "compound_name",
+              "SMILES",
+              "SMILES_type",
+              "metal",
+              "target",
+              "page_smiles",
+              "origin_smiles",
+              "page_metal",
+              "origin_metal",
+              "page_target_value",
+              "origin_target_value"
+            ]
+          },
+          "evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "pdf": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "doi": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "doi_sourse": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "supplementary": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "title": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "publisher": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "year": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "access": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "compound_id": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "compound_name": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "SMILES": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "SMILES_type": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "metal": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "target": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "page_smiles": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "origin_smiles": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "page_metal": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "origin_metal": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "page_target_value": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "origin_target_value": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "pdf",
+              "doi",
+              "doi_sourse",
+              "supplementary",
+              "title",
+              "publisher",
+              "year",
+              "access",
+              "compound_id",
+              "compound_name",
+              "SMILES",
+              "SMILES_type",
+              "metal",
+              "target",
+              "page_smiles",
+              "origin_smiles",
+              "page_metal",
+              "origin_metal",
+              "page_target_value",
+              "origin_target_value"
+            ]
+          }
+        },
+        "required": [
+          "values",
+          "evidence"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "domain",
+    "records"
+  ]
+}

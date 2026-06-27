@@ -1,0 +1,1590 @@
+{
+  "schema_version": "1.0",
+  "domain": "co-crystals",
+  "records": [
+    {
+      "values": {
+        "pdf": "Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+        "doi": "10.3390/cryst9110553",
+        "supplementary": 0,
+        "authors": "Reiko Yutani, Ryotaro Haku, Reiko Teraoka, Chisato Tode, Tatsuo Koide, Shuji Kitagawa, Toshiyasu Sakane and Toshiro Fukami",
+        "title": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+        "journal": "Crystals",
+        "year": 2019,
+        "page": 553,
+        "access": 1,
+        "name_cocrystal": "CBZ–SUC",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "text",
+        "name_cocrystal_origin": 3,
+        "ratio_cocrystal": "2:1",
+        "ratio_cocrystal_page": "pdf",
+        "ratio_cocrystal_page.1": "text",
+        "ratio_cocrystal_origin": 3,
+        "name_drug": "carbamazepine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "text",
+        "name_drug_page": 3,
+        "SMILES_drug": "C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "figure",
+        "SMILES_drug_page": 2,
+        "name_coformer": "succinic acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "text",
+        "name_coformer_page": 3,
+        "SMILES_coformer": "C(CC(=O)O)C(=O)O",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "figure",
+        "SMILES_coformer_page": 2,
+        "photostability_change": "increased",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "text",
+        "photostability_change_page": 7
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.272,
+              "y0": 792.994,
+              "x1": 518.741,
+              "y1": 801.622
+            },
+            "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 442.966,
+              "x1": 519.865,
+              "y1": 493.201
+            },
+            "text": "Supplementary Materials: The following are available online ... Figure S1 ... Figure S4.",
+            "asset_path": "assets/page-0009.png"
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 167.324,
+              "x1": 461.211,
+              "y1": 192.675
+            },
+            "text": "Reiko Yutani, Ryotaro Haku, Reiko Teraoka, Chisato Tode, Tatsuo Koide, Shuji Kitagawa, Toshiyasu Sakane and Toshiro Fukami",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.177,
+              "y0": 101.143,
+              "x1": 468.546,
+              "y1": 152.888
+            },
+            "text": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.272,
+              "y0": 792.994,
+              "x1": 518.741,
+              "y1": 801.622
+            },
+            "text": "Crystals 2019, 9, 553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.272,
+              "y0": 792.994,
+              "x1": 518.741,
+              "y1": 801.622
+            },
+            "text": "Crystals 2019, 9, 553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.272,
+              "y0": 792.994,
+              "x1": 518.741,
+              "y1": 801.622
+            },
+            "text": "Crystals 2019, 9, 553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "bundle metadata: page_count=11; complete main-article PDF bundled",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "For the preparation of CBZ–SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) ...",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "For the preparation of CBZ–SUC ...",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "For the preparation of CBZ–SUC ...",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SUC ... (molar ratio: 2:1)",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SUC ... (molar ratio: 2:1)",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SUC ... (molar ratio: 2:1)",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SUC, 1.00 g of CBZ and 0.25 g of SUC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SUC, 1.00 g of CBZ and 0.25 g of SUC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SUC, 1.00 g of CBZ and 0.25 g of SUC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 120.0,
+              "y0": 600.0,
+              "x1": 240.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(a). Chemical structure of carbamazepine (CBZ).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 120.0,
+              "y0": 600.0,
+              "x1": 240.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(a). Chemical structure of carbamazepine (CBZ).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 120.0,
+              "y0": 600.0,
+              "x1": 240.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(a). Chemical structure of carbamazepine (CBZ).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SUC, 1.00 g of CBZ and 0.25 g of SUC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SUC, 1.00 g of CBZ and 0.25 g of SUC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SUC, 1.00 g of CBZ and 0.25 g of SUC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 260.0,
+              "y0": 600.0,
+              "x1": 390.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(b). Chemical structure of succinic acid (SUC).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 260.0,
+              "y0": 600.0,
+              "x1": 390.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(b). Chemical structure of succinic acid (SUC).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 260.0,
+              "y0": 600.0,
+              "x1": 390.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(b). Chemical structure of succinic acid (SUC).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.236,
+              "y0": 350.274,
+              "x1": 520.488,
+              "y1": 535.93
+            },
+            "text": "Degradation rate constants for CBZ–SUC and CBZ–SAC form I were significantly lower ... indicating that the photostability was improved by the formation of these cocrystals.",
+            "asset_path": "assets/page-0007.png"
+          },
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 199.317,
+              "y0": 170.55,
+              "x1": 368.386,
+              "y1": 183.302
+            },
+            "text": "CBZ–SUC — 3.79 × 10⁻5 h⁻1",
+            "asset_path": "assets/page-0008.png"
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.236,
+              "y0": 350.274,
+              "x1": 520.488,
+              "y1": 535.93
+            },
+            "text": "The photostability was improved by the formation of these cocrystals.",
+            "asset_path": "assets/page-0007.png"
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.236,
+              "y0": 350.274,
+              "x1": 520.488,
+              "y1": 535.93
+            },
+            "text": "The photostability was improved by the formation of these cocrystals.",
+            "asset_path": "assets/page-0007.png"
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+        "doi": "10.3390/cryst9110553",
+        "supplementary": 0,
+        "authors": "Reiko Yutani, Ryotaro Haku, Reiko Teraoka, Chisato Tode, Tatsuo Koide, Shuji Kitagawa, Toshiyasu Sakane and Toshiro Fukami",
+        "title": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+        "journal": "Crystals",
+        "year": 2019,
+        "page": 553,
+        "access": 1,
+        "name_cocrystal": "CBZ–SAC form I",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "text",
+        "name_cocrystal_origin": 3,
+        "ratio_cocrystal": "1:1",
+        "ratio_cocrystal_page": "pdf",
+        "ratio_cocrystal_page.1": "text",
+        "ratio_cocrystal_origin": 3,
+        "name_drug": "carbamazepine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "text",
+        "name_drug_page": 3,
+        "SMILES_drug": "C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "figure",
+        "SMILES_drug_page": 2,
+        "name_coformer": "saccharin",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "text",
+        "name_coformer_page": 3,
+        "SMILES_coformer": "C1=CC=C2C(=C1)C(=O)NS2(=O)=O",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "figure",
+        "SMILES_coformer_page": 2,
+        "photostability_change": "increased",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "text",
+        "photostability_change_page": 7
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.272,
+              "y0": 792.994,
+              "x1": 518.741,
+              "y1": 801.622
+            },
+            "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 442.966,
+              "x1": 519.865,
+              "y1": 493.201
+            },
+            "text": "Supplementary Materials: The following are available online ... Figure S1 ... Figure S4.",
+            "asset_path": "assets/page-0009.png"
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 167.324,
+              "x1": 461.211,
+              "y1": 192.675
+            },
+            "text": "Reiko Yutani, Ryotaro Haku, Reiko Teraoka, Chisato Tode, Tatsuo Koide, Shuji Kitagawa, Toshiyasu Sakane and Toshiro Fukami",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.177,
+              "y0": 101.143,
+              "x1": 468.546,
+              "y1": 152.888
+            },
+            "text": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.272,
+              "y0": 792.994,
+              "x1": 518.741,
+              "y1": 801.622
+            },
+            "text": "Crystals 2019, 9, 553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.272,
+              "y0": 792.994,
+              "x1": 518.741,
+              "y1": 801.622
+            },
+            "text": "Crystals 2019, 9, 553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.272,
+              "y0": 792.994,
+              "x1": 518.741,
+              "y1": 801.622
+            },
+            "text": "Crystals 2019, 9, 553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "bundle metadata: page_count=11; complete main-article PDF bundled",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "For the preparation of CBZ–SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) ...",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "For the preparation of CBZ–SAC form I ...",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "For the preparation of CBZ–SAC form I ...",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form I ... (molar ratio: 1:1)",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form I ... (molar ratio: 1:1)",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form I ... (molar ratio: 1:1)",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form I, 1.04 g of CBZ and 0.81 g of SAC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form I, 1.04 g of CBZ and 0.81 g of SAC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form I, 1.04 g of CBZ and 0.81 g of SAC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 120.0,
+              "y0": 600.0,
+              "x1": 240.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(a). Chemical structure of carbamazepine (CBZ).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 120.0,
+              "y0": 600.0,
+              "x1": 240.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(a). Chemical structure of carbamazepine (CBZ).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 120.0,
+              "y0": 600.0,
+              "x1": 240.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(a). Chemical structure of carbamazepine (CBZ).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form I, 1.04 g of CBZ and 0.81 g of SAC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form I, 1.04 g of CBZ and 0.81 g of SAC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form I, 1.04 g of CBZ and 0.81 g of SAC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 420.0,
+              "y0": 595.0,
+              "x1": 510.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(c). Chemical structure of saccharin (SAC).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 420.0,
+              "y0": 595.0,
+              "x1": 510.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(c). Chemical structure of saccharin (SAC).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 420.0,
+              "y0": 595.0,
+              "x1": 510.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(c). Chemical structure of saccharin (SAC).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.236,
+              "y0": 350.274,
+              "x1": 520.488,
+              "y1": 535.93
+            },
+            "text": "Degradation rate constants for CBZ–SUC and CBZ–SAC form I were significantly lower ... indicating that the photostability was improved by the formation of these cocrystals.",
+            "asset_path": "assets/page-0007.png"
+          },
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 185.894,
+              "y0": 193.545,
+              "x1": 368.386,
+              "y1": 206.297
+            },
+            "text": "CBZ–SAC form I — 4.23 × 10⁻5 h⁻1",
+            "asset_path": "assets/page-0008.png"
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.236,
+              "y0": 350.274,
+              "x1": 520.488,
+              "y1": 535.93
+            },
+            "text": "The photostability was improved by the formation of these cocrystals.",
+            "asset_path": "assets/page-0007.png"
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.236,
+              "y0": 350.274,
+              "x1": 520.488,
+              "y1": 535.93
+            },
+            "text": "The photostability was improved by the formation of these cocrystals.",
+            "asset_path": "assets/page-0007.png"
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+        "doi": "10.3390/cryst9110553",
+        "supplementary": 0,
+        "authors": "Reiko Yutani, Ryotaro Haku, Reiko Teraoka, Chisato Tode, Tatsuo Koide, Shuji Kitagawa, Toshiyasu Sakane and Toshiro Fukami",
+        "title": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+        "journal": "Crystals",
+        "year": 2019,
+        "page": 553,
+        "access": 1,
+        "name_cocrystal": "CBZ–SAC form II",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "text",
+        "name_cocrystal_origin": 3,
+        "ratio_cocrystal": "1:1",
+        "ratio_cocrystal_page": "pdf",
+        "ratio_cocrystal_page.1": "text",
+        "ratio_cocrystal_origin": 3,
+        "name_drug": "carbamazepine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "text",
+        "name_drug_page": 3,
+        "SMILES_drug": "C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "figure",
+        "SMILES_drug_page": 2,
+        "name_coformer": "saccharin",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "text",
+        "name_coformer_page": 3,
+        "SMILES_coformer": "C1=CC=C2C(=C1)C(=O)NS2(=O)=O",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "figure",
+        "SMILES_coformer_page": 2,
+        "photostability_change": "decreased",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "text",
+        "photostability_change_page": 7
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.272,
+              "y0": 792.994,
+              "x1": 518.741,
+              "y1": 801.622
+            },
+            "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 442.966,
+              "x1": 519.865,
+              "y1": 493.201
+            },
+            "text": "Supplementary Materials: The following are available online ... Figure S1 ... Figure S4.",
+            "asset_path": "assets/page-0009.png"
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 167.324,
+              "x1": 461.211,
+              "y1": 192.675
+            },
+            "text": "Reiko Yutani, Ryotaro Haku, Reiko Teraoka, Chisato Tode, Tatsuo Koide, Shuji Kitagawa, Toshiyasu Sakane and Toshiro Fukami",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.177,
+              "y0": 101.143,
+              "x1": 468.546,
+              "y1": 152.888
+            },
+            "text": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.272,
+              "y0": 792.994,
+              "x1": 518.741,
+              "y1": 801.622
+            },
+            "text": "Crystals 2019, 9, 553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.272,
+              "y0": 792.994,
+              "x1": 518.741,
+              "y1": 801.622
+            },
+            "text": "Crystals 2019, 9, 553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": {
+              "x0": 76.272,
+              "y0": 792.994,
+              "x1": 518.741,
+              "y1": 801.622
+            },
+            "text": "Crystals 2019, 9, 553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "bundle metadata: page_count=11; complete main-article PDF bundled",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "For the preparation of CBZ–SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) ...",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "For the preparation of CBZ–SAC form II ...",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "For the preparation of CBZ–SAC form II ...",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form II ... (molar ratio: 1:1)",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form II ... (molar ratio: 1:1)",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form II ... (molar ratio: 1:1)",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form II, 1.04 g of CBZ and 0.81 g of SAC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form II, 1.04 g of CBZ and 0.81 g of SAC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form II, 1.04 g of CBZ and 0.81 g of SAC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 120.0,
+              "y0": 600.0,
+              "x1": 240.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(a). Chemical structure of carbamazepine (CBZ).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 120.0,
+              "y0": 600.0,
+              "x1": 240.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(a). Chemical structure of carbamazepine (CBZ).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 120.0,
+              "y0": 600.0,
+              "x1": 240.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(a). Chemical structure of carbamazepine (CBZ).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form II, 1.04 g of CBZ and 0.81 g of SAC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form II, 1.04 g of CBZ and 0.81 g of SAC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.535,
+              "y0": 214.458,
+              "x1": 520.286,
+              "y1": 372.999
+            },
+            "text": "CBZ–SAC form II, 1.04 g of CBZ and 0.81 g of SAC",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 420.0,
+              "y0": 595.0,
+              "x1": 510.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(c). Chemical structure of saccharin (SAC).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 420.0,
+              "y0": 595.0,
+              "x1": 510.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(c). Chemical structure of saccharin (SAC).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": {
+              "x0": 420.0,
+              "y0": 595.0,
+              "x1": 510.0,
+              "y1": 690.0
+            },
+            "text": "Figure 1(c). Chemical structure of saccharin (SAC).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.236,
+              "y0": 350.274,
+              "x1": 520.488,
+              "y1": 535.93
+            },
+            "text": "In contrast, the degradation rate constant of CBZ–SAC form II was significantly increased, indicating that CBZ–SAC form II was a photolabile crystal form.",
+            "asset_path": "assets/page-0007.png"
+          },
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.383,
+              "y0": 205.042,
+              "x1": 368.386,
+              "y1": 217.794
+            },
+            "text": "CBZ–SAC form II — 1.82 × 10⁻3 h⁻1",
+            "asset_path": "assets/page-0008.png"
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.236,
+              "y0": 350.274,
+              "x1": 520.488,
+              "y1": 535.93
+            },
+            "text": "CBZ–SAC form II was a photolabile crystal form.",
+            "asset_path": "assets/page-0007.png"
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": {
+              "x0": 76.236,
+              "y0": 350.274,
+              "x1": 520.488,
+              "y1": 535.93
+            },
+            "text": "CBZ–SAC form II was a photolabile crystal form.",
+            "asset_path": "assets/page-0007.png"
+          }
+        ]
+      }
+    }
+  ]
+}

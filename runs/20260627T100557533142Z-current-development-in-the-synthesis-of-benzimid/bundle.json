@@ -1,0 +1,2420 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-06-27T10:06:00.883537Z",
+  "parser": "pymupdf-fallback",
+  "metadata": {
+    "title": null,
+    "author": null,
+    "subject": null,
+    "keywords": null,
+    "creator": "pdftk 2.02 - www.pdftk.com",
+    "producer": "GPL Ghostscript 9.26",
+    "page_count": 20,
+    "sha256": "a29f09a366e5c1ab5853f904bf7103c3c18eaa396a71851668858428ed42a159",
+    "source_name": "Current_Development_in_the_Synthesis_of_Benzimidaz.pdf"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "width": 612.0,
+      "height": 888.3868408203125,
+      "text": "Selection of our books indexed in the Book Citation Index \nin Web of Science™ Core Collection (BKCI)\nInterested in publishing with us? \nContact book.department@intechopen.com\nNumbers displayed above are based on latest data collected. \nFor more information visit www.intechopen.com\nOpen access books available\nCountries delivered to\nContributors from top 500 universities\nInternational  authors and editors\nOur authors are among the\nmost cited scientists\nDownloads\nWe are IntechOpen,\nthe world’s leading publisher of\nOpen Access books\nBuilt by scientists, for scientists\n12.2%\n150,000\n185M\nTOP 1%\n154\n6,100\n",
+      "blocks": [
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Selection of our books indexed in the Book Citation Index",
+          "bbox": {
+            "x0": 180.4980010986328,
+            "y0": 606.3841552734375,
+            "x1": 437.0530700683594,
+            "y1": 616.02734375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "in Web of Science™ Core Collection (BKCI)",
+          "bbox": {
+            "x0": 213.9019012451172,
+            "y0": 620.8489990234375,
+            "x1": 401.1338806152344,
+            "y1": 630.4921875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Interested in publishing with us? \nContact book.department@intechopen.com",
+          "bbox": {
+            "x0": 107.84759521484375,
+            "y0": 665.3782958984375,
+            "x1": 504.4992980957031,
+            "y1": 711.53857421875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Numbers displayed above are based on latest data collected. \nFor more information visit www.intechopen.com",
+          "bbox": {
+            "x0": 174.88668823242188,
+            "y0": 739.766845703125,
+            "x1": 445.1485900878906,
+            "y1": 763.8745727539062
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Open access books available",
+          "bbox": {
+            "x0": 59.8140869140625,
+            "y0": 342.62042236328125,
+            "x1": 185.10536193847656,
+            "y1": 352.2636413574219
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Countries delivered to\nContributors from top 500 universities",
+          "bbox": {
+            "x0": 71.85858917236328,
+            "y0": 476.04364013671875,
+            "x1": 566.603515625,
+            "y1": 488.10211181640625
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "International  authors and editors",
+          "bbox": {
+            "x0": 231.3903045654297,
+            "y0": 343.57891845703125,
+            "x1": 383.653564453125,
+            "y1": 353.2240905761719
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Our authors are among the",
+          "bbox": {
+            "x0": 249.8829803466797,
+            "y0": 414.12066650390625,
+            "x1": 365.177490234375,
+            "y1": 423.7638854980469
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "most cited scientists",
+          "bbox": {
+            "x0": 259.5747985839844,
+            "y0": 478.7686767578125,
+            "x1": 355.4631652832031,
+            "y1": 488.4118957519531
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Downloads",
+          "bbox": {
+            "x0": 458.09979248046875,
+            "y0": 343.81170654296875,
+            "x1": 504.9649963378906,
+            "y1": 353.4549255371094
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "We are IntechOpen,\nthe world’s leading publisher of\nOpen Access books\nBuilt by scientists, for scientists",
+          "bbox": {
+            "x0": 70.8344955444336,
+            "y0": 68.52833557128906,
+            "x1": 541.9838256835938,
+            "y1": 241.4584197998047
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "12.2%",
+          "bbox": {
+            "x0": 426.47900390625,
+            "y0": 432.28643798828125,
+            "x1": 532.1906127929688,
+            "y1": 472.6806335449219
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "150,000\n185M",
+          "bbox": {
+            "x0": 231.98800659179688,
+            "y0": 298.6094665527344,
+            "x1": 526.2163696289062,
+            "y1": 339.003662109375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "TOP 1%\n154",
+          "bbox": {
+            "x0": 88.56089782714844,
+            "y0": 432.28643798828125,
+            "x1": 371.60992431640625,
+            "y1": 473.0986328125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "6,100",
+          "bbox": {
+            "x0": 70.66210174560547,
+            "y0": 299.0274353027344,
+            "x1": 169.9510498046875,
+            "y1": 339.421630859375
+          }
+        }
+      ],
+      "render_path": "assets/page-0001.png"
+    },
+    {
+      "number": 2,
+      "width": 612.0,
+      "height": 879.448974609375,
+      "text": "Chapter\nCurrent Development in the\nSynthesis of Benzimidazole-\nQuinoline Hybrid Analogues and\ntheir Biological Applications\nZebabanu Khalifa, Rachana Upadhyay, Premlata Kumari\nand Amit B. Patel\nAbstract\nHeterocyclic compounds have an essential role in many domains of medicinal\nchemistry. Many pharmaceutical industries use and investigate nitrogen-containing\nheterocycles because they are crucial in discovering and developing novel therapeuti-\ncally active compounds. The benzimidazole moiety is a fundamental component of\nmany heterocyclic scaffolds, which play an important role in producing a wide range of\nbiological activities. Similarly, quinoline is also a versatile bicyclic heterocyclic scaffold\nwith many medicinal applications. It is an essential scaffold for drug discovery leads,\nand it plays a significant role in medicinal chemistry and has biological activities similar\nto benzimidazole scaffolds. The present chapter discusses the quinoline-benzimidazole\nhybrids scaffolds and their potential pharmacological activities.\nKeywords: quinoline, benzimidazole, hybrid molecules, synthesis, pharmacological\nactivity\n1. Introduction\nHeterocycles are common elements found in the majority of commercial drugs and\nare a target of medicinal chemistry in the drug delivery process [1]. In recent years,\nnitrogen-containing five- and six-member heterocycles have received a significant\namount of interest because of their major pharmacological and synthetic implications\n[2]. Structure elucidation, identification of novel biologically active compounds,\ndevelopment of efficient therapies and discovering the mode of action of newer\nmolecules are all critical aspects of medicinal chemistry that nitrogen-containing\nheterocyclic compounds perform. They are commonly employed in drug development\nbecause of the discovery of robust synthetic pathways that can rapidly produce large\namounts of desired chemicals, which helps to accelerate the drug development\nprocess. Their pharmacophores have a wide range of pharmacological activities\nagainst disease or disorder [3, 4].\n1\n",
+      "blocks": [
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Chapter\nCurrent Development in the\nSynthesis of Benzimidazole-\nQuinoline Hybrid Analogues and\ntheir Biological Applications",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 93.67577362060547,
+            "x1": 486.6713562011719,
+            "y1": 243.38546752929688
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Zebabanu Khalifa, Rachana Upadhyay, Premlata Kumari\nand Amit B. Patel",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 257.9537353515625,
+            "x1": 481.60400390625,
+            "y1": 298.67022705078125
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Abstract",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 353.102294921875,
+            "x1": 132.86468505859375,
+            "y1": 366.7102966308594
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Heterocyclic compounds have an essential role in many domains of medicinal\nchemistry. Many pharmaceutical industries use and investigate nitrogen-containing\nheterocycles because they are crucial in discovering and developing novel therapeuti-\ncally active compounds. The benzimidazole moiety is a fundamental component of\nmany heterocyclic scaffolds, which play an important role in producing a wide range of\nbiological activities. Similarly, quinoline is also a versatile bicyclic heterocyclic scaffold\nwith many medicinal applications. It is an essential scaffold for drug discovery leads,\nand it plays a significant role in medicinal chemistry and has biological activities similar\nto benzimidazole scaffolds. The present chapter discusses the quinoline-benzimidazole\nhybrids scaffolds and their potential pharmacological activities.",
+          "bbox": {
+            "x0": 81.07099914550781,
+            "y0": 380.8809814453125,
+            "x1": 520.2871704101562,
+            "y1": 522.948974609375
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Keywords: quinoline, benzimidazole, hybrid molecules, synthesis, pharmacological\nactivity",
+          "bbox": {
+            "x0": 81.07099914550781,
+            "y0": 537.6159057617188,
+            "x1": 510.54693603515625,
+            "y1": 565.7135009765625
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "1. Introduction",
+          "bbox": {
+            "x0": 81.07099914550781,
+            "y0": 599.0836791992188,
+            "x1": 170.0807647705078,
+            "y1": 612.691650390625
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Heterocycles are common elements found in the majority of commercial drugs and\nare a target of medicinal chemistry in the drug delivery process [1]. In recent years,\nnitrogen-containing five- and six-member heterocycles have received a significant\namount of interest because of their major pharmacological and synthetic implications\n[2]. Structure elucidation, identification of novel biologically active compounds,\ndevelopment of efficient therapies and discovering the mode of action of newer\nmolecules are all critical aspects of medicinal chemistry that nitrogen-containing\nheterocyclic compounds perform. They are commonly employed in drug development\nbecause of the discovery of robust synthetic pathways that can rapidly produce large\namounts of desired chemicals, which helps to accelerate the drug development\nprocess. Their pharmacophores have a wide range of pharmacological activities\nagainst disease or disorder [3, 4].",
+          "bbox": {
+            "x0": 81.07130432128906,
+            "y0": 626.86279296875,
+            "x1": 520.1688232421875,
+            "y1": 797.4429931640625
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "1",
+          "bbox": {
+            "x0": 81.07133483886719,
+            "y0": 817.6793823242188,
+            "x1": 85.42133331298828,
+            "y1": 827.5761108398438
+          }
+        }
+      ],
+      "render_path": "assets/page-0002.png"
+    },
+    {
+      "number": 3,
+      "width": 611.9999389648438,
+      "height": 879.448974609375,
+      "text": "The “one drug, one target, one disease” strategy is no longer appropriate in today’s\ncomplicated and infectious diseases [5]. Drug resistance is a problem that cannot be\nsolved using usual disease treatment methods. The hybridisation of physiologically\nactive compounds is a potent drug discovery approach that can be utilised to treat a\nwide range of diseases. It opens up the possibility of better medications [6]. Benz-\nimidazole is the building block of various synthetic medicinal and biochemical com-\npounds with important biological activities like anticancer [7, 8], antimicrobial\n[9, 10], antibacterial [11, 12], antimycobacterial [13, 14], anti-inflammatory [15, 16],\netc. Similarly, quinoline is found in various natural products. It is frequently utilised to\nexplore a range of bioactive compounds with varying pharmacological properties like\nantifungal [17, 18], anti-inflammatory [19, 20], anticancer [21, 22], antimicrobial\n[23, 24], anticoagulant [25, 26], antiviral [27, 28], antimalarial [29, 30],\nantitrypanosomal [30, 31] etc. Due to the therapeutic efficacy of benzimidazole and\nquinoline scaffolds, medicinal chemists have been interested in developing hybrid\nanalogues with enhanced potency by incorporating them, and molecular hybridisation\ntechnology has been employed to do so. With a virtual planning and developing\nprocedure, finding the enhanced pharmacological activity of new or modified present\ndrugs is quite challenging. In such cases, these benzimidazole-quinoline hybrid com-\npounds play a crucial role since they can reduce time and expenses by employing\ntechniques including X-ray screening, molecular docking, NMR skeletons of biomol-\necules and computer-aided drug design [32, 33].\nThe fundamental purpose of benzimidazole-quinoline hybrid compounds is to\nstrengthen their potential to interact with several biological targets. Due to their\nexcellent potential in drug discovery and development, we have introduced this study\nof the pharmacological activities of benzimidazole-incorporated quinoline com-\npounds.\n2. Biological applications of benzimidazole-quinoline hybrids\n2.1 Anticancer activity\nHranjec and co-workers developed the synthesis and biological characterisation\nof novel benzimidazo[1,2-a]quinoline-6-carbonitriles derivatives (Figure 1). The reac-\ntion was initiated by condensing 2-cyanomethylbenzimidazole with heteroaromatic\naldehyde yielded acrylic substituted acrylonitriles. The photochemical dehydrocy-\nclisation procedure was utilised to produce benzimidazo[1,2-a]quinoline-6-carbonitriles\nand heteroaromatic fluorenes. All the synthesised compounds were investigated for\nantiproliferative efficacy against five tumour cell lines such as HeLa, MiaPaCa-2, SW\nFigure 1.\nBenzo[4,5]imidazo[1,2-a]quinoline-6-carbonitrile methoxy/anilide derivatives.\n2\nStrategies Towards the Synthesis of Heterocycles and Their Applications\n",
+      "blocks": [
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "The “one drug, one target, one disease” strategy is no longer appropriate in today’s\ncomplicated and infectious diseases [5]. Drug resistance is a problem that cannot be\nsolved using usual disease treatment methods. The hybridisation of physiologically\nactive compounds is a potent drug discovery approach that can be utilised to treat a\nwide range of diseases. It opens up the possibility of better medications [6]. Benz-\nimidazole is the building block of various synthetic medicinal and biochemical com-\npounds with important biological activities like anticancer [7, 8], antimicrobial\n[9, 10], antibacterial [11, 12], antimycobacterial [13, 14], anti-inflammatory [15, 16],\netc. Similarly, quinoline is found in various natural products. It is frequently utilised to\nexplore a range of bioactive compounds with varying pharmacological properties like\nantifungal [17, 18], anti-inflammatory [19, 20], anticancer [21, 22], antimicrobial\n[23, 24], anticoagulant [25, 26], antiviral [27, 28], antimalarial [29, 30],\nantitrypanosomal [30, 31] etc. Due to the therapeutic efficacy of benzimidazole and\nquinoline scaffolds, medicinal chemists have been interested in developing hybrid\nanalogues with enhanced potency by incorporating them, and molecular hybridisation\ntechnology has been employed to do so. With a virtual planning and developing\nprocedure, finding the enhanced pharmacological activity of new or modified present\ndrugs is quite challenging. In such cases, these benzimidazole-quinoline hybrid com-\npounds play a crucial role since they can reduce time and expenses by employing\ntechniques including X-ray screening, molecular docking, NMR skeletons of biomol-\necules and computer-aided drug design [32, 33].\nThe fundamental purpose of benzimidazole-quinoline hybrid compounds is to\nstrengthen their potential to interact with several biological targets. Due to their\nexcellent potential in drug discovery and development, we have introduced this study\nof the pharmacological activities of benzimidazole-incorporated quinoline com-\npounds.",
+          "bbox": {
+            "x0": 91.79623413085938,
+            "y0": 91.54336547851562,
+            "x1": 530.9000244140625,
+            "y1": 462.8896789550781
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2. Biological applications of benzimidazole-quinoline hybrids",
+          "bbox": {
+            "x0": 91.79623413085938,
+            "y0": 498.5587158203125,
+            "x1": 457.70355224609375,
+            "y1": 512.1666870117188
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2.1 Anticancer activity",
+          "bbox": {
+            "x0": 91.79623413085938,
+            "y0": 527.9606323242188,
+            "x1": 213.9259796142578,
+            "y1": 540.3313598632812
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Hranjec and co-workers developed the synthesis and biological characterisation\nof novel benzimidazo[1,2-a]quinoline-6-carbonitriles derivatives (Figure 1). The reac-\ntion was initiated by condensing 2-cyanomethylbenzimidazole with heteroaromatic\naldehyde yielded acrylic substituted acrylonitriles. The photochemical dehydrocy-\nclisation procedure was utilised to produce benzimidazo[1,2-a]quinoline-6-carbonitriles\nand heteroaromatic fluorenes. All the synthesised compounds were investigated for\nantiproliferative efficacy against five tumour cell lines such as HeLa, MiaPaCa-2, SW",
+          "bbox": {
+            "x0": 91.79412841796875,
+            "y0": 554.914794921875,
+            "x1": 530.8846435546875,
+            "y1": 654.2191162109375
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Figure 1.\nBenzo[4,5]imidazo[1,2-a]quinoline-6-carbonitrile methoxy/anilide derivatives.",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 783.9241333007812,
+            "x1": 402.5838928222656,
+            "y1": 804.2389526367188
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2",
+          "bbox": {
+            "x0": 91.79718780517578,
+            "y0": 817.6774291992188,
+            "x1": 96.73605346679688,
+            "y1": 827.5741577148438
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Strategies Towards the Synthesis of Heterocycles and Their Applications",
+          "bbox": {
+            "x0": 91.79601287841797,
+            "y0": 54.006202697753906,
+            "x1": 401.9486389160156,
+            "y1": 64.93675231933594
+          }
+        }
+      ],
+      "render_path": "assets/page-0003.png"
+    },
+    {
+      "number": 4,
+      "width": 612.0,
+      "height": 879.448974609375,
+      "text": "620, MCF-7 and H460. Among them, compounds (I) and (II) showed good antiproli-\nferative activity against all the cell lines with an IC50 range of 2–90 μM [34].\nPerin et al. synthesised benzimidazo[1,2-a]quinolines and benzimidazo[1,2-a]\nquinolines-6-carbonitriles derivatives by the thermal reaction using sulfolane\nfor dehydrohalogenation cyclisation at 280°C followed by UV/Vis spectroscopy\n(Figure 2). Out of all the synthesised compounds (III), (IV), (V), (VI), (VII) and\n(VIII) showed strong antiproliferative activity with IC50 range of 2–19 μM [35].\nFurther, Perin and co-workers have also synthesised amino-substituted cyclic\nbenzimidazo[1,2-a]quinoline derivatives and tested in vitro for their antiproliferative,\nantibacterial and antiviral activities (Figure 3). Low to moderate yields of amide\nsubstituted cyclic derivatives were obtained by condensing acyl halides with an excess\nquantity of the corresponding amines in absolute dichloromethane. The antiproli-\nferative activity of (IX), (X) and (XI) was found to be most promising with an IC50\nvalue ranging between 0.48–4.1 μM against HeLa cell line and 0.24–0.69 μM against\nMCF7 cell line, and it also caused apoptosis in human cervical carcinoma HeLa cells at\nmicromolar doses. Antiviral activity was observed in compounds (XII), (XIII) and\n(XIV) having a side chain at position-2 against the herpes simplex virus (HSV) with\nan EC50 value of 1.8–6.8 μM and human coronavirus with EC50 value of 4–12 μM. In\naddition, (IX) and (X) substituting an amide side chain position-6 of the tetracyclic\nskeleton were efficacious against S. epidermidis and C. albicans [36].\nPerin et al. synthesised 2-substituted benzimidazo[1,2-a]-quinoline derivatives by\nmicrowave-assisted amination of 2-chloro/fluorobenzo[4,5]imidazo[1,2-a]quinoline-\n6-carbonitrile precursors, which were prepared by photochemical dehydrogenation of\nnon-fused E-2-(2-benzimidazolyl)-3-(4-halophenyl)acrylonitriles with 4-\nhalobenzaldehyde (Figure 4). Furthermore, the antiproliferative efficacy of amino-\nsubstituted derivatives was investigated. Compound (XV) showed prominent activity\nagainst HCT116 and H460 cells with IC50 values of 0.5 and 0.3 μM, respectively. The\ncompounds (XVI) and (XVII) with the presence of cyclic tertiary amino substituent\ndisplayed excellent antiproliferative action against HCT116 and H460 cell lines with\nIC50 range of 0.06–0.3 μM [37].\nFigure 2.\nAmino substituted benzo[4,5]imidazo[1,2-a]quinoline derivatives.\nFigure 3.\nBenzo[4,5]imidazo[1,2-a]quinoline amide derivatives.\n3\nCurrent Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949\n",
+      "blocks": [
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "620, MCF-7 and H460. Among them, compounds (I) and (II) showed good antiproli-\nferative activity against all the cell lines with an IC50 range of 2–90 μM [34].\nPerin et al. synthesised benzimidazo[1,2-a]quinolines and benzimidazo[1,2-a]\nquinolines-6-carbonitriles derivatives by the thermal reaction using sulfolane\nfor dehydrohalogenation cyclisation at 280°C followed by UV/Vis spectroscopy\n(Figure 2). Out of all the synthesised compounds (III), (IV), (V), (VI), (VII) and\n(VIII) showed strong antiproliferative activity with IC50 range of 2–19 μM [35].\nFurther, Perin and co-workers have also synthesised amino-substituted cyclic\nbenzimidazo[1,2-a]quinoline derivatives and tested in vitro for their antiproliferative,\nantibacterial and antiviral activities (Figure 3). Low to moderate yields of amide\nsubstituted cyclic derivatives were obtained by condensing acyl halides with an excess\nquantity of the corresponding amines in absolute dichloromethane. The antiproli-\nferative activity of (IX), (X) and (XI) was found to be most promising with an IC50\nvalue ranging between 0.48–4.1 μM against HeLa cell line and 0.24–0.69 μM against\nMCF7 cell line, and it also caused apoptosis in human cervical carcinoma HeLa cells at\nmicromolar doses. Antiviral activity was observed in compounds (XII), (XIII) and\n(XIV) having a side chain at position-2 against the herpes simplex virus (HSV) with\nan EC50 value of 1.8–6.8 μM and human coronavirus with EC50 value of 4–12 μM. In\naddition, (IX) and (X) substituting an amide side chain position-6 of the tetracyclic\nskeleton were efficacious against S. epidermidis and C. albicans [36].\nPerin et al. synthesised 2-substituted benzimidazo[1,2-a]-quinoline derivatives by\nmicrowave-assisted amination of 2-chloro/fluorobenzo[4,5]imidazo[1,2-a]quinoline-\n6-carbonitrile precursors, which were prepared by photochemical dehydrogenation of\nnon-fused E-2-(2-benzimidazolyl)-3-(4-halophenyl)acrylonitriles with 4-\nhalobenzaldehyde (Figure 4). Furthermore, the antiproliferative efficacy of amino-\nsubstituted derivatives was investigated. Compound (XV) showed prominent activity\nagainst HCT116 and H460 cells with IC50 values of 0.5 and 0.3 μM, respectively. The\ncompounds (XVI) and (XVII) with the presence of cyclic tertiary amino substituent\ndisplayed excellent antiproliferative action against HCT116 and H460 cell lines with\nIC50 range of 0.06–0.3 μM [37].",
+          "bbox": {
+            "x0": 81.07003784179688,
+            "y0": 92.94427490234375,
+            "x1": 520.1651611328125,
+            "y1": 521.8701782226562
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Figure 2.\nAmino substituted benzo[4,5]imidazo[1,2-a]quinoline derivatives.",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 641.1731567382812,
+            "x1": 340.5123291015625,
+            "y1": 661.4879760742188
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Figure 3.\nBenzo[4,5]imidazo[1,2-a]quinoline amide derivatives.",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 783.3840942382812,
+            "x1": 294.70855712890625,
+            "y1": 803.6985473632812
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "3",
+          "bbox": {
+            "x0": 81.07218170166016,
+            "y0": 817.6776733398438,
+            "x1": 85.82109069824219,
+            "y1": 827.5744018554688
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949",
+          "bbox": {
+            "x0": 81.07100677490234,
+            "y0": 52.945770263671875,
+            "x1": 460.0002136230469,
+            "y1": 77.97569274902344
+          }
+        }
+      ],
+      "render_path": "assets/page-0004.png"
+    },
+    {
+      "number": 5,
+      "width": 611.9999389648438,
+      "height": 879.448974609375,
+      "text": "Tantawy et al. synthesised novel 2-(1H-benzo[d]imidazol-2-yl)quinoline-4-\ncarboxylic acid derivatives by the reaction of 2-acetylimidazoles with isatin(Figure 5).\nCompounds (XVIII), (XIX) and (XX) displayed excellent in vitro antitumour\nactivity with IC50 in the range of 12.7–16.13 μg/mL (percentage inhibition of\n71.9–74.0%) against MCF7 breast cancer cell lines [38].\nShi and co-workers have designed and synthesised N-(2-phenyl-1H-benzo[d]\nimidazol-5-yl) quinolin-4-amine derivatives as potent inhibitors of VEGFR-2 (KDR)\nkinase (Figure 6). These derivatives were prepared by the condensation of 4-\nchloroquinoline with benzimidazole quinoline-4-amines. The synthesised compound\n(XXI) showed the most potent inhibitory activity against VEGFR-2 with IC50 value\nof 0.03 μM. Moreover, this compound also showed the highest antiproliferative\nactivity against MCF-7 and Hep-G2 cell lines with IC50 values of 1.2 and 13.3 μM,\nrespectively [39].\nBrajsa et al. prepared 2-Imidazolinyl-substituted triaza-benzo[c]fluorenes deriva-\ntives from triaza-benzo[c]fluorenes using the Pinner reaction and tested for\nantitumour efficacy in 2D and 3D cell culture (Figure 7). The compound (XXII)\nshowed the most prominent activity against PANC-1 and MDA-MB-231 cell lines with\nIC50 values of 1 and 0.2 μM, respectively [40].\nKuang et al. prepared a series of 3-(1H-benzimidazol-2-yl)quinoline-2(1H)-one\nanalogues by coupling reaction of 2-oxo-quinoline-3-carbaldehyde with various o-\nphenylenediamines (Figure 8). The HepG2 tumour growth was effectively inhibited\nby (XXIII) with IC50 value of 8.45 μM in an in vitro antitumour experiment. In\nFigure 4.\nBenzo[4,5]imidazo[1,2-a]quinoline-6-carbonitrile derivatives.\nFigure 5.\n2-(1H-benzo[d]imidazol-2-yl)quinoline-4-carboxylic acid derivatives.\nFigure 6.\nN-(2-(3,4-dichlorophenyl)-1H-benzo[d]imidazol-6-yl)quinolin-4-amine derivatives.\n4\nStrategies Towards the Synthesis of Heterocycles and Their Applications\n",
+      "blocks": [
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Tantawy et al. synthesised novel 2-(1H-benzo[d]imidazol-2-yl)quinoline-4-\ncarboxylic acid derivatives by the reaction of 2-acetylimidazoles with isatin(Figure 5).\nCompounds (XVIII), (XIX) and (XX) displayed excellent in vitro antitumour\nactivity with IC50 in the range of 12.7–16.13 μg/mL (percentage inhibition of\n71.9–74.0%) against MCF7 breast cancer cell lines [38].\nShi and co-workers have designed and synthesised N-(2-phenyl-1H-benzo[d]\nimidazol-5-yl) quinolin-4-amine derivatives as potent inhibitors of VEGFR-2 (KDR)\nkinase (Figure 6). These derivatives were prepared by the condensation of 4-\nchloroquinoline with benzimidazole quinoline-4-amines. The synthesised compound\n(XXI) showed the most potent inhibitory activity against VEGFR-2 with IC50 value\nof 0.03 μM. Moreover, this compound also showed the highest antiproliferative\nactivity against MCF-7 and Hep-G2 cell lines with IC50 values of 1.2 and 13.3 μM,\nrespectively [39].\nBrajsa et al. prepared 2-Imidazolinyl-substituted triaza-benzo[c]fluorenes deriva-\ntives from triaza-benzo[c]fluorenes using the Pinner reaction and tested for\nantitumour efficacy in 2D and 3D cell culture (Figure 7). The compound (XXII)\nshowed the most prominent activity against PANC-1 and MDA-MB-231 cell lines with\nIC50 values of 1 and 0.2 μM, respectively [40].\nKuang et al. prepared a series of 3-(1H-benzimidazol-2-yl)quinoline-2(1H)-one\nanalogues by coupling reaction of 2-oxo-quinoline-3-carbaldehyde with various o-\nphenylenediamines (Figure 8). The HepG2 tumour growth was effectively inhibited\nby (XXIII) with IC50 value of 8.45 μM in an in vitro antitumour experiment. In",
+          "bbox": {
+            "x0": 91.795166015625,
+            "y0": 218.26629638671875,
+            "x1": 530.9004516601562,
+            "y1": 533.2872314453125
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Figure 4.\nBenzo[4,5]imidazo[1,2-a]quinoline-6-carbonitrile derivatives.",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 176.7692413330078,
+            "x1": 336.78118896484375,
+            "y1": 198.4383544921875
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Figure 5.\n2-(1H-benzo[d]imidazol-2-yl)quinoline-4-carboxylic acid derivatives.",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 630.8361206054688,
+            "x1": 368.6690979003906,
+            "y1": 651.1509399414062
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Figure 6.\nN-(2-(3,4-dichlorophenyl)-1H-benzo[d]imidazol-6-yl)quinolin-4-amine derivatives.",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 783.9241333007812,
+            "x1": 427.58056640625,
+            "y1": 804.2389526367188
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "4",
+          "bbox": {
+            "x0": 91.79631042480469,
+            "y0": 817.6774291992188,
+            "x1": 97.53298950195312,
+            "y1": 827.5741577148438
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Strategies Towards the Synthesis of Heterocycles and Their Applications",
+          "bbox": {
+            "x0": 91.79631042480469,
+            "y0": 54.006202697753906,
+            "x1": 401.9489440917969,
+            "y1": 64.93675231933594
+          }
+        }
+      ],
+      "render_path": "assets/page-0005.png"
+    },
+    {
+      "number": 6,
+      "width": 612.0,
+      "height": 879.448974609375,
+      "text": "addition, the compound (XXIV) showed excellent antiproliferative activity against\nBEL-7402 with IC50 value of 9.06 μM [41].\nSimilarly, Kuang et al. further synthesised 2-chloro-3-(1H-benzo[d]imidazol-2-yl)\nquinoline derivatives as potent antitumour agents (Figure 9). In vitro antitumour\nassay findings revealed that some compounds had moderate to high inhibitory effects\nagainst HepG2, SK-OV-3, NCI-H460 and BEL-7404 tumour cells, as compared to 5-\nFU and cisplatin. In the HepG2 xenograft model, compound (XXV) effectively\ninhibited tumour growth with IC50 value 7.54 μM [42].\nMacan and co-workers prepared 2-Fluoro-5-(1H-1,2,3-triazol-1-yl)benzo[4,5]\nimidazo[1,2-a]quinoline-6-carbonitrile derivatives via Huisgen 1,3-dipolar cycloaddi-\ntion of the azide derivatives and the corresponding alkynes using Cu(OAc)2 as a\ncatalyst (Figure 10). The presence of 3-chloropropyl functional group in compound\n(XXVI) and 2-hydroxyethyl side-chain in compound (XXVII) exhibited the most\npronounced growth-inhibitory effect on colon cancer (HCT116) cells with IC50 value\nof 0.5 μM and 0.6 μM, respectively [43].\nFigure 8.\n3-(1H-benzo[d]imidazol-2-yl)quinolin-2(1H)-one derivatives.\nFigure 9.\n2-Chloro-3-(5,6-dimethyl-1H-benzo[d]imidazol-2-yl)quinoline derivatives.\nFigure 7.\n2-(10-Bromopyrido[20,304,5]imidazo[1,2-a]quinoline-2yl)-4,5-dihydro-1H-imidazol-3-ium chloride\nderivatives.\n5\nCurrent Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949\n",
+      "blocks": [
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "addition, the compound (XXIV) showed excellent antiproliferative activity against\nBEL-7402 with IC50 value of 9.06 μM [41].\nSimilarly, Kuang et al. further synthesised 2-chloro-3-(1H-benzo[d]imidazol-2-yl)\nquinoline derivatives as potent antitumour agents (Figure 9). In vitro antitumour\nassay findings revealed that some compounds had moderate to high inhibitory effects\nagainst HepG2, SK-OV-3, NCI-H460 and BEL-7404 tumour cells, as compared to 5-\nFU and cisplatin. In the HepG2 xenograft model, compound (XXV) effectively\ninhibited tumour growth with IC50 value 7.54 μM [42].\nMacan and co-workers prepared 2-Fluoro-5-(1H-1,2,3-triazol-1-yl)benzo[4,5]\nimidazo[1,2-a]quinoline-6-carbonitrile derivatives via Huisgen 1,3-dipolar cycloaddi-\ntion of the azide derivatives and the corresponding alkynes using Cu(OAc)2 as a\ncatalyst (Figure 10). The presence of 3-chloropropyl functional group in compound\n(XXVI) and 2-hydroxyethyl side-chain in compound (XXVII) exhibited the most\npronounced growth-inhibitory effect on colon cancer (HCT116) cells with IC50 value\nof 0.5 μM and 0.6 μM, respectively [43].",
+          "bbox": {
+            "x0": 81.06900024414062,
+            "y0": 591.3272705078125,
+            "x1": 519.6961669921875,
+            "y1": 805.0375366210938
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Figure 8.\n3-(1H-benzo[d]imidazol-2-yl)quinolin-2(1H)-one derivatives.",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 387.6240539550781,
+            "x1": 329.6356506347656,
+            "y1": 407.93896484375
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Figure 9.\n2-Chloro-3-(5,6-dimethyl-1H-benzo[d]imidazol-2-yl)quinoline derivatives.",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 537.2671508789062,
+            "x1": 379.9008483886719,
+            "y1": 557.5819702148438
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Figure 7.\n2-(10-Bromopyrido[20,304,5]imidazo[1,2-a]quinoline-2yl)-4,5-dihydro-1H-imidazol-3-ium chloride\nderivatives.",
+          "bbox": {
+            "x0": 81.07034301757812,
+            "y0": 204.3361053466797,
+            "x1": 480.49371337890625,
+            "y1": 235.32525634765625
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "5",
+          "bbox": {
+            "x0": 81.07034301757812,
+            "y0": 817.6795043945312,
+            "x1": 85.61979675292969,
+            "y1": 827.5762329101562
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949",
+          "bbox": {
+            "x0": 81.07110595703125,
+            "y0": 52.945587158203125,
+            "x1": 460.00030517578125,
+            "y1": 77.97550964355469
+          }
+        }
+      ],
+      "render_path": "assets/page-0006.png"
+    },
+    {
+      "number": 7,
+      "width": 611.9999389648438,
+      "height": 879.448974609375,
+      "text": "Pragathi and co-workers have synthesised a series of chalcone incorporated\n2-quinoline-benzimidazole-1,2,4-thiadiazoles by aldol condensation (Figure 11).\nSynthesised compounds were examined for their anticancer activities against different\ncancer cell lines such as MCF-7, A549, Colo-205 and A2780. From all the investigated\ncompounds, (XXVIII) showed excellent anticancer activities with IC50 range of\n0.012–1.46 μM [44].\nGaikwad et al. developed a series of 1,2,3-triazole-based quinoline-benzimidazole\nhybrid scaffolds by a click reaction using the [3+2] azide-alkyne cycloaddition reaction\nusing copper(I)Iodide in DMF (Figure 12). Synthesised compounds were screened\nagainst a panel of NCI-60 human cancer cell lines for in vitro cytotoxicity evaluation.\nThe compound (XXIX) showed an excellent antiproliferative effect with a significant\nIC50 value of 0.59 μM against the human breast cancer BT-474 cell line [45].\nFigure 10.\n2-Fluoro-5-(1H-1,2,3-triazol-1-yl)benzo[4,5]imidazo[1,2-a]quinoline-6-carbonitrile derivatives.\nFigure 11.\n(E)-3-(5-(3-(4-(3-oxo-3-(pyridin-4-yl)prop-1-en-1-yl)phenyl)-1,2,4-thiadiazol-5-yl)-1H-benzo[d]\nimidazol-2-yl)quinoline-2(1H)-one derivatives.\nFigure 12.\n3-(1H-benzo[d]imidazol-2-yl)-1-((1-(2,3,4-trimethoxybenzyl)-1H-1,2,3-triazol-4-yl)methyl)quinoin-2\n(1H)-one derivatives.\n6\nStrategies Towards the Synthesis of Heterocycles and Their Applications\n",
+      "blocks": [
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Pragathi and co-workers have synthesised a series of chalcone incorporated\n2-quinoline-benzimidazole-1,2,4-thiadiazoles by aldol condensation (Figure 11).\nSynthesised compounds were examined for their anticancer activities against different\ncancer cell lines such as MCF-7, A549, Colo-205 and A2780. From all the investigated\ncompounds, (XXVIII) showed excellent anticancer activities with IC50 range of\n0.012–1.46 μM [44].\nGaikwad et al. developed a series of 1,2,3-triazole-based quinoline-benzimidazole\nhybrid scaffolds by a click reaction using the [3+2] azide-alkyne cycloaddition reaction\nusing copper(I)Iodide in DMF (Figure 12). Synthesised compounds were screened\nagainst a panel of NCI-60 human cancer cell lines for in vitro cytotoxicity evaluation.\nThe compound (XXIX) showed an excellent antiproliferative effect with a significant\nIC50 value of 0.59 μM against the human breast cancer BT-474 cell line [45].",
+          "bbox": {
+            "x0": 91.79580688476562,
+            "y0": 441.6163024902344,
+            "x1": 530.8404541015625,
+            "y1": 614.1551513671875
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Figure 10.\n2-Fluoro-5-(1H-1,2,3-triazol-1-yl)benzo[4,5]imidazo[1,2-a]quinoline-6-carbonitrile derivatives.",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 235.2781219482422,
+            "x1": 477.3708190917969,
+            "y1": 255.593017578125
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Figure 11.\n(E)-3-(5-(3-(4-(3-oxo-3-(pyridin-4-yl)prop-1-en-1-yl)phenyl)-1,2,4-thiadiazol-5-yl)-1H-benzo[d]\nimidazol-2-yl)quinoline-2(1H)-one derivatives.",
+          "bbox": {
+            "x0": 91.7928466796875,
+            "y0": 391.8121032714844,
+            "x1": 494.5869445800781,
+            "y1": 422.8016357421875
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Figure 12.\n3-(1H-benzo[d]imidazol-2-yl)-1-((1-(2,3,4-trimethoxybenzyl)-1H-1,2,3-triazol-4-yl)methyl)quinoin-2\n(1H)-one derivatives.",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 773.2501220703125,
+            "x1": 507.6446533203125,
+            "y1": 804.2395629882812
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "6",
+          "bbox": {
+            "x0": 91.79564666748047,
+            "y0": 817.6780395507812,
+            "x1": 97.33287048339844,
+            "y1": 827.5747680664062
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Strategies Towards the Synthesis of Heterocycles and Their Applications",
+          "bbox": {
+            "x0": 91.79564666748047,
+            "y0": 54.006813049316406,
+            "x1": 401.9482727050781,
+            "y1": 64.93736267089844
+          }
+        }
+      ],
+      "render_path": "assets/page-0007.png"
+    },
+    {
+      "number": 8,
+      "width": 612.0,
+      "height": 879.448974609375,
+      "text": "2.2 Antimicrobial activity\nSonar et al. synthesised 4-((5-difluoromethoxy)-1H-benzo[d]imidazol-2-ylthio)\nmethyl)tetrazolo[1,5-a]quinoines derivatives (Figure 13). These targeted molecules\nwere synthesised by the conversion of 2-chloroquinoline-3-carbaldehyde to tetrazolo\n[1,5-a]quinoline-4-carbaldehyde after treatment with sodium azide, followed by\nreduction to the corresponding alcohol derivatives and conversion to chloride with\nthionyl chloride and coupling with 5-(difluoromethoxy)-1H-benzo[d]-imidazol-2-\nthiol. The compounds (XXX), (XXXI), (XXXII), (XXXIII) and (XXXIV) were\nevaluated for their antibacterial activity against Gram-positive (B. subtilis and\nS. aureus) and Gram-negative (E. Coli and S. aboney) microorganisms. The synthesised\ncompounds demonstrated significant activity against all the bacteria with zone of\ninhibition ranging from 7 to 17 mm at MIC level of 10 mg/mL [46].\nChaudhari et al. synthesised 8-(1-alkyl/alkysulsulphonyl/alkoxycarbonyl-\nbenzimidazol-2ylmethoxy)-5-chloroquine derivatives (Figure 14). The first step was\nthe reaction of 5-chloro-8-hydroxyquinoline with monochloroacetic acid methyl ester\nfollowed by hydrolysis to form 5-chloroquinolin-8-yl)oxy]acetic acid. Which was\nfurther reacted with o-phenylenediamine to obtain 8-[(1H-benzimidazol-2-yl)\nmethoxy]-5-chloroquinoline. The final analogues were synthesised by the reaction of\n8-[(1H-benzimidazol-2-yl)methoxy]-5-chloroquinoline with different electrophiles in\nthe presence of an appropriate base. Synthesised compounds were tested for their\nantifungal activity, among them compound (XXXV), (XXXVI), (XXXVII) and\n(XXXVIII) showed good antifungal activity against A. niger MTCC282 with 18–\n19 mm zone of inhibition at 50 μg/mL MIC. In addition, compound (XXXIX) showed\npotent antibacterial activity with 15 mm zone of inhibition (MIC, 25 μg/mL) against\nS. aureus MTCC-96 and S. typhimurium MTCC-98 [47].\nGowda et al. used one-step method to synthesise 2-(1H-benzimidazol-2-yl)-6-\nsubstituted thieno[2,3-b]quinoline derivatives (Figure 15). They introduced\nnucleophilic substitution reaction of 2-(chloromethyl)-1H-benzimidazole 2/2-\n(mercaptomethyl)-1H-benzimidazoles followed by the cyclisation with 2-mercapto-\nquinoline-3-carbaldehyde 1/2-chloroquinoline-3-carbaldehyde. The antibacterial\nactivity of the synthesised compounds was tested in vitro against Gram-positive (E. coli\nand S. aureus) and Gram-negative (P. aeruginosa and K. pneumoniae) pathogens.\nFigure 13.\n4-(((5-(Difluoromethoxy)-1H-benzo[d]imidazol-2-yl)thiomethyl)tetrazolo[1,5-a]quinoline derivatives.\np\nFigure 14.\n8-((1H-benzo[d]imidazol-2-yl)methoxy)-5-chloroquinoline derivatives.\n7\nCurrent Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949\n",
+      "blocks": [
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "2.2 Antimicrobial activity",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 94.29755401611328,
+            "x1": 220.42784118652344,
+            "y1": 106.66828155517578
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Sonar et al. synthesised 4-((5-difluoromethoxy)-1H-benzo[d]imidazol-2-ylthio)\nmethyl)tetrazolo[1,5-a]quinoines derivatives (Figure 13). These targeted molecules\nwere synthesised by the conversion of 2-chloroquinoline-3-carbaldehyde to tetrazolo\n[1,5-a]quinoline-4-carbaldehyde after treatment with sodium azide, followed by\nreduction to the corresponding alcohol derivatives and conversion to chloride with\nthionyl chloride and coupling with 5-(difluoromethoxy)-1H-benzo[d]-imidazol-2-\nthiol. The compounds (XXX), (XXXI), (XXXII), (XXXIII) and (XXXIV) were\nevaluated for their antibacterial activity against Gram-positive (B. subtilis and\nS. aureus) and Gram-negative (E. Coli and S. aboney) microorganisms. The synthesised\ncompounds demonstrated significant activity against all the bacteria with zone of\ninhibition ranging from 7 to 17 mm at MIC level of 10 mg/mL [46].\nChaudhari et al. synthesised 8-(1-alkyl/alkysulsulphonyl/alkoxycarbonyl-\nbenzimidazol-2ylmethoxy)-5-chloroquine derivatives (Figure 14). The first step was\nthe reaction of 5-chloro-8-hydroxyquinoline with monochloroacetic acid methyl ester\nfollowed by hydrolysis to form 5-chloroquinolin-8-yl)oxy]acetic acid. Which was\nfurther reacted with o-phenylenediamine to obtain 8-[(1H-benzimidazol-2-yl)\nmethoxy]-5-chloroquinoline. The final analogues were synthesised by the reaction of\n8-[(1H-benzimidazol-2-yl)methoxy]-5-chloroquinoline with different electrophiles in\nthe presence of an appropriate base. Synthesised compounds were tested for their\nantifungal activity, among them compound (XXXV), (XXXVI), (XXXVII) and\n(XXXVIII) showed good antifungal activity against A. niger MTCC282 with 18–\n19 mm zone of inhibition at 50 μg/mL MIC. In addition, compound (XXXIX) showed\npotent antibacterial activity with 15 mm zone of inhibition (MIC, 25 μg/mL) against\nS. aureus MTCC-96 and S. typhimurium MTCC-98 [47].\nGowda et al. used one-step method to synthesise 2-(1H-benzimidazol-2-yl)-6-\nsubstituted thieno[2,3-b]quinoline derivatives (Figure 15). They introduced\nnucleophilic substitution reaction of 2-(chloromethyl)-1H-benzimidazole 2/2-\n(mercaptomethyl)-1H-benzimidazoles followed by the cyclisation with 2-mercapto-\nquinoline-3-carbaldehyde 1/2-chloroquinoline-3-carbaldehyde. The antibacterial\nactivity of the synthesised compounds was tested in vitro against Gram-positive (E. coli\nand S. aureus) and Gram-negative (P. aeruginosa and K. pneumoniae) pathogens.",
+          "bbox": {
+            "x0": 81.06987762451172,
+            "y0": 121.251708984375,
+            "x1": 520.19091796875,
+            "y1": 562.468505859375
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Figure 13.\n4-(((5-(Difluoromethoxy)-1H-benzo[d]imidazol-2-yl)thiomethyl)tetrazolo[1,5-a]quinoline derivatives.",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 673.7361450195312,
+            "x1": 490.4272155761719,
+            "y1": 694.0509643554688
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "p",
+          "bbox": {
+            "x0": 333.2099914550781,
+            "y0": 735.2227783203125,
+            "x1": 337.82781982421875,
+            "y1": 743.4966430664062
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Figure 14.\n8-((1H-benzo[d]imidazol-2-yl)methoxy)-5-chloroquinoline derivatives.",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 783.7891235351562,
+            "x1": 364.02362060546875,
+            "y1": 804.1039428710938
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "7",
+          "bbox": {
+            "x0": 81.06989288330078,
+            "y0": 817.6771850585938,
+            "x1": 85.61934661865234,
+            "y1": 827.5739135742188
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949",
+          "bbox": {
+            "x0": 81.07067108154297,
+            "y0": 52.946258544921875,
+            "x1": 459.9998779296875,
+            "y1": 77.97618103027344
+          }
+        }
+      ],
+      "render_path": "assets/page-0008.png"
+    },
+    {
+      "number": 9,
+      "width": 611.9999389648438,
+      "height": 879.448974609375,
+      "text": "Compounds (XL), (XLI), (XLII) and (XLIII) with the substitution of nitro group at\nthe position-5 of benzimidazole ring showed highest MIC at 12.5 μg/mL [48].\nMungra et al. synthesised a new class of potent quinoline fused benzimidazole\nderivatives (Figure 16). The final compounds were prepared by the reaction of\ntetrazolo[1,5-a]quinoline-4-carbaldehyde with o-phenylenediamine by microwave\nirradiation. Compounds were further tested for their antimicrobial activity. Among all\ncompounds, (XLIV) displayed excellent activity against Gram-positive bacteria B.\nsubtills with MIC value of 100 μg/mL [49].\nGarudachari et al. synthesised quinoline incorporated benzimidazole from aniline\nand isatin via the multistep process (Figure 17). These derivatives were synthesised\nby multi-component one-pot Doebner and Pfitzinger reaction. Newly synthesised\ncompounds were tested in vitro for their antibacterial and antifungal activities. From\nthem, compounds (XLV), (XLVI), (XLVII) and (XLVIII) showed significant\nantibacterial activity against S. aureus and E. coli with a zone of inhibition in the range\nof 10–16 mm at MIC value of 6.25 μg/mL. Compound (XLIX) was showed potent\nantifungal activity against A. niger, and Penicillium sp. with 12–15 mm zone of inhibi-\ntion, and (L), (LI) and (LII) showed good antifungal activity against A. niger and\nPenicillium sp. at 6.25 μg/mL with 12–16 mm zone of inhibition [50].\nDe Souza et al. introduced well-known fluorescent benzoimidazo[1,2-a]quinoline\nderivatives with DNA binding and anticancer properties. Compounds were tested as\nbifunctional agents that could detect yeast biofilms on stainless steel surfaces and act\nas biocidal agents (Figure 18). The biocidal activity of benzimidazole compound\nFigure 15.\n2-(1H-benzo[d]imidazo-2-yl)thieno[2,3-b]quinolines derivatives.\nFigure 16.\n4-(1H-benzo[d]imidazol-2-yl)-7-methyltetrazolo[1,5-a]quinoline derivatives.\nFigure 17.\n4-(1H-benzo[d]imidazol-2-yl)-2-(4-fluorophenyl)quinoline derivatives.\n8\nStrategies Towards the Synthesis of Heterocycles and Their Applications\n",
+      "blocks": [
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Compounds (XL), (XLI), (XLII) and (XLIII) with the substitution of nitro group at\nthe position-5 of benzimidazole ring showed highest MIC at 12.5 μg/mL [48].\nMungra et al. synthesised a new class of potent quinoline fused benzimidazole\nderivatives (Figure 16). The final compounds were prepared by the reaction of\ntetrazolo[1,5-a]quinoline-4-carbaldehyde with o-phenylenediamine by microwave\nirradiation. Compounds were further tested for their antimicrobial activity. Among all\ncompounds, (XLIV) displayed excellent activity against Gram-positive bacteria B.\nsubtills with MIC value of 100 μg/mL [49].\nGarudachari et al. synthesised quinoline incorporated benzimidazole from aniline\nand isatin via the multistep process (Figure 17). These derivatives were synthesised\nby multi-component one-pot Doebner and Pfitzinger reaction. Newly synthesised\ncompounds were tested in vitro for their antibacterial and antifungal activities. From\nthem, compounds (XLV), (XLVI), (XLVII) and (XLVIII) showed significant\nantibacterial activity against S. aureus and E. coli with a zone of inhibition in the range\nof 10–16 mm at MIC value of 6.25 μg/mL. Compound (XLIX) was showed potent\nantifungal activity against A. niger, and Penicillium sp. with 12–15 mm zone of inhibi-\ntion, and (L), (LI) and (LII) showed good antifungal activity against A. niger and\nPenicillium sp. at 6.25 μg/mL with 12–16 mm zone of inhibition [50].\nDe Souza et al. introduced well-known fluorescent benzoimidazo[1,2-a]quinoline\nderivatives with DNA binding and anticancer properties. Compounds were tested as\nbifunctional agents that could detect yeast biofilms on stainless steel surfaces and act\nas biocidal agents (Figure 18). The biocidal activity of benzimidazole compound",
+          "bbox": {
+            "x0": 91.79531860351562,
+            "y0": 183.60931396484375,
+            "x1": 530.8666381835938,
+            "y1": 496.7520446777344
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Figure 15.\n2-(1H-benzo[d]imidazo-2-yl)thieno[2,3-b]quinolines derivatives.",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 155.1531219482422,
+            "x1": 350.967041015625,
+            "y1": 175.468017578125
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Figure 16.\n4-(1H-benzo[d]imidazol-2-yl)-7-methyltetrazolo[1,5-a]quinoline derivatives.",
+          "bbox": {
+            "x0": 91.12030029296875,
+            "y0": 622.256103515625,
+            "x1": 397.9208679199219,
+            "y1": 642.5709838867188
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Figure 17.\n4-(1H-benzo[d]imidazol-2-yl)-2-(4-fluorophenyl)quinoline derivatives.",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 783.5191040039062,
+            "x1": 376.23577880859375,
+            "y1": 803.833984375
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "8",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 817.6783447265625,
+            "x1": 96.83903503417969,
+            "y1": 827.5750732421875
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Strategies Towards the Synthesis of Heterocycles and Their Applications",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 54.007118225097656,
+            "x1": 401.9483337402344,
+            "y1": 64.93766784667969
+          }
+        }
+      ],
+      "render_path": "assets/page-0009.png"
+    },
+    {
+      "number": 10,
+      "width": 612.0,
+      "height": 879.448974609375,
+      "text": "(LIII) against yeast cells and biofilms seemed promising. The compound showed\nsignificant activity against C. Albicans CA01 with MIC value of 4 μg/mL [51].\nVilla et al. synthesised 12H-benzo[40,50]imidazo[10,20:1,2]pyrrolo[3,4-b]quinoline\nderivatives using two different pathways (Figure 19). In the first path, titled ana-\nlogues were prepared by the reaction of arylimines and 20 mol% of BF3O(C2H5)2 in\ndichloroethane. The arylimines were obtained by the reaction of benzimidazole\ncarbaldehyde with arylamine in the presence of InCl3. However, another path was\naccomplished by a one-pot intramolecular Povarov reaction without isolating the\nintermediates. Among them, compound (LIV) significantly reduced the metabolic\nactivity of C. albicans biofilms fungal cells at MIC value of 0.5 μg/mL [52].\nEl Faydy and co-workers synthesised 8-quinolinol analogues bearing a benzimid-\nazole moiety by condensing 5-(carboxymethyl)-8-quinolinol with substituted o-\nphenylenediamines in an acidic medium (Figure 20). The synthesised compounds\nwere tested in vitro against two Gram-positive (B. subtilis and S. aureus) and two\nGram-negative (E. Ludwigii and E. coli) microorganisms. The compound (LV)\nshowed good antibacterial activity against all the microorganisms, with 28–42 mm\nzone of inhibition at MIC in the range of 10–20 μg/mL [53].\n2.3 Miscellaneous activity\nEl-Feky et al. investigated the anti-inflammatory potential of several novel\nN-(substituted-phenyl)-2-(2-(6-fluoro-2(4-fluorophenyl)-quinoline-4-yl)-1H-\nFigure 18.\n2-((3-(Dimethylamino)propyl)amino)-7a,11a-dihydrobenzo[4,5]imidazo[1,2-a]quinoline-6-carbonitrile derivatives.\nFigure 19.\n12H-benzo[40,50]imidazo[10,20:1,2]pyrrolo[3,4-b]quinoline derivatives.\nFigure 20.\n5-((5,6-Dichoro-1H-benzo[d]imidazol-2-yl)methyl)quinolin-8-ol derivatives.\n9\nCurrent Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949\n",
+      "blocks": [
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "(LIII) against yeast cells and biofilms seemed promising. The compound showed\nsignificant activity against C. Albicans CA01 with MIC value of 4 μg/mL [51].\nVilla et al. synthesised 12H-benzo[40,50]imidazo[10,20:1,2]pyrrolo[3,4-b]quinoline\nderivatives using two different pathways (Figure 19). In the first path, titled ana-\nlogues were prepared by the reaction of arylimines and 20 mol% of BF3O(C2H5)2 in\ndichloroethane. The arylimines were obtained by the reaction of benzimidazole\ncarbaldehyde with arylamine in the presence of InCl3. However, another path was\naccomplished by a one-pot intramolecular Povarov reaction without isolating the\nintermediates. Among them, compound (LIV) significantly reduced the metabolic\nactivity of C. albicans biofilms fungal cells at MIC value of 0.5 μg/mL [52].\nEl Faydy and co-workers synthesised 8-quinolinol analogues bearing a benzimid-\nazole moiety by condensing 5-(carboxymethyl)-8-quinolinol with substituted o-\nphenylenediamines in an acidic medium (Figure 20). The synthesised compounds\nwere tested in vitro against two Gram-positive (B. subtilis and S. aureus) and two\nGram-negative (E. Ludwigii and E. coli) microorganisms. The compound (LV)\nshowed good antibacterial activity against all the microorganisms, with 28–42 mm\nzone of inhibition at MIC in the range of 10–20 μg/mL [53].",
+          "bbox": {
+            "x0": 81.069580078125,
+            "y0": 485.3273010253906,
+            "x1": 513.5220336914062,
+            "y1": 727.5464477539062
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "2.3 Miscellaneous activity",
+          "bbox": {
+            "x0": 81.07145690917969,
+            "y0": 749.8880004882812,
+            "x1": 220.7657012939453,
+            "y1": 762.2587280273438
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "El-Feky et al. investigated the anti-inflammatory potential of several novel\nN-(substituted-phenyl)-2-(2-(6-fluoro-2(4-fluorophenyl)-quinoline-4-yl)-1H-",
+          "bbox": {
+            "x0": 81.0715560913086,
+            "y0": 776.8425903320312,
+            "x1": 468.04229736328125,
+            "y1": 804.940185546875
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Figure 18.\n2-((3-(Dimethylamino)propyl)amino)-7a,11a-dihydrobenzo[4,5]imidazo[1,2-a]quinoline-6-carbonitrile derivatives.",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 210.48411560058594,
+            "x1": 518.62548828125,
+            "y1": 230.79901123046875
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Figure 19.\n12H-benzo[40,50]imidazo[10,20:1,2]pyrrolo[3,4-b]quinoline derivatives.",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 298.3780822753906,
+            "x1": 363.076416015625,
+            "y1": 318.6929931640625
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Figure 20.\n5-((5,6-Dichoro-1H-benzo[d]imidazol-2-yl)methyl)quinolin-8-ol derivatives.",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 449.7100830078125,
+            "x1": 388.4803466796875,
+            "y1": 470.02496337890625
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "9",
+          "bbox": {
+            "x0": 81.0704116821289,
+            "y0": 817.67919921875,
+            "x1": 86.50315856933594,
+            "y1": 827.575927734375
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949",
+          "bbox": {
+            "x0": 81.07040405273438,
+            "y0": 52.946258544921875,
+            "x1": 459.9996032714844,
+            "y1": 77.97618103027344
+          }
+        }
+      ],
+      "render_path": "assets/page-0010.png"
+    },
+    {
+      "number": 11,
+      "width": 611.9999389648438,
+      "height": 879.448974609375,
+      "text": "benzimidazol-1-yl)acetamides derivatives by the reaction with 4-(1H-benzo[d]imidazol-\n2-yl)-6-fluoro-2-(4-fluorophenyl)quinoline with 2-chloro-N-arylacetamide (Figure 21).\nSynthesised compounds were investigated for their anti-inflammatory activity. Among\nthem, the compound (LVI) showed the highest activity with 55 mg/kg dose (%) [54].\nMadawali et al. synthesised novel 2-chloro-3-[3-(6-nitro-1H-benzimidazol-2-yl)-\n1H-pyrazol-5-yl]quinolines derivatives from 2-chloro-3-[3-(6-nitro-1H-benzimidazol-\n2-yl)-4,5-dihydro-1H-pyrazol-5-yl]quinolines by dehydrogenation reaction\n(Figure 22). Among them, compounds (LVII), (LVIII) and (LIX) showed excellent\nanti-inflammatory activity with excellent % inhibition of denaturation 82.81, 82.35\nand 82.81, respectively [55].\nUkrainets and co-workers synthesised benzimidazo-2-ylamides of 4-hydroxy-2-\noxo-1,2-dihydroquinoline-3-carboxylic acids (Figure 23). The targeted compounds\nwere prepared by the well-known reaction, which involved heating ethyl esters with\n2-aminobenzimidazole. They were tested for their antituberculosis and antithyroid\nactivities. Compounds (LX) and (LXI) showed the highest activity against M. tuber-\nculosis H37Rv ATCC 27294 with MIC value of 1.56 μg/mL. Moreover, the compound\n(LXII) (1.46 nmol/l) showed higher antithyroid activity as compared to the standard\ndrug Mercazolyl (1.63 nmol/l) against the triiodothyronine (T3) hormone [56].\nMantu et al. designed and synthesised 2-(1H-benzo[d]imidazol-1-yl)-N-(quinoline-\n8-yl)acetamide analogues from 2-chloro-N-(quinolin-8-yl)acetamide and imidazole\nFigure 21.\n2-(2-(6-Fluoro-2-(4-fluorophenyl)quinolin-4-yl)-1H-benzo[d]imidazol-1-yl)-N-(4-methoxyphenyl)\nacetamide derivatives.\nFigure 22.\n2-Chloro-3-[3-(6-nitro-1H-benzimidazol-2-yl)-4,5-dihydro-1H-pyrazol-5-yl]quinoline derivatives.\nFigure 23.\nN-(1H-benzo[d]imidazol-yl-)-4-hydroxy-2-oxo-1,2-dihydroquinoline-3-carboxamide derivatives.\n10\nStrategies Towards the Synthesis of Heterocycles and Their Applications\n",
+      "blocks": [
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "benzimidazol-1-yl)acetamides derivatives by the reaction with 4-(1H-benzo[d]imidazol-\n2-yl)-6-fluoro-2-(4-fluorophenyl)quinoline with 2-chloro-N-arylacetamide (Figure 21).\nSynthesised compounds were investigated for their anti-inflammatory activity. Among\nthem, the compound (LVI) showed the highest activity with 55 mg/kg dose (%) [54].\nMadawali et al. synthesised novel 2-chloro-3-[3-(6-nitro-1H-benzimidazol-2-yl)-\n1H-pyrazol-5-yl]quinolines derivatives from 2-chloro-3-[3-(6-nitro-1H-benzimidazol-\n2-yl)-4,5-dihydro-1H-pyrazol-5-yl]quinolines by dehydrogenation reaction\n(Figure 22). Among them, compounds (LVII), (LVIII) and (LIX) showed excellent\nanti-inflammatory activity with excellent % inhibition of denaturation 82.81, 82.35\nand 82.81, respectively [55].\nUkrainets and co-workers synthesised benzimidazo-2-ylamides of 4-hydroxy-2-\noxo-1,2-dihydroquinoline-3-carboxylic acids (Figure 23). The targeted compounds\nwere prepared by the well-known reaction, which involved heating ethyl esters with\n2-aminobenzimidazole. They were tested for their antituberculosis and antithyroid\nactivities. Compounds (LX) and (LXI) showed the highest activity against M. tuber-\nculosis H37Rv ATCC 27294 with MIC value of 1.56 μg/mL. Moreover, the compound\n(LXII) (1.46 nmol/l) showed higher antithyroid activity as compared to the standard\ndrug Mercazolyl (1.63 nmol/l) against the triiodothyronine (T3) hormone [56].\nMantu et al. designed and synthesised 2-(1H-benzo[d]imidazol-1-yl)-N-(quinoline-\n8-yl)acetamide analogues from 2-chloro-N-(quinolin-8-yl)acetamide and imidazole",
+          "bbox": {
+            "x0": 91.79364013671875,
+            "y0": 273.124267578125,
+            "x1": 530.712646484375,
+            "y1": 557.6729125976562
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Figure 21.\n2-(2-(6-Fluoro-2-(4-fluorophenyl)quinolin-4-yl)-1H-benzo[d]imidazol-1-yl)-N-(4-methoxyphenyl)\nacetamide derivatives.",
+          "bbox": {
+            "x0": 91.79495239257812,
+            "y0": 232.7781219482422,
+            "x1": 491.7145690917969,
+            "y1": 263.835205078125
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Figure 22.\n2-Chloro-3-[3-(6-nitro-1H-benzimidazol-2-yl)-4,5-dihydro-1H-pyrazol-5-yl]quinoline derivatives.",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 655.9680786132812,
+            "x1": 485.680419921875,
+            "y1": 676.282958984375
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Figure 23.\nN-(1H-benzo[d]imidazol-yl-)-4-hydroxy-2-oxo-1,2-dihydroquinoline-3-carboxamide derivatives.",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 783.18212890625,
+            "x1": 477.6419677734375,
+            "y1": 803.4970092773438
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "10",
+          "bbox": {
+            "x0": 91.7956771850586,
+            "y0": 817.67919921875,
+            "x1": 101.77787780761719,
+            "y1": 827.575927734375
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Strategies Towards the Synthesis of Heterocycles and Their Applications",
+          "bbox": {
+            "x0": 91.7956771850586,
+            "y0": 54.006935119628906,
+            "x1": 401.94830322265625,
+            "y1": 64.93748474121094
+          }
+        }
+      ],
+      "render_path": "assets/page-0011.png"
+    },
+    {
+      "number": 12,
+      "width": 612.0,
+      "height": 879.448974609375,
+      "text": "derivatives (Figure 24). The synthesised derivatives were tested in vitro for anticancer\nand antimycobacterial activities. Among all hybrid compounds, (LXIII) showed good\nantitumour activity against Renal Cancer A498 (52.92 μM) and Breast Cancer MDA-\nMB-468 (56.54 μM). This compound also showed antimycobacterial activity against M.\ntuberculosis H37Rv with MIC >100 μM and IC90 value of 77 μg/mL [57].\nBaartzes and co-workers synthesised phenyl-benzimidazole and ferrocenyl-\nbenzimidazoles fused aminoquinoline derivatives and evaluated their antiplasmodial\nactivity (Figure 25). Out of all the synthesised hybrids analogues, phenyl (LXIV) and\nferrocenyl (LXV) showed excellent antiplasmodial activity against multi-drug resis-\ntant K1 strains of the human malaria parasite at IC50 values of 0.151 and 0.283 μM,\nrespectively. They were further assessed in vivo against Plasmodium berghei infected\nmice. Treatment with either compound decreased parasitemia, with (LXV) demon-\nstrating superior activity [58].\nPomel et al. synthesised 7-chloro-4-(4-(5-fluoro-1H-benzo[d]imidazol-2-yl)\nphenoxy)quinoline derivatives by the reaction of 2-phenol-1H-6-fluorobenzimidazole\nand 4,7-dichloroquinoleine chloride. T. b. gambiense, a human parasite, was used\nin vitro to test antitrypanosomal activity (Figure 26). The compound (LXVI) showed\nthe best in vitro activity with IC50 value of 1.98 μM, cytotoxicity CC50 value 10.56 μM\nand selective index (SI) was 5.3 [59].\nBharadwaj et al. synthesised benzimidazole-containing quinolinyl oxadiazoles\nfrom quinoline-4-carboxylic acid and benzimidazole hydrazide (Figure 27). These\nFigure 24.\n2-(1H-benzo[d]imidazol-1-yl)-N-(quinoline-8-yl)acetamide derivatives.\nFigure 25.\n7-Chloro-N-(3-(2-phenyl/ferrocenyl-5-(trifuoromethyl)-1H-benzo[d]imidazol-1-yl)propyl)quinolin-4-amine\nderivatives.\nFigure 26.\n7-Chloro-4-(4-(5-fluoro-1H-benzo[d]imidazol-2-yl)phenoxy)quinoline derivatives.\n11\nCurrent Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949\n",
+      "blocks": [
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "derivatives (Figure 24). The synthesised derivatives were tested in vitro for anticancer\nand antimycobacterial activities. Among all hybrid compounds, (LXIII) showed good\nantitumour activity against Renal Cancer A498 (52.92 μM) and Breast Cancer MDA-\nMB-468 (56.54 μM). This compound also showed antimycobacterial activity against M.\ntuberculosis H37Rv with MIC >100 μM and IC90 value of 77 μg/mL [57].\nBaartzes and co-workers synthesised phenyl-benzimidazole and ferrocenyl-\nbenzimidazoles fused aminoquinoline derivatives and evaluated their antiplasmodial\nactivity (Figure 25). Out of all the synthesised hybrids analogues, phenyl (LXIV) and\nferrocenyl (LXV) showed excellent antiplasmodial activity against multi-drug resis-\ntant K1 strains of the human malaria parasite at IC50 values of 0.151 and 0.283 μM,\nrespectively. They were further assessed in vivo against Plasmodium berghei infected\nmice. Treatment with either compound decreased parasitemia, with (LXV) demon-\nstrating superior activity [58].\nPomel et al. synthesised 7-chloro-4-(4-(5-fluoro-1H-benzo[d]imidazol-2-yl)\nphenoxy)quinoline derivatives by the reaction of 2-phenol-1H-6-fluorobenzimidazole\nand 4,7-dichloroquinoleine chloride. T. b. gambiense, a human parasite, was used\nin vitro to test antitrypanosomal activity (Figure 26). The compound (LXVI) showed\nthe best in vitro activity with IC50 value of 1.98 μM, cytotoxicity CC50 value 10.56 μM\nand selective index (SI) was 5.3 [59].\nBharadwaj et al. synthesised benzimidazole-containing quinolinyl oxadiazoles\nfrom quinoline-4-carboxylic acid and benzimidazole hydrazide (Figure 27). These",
+          "bbox": {
+            "x0": 81.06878662109375,
+            "y0": 386.48828125,
+            "x1": 520.1891479492188,
+            "y1": 685.3777465820312
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Figure 24.\n2-(1H-benzo[d]imidazol-1-yl)-N-(quinoline-8-yl)acetamide derivatives.",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 180.4880828857422,
+            "x1": 368.6178894042969,
+            "y1": 200.802978515625
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Figure 25.\n7-Chloro-N-(3-(2-phenyl/ferrocenyl-5-(trifuoromethyl)-1H-benzo[d]imidazol-1-yl)propyl)quinolin-4-amine\nderivatives.",
+          "bbox": {
+            "x0": 81.06930541992188,
+            "y0": 346.1420593261719,
+            "x1": 513.6881103515625,
+            "y1": 377.19915771484375
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Figure 26.\n7-Chloro-4-(4-(5-fluoro-1H-benzo[d]imidazol-2-yl)phenoxy)quinoline derivatives.",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 783.9241333007812,
+            "x1": 411.0443115234375,
+            "y1": 804.2389526367188
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "11",
+          "bbox": {
+            "x0": 81.07022094726562,
+            "y0": 817.6774291992188,
+            "x1": 89.77021789550781,
+            "y1": 827.5741577148438
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949",
+          "bbox": {
+            "x0": 81.07098388671875,
+            "y0": 52.945526123046875,
+            "x1": 460.00018310546875,
+            "y1": 77.97544860839844
+          }
+        }
+      ],
+      "render_path": "assets/page-0012.png"
+    },
+    {
+      "number": 13,
+      "width": 611.9999389648438,
+      "height": 879.448974609375,
+      "text": "derivatives were investigated for their antidiabetic, anticoagulant and antiplatelet\nactivity. The anticoagulant activity showed by compound (LXVII) and (LXVIII)\nwith IC50 values of 0.66 and 0.68 μg/mL, respectively. The compound (LXVII) also\nshowed antiplatelet activity [60].\n2.4 Summary\nThe study summarises the detailed literature review on recent advancements in\nsynthesis and the pharmacological properties of benzimidazole-integrated quinoline\nhybrids. The most common and efficient approach for the synthesis of benzimidazole\nderivatives is the condensation reaction between o-Phenylenediamine and various\ncarbonyl compounds. However, quinoline derivatives are basically synthesised by the\nSkraup reaction. It involves a reaction with aniline or a substituted aniline with\nglycerol in the presence of sulphuric acid, ferrous sulfate, and nitrobenzene. The\nresult and discussion showed that benzimidazole-quinoline hybrids could display\nvarious biological activities such as anticancer, antimicrobial, anti-inflammatory,\nantimycobacterial, antiplasmodial, antitrypanosomal, anticoagulant and antithyroid\nactivities. This established a new level of revolution for the synthesis of hybrid\nFigure 27.\n2-(2-(5-Bromothiophen-2-yl)-1-methyl-1H-benzo[d]imidazol-5-yl)-5-(2-phenylquinolin-4-yl)-1,3,4-\noxadiazole derivatives.\nEntry\nType\nActivity\n(XVII)\nAnticancer activity\nIC50= 0.06–0.2 μM\n(LIV)\nAntimicrobial activity\nMIC = 0.5 μg/mL\n(LVI)\nAnti-inflammatory activity\nProtection dose (%) = 55\n(LX) and (LXI)\nAntimycobacterial activity\nMIC = 1.56 μg/mL\n(LXIV)\nAntiplasmodial activity\nIC50 = 0.151 μM\n(LXVI)\nAntitrypanosomal activity\nIC50 = 1.98 μM\n(LXVII)\nAnticoagulant activity\nIC50 = 0.66 μg/mL\n(LXII)\nAntithyroid activity\n1.46 nmol/l\nTable 1.\nBiological activity of benzimidazole-quinoline hybrids.\n12\nStrategies Towards the Synthesis of Heterocycles and Their Applications\n",
+      "blocks": [
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "derivatives were investigated for their antidiabetic, anticoagulant and antiplatelet\nactivity. The anticoagulant activity showed by compound (LXVII) and (LXVIII)\nwith IC50 values of 0.66 and 0.68 μg/mL, respectively. The compound (LXVII) also\nshowed antiplatelet activity [60].",
+          "bbox": {
+            "x0": 91.79458618164062,
+            "y0": 325.8883056640625,
+            "x1": 522.2447509765625,
+            "y1": 382.4958801269531
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "2.4 Summary",
+          "bbox": {
+            "x0": 91.79611206054688,
+            "y0": 404.73095703125,
+            "x1": 163.84329223632812,
+            "y1": 417.1016845703125
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "The study summarises the detailed literature review on recent advancements in\nsynthesis and the pharmacological properties of benzimidazole-integrated quinoline\nhybrids. The most common and efficient approach for the synthesis of benzimidazole\nderivatives is the condensation reaction between o-Phenylenediamine and various\ncarbonyl compounds. However, quinoline derivatives are basically synthesised by the\nSkraup reaction. It involves a reaction with aniline or a substituted aniline with\nglycerol in the presence of sulphuric acid, ferrous sulfate, and nitrobenzene. The\nresult and discussion showed that benzimidazole-quinoline hybrids could display\nvarious biological activities such as anticancer, antimicrobial, anti-inflammatory,\nantimycobacterial, antiplasmodial, antitrypanosomal, anticoagulant and antithyroid\nactivities. This established a new level of revolution for the synthesis of hybrid",
+          "bbox": {
+            "x0": 91.79611206054688,
+            "y0": 431.6855163574219,
+            "x1": 530.5709228515625,
+            "y1": 588.009033203125
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "Figure 27.\n2-(2-(5-Bromothiophen-2-yl)-1-methyl-1H-benzo[d]imidazol-5-yl)-5-(2-phenylquinolin-4-yl)-1,3,4-\noxadiazole derivatives.",
+          "bbox": {
+            "x0": 91.79522705078125,
+            "y0": 274.8680725097656,
+            "x1": 497.9552917480469,
+            "y1": 305.9248046875
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "Entry\nType\nActivity",
+          "bbox": {
+            "x0": 108.68599700927734,
+            "y0": 611.4606323242188,
+            "x1": 483.1997985839844,
+            "y1": 620.7384643554688
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "(XVII)\nAnticancer activity\nIC50= 0.06–0.2 μM",
+          "bbox": {
+            "x0": 108.68603515625,
+            "y0": 627.349609375,
+            "x1": 502.1077575683594,
+            "y1": 640.2691650390625
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "(LIV)\nAntimicrobial activity\nMIC = 0.5 μg/mL",
+          "bbox": {
+            "x0": 108.68682861328125,
+            "y0": 646.5061645507812,
+            "x1": 499.57403564453125,
+            "y1": 657.21337890625
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "(LVI)\nAnti-inflammatory activity\nProtection dose (%) = 55",
+          "bbox": {
+            "x0": 108.6871337890625,
+            "y0": 664.6123657226562,
+            "x1": 514.0245971679688,
+            "y1": 674.9942626953125
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "(LX) and (LXI)\nAntimycobacterial activity\nMIC = 1.56 μg/mL",
+          "bbox": {
+            "x0": 108.6871337890625,
+            "y0": 682.71826171875,
+            "x1": 501.33099365234375,
+            "y1": 693.4254760742188
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "(LXIV)\nAntiplasmodial activity\nIC50 = 0.151 μM",
+          "bbox": {
+            "x0": 108.68807983398438,
+            "y0": 700.8233032226562,
+            "x1": 496.8391418457031,
+            "y1": 712.692138671875
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "(LXVI)\nAntitrypanosomal activity\nIC50 = 1.98 μM",
+          "bbox": {
+            "x0": 108.68820190429688,
+            "y0": 718.9292602539062,
+            "x1": 494.7448425292969,
+            "y1": 730.7981567382812
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "(LXVII)\nAnticoagulant activity\nIC50 = 0.66 μg/mL",
+          "bbox": {
+            "x0": 108.68792724609375,
+            "y0": 737.03515625,
+            "x1": 501.73626708984375,
+            "y1": 748.9031982421875
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "(LXII)\nAntithyroid activity\n1.46 nmol/l",
+          "bbox": {
+            "x0": 108.68734741210938,
+            "y0": 755.1411743164062,
+            "x1": 488.4998779296875,
+            "y1": 765.5230712890625
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "Table 1.\nBiological activity of benzimidazole-quinoline hybrids.",
+          "bbox": {
+            "x0": 91.79594421386719,
+            "y0": 783.6546020507812,
+            "x1": 305.3619689941406,
+            "y1": 803.969482421875
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "12",
+          "bbox": {
+            "x0": 91.79594421386719,
+            "y0": 817.67822265625,
+            "x1": 101.08480834960938,
+            "y1": 827.574951171875
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "Strategies Towards the Synthesis of Heterocycles and Their Applications",
+          "bbox": {
+            "x0": 91.79594421386719,
+            "y0": 54.006996154785156,
+            "x1": 401.9485778808594,
+            "y1": 64.93754577636719
+          }
+        }
+      ],
+      "render_path": "assets/page-0013.png"
+    },
+    {
+      "number": 14,
+      "width": 612.0,
+      "height": 879.448974609375,
+      "text": "molecules. The benzimidazole-quinoline hybrids with the highest reported activities\nare listed in Table 1.\n3. Conclusions\nThe present chapter narrates the distinct pharmacological actions of benzimidazole\nintegrated quinoline hybrid scaffolds. The prime objective of this study is to investi-\ngate the pharmacological potential of hybrid compounds consisting of benzimidazole\nand quinoline moieties in a single molecule. This can help improve their potential to\ninteract with a wide range of biological targets and enhance their pharmacological\nproperties. The efforts are rationalised to develop such scaffolds that could impart\nnumerous pharmacological effects to accomplish the desired aim. Further, the struc-\nture–activity relationship, pharmacokinetic, pharmacodynamic, and toxicological\nstudies of benzimidazole-quinoline hybrid derivatives will be highly beneficial for\ndesigning and developing novel bioactive agents in the future.\nAcknowledgements\nThe authors are thankful to Veer Narmad South Gujarat University, Surat, for\nfinancial assistance (Grant No: IPR/UGC/18441/2021, dated: 26/11/2021). We are also\nthankful to the U.T. Administration of Dadra & Nagar Haveli and Daman & Diu, and\nthe Principal, Government College, Daman, for encouragement and facilities.\nConflict of interest\nThe authors declare no conflict of interest.\nAuthor details\nZebabanu Khalifa1, Rachana Upadhyay1, Premlata Kumari2 and Amit B. Patel1*\n1 Department of Chemistry, Government College, Daman (Affiliated to Veer Narmad\nSouth Gujarat University, Surat), Daman (U.T.), India\n2 Department of Chemistry, S.V. National Institute of Technology, Surat, India\n*Address all correspondence to: amit.svnit10@gmail.com; amit.patel10@ddd.gov.in\n© 2022 The Author(s). Licensee IntechOpen. This chapter is distributed under the terms of\nthe Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0),\nwhich permits unrestricted use, distribution, and reproduction in any medium, provided\nthe original work is properly cited.\n13\nCurrent Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949\n",
+      "blocks": [
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "molecules. The benzimidazole-quinoline hybrids with the highest reported activities\nare listed in Table 1.",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 92.94427490234375,
+            "x1": 512.4397583007812,
+            "y1": 121.05731964111328
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "3. Conclusions",
+          "bbox": {
+            "x0": 81.07030487060547,
+            "y0": 150.56005859375,
+            "x1": 167.22518920898438,
+            "y1": 164.1680450439453
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "The present chapter narrates the distinct pharmacological actions of benzimidazole\nintegrated quinoline hybrid scaffolds. The prime objective of this study is to investi-\ngate the pharmacological potential of hybrid compounds consisting of benzimidazole\nand quinoline moieties in a single molecule. This can help improve their potential to\ninteract with a wide range of biological targets and enhance their pharmacological\nproperties. The efforts are rationalised to develop such scaffolds that could impart\nnumerous pharmacological effects to accomplish the desired aim. Further, the struc-\nture–activity relationship, pharmacokinetic, pharmacodynamic, and toxicological\nstudies of benzimidazole-quinoline hybrid derivatives will be highly beneficial for\ndesigning and developing novel bioactive agents in the future.",
+          "bbox": {
+            "x0": 81.07060241699219,
+            "y0": 178.40673828125,
+            "x1": 520.1157836914062,
+            "y1": 320.4764099121094
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Acknowledgements",
+          "bbox": {
+            "x0": 81.07013702392578,
+            "y0": 349.9954833984375,
+            "x1": 198.77540588378906,
+            "y1": 363.6034851074219
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "The authors are thankful to Veer Narmad South Gujarat University, Surat, for\nfinancial assistance (Grant No: IPR/UGC/18441/2021, dated: 26/11/2021). We are also\nthankful to the U.T. Administration of Dadra & Nagar Haveli and Daman & Diu, and\nthe Principal, Government College, Daman, for encouragement and facilities.",
+          "bbox": {
+            "x0": 81.0704345703125,
+            "y0": 377.8421630859375,
+            "x1": 520.166015625,
+            "y1": 434.4499816894531
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Conflict of interest",
+          "bbox": {
+            "x0": 81.0704345703125,
+            "y0": 463.9679260253906,
+            "x1": 194.91261291503906,
+            "y1": 477.575927734375
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "The authors declare no conflict of interest.",
+          "bbox": {
+            "x0": 97.96023559570312,
+            "y0": 491.8146057128906,
+            "x1": 315.73040771484375,
+            "y1": 505.657470703125
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Author details",
+          "bbox": {
+            "x0": 81.0704345703125,
+            "y0": 564.4285278320312,
+            "x1": 167.3074493408203,
+            "y1": 578.0364990234375
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Zebabanu Khalifa1, Rachana Upadhyay1, Premlata Kumari2 and Amit B. Patel1*",
+          "bbox": {
+            "x0": 81.0704345703125,
+            "y0": 586.936279296875,
+            "x1": 486.1144714355469,
+            "y1": 606.0501098632812
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "1 Department of Chemistry, Government College, Daman (Affiliated to Veer Narmad\nSouth Gujarat University, Surat), Daman (U.T.), India",
+          "bbox": {
+            "x0": 81.07199096679688,
+            "y0": 620.715087890625,
+            "x1": 520.1194458007812,
+            "y1": 648.8126831054688
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "2 Department of Chemistry, S.V. National Institute of Technology, Surat, India",
+          "bbox": {
+            "x0": 81.07199096679688,
+            "y0": 663.4796142578125,
+            "x1": 486.50030517578125,
+            "y1": 677.322509765625
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "*Address all correspondence to: amit.svnit10@gmail.com; amit.patel10@ddd.gov.in",
+          "bbox": {
+            "x0": 81.07199096679688,
+            "y0": 691.9893798828125,
+            "x1": 510.63299560546875,
+            "y1": 705.832275390625
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "© 2022 The Author(s). Licensee IntechOpen. This chapter is distributed under the terms of\nthe Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0),\nwhich permits unrestricted use, distribution, and reproduction in any medium, provided\nthe original work is properly cited.",
+          "bbox": {
+            "x0": 81.07069396972656,
+            "y0": 748.3342895507812,
+            "x1": 513.6636352539062,
+            "y1": 804.9412841796875
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "13",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 817.6776123046875,
+            "x1": 90.16960144042969,
+            "y1": 827.5743408203125
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 52.945709228515625,
+            "x1": 459.9999084472656,
+            "y1": 77.97563171386719
+          }
+        }
+      ],
+      "render_path": "assets/page-0014.png"
+    },
+    {
+      "number": 15,
+      "width": 611.9999389648438,
+      "height": 879.448974609375,
+      "text": "References\n[1] Jampilek J. Heterocycles in medicinal\nchemistry. Molecules. 2019;24:3839.\nDOI: 10.3390/molecules24213839\n[2] Jangir N, Poonam DS, Jangid DK.\nRecent advances in the synthesis of five-\nand six-membered heterocycles as\nbioactive skeleton: A concise overview.\nChemistrySelect. 2022;7:e202103139.\nDOI: 10.1002/slct.202103139\n[3] Kerru N, Gummidi L, Maddila S,\nGangu KK, Jonnalagadda SB. A review\non recent advances in nitrogen-\ncontaining molecules and their biological\napplications. Molecules. 2020;25:1909.\nDOI: 10.3390/molecules25081909\n[4] Patel AB, Kumari P, Chikhalia KH.\nOne-Pot synthesis of novel quinoline-\nfused Azeto[1,2-a]benzimidazole\nanalogs via intramolecular Pd-catalyzed\nC–N coupling. Catalysis Letters. 2014;\n144:1332-1338. DOI: 10.1007/s10562-\n014-1266-9\n[5] Wermuth CG. Multitargeted drugs:\nThe end of the ‘one-target-one-disease’\nphilosophy? Drug Discovery Today.\n2004;9:826-827. DOI: 10.1016/\nS1359-6446(04)03213-1\n[6] Bérubé G. An overview of molecular\nhybrids in drug discovery. Expert\nOpinion on Drug Discovery. 2016;11:\n281-305. DOI: 10.1517/\n17460441.2016.1135125\n[7] Wang Z, Deng X, Xiong S, Xiong R,\nLiu J, Zou L, et al. Design, synthesis and\nbiological evaluation of chrysin\nbenzimidazole derivatives as potential\nanticancer agents. Natural Product\nResearch. 2018;32:2900-2909.\nDOI: 10.1080/14786419.2017.1389940\n[8] Kanwal A, Saddique FA, Aslam S,\nAhmad M, Zahoor AF, Mohsin N-A.\nBenzimidazole ring system as a\nprivileged template for anticancer\nagents. Pharmaceutical Chemistry\nJournal. 2018;51:1068-1077.\nDOI: 10.1007/s11094-018-1742-4\n[9] Alasmary F, Snelling A, Zain M,\nAlafeefy A, Awaad A, Karodia N.\nSynthesis and evaluation of selected\nbenzimidazole derivatives as potential\nantimicrobial agents. Molecules. 2015;20:\n15206-15223. DOI: 10.3390/molecules\n200815206\n[10] Özkay Y, Tunalı Y, Karaca H,\nIşıkdağ İ. Antimicrobial activity of a new\nseries of benzimidazole derivatives.\nArchives of Pharmacal Research. 2011;\n34:1427-1435. DOI: 10.1007/s12272-011-\n0903-8\n[11] Srivastava R, Gupta SK, Naaz F,\nSingh A, Singh VK, Verma R, et al.\nSynthesis, antibacterial activity,\nsynergistic effect, cytotoxicity, docking\nand molecular dynamics of\nbenzimidazole analogues.\nComputational Biology and Chemistry.\n2018;76:1-16. DOI: 10.1016/j.comp\nbiolchem.2018.05.021\n[12] Kumar K, Awasthi D, Lee S-Y,\nCummings JE, Knudson SE, Slayden RA,\net al. Benzimidazole-based antibacterial\nagents against Francisella tularensis.\nBioorganic & Medicinal Chemistry.\n2013;21:3318-3326. DOI: 10.1016/\nj.bmc.2013.02.059\n[13] Jiménez-Juárez R, Cruz-Chávez W,\nde Jesús-Ramírez N, Castro-\nRamírez GI, Uribe-González I,\nMartínez-Mejía G, et al. Synthesis and\nantimycobacterial activity of 2,5-\ndisubstituted and 1,2,5-trisubstituted\nbenzimidazoles. Frontiers in\nChemistry. 2020;8:433. DOI: 10.3389/\nfchem.2020.00433\n14\nStrategies Towards the Synthesis of Heterocycles and Their Applications\n",
+      "blocks": [
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "References",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 94.48680877685547,
+            "x1": 157.15847778320312,
+            "y1": 108.09481048583984
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[1] Jampilek J. Heterocycles in medicinal\nchemistry. Molecules. 2019;24:3839.\nDOI: 10.3390/molecules24213839",
+          "bbox": {
+            "x0": 91.79570007324219,
+            "y0": 122.1978759765625,
+            "x1": 297.59716796875,
+            "y1": 164.55056762695312
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[2] Jangir N, Poonam DS, Jangid DK.\nRecent advances in the synthesis of five-\nand six-membered heterocycles as\nbioactive skeleton: A concise overview.\nChemistrySelect. 2022;7:e202103139.\nDOI: 10.1002/slct.202103139",
+          "bbox": {
+            "x0": 91.79569244384766,
+            "y0": 178.0018310546875,
+            "x1": 300.11529541015625,
+            "y1": 263.1181945800781
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[3] Kerru N, Gummidi L, Maddila S,\nGangu KK, Jonnalagadda SB. A review\non recent advances in nitrogen-\ncontaining molecules and their biological\napplications. Molecules. 2020;25:1909.\nDOI: 10.3390/molecules25081909",
+          "bbox": {
+            "x0": 91.79397583007812,
+            "y0": 277.71875,
+            "x1": 301.209716796875,
+            "y1": 362.8351135253906
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[4] Patel AB, Kumari P, Chikhalia KH.\nOne-Pot synthesis of novel quinoline-\nfused Azeto[1,2-a]benzimidazole\nanalogs via intramolecular Pd-catalyzed\nC–N coupling. Catalysis Letters. 2014;\n144:1332-1338. DOI: 10.1007/s10562-\n014-1266-9",
+          "bbox": {
+            "x0": 91.79515075683594,
+            "y0": 377.43524169921875,
+            "x1": 295.9072570800781,
+            "y1": 476.80670166015625
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[5] Wermuth CG. Multitargeted drugs:\nThe end of the ‘one-target-one-disease’\nphilosophy? Drug Discovery Today.\n2004;9:826-827. DOI: 10.1016/\nS1359-6446(04)03213-1",
+          "bbox": {
+            "x0": 91.79512786865234,
+            "y0": 491.4068298339844,
+            "x1": 292.88128662109375,
+            "y1": 562.269287109375
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[6] Bérubé G. An overview of molecular\nhybrids in drug discovery. Expert\nOpinion on Drug Discovery. 2016;11:\n281-305. DOI: 10.1517/\n17460441.2016.1135125",
+          "bbox": {
+            "x0": 91.79566955566406,
+            "y0": 576.9366455078125,
+            "x1": 295.63623046875,
+            "y1": 647.7310791015625
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[7] Wang Z, Deng X, Xiong S, Xiong R,\nLiu J, Zou L, et al. Design, synthesis and\nbiological evaluation of chrysin\nbenzimidazole derivatives as potential\nanticancer agents. Natural Product\nResearch. 2018;32:2900-2909.\nDOI: 10.1080/14786419.2017.1389940",
+          "bbox": {
+            "x0": 91.79637145996094,
+            "y0": 662.398681640625,
+            "x1": 297.61419677734375,
+            "y1": 761.703369140625
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[8] Kanwal A, Saddique FA, Aslam S,\nAhmad M, Zahoor AF, Mohsin N-A.",
+          "bbox": {
+            "x0": 91.79637145996094,
+            "y0": 776.3709716796875,
+            "x1": 281.0776062011719,
+            "y1": 804.4686279296875
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "Benzimidazole ring system as a\nprivileged template for anticancer\nagents. Pharmaceutical Chemistry\nJournal. 2018;51:1068-1077.\nDOI: 10.1007/s11094-018-1742-4",
+          "bbox": {
+            "x0": 321.4283752441406,
+            "y0": 122.20068359375,
+            "x1": 496.1063537597656,
+            "y1": 193.06234741210938
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[9] Alasmary F, Snelling A, Zain M,\nAlafeefy A, Awaad A, Karodia N.\nSynthesis and evaluation of selected\nbenzimidazole derivatives as potential\nantimicrobial agents. Molecules. 2015;20:\n15206-15223. DOI: 10.3390/molecules\n200815206",
+          "bbox": {
+            "x0": 321.42816162109375,
+            "y0": 206.51129150390625,
+            "x1": 530.9492797851562,
+            "y1": 305.8151550292969
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[10] Özkay Y, Tunalı Y, Karaca H,\nIşıkdağ İ. Antimicrobial activity of a new\nseries of benzimidazole derivatives.\nArchives of Pharmacal Research. 2011;\n34:1427-1435. DOI: 10.1007/s12272-011-\n0903-8",
+          "bbox": {
+            "x0": 321.4297790527344,
+            "y0": 319.26678466796875,
+            "x1": 530.9299926757812,
+            "y1": 404.3844299316406
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[11] Srivastava R, Gupta SK, Naaz F,\nSingh A, Singh VK, Verma R, et al.\nSynthesis, antibacterial activity,\nsynergistic effect, cytotoxicity, docking\nand molecular dynamics of\nbenzimidazole analogues.\nComputational Biology and Chemistry.\n2018;76:1-16. DOI: 10.1016/j.comp\nbiolchem.2018.05.021",
+          "bbox": {
+            "x0": 321.4294128417969,
+            "y0": 417.8360595703125,
+            "x1": 523.9842529296875,
+            "y1": 545.64892578125
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[12] Kumar K, Awasthi D, Lee S-Y,\nCummings JE, Knudson SE, Slayden RA,\net al. Benzimidazole-based antibacterial\nagents against Francisella tularensis.\nBioorganic & Medicinal Chemistry.\n2013;21:3318-3326. DOI: 10.1016/\nj.bmc.2013.02.059",
+          "bbox": {
+            "x0": 321.4287109375,
+            "y0": 561.4654541015625,
+            "x1": 529.906494140625,
+            "y1": 660.8369140625
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "[13] Jiménez-Juárez R, Cruz-Chávez W,\nde Jesús-Ramírez N, Castro-\nRamírez GI, Uribe-González I,\nMartínez-Mejía G, et al. Synthesis and\nantimycobacterial activity of 2,5-\ndisubstituted and 1,2,5-trisubstituted\nbenzimidazoles. Frontiers in\nChemistry. 2020;8:433. DOI: 10.3389/\nfchem.2020.00433",
+          "bbox": {
+            "x0": 321.4291076660156,
+            "y0": 676.6534423828125,
+            "x1": 528.3446655273438,
+            "y1": 804.4678955078125
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "14",
+          "bbox": {
+            "x0": 91.79710388183594,
+            "y0": 817.6778564453125,
+            "x1": 101.88378143310547,
+            "y1": 827.5745849609375
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "Strategies Towards the Synthesis of Heterocycles and Their Applications",
+          "bbox": {
+            "x0": 91.79710388183594,
+            "y0": 54.006629943847656,
+            "x1": 401.9497375488281,
+            "y1": 64.93717956542969
+          }
+        }
+      ],
+      "render_path": "assets/page-0015.png"
+    },
+    {
+      "number": 16,
+      "width": 612.0,
+      "height": 879.448974609375,
+      "text": "[14] Keng Yoon Y, Ashraf Ali M,\nChoon TS, Ismail R, Chee Wei A, Suresh\nKumar R, et al. Antituberculosis:\nSynthesis and antimycobacterial activity\nof novel benzimidazole derivatives.\nBioMed Research International. 2013;\n2013:1-6. DOI: 10.1155/2013/926309\n[15] Kaur G, Silakari O. Benzimidazole\nscaffold based hybrid molecules for\nvarious inflammatory targets: Synthesis\nand evaluation. Bioorganic Chemistry.\n2018;80:24-35. DOI: 10.1016/j.\nbioorg.2018.05.014\n[16] Rathore A, Sudhakar R, Ahsan MJ,\nAli A, Subbarao N, Jadav SS, et al. In vivo\nanti-inflammatory activity and docking\nstudy of newly synthesized\nbenzimidazole derivatives bearing\noxadiazole and morpholine rings.\nBioorganic Chemistry. 2017;70:107-117.\nDOI: 10.1016/j.bioorg.2016.11.014\n[17] Fang Y-M, Zhang R-R, Shen Z-H,\nWu H-K, Tan C-X, Weng J-Q, et al.\nSynthesis, antifungal activity, and SAR\nstudy of some new 6-Perfluoropropanyl\nquinoline derivatives: Quinolines with\nantifungal activities. Journal of\nHeterocyclic Chemistry. 2018;55:\n240-245. DOI: 10.1002/jhet.3031\n[18] Yang Y-D, He Y-H, Ma K-Y, Li H,\nZhang Z-J, Sun Y, et al. Design and\ndiscovery of novel antifungal quinoline\nderivatives with Acylhydrazide as a\npromising pharmacophore. Journal of\nAgricultural and Food Chemistry. 2021;\n69:8347-8357. DOI: 10.1021/acs.\njafc.1c00670\n[19] Elsayed Khidre R, Fathy Abdel-\nWahab B, Abdel-Rehem BF. New\nquinoline-based compounds for\nanalgesic and anti-inflammatory\nevaluation. Letters in Drug Design &\nDiscovery. 2011;8:640-648.\nDOI: 10.2174/157018011796235194\n[20] Wen X, Wang S-B, Liu D-C, Gong\nG-H, Quan Z-S. Synthesis and evaluation\nof the anti-inflammatory activity of\nquinoline derivatives. Medicinal\nChemistry Research. 2015;24:2591-2603.\nDOI: 10.1007/s00044-015-1323-y\n[21] Ibrahim DA, Abou El Ella DA, El-\nMotwally AM, Aly RM. Molecular design\nand synthesis of certain new quinoline\nderivatives having potential anticancer\nactivity. European Journal of Medicinal\nChemistry. 2015;102:115-131.\nDOI: 10.1016/j.ejmech.2015.07.030\n[22] Afzal O, Kumar S, Haider MR,\nAli MR, Kumar R, Jaggi M, et al. A\nreview on anticancer potential of\nbioactive heterocycle quinoline.\nEuropean Journal of Medicinal\nChemistry. 2015;97:871-910.\nDOI: 10.1016/j.ejmech.2014.07.044\n[23] Pham TDM, Ziora ZM, Blaskovich\nMAT. Quinolone antibiotics.\nMedChemComm. 2019;10:1719-1739.\nDOI: 10.1039/C9MD00120D\n[24] Desai NC, Rajpara KM, Joshi VV.\nSynthesis and characterization of some\nnew quinoline based derivatives endowed\nwith broad spectrum antimicrobial\npotency. Bioorganic & Medicinal\nChemistry Letters. 2012;22:6871-6875.\nDOI: 10.1016/j.bmcl.2012.09.039\n[25] Medvedeva SM, Potapov AY,\nGribkova IV, Katkova EV, Sulimov VB,\nShikhaliev KS. Synthesis, docking, and\nanticoagulant activity of new factor-Xa\ninhibitors in a series of Pyrrolo[3,2,1-ij]\nQuinoline-1,2-Diones. Pharmaceutical\nChemistry Journal. 2018;51:975-979.\nDOI: 10.1007/s11094-018-1726-4\n[26] Novichikhina NP, Skoptsova AA,\nShestakov AS, Potapov AY,\nKosheleva EA, Kozaderov OA, et al.\nSynthesis and anticoagulant activity of\n15\nCurrent Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949\n",
+      "blocks": [
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[14] Keng Yoon Y, Ashraf Ali M,\nChoon TS, Ismail R, Chee Wei A, Suresh\nKumar R, et al. Antituberculosis:\nSynthesis and antimycobacterial activity\nof novel benzimidazole derivatives.\nBioMed Research International. 2013;\n2013:1-6. DOI: 10.1155/2013/926309",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 92.8773193359375,
+            "x1": 289.50311279296875,
+            "y1": 192.3314971923828
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[15] Kaur G, Silakari O. Benzimidazole\nscaffold based hybrid molecules for\nvarious inflammatory targets: Synthesis\nand evaluation. Bioorganic Chemistry.\n2018;80:24-35. DOI: 10.1016/j.\nbioorg.2018.05.014",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 209.212890625,
+            "x1": 284.1466064453125,
+            "y1": 294.3296813964844
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[16] Rathore A, Sudhakar R, Ahsan MJ,\nAli A, Subbarao N, Jadav SS, et al. In vivo\nanti-inflammatory activity and docking\nstudy of newly synthesized\nbenzimidazole derivatives bearing\noxadiazole and morpholine rings.\nBioorganic Chemistry. 2017;70:107-117.\nDOI: 10.1016/j.bioorg.2016.11.014",
+          "bbox": {
+            "x0": 81.07058715820312,
+            "y0": 311.36181640625,
+            "x1": 290.4957275390625,
+            "y1": 424.9216613769531
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[17] Fang Y-M, Zhang R-R, Shen Z-H,\nWu H-K, Tan C-X, Weng J-Q, et al.\nSynthesis, antifungal activity, and SAR\nstudy of some new 6-Perfluoropropanyl\nquinoline derivatives: Quinolines with\nantifungal activities. Journal of\nHeterocyclic Chemistry. 2018;55:\n240-245. DOI: 10.1002/jhet.3031",
+          "bbox": {
+            "x0": 81.0701904296875,
+            "y0": 441.9541931152344,
+            "x1": 285.9415588378906,
+            "y1": 555.5139770507812
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[18] Yang Y-D, He Y-H, Ma K-Y, Li H,\nZhang Z-J, Sun Y, et al. Design and\ndiscovery of novel antifungal quinoline\nderivatives with Acylhydrazide as a\npromising pharmacophore. Journal of\nAgricultural and Food Chemistry. 2021;\n69:8347-8357. DOI: 10.1021/acs.\njafc.1c00670",
+          "bbox": {
+            "x0": 81.0701904296875,
+            "y0": 572.5465087890625,
+            "x1": 284.4324035644531,
+            "y1": 686.1051025390625
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[19] Elsayed Khidre R, Fathy Abdel-\nWahab B, Abdel-Rehem BF. New\nquinoline-based compounds for\nanalgesic and anti-inflammatory\nevaluation. Letters in Drug Design &\nDiscovery. 2011;8:640-648.\nDOI: 10.2174/157018011796235194",
+          "bbox": {
+            "x0": 81.0692138671875,
+            "y0": 703.137939453125,
+            "x1": 271.1301574707031,
+            "y1": 802.4414672851562
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[20] Wen X, Wang S-B, Liu D-C, Gong\nG-H, Quan Z-S. Synthesis and evaluation\nof the anti-inflammatory activity of\nquinoline derivatives. Medicinal\nChemistry Research. 2015;24:2591-2603.\nDOI: 10.1007/s00044-015-1323-y",
+          "bbox": {
+            "x0": 310.7024230957031,
+            "y0": 92.8775634765625,
+            "x1": 520.1022338867188,
+            "y1": 177.99392700195312
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[21] Ibrahim DA, Abou El Ella DA, El-\nMotwally AM, Aly RM. Molecular design\nand synthesis of certain new quinoline\nderivatives having potential anticancer\nactivity. European Journal of Medicinal\nChemistry. 2015;102:115-131.\nDOI: 10.1016/j.ejmech.2015.07.030",
+          "bbox": {
+            "x0": 310.7025146484375,
+            "y0": 195.76947021484375,
+            "x1": 520.1298217773438,
+            "y1": 295.0729064941406
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[22] Afzal O, Kumar S, Haider MR,\nAli MR, Kumar R, Jaggi M, et al. A\nreview on anticancer potential of\nbioactive heterocycle quinoline.\nEuropean Journal of Medicinal\nChemistry. 2015;97:871-910.\nDOI: 10.1016/j.ejmech.2014.07.044",
+          "bbox": {
+            "x0": 310.70330810546875,
+            "y0": 312.91595458984375,
+            "x1": 491.90020751953125,
+            "y1": 412.2193908691406
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[23] Pham TDM, Ziora ZM, Blaskovich\nMAT. Quinolone antibiotics.\nMedChemComm. 2019;10:1719-1739.\nDOI: 10.1039/C9MD00120D",
+          "bbox": {
+            "x0": 310.7030029296875,
+            "y0": 430.0628356933594,
+            "x1": 508.0511169433594,
+            "y1": 486.6701965332031
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[24] Desai NC, Rajpara KM, Joshi VV.\nSynthesis and characterization of some\nnew quinoline based derivatives endowed\nwith broad spectrum antimicrobial\npotency. Bioorganic & Medicinal\nChemistry Letters. 2012;22:6871-6875.\nDOI: 10.1016/j.bmcl.2012.09.039",
+          "bbox": {
+            "x0": 310.7017822265625,
+            "y0": 502.080810546875,
+            "x1": 516.7725830078125,
+            "y1": 601.3843383789062
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[25] Medvedeva SM, Potapov AY,\nGribkova IV, Katkova EV, Sulimov VB,\nShikhaliev KS. Synthesis, docking, and\nanticoagulant activity of new factor-Xa\ninhibitors in a series of Pyrrolo[3,2,1-ij]\nQuinoline-1,2-Diones. Pharmaceutical\nChemistry Journal. 2018;51:975-979.\nDOI: 10.1007/s11094-018-1726-4",
+          "bbox": {
+            "x0": 310.7011413574219,
+            "y0": 616.8629150390625,
+            "x1": 513.255859375,
+            "y1": 730.4215087890625
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "[26] Novichikhina NP, Skoptsova AA,\nShestakov AS, Potapov AY,\nKosheleva EA, Kozaderov OA, et al.\nSynthesis and anticoagulant activity of",
+          "bbox": {
+            "x0": 310.7023010253906,
+            "y0": 745.8329467773438,
+            "x1": 508.806640625,
+            "y1": 802.43994140625
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "15",
+          "bbox": {
+            "x0": 81.07029724121094,
+            "y0": 817.6755981445312,
+            "x1": 89.9697494506836,
+            "y1": 827.5723266601562
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949",
+          "bbox": {
+            "x0": 81.07029724121094,
+            "y0": 52.943695068359375,
+            "x1": 459.99951171875,
+            "y1": 77.97361755371094
+          }
+        }
+      ],
+      "render_path": "assets/page-0016.png"
+    },
+    {
+      "number": 17,
+      "width": 611.9999389648438,
+      "height": 879.448974609375,
+      "text": "new ethylidene and spiro derivatives of\nPyrrolo[3,2,1-ij]quinolin-2-ones. The\nJournal of Organic Chemistry. 2020;56:\n1550-1556. DOI: 10.1134/\nS1070428020090080\n[27] Zemtsova MN, Zimichev AV,\nTrakhtenberg PL, Klimochkin YN,\nLeonova MV, Balakhnin SM, et al.\nSynthesis and antiviral activity of several\nquinoline derivatives. Pharmaceutical\nChemistry Journal. 2011;45:267.\nDOI: 10.1007/s11094-011-0613-z\n[28] Kaur R, Kumar K. Synthetic and\nmedicinal perspective of quinolines as\nantiviral agents. European Journal of\nMedicinal Chemistry. 2021;215:113220.\nDOI: 10.1016/j.ejmech.2021.113220\n[29] Vandekerckhove S, D’hooghe M.\nQuinoline-based antimalarial hybrid\ncompounds. Bioorganic & Medicinal\nChemistry. 2015;23:5098-5119.\nDOI: 10.1016/j.bmc.2014.12.018\n[30] Chanquia SN, Larregui F, Puente V,\nLabriola C, Lombardo E, García LG.\nSynthesis and biological evaluation of\nnew quinoline derivatives as\nantileishmanial and antitrypanosomal\nagents. Bioorganic Chemistry. 2019;83:\n526-534. DOI: 10.1016/j.\nbioorg.2018.10.053\n[31] Zhang H, Collins J, Nyamwihura R,\nWare S, Kaiser M, Ogungbe IV.\nDiscovery of a quinoline-based phenyl\nsulfone derivative as an\nantitrypanosomal agent. Bioorganic &\nMedicinal Chemistry Letters. 2018;28:\n1647-1651. DOI: 10.1016/j.\nbmcl.2018.03.039\n[32] Maia EHB, Assis LC, de Oliveira TA,\nda Silva AM, Taranto AG. Structure-\nbased virtual screening: From classical to\nartificial intelligence. Frontiers in\nChemistry. 2020;8:343. DOI: 10.3389/\nfchem.2020.00343\n[33] Ferreira LG, Dos Santos RN, Oliva G,\nAndricopulo AD. Molecular docking and\nstructure-based drug design strategies.\nMolecules. 2015;20:13384-13421.\nDOI: 10.3390/molecules200713384\n[34] Hranjec M, Pavlović G,\nMarjanović M, Kralj M, Karminski-\nZamola G. Benzimidazole derivatives\nrelated to 2,3-acrylonitriles, benzimidazo\n[1,2-a]quinolines and fluorenes:\nSynthesis, antitumor evaluation in vitro\nand crystal structure determination.\nEuropean Journal of Medicinal\nChemistry. 2010;45:2405-2417.\nDOI: 10.1016/j.ejmech.2010.02.022\n[35] Perin N, Uzelac L, Piantanida I,\nKarminski-Zamola G, Kralj M,\nHranjec M. Novel biologically active\nnitro and amino substituted\nbenzimidazo[1,2-a]quinolines.\nBioorganic & Medicinal Chemistry.\n2011;19:6329-6339. DOI: 10.1016/\nj.bmc.2011.09.002\n[36] Perin N, Alić J, Liekens S,\nAerschot AV, Vervaeke P, Gadakh B,\net al. Different positions of amide side\nchains on the benzimidazo[1,2-a]\nquinoline skeleton strongly influence\nbiological activity. New Journal of\nChemistry. 2018;42:7096-7104.\nDOI: 10.1039/C8NJ00416A\n[37] Perin N, Martin-Kleiner I, Nhili R,\nLaine W, David-Cordonnier M-H,\nVugrek O, et al. Biological activity\nand DNA binding studies of 2-\nsubstituted benzimidazo[1,2-a]\nquinolines bearing different amino side\nchains. Medicinal Chemistry\nCommunications. 2013;4:1537.\nDOI: 10.1039/c3md00193h\n[38] Tantawy A, Barghash A, Badr S,\nGomaa R. Synthesis of new heterocyclic\ncompounds containing benzimidazole\nmoiety as inhibitors of breast cancer cell\n16\nStrategies Towards the Synthesis of Heterocycles and Their Applications\n",
+      "blocks": [
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "new ethylidene and spiro derivatives of\nPyrrolo[3,2,1-ij]quinolin-2-ones. The\nJournal of Organic Chemistry. 2020;56:\n1550-1556. DOI: 10.1134/\nS1070428020090080",
+          "bbox": {
+            "x0": 91.79489135742188,
+            "y0": 92.8773193359375,
+            "x1": 294.2237548828125,
+            "y1": 163.73941040039062
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "[27] Zemtsova MN, Zimichev AV,\nTrakhtenberg PL, Klimochkin YN,\nLeonova MV, Balakhnin SM, et al.\nSynthesis and antiviral activity of several\nquinoline derivatives. Pharmaceutical\nChemistry Journal. 2011;45:267.\nDOI: 10.1007/s11094-011-0613-z",
+          "bbox": {
+            "x0": 91.79557800292969,
+            "y0": 175.97467041015625,
+            "x1": 301.2305908203125,
+            "y1": 275.3457336425781
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "[28] Kaur R, Kumar K. Synthetic and\nmedicinal perspective of quinolines as\nantiviral agents. European Journal of\nMedicinal Chemistry. 2021;215:113220.\nDOI: 10.1016/j.ejmech.2021.113220",
+          "bbox": {
+            "x0": 91.79446411132812,
+            "y0": 287.58135986328125,
+            "x1": 290.854248046875,
+            "y1": 358.4438781738281
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "[29] Vandekerckhove S, D’hooghe M.\nQuinoline-based antimalarial hybrid\ncompounds. Bioorganic & Medicinal\nChemistry. 2015;23:5098-5119.\nDOI: 10.1016/j.bmc.2014.12.018",
+          "bbox": {
+            "x0": 91.79405212402344,
+            "y0": 369.2782287597656,
+            "x1": 281.35760498046875,
+            "y1": 441.5416564941406
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "[30] Chanquia SN, Larregui F, Puente V,\nLabriola C, Lombardo E, García LG.\nSynthesis and biological evaluation of\nnew quinoline derivatives as\nantileishmanial and antitrypanosomal\nagents. Bioorganic Chemistry. 2019;83:\n526-534. DOI: 10.1016/j.\nbioorg.2018.10.053",
+          "bbox": {
+            "x0": 91.79376220703125,
+            "y0": 458.57379150390625,
+            "x1": 298.137451171875,
+            "y1": 572.1339721679688
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "[31] Zhang H, Collins J, Nyamwihura R,\nWare S, Kaiser M, Ogungbe IV.\nDiscovery of a quinoline-based phenyl\nsulfone derivative as an\nantitrypanosomal agent. Bioorganic &\nMedicinal Chemistry Letters. 2018;28:\n1647-1651. DOI: 10.1016/j.\nbmcl.2018.03.039",
+          "bbox": {
+            "x0": 91.79385375976562,
+            "y0": 589.16650390625,
+            "x1": 294.2989196777344,
+            "y1": 702.72509765625
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "[32] Maia EHB, Assis LC, de Oliveira TA,\nda Silva AM, Taranto AG. Structure-\nbased virtual screening: From classical to\nartificial intelligence. Frontiers in\nChemistry. 2020;8:343. DOI: 10.3389/\nfchem.2020.00343",
+          "bbox": {
+            "x0": 91.79342651367188,
+            "y0": 719.757568359375,
+            "x1": 301.2682189941406,
+            "y1": 804.80712890625
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "[33] Ferreira LG, Dos Santos RN, Oliva G,\nAndricopulo AD. Molecular docking and\nstructure-based drug design strategies.\nMolecules. 2015;20:13384-13421.\nDOI: 10.3390/molecules200713384",
+          "bbox": {
+            "x0": 321.426025390625,
+            "y0": 92.8782958984375,
+            "x1": 530.9248657226562,
+            "y1": 163.73995971679688
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "[34] Hranjec M, Pavlović G,\nMarjanović M, Kralj M, Karminski-\nZamola G. Benzimidazole derivatives\nrelated to 2,3-acrylonitriles, benzimidazo\n[1,2-a]quinolines and fluorenes:\nSynthesis, antitumor evaluation in vitro\nand crystal structure determination.\nEuropean Journal of Medicinal\nChemistry. 2010;45:2405-2417.\nDOI: 10.1016/j.ejmech.2010.02.022",
+          "bbox": {
+            "x0": 321.42559814453125,
+            "y0": 181.7177734375,
+            "x1": 530.861572265625,
+            "y1": 323.7882995605469
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "[35] Perin N, Uzelac L, Piantanida I,\nKarminski-Zamola G, Kralj M,\nHranjec M. Novel biologically active\nnitro and amino substituted\nbenzimidazo[1,2-a]quinolines.\nBioorganic & Medicinal Chemistry.\n2011;19:6329-6339. DOI: 10.1016/\nj.bmc.2011.09.002",
+          "bbox": {
+            "x0": 321.426025390625,
+            "y0": 341.76690673828125,
+            "x1": 507.39337158203125,
+            "y1": 455.325439453125
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "[36] Perin N, Alić J, Liekens S,\nAerschot AV, Vervaeke P, Gadakh B,\net al. Different positions of amide side\nchains on the benzimidazo[1,2-a]\nquinoline skeleton strongly influence\nbiological activity. New Journal of\nChemistry. 2018;42:7096-7104.\nDOI: 10.1039/C8NJ00416A",
+          "bbox": {
+            "x0": 321.4259033203125,
+            "y0": 473.3036804199219,
+            "x1": 517.2655639648438,
+            "y1": 586.8638916015625
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "[37] Perin N, Martin-Kleiner I, Nhili R,\nLaine W, David-Cordonnier M-H,\nVugrek O, et al. Biological activity\nand DNA binding studies of 2-\nsubstituted benzimidazo[1,2-a]\nquinolines bearing different amino side\nchains. Medicinal Chemistry\nCommunications. 2013;4:1537.\nDOI: 10.1039/c3md00193h",
+          "bbox": {
+            "x0": 321.42669677734375,
+            "y0": 602.4779663085938,
+            "x1": 523.210205078125,
+            "y1": 730.293212890625
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "[38] Tantawy A, Barghash A, Badr S,\nGomaa R. Synthesis of new heterocyclic\ncompounds containing benzimidazole\nmoiety as inhibitors of breast cancer cell",
+          "bbox": {
+            "x0": 321.4266052246094,
+            "y0": 748.2042236328125,
+            "x1": 528.263427734375,
+            "y1": 804.811279296875
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "16",
+          "bbox": {
+            "x0": 91.79460144042969,
+            "y0": 817.6824951171875,
+            "x1": 101.68182373046875,
+            "y1": 827.5792236328125
+          }
+        },
+        {
+          "page": 17,
+          "kind": "text",
+          "text": "Strategies Towards the Synthesis of Heterocycles and Their Applications",
+          "bbox": {
+            "x0": 91.79460144042969,
+            "y0": 54.011268615722656,
+            "x1": 401.9472351074219,
+            "y1": 64.94181823730469
+          }
+        }
+      ],
+      "render_path": "assets/page-0017.png"
+    },
+    {
+      "number": 18,
+      "width": 612.0,
+      "height": 879.448974609375,
+      "text": "growth. Heterocyclic Communications.\n2013;19:125-131. DOI: 10.1515/hc-\n2013-0013\n[39] Shi L, Wu T-T, Wang Z, Xue J-Y,\nXu Y-G. Discovery of N-(2-phenyl-1H-\nbenzo[d]imidazol-5-yl)quinolin-4-\namine derivatives as novel VEGFR-2\nkinase inhibitors. European Journal of\nMedicinal Chemistry. 2014;84:\n698-707. DOI: 10.1016/j.ejmech.2014.\n07.071\n[40] Brajša K, Vujasinović I, Jelić D,\nTrzun M, Zlatar I, Karminski-Zamola G,\net al. Antitumor activity of amidino-\nsubstituted benzimidazole and\nbenzimidazo[1,2- a ]quinoline\nderivatives tested in 2D and 3D cell\nculture systems. Journal of Enzyme\nInhibition and Medicinal Chemistry.\n2016;31:1139-1145. DOI: 10.3109/\n14756366.2015.1101093\n[41] Kuang W-B, Huang R-Z, Qin J-L,\nLu X, Qin Q-P, Zou B-Q, et al. Design,\nsynthesis and pharmacological\nevaluation of new 3-(1H-benzimidazol-\n2-yl)quinolin-2(1H)-one derivatives as\npotential antitumor agents. European\nJournal of Medicinal Chemistry. 2018;\n157:139-150. DOI: 10.1016/j.\nejmech.2018.07.066\n[42] Kuang W-B, Huang R-Z, Fang Y-L,\nLiang G-B, Yang C-H, Ma X-L, et al.\nDesign, synthesis and pharmacological\nevaluation of novel 2-chloro-3-(1 H -\nbenzo[ d ]imidazol-2-yl)quinoline\nderivatives as antitumor agents: in vitro\nand in vivo antitumor activity, cell cycle\narrest and apoptotic response. RSC\nAdvances. 2018;8:24376-24385.\nDOI: 10.1039/C8RA04640A\n[43] Meščić Macan A, Perin N, Jakopec S,\nMioč M, Stojković MR, Kralj M, et al.\nSynthesis, antiproliferative activity and\nDNA/RNA-binding properties of mono-\nand bis-(1,2,3-triazolyl)-appended\nbenzimidazo[1,2-a]quinoline\nderivatives. European Journal of\nMedicinal Chemistry. 2020;185:111845.\nDOI: 10.1016/j.ejmech.2019.111845\n[44] Pragathi YJ, Veronica D, Anitha K,\nRao MVB, Raju RR. Synthesis and\nbiological evaluation of chalcone\nderivatives of (1,2,4-thiadiazol-benzo[d]\nimidazol-2-yl)quinolin-2(1H)-one as\nanticancer agents. Chemical Data\nCollections. 2020;30:100556.\nDOI: 10.1016/j.cdc.2020.100556\n[45] Gaikwad NB, Bansode S, Biradar S,\nBan M, Srinivas N, Godugu C, et al. New\n3-(1 H -benzo[ d ]imidazol-2-yl)\nquinolin-2(1 H )-one-based triazole\nderivatives: Design, synthesis, and\nbiological evaluation as antiproliferative\nand apoptosis-inducing agents. Archiv\nder Pharmazie. 2021;354:2100074.\nDOI: 10.1002/ardp.202100074\n[46] Sonar SS, Sadaphal SA,\nPokalwar RU, Shingate BB, Shingare MS.\nSynthesis and antibacterial screening of\nnew 4-((5-(difluoromethoxy)-1 H -\nbenzo[d]imidazol-2-ylthio)methyl)\ntetrazolo[1,5-a]quinoline derivatives.\nJournal of Heterocyclic Chemistry. 2010;\n47:441-445. DOI: 10.1002/jhet.340\n[47] Chaudhari R, Rindhe S. Synthesis\nand antimicrobial activities of novel n-\nsubstituted 8-(1-alkyl/alkylsulphonyl/\nalkoxycarbonyl-benzimidazol-2-\nylmethoxy)-5-chloroquinolines.\nJournal of the Serbian Chemical Society.\n2011;76:1199-1206. DOI: 10.2298/\nJSC100817105C\n[48] Gowda J, Khader AMA, Kalluraya B,\nHidayathulla S. Synthesis,\ncharacterization and antibacterial\nactivity of benzimidazole derivatives\ncarrying quinoline moiety. Indian\nJournal of Chemistry. 2011;50B:\n1491-1495\n17\nCurrent Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949\n",
+      "blocks": [
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "growth. Heterocyclic Communications.\n2013;19:125-131. DOI: 10.1515/hc-\n2013-0013",
+          "bbox": {
+            "x0": 81.0707015991211,
+            "y0": 92.8773193359375,
+            "x1": 282.3974609375,
+            "y1": 135.22958374023438
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "[39] Shi L, Wu T-T, Wang Z, Xue J-Y,\nXu Y-G. Discovery of N-(2-phenyl-1H-\nbenzo[d]imidazol-5-yl)quinolin-4-\namine derivatives as novel VEGFR-2\nkinase inhibitors. European Journal of\nMedicinal Chemistry. 2014;84:\n698-707. DOI: 10.1016/j.ejmech.2014.\n07.071",
+          "bbox": {
+            "x0": 81.06903076171875,
+            "y0": 149.89691162109375,
+            "x1": 282.30712890625,
+            "y1": 263.4554748535156
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "[40] Brajša K, Vujasinović I, Jelić D,\nTrzun M, Zlatar I, Karminski-Zamola G,\net al. Antitumor activity of amidino-\nsubstituted benzimidazole and\nbenzimidazo[1,2- a ]quinoline\nderivatives tested in 2D and 3D cell\nculture systems. Journal of Enzyme\nInhibition and Medicinal Chemistry.\n2016;31:1139-1145. DOI: 10.3109/\n14756366.2015.1101093",
+          "bbox": {
+            "x0": 81.06999969482422,
+            "y0": 278.12353515625,
+            "x1": 288.6764831542969,
+            "y1": 420.1936340332031
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "[41] Kuang W-B, Huang R-Z, Qin J-L,\nLu X, Qin Q-P, Zou B-Q, et al. Design,\nsynthesis and pharmacological\nevaluation of new 3-(1H-benzimidazol-\n2-yl)quinolin-2(1H)-one derivatives as\npotential antitumor agents. European\nJournal of Medicinal Chemistry. 2018;\n157:139-150. DOI: 10.1016/j.\nejmech.2018.07.066",
+          "bbox": {
+            "x0": 81.06999969482422,
+            "y0": 434.7941589355469,
+            "x1": 283.6610107421875,
+            "y1": 562.6094360351562
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "[42] Kuang W-B, Huang R-Z, Fang Y-L,\nLiang G-B, Yang C-H, Ma X-L, et al.\nDesign, synthesis and pharmacological\nevaluation of novel 2-chloro-3-(1 H -\nbenzo[ d ]imidazol-2-yl)quinoline\nderivatives as antitumor agents: in vitro\nand in vivo antitumor activity, cell cycle\narrest and apoptotic response. RSC\nAdvances. 2018;8:24376-24385.\nDOI: 10.1039/C8RA04640A",
+          "bbox": {
+            "x0": 81.07001495361328,
+            "y0": 577.2774658203125,
+            "x1": 285.5673828125,
+            "y1": 719.3470458984375
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "[43] Meščić Macan A, Perin N, Jakopec S,\nMioč M, Stojković MR, Kralj M, et al.\nSynthesis, antiproliferative activity and\nDNA/RNA-binding properties of mono-\nand bis-(1,2,3-triazolyl)-appended",
+          "bbox": {
+            "x0": 81.06971740722656,
+            "y0": 734.0150146484375,
+            "x1": 290.55169677734375,
+            "y1": 804.8099365234375
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "benzimidazo[1,2-a]quinoline\nderivatives. European Journal of\nMedicinal Chemistry. 2020;185:111845.\nDOI: 10.1016/j.ejmech.2019.111845",
+          "bbox": {
+            "x0": 310.70172119140625,
+            "y0": 92.884033203125,
+            "x1": 511.01934814453125,
+            "y1": 149.49227905273438
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "[44] Pragathi YJ, Veronica D, Anitha K,\nRao MVB, Raju RR. Synthesis and\nbiological evaluation of chalcone\nderivatives of (1,2,4-thiadiazol-benzo[d]\nimidazol-2-yl)quinolin-2(1H)-one as\nanticancer agents. Chemical Data\nCollections. 2020;30:100556.\nDOI: 10.1016/j.cdc.2020.100556",
+          "bbox": {
+            "x0": 310.7036437988281,
+            "y0": 165.3052978515625,
+            "x1": 519.9388427734375,
+            "y1": 278.8651428222656
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "[45] Gaikwad NB, Bansode S, Biradar S,\nBan M, Srinivas N, Godugu C, et al. New\n3-(1 H -benzo[ d ]imidazol-2-yl)\nquinolin-2(1 H )-one-based triazole\nderivatives: Design, synthesis, and\nbiological evaluation as antiproliferative\nand apoptosis-inducing agents. Archiv\nder Pharmazie. 2021;354:2100074.\nDOI: 10.1002/ardp.202100074",
+          "bbox": {
+            "x0": 310.7035217285156,
+            "y0": 297.1136474609375,
+            "x1": 520.18896484375,
+            "y1": 424.9273376464844
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "[46] Sonar SS, Sadaphal SA,\nPokalwar RU, Shingate BB, Shingare MS.\nSynthesis and antibacterial screening of\nnew 4-((5-(difluoromethoxy)-1 H -\nbenzo[d]imidazol-2-ylthio)methyl)\ntetrazolo[1,5-a]quinoline derivatives.\nJournal of Heterocyclic Chemistry. 2010;\n47:441-445. DOI: 10.1002/jhet.340",
+          "bbox": {
+            "x0": 310.7035217285156,
+            "y0": 443.1082763671875,
+            "x1": 520.1694946289062,
+            "y1": 556.7503051757812
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "[47] Chaudhari R, Rindhe S. Synthesis\nand antimicrobial activities of novel n-\nsubstituted 8-(1-alkyl/alkylsulphonyl/\nalkoxycarbonyl-benzimidazol-2-\nylmethoxy)-5-chloroquinolines.\nJournal of the Serbian Chemical Society.\n2011;76:1199-1206. DOI: 10.2298/\nJSC100817105C",
+          "bbox": {
+            "x0": 310.70343017578125,
+            "y0": 574.9161376953125,
+            "x1": 516.7156372070312,
+            "y1": 688.4759521484375
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "[48] Gowda J, Khader AMA, Kalluraya B,\nHidayathulla S. Synthesis,\ncharacterization and antibacterial\nactivity of benzimidazole derivatives\ncarrying quinoline moiety. Indian\nJournal of Chemistry. 2011;50B:\n1491-1495",
+          "bbox": {
+            "x0": 310.7015380859375,
+            "y0": 704.29248046875,
+            "x1": 519.7979736328125,
+            "y1": 803.6639404296875
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "17",
+          "bbox": {
+            "x0": 81.07054138183594,
+            "y0": 817.6839599609375,
+            "x1": 89.9699935913086,
+            "y1": 827.5806884765625
+          }
+        },
+        {
+          "page": 18,
+          "kind": "text",
+          "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949",
+          "bbox": {
+            "x0": 81.07054138183594,
+            "y0": 52.952056884765625,
+            "x1": 459.999755859375,
+            "y1": 77.98197937011719
+          }
+        }
+      ],
+      "render_path": "assets/page-0018.png"
+    },
+    {
+      "number": 19,
+      "width": 611.9999389648438,
+      "height": 879.448974609375,
+      "text": "[49] Mungra DC, Patel MP, Patel RG.\nMicrowave-assisted synthesis of some\nnew tetrazolo[1,5-a]quinoline-based\nbenzimidazoles catalyzed by p-TsOH\nand investigation of their antimicrobial\nactivity. Medicinal Chemistry Research.\n2011;20:782-789. DOI: 10.1007/\ns00044-010-9388-0\n[50] Garudachari B, Satyanarayana MN,\nThippeswamy B, Shivakumar CK,\nShivananda KN, Hegde G, et al.\nSynthesis, characterization and\nantimicrobial studies of some new\nquinoline incorporated benzimidazole\nderivatives. European Journal of\nMedicinal Chemistry. 2012;54:900-906.\nDOI: 10.1016/j.ejmech.2012.05.027\n[51] de Souza IOP, Schrekker CML,\nLopes W, Orru RVA, Hranjec M,\nPerin N, et al. Bifunctional fluorescent\nbenzimidazo[1,2-α]quinolines for\nCandida spp. biofilm detection and\nbiocidal activity. Journal of\nPhotochemistry and Photobiology B:\nBiology. 2016;163:319-326.\nDOI: 10.1016/j.jphotobiol.2016.08.037\n[52] Villa P, Arumugam N, Almansour AI,\nSuresh Kumar R, Mahalingam SM,\nMaruoka K, et al. Benzimidazole tethered\npyrrolo[3,4-b]quinoline with broad-\nspectrum activity against fungal\npathogens. Bioorganic & Medicinal\nChemistry Letters. 2019;29:729-733.\nDOI: 10.1016/j.bmcl.2019.01.006\n[53] El Faydy M, Dahaieh N, Ounine K,\nLakhrissi B, Warad I, Tüzün B, et al.\nSynthesis, identification, antibacterial\nactivity, ADME/T and 1BNA-docking\ninvestigations of 8-quinolinol Analogs\nbearing a benzimidazole moiety. Arabian\nJournal for Science and Engineering.\n2022;47:497-510. DOI: 10.1007/\ns13369-021-05749-7\n[54] El-Feky SA, Thabet HK, Ubeid MT.\nSynthesis, molecular modeling and anti-\ninflammatory screening of novel\nfluorinated quinoline incorporated\nbenzimidazole derivatives using the\nPfitzinger reaction. Journal of Fluorine\nChemistry. 2014;161:87-94.\nDOI: 10.1016/j.jfluchem.2014.02.012\n[55] Madawali IM, Das KK, Kalyane NV.\nSynthesis And Anti-Inflammatory\nActivity of Some New 2- Chloro-3-[3-(6-\nNitro-1H-Benzimidazol-2-Yl)-1H-\nPyrazol-5- Yl]Quinolines. IOSR Journal\nof Pharmacy and Biological Sciences.\n2018;13:83-88. DOI: 10.9790/3008-\n1305018388\n[56] Ukrainets IV, Grinevich LA,\nTkach AA, Gorokhova OV,\nKravchenko VN, Sim G. 4-hydroxy-2-\nquinolones. 191.* synthesis, tautomerism\nand biological activity of benzimidazol-\n2-ylamides of 1-r-4-hydroxy-2-oxo-1,2-\ndihydroquinoline-3-carboxylic acids.\nChemical Heterocyclic Compound. 2011;\n46:1364-1370. DOI: 10.1007/s10593-011-\n0673-8\n[57] Mantu D, Antoci V, Moldoveanu C,\nZbancioc G, Mangalagiu II. Hybrid\nimidazole (benzimidazole)/pyridine\n(quinoline) derivatives and evaluation of\ntheir anticancer and antimycobacterial\nactivity. Journal of Enzyme Inhibition\nand Medicinal Chemistry. 2016;31:\n96-103. DOI: 10.1080/14756366.2016.\n1190711\n[58] Baartzes N, Stringer T, Seldon R,\nWarner DF, Taylor D, Wittlin S, et al.\nBioisosteric ferrocenyl aminoquinoline-\nbenzimidazole hybrids: Antimicrobial\nevaluation and mechanistic insights.\nEuropean Journal of Medicinal\nChemistry. 2019;180:121-133.\nDOI: 10.1016/j.ejmech.2019.06.069\n[59] Pomel S, Dubar F, Forge D,\nLoiseau PM, Biot C. New heterocyclic\ncompounds: Synthesis and\nantitrypanosomal properties. Bioorganic\n18\nStrategies Towards the Synthesis of Heterocycles and Their Applications\n",
+      "blocks": [
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "[49] Mungra DC, Patel MP, Patel RG.\nMicrowave-assisted synthesis of some\nnew tetrazolo[1,5-a]quinoline-based\nbenzimidazoles catalyzed by p-TsOH\nand investigation of their antimicrobial\nactivity. Medicinal Chemistry Research.\n2011;20:782-789. DOI: 10.1007/\ns00044-010-9388-0",
+          "bbox": {
+            "x0": 91.79410552978516,
+            "y0": 92.8773193359375,
+            "x1": 296.01190185546875,
+            "y1": 206.43545532226562
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "[50] Garudachari B, Satyanarayana MN,\nThippeswamy B, Shivakumar CK,\nShivananda KN, Hegde G, et al.\nSynthesis, characterization and\nantimicrobial studies of some new\nquinoline incorporated benzimidazole\nderivatives. European Journal of\nMedicinal Chemistry. 2012;54:900-906.\nDOI: 10.1016/j.ejmech.2012.05.027",
+          "bbox": {
+            "x0": 91.79496765136719,
+            "y0": 219.68438720703125,
+            "x1": 295.525390625,
+            "y1": 347.4980773925781
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "[51] de Souza IOP, Schrekker CML,\nLopes W, Orru RVA, Hranjec M,\nPerin N, et al. Bifunctional fluorescent\nbenzimidazo[1,2-α]quinolines for\nCandida spp. biofilm detection and\nbiocidal activity. Journal of\nPhotochemistry and Photobiology B:\nBiology. 2016;163:319-326.\nDOI: 10.1016/j.jphotobiol.2016.08.037",
+          "bbox": {
+            "x0": 91.79373168945312,
+            "y0": 360.7474365234375,
+            "x1": 288.9394226074219,
+            "y1": 488.5618896484375
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "[52] Villa P, Arumugam N, Almansour AI,\nSuresh Kumar R, Mahalingam SM,\nMaruoka K, et al. Benzimidazole tethered\npyrrolo[3,4-b]quinoline with broad-\nspectrum activity against fungal\npathogens. Bioorganic & Medicinal\nChemistry Letters. 2019;29:729-733.\nDOI: 10.1016/j.bmcl.2019.01.006",
+          "bbox": {
+            "x0": 91.79411315917969,
+            "y0": 501.7440185546875,
+            "x1": 298.8295593261719,
+            "y1": 615.30419921875
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "[53] El Faydy M, Dahaieh N, Ounine K,\nLakhrissi B, Warad I, Tüzün B, et al.\nSynthesis, identification, antibacterial\nactivity, ADME/T and 1BNA-docking\ninvestigations of 8-quinolinol Analogs\nbearing a benzimidazole moiety. Arabian\nJournal for Science and Engineering.\n2022;47:497-510. DOI: 10.1007/\ns13369-021-05749-7",
+          "bbox": {
+            "x0": 91.79411315917969,
+            "y0": 633.2824096679688,
+            "x1": 301.23883056640625,
+            "y1": 761.095703125
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "[54] El-Feky SA, Thabet HK, Ubeid MT.\nSynthesis, molecular modeling and anti-",
+          "bbox": {
+            "x0": 91.7940444946289,
+            "y0": 776.7094116210938,
+            "x1": 298.0034484863281,
+            "y1": 804.8070068359375
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "inflammatory screening of novel\nfluorinated quinoline incorporated\nbenzimidazole derivatives using the\nPfitzinger reaction. Journal of Fluorine\nChemistry. 2014;161:87-94.\nDOI: 10.1016/j.jfluchem.2014.02.012",
+          "bbox": {
+            "x0": 321.4268493652344,
+            "y0": 92.881103515625,
+            "x1": 520.0935668945312,
+            "y1": 177.99789428710938
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "[55] Madawali IM, Das KK, Kalyane NV.\nSynthesis And Anti-Inflammatory\nActivity of Some New 2- Chloro-3-[3-(6-\nNitro-1H-Benzimidazol-2-Yl)-1H-\nPyrazol-5- Yl]Quinolines. IOSR Journal\nof Pharmacy and Biological Sciences.\n2018;13:83-88. DOI: 10.9790/3008-\n1305018388",
+          "bbox": {
+            "x0": 321.4264831542969,
+            "y0": 192.59454345703125,
+            "x1": 530.8751831054688,
+            "y1": 306.2211608886719
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "[56] Ukrainets IV, Grinevich LA,\nTkach AA, Gorokhova OV,\nKravchenko VN, Sim G. 4-hydroxy-2-\nquinolones. 191.* synthesis, tautomerism\nand biological activity of benzimidazol-\n2-ylamides of 1-r-4-hydroxy-2-oxo-1,2-\ndihydroquinoline-3-carboxylic acids.\nChemical Heterocyclic Compound. 2011;\n46:1364-1370. DOI: 10.1007/s10593-011-\n0673-8",
+          "bbox": {
+            "x0": 321.42608642578125,
+            "y0": 320.8212890625,
+            "x1": 530.8887329101562,
+            "y1": 462.891357421875
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "[57] Mantu D, Antoci V, Moldoveanu C,\nZbancioc G, Mangalagiu II. Hybrid\nimidazole (benzimidazole)/pyridine\n(quinoline) derivatives and evaluation of\ntheir anticancer and antimycobacterial\nactivity. Journal of Enzyme Inhibition\nand Medicinal Chemistry. 2016;31:\n96-103. DOI: 10.1080/14756366.2016.\n1190711",
+          "bbox": {
+            "x0": 321.4256896972656,
+            "y0": 477.55938720703125,
+            "x1": 530.8796997070312,
+            "y1": 605.3734741210938
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "[58] Baartzes N, Stringer T, Seldon R,\nWarner DF, Taylor D, Wittlin S, et al.\nBioisosteric ferrocenyl aminoquinoline-\nbenzimidazole hybrids: Antimicrobial\nevaluation and mechanistic insights.\nEuropean Journal of Medicinal\nChemistry. 2019;180:121-133.\nDOI: 10.1016/j.ejmech.2019.06.069",
+          "bbox": {
+            "x0": 321.4256896972656,
+            "y0": 620.04150390625,
+            "x1": 524.1644287109375,
+            "y1": 733.60009765625
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "[59] Pomel S, Dubar F, Forge D,\nLoiseau PM, Biot C. New heterocyclic\ncompounds: Synthesis and\nantitrypanosomal properties. Bioorganic",
+          "bbox": {
+            "x0": 321.4259033203125,
+            "y0": 748.26806640625,
+            "x1": 527.7962646484375,
+            "y1": 804.8074951171875
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "18",
+          "bbox": {
+            "x0": 91.79290771484375,
+            "y0": 817.6790771484375,
+            "x1": 101.18624114990234,
+            "y1": 827.5758056640625
+          }
+        },
+        {
+          "page": 19,
+          "kind": "text",
+          "text": "Strategies Towards the Synthesis of Heterocycles and Their Applications",
+          "bbox": {
+            "x0": 91.79290771484375,
+            "y0": 54.007850646972656,
+            "x1": 401.945556640625,
+            "y1": 64.93840026855469
+          }
+        }
+      ],
+      "render_path": "assets/page-0019.png"
+    },
+    {
+      "number": 20,
+      "width": 612.0,
+      "height": 879.448974609375,
+      "text": "& Medicinal Chemistry. 2015;23:\n5168-5174. DOI: 10.1016/j.\nbmc.2015.03.029\n[60] Bharadwaj SS, Poojary B,\nNandish SKM, Kengaiah J, Kirana MP,\nShankar MK, et al. Efficient synthesis\nand in silico studies of the benzimidazole\nhybrid scaffold with the\nQuinolinyloxadiazole skeleton with\npotential α-glucosidase inhibitory,\nanticoagulant, and antiplatelet activities\nfor type-II diabetes mellitus\nmanagement and treating thrombotic\ndisorders. ACS Omega. 2018;3:\n12562-12574. DOI: 10.1021/acsomega.\n8b01476\n19\nCurrent Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949\n",
+      "blocks": [
+        {
+          "page": 20,
+          "kind": "text",
+          "text": "& Medicinal Chemistry. 2015;23:\n5168-5174. DOI: 10.1016/j.\nbmc.2015.03.029",
+          "bbox": {
+            "x0": 81.0701904296875,
+            "y0": 92.8773193359375,
+            "x1": 250.25831604003906,
+            "y1": 135.22958374023438
+          }
+        },
+        {
+          "page": 20,
+          "kind": "text",
+          "text": "[60] Bharadwaj SS, Poojary B,\nNandish SKM, Kengaiah J, Kirana MP,\nShankar MK, et al. Efficient synthesis\nand in silico studies of the benzimidazole\nhybrid scaffold with the\nQuinolinyloxadiazole skeleton with\npotential α-glucosidase inhibitory,\nanticoagulant, and antiplatelet activities\nfor type-II diabetes mellitus\nmanagement and treating thrombotic\ndisorders. ACS Omega. 2018;3:\n12562-12574. DOI: 10.1021/acsomega.\n8b01476",
+          "bbox": {
+            "x0": 81.06993103027344,
+            "y0": 149.89691162109375,
+            "x1": 290.4852600097656,
+            "y1": 334.6613464355469
+          }
+        },
+        {
+          "page": 20,
+          "kind": "text",
+          "text": "19",
+          "bbox": {
+            "x0": 81.06993103027344,
+            "y0": 817.6768188476562,
+            "x1": 90.85267639160156,
+            "y1": 827.5735473632812
+          }
+        },
+        {
+          "page": 20,
+          "kind": "text",
+          "text": "Current Development in the Synthesis of Benzimidazole-Quinoline Hybrid Analogues…\nDOI: http://dx.doi.org/10.5772/intechopen.108949",
+          "bbox": {
+            "x0": 81.06993103027344,
+            "y0": 52.944915771484375,
+            "x1": 459.9991455078125,
+            "y1": 77.97483825683594
+          }
+        }
+      ],
+      "render_path": "assets/page-0020.png"
+    }
+  ],
+  "tables": [
+    {
+      "page": 9,
+      "bbox": {
+        "x0": 89.62110137939453,
+        "y0": 524.4314575195312,
+        "x1": 521.5553385416666,
+        "y1": 630.3684692382812
+      },
+      "rows": [
+        [
+          "Figure 16.",
+          ""
+        ]
+      ],
+      "caption": null
+    },
+    {
+      "page": 11,
+      "bbox": {
+        "x0": 89.62110137939453,
+        "y0": 97.638427734375,
+        "x1": 521.5555114746094,
+        "y1": 261.38348388671875
+      },
+      "rows": [
+        [
+          "Figure 21.\n2-(2-(6-Fluoro-2-(4-fluorophenyl)quinolin-4-yl)-1H-benzo[d]imidazol-1-y\nacetamide derivatives.",
+          "l)-N-(4-methoxyphenyl)"
+        ]
+      ],
+      "caption": null
+    },
+    {
+      "page": 13,
+      "bbox": {
+        "x0": 89.62110137939453,
+        "y0": 553.1754964192709,
+        "x1": 530.9283447265625,
+        "y1": 630.3684692382812
+      },
+      "rows": [
+        [
+          "a\nac",
+          "ntimycobacterial, antiplasmodial, a\ntivities. This established a new lev",
+          "ntitrypanosomal, anticoagulant and antithyroid\nel of revolution for the synthesis of hybrid",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "Activity"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "caption": null
+    }
+  ],
+  "figures": [],
+  "marker_markdown_path": null
+}

@@ -1,0 +1,5550 @@
+{
+  "schema_version": "1.0",
+  "domain": "oxazolidinones",
+  "records": [
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5a",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "E. coli",
+        "bacteria_name_unified": "Escherichia coli",
+        "bacteria_info": "ATCC 25922; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "A",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 1,
+        "column_prop": "A",
+        "line_prop": 1,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5a.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5a | A 125 | B 125 | C 62.5 | D 125 | E 7.81 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "A: E. coli (Escherichia coli), ATCC 25922; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5a",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "S. marcescens",
+        "bacteria_name_unified": "Serratia marcescens",
+        "bacteria_info": "ATCC 8100; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "B",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 2,
+        "column_prop": "B",
+        "line_prop": 1,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5a.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5a | A 125 | B 125 | C 62.5 | D 125 | E 7.81 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "B: S. marcescens (Serratia marcescens), ATCC 8100; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5a",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "K. pneumoniae",
+        "bacteria_name_unified": "Klebsiella pneumoniae",
+        "bacteria_info": "ATCC 13883; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "C",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 3,
+        "column_prop": "C",
+        "line_prop": 1,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5a.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5a | A 125 | B 125 | C 62.5 | D 125 | E 7.81 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "C: K. pneumoniae (Klebsiella pneumoniae), ATCC 13883; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5a",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "P. aeruginosa",
+        "bacteria_name_unified": "Pseudomonas aeruginosa",
+        "bacteria_info": "ATCC 27853; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "D",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 4,
+        "column_prop": "D",
+        "line_prop": 1,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5a.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5a | A 125 | B 125 | C 62.5 | D 125 | E 7.81 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "D: P. aeruginosa (Pseudomonas aeruginosa), ATCC 27853; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5a",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "7.81",
+        "target_units": "μg/mL",
+        "bacteria": "E. faecalis",
+        "bacteria_name_unified": "Enterococcus faecalis",
+        "bacteria_info": "ATCC 2942; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "E",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 5,
+        "column_prop": "E",
+        "line_prop": 1,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5a.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5a | A 125 | B 125 | C 62.5 | D 125 | E 7.81 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "E: E. faecalis (Enterococcus faecalis), ATCC 2942; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5a",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "B. subtilis",
+        "bacteria_name_unified": "Bacillus subtilis",
+        "bacteria_info": "NRRL NRS 744; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "F",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 6,
+        "column_prop": "F",
+        "line_prop": 1,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5a.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5a | A 125 | B 125 | C 62.5 | D 125 | E 7.81 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "F: B. subtilis (Bacillus subtilis), NRRL NRS 744; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5a",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "S. aureus",
+        "bacteria_name_unified": "Staphylococcus aureus",
+        "bacteria_info": "ATCC 29213; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "G",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 7,
+        "column_prop": "G",
+        "line_prop": 1,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5a.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5a | A 125 | B 125 | C 62.5 | D 125 | E 7.81 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "G: S. aureus (Staphylococcus aureus), ATCC 29213; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5b",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "E. coli",
+        "bacteria_name_unified": "Escherichia coli",
+        "bacteria_info": "ATCC 25922; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "A",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 1,
+        "column_prop": "A",
+        "line_prop": 2,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5b.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5b | A 62.5 | B 31.25 | C 62.5 | D 62.5 | E 62.5 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "A: E. coli (Escherichia coli), ATCC 25922; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5b",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "31.25",
+        "target_units": "μg/mL",
+        "bacteria": "S. marcescens",
+        "bacteria_name_unified": "Serratia marcescens",
+        "bacteria_info": "ATCC 8100; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "B",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 2,
+        "column_prop": "B",
+        "line_prop": 2,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5b.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5b | A 62.5 | B 31.25 | C 62.5 | D 62.5 | E 62.5 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "B: S. marcescens (Serratia marcescens), ATCC 8100; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5b",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "K. pneumoniae",
+        "bacteria_name_unified": "Klebsiella pneumoniae",
+        "bacteria_info": "ATCC 13883; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "C",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 3,
+        "column_prop": "C",
+        "line_prop": 2,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5b.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5b | A 62.5 | B 31.25 | C 62.5 | D 62.5 | E 62.5 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "C: K. pneumoniae (Klebsiella pneumoniae), ATCC 13883; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5b",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "P. aeruginosa",
+        "bacteria_name_unified": "Pseudomonas aeruginosa",
+        "bacteria_info": "ATCC 27853; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "D",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 4,
+        "column_prop": "D",
+        "line_prop": 2,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5b.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5b | A 62.5 | B 31.25 | C 62.5 | D 62.5 | E 62.5 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "D: P. aeruginosa (Pseudomonas aeruginosa), ATCC 27853; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5b",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "E. faecalis",
+        "bacteria_name_unified": "Enterococcus faecalis",
+        "bacteria_info": "ATCC 2942; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "E",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 5,
+        "column_prop": "E",
+        "line_prop": 2,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5b.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5b | A 62.5 | B 31.25 | C 62.5 | D 62.5 | E 62.5 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "E: E. faecalis (Enterococcus faecalis), ATCC 2942; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5b",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "B. subtilis",
+        "bacteria_name_unified": "Bacillus subtilis",
+        "bacteria_info": "NRRL NRS 744; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "F",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 6,
+        "column_prop": "F",
+        "line_prop": 2,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5b.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5b | A 62.5 | B 31.25 | C 62.5 | D 62.5 | E 62.5 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "F: B. subtilis (Bacillus subtilis), NRRL NRS 744; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5b",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "S. aureus",
+        "bacteria_name_unified": "Staphylococcus aureus",
+        "bacteria_info": "ATCC 29213; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "G",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 7,
+        "column_prop": "G",
+        "line_prop": 2,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5b.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5b | A 62.5 | B 31.25 | C 62.5 | D 62.5 | E 62.5 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "G: S. aureus (Staphylococcus aureus), ATCC 29213; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "ClCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5c",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "E. coli",
+        "bacteria_name_unified": "Escherichia coli",
+        "bacteria_info": "ATCC 25922; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "A",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 1,
+        "column_prop": "A",
+        "line_prop": 3,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5c.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5c | A 62.5 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "A: E. coli (Escherichia coli), ATCC 25922; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "ClCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5c",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "S. marcescens",
+        "bacteria_name_unified": "Serratia marcescens",
+        "bacteria_info": "ATCC 8100; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "B",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 2,
+        "column_prop": "B",
+        "line_prop": 3,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5c.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5c | A 62.5 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "B: S. marcescens (Serratia marcescens), ATCC 8100; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "ClCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5c",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "K. pneumoniae",
+        "bacteria_name_unified": "Klebsiella pneumoniae",
+        "bacteria_info": "ATCC 13883; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "C",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 3,
+        "column_prop": "C",
+        "line_prop": 3,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5c.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5c | A 62.5 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "C: K. pneumoniae (Klebsiella pneumoniae), ATCC 13883; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "ClCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5c",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "P. aeruginosa",
+        "bacteria_name_unified": "Pseudomonas aeruginosa",
+        "bacteria_info": "ATCC 27853; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "D",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 4,
+        "column_prop": "D",
+        "line_prop": 3,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5c.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5c | A 62.5 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "D: P. aeruginosa (Pseudomonas aeruginosa), ATCC 27853; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "ClCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5c",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "1.95",
+        "target_units": "μg/mL",
+        "bacteria": "E. faecalis",
+        "bacteria_name_unified": "Enterococcus faecalis",
+        "bacteria_info": "ATCC 2942; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "E",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 5,
+        "column_prop": "E",
+        "line_prop": 3,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5c.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5c | A 62.5 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "E: E. faecalis (Enterococcus faecalis), ATCC 2942; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "ClCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5c",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "B. subtilis",
+        "bacteria_name_unified": "Bacillus subtilis",
+        "bacteria_info": "NRRL NRS 744; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "F",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 6,
+        "column_prop": "F",
+        "line_prop": 3,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5c.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5c | A 62.5 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "F: B. subtilis (Bacillus subtilis), NRRL NRS 744; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "ClCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5c",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "S. aureus",
+        "bacteria_name_unified": "Staphylococcus aureus",
+        "bacteria_info": "ATCC 29213; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "G",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 7,
+        "column_prop": "G",
+        "line_prop": 3,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5c.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5c | A 62.5 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "G: S. aureus (Staphylococcus aureus), ATCC 29213; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "Clc1ccccc1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5d",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "E. coli",
+        "bacteria_name_unified": "Escherichia coli",
+        "bacteria_info": "ATCC 25922; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "A",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 1,
+        "column_prop": "A",
+        "line_prop": 4,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5d.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5d | A 125 | B 31.25 | C 125 | D 125 | E 3.90 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "A: E. coli (Escherichia coli), ATCC 25922; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "Clc1ccccc1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5d",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "31.25",
+        "target_units": "μg/mL",
+        "bacteria": "S. marcescens",
+        "bacteria_name_unified": "Serratia marcescens",
+        "bacteria_info": "ATCC 8100; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "B",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 2,
+        "column_prop": "B",
+        "line_prop": 4,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5d.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5d | A 125 | B 31.25 | C 125 | D 125 | E 3.90 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "B: S. marcescens (Serratia marcescens), ATCC 8100; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "Clc1ccccc1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5d",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "K. pneumoniae",
+        "bacteria_name_unified": "Klebsiella pneumoniae",
+        "bacteria_info": "ATCC 13883; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "C",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 3,
+        "column_prop": "C",
+        "line_prop": 4,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5d.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5d | A 125 | B 31.25 | C 125 | D 125 | E 3.90 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "C: K. pneumoniae (Klebsiella pneumoniae), ATCC 13883; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "Clc1ccccc1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5d",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "P. aeruginosa",
+        "bacteria_name_unified": "Pseudomonas aeruginosa",
+        "bacteria_info": "ATCC 27853; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "D",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 4,
+        "column_prop": "D",
+        "line_prop": 4,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5d.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5d | A 125 | B 31.25 | C 125 | D 125 | E 3.90 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "D: P. aeruginosa (Pseudomonas aeruginosa), ATCC 27853; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "Clc1ccccc1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5d",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "3.90",
+        "target_units": "μg/mL",
+        "bacteria": "E. faecalis",
+        "bacteria_name_unified": "Enterococcus faecalis",
+        "bacteria_info": "ATCC 2942; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "E",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 5,
+        "column_prop": "E",
+        "line_prop": 4,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5d.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5d | A 125 | B 31.25 | C 125 | D 125 | E 3.90 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "E: E. faecalis (Enterococcus faecalis), ATCC 2942; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "Clc1ccccc1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5d",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "B. subtilis",
+        "bacteria_name_unified": "Bacillus subtilis",
+        "bacteria_info": "NRRL NRS 744; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "F",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 6,
+        "column_prop": "F",
+        "line_prop": 4,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5d.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5d | A 125 | B 31.25 | C 125 | D 125 | E 3.90 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "F: B. subtilis (Bacillus subtilis), NRRL NRS 744; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "Clc1ccccc1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5d",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "S. aureus",
+        "bacteria_name_unified": "Staphylococcus aureus",
+        "bacteria_info": "ATCC 29213; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "G",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 7,
+        "column_prop": "G",
+        "line_prop": 4,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5d.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5d | A 125 | B 31.25 | C 125 | D 125 | E 3.90 | F 125 | G 62.5 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "G: S. aureus (Staphylococcus aureus), ATCC 29213; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "C1CCCCC1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5e",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "E. coli",
+        "bacteria_name_unified": "Escherichia coli",
+        "bacteria_info": "ATCC 25922; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "A",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 1,
+        "column_prop": "A",
+        "line_prop": 5,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5e.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5e | A 125 | B 62.5 | C 62.5 | D 62.5 | E 3.90 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "A: E. coli (Escherichia coli), ATCC 25922; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "C1CCCCC1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5e",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "S. marcescens",
+        "bacteria_name_unified": "Serratia marcescens",
+        "bacteria_info": "ATCC 8100; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "B",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 2,
+        "column_prop": "B",
+        "line_prop": 5,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5e.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5e | A 125 | B 62.5 | C 62.5 | D 62.5 | E 3.90 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "B: S. marcescens (Serratia marcescens), ATCC 8100; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "C1CCCCC1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5e",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "K. pneumoniae",
+        "bacteria_name_unified": "Klebsiella pneumoniae",
+        "bacteria_info": "ATCC 13883; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "C",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 3,
+        "column_prop": "C",
+        "line_prop": 5,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5e.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5e | A 125 | B 62.5 | C 62.5 | D 62.5 | E 3.90 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "C: K. pneumoniae (Klebsiella pneumoniae), ATCC 13883; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "C1CCCCC1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5e",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "P. aeruginosa",
+        "bacteria_name_unified": "Pseudomonas aeruginosa",
+        "bacteria_info": "ATCC 27853; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "D",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 4,
+        "column_prop": "D",
+        "line_prop": 5,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5e.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5e | A 125 | B 62.5 | C 62.5 | D 62.5 | E 3.90 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "D: P. aeruginosa (Pseudomonas aeruginosa), ATCC 27853; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "C1CCCCC1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5e",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "3.90",
+        "target_units": "μg/mL",
+        "bacteria": "E. faecalis",
+        "bacteria_name_unified": "Enterococcus faecalis",
+        "bacteria_info": "ATCC 2942; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "E",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 5,
+        "column_prop": "E",
+        "line_prop": 5,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5e.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5e | A 125 | B 62.5 | C 62.5 | D 62.5 | E 3.90 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "E: E. faecalis (Enterococcus faecalis), ATCC 2942; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "C1CCCCC1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5e",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "250",
+        "target_units": "μg/mL",
+        "bacteria": "B. subtilis",
+        "bacteria_name_unified": "Bacillus subtilis",
+        "bacteria_info": "NRRL NRS 744; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "F",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 6,
+        "column_prop": "F",
+        "line_prop": 5,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5e.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5e | A 125 | B 62.5 | C 62.5 | D 62.5 | E 3.90 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "F: B. subtilis (Bacillus subtilis), NRRL NRS 744; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "C1CCCCC1Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5e",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "S. aureus",
+        "bacteria_name_unified": "Staphylococcus aureus",
+        "bacteria_info": "ATCC 29213; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "G",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 7,
+        "column_prop": "G",
+        "line_prop": 5,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5e.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5e | A 125 | B 62.5 | C 62.5 | D 62.5 | E 3.90 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "G: S. aureus (Staphylococcus aureus), ATCC 29213; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CC(C)Nc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5f",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "15.625",
+        "target_units": "μg/mL",
+        "bacteria": "E. coli",
+        "bacteria_name_unified": "Escherichia coli",
+        "bacteria_info": "ATCC 25922; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "A",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 1,
+        "column_prop": "A",
+        "line_prop": 6,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5f.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5f | A 15.625 | B 62.5 | C 125 | D 125 | E 15.625 | F 125 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "A: E. coli (Escherichia coli), ATCC 25922; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CC(C)Nc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5f",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "S. marcescens",
+        "bacteria_name_unified": "Serratia marcescens",
+        "bacteria_info": "ATCC 8100; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "B",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 2,
+        "column_prop": "B",
+        "line_prop": 6,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5f.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5f | A 15.625 | B 62.5 | C 125 | D 125 | E 15.625 | F 125 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "B: S. marcescens (Serratia marcescens), ATCC 8100; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CC(C)Nc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5f",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "K. pneumoniae",
+        "bacteria_name_unified": "Klebsiella pneumoniae",
+        "bacteria_info": "ATCC 13883; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "C",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 3,
+        "column_prop": "C",
+        "line_prop": 6,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5f.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5f | A 15.625 | B 62.5 | C 125 | D 125 | E 15.625 | F 125 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "C: K. pneumoniae (Klebsiella pneumoniae), ATCC 13883; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CC(C)Nc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5f",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "P. aeruginosa",
+        "bacteria_name_unified": "Pseudomonas aeruginosa",
+        "bacteria_info": "ATCC 27853; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "D",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 4,
+        "column_prop": "D",
+        "line_prop": 6,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5f.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5f | A 15.625 | B 62.5 | C 125 | D 125 | E 15.625 | F 125 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "D: P. aeruginosa (Pseudomonas aeruginosa), ATCC 27853; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CC(C)Nc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5f",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "15.625",
+        "target_units": "μg/mL",
+        "bacteria": "E. faecalis",
+        "bacteria_name_unified": "Enterococcus faecalis",
+        "bacteria_info": "ATCC 2942; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "E",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 5,
+        "column_prop": "E",
+        "line_prop": 6,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5f.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5f | A 15.625 | B 62.5 | C 125 | D 125 | E 15.625 | F 125 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "E: E. faecalis (Enterococcus faecalis), ATCC 2942; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CC(C)Nc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5f",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "B. subtilis",
+        "bacteria_name_unified": "Bacillus subtilis",
+        "bacteria_info": "NRRL NRS 744; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "F",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 6,
+        "column_prop": "F",
+        "line_prop": 6,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5f.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5f | A 15.625 | B 62.5 | C 125 | D 125 | E 15.625 | F 125 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "F: B. subtilis (Bacillus subtilis), NRRL NRS 744; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CC(C)Nc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5f",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "S. aureus",
+        "bacteria_name_unified": "Staphylococcus aureus",
+        "bacteria_info": "ATCC 29213; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "G",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 7,
+        "column_prop": "G",
+        "line_prop": 6,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5f.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5f | A 15.625 | B 62.5 | C 125 | D 125 | E 15.625 | F 125 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "G: S. aureus (Staphylococcus aureus), ATCC 29213; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5g",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "15.625",
+        "target_units": "μg/mL",
+        "bacteria": "E. coli",
+        "bacteria_name_unified": "Escherichia coli",
+        "bacteria_info": "ATCC 25922; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "A",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 1,
+        "column_prop": "A",
+        "line_prop": 7,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5g.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5g | A 15.625 | B 125 | C 125 | D 125 | E 7.81 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "A: E. coli (Escherichia coli), ATCC 25922; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5g",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "S. marcescens",
+        "bacteria_name_unified": "Serratia marcescens",
+        "bacteria_info": "ATCC 8100; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "B",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 2,
+        "column_prop": "B",
+        "line_prop": 7,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5g.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5g | A 15.625 | B 125 | C 125 | D 125 | E 7.81 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "B: S. marcescens (Serratia marcescens), ATCC 8100; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5g",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "K. pneumoniae",
+        "bacteria_name_unified": "Klebsiella pneumoniae",
+        "bacteria_info": "ATCC 13883; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "C",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 3,
+        "column_prop": "C",
+        "line_prop": 7,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5g.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5g | A 15.625 | B 125 | C 125 | D 125 | E 7.81 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "C: K. pneumoniae (Klebsiella pneumoniae), ATCC 13883; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5g",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "P. aeruginosa",
+        "bacteria_name_unified": "Pseudomonas aeruginosa",
+        "bacteria_info": "ATCC 27853; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "D",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 4,
+        "column_prop": "D",
+        "line_prop": 7,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5g.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5g | A 15.625 | B 125 | C 125 | D 125 | E 7.81 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "D: P. aeruginosa (Pseudomonas aeruginosa), ATCC 27853; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5g",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "7.81",
+        "target_units": "μg/mL",
+        "bacteria": "E. faecalis",
+        "bacteria_name_unified": "Enterococcus faecalis",
+        "bacteria_info": "ATCC 2942; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "E",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 5,
+        "column_prop": "E",
+        "line_prop": 7,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5g.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5g | A 15.625 | B 125 | C 125 | D 125 | E 7.81 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "E: E. faecalis (Enterococcus faecalis), ATCC 2942; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5g",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "250",
+        "target_units": "μg/mL",
+        "bacteria": "B. subtilis",
+        "bacteria_name_unified": "Bacillus subtilis",
+        "bacteria_info": "NRRL NRS 744; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "F",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 6,
+        "column_prop": "F",
+        "line_prop": 7,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5g.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5g | A 15.625 | B 125 | C 125 | D 125 | E 7.81 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "F: B. subtilis (Bacillus subtilis), NRRL NRS 744; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "CCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5g",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "S. aureus",
+        "bacteria_name_unified": "Staphylococcus aureus",
+        "bacteria_info": "ATCC 29213; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "G",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 7,
+        "column_prop": "G",
+        "line_prop": 7,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5g.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5g | A 15.625 | B 125 | C 125 | D 125 | E 7.81 | F 250 | G 125 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "G: S. aureus (Staphylococcus aureus), ATCC 29213; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5h",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "31.25",
+        "target_units": "μg/mL",
+        "bacteria": "E. coli",
+        "bacteria_name_unified": "Escherichia coli",
+        "bacteria_info": "ATCC 25922; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "A",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 1,
+        "column_prop": "A",
+        "line_prop": 8,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5h.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5h | A 31.25 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 15.625 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "A: E. coli (Escherichia coli), ATCC 25922; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5h",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "S. marcescens",
+        "bacteria_name_unified": "Serratia marcescens",
+        "bacteria_info": "ATCC 8100; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "B",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 2,
+        "column_prop": "B",
+        "line_prop": 8,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5h.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5h | A 31.25 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 15.625 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "B: S. marcescens (Serratia marcescens), ATCC 8100; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5h",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "62.5",
+        "target_units": "μg/mL",
+        "bacteria": "K. pneumoniae",
+        "bacteria_name_unified": "Klebsiella pneumoniae",
+        "bacteria_info": "ATCC 13883; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "C",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 3,
+        "column_prop": "C",
+        "line_prop": 8,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5h.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5h | A 31.25 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 15.625 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "C: K. pneumoniae (Klebsiella pneumoniae), ATCC 13883; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5h",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "P. aeruginosa",
+        "bacteria_name_unified": "Pseudomonas aeruginosa",
+        "bacteria_info": "ATCC 27853; Gram-negative",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "D",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 4,
+        "column_prop": "D",
+        "line_prop": 8,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5h.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5h | A 31.25 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 15.625 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "D: P. aeruginosa (Pseudomonas aeruginosa), ATCC 27853; Gram-negative.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5h",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "1.95",
+        "target_units": "μg/mL",
+        "bacteria": "E. faecalis",
+        "bacteria_name_unified": "Enterococcus faecalis",
+        "bacteria_info": "ATCC 2942; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "E",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 5,
+        "column_prop": "E",
+        "line_prop": 8,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5h.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5h | A 31.25 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 15.625 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "E: E. faecalis (Enterococcus faecalis), ATCC 2942; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5h",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "125",
+        "target_units": "μg/mL",
+        "bacteria": "B. subtilis",
+        "bacteria_name_unified": "Bacillus subtilis",
+        "bacteria_info": "NRRL NRS 744; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "F",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 6,
+        "column_prop": "F",
+        "line_prop": 8,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5h.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5h | A 31.25 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 15.625 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "F: B. subtilis (Bacillus subtilis), NRRL NRS 744; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    },
+    {
+      "values": {
+        "pdf": "acsomega.2c06142.pdf",
+        "smiles": "COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1",
+        "doi": "10.1021/acsomega.2c06142",
+        "title": "Synthesis, Molecular Docking, Dynamics, Quantum-Chemical Computation, and Antimicrobial Activity Studies of Some New Benzimidazole–Thiadiazole Hybrids",
+        "publisher": "American Chemical Society",
+        "year": 2022,
+        "access": 1,
+        "compound_id": "5h",
+        "target_type": "MIC",
+        "target_relation": "=",
+        "target_value": "15.625",
+        "target_units": "μg/mL",
+        "bacteria": "S. aureus",
+        "bacteria_name_unified": "Staphylococcus aureus",
+        "bacteria_info": "ATCC 29213; Gram-positive",
+        "page_bacteria": 5,
+        "origin_bacteria": "table",
+        "section_bacteria": "Table 2",
+        "subsection_bacteria": "G",
+        "page_target": 5,
+        "origin_target": "table",
+        "section_target": "Table 2",
+        "subsection_target": 7,
+        "column_prop": "G",
+        "line_prop": 8,
+        "page_scaffold": 5,
+        "origin_scaffold": "figure",
+        "section_scaffold": "Table 2",
+        "subsection_scaffold": 1,
+        "page_residue": 5,
+        "origin_residue": "table",
+        "section_residue": "Table 2"
+      },
+      "evidence": {
+        "pdf": [],
+        "smiles": [
+          {
+            "page": 5,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Table 2 common scaffold and R substituent for 5h.",
+            "asset_path": "assets/page-0005.png"
+          }
+        ],
+        "doi": [],
+        "title": [],
+        "publisher": [],
+        "year": [],
+        "access": [],
+        "compound_id": [],
+        "target_type": [],
+        "target_relation": [],
+        "target_value": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 134.646,
+              "y0": 139.578,
+              "x1": 472.309,
+              "y1": 416.75
+            },
+            "text": "5h | A 31.25 | B 62.5 | C 62.5 | D 125 | E 1.95 | F 125 | G 15.625 (MIC, μg/mL)",
+            "asset_path": "assets/page-0005-image-002.jpeg"
+          }
+        ],
+        "target_units": [],
+        "bacteria": [
+          {
+            "page": 5,
+            "kind": "text",
+            "bbox": null,
+            "text": "G: S. aureus (Staphylococcus aureus), ATCC 29213; Gram-positive.",
+            "asset_path": null
+          }
+        ],
+        "bacteria_name_unified": [],
+        "bacteria_info": [],
+        "page_bacteria": [],
+        "origin_bacteria": [],
+        "section_bacteria": [],
+        "subsection_bacteria": [],
+        "page_target": [],
+        "origin_target": [],
+        "section_target": [],
+        "subsection_target": [],
+        "column_prop": [],
+        "line_prop": [],
+        "page_scaffold": [],
+        "origin_scaffold": [],
+        "section_scaffold": [],
+        "subsection_scaffold": [],
+        "page_residue": [],
+        "origin_residue": [],
+        "section_residue": []
+      }
+    }
+  ]
+}

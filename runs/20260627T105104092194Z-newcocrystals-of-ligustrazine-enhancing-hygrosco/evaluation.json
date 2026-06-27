@@ -1,0 +1,356 @@
+{
+  "run_id": "20260627T105104092194Z-newcocrystals-of-ligustrazine-enhancing-hygrosco",
+  "run_dir": "C:\\PyProjects\\CheML-master\\runs\\20260627T105104092194Z-newcocrystals-of-ligustrazine-enhancing-hygrosco",
+  "source_pdf": "C:\\PyProjects\\CheML-master\\datasets\\SMALL_MOL\\Co-crystals\\NewCocrystals_of_Ligustrazine_Enhancing_Hygroscopicity_and_Stability.pdf",
+  "domain": "co-crystals",
+  "gold_path": "C:\\PyProjects\\CheML-master\\datasets\\SMALL_MOL\\Co-crystals\\train-00000-of-00001 (3).parquet",
+  "gold_rows": 3,
+  "gold_doi_matches": [
+    "10.3390/molecules29102208"
+  ],
+  "gold_pdf_matches": [],
+  "gold_title_matches": [],
+  "gold_match_mode": "doi",
+  "predicted_records": 3,
+  "field_count": 37,
+  "macro_f1": 0.4864864864864865,
+  "gold_schema_matches_contract": true,
+  "gold_schema": {
+    "pdf": "string",
+    "doi": "string",
+    "supplementary": "integer",
+    "authors": "string",
+    "title": "string",
+    "journal": "string",
+    "year": "integer",
+    "page": "number",
+    "access": "integer",
+    "name_cocrystal": "string",
+    "name_cocrystal_type_file": "string",
+    "name_cocrystal_page": "string",
+    "name_cocrystal_origin": "integer",
+    "ratio_cocrystal": "string",
+    "ratio_cocrystal_page": "string",
+    "ratio_cocrystal_page.1": "string",
+    "ratio_cocrystal_origin": "number",
+    "name_drug": "string",
+    "name_drug_type_file": "string",
+    "name_drug_origin": "string",
+    "name_drug_page": "integer",
+    "SMILES_drug": "string",
+    "SMILES_drug_type_file": "string",
+    "SMILES_drug_origin": "string",
+    "SMILES_drug_page": "number",
+    "name_coformer": "string",
+    "name_coformer_type file": "string",
+    "name_coformer_origin": "string",
+    "name_coformer_page": "number",
+    "SMILES_coformer": "string",
+    "SMILES_coformer_type file": "string",
+    "SMILES_coformer_origin": "string",
+    "SMILES_coformer_page": "number",
+    "photostability_change": "string",
+    "photostability_change_type_file": "string",
+    "photostability_change_origin": "string",
+    "photostability_change_page": "number"
+  },
+  "all_fields_f1_1": false,
+  "fields": {
+    "SMILES_coformer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "SMILES_coformer_origin": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "SMILES_coformer_page": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "SMILES_coformer_type file": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "SMILES_drug": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "SMILES_drug_origin": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "SMILES_drug_page": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "SMILES_drug_type_file": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "access": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "authors": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "doi": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "journal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "name_cocrystal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "name_cocrystal_origin": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "name_cocrystal_page": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "name_cocrystal_type_file": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "name_coformer": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "name_coformer_origin": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "name_coformer_page": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "name_coformer_type file": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "name_drug": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "name_drug_origin": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "name_drug_page": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "name_drug_type_file": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "page": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "pdf": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "photostability_change": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "photostability_change_origin": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "photostability_change_page": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "photostability_change_type_file": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "ratio_cocrystal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "ratio_cocrystal_origin": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "ratio_cocrystal_page": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "ratio_cocrystal_page.1": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 3,
+      "expected": 3
+    },
+    "supplementary": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "title": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    },
+    "year": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 3,
+      "predicted": 3,
+      "expected": 3
+    }
+  }
+}

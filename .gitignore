@@ -3,7 +3,10 @@
 .ruff_cache/
 __pycache__/
 *.py[cod]
-runs/
 .codex-tmp/
 .codex-home/
 .codex-cache/
+.ctx-pytest-full
+.ctx-pytest-order
+.ctx-pytest-metrics
+.ctx-pytest-pdf-match

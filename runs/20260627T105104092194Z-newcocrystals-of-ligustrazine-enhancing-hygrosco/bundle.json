@@ -1,0 +1,1849 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-06-27T10:51:07.431445Z",
+  "parser": "pymupdf-fallback",
+  "metadata": {
+    "title": "New Cocrystals of Ligustrazine: Enhancing Hygroscopicity and Stability",
+    "author": "Yifei Xie, Lixiang Gong, Yue Tao, Baoxi Zhang, Li Zhang, Shiying Yang, Dezhi Yang, Yang Lu and Guanhua Du",
+    "subject": "Ligustrazine (TMP) is the main active ingredient extracted from Rhizoma Chuanxiong, which is used in the treatment of cardiovascular and cerebrovascular diseases, with the drawback of being unstable and readily sublimated. Cocrystal technology is an effective method to improve the stability of TMP. Three benzoic acid compounds including P-aminobenzoic acid (PABA), 3-Aminobenzoic acid (MABA), and 3,5-Dinitrobenzoic acid (DNBA) were chosen for co-crystallization with TMP. Three novel cocrystals were obtained, including TMP-PABA (1:2), TMP-MABA (1.5:1), and TMP-DNBA (0.5:1). Hygroscopicity was characterized by the dynamic vapor sorption (DVS) method. Three cocrystals significantly improved the hygroscopicity stability, and the mass change in TMP decreased from 25% to 1.64% (TMP-PABA), 0.12% (TMP-MABA), and 0.03% (TMP-DNBA) at 90% relative humidity. The melting points of the three cocrystals were all higher than TMP, among which the TMP-DNBA cocrystal had the highest melting point and showed the best stability in reducing hygroscopicity. Crystal structure analysis shows that the mesh-like structure formed by the O-HN hydrogen bond in the TMP-DNBA cocrystal was the reason for improving the stability of TMP.",
+    "keywords": "ligustrazine; benzoic acid; cocrystal; stability; hygroscopicity",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.25",
+    "page_count": 16,
+    "sha256": "90db4806c7f6fd7a9d822bb85de783cb44a98e321eee1b6368584ded0b45842f",
+    "source_name": "NewCocrystals_of_Ligustrazine_Enhancing_Hygroscopicity_and_Stability.pdf"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Citation: Xie, Y.; Gong, L.; Tao, Y.;\nZhang, B.; Zhang, L.; Yang, S.; Yang,\nD.; Lu, Y.; Du, G. New Cocrystals of\nLigustrazine: Enhancing Hygroscopicity\nand Stability. Molecules 2024, 29, 2208.\nhttps://doi.org/10.3390/\nmolecules29102208\nAcademic Editor: Kam-Hung Low\nReceived: 9 April 2024\nRevised: 4 May 2024\nAccepted: 6 May 2024\nPublished: 8 May 2024\nCopyright: © 2024 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\nmolecules\nArticle\nNew Cocrystals of Ligustrazine: Enhancing Hygroscopicity\nand Stability\nYifei Xie 1,†\n, Lixiang Gong 2,†, Yue Tao 2, Baoxi Zhang 2, Li Zhang 2, Shiying Yang 2,*\n, Dezhi Yang 2,*\n,\nYang Lu 2,* and Guanhua Du 1\n1\nBeijing City Key Laboratory of Drug Target and Screening Research, National Center for Pharmaceutical\nScreening, Institute of Materia Medica, Chinese Academy of Medical Sciences, Peking Union Medical College,\nBeijing 100050, China; xieyifei@imm.ac.cn (Y.X.); dugh@imm.ac.cn (G.D.)\n2\nBeijing City Key Laboratory of Polymorphic Drugs, Center of Pharmaceutical Polymorphs, Institute of\nMateria Medica, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing 100050, China;\nglx15330819543@163.com (L.G.); taoy0215@163.com (Y.T.); zhangbx@imm.ac.cn (B.Z.);\nzhangl@imm.ac.cn (L.Z.)\n*\nCorrespondence: ysy@imm.ac.cn (S.Y.); ydz@imm.ac.cn (D.Y.); luy@imm.ac.cn (Y.L.)\n†\nThese authors contributed equally to this work.\nAbstract: Ligustrazine (TMP) is the main active ingredient extracted from Rhizoma Chuanxiong, which\nis used in the treatment of cardiovascular and cerebrovascular diseases, with the drawback of being\nunstable and readily sublimated. Cocrystal technology is an effective method to improve the stability\nof TMP. Three benzoic acid compounds including P-aminobenzoic acid (PABA), 3-Aminobenzoic\nacid (MABA), and 3,5-Dinitrobenzoic acid (DNBA) were chosen for co-crystallization with TMP.\nThree novel cocrystals were obtained, including TMP-PABA (1:2), TMP-MABA (1.5:1), and TMP-\nDNBA (0.5:1). Hygroscopicity was characterized by the dynamic vapor sorption (DVS) method.\nThree cocrystals significantly improved the hygroscopicity stability, and the mass change in TMP\ndecreased from 25% to 1.64% (TMP-PABA), 0.12% (TMP-MABA), and 0.03% (TMP-DNBA) at 90%\nrelative humidity. The melting points of the three cocrystals were all higher than TMP, among which\nthe TMP-DNBA cocrystal had the highest melting point and showed the best stability in reducing\nhygroscopicity. Crystal structure analysis shows that the mesh-like structure formed by the O-H· · · N\nhydrogen bond in the TMP-DNBA cocrystal was the reason for improving the stability of TMP.\nKeywords: ligustrazine; benzoic acid; cocrystal; stability; hygroscopicity\n1. Introduction\nThe pharmaceutical cocrystal is defined as a single-phase crystalline solid composed\nof an active pharmaceutical ingredient (API) and coformers (CCFs) combined in the same\ncrystal lattice through noncovalent interactions in a certain stoichiometric ratio [1–4]. The\nformation of cocrystals could improve the poor physicochemical properties of API without\nmodifying the chemical structure [5–16].\nLigustrazine (Tetramethylpyrazine, TMP) is the active ingredient in traditional Chinese\nmedicine Rhizoma Chuanxiong. used in the treatment of cardiovascular and cerebrovascular\ndiseases [17–19]. It is reported that TMP has multiple pharmacological effects, including\nepilepsy [20], liver fibrosis [21], and obstetrical and gynecological diseases [22]. However,\nTMP is easily sublimated and hygroscopic in physicochemical properties [23–27].\nThe stability of TMP is poor. The N atoms in the structure of TMP can be used\nas H acceptors to combine the active hydrogen in benzoic acid through the cocrystal\ntransformation method combined with supramolecular and self-assembly principles. Cur-\nrently, the reported drug cocrystals of TMP include 3,5-dihydroxybenzoic acid [28], 2,6-\ndihydroxybenzoic acid, 3-nitrophthalic acid, phthalic acid, 3-hydroxybenzoic acid [29],\n4-hydroxybenzoic acid [30], etc. It suggests that TMP easily forms cocrystals with benzoic\nMolecules 2024, 29, 2208. https://doi.org/10.3390/molecules29102208\nhttps://www.mdpi.com/journal/molecules\n",
+      "blocks": [
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Citation: Xie, Y.; Gong, L.; Tao, Y.;",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 492.76275634765625,
+            "x1": 140.00933837890625,
+            "y1": 499.80255126953125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Zhang, B.; Zhang, L.; Yang, S.; Yang,",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 504.7547607421875,
+            "x1": 146.92718505859375,
+            "y1": 511.7285461425781
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "D.; Lu, Y.; Du, G. New Cocrystals of",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 516.6797485351562,
+            "x1": 143.39840698242188,
+            "y1": 523.653564453125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Ligustrazine: Enhancing Hygroscopicity",
+          "bbox": {
+            "x0": 35.720001220703125,
+            "y0": 528.6500244140625,
+            "x1": 152.2023162841797,
+            "y1": 535.560791015625
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "and Stability. Molecules 2024, 29, 2208.",
+          "bbox": {
+            "x0": 35.720001220703125,
+            "y0": 540.4100341796875,
+            "x1": 150.3849334716797,
+            "y1": 547.504638671875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "https://doi.org/10.3390/",
+          "bbox": {
+            "x0": 35.71600341796875,
+            "y0": 552.4557495117188,
+            "x1": 114.93836975097656,
+            "y1": 559.4295654296875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "molecules29102208",
+          "bbox": {
+            "x0": 35.71600341796875,
+            "y0": 564.3807983398438,
+            "x1": 94.57488250732422,
+            "y1": 571.3546142578125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Academic Editor: Kam-Hung Low",
+          "bbox": {
+            "x0": 35.71600341796875,
+            "y0": 582.2837524414062,
+            "x1": 142.24777221679688,
+            "y1": 589.257568359375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Received: 9 April 2024",
+          "bbox": {
+            "x0": 35.71600341796875,
+            "y0": 601.1828002929688,
+            "x1": 104.97978210449219,
+            "y1": 608.1566162109375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Revised: 4 May 2024",
+          "bbox": {
+            "x0": 35.71600341796875,
+            "y0": 613.1087646484375,
+            "x1": 99.03114318847656,
+            "y1": 620.0825805664062
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Accepted: 6 May 2024",
+          "bbox": {
+            "x0": 35.44400405883789,
+            "y0": 625.0337524414062,
+            "x1": 103.25724792480469,
+            "y1": 632.007568359375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Published: 8 May 2024",
+          "bbox": {
+            "x0": 35.71600341796875,
+            "y0": 636.9588012695312,
+            "x1": 105.45401000976562,
+            "y1": 643.9326171875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Copyright: © 2024 by the authors.",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 683.5283203125,
+            "x1": 153.15582275390625,
+            "y1": 690.63818359375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Licensee MDPI, Basel, Switzerland.",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 695.52099609375,
+            "x1": 153.1561737060547,
+            "y1": 702.564208984375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "This article is an open access article",
+          "bbox": {
+            "x0": 35.5,
+            "y0": 707.4459838867188,
+            "x1": 151.9372100830078,
+            "y1": 714.4891967773438
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "distributed\nunder\nthe\nterms\nand",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 719.3709716796875,
+            "x1": 151.9398193359375,
+            "y1": 726.4141845703125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "conditions of the Creative Commons",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 731.2969970703125,
+            "x1": 151.93980407714844,
+            "y1": 738.3402099609375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Attribution (CC BY) license (https://",
+          "bbox": {
+            "x0": 35.444000244140625,
+            "y0": 743.2219848632812,
+            "x1": 153.20425415039062,
+            "y1": 750.2651977539062
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "creativecommons.org/licenses/by/",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 755.14697265625,
+            "x1": 148.39027404785156,
+            "y1": 762.190185546875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "4.0/).",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 767.122802734375,
+            "x1": 52.725101470947266,
+            "y1": 774.0966186523438
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "molecules",
+          "bbox": {
+            "x0": 74.18983459472656,
+            "y0": 49.30296325683594,
+            "x1": 177.7771759033203,
+            "y1": 74.50056457519531
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Article\nNew Cocrystals of Ligustrazine: Enhancing Hygroscopicity\nand Stability",
+          "bbox": {
+            "x0": 35.358001708984375,
+            "y0": 105.92192077636719,
+            "x1": 518.915283203125,
+            "y1": 155.79742431640625
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Yifei Xie 1,†\n, Lixiang Gong 2,†, Yue Tao 2, Baoxi Zhang 2, Li Zhang 2, Shiying Yang 2,*\n, Dezhi Yang 2,*\n,\nYang Lu 2,* and Guanhua Du 1",
+          "bbox": {
+            "x0": 35.388004302978516,
+            "y0": 168.39312744140625,
+            "x1": 518.7576904296875,
+            "y1": 192.78677368164062
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "1\nBeijing City Key Laboratory of Drug Target and Screening Research, National Center for Pharmaceutical\nScreening, Institute of Materia Medica, Chinese Academy of Medical Sciences, Peking Union Medical College,\nBeijing 100050, China; xieyifei@imm.ac.cn (Y.X.); dugh@imm.ac.cn (G.D.)\n2\nBeijing City Key Laboratory of Polymorphic Drugs, Center of Pharmaceutical Polymorphs, Institute of\nMateria Medica, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing 100050, China;\nglx15330819543@163.com (L.G.); taoy0215@163.com (Y.T.); zhangbx@imm.ac.cn (B.Z.);\nzhangl@imm.ac.cn (L.Z.)\n*\nCorrespondence: ysy@imm.ac.cn (S.Y.); ydz@imm.ac.cn (D.Y.); luy@imm.ac.cn (Y.L.)\n†\nThese authors contributed equally to this work.",
+          "bbox": {
+            "x0": 165.68399047851562,
+            "y0": 215.56240844726562,
+            "x1": 560.2745971679688,
+            "y1": 311.0731201171875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Abstract: Ligustrazine (TMP) is the main active ingredient extracted from Rhizoma Chuanxiong, which\nis used in the treatment of cardiovascular and cerebrovascular diseases, with the drawback of being\nunstable and readily sublimated. Cocrystal technology is an effective method to improve the stability\nof TMP. Three benzoic acid compounds including P-aminobenzoic acid (PABA), 3-Aminobenzoic\nacid (MABA), and 3,5-Dinitrobenzoic acid (DNBA) were chosen for co-crystallization with TMP.\nThree novel cocrystals were obtained, including TMP-PABA (1:2), TMP-MABA (1.5:1), and TMP-\nDNBA (0.5:1). Hygroscopicity was characterized by the dynamic vapor sorption (DVS) method.\nThree cocrystals significantly improved the hygroscopicity stability, and the mass change in TMP\ndecreased from 25% to 1.64% (TMP-PABA), 0.12% (TMP-MABA), and 0.03% (TMP-DNBA) at 90%\nrelative humidity. The melting points of the three cocrystals were all higher than TMP, among which\nthe TMP-DNBA cocrystal had the highest melting point and showed the best stability in reducing\nhygroscopicity. Crystal structure analysis shows that the mesh-like structure formed by the O-H· · · N\nhydrogen bond in the TMP-DNBA cocrystal was the reason for improving the stability of TMP.",
+          "bbox": {
+            "x0": 166.04400634765625,
+            "y0": 328.0231018066406,
+            "x1": 560.8400268554688,
+            "y1": 492.734619140625
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Keywords: ligustrazine; benzoic acid; cocrystal; stability; hygroscopicity",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 508.6103820800781,
+            "x1": 453.1380920410156,
+            "y1": 517.66162109375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "1. Introduction",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 557.9862060546875,
+            "x1": 234.50828552246094,
+            "y1": 567.9487915039062
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "The pharmaceutical cocrystal is defined as a single-phase crystalline solid composed\nof an active pharmaceutical ingredient (API) and coformers (CCFs) combined in the same\ncrystal lattice through noncovalent interactions in a certain stoichiometric ratio [1–4]. The\nformation of cocrystals could improve the poor physicochemical properties of API without\nmodifying the chemical structure [5–16].\nLigustrazine (Tetramethylpyrazine, TMP) is the active ingredient in traditional Chinese\nmedicine Rhizoma Chuanxiong. used in the treatment of cardiovascular and cerebrovascular\ndiseases [17–19]. It is reported that TMP has multiple pharmacological effects, including\nepilepsy [20], liver fibrosis [21], and obstetrical and gynecological diseases [22]. However,\nTMP is easily sublimated and hygroscopic in physicochemical properties [23–27].\nThe stability of TMP is poor. The N atoms in the structure of TMP can be used\nas H acceptors to combine the active hydrogen in benzoic acid through the cocrystal\ntransformation method combined with supramolecular and self-assembly principles. Cur-\nrently, the reported drug cocrystals of TMP include 3,5-dihydroxybenzoic acid [28], 2,6-\ndihydroxybenzoic acid, 3-nitrophthalic acid, phthalic acid, 3-hydroxybenzoic acid [29],\n4-hydroxybenzoic acid [30], etc. It suggests that TMP easily forms cocrystals with benzoic",
+          "bbox": {
+            "x0": 166.0850067138672,
+            "y0": 573.6189575195312,
+            "x1": 560.9325561523438,
+            "y1": 771.8790893554688
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208. https://doi.org/10.3390/molecules29102208\nhttps://www.mdpi.com/journal/molecules",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 814.77392578125,
+            "x1": 559.2717895507812,
+            "y1": 822.882080078125
+          }
+        }
+      ],
+      "render_path": "assets/page-0001.png"
+    },
+    {
+      "number": 2,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n2 of 16\nacid compounds, but there is no specific analysis of how benzoic acid compounds with\ndifferent substituents are connected with TMP to form cocrystals, and the stability of the\ncocrystals formed by different substituents is compared. If all N atoms in the structure of\nTMP are connected with CCF to form an inner chain structure, it will contribute to the stabil-\nity of the cocrystal structure and further improve the stability of TMP. Therefore, we choose\np-aminobenzoic acid (PABA) with anti-inflammatory and antibacterial activity as the para-\nsubstituted benzoic acid, 3-aminobenzoic acid (MABA) as metasubstituted benzoic acid,\nand 3,5-dinitrobenzoic acid (DNBA) with antibacterial activity as two meta-substituted\nbenzoic acid compounds, respectively (Figure 1). The characteristics and stability effects of\ncocrystal formation are systematically discussed.\nFigure 1. Molecule structures of TMP, PABA, MABA, and DNBA.\n2. Results\n2.1. Crystal Structure Analysis\nCrystals of three cocrystals suitable for single-crystal X-ray diffraction (SXRD) deter-\nmination were obtained from the solution using the slow evaporation method, namely the\nTMP-PABA cocrystal (1:2), the TMP-MABA cocrystal (1.5:1) and the TMP-DNBA cocrystal\n(0.5:1). The crystallographic data of three cocrystals are summarized in Table 1. The CIF\nfor each refinement and checkcif file have been deposited in the Cambridge Structural\nDatabase. The crystal structure was elucidated using SXRD.\nTable 1. Crystallographic parameters of TMP cocrystals.\nTMP-PABA\nTMP-MABA\nTMP-DNBA\nempirical formula\nC8H12N2·2(C7H7NO2)\n1.5(C8H12N2)·C7H7NO2\n0.5(C8H12N2)·C7H4N2O6\nmolecule weight\n410.47\n341.43\n280.22\ncrystal size (mm)\n0.21 × 0.23 × 0.25\n0.20 × 0.20 × 0.20\n0.10 × 0.10 × 0.30\ntemperature (K)\n302\n304\n293\ndescription\nblock\nblock\ncolumnar\ncrystal system\nmonoclinic\ntriclinic\northorhombic\nspace group\nC2/c\nP1\nPbca\na (Å)\n23.217 (1)\n9.017 (1)\n13.888 (1)\nb (Å)\n7.388 (1)\n9.449 (1)\n8.550 (1)\nc (Å)\n25.917 (1)\n12.144 (1)\n22.094 (1)\nα (deg)\n90\n105.438 (2)\n90\nβ (deg)\n100.597 (2)\n97.994 (2)\n90\nγ (deg)\n90\n98.473 (2)\n90\nvolume (Å3)\n4369.66 (17)\n968.98 (4)\n2623.46 (8)\nZ\n8\n2\n8\ndensity (g/cm3)\n1.248\n1.170\n1.419\nindependent reflections\n4445\n3906\n2659\nreflections with I > 2σ(I)\n3485\n3158\n2376\nRint\n0.045\n0.040\n0.036\nfinal R, wR (F2) value [I > 2 σ(I)]\n0.059, 0.185\n0.055, 0.176\n0.044, 0.130\ngoodness-of-fit on F2\n1.046\n1.064\n1.037\nCCDC numbers\n2,339,277\n2,339,276\n2,339,275\nThe deviation value is represented in brackets.\n",
+      "blocks": [
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n2 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "acid compounds, but there is no specific analysis of how benzoic acid compounds with\ndifferent substituents are connected with TMP to form cocrystals, and the stability of the\ncocrystals formed by different substituents is compared. If all N atoms in the structure of\nTMP are connected with CCF to form an inner chain structure, it will contribute to the stabil-\nity of the cocrystal structure and further improve the stability of TMP. Therefore, we choose\np-aminobenzoic acid (PABA) with anti-inflammatory and antibacterial activity as the para-\nsubstituted benzoic acid, 3-aminobenzoic acid (MABA) as metasubstituted benzoic acid,\nand 3,5-dinitrobenzoic acid (DNBA) with antibacterial activity as two meta-substituted\nbenzoic acid compounds, respectively (Figure 1). The characteristics and stability effects of\ncocrystal formation are systematically discussed.",
+          "bbox": {
+            "x0": 166.0850067138672,
+            "y0": 89.63335418701172,
+            "x1": 560.9291381835938,
+            "y1": 212.6441192626953
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Figure 1. Molecule structures of TMP, PABA, MABA, and DNBA.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 336.2313537597656,
+            "x1": 425.24407958984375,
+            "y1": 345.2826232910156
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "2. Results\n2.1. Crystal Structure Analysis",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 355.7922058105469,
+            "x1": 293.4769287109375,
+            "y1": 379.1265563964844
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Crystals of three cocrystals suitable for single-crystal X-ray diffraction (SXRD) deter-\nmination were obtained from the solution using the slow evaporation method, namely the\nTMP-PABA cocrystal (1:2), the TMP-MABA cocrystal (1.5:1) and the TMP-DNBA cocrystal\n(0.5:1). The crystallographic data of three cocrystals are summarized in Table 1. The CIF\nfor each refinement and checkcif file have been deposited in the Cambridge Structural\nDatabase. The crystal structure was elucidated using SXRD.",
+          "bbox": {
+            "x0": 166.06500244140625,
+            "y0": 384.8525390625,
+            "x1": 560.9259033203125,
+            "y1": 457.6051025390625
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Table 1. Crystallographic parameters of TMP cocrystals.",
+          "bbox": {
+            "x0": 166.09799194335938,
+            "y0": 473.0083312988281,
+            "x1": 388.831298828125,
+            "y1": 482.0596008300781
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "TMP-PABA\nTMP-MABA\nTMP-DNBA",
+          "bbox": {
+            "x0": 225.86599731445312,
+            "y0": 496.08135986328125,
+            "x1": 522.8331909179688,
+            "y1": 505.0477600097656
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "empirical formula\nC8H12N2·2(C7H7NO2)\n1.5(C8H12N2)·C7H7NO2\n0.5(C8H12N2)·C7H4N2O6\nmolecule weight\n410.47\n341.43\n280.22\ncrystal size (mm)\n0.21 × 0.23 × 0.25\n0.20 × 0.20 × 0.20\n0.10 × 0.10 × 0.30\ntemperature (K)\n302\n304\n293\ndescription\nblock\nblock\ncolumnar\ncrystal system\nmonoclinic\ntriclinic\northorhombic\nspace group\nC2/c\nP1\nPbca\na (Å)\n23.217 (1)\n9.017 (1)\n13.888 (1)\nb (Å)\n7.388 (1)\n9.449 (1)\n8.550 (1)\nc (Å)\n25.917 (1)\n12.144 (1)\n22.094 (1)\nα (deg)\n90\n105.438 (2)\n90\nβ (deg)\n100.597 (2)\n97.994 (2)\n90\nγ (deg)\n90\n98.473 (2)\n90\nvolume (Å3)\n4369.66 (17)\n968.98 (4)\n2623.46 (8)\nZ\n8\n2\n8\ndensity (g/cm3)\n1.248\n1.170\n1.419\nindependent reflections\n4445\n3906\n2659\nreflections with I > 2σ(I)\n3485\n3158\n2376\nRint\n0.045\n0.040\n0.036\nfinal R, wR (F2) value [I > 2 σ(I)]\n0.059, 0.185\n0.055, 0.176\n0.044, 0.130\ngoodness-of-fit on F2\n1.046\n1.064\n1.037\nCCDC numbers\n2,339,277\n2,339,276\n2,339,275",
+          "bbox": {
+            "x0": 41.693756103515625,
+            "y0": 510.9360656738281,
+            "x1": 547.1636352539062,
+            "y1": 754.862548828125
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "The deviation value is represented in brackets.",
+          "bbox": {
+            "x0": 166.14599609375,
+            "y0": 761.166015625,
+            "x1": 329.7881774902344,
+            "y1": 769.1361083984375
+          }
+        }
+      ],
+      "render_path": "assets/page-0002.png"
+    },
+    {
+      "number": 3,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n3 of 16\n2.1.1. TMP-PABA Cocrystal (1:2)\nThe obtained data revealed that the TMP-PABA cocrystal (1:2) crystallizes in the\nmonoclinic space group C2/c with one molecule TMP and two molecules PABA in the\nasymmetric unit, which are formed by hydrogen bonding N1A-H1AA· · · N1 (2.250 Å) and\nπ-π stacking involving the amino groups of the PABA as donors and the nitrogen atoms of\nthe TMP molecule as acceptors as shown in Figure 2a. Two asymmetric units are connected\nwith R2\n2(8) through hydrogen bonds O2AH2A· · · O1A (1.797 Å) to form a hexamer, and\nthen in the projection diagram of the molecule along the a-axis, the neighboring hexamers\nare linked to each other through hydrogen bonds between N2A and N2 (N2AH2AA· · · N2,\n2.437 Å) to form a zigzag chain structure along the c-axis (Figure 2b), the chain structure\nforms a layered structure along the b-axis (Figure 2c).\nFigure 2. (a) Hydrogen bonding interactions in an asymmetric unit; (b) weak hydrogen bonds and\nπ-π interactions; (c) hydrogen-bonded 3D ladder-like structure.\n2.1.2. TMP-MABA Cocrystal (1.5:1)\nThe single-crystal structure of the TMP-MABA cocrystal crystallizes in a triclinic\ncrystal system and P1 space group. As shown in Figure 3a, an asymmetric unit of the\nTMP-MABA cocrystal is composed of one and a half molecules of TMP and one molecule\nof MABA. It can be also viewed that three TMP and two MABA form a pentamer through\nO2AH2A· · · N1 (1.909 Å) hydrogen bonds between the TMP and the MABA molecules, and\ntwo MABA molecules formed R2\n2(14) bond through N1AH1AA· · · O1A (2.193 Å) hydrogen\nbonds (Figure 3b). Pentamers are connected through hydrogen bonds N1AH1AB· · · N2\n(2.349 Å), extending to form a chain-like structure along the b-axis (Figure 3c), the chain\nstructure forms a sandwich layered arrangement along the c-axis (Figure 3d).\n2.1.3. TMP-DNBA Cocrystal (0.5:1)\nAs for the TMP-DNBA cocrystal, it was crystallized in the orthorhombic crystal\nsystem and Pbca space group. Half a TMP molecule and one DNBA molecule constitute an\nasymmetric unit (Figure 4a). The nitrogen atoms of the amino group at both ends of a TMP\nmolecule are connected to -OH of the carboxyl groups of two DNBA molecules, forming\na trimer through hydrogen bonds O2AH2A· · · N1 (1.818 Å) (Figure 4b). Four trimers are\nconnected to form a parallelogram “layer” structure through π-π conjugation (C=O · · ·\nO-N+) (Figure 4c). In the projection diagram of molecules along the b-axis, the “layer”\nstructure extends to form a “mesh-like” 3D structure along the a-axis and c-axis directions\n(Figure 4d).\n",
+      "blocks": [
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n3 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2.1.1. TMP-PABA Cocrystal (1:2)",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 89.70447540283203,
+            "x1": 309.2775573730469,
+            "y1": 99.66707611083984
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "The obtained data revealed that the TMP-PABA cocrystal (1:2) crystallizes in the\nmonoclinic space group C2/c with one molecule TMP and two molecules PABA in the\nasymmetric unit, which are formed by hydrogen bonding N1A-H1AA· · · N1 (2.250 Å) and\nπ-π stacking involving the amino groups of the PABA as donors and the nitrogen atoms of\nthe TMP molecule as acceptors as shown in Figure 2a. Two asymmetric units are connected\nwith R2\n2(8) through hydrogen bonds O2AH2A· · · O1A (1.797 Å) to form a hexamer, and\nthen in the projection diagram of the molecule along the a-axis, the neighboring hexamers\nare linked to each other through hydrogen bonds between N2A and N2 (N2AH2AA· · · N2,\n2.437 Å) to form a zigzag chain structure along the c-axis (Figure 2b), the chain structure\nforms a layered structure along the b-axis (Figure 2c).",
+          "bbox": {
+            "x0": 165.97500610351562,
+            "y0": 105.17540740966797,
+            "x1": 560.5211181640625,
+            "y1": 228.1861114501953
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Figure 2. (a) Hydrogen bonding interactions in an asymmetric unit; (b) weak hydrogen bonds and\nπ-π interactions; (c) hydrogen-bonded 3D ladder-like structure.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 424.7336120605469,
+            "x1": 559.2742919921875,
+            "y1": 446.6426086425781
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2.1.2. TMP-MABA Cocrystal (1.5:1)",
+          "bbox": {
+            "x0": 166.39300537109375,
+            "y0": 457.2464904785156,
+            "x1": 321.0722961425781,
+            "y1": 467.2091064453125
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "The single-crystal structure of the TMP-MABA cocrystal crystallizes in a triclinic\ncrystal system and P1 space group. As shown in Figure 3a, an asymmetric unit of the\nTMP-MABA cocrystal is composed of one and a half molecules of TMP and one molecule\nof MABA. It can be also viewed that three TMP and two MABA form a pentamer through\nO2AH2A· · · N1 (1.909 Å) hydrogen bonds between the TMP and the MABA molecules, and\ntwo MABA molecules formed R2\n2(14) bond through N1AH1AA· · · O1A (2.193 Å) hydrogen\nbonds (Figure 3b). Pentamers are connected through hydrogen bonds N1AH1AB· · · N2\n(2.349 Å), extending to form a chain-like structure along the b-axis (Figure 3c), the chain\nstructure forms a sandwich layered arrangement along the c-axis (Figure 3d).",
+          "bbox": {
+            "x0": 166.06500244140625,
+            "y0": 472.7173767089844,
+            "x1": 559.2791137695312,
+            "y1": 583.175048828125
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2.1.3. TMP-DNBA Cocrystal (0.5:1)",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 595.6284790039062,
+            "x1": 319.88775634765625,
+            "y1": 605.591064453125
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "As for the TMP-DNBA cocrystal, it was crystallized in the orthorhombic crystal\nsystem and Pbca space group. Half a TMP molecule and one DNBA molecule constitute an\nasymmetric unit (Figure 4a). The nitrogen atoms of the amino group at both ends of a TMP\nmolecule are connected to -OH of the carboxyl groups of two DNBA molecules, forming\na trimer through hydrogen bonds O2AH2A· · · N1 (1.818 Å) (Figure 4b). Four trimers are\nconnected to form a parallelogram “layer” structure through π-π conjugation (C=O · · ·\nO-N+) (Figure 4c). In the projection diagram of molecules along the b-axis, the “layer”\nstructure extends to form a “mesh-like” 3D structure along the a-axis and c-axis directions\n(Figure 4d).",
+          "bbox": {
+            "x0": 166.06500244140625,
+            "y0": 611.098388671875,
+            "x1": 561.2632446289062,
+            "y1": 721.5560913085938
+          }
+        }
+      ],
+      "render_path": "assets/page-0003.png"
+    },
+    {
+      "number": 4,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n4 of 16\nFigure 3.\n(a) Hydrogen bonding interactions in an asymmetric unit; (b) pentamer structure;\n(c) hydrogen bonds; (d) hydrogen-bonded 3D ladder-like structure.\nFigure 4. (a) Hydrogen-bonding interactions in an asymmetric unit; (b) weak hydrogen bonds;\n(c) hydrogen-bonded mesh-like structure (d) hydrogen-bonded 3D ladder-like structure (green: TMP,\nblue: DNBA).\n2.2. Hirshfeld Surface Analysis\nHirshfeld surface was presented under 2D fingerprint plots, which were generated\nfor visualizing the contribution of intermolecular interaction in TMP-PABA cocrystal (a),\nTMP-MABA cocrystal (b), and TMP-DNBA cocrystal (c) in Figure 5. The strength of the in-\ntermolecular force is directly influenced by the color shade, with the red spot signifying the\nhydrogen bond between the molecules. An intermolecular force that is strong is indicated\nby a dark color. It can be seen that TMP can only serve as a hydrogen bond acceptor in all 2D\nfingerprint plots of the cocrystals, while PABA, MABA, and DNBA serve as both hydrogen\nbond donors and acceptors. As Figure 5 shows, the maximum contributions to the Hirsh-\nfeld surface are from H· · · H contacts (53.0% and 60.6%, respectively in TMP-PABA and\nTMP–MABA). Due to the presence of carboxyl groups in PABA, the hydrogen bond O· · · H/\n",
+      "blocks": [
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n4 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Figure 3.\n(a) Hydrogen bonding interactions in an asymmetric unit; (b) pentamer structure;\n(c) hydrogen bonds; (d) hydrogen-bonded 3D ladder-like structure.",
+          "bbox": {
+            "x0": 166.09800720214844,
+            "y0": 314.12847900390625,
+            "x1": 560.397705078125,
+            "y1": 336.0666198730469
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Figure 4. (a) Hydrogen-bonding interactions in an asymmetric unit; (b) weak hydrogen bonds;\n(c) hydrogen-bonded mesh-like structure (d) hydrogen-bonded 3D ladder-like structure (green: TMP,\nblue: DNBA).",
+          "bbox": {
+            "x0": 166.09800720214844,
+            "y0": 589.7354736328125,
+            "x1": 560.4005126953125,
+            "y1": 624.4945678710938
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "2.2. Hirshfeld Surface Analysis",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 634.9259643554688,
+            "x1": 292.56036376953125,
+            "y1": 644.8885498046875
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Hirshfeld surface was presented under 2D fingerprint plots, which were generated\nfor visualizing the contribution of intermolecular interaction in TMP-PABA cocrystal (a),\nTMP-MABA cocrystal (b), and TMP-DNBA cocrystal (c) in Figure 5. The strength of the in-\ntermolecular force is directly influenced by the color shade, with the red spot signifying the\nhydrogen bond between the molecules. An intermolecular force that is strong is indicated\nby a dark color. It can be seen that TMP can only serve as a hydrogen bond acceptor in all 2D\nfingerprint plots of the cocrystals, while PABA, MABA, and DNBA serve as both hydrogen\nbond donors and acceptors. As Figure 5 shows, the maximum contributions to the Hirsh-\nfeld surface are from H· · · H contacts (53.0% and 60.6%, respectively in TMP-PABA and\nTMP–MABA). Due to the presence of carboxyl groups in PABA, the hydrogen bond O· · · H/",
+          "bbox": {
+            "x0": 166.0850067138672,
+            "y0": 650.5693969726562,
+            "x1": 561.0886840820312,
+            "y1": 773.5518188476562
+          }
+        }
+      ],
+      "render_path": "assets/page-0004.png"
+    },
+    {
+      "number": 5,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n5 of 16\nH· · · O also plays a significant role in intermolecular interactions (21.0%), appearing as two\nslender sharp peaks at the edge of the fingerprint plots. Based on the finger plots of TMP-\nPABA cocrystal, the contacts of C· · · H/ H· · · C and N· · · H/ H· · · N accounted for 15.8%\nand 4.7%, respectively. For TMP–MABA cocrystal, in addition to H· · · H contact, there\nstill exists four interactions including C· · · H/ H· · · C (16.6%), N· · · H/ H· · · N (10.4%),\nO· · · H/ H· · · O (8.7%). The contributions to the interactions in TMP-DNBA cocrystal\nare O· · · H/ H· · · O (39.2%), H· · · H (27.2%), C· · · H/ H· · · C (5.4%) and N· · · H/ H· · · N\n(3.6%). The fingerprint plots of TMP-DNBA cocrystal show that O· · · H/ H· · · O hydrogen\nbonds are the major contributor to the interactions, which are different from TMP-PABA\nand TMP-MABA cocrystal. Therefore, the stability of the TMP-DNBA cocrystal is better\nthan that of the TMP-PABA cocrystal and TMP-MABA cocrystal. All cocrystal struc-\ntures maintain their stable arrangement in space through hydrogen bonding and van der\nWaals forces.\n \nFigure 5. Cont.\n",
+      "blocks": [
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n5 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "H· · · O also plays a significant role in intermolecular interactions (21.0%), appearing as two\nslender sharp peaks at the edge of the fingerprint plots. Based on the finger plots of TMP-\nPABA cocrystal, the contacts of C· · · H/ H· · · C and N· · · H/ H· · · N accounted for 15.8%\nand 4.7%, respectively. For TMP–MABA cocrystal, in addition to H· · · H contact, there\nstill exists four interactions including C· · · H/ H· · · C (16.6%), N· · · H/ H· · · N (10.4%),\nO· · · H/ H· · · O (8.7%). The contributions to the interactions in TMP-DNBA cocrystal\nare O· · · H/ H· · · O (39.2%), H· · · H (27.2%), C· · · H/ H· · · C (5.4%) and N· · · H/ H· · · N\n(3.6%). The fingerprint plots of TMP-DNBA cocrystal show that O· · · H/ H· · · O hydrogen\nbonds are the major contributor to the interactions, which are different from TMP-PABA\nand TMP-MABA cocrystal. Therefore, the stability of the TMP-DNBA cocrystal is better\nthan that of the TMP-PABA cocrystal and TMP-MABA cocrystal. All cocrystal struc-\ntures maintain their stable arrangement in space through hydrogen bonding and van der\nWaals forces.",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 88.60429382324219,
+            "x1": 560.9282836914062,
+            "y1": 250.30311584472656
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Figure 5. Cont.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 723.0908813476562,
+            "x1": 224.7196044921875,
+            "y1": 732.2125854492188
+          }
+        }
+      ],
+      "render_path": "assets/page-0005.png"
+    },
+    {
+      "number": 6,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n6 of 16\nFigure 5. Hirshfeld surface and 2D fingerprint plots of three cocrystals (a) TMP-PABA cocrystal.\n(b) TMP-MABA cocrystal. (c) TMP-DNBA cocrystal.\n2.3. Theoretical Computation Study\nTheoretical calculation can explain the interaction between API and CCF in cocrys-\ntals [31]. By calculating the interaction energy, it is found that when TMP forms a cocrystal\nwith DNBA, the interaction energy between two carboxyl groups and N atoms in TMP\nis the largest. Interaction energies Eint1 and Eint2 are −16.83 kcal/mol, respectively, and\nthe total reached −33.66 kcal/mol; When TMP forms cocrystal with MABA, carboxyl\nand amino in the existing structure react with N in TMP respectively, and the interaction\nenergies Eint1 and Eint2 are −12.34 kcal/mol and −6.96 kcal/mol respectively, and the\ntotal reached to −19.30 kcal/mol. When TMP forms a cocrystal with PABA, amino in PABA\nreacts with N in TMP. The interaction energies Eint1 and Eint2 are −5.18 kcal/mol and\n−7.49 kcal/mol, respectively, and the total reaches −12.67 kcal/mol, which shows that the\ninteraction between carboxyl and N in TMP. The order of interaction strength in the three\ncocrystals is TMP-DNBA > TMP-MABA > TMP-PABA, which shows that TMP-DNBA is in\nthese three cocrystals. This is also consistent with the results of bond length in cocrystals\nmeasured after crystal structure analysis. The bond length of the hydrogen bond connected\nwith TMP in the cocrystal is TMP-DNBA < TMP-MABA < TMP-PABA. Therefore, it shows\nthat when TMP and CCF form a chain structure, it is more beneficial to the stability of the\ncocrystal (Figure 6).\nFigure 6. Theoretical calculation between TMP and CCFS. (a) Interaction between TMP and DNBA.\n(b) Interaction between TMP and MABA. (c) Interaction between TMP and PABA.\n",
+      "blocks": [
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n6 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Figure 5. Hirshfeld surface and 2D fingerprint plots of three cocrystals (a) TMP-PABA cocrystal.\n(b) TMP-MABA cocrystal. (c) TMP-DNBA cocrystal.",
+          "bbox": {
+            "x0": 166.09800720214844,
+            "y0": 313.36248779296875,
+            "x1": 560.8478393554688,
+            "y1": 335.3006286621094
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "2.3. Theoretical Computation Study",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 345.7319641113281,
+            "x1": 311.1705017089844,
+            "y1": 355.6945495605469
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Theoretical calculation can explain the interaction between API and CCF in cocrys-\ntals [31]. By calculating the interaction energy, it is found that when TMP forms a cocrystal\nwith DNBA, the interaction energy between two carboxyl groups and N atoms in TMP\nis the largest. Interaction energies Eint1 and Eint2 are −16.83 kcal/mol, respectively, and\nthe total reached −33.66 kcal/mol; When TMP forms cocrystal with MABA, carboxyl\nand amino in the existing structure react with N in TMP respectively, and the interaction\nenergies Eint1 and Eint2 are −12.34 kcal/mol and −6.96 kcal/mol respectively, and the\ntotal reached to −19.30 kcal/mol. When TMP forms a cocrystal with PABA, amino in PABA\nreacts with N in TMP. The interaction energies Eint1 and Eint2 are −5.18 kcal/mol and\n−7.49 kcal/mol, respectively, and the total reaches −12.67 kcal/mol, which shows that the\ninteraction between carboxyl and N in TMP. The order of interaction strength in the three\ncocrystals is TMP-DNBA > TMP-MABA > TMP-PABA, which shows that TMP-DNBA is in\nthese three cocrystals. This is also consistent with the results of bond length in cocrystals\nmeasured after crystal structure analysis. The bond length of the hydrogen bond connected\nwith TMP in the cocrystal is TMP-DNBA < TMP-MABA < TMP-PABA. Therefore, it shows\nthat when TMP and CCF form a chain structure, it is more beneficial to the stability of the\ncocrystal (Figure 6).",
+          "bbox": {
+            "x0": 165.97500610351562,
+            "y0": 361.3743896484375,
+            "x1": 560.92822265625,
+            "y1": 572.256103515625
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Figure 6. Theoretical calculation between TMP and CCFS. (a) Interaction between TMP and DNBA.\n(b) Interaction between TMP and MABA. (c) Interaction between TMP and PABA.",
+          "bbox": {
+            "x0": 166.09800720214844,
+            "y0": 736.4495239257812,
+            "x1": 560.841796875,
+            "y1": 758.3325805664062
+          }
+        }
+      ],
+      "render_path": "assets/page-0006.png"
+    },
+    {
+      "number": 7,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n7 of 16\n2.4. Powder X-ray Diffraction (PXRD) Analysis\nEach compound produces its unique powder pattern due to its unique crystal structure.\nEach type of cocrystal of TMP exhibits a unique PXRD pattern that differs from the starting\nmaterials of TMP and its three ligands in Figure 7a, suggesting the formation of new\ncrystalline solid phases. TMP showed characteristic diffraction peaks at 2θ values of 16.28◦,\n16.88◦, 19.96◦, 20.76◦, 22.10◦, 24.44◦, and 27.10◦. The characteristic diffraction peaks of\nPABA are at 2θ values of 9.26◦, 13.68◦, 15.12◦, and 21.66◦. The characteristic diffraction\npeaks of MABA are at 2θ values of 8.16◦, 16.50◦, 17.24◦, 20.50◦, 24.20◦, 24.58◦, 25.58◦,\n27.10◦, 28.36◦, 37.02◦, and 37.74◦. The characteristic diffraction peaks of DNBA are at 2θ\nvalues of 13.34◦, 15.50◦, 17.82◦, 19.22◦, 21.08◦, 21.52◦, 22.02◦, 23.20◦, 24.56◦, 25.82◦, 27.02◦,\n29.34◦, 32.20◦, and 37.34◦. In the diffraction patterns of the three cocrystals of TMP, the\ncharacteristic diffraction peaks of TMP have all disappeared. For the TMP-PABA cocrystal,\nthe new diffraction peak has been generated at 2θ values of 9.10◦, 11.06◦, 14.34◦, 15.56◦,\n17.94◦, 18.60◦, 20.12◦, 23.80◦, 24.70◦, 25.62◦, 26.02◦, 26.66◦, 27.76◦, and 29.28◦. For the\nTMP-MABA cocrystal, the new diffraction peak was generated at 2θ values of 9.90◦, 12.52◦,\n15.24◦, 23.02◦, 23.82◦, 25.4◦, and 26.92◦. For the TMP-DNBA cocrystal, the new diffraction\npeak was generated at 2θ values of 7.84◦, 12.64◦, 14.36◦, 14.86◦, 20.34◦, and 23.04◦. The\nexperimental PXRD patterns and the simulated PXRD patterns are presented in Figure 7b.\nThe good consistencies between the experimental PXRD spectra and the simulated PXRD\nspectra calculated from the SXRD data confirm the high purity of the prepared cocrystals.\nFigure 7. PXRD patterns of the cocrystals and the starting materials of TMP, PABA, MABA, and\nDNBA. (a) Experimental PXRD patterns. (b) The experimental and simulated PXRD patterns of\nthree cocrystals.\n",
+      "blocks": [
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n7 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "2.4. Powder X-ray Diffraction (PXRD) Analysis",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 89.53190612792969,
+            "x1": 362.8166198730469,
+            "y1": 99.4945068359375
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Each compound produces its unique powder pattern due to its unique crystal structure.\nEach type of cocrystal of TMP exhibits a unique PXRD pattern that differs from the starting\nmaterials of TMP and its three ligands in Figure 7a, suggesting the formation of new\ncrystalline solid phases. TMP showed characteristic diffraction peaks at 2θ values of 16.28◦,\n16.88◦, 19.96◦, 20.76◦, 22.10◦, 24.44◦, and 27.10◦. The characteristic diffraction peaks of\nPABA are at 2θ values of 9.26◦, 13.68◦, 15.12◦, and 21.66◦. The characteristic diffraction\npeaks of MABA are at 2θ values of 8.16◦, 16.50◦, 17.24◦, 20.50◦, 24.20◦, 24.58◦, 25.58◦,\n27.10◦, 28.36◦, 37.02◦, and 37.74◦. The characteristic diffraction peaks of DNBA are at 2θ\nvalues of 13.34◦, 15.50◦, 17.82◦, 19.22◦, 21.08◦, 21.52◦, 22.02◦, 23.20◦, 24.56◦, 25.82◦, 27.02◦,\n29.34◦, 32.20◦, and 37.34◦. In the diffraction patterns of the three cocrystals of TMP, the\ncharacteristic diffraction peaks of TMP have all disappeared. For the TMP-PABA cocrystal,\nthe new diffraction peak has been generated at 2θ values of 9.10◦, 11.06◦, 14.34◦, 15.56◦,\n17.94◦, 18.60◦, 20.12◦, 23.80◦, 24.70◦, 25.62◦, 26.02◦, 26.66◦, 27.76◦, and 29.28◦. For the\nTMP-MABA cocrystal, the new diffraction peak was generated at 2θ values of 9.90◦, 12.52◦,\n15.24◦, 23.02◦, 23.82◦, 25.4◦, and 26.92◦. For the TMP-DNBA cocrystal, the new diffraction\npeak was generated at 2θ values of 7.84◦, 12.64◦, 14.36◦, 14.86◦, 20.34◦, and 23.04◦. The\nexperimental PXRD patterns and the simulated PXRD patterns are presented in Figure 7b.\nThe good consistencies between the experimental PXRD spectra and the simulated PXRD\nspectra calculated from the SXRD data confirm the high purity of the prepared cocrystals.",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 105.318359375,
+            "x1": 561.0228881835938,
+            "y1": 341.162109375
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Figure 7. PXRD patterns of the cocrystals and the starting materials of TMP, PABA, MABA, and\nDNBA. (a) Experimental PXRD patterns. (b) The experimental and simulated PXRD patterns of\nthree cocrystals.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 701.9114990234375,
+            "x1": 559.2744140625,
+            "y1": 736.6715698242188
+          }
+        }
+      ],
+      "render_path": "assets/page-0007.png"
+    },
+    {
+      "number": 8,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n8 of 16\n2.5. Differential Scanning Calorimetry (DSC)\nThe thermal behavior of three cocrystals was evaluated through DSC. As shown in\nFigure 8, three cocrystals were obtained with new narrow endothermic peaks, indicating\nthat the purity of cocrystals obtained by the slurry method is relatively high. Specifically,\nthe DSC thermogram endothermic peaks of TMP-PABA, TMP-MABA, and TMP-DNBA\ncocrystal are 157.3 ◦C, 148.4 ◦C, and 183.3 ◦C, between the endothermic peaks of API\nand CCF. Among them, the endothermic peaks of TMP are 86.1 ◦C and CCF are 187.9 ◦C\n(PABA), 175.5 ◦C (MABA), and 205.7 ◦C (DNBA), respectively. The emergence of new\nendothermic peaks proves that there was an interaction between API and CCF, generating\nnew phases. The endothermic peak is related to lattice energy and the stability of the\nreaction substance [32,33]. The melting points of the three cocrystals are all higher than\nTMP, which shows that the stability of TMP can be improved by forming cocrystals. The\nendothermic peak temperature of the TMP-DNBA cocrystal is the highest among the three\ncocrystals, suggesting the TMP-DNBA cocrystal is the most stable one.\nFigure 8. DSC thermograms of the cocrystals and TMP, PABA, MABA, and DNBA.\n2.6. FT-IR Analysis\nFT-IR is widely used to identify various polymorphic solids due to its sensitivity to\nsubtle changes in crystal structure. The infrared spectra of all samples in this study were\ncharacterized by FT-IR to determine the generation of new substances. The IR spectra of\nthe TMP cocrystals together with API and CCF are shown in Figure 9. The characteristic\npeaks of the imide -C=N group of TMP appear at 2988 cm−1 and 2922 cm−1. PABA has\ntwo moderate absorption peaks of primary amine stretching vibration at 3460 cm−1 and\n3360 cm−1, and primary amine bending vibration at 1658 cm−1. The characteristic peaks\nof the TMP-PABA cocrystal are 3439 cm−1, 3316 cm−1, and 1657 cm−1, which indicates\nthe redshift. It is suggested that a cocrystal is formed by a hydrogen bond between the\nnitrogen atom of the TMP molecule and the primary amine group of the PABA molecule.\nDuring the formation of the TMP-MABA cocrystal, in addition to the hydrogen bonds\nbetween the nitrogen atoms on TMP molecules and the hydroxyl groups on the carboxyl\n",
+      "blocks": [
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n8 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "2.5. Differential Scanning Calorimetry (DSC)",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 89.53190612792969,
+            "x1": 351.8876953125,
+            "y1": 99.4945068359375
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "The thermal behavior of three cocrystals was evaluated through DSC. As shown in\nFigure 8, three cocrystals were obtained with new narrow endothermic peaks, indicating\nthat the purity of cocrystals obtained by the slurry method is relatively high. Specifically,\nthe DSC thermogram endothermic peaks of TMP-PABA, TMP-MABA, and TMP-DNBA\ncocrystal are 157.3 ◦C, 148.4 ◦C, and 183.3 ◦C, between the endothermic peaks of API\nand CCF. Among them, the endothermic peaks of TMP are 86.1 ◦C and CCF are 187.9 ◦C\n(PABA), 175.5 ◦C (MABA), and 205.7 ◦C (DNBA), respectively. The emergence of new\nendothermic peaks proves that there was an interaction between API and CCF, generating\nnew phases. The endothermic peak is related to lattice energy and the stability of the\nreaction substance [32,33]. The melting points of the three cocrystals are all higher than\nTMP, which shows that the stability of TMP can be improved by forming cocrystals. The\nendothermic peak temperature of the TMP-DNBA cocrystal is the highest among the three\ncocrystals, suggesting the TMP-DNBA cocrystal is the most stable one.",
+          "bbox": {
+            "x0": 166.06500244140625,
+            "y0": 105.17540740966797,
+            "x1": 560.5213012695312,
+            "y1": 265.8440856933594
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Figure 8. DSC thermograms of the cocrystals and TMP, PABA, MABA, and DNBA.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 592.96728515625,
+            "x1": 494.15087890625,
+            "y1": 602.0185546875
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "2.6. FT-IR Analysis",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 611.8649291992188,
+            "x1": 246.70249938964844,
+            "y1": 621.8275146484375
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "FT-IR is widely used to identify various polymorphic solids due to its sensitivity to\nsubtle changes in crystal structure. The infrared spectra of all samples in this study were\ncharacterized by FT-IR to determine the generation of new substances. The IR spectra of\nthe TMP cocrystals together with API and CCF are shown in Figure 9. The characteristic\npeaks of the imide -C=N group of TMP appear at 2988 cm−1 and 2922 cm−1. PABA has\ntwo moderate absorption peaks of primary amine stretching vibration at 3460 cm−1 and\n3360 cm−1, and primary amine bending vibration at 1658 cm−1. The characteristic peaks\nof the TMP-PABA cocrystal are 3439 cm−1, 3316 cm−1, and 1657 cm−1, which indicates\nthe redshift. It is suggested that a cocrystal is formed by a hydrogen bond between the\nnitrogen atom of the TMP molecule and the primary amine group of the PABA molecule.\nDuring the formation of the TMP-MABA cocrystal, in addition to the hydrogen bonds\nbetween the nitrogen atoms on TMP molecules and the hydroxyl groups on the carboxyl",
+          "bbox": {
+            "x0": 166.09500122070312,
+            "y0": 627.5084228515625,
+            "x1": 561.0142822265625,
+            "y1": 775.6395263671875
+          }
+        }
+      ],
+      "render_path": "assets/page-0008.png"
+    },
+    {
+      "number": 9,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n9 of 16\ngroups of MABA molecules, the interaction between the amino and carboxyl groups of\nMABA molecules formed intermolecular hydrogen bonds, which resulted that the new\npeaks emerged at 3428 cm−1, 3342 cm−1, 3232 cm−1, and the C=O stretching vibrations\nand -NH2 bending vibrations blue shifted from 1619 cm−1 and 1559 cm−1 to 1688 cm−1\nand 1650 cm−1. The carboxylic acid group of DNBA shows the C=O stretch at 1678 cm−1\nand the -OH stretch at 3093 cm−1. It suggests that the hydrogen bonds are formed between\nthe nitrogen atoms on TMP molecules and the hydroxyl groups on the carboxyl groups on\nDNBA molecules in the single crystal structure of the TMP-DNBA cocrystal. Thus, after\nthe formation of the TMP-DNBA cocrystal, blue shifts in amide stretching frequencies and\ncarbonyl frequencies are observed in infrared spectra. These changes in spectral peaks\nreflect that the imide group of TMP and the carboxyl and amino groups of the CCFs are\ninvolved in hydrogen bonds in co-crystallization.\nFigure 9. The IR spectra of the TMP cocrystals together with the API and CCFs.\n2.7. Stability Test\nTMP was unstable under high temperature (HT, 60 ± 1 ◦C), high humidity (HH,\n95% ± 5%), and strong illumination (SI, 4500 lx ± 500 lx) conditions, as shown in Figure 10a.\nSpecifically, TMP completely evaporated under HT condition for 5 days, due to its melting\npoint. TMP became TMP trihydrate (TMP-3H2O) after 5 days of HH conditions. The\nresults of the stability test of cocrystals are shown in Figure 10b–d. The results show that\nboth TMP-PABA cocrystal and TMP-MABA cocrystal are unstable under HT conditions.\nThey will be converted to PABA and MABA, respectively. TMP-MABA cocrystal will be\nconverted to a mixture of MABA and TMP trihydrate under HH conditions. However, the\nTMP-PABA cocrystal has good stability under HH and SI conditions. TMP-MABA cocrystal\ncan maintain good stability under SI conditions. The TMP-DNBA cocrystal showed the\nbest stability under the three conditions. Overall, the stability of TMP can be significantly\nimproved by generating cocrystals with benzoic acid compounds.\n",
+      "blocks": [
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n9 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "groups of MABA molecules, the interaction between the amino and carboxyl groups of\nMABA molecules formed intermolecular hydrogen bonds, which resulted that the new\npeaks emerged at 3428 cm−1, 3342 cm−1, 3232 cm−1, and the C=O stretching vibrations\nand -NH2 bending vibrations blue shifted from 1619 cm−1 and 1559 cm−1 to 1688 cm−1",
+          "bbox": {
+            "x0": 166.09500122070312,
+            "y0": 89.63335418701172,
+            "x1": 559.6981201171875,
+            "y1": 139.17408752441406
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "and 1650 cm−1. The carboxylic acid group of DNBA shows the C=O stretch at 1678 cm−1",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 137.17977905273438,
+            "x1": 559.1558227539062,
+            "y1": 149.88894653320312
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "and the -OH stretch at 3093 cm−1. It suggests that the hydrogen bonds are formed between\nthe nitrogen atoms on TMP molecules and the hydroxyl groups on the carboxyl groups on\nDNBA molecules in the single crystal structure of the TMP-DNBA cocrystal. Thus, after\nthe formation of the TMP-DNBA cocrystal, blue shifts in amide stretching frequencies and\ncarbonyl frequencies are observed in infrared spectra. These changes in spectral peaks\nreflect that the imide group of TMP and the carboxyl and amino groups of the CCFs are\ninvolved in hydrogen bonds in co-crystallization.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 149.73178100585938,
+            "x1": 559.4747924804688,
+            "y1": 237.7500762939453
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Figure 9. The IR spectra of the TMP cocrystals together with the API and CCFs.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 550.1683349609375,
+            "x1": 480.67425537109375,
+            "y1": 559.2196044921875
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "2.7. Stability Test",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 569.6509399414062,
+            "x1": 237.46719360351562,
+            "y1": 579.613525390625
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "TMP was unstable under high temperature (HT, 60 ± 1 ◦C), high humidity (HH,\n95% ± 5%), and strong illumination (SI, 4500 lx ± 500 lx) conditions, as shown in Figure 10a.\nSpecifically, TMP completely evaporated under HT condition for 5 days, due to its melting\npoint. TMP became TMP trihydrate (TMP-3H2O) after 5 days of HH conditions. The\nresults of the stability test of cocrystals are shown in Figure 10b–d. The results show that\nboth TMP-PABA cocrystal and TMP-MABA cocrystal are unstable under HT conditions.\nThey will be converted to PABA and MABA, respectively. TMP-MABA cocrystal will be\nconverted to a mixture of MABA and TMP trihydrate under HH conditions. However, the\nTMP-PABA cocrystal has good stability under HH and SI conditions. TMP-MABA cocrystal\ncan maintain good stability under SI conditions. The TMP-DNBA cocrystal showed the\nbest stability under the three conditions. Overall, the stability of TMP can be significantly\nimproved by generating cocrystals with benzoic acid compounds.",
+          "bbox": {
+            "x0": 166.0850067138672,
+            "y0": 582.6277465820312,
+            "x1": 561.0161743164062,
+            "y1": 733.4100952148438
+          }
+        }
+      ],
+      "render_path": "assets/page-0009.png"
+    },
+    {
+      "number": 10,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n10 of 16\n \n \n \n \nFigure 10. Results of stability test of TMP (a) and the cocrystals of TMP-PABA (b), TMP-MABA (c),\nand TMP-DNBA (d).\n",
+      "blocks": [
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n10 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Figure 10. Results of stability test of TMP (a) and the cocrystals of TMP-PABA (b), TMP-MABA (c),\nand TMP-DNBA (d).",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 722.8935546875,
+            "x1": 560.39599609375,
+            "y1": 744.78955078125
+          }
+        }
+      ],
+      "render_path": "assets/page-0010.png"
+    },
+    {
+      "number": 11,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n11 of 16\n2.8. DVS Analysis\nDVS can effectively evaluate the hygroscopic stability of drug cocrystals [4,34,35].\nWithin the RH range of 0~50%, the weight of TMP slightly decreased due to its tendency\nto sublimate and the condition of nitrogen blowing. Dynamic vapor sorption isotherms\nof TMP and cocrystal systems at 25 ◦C are shown in Figure 11. The weight of TMP was\nreduced by 1.28% at 50% RH. Then, TMP began to absorb water rapidly. When the RH\nreached 60%, the mass change of TMP was 13.01%. Along with increasing RH up to 70% RH,\nthe weight of the TMP gradually increased to 25.28%. At the range of RH 70~90%, the mass\nchange was in a relatively stable state. At 90% relative humidity, the moisture content of\nTMP was as high as 25.48%, which indicated that TMP had strong hygroscopicity. However,\nthe moisture content of the TMP-MABA cocrystal was low at 90% relative humidity, which\nwas only 1.64%. The water content of TMP-PABA and TMP-DNBA cocrystals were low\nat 90% relative humidity, which were 0.12% and 0.03%, respectively. It demonstrated\nthat the hygroscopicity of TMP was greatly improved by forming cocrystals with benzoic\nacid compounds.\nFigure 11. Dynamic vapor sorption isotherms of TMP and cocrystal systems at 25 ◦C.\n2.9. Solubility Experiment\nAs shown in Figure 12, it was observed that TMP and three cocrystals had better\nsolubility under pH 1.2 conditions. Acidic media promote the dissociation of TMP, resulting\nin better solubility in acidic media. The solubility of TMP-PABA cocrystal in pH 7.0, 6.8,\nand 4.5 buffer was similar to that of TMP. TMP-MABA cocrystal was 1.6 times more soluble\nthan TMP in pH 7.0 buffer, 1.5 times more soluble than TMP in pH 6.8 buffer, and 1.4 times\nmore soluble than TMP in pH 4.5 buffer. All TMP cocrystals were less soluble than TMP in\nthe buffer at pH 1.2. TMP-PABA and TMP-MABA cocrystals were multilayered in their\nlattices, whereas TMP-DNBA cocrystal was assembled into a mesh-like network structure\nin the lattice. Therefore, TMP-DNBA is more difficult to detach from the lattice during\ndissolution than TMP-PABA and TMP-MABA cocrystals, resulting in its lower solubility.\n",
+      "blocks": [
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n11 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "2.8. DVS Analysis",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 89.53190612792969,
+            "x1": 242.82704162597656,
+            "y1": 99.4945068359375
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "DVS can effectively evaluate the hygroscopic stability of drug cocrystals [4,34,35].\nWithin the RH range of 0~50%, the weight of TMP slightly decreased due to its tendency\nto sublimate and the condition of nitrogen blowing. Dynamic vapor sorption isotherms\nof TMP and cocrystal systems at 25 ◦C are shown in Figure 11. The weight of TMP was\nreduced by 1.28% at 50% RH. Then, TMP began to absorb water rapidly. When the RH\nreached 60%, the mass change of TMP was 13.01%. Along with increasing RH up to 70% RH,\nthe weight of the TMP gradually increased to 25.28%. At the range of RH 70~90%, the mass\nchange was in a relatively stable state. At 90% relative humidity, the moisture content of\nTMP was as high as 25.48%, which indicated that TMP had strong hygroscopicity. However,\nthe moisture content of the TMP-MABA cocrystal was low at 90% relative humidity, which\nwas only 1.64%. The water content of TMP-PABA and TMP-DNBA cocrystals were low\nat 90% relative humidity, which were 0.12% and 0.03%, respectively. It demonstrated\nthat the hygroscopicity of TMP was greatly improved by forming cocrystals with benzoic\nacid compounds.",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 105.17540740966797,
+            "x1": 561.0193481445312,
+            "y1": 278.3971252441406
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Figure 11. Dynamic vapor sorption isotherms of TMP and cocrystal systems at 25 ◦C.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 552.2777099609375,
+            "x1": 503.9317932128906,
+            "y1": 563.839599609375
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "2.9. Solubility Experiment",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 574.2709350585938,
+            "x1": 273.4620666503906,
+            "y1": 584.2335205078125
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "As shown in Figure 12, it was observed that TMP and three cocrystals had better\nsolubility under pH 1.2 conditions. Acidic media promote the dissociation of TMP, resulting\nin better solubility in acidic media. The solubility of TMP-PABA cocrystal in pH 7.0, 6.8,\nand 4.5 buffer was similar to that of TMP. TMP-MABA cocrystal was 1.6 times more soluble\nthan TMP in pH 7.0 buffer, 1.5 times more soluble than TMP in pH 6.8 buffer, and 1.4 times\nmore soluble than TMP in pH 4.5 buffer. All TMP cocrystals were less soluble than TMP in\nthe buffer at pH 1.2. TMP-PABA and TMP-MABA cocrystals were multilayered in their\nlattices, whereas TMP-DNBA cocrystal was assembled into a mesh-like network structure\nin the lattice. Therefore, TMP-DNBA is more difficult to detach from the lattice during\ndissolution than TMP-PABA and TMP-MABA cocrystals, resulting in its lower solubility.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 589.9133911132812,
+            "x1": 560.5214233398438,
+            "y1": 712.924072265625
+          }
+        }
+      ],
+      "render_path": "assets/page-0011.png"
+    },
+    {
+      "number": 12,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n12 of 16\nFigure 12. Solubility of TMP, the TMP-PABA cocrystal, the TMP-MABA cocrystal, the TMP-DNBA\ncocrystal in purified water (pH 7.0), hydrochloric acid solution (pH 1.2), acetate buffer solution\n(pH 4.5), and phosphate buffer saline (pH 6.8). (n = 3).\n3. Experimental Section\n3.1. Materials\nBoth TMP (purity > 98%) and DNBA (purity > 98%) were purchased from Hubei\nWande Chemical Co., Ltd. (Tianmen, China). PABA (purity > 99%) was purchased from\nWuhan Yuancheng Technology Development Co., Ltd. (Wuhan, China). MABA acid\n(purity > 99%) was purchased from InnoChem Science & Technology Co., Ltd. (Beijing,\nChina). All analytical grade solvents were purchased from Beijing Chemical Reagent\nFactory (Beijing, China). The methanol used in high-performance liquid chromatography\nanalysis was chromatographically pure and was purchased from Honeywell Burdick &\nJackson Co. (Ulsan, Korea) The solid reagents, including potassium dihydrogen phosphate,\nsodium hydroxide, and anhydrous sodium acetate, used for the preparation of buffer\nsolution for solubility research, were all analytical pure and were purchased from Beijing\nChemical Reagent Factory (Beijing, China).\n3.2. Preparations\n3.2.1. Preparation of TMP-PABA Cocrystal (1:2)\nThe powder sample of TMP-PABA cocrystal (1:2) was prepared by the slurry method.\nTMP (817.2 mg, 6 mmol), PABA (1645.7 mg, 12 mmol), and 8 mL acetonitrile were added in\na glass vial, with a stirring rate of 300 rpm for 2 days at room temperature. The light yellow\npowder sample was obtained after drying at room temperature. The single crystal of the\nTMP-PABA cocrystal (1:2) was obtained by the slow evaporation method. TMP (13.6 mg,\n0.1 mmol) and PABA (27.4 mg, 0.2 mmol) were dissolved in 10 mL acetone. Pale yellow\ntransparent block-shaped crystals were obtained at 23 ◦C for 7 days.\n3.2.2. Preparation of TMP-MABA Cocrystal (1.5:1)\nThe powder sample of TMP-MABA cocrystal (1.5:1) was prepared by the slurry\nmethod. TMP (1634.3 mg, 12 mmol), MABA (1097.2 mg, 8 mmol), and 8 mL acetonitrile\nwere added in a glass vial, with a stirring rate of 300 rpm for 2 days at room temperature.\nThe light pink powder was obtained after drying at room temperature. The single crystal\nof the TMP-MABA cocrystal (1.5:1) was obtained by the slow evaporation method. TMP\n(20.4 mg, 0.15 mmol) and MABA (13.7 mg, 0.1 mmol) were dissolved in 2 mL ethyl acetate.\nColorless transparent block crystals were obtained at 23 ◦C for 5 days.\n",
+      "blocks": [
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n12 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Figure 12. Solubility of TMP, the TMP-PABA cocrystal, the TMP-MABA cocrystal, the TMP-DNBA\ncocrystal in purified water (pH 7.0), hydrochloric acid solution (pH 1.2), acetate buffer solution\n(pH 4.5), and phosphate buffer saline (pH 6.8). (n = 3).",
+          "bbox": {
+            "x0": 166.09800720214844,
+            "y0": 318.8870849609375,
+            "x1": 559.6210327148438,
+            "y1": 353.6116027832031
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "3. Experimental Section\n3.1. Materials",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 364.12017822265625,
+            "x1": 274.0697326660156,
+            "y1": 387.45452880859375
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Both TMP (purity > 98%) and DNBA (purity > 98%) were purchased from Hubei\nWande Chemical Co., Ltd. (Tianmen, China). PABA (purity > 99%) was purchased from\nWuhan Yuancheng Technology Development Co., Ltd. (Wuhan, China). MABA acid\n(purity > 99%) was purchased from InnoChem Science & Technology Co., Ltd. (Beijing,\nChina). All analytical grade solvents were purchased from Beijing Chemical Reagent\nFactory (Beijing, China). The methanol used in high-performance liquid chromatography\nanalysis was chromatographically pure and was purchased from Honeywell Burdick &\nJackson Co. (Ulsan, Korea) The solid reagents, including potassium dihydrogen phosphate,\nsodium hydroxide, and anhydrous sodium acetate, used for the preparation of buffer\nsolution for solubility research, were all analytical pure and were purchased from Beijing\nChemical Reagent Factory (Beijing, China).",
+          "bbox": {
+            "x0": 165.89500427246094,
+            "y0": 393.1353759765625,
+            "x1": 560.5184326171875,
+            "y1": 528.6981201171875
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "3.2. Preparations\n3.2.1. Preparation of TMP-PABA Cocrystal (1:2)",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 540.9789428710938,
+            "x1": 374.8315124511719,
+            "y1": 564.5640869140625
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "The powder sample of TMP-PABA cocrystal (1:2) was prepared by the slurry method.\nTMP (817.2 mg, 6 mmol), PABA (1645.7 mg, 12 mmol), and 8 mL acetonitrile were added in\na glass vial, with a stirring rate of 300 rpm for 2 days at room temperature. The light yellow\npowder sample was obtained after drying at room temperature. The single crystal of the\nTMP-PABA cocrystal (1:2) was obtained by the slow evaporation method. TMP (13.6 mg,\n0.1 mmol) and PABA (27.4 mg, 0.2 mmol) were dissolved in 10 mL acetone. Pale yellow\ntransparent block-shaped crystals were obtained at 23 ◦C for 7 days.",
+          "bbox": {
+            "x0": 166.0850067138672,
+            "y0": 570.1793212890625,
+            "x1": 561.0160522460938,
+            "y1": 655.424072265625
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "3.2.2. Preparation of TMP-MABA Cocrystal (1.5:1)",
+          "bbox": {
+            "x0": 166.3939666748047,
+            "y0": 667.8775024414062,
+            "x1": 386.627197265625,
+            "y1": 677.840087890625
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "The powder sample of TMP-MABA cocrystal (1.5:1) was prepared by the slurry\nmethod. TMP (1634.3 mg, 12 mmol), MABA (1097.2 mg, 8 mmol), and 8 mL acetonitrile\nwere added in a glass vial, with a stirring rate of 300 rpm for 2 days at room temperature.\nThe light pink powder was obtained after drying at room temperature. The single crystal\nof the TMP-MABA cocrystal (1.5:1) was obtained by the slow evaporation method. TMP\n(20.4 mg, 0.15 mmol) and MABA (13.7 mg, 0.1 mmol) were dissolved in 2 mL ethyl acetate.\nColorless transparent block crystals were obtained at 23 ◦C for 5 days.",
+          "bbox": {
+            "x0": 165.97500610351562,
+            "y0": 683.347412109375,
+            "x1": 561.0230102539062,
+            "y1": 768.6990966796875
+          }
+        }
+      ],
+      "render_path": "assets/page-0012.png"
+    },
+    {
+      "number": 13,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n13 of 16\n3.2.3. Preparation of TMP-DNBA Cocrystal (0.5:1)\nThe powder sample of TMP-DNBA cocrystal (0.5:1) was prepared by the slurry method.\nTMP (544.8 mg, 4 mmol), DNBA (1697.0 mg, 8 mmol), and 8 mL acetonitrile were added\nin a glass vial, with a stirring rate of 300 rpm for 2 days at room temperature. The white\npowder sample was obtained after drying at room temperature. The single crystal of the\nTMP-PABA cocrystal (1:2) was obtained by the slow evaporation method. TMP (13.6 mg,\n0.1 mmol) and DNBA (42.2 mg, 0.2 mmol) were dissolved in 2 mL methanol. Colorless\ntransparent columnar-shaped crystals were obtained at 23 ◦C for 7 days.\n3.3. Single-Crystal X-ray Diffraction (SXRD)\nSXRD experiments were performed at ambient temperature on a Rigaku Micromax\n002+ CCD diffractometer (Rigaku, The Woodlands, TX, USA) and a graphite monochroma-\ntor using Cu Kα radiation (λ = 1.54184Å). All crystal structures were solved by Olex2 1.5\nSoftware using the direct method and refined by the full-matrix least-squares method on\nF2 with anisotropic displacement parameters [36–38]. All the non-hydrogen atoms were\nrefined anisotropically. The H atoms bound to the O atoms are located using Fourier analy-\nsis and geometric calculation. The program Mercury (2023.3.0) was applied to generate\nmolecular graphics. The Hirshfeld surface and 2D fingerprint plot analysis of TMP-PABA,\nTMP-MABA, and TMP-DNBA were analyzed by Crystal Explorer 17.5 Software.\n3.4. Theoretical Computation Study\nThe geometry optimization of hydrogen atoms and single-point energy calculations\nwere conducted using the Gaussian package at the B3LYP-D3BJ/6-311G (d, p) and M06-\n2X(D3)/def2-TZVP levels. Concurrently, the interaction energies between TMP and other\nmolecules within the respective cocrystal were calculated at the same computational level,\nemploying the counterpoise correction method.\n3.5. Powder X-ray Diffraction (PXRD)\nPXRD experiments were performed using a Rigaku D/MAX-2550 diffractometer\n(Rigaku, Tokyo, Japan) with a graphite monochromator using Cu Kα radiation\n(λ = 1.54184Å). The tube voltage and amperage were set to 40 kV and 150 mA, respectively.\nDiffraction patterns were collected in a continuous scanning mode in the 2θ range 3–40◦\nusing a step size of 0.02◦(2θ) and a scanning speed of 8◦/min. The data were processed\nusing JADE 6.0 software. [39,40] The simulated PXRD pattern was obtained using the\nMercury (2023.3.0) software. Chemical and structural consistency between bulk sample\npowders and single crystals was verified by comparing the experimental and simulated\nPXRD patterns.\n3.6. Differential Scanning Calorimetry (DSC)\nThe DSC spectra were recorded using a 1/500 differential scanning calorimeter (Mettler\nToledo, Greifensee, Switzerland), and STARe Evaluation 13.0 software Powder samples\nwere placed in aluminum crucibles and heated at 10 K/min and the range of programmed\ntemperature was 30 ◦C to 220 ◦C.\n3.7. Fourier Transform Infrared (FT-IR) Spectroscopy\nAll FT-IR measurements were performed using a PerkinElmer Spectrum 400 Fourier\ntransform infrared spectrophotometer (PerkinElmer, Waltham, MA, USA) and attenuated\ntotal reflection sampling attachment. The infrared spectrum was recorded in a scanning\nrange of 400 to 4000 cm−1 with 16 scans and a resolution of 4 cm−1 and processed using\nthe PerkinElmer software kit (6.3.5 v.).\n",
+      "blocks": [
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n13 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "3.2.3. Preparation of TMP-DNBA Cocrystal (0.5:1)",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 89.70447540283203,
+            "x1": 385.4416809082031,
+            "y1": 99.66707611083984
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "The powder sample of TMP-DNBA cocrystal (0.5:1) was prepared by the slurry method.\nTMP (544.8 mg, 4 mmol), DNBA (1697.0 mg, 8 mmol), and 8 mL acetonitrile were added\nin a glass vial, with a stirring rate of 300 rpm for 2 days at room temperature. The white\npowder sample was obtained after drying at room temperature. The single crystal of the\nTMP-PABA cocrystal (1:2) was obtained by the slow evaporation method. TMP (13.6 mg,\n0.1 mmol) and DNBA (42.2 mg, 0.2 mmol) were dissolved in 2 mL methanol. Colorless\ntransparent columnar-shaped crystals were obtained at 23 ◦C for 7 days.",
+          "bbox": {
+            "x0": 166.0850067138672,
+            "y0": 105.318359375,
+            "x1": 561.0228271484375,
+            "y1": 190.52711486816406
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "3.3. Single-Crystal X-ray Diffraction (SXRD)",
+          "bbox": {
+            "x0": 166.39398193359375,
+            "y0": 202.80796813964844,
+            "x1": 352.594970703125,
+            "y1": 212.77056884765625
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "SXRD experiments were performed at ambient temperature on a Rigaku Micromax\n002+ CCD diffractometer (Rigaku, The Woodlands, TX, USA) and a graphite monochroma-\ntor using Cu Kα radiation (λ = 1.54184Å). All crystal structures were solved by Olex2 1.5\nSoftware using the direct method and refined by the full-matrix least-squares method on\nF2 with anisotropic displacement parameters [36–38]. All the non-hydrogen atoms were\nrefined anisotropically. The H atoms bound to the O atoms are located using Fourier analy-\nsis and geometric calculation. The program Mercury (2023.3.0) was applied to generate\nmolecular graphics. The Hirshfeld surface and 2D fingerprint plot analysis of TMP-PABA,\nTMP-MABA, and TMP-DNBA were analyzed by Crystal Explorer 17.5 Software.",
+          "bbox": {
+            "x0": 166.0850067138672,
+            "y0": 218.4539031982422,
+            "x1": 560.9321899414062,
+            "y1": 328.9081115722656
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "3.4. Theoretical Computation Study",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 341.18896484375,
+            "x1": 311.1705322265625,
+            "y1": 351.15155029296875
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "The geometry optimization of hydrogen atoms and single-point energy calculations\nwere conducted using the Gaussian package at the B3LYP-D3BJ/6-311G (d, p) and M06-\n2X(D3)/def2-TZVP levels. Concurrently, the interaction energies between TMP and other\nmolecules within the respective cocrystal were calculated at the same computational level,\nemploying the counterpoise correction method.",
+          "bbox": {
+            "x0": 165.97500610351562,
+            "y0": 356.86785888671875,
+            "x1": 560.9255981445312,
+            "y1": 417.0780944824219
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "3.5. Powder X-ray Diffraction (PXRD)",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 429.35894775390625,
+            "x1": 324.8989562988281,
+            "y1": 439.321533203125
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "PXRD experiments were performed using a Rigaku D/MAX-2550 diffractometer\n(Rigaku, Tokyo, Japan) with a graphite monochromator using Cu Kα radiation\n(λ = 1.54184Å). The tube voltage and amperage were set to 40 kV and 150 mA, respectively.\nDiffraction patterns were collected in a continuous scanning mode in the 2θ range 3–40◦",
+          "bbox": {
+            "x0": 166.06500244140625,
+            "y0": 445.0013732910156,
+            "x1": 561.014892578125,
+            "y1": 492.7179260253906
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "using a step size of 0.02◦(2θ) and a scanning speed of 8◦/min. The data were processed\nusing JADE 6.0 software. [39,40] The simulated PXRD pattern was obtained using the\nMercury (2023.3.0) software. Chemical and structural consistency between bulk sample\npowders and single crystals was verified by comparing the experimental and simulated\nPXRD patterns.",
+          "bbox": {
+            "x0": 166.09500122070312,
+            "y0": 492.54779052734375,
+            "x1": 559.2789916992188,
+            "y1": 555.4591064453125
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "3.6. Differential Scanning Calorimetry (DSC)",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 567.7399291992188,
+            "x1": 351.8876953125,
+            "y1": 577.7025146484375
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "The DSC spectra were recorded using a 1/500 differential scanning calorimeter (Mettler\nToledo, Greifensee, Switzerland), and STARe Evaluation 13.0 software Powder samples\nwere placed in aluminum crucibles and heated at 10 K/min and the range of programmed\ntemperature was 30 ◦C to 220 ◦C.",
+          "bbox": {
+            "x0": 165.97500610351562,
+            "y0": 583.5263671875,
+            "x1": 559.4706420898438,
+            "y1": 631.0760498046875
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "3.7. Fourier Transform Infrared (FT-IR) Spectroscopy",
+          "bbox": {
+            "x0": 166.39398193359375,
+            "y0": 643.35693359375,
+            "x1": 381.47662353515625,
+            "y1": 653.3195190429688
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "All FT-IR measurements were performed using a PerkinElmer Spectrum 400 Fourier\ntransform infrared spectrophotometer (PerkinElmer, Waltham, MA, USA) and attenuated\ntotal reflection sampling attachment. The infrared spectrum was recorded in a scanning\nrange of 400 to 4000 cm−1 with 16 scans and a resolution of 4 cm−1 and processed using\nthe PerkinElmer software kit (6.3.5 v.).",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 659.0562133789062,
+            "x1": 559.4738159179688,
+            "y1": 719.2450561523438
+          }
+        }
+      ],
+      "render_path": "assets/page-0013.png"
+    },
+    {
+      "number": 14,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n14 of 16\n3.8. Stability Experiment\nPXRD evaluated the stability of the TMP-PABA cocrystal (1:2), TMP-MABA cocrystal\n(1.5:1), and TMP-DNBA cocrystal (0.5:1) under high temperature (60 ± 1 ◦C), high humidity\n(95% ± 5%), and strong illumination (4500 lx ± 500 lx) conditions.\n3.9. Dynamic Water Vapor Sorption (DVS)\nMoisture sorption isotherms were collected on a Surface Measurement Systems DVS\nResolution (SMS, London, UK) at 25 ± 0.1 ◦C. DVS technology calculates the equilibrium\namount of vapor sorption and desorption by measuring the change in sample mass when\nthe sample reaches the equilibrium state under conditions of a certain temperature and\ndifferent relative humidity. Before data collection, each sample was dried under nitrogen,\npurged until a constant weight was attained, which was assumed to be the dry mass of the\nsample. The sample equilibrated at each step with equilibration criteria of either dm/dt\n≤0.002% or a maximum equilibration time of 300 min. Then, the relative humidity (RH)\nvaried in the range of 0–90–0% with a step size of 10%. When one of the criteria was met,\nthe relative humidity (RH) was changed to the next stage. Finally, it drew the sorption–\ndesorption isotherm according to their relationship to study the trend and extent of water\nvapor sorption on samples.\n3.10. Solubility Experiments\nSolubility tests were carried out by adding an excess TMP, TMP-PABA, TMP-MABA,\nand TMP-DNBA under pH 1.2, 4.5, 6.8, and 7.0 buffer solutions. The suspensions were kept\nfor continuously shaking in vials containing 2 mL of experimental media at 37 ± 0.5 ◦C for\n48 h, then stewing for 24 h. The supernatant was diluted by 30 times and then filtered using\n0.22 µm nylon filters. TMP, TMP-PABA, TMP-MABA, and TMP-DNBA of the resulting\nfiltrates were assayed by high-performance liquid chromatography (HPLC).\n3.11. HPLC Method\nTMP and cocrystals were quantified using a quaternary pump Agilent HPLC system\n(1260 series) equipped with a UV detector (Agilent Technologies, Santa Clara, CA, USA). A\nKromasilCl8 (4.6 mm × 250 mm, 5 um) column was used for chromatographic separation.\nThe mobile phase was pure water (pH 7.0) and methanol in 40:60 ratios. Analysis was\nperformed at a flow rate of 1 mL/min and a detector wavelength of 280 nm. The injection\nvolume was 10 µL.\n4. Conclusions\nThe purpose of this work was to investigate the co-crystallization of benzoic acid\ncompounds with TMP to enhance the stability and improve the physicochemical qualities.\nIn this study, cocrystals of TMP with three benzoic acid compounds were prepared by the\nslurry method, and three new cocrystals were obtained by the slow solvent evaporation\nmethod. SXRD, PXRD, IR spectroscopy, and DSC were used to characterize the cocrystals\nto determine three novel structures. TMP-PABA cocrystal forms N-H· · · N and O-H· · · O\nhydrogen bonds through nitrogen atoms on the tertiary amine of TMP and the carboxyl\ngroup of PABA. The molecules in the TMP-MABA cocrystal and TMP-DNBA cocrystal\nare connected by O-H· · · N hydrogen bond between the tertiary amine group of TMP and\nhydroxyl groups on carboxyl of PABA and DNBA. DSC, stability test and DVS results\nshow that cocrystal exhibits better hygroscopicity and thermal stability than TMP. The\nTMP-DNBA cocrystal shows the best stability among these cocrystals and is also supported\nby the equilibrium solubility result. Therefore, for the solid drugs of TMP, selecting benzoic\nacid compounds to form cocrystals with a mesh structure via an O-H· · · N hydrogen bond\nis a method to improve the stability and related oral dosage form of TMP. The theoretical\ncalculation shows that TMP and DNBA have the largest intermolecular interaction energy,\nwhich also shows that TMP-DNBA has the strongest cocrystal stability.\n",
+      "blocks": [
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n14 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "3.8. Stability Experiment",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 89.53190612792969,
+            "x1": 268.4707946777344,
+            "y1": 99.4945068359375
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "PXRD evaluated the stability of the TMP-PABA cocrystal (1:2), TMP-MABA cocrystal\n(1.5:1), and TMP-DNBA cocrystal (0.5:1) under high temperature (60 ± 1 ◦C), high humidity\n(95% ± 5%), and strong illumination (4500 lx ± 500 lx) conditions.",
+          "bbox": {
+            "x0": 166.06500244140625,
+            "y0": 105.27517700195312,
+            "x1": 559.6600341796875,
+            "y1": 140.31507873535156
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "3.9. Dynamic Water Vapor Sorption (DVS)",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 152.59593200683594,
+            "x1": 342.5029296875,
+            "y1": 162.55853271484375
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Moisture sorption isotherms were collected on a Surface Measurement Systems DVS\nResolution (SMS, London, UK) at 25 ± 0.1 ◦C. DVS technology calculates the equilibrium\namount of vapor sorption and desorption by measuring the change in sample mass when\nthe sample reaches the equilibrium state under conditions of a certain temperature and\ndifferent relative humidity. Before data collection, each sample was dried under nitrogen,\npurged until a constant weight was attained, which was assumed to be the dry mass of the\nsample. The sample equilibrated at each step with equilibration criteria of either dm/dt\n≤0.002% or a maximum equilibration time of 300 min. Then, the relative humidity (RH)\nvaried in the range of 0–90–0% with a step size of 10%. When one of the criteria was met,\nthe relative humidity (RH) was changed to the next stage. Finally, it drew the sorption–\ndesorption isotherm according to their relationship to study the trend and extent of water\nvapor sorption on samples.",
+          "bbox": {
+            "x0": 166.09500122070312,
+            "y0": 168.30593872070312,
+            "x1": 560.7655029296875,
+            "y1": 316.3551330566406
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "3.10. Solubility Experiments",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 328.635986328125,
+            "x1": 282.3188171386719,
+            "y1": 338.59857177734375
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "Solubility tests were carried out by adding an excess TMP, TMP-PABA, TMP-MABA,\nand TMP-DNBA under pH 1.2, 4.5, 6.8, and 7.0 buffer solutions. The suspensions were kept\nfor continuously shaking in vials containing 2 mL of experimental media at 37 ± 0.5 ◦C for\n48 h, then stewing for 24 h. The supernatant was diluted by 30 times and then filtered using\n0.22 µm nylon filters. TMP, TMP-PABA, TMP-MABA, and TMP-DNBA of the resulting\nfiltrates were assayed by high-performance liquid chromatography (HPLC).",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 344.35052490234375,
+            "x1": 560.5234985351562,
+            "y1": 417.0780944824219
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "3.11. HPLC Method",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 429.35894775390625,
+            "x1": 248.90420532226562,
+            "y1": 439.321533203125
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "TMP and cocrystals were quantified using a quaternary pump Agilent HPLC system\n(1260 series) equipped with a UV detector (Agilent Technologies, Santa Clara, CA, USA). A\nKromasilCl8 (4.6 mm × 250 mm, 5 um) column was used for chromatographic separation.\nThe mobile phase was pure water (pH 7.0) and methanol in 40:60 ratios. Analysis was\nperformed at a flow rate of 1 mL/min and a detector wavelength of 280 nm. The injection\nvolume was 10 µL.",
+          "bbox": {
+            "x0": 166.06500244140625,
+            "y0": 445.07965087890625,
+            "x1": 561.0155639648438,
+            "y1": 517.800048828125
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "4. Conclusions",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 530.1591796875,
+            "x1": 233.39248657226562,
+            "y1": 540.1217651367188
+          }
+        },
+        {
+          "page": 14,
+          "kind": "text",
+          "text": "The purpose of this work was to investigate the co-crystallization of benzoic acid\ncompounds with TMP to enhance the stability and improve the physicochemical qualities.\nIn this study, cocrystals of TMP with three benzoic acid compounds were prepared by the\nslurry method, and three new cocrystals were obtained by the slow solvent evaporation\nmethod. SXRD, PXRD, IR spectroscopy, and DSC were used to characterize the cocrystals\nto determine three novel structures. TMP-PABA cocrystal forms N-H· · · N and O-H· · · O\nhydrogen bonds through nitrogen atoms on the tertiary amine of TMP and the carboxyl\ngroup of PABA. The molecules in the TMP-MABA cocrystal and TMP-DNBA cocrystal\nare connected by O-H· · · N hydrogen bond between the tertiary amine group of TMP and\nhydroxyl groups on carboxyl of PABA and DNBA. DSC, stability test and DVS results\nshow that cocrystal exhibits better hygroscopicity and thermal stability than TMP. The\nTMP-DNBA cocrystal shows the best stability among these cocrystals and is also supported\nby the equilibrium solubility result. Therefore, for the solid drugs of TMP, selecting benzoic\nacid compounds to form cocrystals with a mesh structure via an O-H· · · N hydrogen bond\nis a method to improve the stability and related oral dosage form of TMP. The theoretical\ncalculation shows that TMP and DNBA have the largest intermolecular interaction energy,\nwhich also shows that TMP-DNBA has the strongest cocrystal stability.",
+          "bbox": {
+            "x0": 165.97500610351562,
+            "y0": 545.724365234375,
+            "x1": 561.0216064453125,
+            "y1": 756.6051025390625
+          }
+        }
+      ],
+      "render_path": "assets/page-0014.png"
+    },
+    {
+      "number": 15,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n15 of 16\nAuthor Contributions: Conceptualization, writing—original draft, data curation, formal analysis,\ninvestigation, methodology, writing—review & editing, Y.X.; data curation, methodology, formal\nanalysis, investigation, and writing—original draft, L.G.; validation, investigation, Y.T.; investigation,\ndata curation, B.Z.; data curation, funding acquisition, L.Z.; supervision, project administration,\nresources, writing—review and editing, S.Y.; methodology, project administration, writing—review\nand editing, D.Y.; funding acquisition, supervision, Y.L.; conceptualization, funding acquisition, G.D.\nAll authors have read and agreed to the published version of the manuscript.\nFunding: This research was funded by the CAMS Innovation Fund for Medical Sciences (grant No.\n2022-I2M-1-015).\nInstitutional Review Board Statement: Not applicable.\nInformed Consent Statement: Not applicable.\nData Availability Statement: The data on the compounds are available from the authors.\nConflicts of Interest: The authors declare no conflict of interest.\nReferences\n1.\nBolla, G.; Sarma, B.; Nangia, A.K. Crystal engineering of pharmaceutical cocrystals in the discovery and development of improved\ndrugs. Chem. Rev. 2022, 122, 11514–11603. [CrossRef] [PubMed]\n2.\nXu, J.; Shi, Q.; Wang, Y.A.; Wang, Y.; Xin, J.B.; Cheng, J.; Li, F. Recent Advances in Pharmaceutical Cocrystals: A Focused Review\nof Flavonoid Cocrystals. Molecules 2023, 28, 613. [CrossRef] [PubMed]\n3.\nSingh, M.; Barua, H.; Jyothi, V.G.S.S.; Dhondale, M.R.; Nambiar, A.G.; Agrawal, A.K.; Kumar, P.; Shastri, N.R.; Kumar, D.\nCocrystals by Design: A Rational Coformer Selection Approach for Tackling the API Problems. Pharmaceutics 2023, 15, 1161.\n[CrossRef] [PubMed]\n4.\nBofill, L.; de Sande, D.; Barbas, R.; Prohens, R. New cocrystal of ubiquinol with high stability to oxidation. Cryst. Growth Des.\n2020, 20, 5583–5588. [CrossRef]\n5.\nWang, J.; Dai, X.L.; Lu, T.B.; Chen, J.M. Temozolomide–hesperetin drug–drug cocrystal with optimized performance in stability,\ndissolution, and tabletability. Cryst. Growth Des. 2021, 21, 838–846. [CrossRef]\n6.\nShinozaki, T.; Ono, M.; Higashi, K.; Moribe, K. A novel drug-drug cocrystal of levofloxacin and metacetamol: Reduced\nhygroscopicity and improved photostability of levofloxacin. J. Pharm. Sci. 2019, 108, 2383–2390. [CrossRef] [PubMed]\n7.\nLi, M.; Sun, J.; Kuang, W.; Zhou, L.; Han, D.; Gong, J. Drug–Drug Multicomponent Crystals of Epalrestat: A Novel Form of the\nDrug Combination and Improved Solubility and Photostability of Epalrestat. Cryst. Growth Des. 2022, 22, 5027–5035. [CrossRef]\n8.\nPutra, O.D.; Umeda, D.; Nugraha, Y.P.; Nango, K.; Yonemochi, E.; Uekusa, H. Simultaneous improvement of epalrestat\nphotostability and solubility via cocrystallization: A case study. Cryst. Growth Des. 2018, 18, 373–379. [CrossRef]\n9.\nSun, J.; Jia, L.; Wang, M.; Liu, Y.; Li, M.; Han, D.; Gong, J. Novel drug–drug multicomponent crystals of epalrestat–metformin:\nImproved solubility and photostability of epalrestat and reduced hygroscopicity of metformin. Cryst. Growth Des. 2022, 22,\n1005–1016. [CrossRef]\n10.\nYang, D.; Cao, J.; Jiao, L.; Yang, S.; Zhang, L.; Lu, Y.; Du, G. Solubility and stability advantages of a new cocrystal of berberine\nchloride with fumaric acid. ACS Omega 2020, 5, 8283–8292. [CrossRef] [PubMed]\n11.\nCheng, Y.; Jiang, Y.; Zhang, B.; Rong, X.; Ding, Q.; Zhang, Z.; Wang, J.; Mei, X. Improving the Stability, Dissolution, and\nBioavailability of Isotretinoin by Cocrystallization. Cryst. Growth Des. 2022, 22, 7469–7477. [CrossRef]\n12.\nGuo, C.; Zhang, Q.; Zhu, B.; Zhang, Z.; Bao, J.; Ding, Q.; Ren, G.; Mei, X. Pharmaceutical cocrystals of nicorandil with enhanced\nchemical stability and sustained release. Cryst. Growth Des. 2020, 20, 6995–7005. [CrossRef]\n13.\nLiu, L.; Zhang, Z.; Cheng, Y.; Jiang, Y.; Lu, L.; Wang, J.R.; Mei, X. Stabilizing L-Menthol by Cocrystallization: Supramolecular\nCavities Succeeded in Retaining the Volatile Flavor. Cryst. Growth Des. 2022, 22, 7285–7297. [CrossRef]\n14.\nIto, M.; Nambu, K.; Sakon, A.; Uekusa, H.; Yonemochi, E.; Noguchi, S.; Terada, K. Mechanisms for improved hygroscopicity of\nL-arginine valproate revealed by X-ray single crystal structure analysis. J. Pharm. Sci. 2017, 106, 859–865. [CrossRef]\n15.\nQi, M.H.; Li, H.; Zhu, B.; Hong, M.; Ren, G.B. Cocrystals of Oxymatrine: Reducing Hygroscopicity and Affecting the Dissolution\nRate. Cryst. Growth Des. 2021, 21, 3874–3888. [CrossRef]\n16.\nWang, Z.Z.; Chen, J.M.; Lu, T.B. Enhancing the hygroscopic stability of S-oxiracetam via pharmaceutical cocrystals. Cryst. Growth\nDes. 2012, 12, 4562–4566. [CrossRef]\n17.\nZou, J.; Gao, P.; Hao, X.; Xu, H.; Zhan, P.; Liu, X. Recent progress in the structural modification and pharmacological activities of\nligustrazine derivatives. Eur. J. Med. Chem. 2018, 147, 150–162. [CrossRef] [PubMed]\n18.\nZhang, Y.; He, L.; Ma, C.; Wang, C.; Zhou, H.L.; Guo, C.C.; Gong, L.H.; Wan, Y.; Peng, C.; Li, Y.X. Research progress on the\npharmacy of tetramethylpyrazine and its pharmacological activity in cardiovascular and cerebrovascular diseases. J. Pharm.\nPharmacol. 2022, 74, 843–860. [CrossRef] [PubMed]\n19.\nFeng, F.; Xu, D.Q.; Yue, S.J.; Chen, Y.Y.; Tang, Y.P. Neuroprotection by tetramethylpyrazine and its synthesized analogues for\ncentral nervous system diseases: A review. Mol. Biol. Rep. 2024, 51, 159. [CrossRef] [PubMed]\n",
+      "blocks": [
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n15 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "Author Contributions: Conceptualization, writing—original draft, data curation, formal analysis,\ninvestigation, methodology, writing—review & editing, Y.X.; data curation, methodology, formal\nanalysis, investigation, and writing—original draft, L.G.; validation, investigation, Y.T.; investigation,\ndata curation, B.Z.; data curation, funding acquisition, L.Z.; supervision, project administration,\nresources, writing—review and editing, S.Y.; methodology, project administration, writing—review\nand editing, D.Y.; funding acquisition, supervision, Y.L.; conceptualization, funding acquisition, G.D.\nAll authors have read and agreed to the published version of the manuscript.",
+          "bbox": {
+            "x0": 166.04400634765625,
+            "y0": 90.26946258544922,
+            "x1": 560.8412475585938,
+            "y1": 169.6825714111328
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "Funding: This research was funded by the CAMS Innovation Fund for Medical Sciences (grant No.\n2022-I2M-1-015).",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 178.30484008789062,
+            "x1": 560.8414306640625,
+            "y1": 199.0916290283203
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "Institutional Review Board Statement: Not applicable.",
+          "bbox": {
+            "x0": 166.3939971923828,
+            "y0": 207.73440551757812,
+            "x1": 386.6160583496094,
+            "y1": 216.78565979003906
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "Informed Consent Statement: Not applicable.",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 225.42837524414062,
+            "x1": 350.5170593261719,
+            "y1": 234.47962951660156
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "Data Availability Statement: The data on the compounds are available from the authors.",
+          "bbox": {
+            "x0": 166.39401245117188,
+            "y0": 243.12136840820312,
+            "x1": 519.3012084960938,
+            "y1": 252.17262268066406
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "Conflicts of Interest: The authors declare no conflict of interest.",
+          "bbox": {
+            "x0": 166.39402770996094,
+            "y0": 260.8153381347656,
+            "x1": 418.0879211425781,
+            "y1": 269.8666076660156
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "References",
+          "bbox": {
+            "x0": 35.71601867675781,
+            "y0": 282.5072021484375,
+            "x1": 85.51905059814453,
+            "y1": 292.4698181152344
+          }
+        },
+        {
+          "page": 15,
+          "kind": "text",
+          "text": "1.\nBolla, G.; Sarma, B.; Nangia, A.K. Crystal engineering of pharmaceutical cocrystals in the discovery and development of improved\ndrugs. Chem. Rev. 2022, 122, 11514–11603. [CrossRef] [PubMed]\n2.\nXu, J.; Shi, Q.; Wang, Y.A.; Wang, Y.; Xin, J.B.; Cheng, J.; Li, F. Recent Advances in Pharmaceutical Cocrystals: A Focused Review\nof Flavonoid Cocrystals. Molecules 2023, 28, 613. [CrossRef] [PubMed]\n3.\nSingh, M.; Barua, H.; Jyothi, V.G.S.S.; Dhondale, M.R.; Nambiar, A.G.; Agrawal, A.K.; Kumar, P.; Shastri, N.R.; Kumar, D.\nCocrystals by Design: A Rational Coformer Selection Approach for Tackling the API Problems. Pharmaceutics 2023, 15, 1161.\n[CrossRef] [PubMed]\n4.\nBofill, L.; de Sande, D.; Barbas, R.; Prohens, R. New cocrystal of ubiquinol with high stability to oxidation. Cryst. Growth Des.\n2020, 20, 5583–5588. [CrossRef]\n5.\nWang, J.; Dai, X.L.; Lu, T.B.; Chen, J.M. Temozolomide–hesperetin drug–drug cocrystal with optimized performance in stability,\ndissolution, and tabletability. Cryst. Growth Des. 2021, 21, 838–846. [CrossRef]\n6.\nShinozaki, T.; Ono, M.; Higashi, K.; Moribe, K. A novel drug-drug cocrystal of levofloxacin and metacetamol: Reduced\nhygroscopicity and improved photostability of levofloxacin. J. Pharm. Sci. 2019, 108, 2383–2390. [CrossRef] [PubMed]\n7.\nLi, M.; Sun, J.; Kuang, W.; Zhou, L.; Han, D.; Gong, J. Drug–Drug Multicomponent Crystals of Epalrestat: A Novel Form of the\nDrug Combination and Improved Solubility and Photostability of Epalrestat. Cryst. Growth Des. 2022, 22, 5027–5035. [CrossRef]\n8.\nPutra, O.D.; Umeda, D.; Nugraha, Y.P.; Nango, K.; Yonemochi, E.; Uekusa, H. Simultaneous improvement of epalrestat\nphotostability and solubility via cocrystallization: A case study. Cryst. Growth Des. 2018, 18, 373–379. [CrossRef]\n9.\nSun, J.; Jia, L.; Wang, M.; Liu, Y.; Li, M.; Han, D.; Gong, J. Novel drug–drug multicomponent crystals of epalrestat–metformin:\nImproved solubility and photostability of epalrestat and reduced hygroscopicity of metformin. Cryst. Growth Des. 2022, 22,\n1005–1016. [CrossRef]\n10.\nYang, D.; Cao, J.; Jiao, L.; Yang, S.; Zhang, L.; Lu, Y.; Du, G. Solubility and stability advantages of a new cocrystal of berberine\nchloride with fumaric acid. ACS Omega 2020, 5, 8283–8292. [CrossRef] [PubMed]\n11.\nCheng, Y.; Jiang, Y.; Zhang, B.; Rong, X.; Ding, Q.; Zhang, Z.; Wang, J.; Mei, X. Improving the Stability, Dissolution, and\nBioavailability of Isotretinoin by Cocrystallization. Cryst. Growth Des. 2022, 22, 7469–7477. [CrossRef]\n12.\nGuo, C.; Zhang, Q.; Zhu, B.; Zhang, Z.; Bao, J.; Ding, Q.; Ren, G.; Mei, X. Pharmaceutical cocrystals of nicorandil with enhanced\nchemical stability and sustained release. Cryst. Growth Des. 2020, 20, 6995–7005. [CrossRef]\n13.\nLiu, L.; Zhang, Z.; Cheng, Y.; Jiang, Y.; Lu, L.; Wang, J.R.; Mei, X. Stabilizing L-Menthol by Cocrystallization: Supramolecular\nCavities Succeeded in Retaining the Volatile Flavor. Cryst. Growth Des. 2022, 22, 7285–7297. [CrossRef]\n14.\nIto, M.; Nambu, K.; Sakon, A.; Uekusa, H.; Yonemochi, E.; Noguchi, S.; Terada, K. Mechanisms for improved hygroscopicity of\nL-arginine valproate revealed by X-ray single crystal structure analysis. J. Pharm. Sci. 2017, 106, 859–865. [CrossRef]\n15.\nQi, M.H.; Li, H.; Zhu, B.; Hong, M.; Ren, G.B. Cocrystals of Oxymatrine: Reducing Hygroscopicity and Affecting the Dissolution\nRate. Cryst. Growth Des. 2021, 21, 3874–3888. [CrossRef]\n16.\nWang, Z.Z.; Chen, J.M.; Lu, T.B. Enhancing the hygroscopic stability of S-oxiracetam via pharmaceutical cocrystals. Cryst. Growth\nDes. 2012, 12, 4562–4566. [CrossRef]\n17.\nZou, J.; Gao, P.; Hao, X.; Xu, H.; Zhan, P.; Liu, X. Recent progress in the structural modification and pharmacological activities of\nligustrazine derivatives. Eur. J. Med. Chem. 2018, 147, 150–162. [CrossRef] [PubMed]\n18.\nZhang, Y.; He, L.; Ma, C.; Wang, C.; Zhou, H.L.; Guo, C.C.; Gong, L.H.; Wan, Y.; Peng, C.; Li, Y.X. Research progress on the\npharmacy of tetramethylpyrazine and its pharmacological activity in cardiovascular and cerebrovascular diseases. J. Pharm.\nPharmacol. 2022, 74, 843–860. [CrossRef] [PubMed]\n19.\nFeng, F.; Xu, D.Q.; Yue, S.J.; Chen, Y.Y.; Tang, Y.P. Neuroprotection by tetramethylpyrazine and its synthesized analogues for\ncentral nervous system diseases: A review. Mol. Biol. Rep. 2024, 51, 159. [CrossRef] [PubMed]",
+          "bbox": {
+            "x0": 35.71598815917969,
+            "y0": 297.81219482421875,
+            "x1": 560.8416748046875,
+            "y1": 767.0535888671875
+          }
+        }
+      ],
+      "render_path": "assets/page-0015.png"
+    },
+    {
+      "number": 16,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Molecules 2024, 29, 2208\n16 of 16\n20.\nWu, J.; Cao, M.Y.J.; Peng, Y.; Dong, B.H.; Jiang, Y.X.; Hu, C.J.; Zhu, P.J.; Xing, W.D.; Yu, L.Y.; Xu, R.C.; et al. Research progress on\nthe treatment of epilepsy with traditional Chinese medicine. Phytomedicine 2023, 120, 155022. [CrossRef] [PubMed]\n21.\nZheng, Y.; Xie, L.; Yang, D.; Luo, K.; Li, X. Small-molecule natural plants for reversing liver fibrosis based on modulation of\nhepatic stellate cells activation: An update. Phytomedicine 2023, 113, 154721. [CrossRef] [PubMed]\n22.\nHu, Y.; Wang, A.; Chen, J.; Chen, H. Ligustrazine: A Review of Its Role and Mechanism in the Treatment of Obstetrical and\nGynecological Diseases. Clin. Exp. Obstet. Gyn. 2023, 50, 164. [CrossRef]\n23.\nShi, J.W.; Zhang, Y.N.; An, Q.; Li, Y.J.; Liu, L.X. Improving the sublimation stability of ligustrazine with gallic acid by forming\npharmaceutical cocrystal based on the Etter’s rules. J. Solid State Chem. 2024, 331, 124545. [CrossRef]\n24.\nHu, S.Y.; Wang, C.G.; He, X.; Sun, C.C. Reducing the sublimation tendency of ligustrazine through salt formation. Cryst. Growth\nDes. 2020, 20, 2057–2063. [CrossRef]\n25.\nWang, K.R.; Hao, Y.; Wang, C.G.; Zhao, X.H.; He, X.; Sun, C.C. Simultaneous improvement of physical stability, dissolution,\nbioavailability, and antithrombus efficacy of Aspirin and Ligustrazine through cocrystallization. Int. J. Pharmaceut. 2022, 616,\n121541. [CrossRef] [PubMed]\n26.\nZhang, Y.L.; Liu, H.; Chen, Z.X.; Meng, J.L.; Li, Y.F.; Qi, L.Y.; Zhang, S.L.; Chen, X.F.; Lei, M. A drug–drug cocrystal and a\nco-amorphous form, prepared from honokiol and ligustrazine, inspired by Chinese patent medicine. Acta Crystallogr. B 2023, 79,\n519–524. [CrossRef] [PubMed]\n27.\nLi, X.J.; Liu, X.N.; Song, J.M.; Wang, C.G.; Li, J.H.; Liu, L.C.; He, X.; Zhao, X.H.; Sun, C.C. Drug-drug cocrystallization\nsimultaneously improves pharmaceutical properties of genistein and ligustrazine. Cryst. Growth Des. 2021, 21, 3461–3468.\n[CrossRef]\n28.\nRajkumar, M. Quaternary cocrystals of 3, 5-dihydroxybenzoic acid. Cryst. Growth Des. 2021, 21, 3547–3553. [CrossRef]\n29.\nWang, L.; Xue, R.Y.; Li, Y.X.; Zhao, Y.R.; Liu, F.Q.; Huang, K.K. Hydrogen-bonding patterns in a series of multi-component\nmolecular solids formed by 2, 3, 5, 6-tetramethylpyrazine with selected carboxylic acids. CrystEngComm 2014, 16, 7074–7089.\n[CrossRef]\n30.\nSreekanth, B.R.; Vishweshwar, P.; Vyas, K. Supramolecular synthon polymorphism in 2:1 co-crystal of 4-hydroxybenzoic acid and\n2, 3, 5, 6-tetramethylpyrazine. Chem. Commun. 2007, 23, 2375–2377. [CrossRef] [PubMed]\n31.\nZheng, K.; Li, A.; Wu, W.; Qian, S.; Liu, B.; Pang, Q. Preparation, characterization, in vitro and in vivo evaluation of metronidazole–\ngallic acid cocrystal: A combined experimental and theoretical investigation. J. Mol. Struct. 2019, 1197, 727–735. [CrossRef]\n32.\nSalahinejad, M.; Le, T.C.; Winkler, D.A. Capturing the crystal: Prediction of enthalpy of sublimation, crystal lattice energy, and\nmelting points of organic compounds. J. Chem. Inf. Model. 2013, 53, 223–229. [CrossRef] [PubMed]\n33.\nMarchese, R.L.; Roberts, K.J.; Martin, E.B. The influence of solid state information and descriptor selection on statistical models of\ntemperature dependent aqueous solubility. J. Cheminform. 2018, 10, 44. [CrossRef]\n34.\nOh, D.W.; Chon, J.; Kang, J.H.; Han, C.S.; Shin, D.H.; Kim, J.Y.; Rhee, Y.S.; Chun, M.H.; Kim, D.W.; Park, C.W. Physicochemical\ncharacterization of dapagliflozin and its solid-state behavior in stress stability test. Drug Dev. Ind. Pharm. 2021, 47, 685–693.\n[CrossRef] [PubMed]\n35.\nHe, Y.; Chen, S.Y.; Li, M.M.; Gao, Y.H.; Feng, H.Y.; Umar, Q.; Yin, D.K.; Feng, Y.S. Novel co-crystal of 3-methylcinnamic acid\nwith berberine (1: 1): Synthesis, characterization, and intestinal absorption property. Drug Dev. Ind. Pharm. 2023, 49, 617–627.\n[CrossRef] [PubMed]\n36.\nYuan, P.H.; Wang, Y.Y.; Wang, W.W.; An, Q.; Li, S.; Zhang, B.X.; Zhou, J.; Hu, K.; Zhang, L.; Yang, D.Z.; et al. Characterization,\nAnalysis, and Theoretical Calculation Studies of Solvates and Cocrystals of Betulin: An Exploration of the Boundary between\nSolvates and Cocrystals. Cryst. Growth Des. 2023, 23, 8694–8706. [CrossRef]\n37.\nDolomanov, O.V.; Bourhis, L.J.; Gildea, R.J.; Howard, J.A.; Puschmann, H. OLEX2: A Complete Structure Solution, Refinement\nand Analysis Program. J. Appl. Crystallogr. 2009, 42, 339–341. [CrossRef]\n38.\nBourhis, L.J.; Dolomanov, O.V.; Gildea, R.J.; Howardd, J.A.K.; Puschmann, H. The anatomy of a comprehensive constrained,\nrestrained refinement program for the modern computing environment–Olex2 dissected. Acta Crystallogr. Sect. A 2015, 71, 59–75.\n[CrossRef] [PubMed]\n39.\nAn, Q.; Xing, C.; Wang, Z.P.; Li, S.; Wang, W.; Yang, S.; Kong, L.L.; Yang, D.Z.; Zhang, L.; Du, G.H.; et al. Metformin-Mediated\nImprovement in Solubility, Stability, and Permeability of Nonsteroidal Anti-Inffammatory Drugs. Pharmaceutics 2024, 16, 382.\n[CrossRef] [PubMed]\n40.\nWang, Z.P.; Li, S.; Li, Q.; Wang, W.W.; Liu, M.J.; Yang, S.Y.; Zhang, L.; Yang, D.Z.; Du, G.H.; Lu, Y. A Novel Cocrystal of Daidzein\nwith Piperazine to Optimize the Solubility, Permeability and Bioavailability of Daidzein. Molecules 2024, 29, 1710. [CrossRef]\n[PubMed]\nDisclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual\nauthor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to\npeople or property resulting from any ideas, methods, instructions or products referred to in the content.\n",
+      "blocks": [
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "Molecules 2024, 29, 2208\n16 of 16",
+          "bbox": {
+            "x0": 35.715999603271484,
+            "y0": 50.92596435546875,
+            "x1": 559.2760009765625,
+            "y1": 61.027095794677734
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "20.\nWu, J.; Cao, M.Y.J.; Peng, Y.; Dong, B.H.; Jiang, Y.X.; Hu, C.J.; Zhu, P.J.; Xing, W.D.; Yu, L.Y.; Xu, R.C.; et al. Research progress on\nthe treatment of epilepsy with traditional Chinese medicine. Phytomedicine 2023, 120, 155022. [CrossRef] [PubMed]\n21.\nZheng, Y.; Xie, L.; Yang, D.; Luo, K.; Li, X. Small-molecule natural plants for reversing liver fibrosis based on modulation of\nhepatic stellate cells activation: An update. Phytomedicine 2023, 113, 154721. [CrossRef] [PubMed]\n22.\nHu, Y.; Wang, A.; Chen, J.; Chen, H. Ligustrazine: A Review of Its Role and Mechanism in the Treatment of Obstetrical and\nGynecological Diseases. Clin. Exp. Obstet. Gyn. 2023, 50, 164. [CrossRef]\n23.\nShi, J.W.; Zhang, Y.N.; An, Q.; Li, Y.J.; Liu, L.X. Improving the sublimation stability of ligustrazine with gallic acid by forming\npharmaceutical cocrystal based on the Etter’s rules. J. Solid State Chem. 2024, 331, 124545. [CrossRef]\n24.\nHu, S.Y.; Wang, C.G.; He, X.; Sun, C.C. Reducing the sublimation tendency of ligustrazine through salt formation. Cryst. Growth\nDes. 2020, 20, 2057–2063. [CrossRef]\n25.\nWang, K.R.; Hao, Y.; Wang, C.G.; Zhao, X.H.; He, X.; Sun, C.C. Simultaneous improvement of physical stability, dissolution,\nbioavailability, and antithrombus efficacy of Aspirin and Ligustrazine through cocrystallization. Int. J. Pharmaceut. 2022, 616,\n121541. [CrossRef] [PubMed]\n26.\nZhang, Y.L.; Liu, H.; Chen, Z.X.; Meng, J.L.; Li, Y.F.; Qi, L.Y.; Zhang, S.L.; Chen, X.F.; Lei, M. A drug–drug cocrystal and a\nco-amorphous form, prepared from honokiol and ligustrazine, inspired by Chinese patent medicine. Acta Crystallogr. B 2023, 79,\n519–524. [CrossRef] [PubMed]\n27.\nLi, X.J.; Liu, X.N.; Song, J.M.; Wang, C.G.; Li, J.H.; Liu, L.C.; He, X.; Zhao, X.H.; Sun, C.C. Drug-drug cocrystallization\nsimultaneously improves pharmaceutical properties of genistein and ligustrazine. Cryst. Growth Des. 2021, 21, 3461–3468.\n[CrossRef]\n28.\nRajkumar, M. Quaternary cocrystals of 3, 5-dihydroxybenzoic acid. Cryst. Growth Des. 2021, 21, 3547–3553. [CrossRef]\n29.\nWang, L.; Xue, R.Y.; Li, Y.X.; Zhao, Y.R.; Liu, F.Q.; Huang, K.K. Hydrogen-bonding patterns in a series of multi-component\nmolecular solids formed by 2, 3, 5, 6-tetramethylpyrazine with selected carboxylic acids. CrystEngComm 2014, 16, 7074–7089.\n[CrossRef]\n30.\nSreekanth, B.R.; Vishweshwar, P.; Vyas, K. Supramolecular synthon polymorphism in 2:1 co-crystal of 4-hydroxybenzoic acid and\n2, 3, 5, 6-tetramethylpyrazine. Chem. Commun. 2007, 23, 2375–2377. [CrossRef] [PubMed]\n31.\nZheng, K.; Li, A.; Wu, W.; Qian, S.; Liu, B.; Pang, Q. Preparation, characterization, in vitro and in vivo evaluation of metronidazole–\ngallic acid cocrystal: A combined experimental and theoretical investigation. J. Mol. Struct. 2019, 1197, 727–735. [CrossRef]\n32.\nSalahinejad, M.; Le, T.C.; Winkler, D.A. Capturing the crystal: Prediction of enthalpy of sublimation, crystal lattice energy, and\nmelting points of organic compounds. J. Chem. Inf. Model. 2013, 53, 223–229. [CrossRef] [PubMed]\n33.\nMarchese, R.L.; Roberts, K.J.; Martin, E.B. The influence of solid state information and descriptor selection on statistical models of\ntemperature dependent aqueous solubility. J. Cheminform. 2018, 10, 44. [CrossRef]\n34.\nOh, D.W.; Chon, J.; Kang, J.H.; Han, C.S.; Shin, D.H.; Kim, J.Y.; Rhee, Y.S.; Chun, M.H.; Kim, D.W.; Park, C.W. Physicochemical\ncharacterization of dapagliflozin and its solid-state behavior in stress stability test. Drug Dev. Ind. Pharm. 2021, 47, 685–693.\n[CrossRef] [PubMed]\n35.\nHe, Y.; Chen, S.Y.; Li, M.M.; Gao, Y.H.; Feng, H.Y.; Umar, Q.; Yin, D.K.; Feng, Y.S. Novel co-crystal of 3-methylcinnamic acid\nwith berberine (1: 1): Synthesis, characterization, and intestinal absorption property. Drug Dev. Ind. Pharm. 2023, 49, 617–627.\n[CrossRef] [PubMed]\n36.\nYuan, P.H.; Wang, Y.Y.; Wang, W.W.; An, Q.; Li, S.; Zhang, B.X.; Zhou, J.; Hu, K.; Zhang, L.; Yang, D.Z.; et al. Characterization,\nAnalysis, and Theoretical Calculation Studies of Solvates and Cocrystals of Betulin: An Exploration of the Boundary between\nSolvates and Cocrystals. Cryst. Growth Des. 2023, 23, 8694–8706. [CrossRef]\n37.\nDolomanov, O.V.; Bourhis, L.J.; Gildea, R.J.; Howard, J.A.; Puschmann, H. OLEX2: A Complete Structure Solution, Refinement\nand Analysis Program. J. Appl. Crystallogr. 2009, 42, 339–341. [CrossRef]\n38.\nBourhis, L.J.; Dolomanov, O.V.; Gildea, R.J.; Howardd, J.A.K.; Puschmann, H. The anatomy of a comprehensive constrained,\nrestrained refinement program for the modern computing environment–Olex2 dissected. Acta Crystallogr. Sect. A 2015, 71, 59–75.\n[CrossRef] [PubMed]\n39.\nAn, Q.; Xing, C.; Wang, Z.P.; Li, S.; Wang, W.; Yang, S.; Kong, L.L.; Yang, D.Z.; Zhang, L.; Du, G.H.; et al. Metformin-Mediated\nImprovement in Solubility, Stability, and Permeability of Nonsteroidal Anti-Inffammatory Drugs. Pharmaceutics 2024, 16, 382.\n[CrossRef] [PubMed]\n40.\nWang, Z.P.; Li, S.; Li, Q.; Wang, W.W.; Liu, M.J.; Yang, S.Y.; Zhang, L.; Yang, D.Z.; Du, G.H.; Lu, Y. A Novel Cocrystal of Daidzein\nwith Piperazine to Optimize the Solubility, Permeability and Bioavailability of Daidzein. Molecules 2024, 29, 1710. [CrossRef]\n[PubMed]",
+          "bbox": {
+            "x0": 35.71598815917969,
+            "y0": 90.41918182373047,
+            "x1": 560.8489379882812,
+            "y1": 674.7296142578125
+          }
+        },
+        {
+          "page": 16,
+          "kind": "text",
+          "text": "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual\nauthor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to\npeople or property resulting from any ideas, methods, instructions or products referred to in the content.",
+          "bbox": {
+            "x0": 35.446998596191406,
+            "y0": 691.66650390625,
+            "x1": 559.2802124023438,
+            "y1": 723.7955932617188
+          }
+        }
+      ],
+      "render_path": "assets/page-0016.png"
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 35.715999603271484,
+        "y0": 656.8805541992188,
+        "x1": 92.40879821777344,
+        "y1": 676.7230224609375
+      },
+      "asset_path": "assets/page-0001-image-001.png",
+      "caption": null
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 71.4175033569336,
+        "y0": 226.10560607910156,
+        "x1": 524.783447265625,
+        "y1": 329.6506042480469
+      },
+      "asset_path": "assets/page-0002-image-001.png",
+      "caption": "Figure 1. Molecule structures of TMP, PABA, MABA, and DNBA."
+    },
+    {
+      "page": 3,
+      "bbox": {
+        "x0": 49.41600036621094,
+        "y0": 232.61300659179688,
+        "x1": 541.8060302734375,
+        "y1": 426.26300048828125
+      },
+      "asset_path": "assets/page-0003-image-001.jpeg",
+      "caption": "Figure 2. (a) Hydrogen bonding interactions in an asymmetric unit; (b) weak hydrogen bonds and\nπ-π interactions; (c) hydrogen-bonded 3D ladder-like structure."
+    },
+    {
+      "page": 4,
+      "bbox": {
+        "x0": 51.009002685546875,
+        "y0": 86.75102233886719,
+        "x1": 546.3990478515625,
+        "y1": 306.051025390625
+      },
+      "asset_path": "assets/page-0004-image-001.jpeg",
+      "caption": "Figure 3.\n(a) Hydrogen bonding interactions in an asymmetric unit; (b) pentamer structure;\n(c) hydrogen bonds; (d) hydrogen-bonded 3D ladder-like structure."
+    },
+    {
+      "page": 4,
+      "bbox": {
+        "x0": 51.759002685546875,
+        "y0": 490.29107666015625,
+        "x1": 545.718994140625,
+        "y1": 716.341064453125
+      },
+      "asset_path": "assets/page-0004-image-002.jpeg",
+      "caption": "Figure 4. (a) Hydrogen-bonding interactions in an asymmetric unit; (b) weak hydrogen bonds;\n(c) hydrogen-bonded mesh-like structure (d) hydrogen-bonded 3D ladder-like structure (green: TMP,\nblue: DNBA)."
+    },
+    {
+      "page": 4,
+      "bbox": {
+        "x0": 51.009002685546875,
+        "y0": 86.75102233886719,
+        "x1": 546.3990478515625,
+        "y1": 306.051025390625
+      },
+      "asset_path": "assets/page-0004-image-003.jpeg",
+      "caption": "Figure 3.\n(a) Hydrogen bonding interactions in an asymmetric unit; (b) pentamer structure;\n(c) hydrogen bonds; (d) hydrogen-bonded 3D ladder-like structure."
+    },
+    {
+      "page": 4,
+      "bbox": {
+        "x0": 51.759002685546875,
+        "y0": 490.29107666015625,
+        "x1": 545.718994140625,
+        "y1": 716.341064453125
+      },
+      "asset_path": "assets/page-0004-image-004.jpeg",
+      "caption": "Figure 4. (a) Hydrogen-bonding interactions in an asymmetric unit; (b) weak hydrogen bonds;\n(c) hydrogen-bonded mesh-like structure (d) hydrogen-bonded 3D ladder-like structure (green: TMP,\nblue: DNBA)."
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 164.27699279785156,
+        "y0": 264.4720458984375,
+        "x1": 499.0169677734375,
+        "y1": 482.6320495605469
+      },
+      "asset_path": "assets/page-0005-image-001.jpeg",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 168.1169891357422,
+        "y0": 494.63201904296875,
+        "x1": 495.11700439453125,
+        "y1": 713.6920166015625
+      },
+      "asset_path": "assets/page-0005-image-002.jpeg",
+      "caption": "Figure 5. Cont."
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 161.13198852539062,
+        "y0": 84.8489990234375,
+        "x1": 481.71197509765625,
+        "y1": 305.16900634765625
+      },
+      "asset_path": "assets/page-0006-image-001.jpeg",
+      "caption": "Figure 5. Hirshfeld surface and 2D fingerprint plots of three cocrystals (a) TMP-PABA cocrystal.\n(b) TMP-MABA cocrystal. (c) TMP-DNBA cocrystal."
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 148.53199768066406,
+        "y0": 597.7890625,
+        "x1": 541.1719970703125,
+        "y1": 748.509033203125
+      },
+      "asset_path": "assets/page-0006-image-002.jpeg",
+      "caption": "Figure 6. Theoretical calculation between TMP and CCFS. (a) Interaction between TMP and DNBA.\n(b) Interaction between TMP and MABA. (c) Interaction between TMP and PABA."
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 166.3939971923828,
+        "y0": 579.2238159179688,
+        "x1": 528.7946166992188,
+        "y1": 728.0240478515625
+      },
+      "asset_path": "assets/page-0006-image-003.png",
+      "caption": "Figure 6. Theoretical calculation between TMP and CCFS. (a) Interaction between TMP and DNBA.\n(b) Interaction between TMP and MABA. (c) Interaction between TMP and PABA."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 65.27569580078125,
+        "y0": 352.907470703125,
+        "x1": 531.895751953125,
+        "y1": 694.7874755859375
+      },
+      "asset_path": "assets/page-0007-image-001.jpeg",
+      "caption": "Figure 7. PXRD patterns of the cocrystals and the starting materials of TMP, PABA, MABA, and\nDNBA. (a) Experimental PXRD patterns. (b) The experimental and simulated PXRD patterns of\nthree cocrystals."
+    },
+    {
+      "page": 8,
+      "bbox": {
+        "x0": 164.882080078125,
+        "y0": 264.873779296875,
+        "x1": 492.85906982421875,
+        "y1": 587.98876953125
+      },
+      "asset_path": "assets/page-0008-image-001.jpeg",
+      "caption": "Figure 8. DSC thermograms of the cocrystals and TMP, PABA, MABA, and DNBA."
+    },
+    {
+      "page": 9,
+      "bbox": {
+        "x0": 81.1488037109375,
+        "y0": 247.81240844726562,
+        "x1": 519.976806640625,
+        "y1": 539.472412109375
+      },
+      "asset_path": "assets/page-0009-image-001.jpeg",
+      "caption": "Figure 9. The IR spectra of the TMP cocrystals together with the API and CCFs."
+    },
+    {
+      "page": 9,
+      "bbox": {
+        "x0": 70.10879516601562,
+        "y0": 800.0643310546875,
+        "x1": 407.1888122558594,
+        "y1": 988.5003662109375
+      },
+      "asset_path": "assets/page-0009-image-002.jpeg",
+      "caption": null
+    },
+    {
+      "page": 10,
+      "bbox": {
+        "x0": 220.62094116210938,
+        "y0": 86.69439697265625,
+        "x1": 487.4949645996094,
+        "y1": 235.8634033203125
+      },
+      "asset_path": "assets/page-0010-image-001.png",
+      "caption": null
+    },
+    {
+      "page": 10,
+      "bbox": {
+        "x0": 166.470947265625,
+        "y0": 247.71939086914062,
+        "x1": 541.587890625,
+        "y1": 393.2973937988281
+      },
+      "asset_path": "assets/page-0010-image-002.png",
+      "caption": null
+    },
+    {
+      "page": 10,
+      "bbox": {
+        "x0": 167.15493774414062,
+        "y0": 404.6973571777344,
+        "x1": 540.9609375,
+        "y1": 553.0113525390625
+      },
+      "asset_path": "assets/page-0010-image-003.png",
+      "caption": null
+    },
+    {
+      "page": 10,
+      "bbox": {
+        "x0": 166.69894409179688,
+        "y0": 564.411376953125,
+        "x1": 540.9609375,
+        "y1": 712.1553955078125
+      },
+      "asset_path": "assets/page-0010-image-004.png",
+      "caption": "Figure 10. Results of stability test of TMP (a) and the cocrystals of TMP-PABA (b), TMP-MABA (c),\nand TMP-DNBA (d)."
+    },
+    {
+      "page": 11,
+      "bbox": {
+        "x0": 163.42759704589844,
+        "y0": 285.31695556640625,
+        "x1": 463.0435791015625,
+        "y1": 547.7569580078125
+      },
+      "asset_path": "assets/page-0011-image-001.jpeg",
+      "caption": "Figure 11. Dynamic vapor sorption isotherms of TMP and cocrystal systems at 25 ◦C."
+    },
+    {
+      "page": 11,
+      "bbox": {
+        "x0": 163.42759704589844,
+        "y0": 786.1129760742188,
+        "x1": 440.4476318359375,
+        "y1": 1011.1129760742188
+      },
+      "asset_path": "assets/page-0011-image-002.jpeg",
+      "caption": null
+    },
+    {
+      "page": 12,
+      "bbox": {
+        "x0": 165.52159118652344,
+        "y0": -415.5429992675781,
+        "x1": 465.1375732421875,
+        "y1": -153.10299682617188
+      },
+      "asset_path": "assets/page-0012-image-001.jpeg",
+      "caption": null
+    },
+    {
+      "page": 12,
+      "bbox": {
+        "x0": 165.52159118652344,
+        "y0": 85.25300598144531,
+        "x1": 442.5416259765625,
+        "y1": 310.2530212402344
+      },
+      "asset_path": "assets/page-0012-image-002.jpeg",
+      "caption": "Figure 12. Solubility of TMP, the TMP-PABA cocrystal, the TMP-MABA cocrystal, the TMP-DNBA\ncocrystal in purified water (pH 7.0), hydrochloric acid solution (pH 1.2), acetate buffer solution\n(pH 4.5), and phosphate buffer saline (pH 6.8). (n = 3)."
+    }
+  ],
+  "marker_markdown_path": null
+}
