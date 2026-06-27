@@ -1,0 +1,312 @@
+{
+  "run_id": "20260627T112528944614Z-synthesis-antibacterial-and-anthelmintic-activit",
+  "run_dir": "C:\\PyProjects\\CheML-master\\runs\\Oxazolidinones\\20260627T112528944614Z-synthesis-antibacterial-and-anthelmintic-activit",
+  "source_pdf": "C:\\PyProjects\\CheML-master\\datasets\\SMALL_MOL\\Oxazolidinones\\Synthesis_Antibacterial_and_Anthelmintic_Activity_.pdf",
+  "domain": "oxazolidinones",
+  "gold_path": "C:\\PyProjects\\CheML-master\\datasets\\SMALL_MOL\\Oxazolidinones\\train-00000-of-00001 (2).parquet",
+  "gold_rows": 68,
+  "gold_doi_matches": [
+    "10.3390/molecules27031103"
+  ],
+  "gold_pdf_matches": [],
+  "gold_title_matches": [],
+  "gold_match_mode": "doi",
+  "reference_path": "C:\\PyProjects\\CheML-master\\runs\\Oxazolidinones\\20260627T112528944614Z-synthesis-antibacterial-and-anthelmintic-activit\\reference.csv",
+  "predicted_records": 4,
+  "field_count": 32,
+  "macro_f1": 0.046875000000000014,
+  "gold_schema_matches_contract": true,
+  "gold_schema": {
+    "pdf": "string",
+    "smiles": "string",
+    "doi": "string",
+    "title": "string",
+    "publisher": "string",
+    "year": "integer",
+    "access": "integer",
+    "compound_id": "string",
+    "target_type": "string",
+    "target_relation": "string",
+    "target_value": "string",
+    "target_units": "string",
+    "bacteria": "string",
+    "bacteria_name_unified": "string",
+    "bacteria_info": "string",
+    "page_bacteria": "integer",
+    "origin_bacteria": "string",
+    "section_bacteria": "string",
+    "subsection_bacteria": "string",
+    "page_target": "integer",
+    "origin_target": "string",
+    "section_target": "string",
+    "subsection_target": "number",
+    "column_prop": "string",
+    "line_prop": "number",
+    "page_scaffold": "integer",
+    "origin_scaffold": "string",
+    "section_scaffold": "string",
+    "subsection_scaffold": "number",
+    "page_residue": "number",
+    "origin_residue": "string",
+    "section_residue": "string"
+  },
+  "all_fields_f1_1": false,
+  "fields": {
+    "access": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    },
+    "bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "bacteria_info": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    },
+    "bacteria_name_unified": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    },
+    "column_prop": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "compound_id": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    },
+    "doi": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    },
+    "line_prop": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "origin_bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "origin_residue": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "origin_scaffold": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "origin_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "page_bacteria": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    },
+    "page_residue": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    },
+    "page_scaffold": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    },
+    "page_target": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    },
+    "pdf": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "publisher": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "section_bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "section_residue": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "section_scaffold": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "section_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "smiles": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "subsection_bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "subsection_scaffold": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "subsection_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "target_relation": {
+      "precision": 0.5,
+      "recall": 0.029411764705882353,
+      "f1": 0.05555555555555555,
+      "true_positive": 2,
+      "predicted": 4,
+      "expected": 68
+    },
+    "target_type": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    },
+    "target_units": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 4,
+      "expected": 68
+    },
+    "target_value": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    },
+    "title": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    },
+    "year": {
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111,
+      "true_positive": 4,
+      "predicted": 4,
+      "expected": 68
+    }
+  }
+}

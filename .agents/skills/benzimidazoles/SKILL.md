@@ -13,6 +13,10 @@ Rules:
 - Preserve source metadata columns (`doi`, `title`, `pdf`, `year`, etc.) when they are part of the contract.
 - For numeric values, keep the value comparable to the parquet gold; decimal comma and dot are normalized by the evaluator.
 - Attach page-level evidence for each extracted value whenever possible.
+- Follow the ChemX Benzimidazole schema: benzimidazole compound SMILES and antimicrobial MIC/pMIC measurements are the core extraction target.
+- Construct rows from scaffold/residue/compound tables, antibacterial activity tables, OCR text, captions, and OCSR/RDKit candidates.
+- Build complete compound rows even when structure and activity are split across different pages or artifacts; connect by compound identifier.
+- Do not return an empty `records` array if compound IDs, bacteria, MIC/pMIC, scaffold/residue, or SMILES candidates are present.
 
 Fields:
 - `smiles` (string)

@@ -67,7 +67,20 @@ def output_schema(spec: DomainSpec) -> dict[str, Any]:
         "additionalProperties": False,
         "properties": {
             "page": {"type": "integer", "minimum": 1},
-            "kind": {"type": "string", "enum": ["text", "table", "figure", "caption", "metadata"]},
+            "kind": {
+                "type": "string",
+                "enum": [
+                    "text",
+                    "table",
+                    "figure",
+                    "caption",
+                    "metadata",
+                    "layout",
+                    "marker",
+                    "ocr",
+                    "ocsr",
+                ],
+            },
             "bbox": {
                 "anyOf": [
                     {

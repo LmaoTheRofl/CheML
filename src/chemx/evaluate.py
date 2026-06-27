@@ -242,6 +242,22 @@ def _frame_to_gold(
     )
 
 
+def _write_reference_csv(gold_table: GoldTable, path: Path, fields: list[str]) -> Path:
+    import csv
+
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
+        writer.writeheader()
+        for index in range(gold_table.rows):
+            writer.writerow(
+                {
+                    field: gold_table.columns.get(field, [None] * gold_table.rows)[index]
+                    for field in fields
+                }
+            )
+    return path
+
+
 def _read_gold(
     path: Path,
     domain: str,
@@ -454,6 +470,7 @@ def _write_metrics_csv(result: dict[str, Any], path: Path) -> Path:
                 "gold_title",
                 "gold_match_mode",
                 "gold_path",
+                "reference_path",
                 "macro_f1",
             ],
         )
@@ -469,6 +486,7 @@ def _write_metrics_csv(result: dict[str, Any], path: Path) -> Path:
                     "gold_title": ";".join(result["gold_title_matches"]),
                     "gold_match_mode": result["gold_match_mode"],
                     "gold_path": result["gold_path"],
+                    "reference_path": result["reference_path"],
                     "macro_f1": result["macro_f1"],
                     **metric,
                 }
@@ -495,6 +513,7 @@ def _write_article_summary_csv(results: list[dict[str, Any]], path: Path) -> Pat
         "all_fields_f1_1",
         "gold_schema_matches_contract",
         "gold_path",
+        "reference_path",
         "run_dir",
     ]
     with path.open("w", encoding="utf-8", newline="") as handle:
@@ -541,6 +560,11 @@ def evaluate_run(
     gold = gold_table.columns
     predicted = _prediction_columns(prediction)
     spec = load_domain(prediction.domain)
+    reference_path = _write_reference_csv(
+        gold_table,
+        run_dir / "reference.csv",
+        [field.name for field in spec.fields],
+    )
     field_specs = {field.name: field for field in spec.fields}
     metrics: dict[str, Any] = {}
     for column in sorted(set(gold) | set(predicted)):
@@ -578,6 +602,7 @@ def evaluate_run(
         "gold_pdf_matches": gold_table.pdf_matches,
         "gold_title_matches": gold_table.title_matches,
         "gold_match_mode": gold_table.match_mode,
+        "reference_path": str(reference_path.resolve()),
         "predicted_records": len(prediction.records),
         "field_count": len(metrics),
         "macro_f1": sum(value["f1"] for value in metrics.values()) / len(metrics)

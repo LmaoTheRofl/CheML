@@ -13,6 +13,10 @@ Rules:
 - Preserve source metadata columns (`doi`, `title`, `pdf`, `year`, etc.) when they are part of the contract.
 - For numeric values, keep the value comparable to the parquet gold; decimal comma and dot are normalized by the evaluator.
 - Attach page-level evidence for each extracted value whenever possible.
+- Follow the ChemX Co-Crystals schema: cocrystal name/type, drug, coformer, stoichiometric ratio, canonical SMILES, and photostability change are the core extraction target.
+- Recover rows from tables, Marker text, OCR, experimental sections, captions, and OCSR/RDKit candidates.
+- Build one row per reported cocrystal/salt/multicomponent crystal system.
+- Do not return an empty `records` array if drug/coformer/cocrystal/ratio/photostability candidates are present.
 
 Fields:
 - `pdf` (string)

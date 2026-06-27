@@ -1,12 +1,44 @@
+﻿# Python environments
 .venv/
-.pytest_cache/
-.ruff_cache/
+.molscribe-venv/
+
+# Python caches and build outputs
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local secrets and machine-specific config
+.env
+.env.*
+!.env.example
+
+# Codex/context-mode local state
 .codex-tmp/
 .codex-home/
 .codex-cache/
-.ctx-pytest-full
-.ctx-pytest-order
-.ctx-pytest-metrics
-.ctx-pytest-pdf-match
+.ctx-*
+
+# Runtime extraction outputs
+tmp/
+temp/
+*.log
+
+# Large local model/checkpoint files
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/

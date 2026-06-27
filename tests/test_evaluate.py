@@ -112,7 +112,12 @@ def test_parquet_gold_is_filtered_by_current_pdf_doi(tmp_path: Path) -> None:
     assert result["gold_doi_matches"] == ["10.1234/test.doi"]
     assert result["fields"]["logP"]["f1"] == 1.0
     assert result["gold_schema_matches_contract"] is True
+    assert result["reference_path"].endswith("reference.csv")
     assert (run / "evaluation_metrics.csv").read_text(encoding="utf-8").startswith("domain,field")
+    with (run / "reference.csv").open(encoding="utf-8", newline="") as handle:
+        reference_rows = list(csv.DictReader(handle))
+    assert list(reference_rows[0]) == [field.name for field in load_domain("eyedrops").fields]
+    assert reference_rows[0]["logP"] == "1,25"
 
 
 def test_parquet_gold_falls_back_to_pdf_column_when_doi_is_absent(tmp_path: Path) -> None:

@@ -62,3 +62,20 @@ def molscribe_image(image: Path, timeout: float = 120.0) -> str | None:
         return None
     candidate = completed.stdout.strip().splitlines()[-1] if completed.stdout.strip() else ""
     return canonicalize_smiles(candidate) if candidate else None
+
+
+def canonicalize_smiles_required(value: object) -> tuple[str | None, bool]:
+    """Canonicalize with RDKit; raise if RDKit is unavailable."""
+    if value is None:
+        return None, True
+    raw = str(value).strip()
+    if not raw:
+        return raw, True
+    try:
+        from rdkit import Chem
+    except ImportError as exc:
+        raise RuntimeError("RDKit is required for ChemX SMILES canonicalization") from exc
+    molecule = Chem.MolFromSmiles(raw)
+    if molecule is None:
+        return raw, False
+    return Chem.MolToSmiles(molecule, canonical=True), True

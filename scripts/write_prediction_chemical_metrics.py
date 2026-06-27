@@ -32,7 +32,7 @@ def chemical_fields(path: Path) -> list[str]:
 
 def latest_completed_runs(runs_dir: Path) -> dict[str, Path]:
     runs: dict[str, Path] = {}
-    for manifest_path in sorted(runs_dir.glob("*/manifest.json")):
+    for manifest_path in sorted(runs_dir.rglob("manifest.json")):
         manifest = RunManifest.model_validate_json(manifest_path.read_text(encoding="utf-8"))
         run_dir = manifest_path.parent
         if manifest.state != "inference_complete":
@@ -47,7 +47,7 @@ def latest_completed_runs(runs_dir: Path) -> dict[str, Path]:
 
 def latest_completed_article_runs(runs_dir: Path) -> dict[str, list[Path]]:
     latest_by_article: dict[tuple[str, str], Path] = {}
-    for manifest_path in sorted(runs_dir.glob("*/manifest.json")):
+    for manifest_path in sorted(runs_dir.rglob("manifest.json")):
         manifest = RunManifest.model_validate_json(manifest_path.read_text(encoding="utf-8"))
         run_dir = manifest_path.parent
         if manifest.state != "inference_complete":

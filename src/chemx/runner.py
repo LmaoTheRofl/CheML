@@ -10,13 +10,19 @@ from typing import Protocol
 
 from chemx.domains import output_schema
 from chemx.evaluate import assert_gold_isolated
-from chemx.models import DomainSpec, Prediction
+from chemx.models import DomainSpec, Prediction, ReviewResult
 
 
 class Backend(Protocol):
     name: str
 
     def run(self, workspace: Path, spec: DomainSpec) -> Prediction: ...
+
+
+class Reviewer(Protocol):
+    name: str
+
+    def review(self, workspace: Path, spec: DomainSpec) -> ReviewResult: ...
 
 
 @dataclass
@@ -51,10 +57,14 @@ class CodexBackend:
     @staticmethod
     def _prompt() -> str:
         return (
-            "Extract every ChemX record from bundle.json. Follow the installed chemx-parser and "
-            "selected domain skill exactly. Inspect assets when tables or chemical structures are "
-            "not recoverable from text. Return only JSON matching output-schema.json. Never access "
-            "gold, answers, reference outputs, HuggingFace, or the network."
+            "Extract every ChemX record from bundle.json, layout.json, marker.md, marker.json, "
+            "tables.json, ocr.json, ocsr.json, and chemistry_candidates.json. Follow the installed "
+            "chemx-parser and selected domain skill exactly. Use the exact domain schema and never "
+            "rename columns. Do not return an empty records array when tables, OCR text, OCSR "
+            "structures, chemistry candidates, compounds, targets, bacteria, metals, coformers, or "
+            "photostability candidates are present. If reviewer_feedback.md exists, address it. "
+            "Return only JSON matching output-schema.json. Never access gold, answers, reference "
+            "outputs, HuggingFace, or the network."
         )
 
     def environment(self, workspace: Path) -> dict[str, str]:
@@ -118,6 +128,165 @@ class OllamaBackend(CodexBackend):
         command[model_index:model_index + 2] = []
         command[2:2] = ["--oss", "--local-provider", "ollama", "--model", self.model]
         return command
+
+
+REVIEW_SCHEMA = {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "additionalProperties": False,
+    "properties": {
+        "schema_version": {"type": "string", "const": "1.0"},
+        "status": {"type": "string", "enum": ["pass", "needs_retry", "fail"]},
+        "summary": {"type": "string"},
+        "findings": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": False,
+                "properties": {
+                    "severity": {"type": "string", "enum": ["info", "warning", "error"]},
+                    "field": {"type": ["string", "null"]},
+                    "message": {"type": "string"},
+                },
+                "required": ["severity", "field", "message"],
+            },
+        },
+    },
+    "required": ["schema_version", "status", "summary", "findings"],
+}
+
+
+@dataclass
+class CodexReviewer:
+    model: str = "gpt-5.5"
+    reasoning_effort: str = "xhigh"
+    executable: str = "codex"
+    timeout_seconds: float = 1800
+    name: str = "codex-reviewer"
+
+    def command(self, workspace: Path) -> list[str]:
+        return [
+            self.executable,
+            "exec",
+            "--model",
+            self.model,
+            "-c",
+            f'model_reasoning_effort="{self.reasoning_effort}"',
+            "--ephemeral",
+            "--skip-git-repo-check",
+            "--sandbox",
+            "workspace-write",
+            "--output-schema",
+            str(workspace / "review-schema.json"),
+            "--output-last-message",
+            str(workspace / "review.json"),
+            "-C",
+            str(workspace),
+            self._prompt(),
+        ]
+
+    @staticmethod
+    def _prompt() -> str:
+        return (
+            "Review the ChemX extraction result. Read prediction.json, prediction.csv, "
+            "domain.json, output-schema.json, bundle.json, layout.json, marker.md/json, "
+            "tables.json, ocr.json, ocsr.json, chemistry_candidates.json, "
+            "schema_diagnostics.json, and "
+            "chemistry_diagnostics.json. Never access gold, reference.csv, parquet files, "
+            "HuggingFace, or the network. Check schema compliance, non-empty extraction when "
+            "candidates exist, RDKit canonical SMILES, evidence quality, missed candidate rows, "
+            "numeric precision, and hallucinations against artifacts. Return only review-schema "
+            "JSON."
+        )
+
+    def review(self, workspace: Path, spec: DomainSpec) -> ReviewResult:
+        del spec
+        assert_gold_isolated(workspace)
+        (workspace / "review-schema.json").write_text(
+            json.dumps(REVIEW_SCHEMA, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        backend = CodexBackend(
+            model=self.model,
+            reasoning_effort=self.reasoning_effort,
+            executable=self.executable,
+            timeout_seconds=self.timeout_seconds,
+        )
+        env = backend.environment(workspace)
+        command = self.command(workspace)
+        command[0] = shutil.which(command[0], path=env.get("PATH")) or command[0]
+        local_codex_home = (workspace.parent / ".codex-home").resolve()
+        try:
+            completed = subprocess.run(
+                command,
+                cwd=workspace,
+                env=env,
+                check=False,
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+                capture_output=True,
+                timeout=self.timeout_seconds,
+            )
+        finally:
+            if env.get("CODEX_HOME") == str(local_codex_home):
+                shutil.rmtree(local_codex_home, ignore_errors=True)
+        if completed.returncode != 0:
+            tail = "\n".join(completed.stderr.splitlines()[-20:])
+            raise RuntimeError(f"codex reviewer failed ({completed.returncode}):\n{tail}")
+        result = ReviewResult.model_validate_json(
+            (workspace / "review.json").read_text(encoding="utf-8")
+        )
+        (workspace / "review_report.md").write_text(
+            "# ChemX reviewer report\n\n"
+            f"Status: {result.status}\n\n"
+            f"{result.summary}\n\n"
+            + "\n".join(
+                f"- {finding.severity}: "
+                f"{finding.field + ': ' if finding.field else ''}{finding.message}"
+                for finding in result.findings
+            ),
+            encoding="utf-8",
+        )
+        return result
+
+
+@dataclass
+class DeterministicReviewer:
+    name: str = "deterministic-reviewer"
+
+    def review(self, workspace: Path, spec: DomainSpec) -> ReviewResult:
+        prediction = Prediction.model_validate_json(
+            (workspace / "prediction.json").read_text(encoding="utf-8")
+        )
+        findings = []
+        if prediction.domain != spec.slug:
+            findings.append(
+                {"severity": "error", "field": None, "message": "prediction domain mismatch"}
+            )
+        expected = {field.name for field in spec.fields}
+        for index, record in enumerate(prediction.records):
+            missing = expected - set(record.values)
+            unknown = set(record.values) - expected
+            if missing or unknown:
+                findings.append(
+                    {
+                        "severity": "error",
+                        "field": None,
+                        "message": f"record {index} schema mismatch",
+                    }
+                )
+        result = ReviewResult(
+            status="fail" if findings else "pass",
+            summary="deterministic schema review",
+            findings=findings,
+        )
+        (workspace / "review.json").write_text(result.model_dump_json(indent=2), encoding="utf-8")
+        (workspace / "review_report.md").write_text(
+            f"# ChemX reviewer report\n\nStatus: {result.status}\n",
+            encoding="utf-8",
+        )
+        return result
 
 
 def install_run_skills(project: Path, workspace: Path, spec: DomainSpec) -> None:

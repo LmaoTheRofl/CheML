@@ -21,7 +21,10 @@ class FakeBackend:
             domain=spec.slug,
             records=[{"values": values, "evidence": evidence}],
         )
-        (workspace / "prediction.json").write_text(prediction.model_dump_json(indent=2))
+        (workspace / "prediction.json").write_text(
+            prediction.model_dump_json(indent=2),
+            encoding="utf-8",
+        )
         return prediction
 
 
@@ -43,6 +46,8 @@ def test_full_pipeline_with_fake_backend(tmp_path: Path) -> None:
         assert (run / "bundle.json").is_file()
         assert (run / "prediction.json").is_file()
         assert (run / "prediction.csv").is_file()
+        assert (run / "review.json").is_file()
+        assert (run / "review_report.md").is_file()
         manifest = (run / "manifest.json").read_text().replace(" ", "")
         assert '"state":"inference_complete"' in manifest
         assert_gold_isolated(run)

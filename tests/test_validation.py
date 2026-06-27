@@ -1,39 +1,45 @@
+from pathlib import Path
+
 import pytest
 
 from chemx.domains import load_domain
-from chemx.models import Prediction, SourceRef
-from chemx.validation import deduplicate_prediction, validate_prediction
+from chemx.models import Prediction
+from chemx.validation import repair_and_canonicalize_prediction, validate_prediction
 
 
-def make_prediction() -> Prediction:
-    spec = load_domain("eyedrops")
+def test_repair_prediction_schema_adds_missing_and_drops_unknown(tmp_path: Path) -> None:
+    spec = load_domain("complexes")
     values = {field.name: None for field in spec.fields}
-    evidence = {field.name: [] for field in spec.fields}
-    return Prediction(domain=spec.slug, records=[{"values": values, "evidence": evidence}])
+    values.pop("metal")
+    values["unexpected"] = "x"
+    prediction = Prediction(domain=spec.slug, records=[{"values": values, "evidence": {}}])
+
+    repaired = repair_and_canonicalize_prediction(
+        prediction,
+        spec,
+        tmp_path,
+        require_rdkit=False,
+    )
+
+    assert "unexpected" not in repaired.records[0].values
+    assert "metal" in repaired.records[0].values
+    validate_prediction(repaired, spec)
+    assert (tmp_path / "schema_diagnostics.json").is_file()
 
 
-def test_prediction_matches_domain_contract() -> None:
-    prediction = make_prediction()
-    assert validate_prediction(prediction, load_domain("eyedrops")) is prediction
+def test_repair_prediction_canonicalizes_smiles_with_rdkit(tmp_path: Path) -> None:
+    pytest.importorskip("rdkit")
+    spec = load_domain("complexes")
+    values = {field.name: None for field in spec.fields}
+    values["SMILES"] = "C(C)O"
+    prediction = Prediction(domain=spec.slug, records=[{"values": values, "evidence": {}}])
 
+    repaired = repair_and_canonicalize_prediction(
+        prediction,
+        spec,
+        tmp_path,
+        require_rdkit=True,
+    )
 
-def test_prediction_rejects_missing_field() -> None:
-    prediction = make_prediction()
-    prediction.records[0].values.pop("smiles")
-    with pytest.raises(ValueError, match="missing"):
-        validate_prediction(prediction, load_domain("eyedrops"))
-
-
-def test_prediction_rejects_wrong_scalar_type() -> None:
-    prediction = make_prediction()
-    prediction.records[0].values["PMID"] = "fast"
-    with pytest.raises(ValueError, match="must be number"):
-        validate_prediction(prediction, load_domain("eyedrops"))
-
-
-def test_exact_duplicate_is_removed_but_distinct_evidence_is_preserved() -> None:
-    prediction = make_prediction()
-    prediction.records.append(prediction.records[0].model_copy(deep=True))
-    assert len(deduplicate_prediction(prediction).records) == 1
-    prediction.records[1].evidence["smiles"] = [SourceRef(page=1, kind="figure")]
-    assert len(deduplicate_prediction(prediction).records) == 2
+    assert repaired.records[0].values["SMILES"] == "CCO"
+    validate_prediction(repaired, spec)

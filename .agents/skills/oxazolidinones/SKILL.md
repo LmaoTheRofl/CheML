@@ -13,6 +13,10 @@ Rules:
 - Preserve source metadata columns (`doi`, `title`, `pdf`, `year`, etc.) when they are part of the contract.
 - For numeric values, keep the value comparable to the parquet gold; decimal comma and dot are normalized by the evaluator.
 - Attach page-level evidence for each extracted value whenever possible.
+- Follow the ChemX Oxazolidinone schema: compound SMILES plus MIC/pMIC target rows against bacterial strains are the core extraction target.
+- Build one row per compound × bacteria × target measurement, including relation, units, page/origin/section/subsection provenance fields.
+- If tables are missing, recover rows from Marker text, OCR, captions, antibacterial activity prose, and OCSR/RDKit candidates.
+- Do not return an empty `records` array if compounds, bacteria, MIC/pMIC, or structure candidates are present.
 
 Fields:
 - `pdf` (string)

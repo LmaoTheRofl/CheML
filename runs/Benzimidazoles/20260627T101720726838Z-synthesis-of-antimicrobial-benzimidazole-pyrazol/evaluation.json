@@ -1,0 +1,258 @@
+{
+  "run_id": "20260627T101720726838Z-synthesis-of-antimicrobial-benzimidazole-pyrazol",
+  "run_dir": "C:\\PyProjects\\CheML-master\\runs\\Benzimidazoles\\20260627T101720726838Z-synthesis-of-antimicrobial-benzimidazole-pyrazol",
+  "source_pdf": "C:\\PyProjects\\CheML-master\\datasets\\SMALL_MOL\\Benzimidazoles\\Synthesis_of_Antimicrobial_Benzimidazole-Pyrazole_.pdf",
+  "domain": "benzimidazoles",
+  "gold_path": "C:\\PyProjects\\CheML-master\\datasets\\SMALL_MOL\\Benzimidazoles\\train-00000-of-00001 (1).parquet",
+  "gold_rows": 104,
+  "gold_doi_matches": [
+    "10.3390/antibiotics10081002"
+  ],
+  "gold_pdf_matches": [],
+  "gold_title_matches": [],
+  "gold_match_mode": "doi",
+  "reference_path": "C:\\PyProjects\\CheML-master\\runs\\Benzimidazoles\\20260627T101720726838Z-synthesis-of-antimicrobial-benzimidazole-pyrazol\\reference.csv",
+  "predicted_records": 21,
+  "field_count": 26,
+  "macro_f1": 0.08738461538461538,
+  "gold_schema_matches_contract": true,
+  "gold_schema": {
+    "smiles": "string",
+    "doi": "string",
+    "title": "string",
+    "publisher": "string",
+    "year": "integer",
+    "access": "integer",
+    "compound_id": "string",
+    "target_type": "string",
+    "target_relation": "string",
+    "target_value": "string",
+    "target_units": "string",
+    "bacteria": "string",
+    "bacteria_unified": "string",
+    "page_bacteria": "integer",
+    "origin_bacteria": "string",
+    "section_bacteria": "string",
+    "subsection_bacteria": "string",
+    "page_target": "integer",
+    "origin_target": "string",
+    "section_target": "string",
+    "subsection_target": "string",
+    "page_scaffold": "integer",
+    "origin_scaffold": "string",
+    "page_residue": "number",
+    "origin_residue": "string",
+    "pdf": "string"
+  },
+  "all_fields_f1_1": false,
+  "fields": {
+    "access": {
+      "precision": 1.0,
+      "recall": 0.20192307692307693,
+      "f1": 0.336,
+      "true_positive": 21,
+      "predicted": 21,
+      "expected": 104
+    },
+    "bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "bacteria_unified": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "compound_id": {
+      "precision": 0.19047619047619047,
+      "recall": 0.038461538461538464,
+      "f1": 0.064,
+      "true_positive": 4,
+      "predicted": 21,
+      "expected": 104
+    },
+    "doi": {
+      "precision": 1.0,
+      "recall": 0.20192307692307693,
+      "f1": 0.336,
+      "true_positive": 21,
+      "predicted": 21,
+      "expected": 104
+    },
+    "origin_bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "origin_residue": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "origin_scaffold": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "origin_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "page_bacteria": {
+      "precision": 0.7619047619047619,
+      "recall": 0.15384615384615385,
+      "f1": 0.256,
+      "true_positive": 16,
+      "predicted": 21,
+      "expected": 104
+    },
+    "page_residue": {
+      "precision": 0.5714285714285714,
+      "recall": 0.11538461538461539,
+      "f1": 0.192,
+      "true_positive": 12,
+      "predicted": 21,
+      "expected": 104
+    },
+    "page_scaffold": {
+      "precision": 0.7619047619047619,
+      "recall": 0.15384615384615385,
+      "f1": 0.256,
+      "true_positive": 16,
+      "predicted": 21,
+      "expected": 104
+    },
+    "page_target": {
+      "precision": 0.7619047619047619,
+      "recall": 0.15384615384615385,
+      "f1": 0.256,
+      "true_positive": 16,
+      "predicted": 21,
+      "expected": 104
+    },
+    "pdf": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "publisher": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "section_bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "section_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "smiles": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "subsection_bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "subsection_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "target_relation": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "target_type": {
+      "precision": 0.6666666666666666,
+      "recall": 0.1346153846153846,
+      "f1": 0.22399999999999998,
+      "true_positive": 14,
+      "predicted": 21,
+      "expected": 104
+    },
+    "target_units": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "target_value": {
+      "precision": 0.047619047619047616,
+      "recall": 0.009615384615384616,
+      "f1": 0.016,
+      "true_positive": 1,
+      "predicted": 21,
+      "expected": 104
+    },
+    "title": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 21,
+      "expected": 104
+    },
+    "year": {
+      "precision": 1.0,
+      "recall": 0.20192307692307693,
+      "f1": 0.336,
+      "true_positive": 21,
+      "predicted": 21,
+      "expected": 104
+    }
+  }
+}

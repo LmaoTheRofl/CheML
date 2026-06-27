@@ -1,0 +1,258 @@
+{
+  "run_id": "20260627T100557533142Z-current-development-in-the-synthesis-of-benzimid",
+  "run_dir": "C:\\PyProjects\\CheML-master\\runs\\Benzimidazoles\\20260627T100557533142Z-current-development-in-the-synthesis-of-benzimid",
+  "source_pdf": "C:\\PyProjects\\CheML-master\\datasets\\SMALL_MOL\\Benzimidazoles\\Current_Development_in_the_Synthesis_of_Benzimidaz.pdf",
+  "domain": "benzimidazoles",
+  "gold_path": "C:\\PyProjects\\CheML-master\\datasets\\SMALL_MOL\\Benzimidazoles\\train-00000-of-00001 (1).parquet",
+  "gold_rows": 8,
+  "gold_doi_matches": [
+    "10.5772/intechopen.108949"
+  ],
+  "gold_pdf_matches": [],
+  "gold_title_matches": [],
+  "gold_match_mode": "doi",
+  "reference_path": "C:\\PyProjects\\CheML-master\\runs\\Benzimidazoles\\20260627T100557533142Z-current-development-in-the-synthesis-of-benzimid\\reference.csv",
+  "predicted_records": 8,
+  "field_count": 26,
+  "macro_f1": 0.125,
+  "gold_schema_matches_contract": true,
+  "gold_schema": {
+    "smiles": "string",
+    "doi": "string",
+    "title": "string",
+    "publisher": "string",
+    "year": "integer",
+    "access": "integer",
+    "compound_id": "string",
+    "target_type": "string",
+    "target_relation": "string",
+    "target_value": "string",
+    "target_units": "string",
+    "bacteria": "string",
+    "bacteria_unified": "string",
+    "page_bacteria": "integer",
+    "origin_bacteria": "string",
+    "section_bacteria": "string",
+    "subsection_bacteria": "string",
+    "page_target": "integer",
+    "origin_target": "string",
+    "section_target": "string",
+    "subsection_target": "string",
+    "page_scaffold": "integer",
+    "origin_scaffold": "string",
+    "page_residue": "number",
+    "origin_residue": "string",
+    "pdf": "string"
+  },
+  "all_fields_f1_1": false,
+  "fields": {
+    "access": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 8,
+      "predicted": 8,
+      "expected": 8
+    },
+    "bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "bacteria_unified": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "compound_id": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "doi": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 8,
+      "predicted": 8,
+      "expected": 8
+    },
+    "origin_bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "origin_residue": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "origin_scaffold": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "origin_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "page_bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "page_residue": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "page_scaffold": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "page_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "pdf": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "publisher": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positive": 8,
+      "predicted": 8,
+      "expected": 8
+    },
+    "section_bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "section_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "smiles": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "subsection_bacteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "subsection_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "target_relation": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "target_type": {
+      "precision": 0.25,
+      "recall": 0.25,
+      "f1": 0.25,
+      "true_positive": 2,
+      "predicted": 8,
+      "expected": 8
+    },
+    "target_units": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "target_value": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "title": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    },
+    "year": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positive": 0,
+      "predicted": 8,
+      "expected": 8
+    }
+  }
+}

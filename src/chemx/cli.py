@@ -17,6 +17,7 @@ from chemx.evaluate import (
     evaluate_runs,
 )
 from chemx.pipeline import backend_from_name, batch_articles, parse_article
+from chemx.toolchain import FullStackToolchain
 
 app = typer.Typer(help="ChemX article extraction pipeline", no_args_is_help=True)
 
@@ -118,6 +119,58 @@ def audit_schemas(
     """Verify local parquet field names/order/types against all domain contracts."""
     count, report = audit_parquet_contracts(datasets_dir.resolve(), output.resolve())
     typer.echo(f"{report} ({count} parquet files)")
+
+
+@app.command("doctor-tools")
+def doctor_tools() -> None:
+    """Check mandatory ChemX parser tools for production parse."""
+    statuses = FullStackToolchain().check()
+    for status in statuses:
+        marker = "OK" if status.available else "FAIL"
+        typer.echo(f"[{marker}] {status.name}: {status.detail}")
+    if any(not status.available for status in statuses):
+        raise typer.Exit(code=1)
+
+
+@app.command("inspect-run")
+def inspect_run(
+    run: Annotated[Path, typer.Argument(exists=True, file_okay=False, readable=True)],
+) -> None:
+    """Show final artifacts and quality/review status for a run directory."""
+    manifest_path = run / "manifest.json"
+    if not manifest_path.is_file():
+        raise typer.BadParameter(f"missing manifest.json: {run}")
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    prediction_path = run / "prediction.json"
+    records = None
+    if prediction_path.is_file():
+        prediction = json.loads(prediction_path.read_text(encoding="utf-8"))
+        records = len(prediction.get("records", []))
+    review_status = None
+    if (run / "review.json").is_file():
+        review_status = json.loads((run / "review.json").read_text(encoding="utf-8")).get("status")
+    tool_manifest = run / "tool_manifest.json"
+    tools = []
+    if tool_manifest.is_file():
+        tools = [
+            f"{tool['name']}={'ok' if tool['available'] else 'missing'}"
+            for tool in json.loads(tool_manifest.read_text(encoding="utf-8")).get("tools", [])
+        ]
+    typer.echo(
+        json.dumps(
+            {
+                "run_id": manifest.get("run_id"),
+                "domain": manifest.get("domain"),
+                "state": manifest.get("state"),
+                "records": records,
+                "review_status": review_status,
+                "has_quality_flags": (run / "quality_flags.json").is_file(),
+                "has_reference_csv": (run / "reference.csv").is_file(),
+                "tools": tools,
+            },
+            indent=2,
+        )
+    )
 
 
 @app.command()

@@ -16,7 +16,17 @@ class BoundingBox(BaseModel):
 
 class SourceRef(BaseModel):
     page: int = Field(ge=1)
-    kind: Literal["text", "table", "figure", "caption", "metadata"]
+    kind: Literal[
+        "text",
+        "table",
+        "figure",
+        "caption",
+        "metadata",
+        "layout",
+        "marker",
+        "ocr",
+        "ocsr",
+    ]
     bbox: BoundingBox | None = None
     text: str | None = None
     asset_path: str | None = None
@@ -126,7 +136,13 @@ class RunManifest(BaseModel):
     source_pdf: str
     domain: str
     backend: str
-    state: Literal["prepared", "bundled", "inference_complete", "failed"]
+    state: Literal[
+        "prepared",
+        "bundled",
+        "inference_complete",
+        "failed",
+        "failed_quality_review",
+    ]
     created_at: datetime = Field(default_factory=lambda: datetime.now(UTC))
     bundle_path: str | None = None
     prediction_path: str | None = None
@@ -136,3 +152,17 @@ class RunManifest(BaseModel):
     def workspace(self) -> Path:
         return Path(self.bundle_path or self.prediction_path or ".").parent
 
+
+class ReviewFinding(BaseModel):
+    severity: Literal["info", "warning", "error"]
+    field: str | None = None
+    message: str
+
+
+class ReviewResult(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    schema_version: str = "1.0"
+    status: Literal["pass", "needs_retry", "fail"]
+    summary: str
+    findings: list[ReviewFinding] = Field(default_factory=list)

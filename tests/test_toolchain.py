@@ -1,0 +1,58 @@
+from pathlib import Path
+
+import pytest
+
+import chemx.toolchain as toolchain_module
+from chemx.bundle import BundleBuilder
+from chemx.toolchain import FullStackToolchain, ToolchainError
+
+
+def test_full_stack_toolchain_reports_missing_configured_commands() -> None:
+    toolchain = FullStackToolchain(
+        marker_command="definitely-missing-marker",
+        ocr_command="definitely-missing-ocr",
+        molscribe_command="definitely-missing-molscribe",
+        codex_command="definitely-missing-codex",
+    )
+
+    statuses = {status.name: status for status in toolchain.check()}
+
+    assert statuses["marker"].available is False
+    assert statuses["ocr"].available is False
+    assert statuses["molscribe"].available is False
+    assert statuses["codex"].available is False
+    with pytest.raises(ToolchainError, match="mandatory ChemX parser toolchain"):
+        toolchain.require()
+
+
+def test_toolchain_handles_unquoted_executable_paths_with_spaces(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    executable = tmp_path / "Program Files" / "Tesseract-OCR" / "tesseract.exe"
+    executable.parent.mkdir(parents=True)
+    executable.write_text("", encoding="utf-8")
+    monkeypatch.setattr(toolchain_module.os, "name", "nt")
+    toolchain = FullStackToolchain(
+        ocr_command=f"{executable.as_posix()} {{image}} stdout -l eng"
+    )
+
+    command = toolchain.ocr_command(Path("page.png"))
+
+    assert command == [executable.as_posix(), "page.png", "stdout", "-l", "eng"]
+
+
+def test_strict_bundle_requires_full_stack_before_fallback(tmp_path: Path) -> None:
+    pdf = tmp_path / "article.pdf"
+    pdf.write_bytes(b"%PDF-1.4\n%invalid-for-toolchain-check\n")
+    builder = BundleBuilder(
+        require_full_stack=True,
+        toolchain=FullStackToolchain(
+            marker_command="definitely-missing-marker",
+            ocr_command="definitely-missing-ocr",
+            molscribe_command="definitely-missing-molscribe",
+            codex_command="definitely-missing-codex",
+        ),
+    )
+
+    with pytest.raises(ToolchainError):
+        builder.build(pdf, tmp_path / "run")

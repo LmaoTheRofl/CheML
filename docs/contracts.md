@@ -14,6 +14,15 @@ Prediction содержит `domain` и массив `records`. Каждый rec
 - `prediction.csv` — те же `values` в плоской таблице для ручного сравнения;
   имена и порядок столбцов совпадают с `domain.json` и локальным
   parquet/CSV gold в `datasets`;
+- `reference.csv` — отфильтрованные evaluator-ом эталонные строки из parquet
+  для текущей статьи; порядок столбцов совпадает с `prediction.csv`;
+- `layout.json`, `marker.md`, `marker.json`, `tables.json`, `ocr.json`,
+  `ocsr.json`, `chemistry_candidates.json`, `tool_manifest.json` — обязательные
+  enriched artifacts production parser;
+- `schema_diagnostics.json`, `chemistry_diagnostics.json` — deterministic
+  postprocessing и RDKit canonicalization diagnostics;
+- `review.json`, `review_report.md` — результат reviewer agent;
+- `quality_flags.json` — создаётся, если run не проходит quality gates;
 - `bundle.json`, `manifest.json`, `output-schema.json` и `assets/`.
 
 ## Нормализация и оценка
@@ -25,7 +34,7 @@ Prediction содержит `domain` и массив `records`. Каждый rec
 - precision/recall/F1 считаются по точному multiset intersection каждого столбца.
 - `macro_f1` статьи — невзвешенное арифметическое среднее F1 всех её столбцов.
 
-Gold запрещён в inference workspace и читается только evaluator после завершённого inference. Default gold source — локальный parquet в `datasets`, отфильтрованный по DOI текущей статьи; если DOI не совпал, evaluator пробует найти строки по столбцу `pdf`, затем по нормализованному `title`. Метрики записываются в `evaluation.json` и `evaluation_metrics.csv`.
+Gold запрещён в inference workspace и читается только evaluator после завершённого inference. Default gold source — локальный parquet в `datasets`, отфильтрованный по DOI текущей статьи; если DOI не совпал, evaluator пробует найти строки по столбцу `pdf`, затем по нормализованному `title`. Метрики записываются в `evaluation.json` и `evaluation_metrics.csv`, а сопоставленные эталонные строки — в `reference.csv`.
 
 Перед чтением parquet evaluator требует точного совпадения имён, порядка и
 скалярных типов Arrow с domain contract: `string`, integer → `integer`,
