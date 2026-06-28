@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import shlex
 import subprocess
@@ -28,9 +29,28 @@ from chemx.toolchain import (
     write_tool_manifest,
 )
 
+SURYA_MARKER_CHECKPOINTS = (
+    "layout/2025_09_23",
+    "text_detection/2025_05_07",
+    "text_recognition/2025_09_23",
+    "table_recognition/2025_02_18",
+    "ocr_error_detection/2025_02_18",
+)
+MARKER_FONT_CANDIDATES = (
+    Path(__file__).resolve().parents[2] / "runs" / "tools" / "fonts" / "DejaVuSans.ttf",
+    Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"),
+)
+
 
 def _bbox(rect: Any) -> BoundingBox:
     return BoundingBox(x0=rect[0], y0=rect[1], x1=rect[2], y1=rect[3])
+
+
+def _tail(text: str, limit: int = 2000) -> str:
+    text = text.strip()
+    if len(text) <= limit:
+        return text
+    return "..." + text[-limit:]
 
 
 class BundleBuilder:
@@ -41,11 +61,17 @@ class BundleBuilder:
         use_marker: bool = False,
         require_full_stack: bool = False,
         toolchain: FullStackToolchain | None = None,
+        marker_timeout_seconds: float | None = None,
     ) -> None:
         self.render_scale = render_scale
         self.use_marker = use_marker
         self.require_full_stack = require_full_stack
         self.toolchain = toolchain or FullStackToolchain()
+        self.marker_timeout_seconds = (
+            marker_timeout_seconds
+            if marker_timeout_seconds is not None
+            else float(os.environ.get("CHEMX_MARKER_TIMEOUT_SECONDS", "10800"))
+        )
 
     def build(self, pdf: Path, output_dir: Path) -> ArticleBundle:
         pdf = pdf.resolve()
@@ -136,30 +162,196 @@ class BundleBuilder:
             return None
         marker_dir = output_dir / "marker"
         marker_dir.mkdir(exist_ok=True)
+        env = os.environ.copy()
+        if not env.get("XDG_CACHE_HOME"):
+            cache_home = Path(__file__).resolve().parents[2] / "runs" / "tools" / "cache"
+            cache_home.mkdir(parents=True, exist_ok=True)
+            env["XDG_CACHE_HOME"] = str(cache_home)
+        if not env.get("FONT_PATH"):
+            font = next((path for path in MARKER_FONT_CANDIDATES if path.is_file()), None)
+            if font is not None:
+                env["FONT_PATH"] = str(font.resolve())
+        env.setdefault("PARALLEL_DOWNLOAD_WORKERS", "1")
         try:
-            subprocess.run(
-                [
-                    executable,
-                    *marker_parts[1:],
-                    str(pdf),
-                    "--output_dir",
-                    str(marker_dir),
-                    "--output_format",
-                    "markdown",
-                ],
-                check=True,
-                capture_output=True,
-                text=True,
-                timeout=900,
-            )
-        except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as exc:
+            self._require_marker_model_cache(env)
+        except RuntimeError:
             if strict:
-                raise RuntimeError(f"Marker failed for {pdf}") from exc
+                raise
+            return None
+        if strict:
+            return self._run_marker_chunked(pdf, marker_dir, executable, marker_parts, env)
+        command = self._marker_command(executable, marker_parts, pdf, marker_dir)
+        ok, _detail = self._run_marker_process(command, marker_dir, "full", env)
+        if not ok:
             return None
         candidates = sorted(marker_dir.rglob("*.md"))
-        if not candidates and strict:
-            raise RuntimeError(f"Marker produced no markdown for {pdf}")
         return candidates[0] if candidates else None
+
+    def _run_marker_chunked(
+        self,
+        pdf: Path,
+        marker_dir: Path,
+        executable: str,
+        marker_parts: list[str],
+        env: dict[str, str],
+    ) -> Path:
+        document = fitz.open(pdf)
+        try:
+            page_count = document.page_count
+        finally:
+            document.close()
+        if page_count < 1:
+            raise RuntimeError(f"Marker produced no markdown for {pdf}")
+        chunk_size = self._marker_chunk_size()
+        parts: list[str] = []
+        for start in range(0, page_count, chunk_size):
+            end = min(start + chunk_size - 1, page_count - 1)
+            parts.extend(
+                self._run_marker_page_range(
+                    pdf,
+                    marker_dir,
+                    executable,
+                    marker_parts,
+                    env,
+                    start,
+                    end,
+                    allow_page_retry=chunk_size > 1,
+                )
+            )
+        combined = marker_dir / "marker.md"
+        combined.write_text("\n\n".join(parts), encoding="utf-8")
+        return combined
+
+    def _run_marker_page_range(
+        self,
+        pdf: Path,
+        marker_dir: Path,
+        executable: str,
+        marker_parts: list[str],
+        env: dict[str, str],
+        start: int,
+        end: int,
+        *,
+        allow_page_retry: bool,
+    ) -> list[str]:
+        label = f"pages-{start + 1:04d}-{end + 1:04d}"
+        page_range = str(start) if start == end else f"{start}-{end}"
+        run_dir = marker_dir / label
+        run_dir.mkdir(exist_ok=True)
+        command = [
+            *self._marker_command(executable, marker_parts, pdf, run_dir),
+            "--page_range",
+            page_range,
+        ]
+        ok, detail = self._run_marker_process(command, marker_dir, label, env)
+        if not ok and allow_page_retry:
+            texts: list[str] = []
+            for page_index in range(start, end + 1):
+                texts.extend(
+                    self._run_marker_page_range(
+                        pdf,
+                        marker_dir,
+                        executable,
+                        marker_parts,
+                        env,
+                        page_index,
+                        page_index,
+                        allow_page_retry=False,
+                    )
+                )
+            return texts
+        if not ok:
+            raise RuntimeError(f"Marker failed for {pdf} page range {page_range}: {detail}")
+        candidates = sorted(run_dir.rglob("*.md"))
+        if not candidates:
+            raise RuntimeError(f"Marker produced no markdown for {pdf} page range {page_range}")
+        markdown = candidates[0].read_text(encoding="utf-8")
+        return [f"<!-- Marker pages {start + 1}-{end + 1} -->\n\n{markdown}"]
+
+    @staticmethod
+    def _marker_command(
+        executable: str,
+        marker_parts: list[str],
+        pdf: Path,
+        output_dir: Path,
+    ) -> list[str]:
+        return [
+            executable,
+            *marker_parts[1:],
+            str(pdf),
+            "--output_dir",
+            str(output_dir),
+            "--output_format",
+            "markdown",
+        ]
+
+    @staticmethod
+    def _marker_chunk_size() -> int:
+        raw = os.environ.get("CHEMX_MARKER_PAGE_CHUNK_SIZE", "1")
+        try:
+            return max(1, int(raw))
+        except ValueError:
+            return 1
+
+    def _run_marker_process(
+        self,
+        command: list[str],
+        log_dir: Path,
+        label: str,
+        env: dict[str, str],
+    ) -> tuple[bool, str]:
+        stdout_path = log_dir / f"{label}.stdout.log"
+        stderr_path = log_dir / f"{label}.stderr.log"
+        try:
+            with stdout_path.open("w", encoding="utf-8") as stdout_log, stderr_path.open(
+                "w", encoding="utf-8"
+            ) as stderr_log:
+                completed = subprocess.run(
+                    command,
+                    check=False,
+                    stdout=stdout_log,
+                    stderr=stderr_log,
+                    text=True,
+                    timeout=self.marker_timeout_seconds,
+                    env=env,
+                )
+        except subprocess.TimeoutExpired as exc:
+            detail = f"timed out after {exc.timeout}s; see {stdout_path} and {stderr_path}"
+            return False, detail
+        if completed.returncode != 0:
+            stderr = stderr_path.read_text(encoding="utf-8", errors="replace")
+            return (
+                False,
+                f"exit {completed.returncode}; see {stdout_path} and {stderr_path}; "
+                f"stderr={_tail(stderr)}",
+            )
+        return True, ""
+
+    @staticmethod
+    def _require_marker_model_cache(env: dict[str, str]) -> None:
+        cache_home = Path(env["XDG_CACHE_HOME"])
+        model_root = cache_home / "datalab" / "models"
+        missing: list[str] = []
+        for checkpoint in SURYA_MARKER_CHECKPOINTS:
+            checkpoint_dir = model_root / checkpoint
+            manifest_path = checkpoint_dir / "manifest.json"
+            if not manifest_path.is_file():
+                missing.append(f"{checkpoint}/manifest.json")
+                continue
+            try:
+                manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError as exc:
+                raise RuntimeError(f"invalid Marker model manifest: {manifest_path}") from exc
+            for file_name in manifest.get("files", []):
+                if not (checkpoint_dir / file_name).is_file():
+                    missing.append(f"{checkpoint}/{file_name}")
+        if missing:
+            preview = "\n".join(f"- {item}" for item in missing[:40])
+            extra = "" if len(missing) <= 40 else f"\n... and {len(missing) - 40} more"
+            raise RuntimeError(
+                "Marker model cache is incomplete; refusing to let Marker auto-download "
+                f"large model files. Missing files:\n{preview}{extra}"
+            )
 
     def _write_enriched_artifacts(
         self,

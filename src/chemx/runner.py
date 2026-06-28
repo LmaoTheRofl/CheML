@@ -12,6 +12,16 @@ from chemx.domains import output_schema
 from chemx.evaluate import assert_gold_isolated
 from chemx.models import DomainSpec, Prediction, ReviewResult
 
+GEMMA_CODEX_INSTRUCTIONS = """You are a tool-using ChemX extraction agent.
+Use the supplied tools whenever the task depends on workspace files. Never invent
+file contents or command results. Emit shell calls exactly as:
+<tool_call>
+{"name":"exec_command","parameters":{"cmd":"COMMAND"}}
+</tool_call>
+Never wrap tool calls in Markdown. Wait for each tool result before continuing.
+Return only the JSON requested by the user when extraction is complete.
+"""
+
 
 class Backend(Protocol):
     name: str
@@ -112,22 +122,51 @@ class CodexBackend:
             tail = "\n".join(completed.stderr.splitlines()[-20:])
             raise RuntimeError(f"codex exec failed ({completed.returncode}):\n{tail}")
         assert_gold_isolated(workspace)
-        return Prediction.model_validate_json(
+        return self._validate_prediction(
             (workspace / "prediction.json").read_text(encoding="utf-8")
         )
+
+    @staticmethod
+    def _validate_prediction(text: str) -> Prediction:
+        return Prediction.model_validate_json(text)
 
 
 @dataclass
 class OllamaBackend(CodexBackend):
-    model: str = "gpt-oss:20b"
+    model: str = "lukaspetrik/gemma3-tools:27b"
     name: str = "ollama"
 
     def command(self, workspace: Path) -> list[str]:
+        instructions = workspace / "gemma-codex-instructions.txt"
+        instructions.write_text(GEMMA_CODEX_INSTRUCTIONS, encoding="utf-8")
         command = super().command(workspace)
         model_index = command.index("--model")
         command[model_index:model_index + 2] = []
         command[2:2] = ["--oss", "--local-provider", "ollama", "--model", self.model]
+        schema_index = command.index("--output-schema")
+        command[schema_index:schema_index + 2] = []
+        command[2:2] = [
+            "-c",
+            f"model_instructions_file={json.dumps(str(instructions.resolve()))}",
+        ]
         return command
+
+    def environment(self, workspace: Path) -> dict[str, str]:
+        env = super().environment(workspace)
+        env["OLLAMA_HOST"] = env.get("CHEMX_OLLAMA_ADAPTER_URL", "http://127.0.0.1:11434")
+        return env
+
+    @staticmethod
+    def _validate_prediction(text: str) -> Prediction:
+        candidate = text.strip()
+        if candidate.startswith("```"):
+            candidate = candidate.split("\n", 1)[-1]
+            candidate = candidate.rsplit("```", 1)[0].strip()
+        object_start = candidate.find("{")
+        if object_start < 0:
+            return Prediction.model_validate_json(candidate)
+        payload, _ = json.JSONDecoder().raw_decode(candidate[object_start:])
+        return Prediction.model_validate(payload)
 
 
 REVIEW_SCHEMA = {
@@ -297,6 +336,10 @@ def install_run_skills(project: Path, workspace: Path, spec: DomainSpec) -> None
         if not source.is_dir():
             raise FileNotFoundError(f"missing project skill: {source}")
         shutil.copytree(source, destination / name, dirs_exist_ok=True)
+    shutil.copy2(
+        project / ".agents" / "skills" / spec.slug / "domain.json",
+        workspace / "domain.json",
+    )
     schema = output_schema(spec)
     (workspace / "output-schema.json").write_text(
         json.dumps(schema, ensure_ascii=False, indent=2), encoding="utf-8"

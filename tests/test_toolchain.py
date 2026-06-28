@@ -1,4 +1,5 @@
 from pathlib import Path
+from types import SimpleNamespace
 
 import pytest
 
@@ -31,7 +32,11 @@ def test_toolchain_handles_unquoted_executable_paths_with_spaces(
     executable = tmp_path / "Program Files" / "Tesseract-OCR" / "tesseract.exe"
     executable.parent.mkdir(parents=True)
     executable.write_text("", encoding="utf-8")
-    monkeypatch.setattr(toolchain_module.os, "name", "nt")
+    monkeypatch.setattr(
+        toolchain_module,
+        "os",
+        SimpleNamespace(name="nt", environ=toolchain_module.os.environ),
+    )
     toolchain = FullStackToolchain(
         ocr_command=f"{executable.as_posix()} {{image}} stdout -l eng"
     )
@@ -39,6 +44,40 @@ def test_toolchain_handles_unquoted_executable_paths_with_spaces(
     command = toolchain.ocr_command(Path("page.png"))
 
     assert command == [executable.as_posix(), "page.png", "stdout", "-l", "eng"]
+
+
+def test_toolchain_discovers_project_local_ocr_and_molscribe(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    python = tmp_path / "runs" / "tools" / "molscribe-py39" / "bin" / "python"
+    adapter = tmp_path / "scripts" / "molscribe_predict.py"
+    weights = tmp_path / "swin_base_char_aux_1m680k.pth"
+    traineddata = tmp_path / "runs" / "tools" / "tesseract" / "tessdata" / "eng.traineddata"
+    for path in (python, adapter, weights, traineddata):
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(b"installed")
+    monkeypatch.delenv("CHEMX_OCR_COMMAND", raising=False)
+    monkeypatch.delenv("CHEMX_MOLSCRIBE_COMMAND", raising=False)
+    monkeypatch.setattr(toolchain_module, "_project_root", lambda: tmp_path)
+    monkeypatch.setattr(toolchain_module, "_which", lambda command: f"/bin/{command}")
+
+    toolchain = FullStackToolchain()
+
+    assert toolchain.ocr_command(Path("page.png")) == [
+        toolchain_module.sys.executable,
+        "-m",
+        "chemx.tesseract_ocr",
+        "--tessdata-prefix",
+        str(tmp_path / "runs" / "tools" / "tesseract"),
+        "page.png",
+    ]
+    assert toolchain.molscribe_command(Path("figure.png")) == [
+        str(python),
+        str(adapter),
+        "--model",
+        str(weights),
+        "figure.png",
+    ]
 
 
 def test_strict_bundle_requires_full_stack_before_fallback(tmp_path: Path) -> None:

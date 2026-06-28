@@ -129,6 +129,164 @@ def resolve_runs_dir(runs_dir: Path | None = None) -> Path:
     return resolved
 
 
+def _complete_inference(
+    target: Path,
+    selected,
+    active_backend: Backend,
+    active_reviewer: Reviewer | None,
+    manifest: RunManifest,
+    *,
+    production: bool,
+) -> None:
+    prediction = _prepare_prediction(
+        Prediction.model_validate(active_backend.run(target, selected)),
+        selected,
+        target,
+        require_rdkit=production,
+    )
+    candidate_count = _candidate_count(target)
+    if production and not prediction.records and candidate_count:
+        (target / "reviewer_feedback.md").write_text(
+            "The previous extraction returned records=[] despite non-empty tables/OCR/"
+            "chemistry candidates. Re-extract all domain rows from the artifacts and do "
+            "not return an empty records array.",
+            encoding="utf-8",
+        )
+        prediction = _prepare_prediction(
+            Prediction.model_validate(active_backend.run(target, selected)),
+            selected,
+            target,
+            require_rdkit=production,
+        )
+    _write_prediction_artifacts(prediction, selected, target)
+    if production and not prediction.records and candidate_count:
+        _write_quality_flags(
+            target,
+            [
+                {
+                    "flag": "empty_prediction_with_candidates",
+                    "candidate_count": candidate_count,
+                }
+            ],
+        )
+        manifest.state = "failed_quality_review"
+        manifest.error = "empty prediction with non-empty extraction candidates"
+        _write_manifest(target / "manifest.json", manifest)
+        raise RuntimeError(manifest.error)
+    if active_reviewer is None:
+        manifest.state = "inference_complete"
+        manifest.prediction_path = str(target / "prediction.json")
+        manifest.error = None
+        _write_manifest(target / "manifest.json", manifest)
+        return
+    review = _run_review(active_reviewer, target, selected)
+    if review.status == "fail":
+        _write_quality_flags(
+            target,
+            [{"flag": "reviewer_failed", "summary": review.summary}],
+        )
+        manifest.state = "failed_quality_review"
+        manifest.error = f"reviewer failed extraction: {review.summary}"
+        _write_manifest(target / "manifest.json", manifest)
+        raise RuntimeError(manifest.error)
+    if production and review.status == "needs_retry":
+        (target / "reviewer_feedback.md").write_text(
+            review.summary
+            + "\n\n"
+            + "\n".join(f"- {finding.message}" for finding in review.findings),
+            encoding="utf-8",
+        )
+        prediction = _prepare_prediction(
+            Prediction.model_validate(active_backend.run(target, selected)),
+            selected,
+            target,
+            require_rdkit=production,
+        )
+        _write_prediction_artifacts(prediction, selected, target)
+        review = _run_review(active_reviewer, target, selected)
+        if review.status != "pass":
+            _write_quality_flags(
+                target,
+                [
+                    {
+                        "flag": "reviewer_not_passed_after_retry",
+                        "status": review.status,
+                        "summary": review.summary,
+                    }
+                ],
+            )
+            manifest.state = "failed_quality_review"
+            manifest.error = f"reviewer did not pass after retry: {review.summary}"
+            _write_manifest(target / "manifest.json", manifest)
+            raise RuntimeError(manifest.error)
+    manifest.state = "inference_complete"
+    manifest.prediction_path = str(target / "prediction.json")
+    manifest.error = None
+    _write_manifest(target / "manifest.json", manifest)
+
+
+def resume_article(
+    run: Path,
+    *,
+    backend: Backend | None = None,
+    reviewer: Reviewer | None = None,
+    skip_reviewer: bool = False,
+) -> Path:
+    target = run.expanduser().resolve()
+    manifest_path = target / "manifest.json"
+    if not manifest_path.is_file():
+        raise ValueError(f"missing manifest.json: {target}")
+    manifest = RunManifest.model_validate_json(manifest_path.read_text(encoding="utf-8"))
+    selected = load_domain(manifest.domain)
+    active_backend = backend or backend_from_name(manifest.backend)
+    production = _is_production_backend(active_backend)
+    active_reviewer: Reviewer | None = (
+        None
+        if skip_reviewer
+        else reviewer or (CodexReviewer() if production else DeterministicReviewer())
+    )
+    required = ["bundle.json"]
+    if production:
+        required.extend(
+            [
+                "layout.json",
+                "marker.md",
+                "marker.json",
+                "tables.json",
+                "ocr.json",
+                "ocsr.json",
+                "chemistry_candidates.json",
+                "tool_manifest.json",
+            ]
+        )
+    missing = [name for name in required if not (target / name).is_file()]
+    if missing:
+        raise ValueError(f"run is not ready for inference resume; missing: {', '.join(missing)}")
+    manifest.backend = active_backend.name
+    manifest.state = "bundled"
+    manifest.bundle_path = str(target / "bundle.json")
+    manifest.error = None
+    _write_manifest(manifest_path, manifest)
+    install_run_skills(project_root(), target, selected)
+    assert_gold_isolated(target)
+    try:
+        _complete_inference(
+            target,
+            selected,
+            active_backend,
+            active_reviewer,
+            manifest,
+            production=production,
+        )
+    except Exception as exc:
+        if manifest.state != "failed_quality_review":
+            manifest.state = "failed"
+        manifest.error = str(exc)
+        _write_manifest(manifest_path, manifest)
+        raise
+    return target
+
+
 def parse_article(
     pdf: Path,
     *,
@@ -137,6 +295,7 @@ def parse_article(
     runs_dir: Path | None = None,
     builder: BundleBuilder | None = None,
     reviewer: Reviewer | None = None,
+    skip_reviewer: bool = False,
 ) -> Path:
     pdf = pdf.resolve()
     root = project_root()
@@ -145,8 +304,10 @@ def parse_article(
     selected = detect_domain(pdf) if domain == "auto" else load_domain(domain)
     active_backend = backend or CodexBackend()
     production = _is_production_backend(active_backend)
-    active_reviewer: Reviewer = reviewer or (
-        CodexReviewer() if production else DeterministicReviewer()
+    active_reviewer: Reviewer | None = (
+        None
+        if skip_reviewer
+        else reviewer or (CodexReviewer() if production else DeterministicReviewer())
     )
     manifest = RunManifest(
         run_id=target.name,
@@ -163,84 +324,14 @@ def parse_article(
         _write_manifest(target / "manifest.json", manifest)
         install_run_skills(root, target, selected)
         assert_gold_isolated(target)
-        prediction = _prepare_prediction(
-            Prediction.model_validate(active_backend.run(target, selected)),
-            selected,
+        _complete_inference(
             target,
-            require_rdkit=production,
+            selected,
+            active_backend,
+            active_reviewer,
+            manifest,
+            production=production,
         )
-        candidate_count = _candidate_count(target)
-        if production and not prediction.records and candidate_count:
-            (target / "reviewer_feedback.md").write_text(
-                "The previous extraction returned records=[] despite non-empty tables/OCR/"
-                "chemistry candidates. Re-extract all domain rows from the artifacts and do "
-                "not return an empty records array.",
-                encoding="utf-8",
-            )
-            prediction = _prepare_prediction(
-                Prediction.model_validate(active_backend.run(target, selected)),
-                selected,
-                target,
-                require_rdkit=production,
-            )
-        _write_prediction_artifacts(prediction, selected, target)
-        if production and not prediction.records and candidate_count:
-            _write_quality_flags(
-                target,
-                [
-                    {
-                        "flag": "empty_prediction_with_candidates",
-                        "candidate_count": candidate_count,
-                    }
-                ],
-            )
-            manifest.state = "failed_quality_review"
-            manifest.error = "empty prediction with non-empty extraction candidates"
-            _write_manifest(target / "manifest.json", manifest)
-            raise RuntimeError(manifest.error)
-        review = _run_review(active_reviewer, target, selected)
-        if review.status == "fail":
-            _write_quality_flags(
-                target,
-                [{"flag": "reviewer_failed", "summary": review.summary}],
-            )
-            manifest.state = "failed_quality_review"
-            manifest.error = f"reviewer failed extraction: {review.summary}"
-            _write_manifest(target / "manifest.json", manifest)
-            raise RuntimeError(manifest.error)
-        if production and review.status == "needs_retry":
-            (target / "reviewer_feedback.md").write_text(
-                review.summary
-                + "\n\n"
-                + "\n".join(f"- {finding.message}" for finding in review.findings),
-                encoding="utf-8",
-            )
-            prediction = _prepare_prediction(
-                Prediction.model_validate(active_backend.run(target, selected)),
-                selected,
-                target,
-                require_rdkit=production,
-            )
-            _write_prediction_artifacts(prediction, selected, target)
-            review = _run_review(active_reviewer, target, selected)
-            if review.status != "pass":
-                _write_quality_flags(
-                    target,
-                    [
-                        {
-                            "flag": "reviewer_not_passed_after_retry",
-                            "status": review.status,
-                            "summary": review.summary,
-                        }
-                    ],
-                )
-                manifest.state = "failed_quality_review"
-                manifest.error = f"reviewer did not pass after retry: {review.summary}"
-                _write_manifest(target / "manifest.json", manifest)
-                raise RuntimeError(manifest.error)
-        manifest.state = "inference_complete"
-        manifest.prediction_path = str(target / "prediction.json")
-        _write_manifest(target / "manifest.json", manifest)
     except Exception as exc:
         if manifest.state != "failed_quality_review":
             manifest.state = "failed"
@@ -255,11 +346,17 @@ def batch_articles(
     *,
     backend_name: str = "codex",
     runs_dir: Path | None = None,
+    skip_reviewer: bool = False,
 ) -> list[Path]:
     pdfs = sorted(dataset_dir.rglob("*.pdf"))
     if not pdfs:
         raise ValueError(f"no PDF files below {dataset_dir}")
     return [
-        parse_article(pdf, backend=backend_from_name(backend_name), runs_dir=runs_dir)
+        parse_article(
+            pdf,
+            backend=backend_from_name(backend_name),
+            runs_dir=runs_dir,
+            skip_reviewer=skip_reviewer,
+        )
         for pdf in pdfs
     ]
