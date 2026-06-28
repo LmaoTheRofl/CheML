@@ -80,6 +80,21 @@ def test_toolchain_discovers_project_local_ocr_and_molscribe(
     ]
 
 
+def test_toolchain_reports_missing_molscribe_model(tmp_path: Path) -> None:
+    python = tmp_path / "molscribe-venv" / "bin" / "python"
+    python.parent.mkdir(parents=True)
+    python.write_bytes(b"installed")
+    missing = tmp_path / "missing.pth"
+    toolchain = FullStackToolchain(
+        molscribe_command=f"{python} scripts/molscribe_predict.py --model {missing} {{image}}"
+    )
+
+    statuses = {status.name: status for status in toolchain.check()}
+
+    assert statuses["molscribe"].available is False
+    assert "missing model file" in statuses["molscribe"].detail
+
+
 def test_strict_bundle_requires_full_stack_before_fallback(tmp_path: Path) -> None:
     pdf = tmp_path / "article.pdf"
     pdf.write_bytes(b"%PDF-1.4\n%invalid-for-toolchain-check\n")

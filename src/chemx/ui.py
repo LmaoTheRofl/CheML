@@ -1,12 +1,7 @@
 from __future__ import annotations
 
 import csv
-import csv
 import json
-import os
-import re
-import signal
-import subprocess
 import os
 import re
 import signal
@@ -14,28 +9,7 @@ import subprocess
 import sys
 import time
 from datetime import UTC, datetime
-import time
-from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any
-
-from chemx.domains import list_domains, project_root
-from chemx.pipeline import resolve_runs_dir
-
-METRIC_BASELINES_BY_DOMAIN = {
-    "benzimidazoles": "metrics_benzimidazole_from_single_agent.csv",
-    "co-crystals": "metrics_cocrystals_from_single_agent.csv",
-    "complexes": "metrics_complexes_from_single_agent.csv",
-    "cytotox": "metrics_cytotoxicity_from_single_agent.csv",
-    "nanomag": "metrics_magnetic_from_single_agent.csv",
-    "nanozymes": "metrics_nanozymes_from_single_agent.csv",
-    "oxazolidinones": "metrics_oxazolidinone_from_single_agent.csv",
-    "seltox": "metrics_seltox_from_single_agent.csv",
-    "synergy": "metrics_synergy_from_single_agent.csv",
-}
-UPLOADS_DIRNAME = "_uploads"
-JOBS_DIRNAME = "_ui_jobs"
-JOB_POLL_SECONDS = 2.0
 from typing import Any
 
 from chemx.domains import list_domains, project_root
@@ -566,25 +540,11 @@ def main(runs_dir: Path | None = None) -> None:
     prediction_json_path = selected / "prediction.json"
     prediction_csv_path = selected / "prediction.csv"
     if not prediction_json_path.exists() or not prediction_csv_path.exists():
-    st.caption(run_stage(selected))
-    log_lines = run_log_lines(selected)
-    if log_lines:
-        st.code("\n".join(log_lines), language="text")
-    prediction_json_path = selected / "prediction.json"
-    prediction_csv_path = selected / "prediction.csv"
-    if not prediction_json_path.exists() or not prediction_csv_path.exists():
         st.warning("Inference is not complete")
         if active:
             time.sleep(JOB_POLL_SECONDS)
             st.rerun()
-        if active:
-            time.sleep(JOB_POLL_SECONDS)
-            st.rerun()
         return
-    prediction = json.loads(prediction_json_path.read_text(encoding="utf-8"))
-    frame, missing = prediction_frame(selected)
-    if missing:
-        st.warning(f"Missing evaluable columns: {', '.join(missing)}")
     prediction = json.loads(prediction_json_path.read_text(encoding="utf-8"))
     frame, missing = prediction_frame(selected)
     if missing:
@@ -597,28 +557,16 @@ def main(runs_dir: Path | None = None) -> None:
         "text/csv",
     )
     st.download_button(
-        "Export CSV",
-        frame.to_csv(index=False),
-        "prediction_evaluable.csv",
-        "text/csv",
-    )
-    st.download_button(
         "Export JSON",
-        prediction_json_path.read_bytes(),
         prediction_json_path.read_bytes(),
         "prediction.json",
         "application/json",
     )
     rows = [record["values"] for record in prediction["records"]]
-    rows = [record["values"] for record in prediction["records"]]
     index = st.number_input("Record", min_value=0, max_value=max(0, len(rows) - 1), step=1)
     if rows:
         st.subheader("Evidence")
         st.json(prediction["records"][int(index)].get("evidence", {}))
-
-    if active:
-        time.sleep(JOB_POLL_SECONDS)
-        st.rerun()
 
     if active:
         time.sleep(JOB_POLL_SECONDS)

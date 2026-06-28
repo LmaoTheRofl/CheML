@@ -118,6 +118,22 @@ def _command_status(name: str, command: str | None, fallback: str | None = None)
     return ToolStatus(name, True, f"executable found: {executable}", command=configured)
 
 
+def _molscribe_status(command: str | None) -> ToolStatus:
+    status = _command_status("molscribe", command)
+    if not status.available or not command:
+        return status
+    parts = _split_command(command)
+    if "--model" not in parts:
+        return status
+    model_index = parts.index("--model") + 1
+    if model_index >= len(parts):
+        return ToolStatus("molscribe", False, "missing --model value", command=command)
+    model_path = parts[model_index]
+    if "{" not in model_path and not Path(model_path).is_file():
+        return ToolStatus("molscribe", False, f"missing model file: {model_path}", command=command)
+    return status
+
+
 class FullStackToolchain:
     """Mandatory parser toolchain for production ChemX extraction."""
 
@@ -146,7 +162,7 @@ class FullStackToolchain:
             _module_status("pymupdf_layout", "pymupdf.layout"),
             _command_status("marker", self.marker_command),
             _command_status("ocr", self.ocr_command_value, fallback="tesseract"),
-            _command_status("molscribe", self.molscribe_command_value),
+            _molscribe_status(self.molscribe_command_value),
             _module_status("rdkit", "rdkit"),
             _command_status("codex", self.codex_command),
         ]

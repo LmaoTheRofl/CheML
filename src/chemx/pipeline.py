@@ -277,14 +277,15 @@ def resume_article(
     install_run_skills(project_root(), target, selected)
     assert_gold_isolated(target)
     try:
-        _complete_inference(
-            target,
-            selected,
-            active_backend,
-            active_reviewer,
-            manifest,
-            production=production,
-        )
+        with backend_runtime(active_backend):
+            _complete_inference(
+                target,
+                selected,
+                active_backend,
+                active_reviewer,
+                manifest,
+                production=production,
+            )
     except Exception as exc:
         if manifest.state != "failed_quality_review":
             manifest.state = "failed"
@@ -331,14 +332,15 @@ def parse_article(
         _write_manifest(target / "manifest.json", manifest)
         install_run_skills(root, target, selected)
         assert_gold_isolated(target)
-        _complete_inference(
-            target,
-            selected,
-            active_backend,
-            active_reviewer,
-            manifest,
-            production=production,
-        )
+        with backend_runtime(active_backend):
+            _complete_inference(
+                target,
+                selected,
+                active_backend,
+                active_reviewer,
+                manifest,
+                production=production,
+            )
     except Exception as exc:
         if manifest.state != "failed_quality_review":
             manifest.state = "failed"
@@ -354,18 +356,11 @@ def batch_articles(
     backend_name: str = "codex",
     runs_dir: Path | None = None,
     skip_reviewer: bool = False,
-    skip_reviewer: bool = False,
 ) -> list[Path]:
     pdfs = sorted(dataset_dir.rglob("*.pdf"))
     if not pdfs:
         raise ValueError(f"no PDF files below {dataset_dir}")
     return [
-        parse_article(
-            pdf,
-            backend=backend_from_name(backend_name),
-            runs_dir=runs_dir,
-            skip_reviewer=skip_reviewer,
-        )
         parse_article(
             pdf,
             backend=backend_from_name(backend_name),

@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import json
 import os
 import time
 from collections.abc import Sequence
@@ -9,25 +8,14 @@ from pathlib import Path
 
 import httpx
 
-BASE_URL = "https://models.datalab.to"
-CHECKPOINTS = (
-    "layout/2025_09_23",
-    "text_detection/2025_05_07",
-    "text_recognition/2025_09_23",
-    "table_recognition/2025_02_18",
-    "ocr_error_detection/2025_02_18",
+DEFAULT_URL = (
+    "https://huggingface.co/yujieq/MolScribe/resolve/main/"
+    "swin_base_char_aux_1m680k.pth"
+)
+DEFAULT_OUTPUT = Path(
+    os.environ.get("CHEMX_MOLSCRIBE_MODEL_PATH", "swin_base_char_aux_1m680k.pth")
 )
 CHUNK_SIZE = 4 * 1024 * 1024
-
-
-def model_root() -> Path:
-    cache_home = Path(
-        os.environ.get(
-            "XDG_CACHE_HOME",
-            Path(__file__).resolve().parents[1] / "runs" / "tools" / "cache",
-        )
-    )
-    return cache_home / "datalab" / "models"
 
 
 def content_length(url: str) -> int | None:
@@ -49,7 +37,7 @@ def download(url: str, destination: Path, expected_size: int | None) -> None:
     if destination.is_file() and (
         expected_size is None or destination.stat().st_size == expected_size
     ):
-        print(f"skip {destination.relative_to(model_root())}")
+        print(f"skip {destination}")
         return
 
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -63,9 +51,7 @@ def download(url: str, destination: Path, expected_size: int | None) -> None:
         }
         if downloaded:
             headers["Range"] = f"bytes={downloaded}-"
-
         try:
-            timeout = httpx.Timeout(60, connect=20, read=30)
             separator = "&" if "?" in url else "?"
             request_url = f"{url}{separator}cachebust={time.time_ns()}-{attempt}"
             with httpx.stream(
@@ -73,7 +59,7 @@ def download(url: str, destination: Path, expected_size: int | None) -> None:
                 request_url,
                 headers=headers,
                 follow_redirects=True,
-                timeout=timeout,
+                timeout=httpx.Timeout(60, connect=20, read=30),
             ) as response:
                 response.raise_for_status()
                 if downloaded and response.status_code != 206:
@@ -89,8 +75,8 @@ def download(url: str, destination: Path, expected_size: int | None) -> None:
                 raise
             size = partial.stat().st_size if partial.exists() else 0
             print(
-                f"retry {attempt}/10 {destination.relative_to(model_root())} "
-                f"after {type(exc).__name__}, partial={size}",
+                f"retry {attempt}/10 {destination} after {type(exc).__name__}, "
+                f"partial={size}",
                 flush=True,
             )
             time.sleep(2 * attempt)
@@ -99,53 +85,16 @@ def download(url: str, destination: Path, expected_size: int | None) -> None:
     if expected_size is not None and size != expected_size:
         raise RuntimeError(f"bad size for {destination}: {size} != {expected_size}")
     partial.replace(destination)
-    print(f"downloaded {destination.relative_to(model_root())} {size}")
-
-
-def checkpoint_files(root: Path, checkpoint: str) -> list[str]:
-    manifest_path = root / checkpoint / "manifest.json"
-    if not manifest_path.is_file():
-        raise FileNotFoundError(f"missing manifest: {manifest_path}")
-    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    files = manifest.get("files")
-    if not isinstance(files, list):
-        raise RuntimeError(f"invalid manifest files list: {manifest_path}")
-    return [str(file) for file in files]
-
-
-def sync_cache(*, include_weights: bool) -> None:
-    root = model_root()
-    root.mkdir(parents=True, exist_ok=True)
-    for checkpoint in CHECKPOINTS:
-        manifest_url = f"{BASE_URL}/{checkpoint}/manifest.json"
-        manifest_path = root / checkpoint / "manifest.json"
-        download(manifest_url, manifest_path, expected_size=content_length(manifest_url))
-        files = checkpoint_files(root, checkpoint)
-        for file_name in files:
-            destination = root / checkpoint / file_name
-            if destination.is_file():
-                print(f"skip {destination.relative_to(root)}", flush=True)
-                continue
-            if file_name == "model.safetensors" and not include_weights:
-                raise FileNotFoundError(
-                    "missing Marker model weight; rerun with --include-weights: "
-                    f"{destination}"
-                )
-            url = f"{BASE_URL}/{checkpoint}/{file_name}"
-            download(url, destination, expected_size=content_length(url))
-            time.sleep(0.1)
-    print("datalab model cache complete")
+    print(f"downloaded {destination} {size}")
 
 
 def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--include-weights",
-        action="store_true",
-        help="Download large Marker/Surya model.safetensors files.",
-    )
+    parser.add_argument("--url", default=os.environ.get("CHEMX_MOLSCRIBE_MODEL_URL", DEFAULT_URL))
+    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     args = parser.parse_args(argv)
-    sync_cache(include_weights=args.include_weights)
+
+    download(args.url, args.output, expected_size=content_length(args.url))
     return 0
 
 

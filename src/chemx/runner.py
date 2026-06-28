@@ -42,6 +42,16 @@ class Reviewer(Protocol):
     def review(self, workspace: Path, spec: DomainSpec) -> ReviewResult: ...
 
 
+@contextmanager
+def backend_runtime(backend: Backend) -> Iterator[None]:
+    runtime = getattr(backend, "runtime", None)
+    if runtime is None:
+        yield
+        return
+    with runtime():
+        yield
+
+
 @dataclass
 class CodexBackend:
     model: str = "gpt-5.5"
@@ -138,13 +148,8 @@ class CodexBackend:
             raise RuntimeError(f"codex exec failed ({completed.returncode}):\n{tail}")
         assert_gold_isolated(workspace)
         return self._validate_prediction(
-        return self._validate_prediction(
             (workspace / "prediction.json").read_text(encoding="utf-8")
         )
-
-    @staticmethod
-    def _validate_prediction(text: str) -> Prediction:
-        return Prediction.model_validate_json(text)
 
     @staticmethod
     def _validate_prediction(text: str) -> Prediction:
@@ -232,18 +237,10 @@ class OllamaBackend(CodexBackend):
     def command(self, workspace: Path) -> list[str]:
         instructions = workspace / "gemma-codex-instructions.txt"
         instructions.write_text(GEMMA_CODEX_INSTRUCTIONS, encoding="utf-8")
-        instructions = workspace / "gemma-codex-instructions.txt"
-        instructions.write_text(GEMMA_CODEX_INSTRUCTIONS, encoding="utf-8")
         command = super().command(workspace)
         model_index = command.index("--model")
         command[model_index:model_index + 2] = []
         command[2:2] = ["--oss", "--local-provider", "ollama", "--model", self.model]
-        schema_index = command.index("--output-schema")
-        command[schema_index:schema_index + 2] = []
-        command[2:2] = [
-            "-c",
-            f"model_instructions_file={json.dumps(str(instructions.resolve()))}",
-        ]
         schema_index = command.index("--output-schema")
         command[schema_index:schema_index + 2] = []
         command[2:2] = [

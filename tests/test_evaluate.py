@@ -277,7 +277,9 @@ def test_downloaded_parquet_types_match_all_domain_contracts() -> None:
     pytest.importorskip("pyarrow")
     datasets = Path(__file__).resolve().parents[1] / "datasets"
     parquet_paths = sorted(datasets.rglob("*.parquet"))
-    assert len(parquet_paths) == 10
+    pdf_dirs = {path.parent for path in datasets.rglob("*.pdf")}
+    parquet_dirs = {path.parent for path in parquet_paths}
+    assert parquet_dirs == pdf_dirs
     for parquet_path in parquet_paths:
         domain = parquet_path.parent.name.strip().lower()
         assert validate_parquet_contract(parquet_path, domain)

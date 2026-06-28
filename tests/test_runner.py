@@ -1,4 +1,3 @@
-import signal
 from pathlib import Path
 
 import pytest

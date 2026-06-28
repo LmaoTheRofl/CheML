@@ -4,6 +4,7 @@ FROM python:3.11-slim-bookworm
 
 ARG INSTALL_CODEX=1
 ARG INSTALL_MOLSCRIBE=1
+ARG DOWNLOAD_MODELS=1
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
@@ -11,9 +12,10 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     UV_CACHE_DIR=/opt/uv-cache \
     UV_PYTHON_INSTALL_DIR=/opt/uv-python \
     XDG_CACHE_HOME=/opt/chemx-cache \
+    CHEMX_MOLSCRIBE_MODEL=/opt/chemx-models/molscribe/swin_base_char_aux_1m680k.pth \
     CHEMX_MARKER_PAGE_CHUNK_SIZE=1 \
     CHEMX_OCR_COMMAND="tesseract {image} stdout -l eng" \
-    CHEMX_MOLSCRIBE_COMMAND="/opt/molscribe-venv/bin/python /workspace/scripts/molscribe_predict.py --model /workspace/swin_base_char_aux_1m680k.pth {image}"
+    CHEMX_MOLSCRIBE_COMMAND="/opt/molscribe-venv/bin/python /workspace/scripts/molscribe_predict.py --model /opt/chemx-models/molscribe/swin_base_char_aux_1m680k.pth {image}"
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
@@ -40,6 +42,8 @@ COPY scripts ./scripts
 COPY src ./src
 COPY tests ./tests
 
+RUN mkdir -p /workspace/runs /opt/chemx-cache /opt/uv-cache /opt/chemx-models/molscribe
+
 RUN uv sync --frozen --extra dev --extra ui --extra gold
 
 RUN if [ "$INSTALL_CODEX" = "1" ]; then npm install -g @openai/codex; fi
@@ -54,7 +58,13 @@ RUN if [ "$INSTALL_MOLSCRIBE" = "1" ]; then \
         python -m venv /opt/molscribe-venv; \
     fi
 
-RUN mkdir -p /workspace/runs /opt/chemx-cache /opt/uv-cache
+RUN if [ "$DOWNLOAD_MODELS" = "1" ]; then \
+        uv run --no-sync python scripts/download_datalab_cache.py --include-weights; \
+    fi
+
+RUN if [ "$INSTALL_MOLSCRIBE" = "1" ] && [ "$DOWNLOAD_MODELS" = "1" ]; then \
+        uv run --no-sync python scripts/download_molscribe_model.py --output "$CHEMX_MOLSCRIBE_MODEL"; \
+    fi
 
 ENTRYPOINT ["uv", "run", "--no-sync", "chemx"]
 CMD ["--help"]

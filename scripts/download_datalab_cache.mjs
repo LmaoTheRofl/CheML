@@ -17,6 +17,7 @@ const cacheHome =
   process.env.XDG_CACHE_HOME ||
   path.resolve("runs", "tools", "cache");
 const modelRoot = path.join(cacheHome, "datalab", "models");
+const includeWeights = process.argv.includes("--include-weights");
 
 async function fileSize(file) {
   try {
@@ -128,6 +129,8 @@ async function download(url, destination, expected) {
 
 for (const checkpoint of CHECKPOINTS) {
   const manifestPath = path.join(modelRoot, checkpoint, "manifest.json");
+  const manifestUrl = `${BASE_URL}/${checkpoint}/manifest.json`;
+  await download(manifestUrl, manifestPath, await expectedSize(manifestUrl));
   const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
   for (const fileName of manifest.files) {
     const destination = path.join(modelRoot, checkpoint, fileName);
@@ -135,8 +138,8 @@ for (const checkpoint of CHECKPOINTS) {
       console.log(`skip ${path.relative(modelRoot, destination)}`);
       continue;
     }
-    if (fileName === "model.safetensors") {
-      throw new Error(`missing local model weight; automatic download disabled: ${destination}`);
+    if (fileName === "model.safetensors" && !includeWeights) {
+      throw new Error(`missing Marker model weight; rerun with --include-weights: ${destination}`);
     }
     const url = `${BASE_URL}/${checkpoint}/${fileName}`;
     const expected = await expectedSize(url);

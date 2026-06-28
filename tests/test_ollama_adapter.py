@@ -141,3 +141,7 @@ def test_merge_models_response_supports_both_codex_decoders() -> None:
     merged = json.loads(merge_models_response(b'{"object":"list","data":[{"id":"gemma"}]}'))
     assert merged["data"] == [{"id": "gemma"}]
     assert merged["models"] == []
+
+    native = json.loads(merge_models_response(b'{"models":[{"name":"gemma:latest"}]}'))
+    assert native["object"] == "list"
+    assert native["data"] == [{"id": "gemma:latest", "object": "model"}]

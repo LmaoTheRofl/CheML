@@ -157,7 +157,16 @@ def patch_responses_sse(data: bytes, tools: list[dict[str, Any]]) -> bytes:
 
 def merge_models_response(openai_data: bytes) -> bytes:
     openai_payload = json.loads(openai_data)
-    openai_payload.setdefault("models", [])
+    models = openai_payload.setdefault("models", [])
+    if not isinstance(openai_payload.get("data"), list):
+        openai_payload["data"] = [
+            {"id": model_id, "object": "model"}
+            for model in models
+            if isinstance(model, dict)
+            for model_id in [model.get("name") or model.get("model") or model.get("id")]
+            if isinstance(model_id, str)
+        ]
+    openai_payload.setdefault("object", "list")
     return json.dumps(openai_payload, ensure_ascii=False, separators=(",", ":")).encode()
 
 
