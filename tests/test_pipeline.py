@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import shutil
+from contextlib import contextmanager
 from pathlib import Path
 
 import fitz
@@ -8,7 +9,8 @@ import pytest
 
 from chemx.evaluate import assert_gold_isolated
 from chemx.models import Prediction, RunManifest
-from chemx.pipeline import parse_article, resume_article
+from chemx.pipeline import _default_reviewer, parse_article, resume_article
+from chemx.runner import CodexBackend, OllamaBackend
 
 
 class FakeBackend:
@@ -26,6 +28,23 @@ class FakeBackend:
             encoding="utf-8",
         )
         return prediction
+
+
+class RuntimeBackend(FakeBackend):
+    def __init__(self) -> None:
+        self.active = False
+
+    @contextmanager
+    def runtime(self):
+        self.active = True
+        try:
+            yield
+        finally:
+            self.active = False
+
+    def run(self, workspace: Path, spec) -> Prediction:
+        assert self.active
+        return super().run(workspace, spec)
 
 
 def make_pdf(path: Path) -> None:
@@ -73,6 +92,29 @@ def test_pipeline_can_skip_reviewer(tmp_path: Path) -> None:
         assert completed.error is None
     finally:
         shutil.rmtree(run, ignore_errors=True)
+
+
+def test_pipeline_enters_backend_runtime(tmp_path: Path) -> None:
+    pdf_dir = tmp_path / "SelTox"
+    pdf_dir.mkdir()
+    pdf = pdf_dir / "article.pdf"
+    make_pdf(pdf)
+    backend = RuntimeBackend()
+
+    run = parse_article(pdf, backend=backend, skip_reviewer=True)
+    try:
+        assert backend.active is False
+        completed = RunManifest.model_validate_json(
+            (run / "manifest.json").read_text(encoding="utf-8")
+        )
+        assert completed.state == "inference_complete"
+    finally:
+        shutil.rmtree(run, ignore_errors=True)
+
+
+def test_ollama_uses_local_reviewer() -> None:
+    assert _default_reviewer(OllamaBackend()).name == "deterministic-reviewer"
+    assert _default_reviewer(CodexBackend()).name == "codex-reviewer"
 
 
 def test_resume_reuses_existing_bundle_without_reparsing(tmp_path: Path) -> None:

@@ -107,14 +107,19 @@ parse startup; the pipeline does not silently fall back to a weak mode.
 Codex runner использует `gpt-5.5`, `model_reasoning_effort="xhigh"`, `--ephemeral`, `--sandbox workspace-write` и domain-specific `--output-schema`. Для локального backend контракт тот же:
 
 ```bash
-OLLAMA_MODELS="$PWD/.ollama/models" ~/.local/bin/ollama pull lukaspetrik/gemma3-tools:27b
-scripts/ollama_serve.sh
+~/.local/bin/ollama pull lukaspetrik/gemma3-tools:27b
 uv run chemx parse article.pdf --domain seltox --backend ollama
 ```
 
 Локальный backend использует `lukaspetrik/gemma3-tools:27b` (27.4B, Q4_K_M)
 через совместимый с `codex exec --oss` adapter на `127.0.0.1:11434`. Launcher
-поднимает Ollama upstream на `127.0.0.1:11435`, если он ещё не запущен, и затем adapter.
+автоматически поднимает Ollama upstream и adapter перед inference и корректно
+останавливает их после запуска. Если adapter уже запущен через
+`scripts/ollama_serve.sh`, pipeline переиспользует его. Стандартное хранилище
+весов `~/.ollama/models` используется без дополнительной настройки;
+`OLLAMA_MODELS` задаётся только для нестандартного пути. GUI использует тот же
+runtime, а включённый Reviewer для Ollama выполняет локальную deterministic
+schema-review и не вызывает Codex.
 Adapter отключает конфликтующую schema grammar только во время tool calls,
 оставляет доступными `exec_command`, `write_stdin` и `view_image`, а итоговый
 `prediction.json` по-прежнему проверяется Pydantic-контрактом pipeline. Адреса

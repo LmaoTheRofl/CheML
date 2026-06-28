@@ -1,9 +1,32 @@
+import signal
 from pathlib import Path
 
 import pytest
 
 from chemx.domains import load_domain
 from chemx.runner import CodexBackend, OllamaBackend, install_run_skills
+
+
+class FakeAdapterProcess:
+    def __init__(self, returncode=None) -> None:
+        self.returncode = returncode
+        self.signals = []
+
+    def poll(self):
+        return self.returncode
+
+    def send_signal(self, value) -> None:
+        self.signals.append(value)
+        self.returncode = 0
+
+    def wait(self, timeout=None):
+        return self.returncode
+
+    def terminate(self) -> None:
+        self.returncode = -15
+
+    def kill(self) -> None:
+        self.returncode = -9
 
 
 def test_codex_command_has_isolation_and_structured_output(tmp_path: Path) -> None:
@@ -27,11 +50,77 @@ def test_ollama_uses_same_output_contract(tmp_path: Path) -> None:
     assert "--output-last-message" in command
     assert "model_instructions_file=" in " ".join(command)
     assert (tmp_path / "gemma-codex-instructions.txt").is_file()
+    instructions = (tmp_path / "gemma-codex-instructions.txt").read_text()
+    assert "Keep every tool result below 200 lines and 20 KB" in instructions
+    assert "exactly `values` and `evidence`" in instructions
 
 
 def test_ollama_backend_uses_local_adapter(tmp_path: Path) -> None:
     env = OllamaBackend().environment(tmp_path / "runs" / "one")
     assert env["OLLAMA_HOST"] == "http://127.0.0.1:11434"
+
+
+def test_ollama_runtime_reuses_running_adapter(monkeypatch: pytest.MonkeyPatch) -> None:
+    backend = OllamaBackend()
+    monkeypatch.setattr(backend, "_adapter_ready", lambda: True)
+    monkeypatch.setattr(
+        "chemx.runner.subprocess.Popen",
+        lambda *args, **kwargs: pytest.fail("adapter should not be started"),
+    )
+
+    with backend.runtime():
+        pass
+
+
+def test_ollama_runtime_starts_and_stops_adapter(monkeypatch: pytest.MonkeyPatch) -> None:
+    backend = OllamaBackend()
+    readiness = iter([False, True])
+    process = FakeAdapterProcess()
+    monkeypatch.setattr(backend, "_adapter_ready", lambda: next(readiness))
+    monkeypatch.setattr("chemx.runner.shutil.which", lambda name: "/usr/bin/ollama")
+    monkeypatch.setattr("chemx.runner.subprocess.Popen", lambda *args, **kwargs: process)
+
+    with backend.runtime():
+        assert process.returncode is None
+
+    assert process.signals == [signal.SIGINT]
+
+
+def test_ollama_runtime_reports_missing_executable(monkeypatch: pytest.MonkeyPatch) -> None:
+    backend = OllamaBackend()
+    monkeypatch.setattr(backend, "_adapter_ready", lambda: False)
+    monkeypatch.setattr("chemx.runner.shutil.which", lambda name: None)
+    monkeypatch.setattr("chemx.runner.Path.is_file", lambda path: False)
+
+    with pytest.raises(RuntimeError, match="Ollama executable not found"):
+        with backend.runtime():
+            pass
+
+
+def test_ollama_runtime_reports_early_adapter_exit(monkeypatch: pytest.MonkeyPatch) -> None:
+    backend = OllamaBackend()
+    process = FakeAdapterProcess(returncode=2)
+    monkeypatch.setattr(backend, "_adapter_ready", lambda: False)
+    monkeypatch.setattr("chemx.runner.shutil.which", lambda name: "/usr/bin/ollama")
+    monkeypatch.setattr("chemx.runner.subprocess.Popen", lambda *args, **kwargs: process)
+
+    with pytest.raises(RuntimeError, match="adapter exited with code 2"):
+        with backend.runtime():
+            pass
+
+
+def test_ollama_runtime_stops_adapter_on_timeout(monkeypatch: pytest.MonkeyPatch) -> None:
+    backend = OllamaBackend(startup_timeout_seconds=0)
+    process = FakeAdapterProcess()
+    monkeypatch.setattr(backend, "_adapter_ready", lambda: False)
+    monkeypatch.setattr("chemx.runner.shutil.which", lambda name: "/usr/bin/ollama")
+    monkeypatch.setattr("chemx.runner.subprocess.Popen", lambda *args, **kwargs: process)
+
+    with pytest.raises(TimeoutError, match="did not become ready"):
+        with backend.runtime():
+            pass
+
+    assert process.signals == [signal.SIGINT]
 
 
 def test_ollama_accepts_markdown_fenced_prediction() -> None:
@@ -40,6 +129,33 @@ def test_ollama_accepts_markdown_fenced_prediction() -> None:
     )
     assert prediction.domain == "eyedrops"
     assert prediction.records == []
+
+
+def test_ollama_normalizes_empty_evidence_list() -> None:
+    prediction = OllamaBackend._validate_prediction(
+        '{"schema_version":"1.0","domain":"eyedrops","records":['
+        '{"values":{"name":"sample"},"evidence":[]}]}'
+    )
+
+    assert prediction.records[0].evidence == {}
+
+
+def test_ollama_drops_unstructured_evidence_strings() -> None:
+    prediction = OllamaBackend._validate_prediction(
+        '{"schema_version":"1.0","domain":"eyedrops","records":['
+        '{"values":{"name":"sample"},"evidence":{"name":"page 1"}}]}'
+    )
+
+    assert prediction.records[0].evidence == {"name": []}
+
+
+def test_ollama_drops_lists_of_unstructured_evidence_strings() -> None:
+    prediction = OllamaBackend._validate_prediction(
+        '{"schema_version":"1.0","domain":"eyedrops","records":['
+        '{"values":{"name":"sample"},"evidence":{"name":["marker.md"]}}]}'
+    )
+
+    assert prediction.records[0].evidence == {"name": []}
 
 
 def test_codex_backend_sets_writable_codex_environment(

@@ -9,12 +9,13 @@ if [[ ! -x "$OLLAMA_BIN" ]]; then
     exit 1
 fi
 
-export OLLAMA_MODELS="${OLLAMA_MODELS:-$PROJECT_ROOT/.ollama/models}"
 export OLLAMA_CONTEXT_LENGTH="${OLLAMA_CONTEXT_LENGTH:-32768}"
 export OLLAMA_FLASH_ATTENTION="${OLLAMA_FLASH_ATTENTION:-1}"
 export OLLAMA_KV_CACHE_TYPE="${OLLAMA_KV_CACHE_TYPE:-q8_0}"
 
-mkdir -p "$OLLAMA_MODELS"
+if [[ -n "${OLLAMA_MODELS:-}" ]]; then
+    mkdir -p "$OLLAMA_MODELS"
+fi
 export PYTHONPATH="$PROJECT_ROOT/src${PYTHONPATH:+:$PYTHONPATH}"
 exec python3 -m chemx.ollama_adapter \
     --listen "${CHEMX_OLLAMA_ADAPTER_URL:-127.0.0.1:11434}" \

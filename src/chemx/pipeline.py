@@ -17,6 +17,7 @@ from chemx.runner import (
     DeterministicReviewer,
     OllamaBackend,
     Reviewer,
+    backend_runtime,
     install_run_skills,
 )
 from chemx.validation import (
@@ -46,6 +47,12 @@ def backend_from_name(name: str) -> Backend:
 
 def _is_production_backend(backend: Backend) -> bool:
     return backend.name in {"codex", "ollama"}
+
+
+def _default_reviewer(backend: Backend) -> Reviewer:
+    if backend.name == "codex":
+        return CodexReviewer()
+    return DeterministicReviewer()
 
 
 def _candidate_count(workspace: Path) -> int:
@@ -146,12 +153,17 @@ def _complete_inference(
     )
     candidate_count = _candidate_count(target)
     if production and not prediction.records and candidate_count:
-        (target / "reviewer_feedback.md").write_text(
+        feedback_path = target / "reviewer_feedback.md"
+        empty_feedback = (
             "The previous extraction returned records=[] despite non-empty tables/OCR/"
             "chemistry candidates. Re-extract all domain rows from the artifacts and do "
-            "not return an empty records array.",
-            encoding="utf-8",
+            "not return an empty records array."
         )
+        if feedback_path.is_file():
+            existing_feedback = feedback_path.read_text(encoding="utf-8").strip()
+            if existing_feedback and empty_feedback not in existing_feedback:
+                empty_feedback = existing_feedback + "\n\n" + empty_feedback
+        feedback_path.write_text(empty_feedback, encoding="utf-8")
         prediction = _prepare_prediction(
             Prediction.model_validate(active_backend.run(target, selected)),
             selected,
@@ -241,9 +253,7 @@ def resume_article(
     active_backend = backend or backend_from_name(manifest.backend)
     production = _is_production_backend(active_backend)
     active_reviewer: Reviewer | None = (
-        None
-        if skip_reviewer
-        else reviewer or (CodexReviewer() if production else DeterministicReviewer())
+        None if skip_reviewer else reviewer or _default_reviewer(active_backend)
     )
     required = ["bundle.json"]
     if production:
@@ -270,14 +280,15 @@ def resume_article(
     install_run_skills(project_root(), target, selected)
     assert_gold_isolated(target)
     try:
-        _complete_inference(
-            target,
-            selected,
-            active_backend,
-            active_reviewer,
-            manifest,
-            production=production,
-        )
+        with backend_runtime(active_backend):
+            _complete_inference(
+                target,
+                selected,
+                active_backend,
+                active_reviewer,
+                manifest,
+                production=production,
+            )
     except Exception as exc:
         if manifest.state != "failed_quality_review":
             manifest.state = "failed"
@@ -305,9 +316,7 @@ def parse_article(
     active_backend = backend or CodexBackend()
     production = _is_production_backend(active_backend)
     active_reviewer: Reviewer | None = (
-        None
-        if skip_reviewer
-        else reviewer or (CodexReviewer() if production else DeterministicReviewer())
+        None if skip_reviewer else reviewer or _default_reviewer(active_backend)
     )
     manifest = RunManifest(
         run_id=target.name,
@@ -324,14 +333,15 @@ def parse_article(
         _write_manifest(target / "manifest.json", manifest)
         install_run_skills(root, target, selected)
         assert_gold_isolated(target)
-        _complete_inference(
-            target,
-            selected,
-            active_backend,
-            active_reviewer,
-            manifest,
-            production=production,
-        )
+        with backend_runtime(active_backend):
+            _complete_inference(
+                target,
+                selected,
+                active_backend,
+                active_reviewer,
+                manifest,
+                production=production,
+            )
     except Exception as exc:
         if manifest.state != "failed_quality_review":
             manifest.state = "failed"

@@ -3,23 +3,43 @@ from __future__ import annotations
 import json
 import os
 import shutil
+import signal
+import socket
 import subprocess
+import sys
+import time
+from collections.abc import Iterator
+from contextlib import contextmanager
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Protocol
+from urllib.parse import urlsplit
 
 from chemx.domains import output_schema
 from chemx.evaluate import assert_gold_isolated
 from chemx.models import DomainSpec, Prediction, ReviewResult
 
 GEMMA_CODEX_INSTRUCTIONS = """You are a tool-using ChemX extraction agent.
+You are already inside a prepared ChemX run directory. The required artifacts are
+local files in the current directory. Do not install packages, do not use pip, do
+not use the network, and do not claim that the chemx package is unavailable.
 Use the supplied tools whenever the task depends on workspace files. Never invent
-file contents or command results. Emit shell calls exactly as:
+file contents or command results. Use local shell/Python stdlib commands to read
+JSON, Markdown, and CSV files when needed. Never print a complete artifact: filter
+with rg/sed or parse JSON in Python and print only concise, relevant summaries.
+Keep every tool result below 200 lines and 20 KB. For chemistry candidates, print
+only counts and short molecules relevant to the extracted drug/coformer names.
+Emit shell calls exactly as:
 <tool_call>
 {"name":"exec_command","parameters":{"cmd":"COMMAND"}}
 </tool_call>
 Never wrap tool calls in Markdown. Wait for each tool result before continuing.
-Return only the JSON requested by the user when extraction is complete.
+Return only the final JSON requested by the user when extraction is complete:
+no prose, no Markdown fences, no explanation, and never `{}`.
+The final object must have exactly the top-level keys `schema_version`, `domain`,
+and `records`. Each record must have exactly `values` and `evidence`; `values`
+must contain every field name from domain.json and `evidence` must be an object.
+Never return bundle metadata keys or an ad-hoc simplified record schema.
 """
 
 
@@ -44,6 +64,14 @@ class CodexBackend:
     name: str = "codex"
 
     def command(self, workspace: Path) -> list[str]:
+        prompt = self._prompt()
+        feedback = workspace / "reviewer_feedback.md"
+        if feedback.is_file():
+            prompt = (
+                prompt
+                + "\n\nMandatory reviewer_feedback.md contents:\n"
+                + feedback.read_text(encoding="utf-8")
+            )
         return [
             self.executable,
             "exec",
@@ -61,7 +89,7 @@ class CodexBackend:
             str(workspace / "prediction.json"),
             "-C",
             str(workspace),
-            self._prompt(),
+            prompt,
         ]
 
     @staticmethod
@@ -134,7 +162,81 @@ class CodexBackend:
 @dataclass
 class OllamaBackend(CodexBackend):
     model: str = "lukaspetrik/gemma3-tools:27b"
+    startup_timeout_seconds: float = 30
     name: str = "ollama"
+
+    def _adapter_address(self) -> tuple[str, int]:
+        value = os.environ.get("CHEMX_OLLAMA_ADAPTER_URL", "http://127.0.0.1:11434")
+        parsed = urlsplit(value if "://" in value else f"http://{value}")
+        return parsed.hostname or "127.0.0.1", parsed.port or 11434
+
+    def _adapter_ready(self) -> bool:
+        try:
+            with socket.create_connection(self._adapter_address(), timeout=0.25):
+                return True
+        except OSError:
+            return False
+
+    @staticmethod
+    def _stop_adapter(process: subprocess.Popen[str]) -> None:
+        if process.poll() is not None:
+            return
+        process.send_signal(signal.SIGINT)
+        try:
+            process.wait(timeout=10)
+        except subprocess.TimeoutExpired:
+            process.terminate()
+            try:
+                process.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                process.kill()
+                process.wait(timeout=5)
+
+    def _start_adapter(self) -> subprocess.Popen[str] | None:
+        if self._adapter_ready():
+            return None
+        ollama_bin = os.environ.get("OLLAMA_BIN") or shutil.which("ollama")
+        if not ollama_bin:
+            fallback = Path.home() / ".local" / "bin" / "ollama"
+            ollama_bin = str(fallback) if fallback.is_file() else None
+        if not ollama_bin:
+            raise RuntimeError("Ollama executable not found; set OLLAMA_BIN")
+        host, port = self._adapter_address()
+        process = subprocess.Popen(
+            [
+                sys.executable,
+                "-m",
+                "chemx.ollama_adapter",
+                "--listen",
+                f"{host}:{port}",
+                "--upstream",
+                os.environ.get("OLLAMA_UPSTREAM_URL", "127.0.0.1:11435"),
+                "--ollama-bin",
+                ollama_bin,
+            ],
+            env=os.environ.copy(),
+            text=True,
+        )
+        deadline = time.monotonic() + self.startup_timeout_seconds
+        while time.monotonic() < deadline:
+            if process.poll() is not None:
+                raise RuntimeError(
+                    f"ChemX Ollama adapter exited with code {process.returncode}"
+                )
+            if self._adapter_ready():
+                return process
+            time.sleep(0.2)
+        self._stop_adapter(process)
+        raise TimeoutError("ChemX Ollama adapter did not become ready")
+
+    @contextmanager
+    def runtime(self) -> Iterator[None]:
+        process = self._start_adapter()
+        try:
+            yield
+        finally:
+            if process is not None:
+                self._stop_adapter(process)
 
     def command(self, workspace: Path) -> list[str]:
         instructions = workspace / "gemma-codex-instructions.txt"
@@ -166,7 +268,33 @@ class OllamaBackend(CodexBackend):
         if object_start < 0:
             return Prediction.model_validate_json(candidate)
         payload, _ = json.JSONDecoder().raw_decode(candidate[object_start:])
+        for record in payload.get("records", []):
+            if record.get("evidence") == []:
+                record["evidence"] = {}
+            elif isinstance(record.get("evidence"), dict):
+                record["evidence"] = {
+                    field: (
+                        []
+                        if isinstance(refs, str)
+                        or (
+                            isinstance(refs, list)
+                            and all(isinstance(ref, str) for ref in refs)
+                        )
+                        else refs
+                    )
+                    for field, refs in record["evidence"].items()
+                }
         return Prediction.model_validate(payload)
+
+
+@contextmanager
+def backend_runtime(backend: Backend) -> Iterator[None]:
+    runtime = getattr(backend, "runtime", None)
+    if runtime is None:
+        yield
+        return
+    with runtime():
+        yield
 
 
 REVIEW_SCHEMA = {
