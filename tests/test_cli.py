@@ -1,8 +1,14 @@
+from inspect import signature
 from pathlib import Path
 
 from typer.testing import CliRunner
 
-from chemx.cli import app
+from chemx.cli import app, batch, parse
+
+
+def test_codex_is_the_default_cli_backend() -> None:
+    assert signature(parse).parameters["backend"].default == "codex"
+    assert signature(batch).parameters["backend"].default == "codex"
 
 
 def test_domains_cli_smoke() -> None:

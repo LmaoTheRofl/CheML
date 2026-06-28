@@ -1,0 +1,7 @@
+Schema and row coverage pass: prediction.json validates, prediction.csv matches, 3 cocrystal records are extracted, numeric rates/ratios match the artifacts, and RDKit diagnostics report 6 valid canonical SMILES. Retry is recommended to fix photostability page/evidence provenance.
+
+- prediction.json validates against output-schema.json; schema_diagnostics repair_count is 0; prediction.csv has the same 3 records and headers as the JSON values.
+- Extraction is non-empty despite 64 chemistry candidate SMILES and 64 OCSR structures; the three article cocrystals (CBZ-SUC, CBZ-SAC form I, CBZ-SAC form II) are all present, while polymorphs and physical mixtures are not target cocrystal rows.
+- chemistry_diagnostics reports all 6 predicted SMILES as valid and canonical; the carbamazepine, succinic acid, and saccharin assignments are chemically consistent with Figure 1 naming.
+- All records set photostability_change_page/evidence to page 7, but the included discoloration rates come from Table 1 on page 5 and the included degradation rates come from Table 2 on page 8. The evidence text is a synthesized cross-page statement rather than a page-local artifact excerpt.
+- The predicted SMILES do not appear in chemistry_candidates.json or OCSR outputs; evidence points to the Figure 1 caption without structure-specific bbox/provenance. RDKit validity passes, but SMILES evidence is weaker than the rest of the extraction.

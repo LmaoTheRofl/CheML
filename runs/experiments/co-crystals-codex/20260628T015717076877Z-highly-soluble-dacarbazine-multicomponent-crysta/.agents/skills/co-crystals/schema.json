@@ -1,0 +1,3194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "domain": {
+      "type": "string",
+      "const": "co-crystals"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "values": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "pdf": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "doi": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "supplementary": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "authors": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "title": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "journal": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "year": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "page": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "access": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name_cocrystal": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name_cocrystal_type_file": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name_cocrystal_page": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name_cocrystal_origin": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "ratio_cocrystal": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "ratio_cocrystal_page": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "ratio_cocrystal_page.1": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "ratio_cocrystal_origin": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name_drug": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name_drug_type_file": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name_drug_origin": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name_drug_page": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "SMILES_drug": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "SMILES_drug_type_file": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "SMILES_drug_origin": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "SMILES_drug_page": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name_coformer": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name_coformer_type file": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name_coformer_origin": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name_coformer_page": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "SMILES_coformer": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "SMILES_coformer_type file": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "SMILES_coformer_origin": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "SMILES_coformer_page": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "photostability_change": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "photostability_change_type_file": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "photostability_change_origin": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "photostability_change_page": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "pdf",
+              "doi",
+              "supplementary",
+              "authors",
+              "title",
+              "journal",
+              "year",
+              "page",
+              "access",
+              "name_cocrystal",
+              "name_cocrystal_type_file",
+              "name_cocrystal_page",
+              "name_cocrystal_origin",
+              "ratio_cocrystal",
+              "ratio_cocrystal_page",
+              "ratio_cocrystal_page.1",
+              "ratio_cocrystal_origin",
+              "name_drug",
+              "name_drug_type_file",
+              "name_drug_origin",
+              "name_drug_page",
+              "SMILES_drug",
+              "SMILES_drug_type_file",
+              "SMILES_drug_origin",
+              "SMILES_drug_page",
+              "name_coformer",
+              "name_coformer_type file",
+              "name_coformer_origin",
+              "name_coformer_page",
+              "SMILES_coformer",
+              "SMILES_coformer_type file",
+              "SMILES_coformer_origin",
+              "SMILES_coformer_page",
+              "photostability_change",
+              "photostability_change_type_file",
+              "photostability_change_origin",
+              "photostability_change_page"
+            ]
+          },
+          "evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "pdf": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "doi": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "supplementary": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "authors": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "title": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "journal": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "year": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "page": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "access": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "name_cocrystal": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "name_cocrystal_type_file": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "name_cocrystal_page": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "name_cocrystal_origin": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "ratio_cocrystal": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "ratio_cocrystal_page": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "ratio_cocrystal_page.1": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "ratio_cocrystal_origin": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "name_drug": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "name_drug_type_file": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "name_drug_origin": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "name_drug_page": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "SMILES_drug": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "SMILES_drug_type_file": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "SMILES_drug_origin": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "SMILES_drug_page": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "name_coformer": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "name_coformer_type file": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "name_coformer_origin": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "name_coformer_page": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "SMILES_coformer": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "SMILES_coformer_type file": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "SMILES_coformer_origin": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "SMILES_coformer_page": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "photostability_change": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "photostability_change_type_file": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "photostability_change_origin": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              },
+              "photostability_change_page": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "page": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "text",
+                        "table",
+                        "figure",
+                        "caption",
+                        "metadata"
+                      ]
+                    },
+                    "bbox": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "x0": {
+                              "type": "number"
+                            },
+                            "y0": {
+                              "type": "number"
+                            },
+                            "x1": {
+                              "type": "number"
+                            },
+                            "y1": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x0",
+                            "y0",
+                            "x1",
+                            "y1"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "asset_path": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "page",
+                    "kind",
+                    "bbox",
+                    "text",
+                    "asset_path"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "pdf",
+              "doi",
+              "supplementary",
+              "authors",
+              "title",
+              "journal",
+              "year",
+              "page",
+              "access",
+              "name_cocrystal",
+              "name_cocrystal_type_file",
+              "name_cocrystal_page",
+              "name_cocrystal_origin",
+              "ratio_cocrystal",
+              "ratio_cocrystal_page",
+              "ratio_cocrystal_page.1",
+              "ratio_cocrystal_origin",
+              "name_drug",
+              "name_drug_type_file",
+              "name_drug_origin",
+              "name_drug_page",
+              "SMILES_drug",
+              "SMILES_drug_type_file",
+              "SMILES_drug_origin",
+              "SMILES_drug_page",
+              "name_coformer",
+              "name_coformer_type file",
+              "name_coformer_origin",
+              "name_coformer_page",
+              "SMILES_coformer",
+              "SMILES_coformer_type file",
+              "SMILES_coformer_origin",
+              "SMILES_coformer_page",
+              "photostability_change",
+              "photostability_change_type_file",
+              "photostability_change_origin",
+              "photostability_change_page"
+            ]
+          }
+        },
+        "required": [
+          "values",
+          "evidence"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "domain",
+    "records"
+  ]
+}

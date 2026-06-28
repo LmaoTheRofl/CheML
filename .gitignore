@@ -25,11 +25,23 @@ dist/
 .codex-home/
 .codex-cache/
 .ctx-*
+.ollama/
+manifest_*
+models_safetensors/
 
 # Runtime extraction outputs
 tmp/
 temp/
 *.log
+runs/tools/
+runs/experiments/_*/
+runs/experiments/*warmup*/
+runs/experiments/**/*schema_audit*.csv
+runs/experiments/co-crystals-gemma/
+runs/experiments/**/assets/
+runs/experiments/**/marker/**/*.jpeg
+runs/experiments/**/marker/**/*.jpg
+runs/experiments/**/marker/**/*.png
 
 # Large local model/checkpoint files
 *.pth

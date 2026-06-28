@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "smiles_count": 6,
+  "invalid_smiles_count": 0,
+  "smiles": [
+    {
+      "record": 0,
+      "field": "SMILES_drug",
+      "raw": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+      "canonical": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+      "valid": true
+    },
+    {
+      "record": 0,
+      "field": "SMILES_coformer",
+      "raw": "O=C(O)CCC(=O)O",
+      "canonical": "O=C(O)CCC(=O)O",
+      "valid": true
+    },
+    {
+      "record": 1,
+      "field": "SMILES_drug",
+      "raw": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+      "canonical": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+      "valid": true
+    },
+    {
+      "record": 1,
+      "field": "SMILES_coformer",
+      "raw": "O=C1NS(=O)(=O)c2ccccc21",
+      "canonical": "O=C1NS(=O)(=O)c2ccccc21",
+      "valid": true
+    },
+    {
+      "record": 2,
+      "field": "SMILES_drug",
+      "raw": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+      "canonical": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+      "valid": true
+    },
+    {
+      "record": 2,
+      "field": "SMILES_coformer",
+      "raw": "O=C1NS(=O)(=O)c2ccccc21",
+      "canonical": "O=C1NS(=O)(=O)c2ccccc21",
+      "valid": true
+    }
+  ]
+}

@@ -22,8 +22,24 @@ def test_ollama_uses_same_output_contract(tmp_path: Path) -> None:
     command = OllamaBackend().command(tmp_path)
     assert "--oss" in command
     assert command[command.index("--local-provider") + 1] == "ollama"
-    assert "--output-schema" in command
+    assert command[command.index("--model") + 1] == "lukaspetrik/gemma3-tools:27b"
+    assert "--output-schema" not in command
     assert "--output-last-message" in command
+    assert "model_instructions_file=" in " ".join(command)
+    assert (tmp_path / "gemma-codex-instructions.txt").is_file()
+
+
+def test_ollama_backend_uses_local_adapter(tmp_path: Path) -> None:
+    env = OllamaBackend().environment(tmp_path / "runs" / "one")
+    assert env["OLLAMA_HOST"] == "http://127.0.0.1:11434"
+
+
+def test_ollama_accepts_markdown_fenced_prediction() -> None:
+    prediction = OllamaBackend._validate_prediction(
+        '```json\n{"schema_version":"1.0","domain":"eyedrops","records":[]}\n```'
+    )
+    assert prediction.domain == "eyedrops"
+    assert prediction.records == []
 
 
 def test_codex_backend_sets_writable_codex_environment(
@@ -101,4 +117,5 @@ def test_run_workspace_gets_only_router_and_selected_skill(tmp_path: Path) -> No
     install_run_skills(Path.cwd(), tmp_path, load_domain("seltox"))
     installed = {path.name for path in (tmp_path / ".agents" / "skills").iterdir()}
     assert installed == {"chemx-parser", "seltox"}
+    assert (tmp_path / "domain.json").is_file()
     assert (tmp_path / "output-schema.json").is_file()

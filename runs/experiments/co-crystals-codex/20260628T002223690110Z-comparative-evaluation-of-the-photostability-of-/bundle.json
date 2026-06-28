@@ -1,0 +1,1989 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-06-28T00:54:42.823684Z",
+  "parser": "marker+pymupdf",
+  "metadata": {
+    "title": null,
+    "author": null,
+    "subject": null,
+    "keywords": null,
+    "creator": null,
+    "producer": "iText® 7.1.1 ©2000-2018 iText Group NV (AGPL-version)",
+    "page_count": 11,
+    "sha256": "90889271bd729ef440b08101fa49f8d642c4040b337a21317951547fd993ff57",
+    "source_name": "Comparative_Evaluation_of_the_Photostability_of_Ca.pdf"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "crystals\nArticle\nComparative Evaluation of the Photostability of\nCarbamazepine Polymorphs and Cocrystals\nReiko Yutani 1,*, Ryotaro Haku 2, Reiko Teraoka 1,3,*, Chisato Tode 4, Tatsuo Koide 5,\nShuji Kitagawa 6, Toshiyasu Sakane 1 and Toshiro Fukami 2,*\n1\nLaboratory of Pharmaceutical Technology, Kobe Pharmaceutical University, 4-19-1 Motoyamakita-machi,\nHigashinada-ku, Kobe 658-8558, Japan\n2\nDepartment of Molecular Pharmaceutics, Meiji Pharmaceutical University, 2-522-1 Noshio, Kiyose,\nTokyo 204-8588, Japan\n3\nDepartment of Pharmaceutical Technology, College of Pharmaceutical Sciences, Himeji Dokkyo University,\n7-2-1 Kamiohno, Himeji, Hyogo 670-8524, Japan\n4\nInstrumental Analysis Center, Kobe Pharmaceutical University, 4-19-1 Motoyamakita-machi,\nHigashinada-ku, Kobe 658-8558, Japan\n5\nDivision of Drugs, National Institute of Health Sciences, 3-25-26 Tonomachi, Kawasaki-ku, Kawasaki,\nKanagawa 210-9501, Japan\n6\nKobe Pharmaceutical University, 4-19-1 Motoyamakita-machi, Higashinada-ku, Kobe 658-8558, Japan\n*\nCorrespondence: r-yutani@kobepharma-u.ac.jp (R.Y.); teraoka@gm.himeji-du.ac.jp (R.T.);\nfukami@my-pharm.ac.jp (T.F.); Tel.: +81-78-441-7532 (R.Y.); +81-79-223-6833 (R.T.); +81-42-495-8936 (T.F.)\nReceived: 24 September 2019; Accepted: 22 October 2019; Published: 24 October 2019\n\u0001\u0002\u0003\u0001\u0004\u0005\u0006\u0007\b\n\u0001\u0002\u0003\u0004\u0005\u0006\u0007\nAbstract: Carbamazepine (CBZ), a widely used antiepileptic, is known to be sensitive to light.\nThe aim of this study was to evaluate the photostabilities of three cocrystals of CBZ (CBZ–succinic\nacid (SUC), CBZ–saccharin (SAC) form I, and CBZ–SAC form II) illuminated with a D65 ﬂuorescent\nlamp compared with those of the conventional solid forms: CBZ polymorphs (forms I, II, and III).\nThe order of discoloration determined using a colorimetric measurement was almost consistent\nwith that of the degradation rates estimated using Fourier-transform infrared reﬂection–absorption\nspectroscopy, and these parameters of CBZ polymorphs increased in the order of form III, form I, and\nform II. CBZ–SUC and CBZ–SAC form I signiﬁcantly suppressed the discoloration and degradation\nof CBZ compared with the raw CBZ, while CBZ–SAC form II facilitated the discoloration and\ndegradation of CBZ. These results were supported by the results from the low-frequency Raman\nspectroscopy. The molecular mobility estimated using solid-state nuclear magnetic resonance 1H\nspin–lattice relaxation time strongly correlated with the degradation rate constant, indicating that\nmolecular mobility signiﬁcantly decreased following the formation of CBZ–SUC and CBZ–SAC form\nI and resulted in higher photostability. Overall, CBZ–SUC and CBZ–SAC form I are photostable\nforms and cocrystallization was proven to be an eﬀective approach to improving the photostability of\na photolabile drug.\nKeywords: carbamazepine; photostability; polymorphs; cocrystal; succinic acid; saccharin\n1. Introduction\nThe eﬃcacy, safety, and quality of pharmaceuticals are adversely aﬀected by light exposure.\nMost drugs are exposed to light during production, storage, distribution, handling, and use [1,2].\nLight potentially alters physicochemical properties of the active pharmaceutical ingredients (APIs)\nand aﬀects the stability of the ﬁnal products [1–3]. Light can provoke the photodecomposition of a\ndrug, which may cause not only a loss of potency of the drug but also the production of a highly\ntoxic compound. Thus, a better understanding of the nature and extent of photodecomposition,\nCrystals 2019, 9, 553; doi:10.3390/cryst9110553\nwww.mdpi.com/journal/crystals\n",
+      "blocks": [
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "crystals",
+          "bbox": {
+            "x0": 115.23939514160156,
+            "y0": 54.26818084716797,
+            "x1": 193.62913513183594,
+            "y1": 79.46578216552734
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Article\nComparative Evaluation of the Photostability of\nCarbamazepine Polymorphs and Cocrystals",
+          "bbox": {
+            "x0": 76.177001953125,
+            "y0": 101.14263153076172,
+            "x1": 468.5460510253906,
+            "y1": 152.88848876953125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Reiko Yutani 1,*, Ryotaro Haku 2, Reiko Teraoka 1,3,*, Chisato Tode 4, Tatsuo Koide 5,\nShuji Kitagawa 6, Toshiyasu Sakane 1 and Toshiro Fukami 2,*",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 167.32421875,
+            "x1": 461.2106628417969,
+            "y1": 192.67477416992188
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "1\nLaboratory of Pharmaceutical Technology, Kobe Pharmaceutical University, 4-19-1 Motoyamakita-machi,\nHigashinada-ku, Kobe 658-8558, Japan\n2\nDepartment of Molecular Pharmaceutics, Meiji Pharmaceutical University, 2-522-1 Noshio, Kiyose,\nTokyo 204-8588, Japan\n3\nDepartment of Pharmaceutical Technology, College of Pharmaceutical Sciences, Himeji Dokkyo University,\n7-2-1 Kamiohno, Himeji, Hyogo 670-8524, Japan\n4\nInstrumental Analysis Center, Kobe Pharmaceutical University, 4-19-1 Motoyamakita-machi,\nHigashinada-ku, Kobe 658-8558, Japan\n5\nDivision of Drugs, National Institute of Health Sciences, 3-25-26 Tonomachi, Kawasaki-ku, Kawasaki,\nKanagawa 210-9501, Japan\n6\nKobe Pharmaceutical University, 4-19-1 Motoyamakita-machi, Higashinada-ku, Kobe 658-8558, Japan\n*\nCorrespondence: r-yutani@kobepharma-u.ac.jp (R.Y.); teraoka@gm.himeji-du.ac.jp (R.T.);\nfukami@my-pharm.ac.jp (T.F.); Tel.: +81-78-441-7532 (R.Y.); +81-79-223-6833 (R.T.); +81-42-495-8936 (T.F.)",
+          "bbox": {
+            "x0": 81.40702056884766,
+            "y0": 199.7637176513672,
+            "x1": 519.860595703125,
+            "y1": 355.8116149902344
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Received: 24 September 2019; Accepted: 22 October 2019; Published: 24 October 2019",
+          "bbox": {
+            "x0": 82.2049560546875,
+            "y0": 372.84820556640625,
+            "x1": 420.18450927734375,
+            "y1": 381.8146057128906
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "\u0001\u0002\u0003\u0001\u0004\u0005\u0006\u0007\b\n\u0001\u0002\u0003\u0004\u0005\u0006\u0007",
+          "bbox": {
+            "x0": 487.0760803222656,
+            "y0": 364.0596008300781,
+            "x1": 517.64697265625,
+            "y1": 379.0830383300781
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Abstract: Carbamazepine (CBZ), a widely used antiepileptic, is known to be sensitive to light.\nThe aim of this study was to evaluate the photostabilities of three cocrystals of CBZ (CBZ–succinic\nacid (SUC), CBZ–saccharin (SAC) form I, and CBZ–SAC form II) illuminated with a D65 ﬂuorescent\nlamp compared with those of the conventional solid forms: CBZ polymorphs (forms I, II, and III).\nThe order of discoloration determined using a colorimetric measurement was almost consistent\nwith that of the degradation rates estimated using Fourier-transform infrared reﬂection–absorption\nspectroscopy, and these parameters of CBZ polymorphs increased in the order of form III, form I, and\nform II. CBZ–SUC and CBZ–SAC form I signiﬁcantly suppressed the discoloration and degradation\nof CBZ compared with the raw CBZ, while CBZ–SAC form II facilitated the discoloration and\ndegradation of CBZ. These results were supported by the results from the low-frequency Raman\nspectroscopy. The molecular mobility estimated using solid-state nuclear magnetic resonance 1H\nspin–lattice relaxation time strongly correlated with the degradation rate constant, indicating that\nmolecular mobility signiﬁcantly decreased following the formation of CBZ–SUC and CBZ–SAC form\nI and resulted in higher photostability. Overall, CBZ–SUC and CBZ–SAC form I are photostable\nforms and cocrystallization was proven to be an eﬀective approach to improving the photostability of\na photolabile drug.",
+          "bbox": {
+            "x0": 81.78600311279297,
+            "y0": 396.1571960449219,
+            "x1": 520.4856567382812,
+            "y1": 608.8551025390625
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Keywords: carbamazepine; photostability; polymorphs; cocrystal; succinic acid; saccharin",
+          "bbox": {
+            "x0": 82.20500183105469,
+            "y0": 624.26318359375,
+            "x1": 478.36688232421875,
+            "y1": 634.320068359375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "1. Introduction",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 675.2061767578125,
+            "x1": 145.04779052734375,
+            "y1": 685.1687622070312
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "The eﬃcacy, safety, and quality of pharmaceuticals are adversely aﬀected by light exposure.\nMost drugs are exposed to light during production, storage, distribution, handling, and use [1,2].\nLight potentially alters physicochemical properties of the active pharmaceutical ingredients (APIs)\nand aﬀects the stability of the ﬁnal products [1–3]. Light can provoke the photodecomposition of a\ndrug, which may cause not only a loss of potency of the drug but also the production of a highly\ntoxic compound. Thus, a better understanding of the nature and extent of photodecomposition,",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 693.9649047851562,
+            "x1": 520.4855346679688,
+            "y1": 772.3250732421875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553\nwww.mdpi.com/journal/crystals",
+          "bbox": {
+            "x0": 76.27200317382812,
+            "y0": 792.993896484375,
+            "x1": 518.7405395507812,
+            "y1": 801.6220703125
+          }
+        }
+      ],
+      "render_path": "assets/page-0001.png"
+    },
+    {
+      "number": 2,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Crystals 2019, 9, 553\n2 of 11\nthe mechanisms of the degradation, and the wavelength causing instability is needed to stabilize the\nproduct [2,3].\nCarbamazepine (CBZ), a widely used antiepileptic, is known to be a photosensitive drug and the\nform issued by the manufacturer has been reported to exhibit a color change after 3 days of illumination\nwith a xenon lamp. Form diversity of CBZ is also well known, and many reports have examined its\npolymorphs [4,5], hydrate and solvate forms [5,6], and the relationship between its solid form and\nphysicochemical properties [7,8].\nRecently, cocrystals have received considerable attention as a new class of API solids. A cocrystal\nis deﬁned as a multiple crystalline molecular complex coexisting through noncovalent interactions such\nas hydrogen bonding, π–π stacking interactions, and van der Waals forces [9,10]. Cocrystals can alter\nthe physicochemical properties of the API without modifying its intrinsic structure [10]. In addition,\nthe cocrystallization technique has been applied to a wide range of drugs because it does not require\nproton transfer between components, unlike salt formation [11]. CBZ has been shown to form cocrystals\nwith various cocrystal formers (coformers), including dicarboxylic acid and saccharin (SAC) [12].\nFavorable physicochemical properties of these cocrystals have been reported previously. Ullah et\nal. reported the advantages of a cocrystal of CBZ with succinic acid (SUC) (CBZ–SUC) in terms of\naqueous solubility, in vitro drug release, and bioavailability [13]. According to Hickey et al., a cocrystal\nof CBZ with SAC (CBZ–SAC form I) potentially represents a viable alternative to the conventional\nanhydrous polymorph due to its physical and chemical stability and oral bioavailability [14]. As shown\nin a study by Porter III et al., a polymorph exists in a cocrystal of CBZ with SAC (CBZ–SAC form\nII) [15]. Although many reports have analyzed CBZ cocrystals, no studies have investigated their\nphotostabilities. In addition, fewer studies have focused on the photosensitivity of cocrystals compared\nwith those concentrated on the conventional solid forms [16–19].\nThus, in the present study, we prepared two polymorphs (CBZ form I and form II) and\nthree cocrystals of CBZ (CBZ–SUC, CBZ–SAC form I, and CBZ–SAC form II) and compared their\nphotostabilities with CBZ form III, which is known to be a comparatively stable form of CBZ.\nPhotostability was assessed using colorimetric measurements, low-frequency Raman spectroscopy,\nFourier-transform infrared reﬂection–absorption spectroscopy (FT-IR RAS) and solid-state nuclear\nmagnetic resonance (SSNMR) 1H spin–lattice relaxation time (T1).\n2. Materials and Methods\n2.1. Materials\nCBZ (purity: ≥97.0%) was purchased from Fujiﬁlm Wako Pure Chemical Corporation (Osaka,\nJapan). SUC (purity: ≥99.5%) and SAC (purity: ≥98.0%) were purchased from Nacalai Tesque, Inc.\n(Kyoto, Japan). The chemical structures of CBZ, SUC, and SAC are shown in Figure 1. All the other\nreagents were of analytical grade or reagent grade.\n \n(a) \n \n \n(b) \n \n(c) \nFigure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC).\n2.2. Preparation of CBZ Polymorphs\nCBZ polymorphs (forms I and II) were prepared according to a previously reported method [20].\n",
+      "blocks": [
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Crystals 2019, 9, 553\n2 of 11",
+          "bbox": {
+            "x0": 76.27200317382812,
+            "y0": 57.12507629394531,
+            "x1": 518.7399291992188,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "the mechanisms of the degradation, and the wavelength causing instability is needed to stabilize the\nproduct [2,3].\nCarbamazepine (CBZ), a widely used antiepileptic, is known to be a photosensitive drug and the\nform issued by the manufacturer has been reported to exhibit a color change after 3 days of illumination\nwith a xenon lamp. Form diversity of CBZ is also well known, and many reports have examined its\npolymorphs [4,5], hydrate and solvate forms [5,6], and the relationship between its solid form and\nphysicochemical properties [7,8].\nRecently, cocrystals have received considerable attention as a new class of API solids. A cocrystal\nis deﬁned as a multiple crystalline molecular complex coexisting through noncovalent interactions such\nas hydrogen bonding, π–π stacking interactions, and van der Waals forces [9,10]. Cocrystals can alter\nthe physicochemical properties of the API without modifying its intrinsic structure [10]. In addition,\nthe cocrystallization technique has been applied to a wide range of drugs because it does not require\nproton transfer between components, unlike salt formation [11]. CBZ has been shown to form cocrystals\nwith various cocrystal formers (coformers), including dicarboxylic acid and saccharin (SAC) [12].\nFavorable physicochemical properties of these cocrystals have been reported previously. Ullah et\nal. reported the advantages of a cocrystal of CBZ with succinic acid (SUC) (CBZ–SUC) in terms of\naqueous solubility, in vitro drug release, and bioavailability [13]. According to Hickey et al., a cocrystal\nof CBZ with SAC (CBZ–SAC form I) potentially represents a viable alternative to the conventional\nanhydrous polymorph due to its physical and chemical stability and oral bioavailability [14]. As shown\nin a study by Porter III et al., a polymorph exists in a cocrystal of CBZ with SAC (CBZ–SAC form\nII) [15]. Although many reports have analyzed CBZ cocrystals, no studies have investigated their\nphotostabilities. In addition, fewer studies have focused on the photosensitivity of cocrystals compared\nwith those concentrated on the conventional solid forms [16–19].\nThus, in the present study, we prepared two polymorphs (CBZ form I and form II) and\nthree cocrystals of CBZ (CBZ–SUC, CBZ–SAC form I, and CBZ–SAC form II) and compared their\nphotostabilities with CBZ form III, which is known to be a comparatively stable form of CBZ.\nPhotostability was assessed using colorimetric measurements, low-frequency Raman spectroscopy,\nFourier-transform infrared reﬂection–absorption spectroscopy (FT-IR RAS) and solid-state nuclear\nmagnetic resonance (SSNMR) 1H spin–lattice relaxation time (T1).",
+          "bbox": {
+            "x0": 76.11699676513672,
+            "y0": 90.6897964477539,
+            "x1": 520.4833984375,
+            "y1": 480.115478515625
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "2. Materials and Methods",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 492.08319091796875,
+            "x1": 193.18704223632812,
+            "y1": 502.0458068847656
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "2.1. Materials",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 515.2206420898438,
+            "x1": 133.7003936767578,
+            "y1": 525.1832275390625
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "CBZ (purity: ≥97.0%) was purchased from Fujiﬁlm Wako Pure Chemical Corporation (Osaka,\nJapan). SUC (purity: ≥99.5%) and SAC (purity: ≥98.0%) were purchased from Nacalai Tesque, Inc.\n(Kyoto, Japan). The chemical structures of CBZ, SUC, and SAC are shown in Figure 1. All the other\nreagents were of analytical grade or reagent grade.",
+          "bbox": {
+            "x0": 76.20700073242188,
+            "y0": 532.0752563476562,
+            "x1": 520.480712890625,
+            "y1": 585.3680419921875
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "(a)",
+          "bbox": {
+            "x0": 149.19680786132812,
+            "y0": 690.0490112304688,
+            "x1": 163.34104919433594,
+            "y1": 700.2193603515625
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "(b)",
+          "bbox": {
+            "x0": 298.956787109375,
+            "y0": 690.0489501953125,
+            "x1": 314.2413024902344,
+            "y1": 700.2192993164062
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "(c)",
+          "bbox": {
+            "x0": 450.1565856933594,
+            "y0": 690.0489501953125,
+            "x1": 463.7607421875,
+            "y1": 700.2192993164062
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC).",
+          "bbox": {
+            "x0": 97.79499816894531,
+            "y0": 709.8453369140625,
+            "x1": 497.56341552734375,
+            "y1": 718.8711547851562
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "2.2. Preparation of CBZ Polymorphs",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 730.1276245117188,
+            "x1": 224.5692596435547,
+            "y1": 740.0902099609375
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "CBZ polymorphs (forms I and II) were prepared according to a previously reported method [20].",
+          "bbox": {
+            "x0": 97.79499816894531,
+            "y0": 749.7844848632812,
+            "x1": 520.4833984375,
+            "y1": 759.7470703125
+          }
+        }
+      ],
+      "render_path": "assets/page-0002.png"
+    },
+    {
+      "number": 3,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Crystals 2019, 9, 553\n3 of 11\nCBZ form I: CBZ was dissolved in a 50% ethanol solution at 70 ◦C, stored at room temperature\nand dried in vacuo for 3 h, obtaining CBZ·dihydrate. Then, CBZ form I was obtained by drying\nCBZ·dihydrate in vacuo at 115 ◦C for 6 h.\nCBZ form II: CBZ was dissolved in chloroform, after which diethyl ether was added and stirred\nat room temperature. The precipitated crystals were then ﬁltered and dried in vacuo in a desiccator\ncontaining P2O5 at room temperature for 3 h, obtaining CBZ form II.\nCBZ form III: The commercial product was used without further puriﬁcation.\n2.3. Preparation of CBZ Cocrystals\nThree cocrystals were prepared according to previously reported methods [13–15].\nFor the preparation of CBZ–SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved\nin 30 mL of ethanol at 70 ◦C and stored at room temperature. The precipitated crystals were then\nﬁltered and dried in vacuo at room temperature.\nFor the preparation of CBZ–SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were\ndissolved in 20 mL of ethanol, stored overnight at 50 ◦C and then maintained at 30 ◦C. The precipitated\ncrystals were ﬁltered and dried in vacuo at room temperature.\nFor the preparation of CBZ–SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were\ndissolved in 20 mL of ethanol at 70 ◦C and stored overnight at room temperature. The precipitated\ncrystals were ﬁltered and dried in vacuo at room temperature.\nAs a control, physical mixtures (PMs) of CBZ form III and SUC or SAC were prepared by weighing\nCBZ and each coformer in an equivalent molar ratio to cocrystal and mixing them with a vortex mixer.\n2.4. Powder X-Ray Diﬀractometry (PXRD)\nPXRD patterns of CBZ polymorphs, coformers, PMs, and cocrystals were recorded using an X-ray\ndiﬀractometer (RINT-Ultima, Rigaku Co., Tokyo, Japan) with CuKα radiation generated at 36 kV and\n20 mA at room temperature. Data were collected within a diﬀraction angle range of 5◦–40◦(2θ) at a\nstep size of 0.02◦and a scanning speed of 2◦/min.\n2.5. Thermal Analysis\nDiﬀerential scanning calorimetry (DSC) analyses were performed using a DSC 3500 Sirius\ninstrument (NETZSCH Japan K.K., Yokohama, Japan). Two milligrams of each sample were weighed\nin an aluminum pan and heated from 30 to 240 ◦C at a rate of 10.0 ◦C/min.\n2.6. Colorimetric Measurement\nOne hundred milligrams of CBZ polymorph, PMs, and cocrystal powders were compressed to\nprepare tablets with 10 mm in diameter using a compression/tension testing machine (TG-50kN,\nMinebeaMitsumi Inc., Tokyo, Japan) equipped with ﬂat-faced punches and a cylindrical die.\nThe compressed tablets were stored in a light-irradiation tester (Light-Tron LT-120, Nagano Science\nCo. Ltd., Osaka, Japan) equipped with a D65 ﬂuorescent lamp. The illuminance was set to 3500 lx.\nThe irradiation tests were conducted at 25 ◦C.\nThe surface color of the tablet was measured with a color reader (CR-13, Konica Minolta Japan,\nINC., Tokyo, Japan) after the designated irradiation times. The color diﬀerence (∆E*ab) before and after\nirradiation was calculated using Equation (1) to evaluate the degree of discoloration. All values were\nreported as the averages of three measurements:\n∆E∗\nab =\nr\u0010\nL∗\nt −L∗\n0\n\u00112 +\n\u0010\na∗\nt −a∗\n0\n\u00112 +\n\u0010\nb∗\nt −b∗\n0\n\u00112,\n(1)\nwhere ∆E*ab is the color diﬀerence, L* is the brightness, a* is the red/green coordinate, and b* is the\nyellow/blue coordinate.\n",
+      "blocks": [
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Crystals 2019, 9, 553\n3 of 11",
+          "bbox": {
+            "x0": 76.27200317382812,
+            "y0": 57.12507629394531,
+            "x1": 518.7399291992188,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "CBZ form I: CBZ was dissolved in a 50% ethanol solution at 70 ◦C, stored at room temperature\nand dried in vacuo for 3 h, obtaining CBZ·dihydrate. Then, CBZ form I was obtained by drying\nCBZ·dihydrate in vacuo at 115 ◦C for 6 h.\nCBZ form II: CBZ was dissolved in chloroform, after which diethyl ether was added and stirred\nat room temperature. The precipitated crystals were then ﬁltered and dried in vacuo in a desiccator\ncontaining P2O5 at room temperature for 3 h, obtaining CBZ form II.\nCBZ form III: The commercial product was used without further puriﬁcation.",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 86.67086791992188,
+            "x1": 518.93505859375,
+            "y1": 181.72010803222656
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2.3. Preparation of CBZ Cocrystals",
+          "bbox": {
+            "x0": 76.53499603271484,
+            "y0": 194.80064392089844,
+            "x1": 218.6614532470703,
+            "y1": 204.76324462890625
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Three cocrystals were prepared according to previously reported methods [13–15].\nFor the preparation of CBZ–SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved\nin 30 mL of ethanol at 70 ◦C and stored at room temperature. The precipitated crystals were then\nﬁltered and dried in vacuo at room temperature.\nFor the preparation of CBZ–SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were\ndissolved in 20 mL of ethanol, stored overnight at 50 ◦C and then maintained at 30 ◦C. The precipitated\ncrystals were ﬁltered and dried in vacuo at room temperature.\nFor the preparation of CBZ–SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were\ndissolved in 20 mL of ethanol at 70 ◦C and stored overnight at room temperature. The precipitated\ncrystals were ﬁltered and dried in vacuo at room temperature.\nAs a control, physical mixtures (PMs) of CBZ form III and SUC or SAC were prepared by weighing\nCBZ and each coformer in an equivalent molar ratio to cocrystal and mixing them with a vortex mixer.",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 214.45751953125,
+            "x1": 520.2861938476562,
+            "y1": 372.9990539550781
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2.4. Powder X-Ray Diﬀractometry (PXRD)",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 385.450927734375,
+            "x1": 253.34107971191406,
+            "y1": 396.06622314453125
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "PXRD patterns of CBZ polymorphs, coformers, PMs, and cocrystals were recorded using an X-ray\ndiﬀractometer (RINT-Ultima, Rigaku Co., Tokyo, Japan) with CuKα radiation generated at 36 kV and\n20 mA at room temperature. Data were collected within a diﬀraction angle range of 5◦–40◦(2θ) at a\nstep size of 0.02◦and a scanning speed of 2◦/min.",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 405.83233642578125,
+            "x1": 519.13232421875,
+            "y1": 456.2510986328125
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2.5. Thermal Analysis",
+          "bbox": {
+            "x0": 76.53501892089844,
+            "y0": 469.3316345214844,
+            "x1": 166.646728515625,
+            "y1": 479.2942199707031
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Diﬀerential scanning calorimetry (DSC) analyses were performed using a DSC 3500 Sirius\ninstrument (NETZSCH Japan K.K., Yokohama, Japan). Two milligrams of each sample were weighed\nin an aluminum pan and heated from 30 to 240 ◦C at a rate of 10.0 ◦C/min.",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 488.1659240722656,
+            "x1": 518.7396850585938,
+            "y1": 525.9700927734375
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2.6. Colorimetric Measurement",
+          "bbox": {
+            "x0": 76.5350341796875,
+            "y0": 539.0506591796875,
+            "x1": 203.1796417236328,
+            "y1": 549.0132446289062
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "One hundred milligrams of CBZ polymorph, PMs, and cocrystal powders were compressed to\nprepare tablets with 10 mm in diameter using a compression/tension testing machine (TG-50kN,\nMinebeaMitsumi Inc., Tokyo, Japan) equipped with ﬂat-faced punches and a cylindrical die.\nThe compressed tablets were stored in a light-irradiation tester (Light-Tron LT-120, Nagano Science\nCo. Ltd., Osaka, Japan) equipped with a D65 ﬂuorescent lamp. The illuminance was set to 3500 lx.\nThe irradiation tests were conducted at 25 ◦C.\nThe surface color of the tablet was measured with a color reader (CR-13, Konica Minolta Japan,\nINC., Tokyo, Japan) after the designated irradiation times. The color diﬀerence (∆E*ab) before and after\nirradiation was calculated using Equation (1) to evaluate the degree of discoloration. All values were\nreported as the averages of three measurements:",
+          "bbox": {
+            "x0": 76.22599792480469,
+            "y0": 558.654052734375,
+            "x1": 520.4886474609375,
+            "y1": 690.2550659179688
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "∆E∗\nab =",
+          "bbox": {
+            "x0": 201.22601318359375,
+            "y0": 709.0838623046875,
+            "x1": 233.61151123046875,
+            "y1": 726.6439819335938
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "r\u0010\nL∗\nt −L∗\n0\n\u00112 +\n\u0010\na∗\nt −a∗\n0\n\u00112 +\n\u0010\nb∗\nt −b∗\n0\n\u00112,\n(1)",
+          "bbox": {
+            "x0": 238.15701293945312,
+            "y0": 702.5665283203125,
+            "x1": 518.737060546875,
+            "y1": 726.9314575195312
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "where ∆E*ab is the color diﬀerence, L* is the brightness, a* is the red/green coordinate, and b* is the\nyellow/blue coordinate.",
+          "bbox": {
+            "x0": 76.11699676513672,
+            "y0": 739.8659057617188,
+            "x1": 518.7413940429688,
+            "y1": 764.1600952148438
+          }
+        }
+      ],
+      "render_path": "assets/page-0003.png"
+    },
+    {
+      "number": 4,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Crystals 2019, 9, 553\n4 of 11\nThe apparent discoloration rate constant (k) was calculated using Equation (2) [21]:\nlog ∆E∗\nab =\n1\n1 −nlog t+\n1\n1 −nlog[(1 −n)k].\n(2)\n2.7. Low-Frequency Raman Spectroscopy\nThe CBZ form III, CBZ–SUC, or CBZ–SAC form II powder was ground using a mortal and a\npestle, and then passed through a No. 200 sieve (nominal aperture size: 75 µm). The sieved powder\nwas mixed with microcrystalline cellulose at a weight ratio of 1:9 (the sieved powder/ microcrystalline\ncellulose) for 5 min. Two hundred milligrams of the resulting mixture were weighed and compressed\nto prepare tablets with a diameter of 8 mm.\nThe sample tablets were irradiated with a D65 ﬂuorescent lamp for 343 h (over 1.2 million lx·h)\nas described above (Section 2.6). Qualitative analyses of changes in the surface of the tablets after\nirradiation were conducted using the Raman WorkStation (Kaiser Optical Systems Inc., MI, USA)\nequipped with a low-frequency XLF-CLM module (ONDAX Inc., CA, USA). The excitation wavelength\nwas set to 976 nm. The standard spectrum of each component was obtained with an exposure time\nof 10 s in three scans. Samples with an area of 500 µm × 500 µm were scanned with a spectral range\nfrom −200 to 200 cm−1, a step size of 16.7 µm, and a resolution of 4.0 cm−1. The data were analyzed\nusing ISys 5.0 software (Malvern Instruments Ltd., Worcestershire, UK). The spectral analysis was\nperformed in a range of 5–200 cm−1. The spectrum of each component was preprocessed using the\nstandard normal variate (SNV), and images were generated based on the standard spectrum of each\nAPI using the partial least squares (PLS) analysis.\n2.8. FT-IR RAS\nFive hundred milligrams of CBZ polymorph, PMs, and cocrystal powders were compressed\nto prepare tablets with a diameter of 20 mm. The prepared tablets were ﬁxed on a glass plate and\nirradiated with a D65 ﬂuorescent lamp as described above (Section 2.6). FT-IR RAS spectra were\nobtained using a Frontier FT-IR system (PerkinElmer Japan Co., Ltd.). The spectra were modiﬁed by\nthe Kramers–Kronig transform and baseline correction was performed. The remaining percentage was\ncalculated from the intensity ratio of the C=O stretching vibration (at 1675–1685 cm−1) of CBZ before\nand after irradiation [22]. The photodegradation rate constant was also calculated from the apparent\nﬁrst-order plots.\n2.9. SSNMR 1H Spin–Lattice Relaxation Time (T1)\nSpin–lattice relaxation times (T1) of CBZ polymorphs and cocrystals were measured using a\nVarian VXR 1H SSNMR spectrometer (Varian Inc., Palo Alto, CA, USA) at 500 MHz. Cross-polarization\nand magic angle spinning (CP-MAS) methods were applied with a spinning rate of 20 kHz, a contact\ntime of 200 µs, and a recycle delay of 600 s, using a zirconia sample tube with a diameter of 3.2 mm.\nSaturation recovery times were assayed from 0.1 to 1500 s.\n3. Results\n3.1. Characterization of CBZ Polymorphs and Cocrystals\nThe PXRD patterns of CBZ polymorphs, two coformers, PMs, and cocrystals are shown in Figure S1\n(Supplementary Materials). The PXRD patterns of CBZ form I, form II, and form III were consistent\nwith the patterns reported by Grzesiak et al. (Figure S1a–c, Supplementary Materials) [4]. The PXRD\npatterns of CBZ–SUC, CBZ–SAC form I, and CBZ–SAC form II, which were also consistent with the\npatterns described in previous reports, were diﬀerent from those of CBZ form III, the corresponding\ncoformers, and PMs (Figure S1c–j, Supplementary Materials) [13–15].\n",
+      "blocks": [
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Crystals 2019, 9, 553\n4 of 11",
+          "bbox": {
+            "x0": 76.27200317382812,
+            "y0": 57.12507629394531,
+            "x1": 518.7399291992188,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "The apparent discoloration rate constant (k) was calculated using Equation (2) [21]:",
+          "bbox": {
+            "x0": 97.79501342773438,
+            "y0": 90.53063201904297,
+            "x1": 461.7474060058594,
+            "y1": 100.6631088256836
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "log ∆E∗\nab =\n1\n1 −nlog t+\n1\n1 −nlog[(1 −n)k].\n(2)",
+          "bbox": {
+            "x0": 207.0130157470703,
+            "y0": 112.77344512939453,
+            "x1": 518.739013671875,
+            "y1": 136.31507873535156
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "2.7. Low-Frequency Raman Spectroscopy",
+          "bbox": {
+            "x0": 76.53494262695312,
+            "y0": 147.07859802246094,
+            "x1": 243.11956787109375,
+            "y1": 157.04119873046875
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "The CBZ form III, CBZ–SUC, or CBZ–SAC form II powder was ground using a mortal and a\npestle, and then passed through a No. 200 sieve (nominal aperture size: 75 µm). The sieved powder\nwas mixed with microcrystalline cellulose at a weight ratio of 1:9 (the sieved powder/ microcrystalline\ncellulose) for 5 min. Two hundred milligrams of the resulting mixture were weighed and compressed\nto prepare tablets with a diameter of 8 mm.\nThe sample tablets were irradiated with a D65 ﬂuorescent lamp for 343 h (over 1.2 million lx·h)\nas described above (Section 2.6). Qualitative analyses of changes in the surface of the tablets after\nirradiation were conducted using the Raman WorkStation (Kaiser Optical Systems Inc., MI, USA)\nequipped with a low-frequency XLF-CLM module (ONDAX Inc., CA, USA). The excitation wavelength\nwas set to 976 nm. The standard spectrum of each component was obtained with an exposure time\nof 10 s in three scans. Samples with an area of 500 µm × 500 µm were scanned with a spectral range\nfrom −200 to 200 cm−1, a step size of 16.7 µm, and a resolution of 4.0 cm−1. The data were analyzed\nusing ISys 5.0 software (Malvern Instruments Ltd., Worcestershire, UK). The spectral analysis was\nperformed in a range of 5–200 cm−1. The spectrum of each component was preprocessed using the\nstandard normal variate (SNV), and images were generated based on the standard spectrum of each\nAPI using the partial least squares (PLS) analysis.",
+          "bbox": {
+            "x0": 76.11699676513672,
+            "y0": 166.6643524169922,
+            "x1": 519.7369384765625,
+            "y1": 379.339111328125
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "2.8. FT-IR RAS",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 392.4196472167969,
+            "x1": 141.1922607421875,
+            "y1": 402.3822326660156
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Five hundred milligrams of CBZ polymorph, PMs, and cocrystal powders were compressed\nto prepare tablets with a diameter of 20 mm. The prepared tablets were ﬁxed on a glass plate and\nirradiated with a D65 ﬂuorescent lamp as described above (Section 2.6). FT-IR RAS spectra were\nobtained using a Frontier FT-IR system (PerkinElmer Japan Co., Ltd.). The spectra were modiﬁed by\nthe Kramers–Kronig transform and baseline correction was performed. The remaining percentage was\ncalculated from the intensity ratio of the C=O stretching vibration (at 1675–1685 cm−1) of CBZ before\nand after irradiation [22]. The photodegradation rate constant was also calculated from the apparent\nﬁrst-order plots.",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 412.0054016113281,
+            "x1": 519.1236572265625,
+            "y1": 516.6051025390625
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "2.9. SSNMR 1H Spin–Lattice Relaxation Time (T1)",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 529.394775390625,
+            "x1": 285.5495300292969,
+            "y1": 542.4683837890625
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Spin–lattice relaxation times (T1) of CBZ polymorphs and cocrystals were measured using a\nVarian VXR 1H SSNMR spectrometer (Varian Inc., Palo Alto, CA, USA) at 500 MHz. Cross-polarization\nand magic angle spinning (CP-MAS) methods were applied with a spinning rate of 20 kHz, a contact\ntime of 200 µs, and a recycle delay of 600 s, using a zirconia sample tube with a diameter of 3.2 mm.\nSaturation recovery times were assayed from 0.1 to 1500 s.",
+          "bbox": {
+            "x0": 76.177001953125,
+            "y0": 550.8414306640625,
+            "x1": 520.4857788085938,
+            "y1": 614.912109375
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "3. Results",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 628.0681762695312,
+            "x1": 121.2371826171875,
+            "y1": 638.03076171875
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "3.1. Characterization of CBZ Polymorphs and Cocrystals",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 651.2056274414062,
+            "x1": 306.4618835449219,
+            "y1": 661.168212890625
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "The PXRD patterns of CBZ polymorphs, two coformers, PMs, and cocrystals are shown in Figure S1\n(Supplementary Materials). The PXRD patterns of CBZ form I, form II, and form III were consistent\nwith the patterns reported by Grzesiak et al. (Figure S1a–c, Supplementary Materials) [4]. The PXRD\npatterns of CBZ–SUC, CBZ–SAC form I, and CBZ–SAC form II, which were also consistent with the\npatterns described in previous reports, were diﬀerent from those of CBZ form III, the corresponding\ncoformers, and PMs (Figure S1c–j, Supplementary Materials) [13–15].",
+          "bbox": {
+            "x0": 76.11699676513672,
+            "y0": 670.934326171875,
+            "x1": 519.2396850585938,
+            "y1": 748.3720703125
+          }
+        }
+      ],
+      "render_path": "assets/page-0004.png"
+    },
+    {
+      "number": 5,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Crystals 2019, 9, 553\n5 of 11\nThe DSC proﬁles of CBZ polymorphs, two coformers, PMs, and cocrystals are shown in Figure S2\n(Supplementary Materials). The DSC proﬁles of each polymorph were approximately consistent with\nthe proﬁles described in a previous report (Figure S2a–c, Supplementary Materials) [4]. The DSC proﬁles\nof CBZ–SUC, CBZ–SAC form I, and CBZ–SAC form II exhibited the characteristic endothermic peaks\nat 191.7, 177.9, and 174.5◦C, respectively, which diﬀered from those of CBZ form III, the corresponding\ncoformers, and PMs (Figure S2c–j, Supplementary Materials). These results conﬁrmed the formation\nof cocrystals.\n3.2. Changes in the Surface Color of Tablets\nChanges in the appearance of sample tablets were evaluated by calculating the difference in color\nbefore and after irradiation with a D65 fluorescent lamp and the apparent discoloration rate constant\n(k). Time courses for discoloration of CBZ polymorphs, PMs, and cocrystals as well as their apparent\ndiscoloration rate constants are shown in Figure 2 and Table 1, respectively. The surface color of tablets\ngradually turned from white to pale yellow-white following light exposure, and ∆E*ab increased as the\nirradiation time increased. The discoloration rate constants of CBZ polymorphs increased in the order of\nform III, form I, and form II, and the surface color of the tablet of form II turned yellow. The surface color\nof the tablets of PMs also changed, similar to that of the raw CBZ. On the other hand, the discoloration\nrate constant of CBZ cocrystals differed. The discoloration rate constants of CBZ–SUC and CBZ–SAC\nform I were significantly lower than those of the raw CBZ and the corresponding PMs, that is, changes in\nappearance were significantly suppressed. Meanwhile, the discoloration rate constant of CBZ–SAC form II\nwas significantly higher and the surface color of the tablet more quickly turned yellow.\nFigure 2. Time courses of the discoloration of CBZ polymorphs, physical mixtures (PMs), and cocrystals.\nThe symbols represent changes in ∆E*ab of CBZ form I (#), form II (\b), form III (\b), CBZ–SUC PM (△),\nCBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC form II (■). Data are presented\nas the means ± SD of 3 values.\nTable 1. Apparent discoloration rate constants of CBZ polymorphs, PMs, and cocrystals.\nSample\nApparent Discoloration Rate Constant (h−1)\nCBZ form I\n0.032\nCBZ form II\n0.054\nCBZ form III\n0.026\nCBZ–SUC PM\n0.024\nCBZ–SUC\n0.004\nCBZ–SAC PM\n0.026\nCBZ–SAC form I\n0.008\nCBZ–SAC form II\n0.064\n",
+      "blocks": [
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Crystals 2019, 9, 553\n5 of 11",
+          "bbox": {
+            "x0": 76.27200317382812,
+            "y0": 57.12507629394531,
+            "x1": 518.7399291992188,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "The DSC proﬁles of CBZ polymorphs, two coformers, PMs, and cocrystals are shown in Figure S2\n(Supplementary Materials). The DSC proﬁles of each polymorph were approximately consistent with\nthe proﬁles described in a previous report (Figure S2a–c, Supplementary Materials) [4]. The DSC proﬁles\nof CBZ–SUC, CBZ–SAC form I, and CBZ–SAC form II exhibited the characteristic endothermic peaks\nat 191.7, 177.9, and 174.5◦C, respectively, which diﬀered from those of CBZ form III, the corresponding\ncoformers, and PMs (Figure S2c–j, Supplementary Materials). These results conﬁrmed the formation\nof cocrystals.",
+          "bbox": {
+            "x0": 76.20700073242188,
+            "y0": 90.7723388671875,
+            "x1": 518.7442016601562,
+            "y1": 181.72010803222656
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "3.2. Changes in the Surface Color of Tablets",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 194.80064392089844,
+            "x1": 251.9764404296875,
+            "y1": 204.76324462890625
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Changes in the appearance of sample tablets were evaluated by calculating the difference in color\nbefore and after irradiation with a D65 fluorescent lamp and the apparent discoloration rate constant\n(k). Time courses for discoloration of CBZ polymorphs, PMs, and cocrystals as well as their apparent\ndiscoloration rate constants are shown in Figure 2 and Table 1, respectively. The surface color of tablets\ngradually turned from white to pale yellow-white following light exposure, and ∆E*ab increased as the\nirradiation time increased. The discoloration rate constants of CBZ polymorphs increased in the order of\nform III, form I, and form II, and the surface color of the tablet of form II turned yellow. The surface color\nof the tablets of PMs also changed, similar to that of the raw CBZ. On the other hand, the discoloration\nrate constant of CBZ cocrystals differed. The discoloration rate constants of CBZ–SUC and CBZ–SAC\nform I were significantly lower than those of the raw CBZ and the corresponding PMs, that is, changes in\nappearance were significantly suppressed. Meanwhile, the discoloration rate constant of CBZ–SAC form II\nwas significantly higher and the surface color of the tablet more quickly turned yellow.",
+          "bbox": {
+            "x0": 76.11699676513672,
+            "y0": 214.3863983154297,
+            "x1": 518.945068359375,
+            "y1": 373.0231018066406
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Figure 2. Time courses of the discoloration of CBZ polymorphs, physical mixtures (PMs), and cocrystals.\nThe symbols represent changes in ∆E*ab of CBZ form I (#), form II (\b), form III (\b), CBZ–SUC PM (△),\nCBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC form II (■). Data are presented\nas the means ± SD of 3 values.",
+          "bbox": {
+            "x0": 97.51699829101562,
+            "y0": 584.7863159179688,
+            "x1": 499.04815673828125,
+            "y1": 632.3035888671875
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Table 1. Apparent discoloration rate constants of CBZ polymorphs, PMs, and cocrystals.",
+          "bbox": {
+            "x0": 122.42799377441406,
+            "y0": 641.1673583984375,
+            "x1": 472.556396484375,
+            "y1": 650.2186279296875
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Sample\nApparent Discoloration Rate Constant (h−1)",
+          "bbox": {
+            "x0": 182.44700622558594,
+            "y0": 659.808837890625,
+            "x1": 436.476806640625,
+            "y1": 671.7537231445312
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "CBZ form I\n0.032\nCBZ form II\n0.054\nCBZ form III\n0.026\nCBZ–SUC PM\n0.024\nCBZ–SUC\n0.004\nCBZ–SAC PM\n0.026\nCBZ–SAC form I\n0.008\nCBZ–SAC form II\n0.064",
+          "bbox": {
+            "x0": 162.7840118408203,
+            "y0": 678.6322021484375,
+            "x1": 357.0809326171875,
+            "y1": 765.9776000976562
+          }
+        }
+      ],
+      "render_path": "assets/page-0005.png"
+    },
+    {
+      "number": 6,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Crystals 2019, 9, 553\n6 of 11\n3.3. Evaluation of Photodegradation on the Surface of Tablets Using Low-Frequency Raman Spectroscopy\nPhotodegradation of the surface of sample tablets of CBZ form III, CBZ–SUC, and CBZ–SAC form II\nunder a D65 ﬂuorescent lamp was evaluated using low-frequency Raman spectroscopy. Low-frequency\nRaman spectroscopy is a simple and highly sensitive analytical technique for identifying the crystal\nform [23,24]. Standard spectra of CBZ form III, CBZ–SUC, CBZ–SAC form II, and microcrystalline\ncellulose are shown in Figure S3 (Supplementary Materials). Blue-to-red domains in each image\nrepresent the low-to-high density of each API. For CBZ form III and CBZ–SUC (Figure 3a,b), the Raman\nimages and representative spectra of each domain before and after 343 h of irradiation were not\nsubstantially diﬀerent, indicating that these crystal forms were comparatively photostable. In contrast,\nthe blue domain of CBZ–SAC form II increased and the characteristic peaks of the cocrystal in the\ndomain almost disappeared after 343 h of irradiation (Figure 3c), indicating that part of CBZ–SAC\nform II photodegraded after irradiation.\n \n \n \n \n(a) \n \n \n \n \n(b) \nFigure 3. Cont.\n",
+      "blocks": [
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Crystals 2019, 9, 553\n6 of 11",
+          "bbox": {
+            "x0": 76.27200317382812,
+            "y0": 57.12507629394531,
+            "x1": 518.7399291992188,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "3.3. Evaluation of Photodegradation on the Surface of Tablets Using Low-Frequency Raman Spectroscopy",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 90.53063201904297,
+            "x1": 500.0054626464844,
+            "y1": 100.49323272705078
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Photodegradation of the surface of sample tablets of CBZ form III, CBZ–SUC, and CBZ–SAC form II\nunder a D65 ﬂuorescent lamp was evaluated using low-frequency Raman spectroscopy. Low-frequency\nRaman spectroscopy is a simple and highly sensitive analytical technique for identifying the crystal\nform [23,24]. Standard spectra of CBZ form III, CBZ–SUC, CBZ–SAC form II, and microcrystalline\ncellulose are shown in Figure S3 (Supplementary Materials). Blue-to-red domains in each image\nrepresent the low-to-high density of each API. For CBZ form III and CBZ–SUC (Figure 3a,b), the Raman\nimages and representative spectra of each domain before and after 343 h of irradiation were not\nsubstantially diﬀerent, indicating that these crystal forms were comparatively photostable. In contrast,\nthe blue domain of CBZ–SAC form II increased and the characteristic peaks of the cocrystal in the\ndomain almost disappeared after 343 h of irradiation (Figure 3c), indicating that part of CBZ–SAC\nform II photodegraded after irradiation.",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 110.25933837890625,
+            "x1": 519.9871215820312,
+            "y1": 255.2440948486328
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "(a)",
+          "bbox": {
+            "x0": 288.79571533203125,
+            "y0": 434.498779296875,
+            "x1": 301.5255432128906,
+            "y1": 443.6520690917969
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "(b)",
+          "bbox": {
+            "x0": 288.255615234375,
+            "y0": 624.848876953125,
+            "x1": 302.0116271972656,
+            "y1": 634.0021362304688
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Figure 3. Cont.",
+          "bbox": {
+            "x0": 268.2959899902344,
+            "y0": 644.2333374023438,
+            "x1": 326.9796142578125,
+            "y1": 653.3526000976562
+          }
+        }
+      ],
+      "render_path": "assets/page-0006.png"
+    },
+    {
+      "number": 7,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Crystals 2019, 9, 553\n7 of 11\n \n \n \n \n(c) \nFigure 3. Low-frequency Raman images and representative spectra of the red domain (upper panels)\nand blue domain (lower panels) before irradiation (left panels) and after 343 h of irradiation (right\npanels): (a) CBZ form III, (b) CBZ–SUC, and (c) CBZ–SAC form II. The Raman spectra of each domain\nwere obtained ten times.\n3.4. Evaluation of Photodegradation on the Surface of Tablets Using FT-IR RAS\nAn evaluation of photodegradation of the surface of the sample tablets of CBZ polymorphs,\nPMs, and cocrystals under a D65 ﬂuorescent lamp was also performed using FT-IR RAS. Since the\nphotodegradation of pharmaceuticals in tablet form is a topochemical reaction, this method is suitable\nfor evaluating the decomposition ratio of a drug on the surface of tablets in a quantitative and\nreproducible manner [22,25,26]. Figure 4 shows a semilogarithmic plot of the degradation proﬁles\nof CBZ polymorphs, PMs, and cocrystals. Negative linear relationships were observed between\nthe logarithm of the remaining percentage and irradiation time for each sample, indicating that the\ndegradation of the drug on the surface followed ﬁrst-order kinetics. Calculated degradation rate\nconstants are shown in Table 2. The degradation rate constants of CBZ polymorphs increased in the\norder of form III, form I, and form II, consistent with the order of the discoloration rate constants.\nDegradation rate constants for CBZ–SUC and CBZ–SAC form I were signiﬁcantly lower than those for\nthe other forms, indicating that the photostability was improved by the formation of these cocrystals.\nIn contrast, the degradation rate constant of CBZ–SAC form II was signiﬁcantly increased, indicating\nthat CBZ–SAC form II was a photolabile crystal form.\n \nFigure 4. The apparent ﬁrst-order plots for the photodegradation of CBZ polymorphs, PMs, and\ncocrystals. The symbols represent changes in the remaining percentages of CBZ form I (#), form II (\b),\nform III (\b), CBZ–SUC PM (△), CBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC\nform II (■). Data are presented as the means ± SD of 3 values.\n",
+      "blocks": [
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Crystals 2019, 9, 553\n7 of 11",
+          "bbox": {
+            "x0": 76.27200317382812,
+            "y0": 57.12507629394531,
+            "x1": 518.7399291992188,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "(c)",
+          "bbox": {
+            "x0": 289.3278503417969,
+            "y0": 253.6522216796875,
+            "x1": 301.57159423828125,
+            "y1": 262.8055114746094
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Figure 3. Low-frequency Raman images and representative spectra of the red domain (upper panels)\nand blue domain (lower panels) before irradiation (left panels) and after 343 h of irradiation (right\npanels): (a) CBZ form III, (b) CBZ–SUC, and (c) CBZ–SAC form II. The Raman spectra of each domain\nwere obtained ten times.",
+          "bbox": {
+            "x0": 97.41899871826172,
+            "y0": 272.9033508300781,
+            "x1": 498.3772888183594,
+            "y1": 320.4206237792969
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "3.4. Evaluation of Photodegradation on the Surface of Tablets Using FT-IR RAS",
+          "bbox": {
+            "x0": 76.53499603271484,
+            "y0": 330.6886291503906,
+            "x1": 398.0780029296875,
+            "y1": 340.6512145996094
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "An evaluation of photodegradation of the surface of the sample tablets of CBZ polymorphs,\nPMs, and cocrystals under a D65 ﬂuorescent lamp was also performed using FT-IR RAS. Since the\nphotodegradation of pharmaceuticals in tablet form is a topochemical reaction, this method is suitable\nfor evaluating the decomposition ratio of a drug on the surface of tablets in a quantitative and\nreproducible manner [22,25,26]. Figure 4 shows a semilogarithmic plot of the degradation proﬁles\nof CBZ polymorphs, PMs, and cocrystals. Negative linear relationships were observed between\nthe logarithm of the remaining percentage and irradiation time for each sample, indicating that the\ndegradation of the drug on the surface followed ﬁrst-order kinetics. Calculated degradation rate\nconstants are shown in Table 2. The degradation rate constants of CBZ polymorphs increased in the\norder of form III, form I, and form II, consistent with the order of the discoloration rate constants.\nDegradation rate constants for CBZ–SUC and CBZ–SAC form I were signiﬁcantly lower than those for\nthe other forms, indicating that the photostability was improved by the formation of these cocrystals.\nIn contrast, the degradation rate constant of CBZ–SAC form II was signiﬁcantly increased, indicating\nthat CBZ–SAC form II was a photolabile crystal form.",
+          "bbox": {
+            "x0": 76.23600006103516,
+            "y0": 350.2743835449219,
+            "x1": 520.48828125,
+            "y1": 535.9300537109375
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Figure 4. The apparent ﬁrst-order plots for the photodegradation of CBZ polymorphs, PMs, and\ncocrystals. The symbols represent changes in the remaining percentages of CBZ form I (#), form II (\b),\nform III (\b), CBZ–SUC PM (△), CBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC\nform II (■). Data are presented as the means ± SD of 3 values.",
+          "bbox": {
+            "x0": 97.79499816894531,
+            "y0": 726.6303100585938,
+            "x1": 498.6009826660156,
+            "y1": 774.1466064453125
+          }
+        }
+      ],
+      "render_path": "assets/page-0007.png"
+    },
+    {
+      "number": 8,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Crystals 2019, 9, 553\n8 of 11\nTable 2. Degradation rate constants for CBZ polymorphs, PMs, and cocrystals.\nSample\nDegradation Rate Constant (h−1)\nCBZ form I\n5.53 × 10−4\nCBZ form II\n6.51 × 10−4\nCBZ form III\n3.78 × 10−4\nCBZ–SUC PM\n4.86 × 10−4\nCBZ–SUC\n3.79 × 10−5\nCBZ–SAC PM\n2.63 × 10−4\nCBZ–SAC form I\n4.23 × 10−5\nCBZ–SAC form II\n1.82 × 10−3\n3.5. Investigation of the Relationship between Molecular Mobility and Photostability\nSpin–lattice relaxation times (T1) of CBZ polymorphs and cocrystals were measured using 1H\nSSNMR to investigate the relationship between molecular mobility and photostability. The spin–lattice\nrelaxation time reﬂects the degree of order and mobility, i.e., the dynamics, in the molecular\nsystem [27,28]. Figure 5 shows the relationship between 1H T1 values and degradation rate constants.\nThe 1H T1 value of each polymorph was in the order of form II, form I, and form III, that is, the more\nphotostable crystal form had a larger 1H T1 value. A negative linear correlation was observed between\nthe logarithm of 1H T1 and degradation rate constant. Thus, the molecular mobility was signiﬁcantly\ndecreased by the formation of CBZ–SUC and CBZ–SAC form I, leading to higher photostability.\nFigure 5. The relationship between the 1H spin–lattice relaxation time (T1) and degradation rate\nconstant of CBZ polymorphs and cocrystals: CBZ form I (#), form II (\b), form III (\b), CBZ–SUC (▲),\nCBZ–SAC form I (■), and CBZ–SAC form II (■).\n4. Discussion\nThe cocrystallization technique improves the physicochemical properties of an API without\nmodifying its chemical structure. In the present study, we prepared three cocrystals, including\ntwo polymorphs, of CBZ and investigated their photostabilities compared with that of the CBZ\npolymorphs. CBZ–SUC and CBZ–SAC form I showed better photostability than the conventional\ncrystal forms. The order of the photostability of solid forms estimated using FT-IR RAS was almost\nconsistent with the order obtained from the colorimetric measurement (Figure S4, Supplementary\nMaterials). Based on these results, the discoloration on the surface of the tablets was due to the\nphotodecomposition of API. CBZ is transformed into CBZ cyclobutyl dimer and 10,11-epoxide after\nirradiation by a mercury-vapor lamp [29] and a near-UV ﬂuorescent lamp [22]. These photoproducts\n",
+      "blocks": [
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Crystals 2019, 9, 553\n8 of 11",
+          "bbox": {
+            "x0": 76.27200317382812,
+            "y0": 57.12507629394531,
+            "x1": 518.7399291992188,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Table 2. Degradation rate constants for CBZ polymorphs, PMs, and cocrystals.",
+          "bbox": {
+            "x0": 141.84799194335938,
+            "y0": 90.34335327148438,
+            "x1": 453.13494873046875,
+            "y1": 99.39461517333984
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Sample\nDegradation Rate Constant (h−1)",
+          "bbox": {
+            "x0": 204.04600524902344,
+            "y0": 108.98487854003906,
+            "x1": 413.69281005859375,
+            "y1": 120.92974853515625
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "CBZ form I\n5.53 × 10−4",
+          "bbox": {
+            "x0": 197.156005859375,
+            "y0": 124.56086730957031,
+            "x1": 368.3858947753906,
+            "y1": 137.31361389160156
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "CBZ form II\n6.51 × 10−4",
+          "bbox": {
+            "x0": 195.64498901367188,
+            "y0": 136.0578155517578,
+            "x1": 368.3858947753906,
+            "y1": 148.81056213378906
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "CBZ form III\n3.78 × 10−4",
+          "bbox": {
+            "x0": 194.1339874267578,
+            "y0": 147.5557403564453,
+            "x1": 368.3858947753906,
+            "y1": 160.30751037597656
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "CBZ–SUC PM\n4.86 × 10−4",
+          "bbox": {
+            "x0": 191.2469940185547,
+            "y0": 159.05274963378906,
+            "x1": 368.3858947753906,
+            "y1": 171.8054962158203
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "CBZ–SUC\n3.79 × 10−5",
+          "bbox": {
+            "x0": 199.31698608398438,
+            "y0": 170.54969787597656,
+            "x1": 368.3858947753906,
+            "y1": 183.3024444580078
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "CBZ–SAC PM\n2.63 × 10−4",
+          "bbox": {
+            "x0": 191.2469940185547,
+            "y0": 182.04762268066406,
+            "x1": 368.3858947753906,
+            "y1": 194.7993927001953
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "CBZ–SAC form I\n4.23 × 10−5",
+          "bbox": {
+            "x0": 185.89398193359375,
+            "y0": 193.54457092285156,
+            "x1": 368.3858947753906,
+            "y1": 206.2973175048828
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "CBZ–SAC form II\n1.82 × 10−3",
+          "bbox": {
+            "x0": 184.3829803466797,
+            "y0": 205.04151916503906,
+            "x1": 368.3858947753906,
+            "y1": 217.7942657470703
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "3.5. Investigation of the Relationship between Molecular Mobility and Photostability",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 236.9565887451172,
+            "x1": 417.2459716796875,
+            "y1": 246.919189453125
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Spin–lattice relaxation times (T1) of CBZ polymorphs and cocrystals were measured using 1H\nSSNMR to investigate the relationship between molecular mobility and photostability. The spin–lattice\nrelaxation time reﬂects the degree of order and mobility, i.e., the dynamics, in the molecular\nsystem [27,28]. Figure 5 shows the relationship between 1H T1 values and degradation rate constants.\nThe 1H T1 value of each polymorph was in the order of form II, form I, and form III, that is, the more\nphotostable crystal form had a larger 1H T1 value. A negative linear correlation was observed between\nthe logarithm of 1H T1 and degradation rate constant. Thus, the molecular mobility was signiﬁcantly\ndecreased by the formation of CBZ–SUC and CBZ–SAC form I, leading to higher photostability.",
+          "bbox": {
+            "x0": 76.22599792480469,
+            "y0": 254.712890625,
+            "x1": 520.4790649414062,
+            "y1": 361.1421203613281
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Figure 5. The relationship between the 1H spin–lattice relaxation time (T1) and degradation rate\nconstant of CBZ polymorphs and cocrystals: CBZ form I (#), form II (\b), form III (\b), CBZ–SUC (▲),\nCBZ–SAC form I (■), and CBZ–SAC form II (■).",
+          "bbox": {
+            "x0": 97.79499816894531,
+            "y0": 584.6997680664062,
+            "x1": 498.6010437011719,
+            "y1": 621.1356201171875
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "4. Discussion",
+          "bbox": {
+            "x0": 76.53498840332031,
+            "y0": 632.4421997070312,
+            "x1": 137.8348388671875,
+            "y1": 642.40478515625
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "The cocrystallization technique improves the physicochemical properties of an API without\nmodifying its chemical structure. In the present study, we prepared three cocrystals, including\ntwo polymorphs, of CBZ and investigated their photostabilities compared with that of the CBZ\npolymorphs. CBZ–SUC and CBZ–SAC form I showed better photostability than the conventional\ncrystal forms. The order of the photostability of solid forms estimated using FT-IR RAS was almost\nconsistent with the order obtained from the colorimetric measurement (Figure S4, Supplementary\nMaterials). Based on these results, the discoloration on the surface of the tablets was due to the\nphotodecomposition of API. CBZ is transformed into CBZ cyclobutyl dimer and 10,11-epoxide after\nirradiation by a mercury-vapor lamp [29] and a near-UV ﬂuorescent lamp [22]. These photoproducts",
+          "bbox": {
+            "x0": 76.23600006103516,
+            "y0": 651.952392578125,
+            "x1": 519.1240844726562,
+            "y1": 770.0610961914062
+          }
+        }
+      ],
+      "render_path": "assets/page-0008.png"
+    },
+    {
+      "number": 9,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Crystals 2019, 9, 553\n9 of 11\nare also produced by irradiation with a D65 ﬂuorescent lamp, and the surface color of the tablets\nsubsequently changed. The remaining percentages of CBZ form III, CBZ–SUC, and CBZ–SAC form\nII estimated using FT-IR RAS were approximately 95%, 100%, and 80%, respectively, after 343 h of\nirradiation. The results obtained using low-frequency Raman spectroscopy showed the same trends as\nthe data obtained using FT-IR RAS. The low-frequency Raman spectroscopy provides complementary\ninformation about the photodecomposition of API on the surface of pharmaceutical preparations in a\nsimple and rapid manner.\nMolecular mobility correlates with the photodegradation of CBZ. SUC combines with two CBZ\nmolecules through hydrogen bonding [30]. In addition, CBZ–SAC form I forms a homosynthon\nbetween two CBZ molecules, hydrogen bonds between SAC molecules and hydrogen bonds between\nCBZ and SAC [15]. The dimerization of CBZ induced by photoirradiation needs the reorientation of\neach CBZ molecule, resulting in a satisfying alignment for the reaction. The formation of alternate\nstacking conﬁgurations of CBZ and the corresponding coformers may hinder the approach of CBZ\nmolecules, thus preventing photodimerization, as reported for vitamin K3 by Zhu et al. [17]. CBZ–SAC\nform II also forms a heterosynthon through hydrogen bonds between CBZ and SAC [15]; however, this\npolymorphic form exhibited a lower photostability than CBZ itself. According to the thermodynamic\nstudy reported by Pagire et al., CBZ–SAC form I is a stable form, CBZ–SAC form II is a metastable form,\nand these forms are monotropically related polymorphs [31]. In the present study, the 1H T1 value of\nCBZ–SAC form II was signiﬁcantly lower than the other crystal forms, suggesting that the molecular\nmobility was suﬃciently high to allow for a photoreaction. This higher reactivity and instability of\nCBZ–SAC form II was supported by the ﬁndings from previous reports that CBZ–SAC form II is easily\nconverted to form I in a slurry at room temperature [15,31].\nIn summary, CBZ–SUC and CBZ–SAC form I are photostable crystal forms, and cocrystallization\nwas conﬁrmed to be an eﬀective approach to improving the photostability of a photolabile drug in the\npresent study.\nSupplementary Materials: The following are available online at http://www.mdpi.com/2073-4352/9/11/553/s1,\nFigure S1: Powder X-Ray Diffractometry (PXRD) patterns of CBZ polymorphs, coformers, PMs, and cocrystals; Figure\nS2: Differential scanning calorimetry (DSC) profiles of CBZ polymorphs, coformers, PMs, and cocrystals; Figure S3:\nStandard low-frequency Raman spectra of CBZ form III, CBZ–SUC, CBZ–SAC form II, and microcrystalline cellulose;\nFigure S4: The relationship between the discoloration rate constant and degradation rate constant.\nAuthor Contributions: Conceptualization, R.T. and T.F.; formal analysis, R.Y. and R.T.; investigation, R.Y., R.H.,\nand C.T.; writing of original draft preparation, R.Y. and R.H.; writing of review and editing, R.T., C.T., T.K., and\nT.F.; visualization, R.Y. and R.H.; supervision, S.K., T.S., and T.F.; project administration, R.T. and T.F.\nFunding: This work was supported in part by JSPS KAKENHI, a Grant-in-Aid for the Scientiﬁc Research (C),\n(grant number: 17K08253) (to T.F.).\nAcknowledgments: The authors would like to thank Ryota Hamada for providing technical assistance regarding\nthe experiments.\nConﬂicts of Interest: The authors declare no conﬂicts of interest.\nReferences\n1.\nCoelho, L.; Almeida, I.F.; Sousa Lobo, J.M.; Sousa e Silva, J.P. Photostabilization strategies of photosensitive\ndrugs. Int. J. Pharm. 2018, 541, 19–25. [CrossRef]\n2.\nJanga, K.Y.; King, T.; Ji, N.; Sarabu, S.; Shadambikar, G.; Sawant, S.; Xu, P.; Repka, M.A.; Murthy, S.N. Photostability\nissues in pharmaceutical dosage forms and photostabilization. AAPS Pharm. Sci. Tech. 2018, 19, 48–59. [CrossRef]\n3.\nTønnesen, H.H. Formulation and stability testing of photolabile drugs. Int. J. Pharm. 2001, 225, 1–14. [CrossRef]\n4.\nGrzesiak, A.L.; Lang, M.; Kim, K.; Matzger, A.J. Comparison of the four anhydrous polymorphs of\ncarbamazepine and the crystal structure of form I. J. Pharm. Sci. 2003, 92, 2260–2271. [CrossRef] [PubMed]\n5.\nHarris, R.K.; Ghi, P.Y.; Puschmann, H.; Apperley, D.C.; Griesser, U.J.; Hammond, R.B.; Ma, C.; Roberts, K.J.;\nPearce, G.J.; Yates, J.R.; et al. Structural studies of the polymorphs of carbamazepine, its dihydrate, and two\nsolvates. Org. Process Res. Dev. 2005, 9, 902–910. [CrossRef]\n",
+      "blocks": [
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Crystals 2019, 9, 553\n9 of 11",
+          "bbox": {
+            "x0": 76.27200317382812,
+            "y0": 57.12507629394531,
+            "x1": 518.7399291992188,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "are also produced by irradiation with a D65 ﬂuorescent lamp, and the surface color of the tablets\nsubsequently changed. The remaining percentages of CBZ form III, CBZ–SUC, and CBZ–SAC form\nII estimated using FT-IR RAS were approximately 95%, 100%, and 80%, respectively, after 343 h of\nirradiation. The results obtained using low-frequency Raman spectroscopy showed the same trends as\nthe data obtained using FT-IR RAS. The low-frequency Raman spectroscopy provides complementary\ninformation about the photodecomposition of API on the surface of pharmaceutical preparations in a\nsimple and rapid manner.\nMolecular mobility correlates with the photodegradation of CBZ. SUC combines with two CBZ\nmolecules through hydrogen bonding [30]. In addition, CBZ–SAC form I forms a homosynthon\nbetween two CBZ molecules, hydrogen bonds between SAC molecules and hydrogen bonds between\nCBZ and SAC [15]. The dimerization of CBZ induced by photoirradiation needs the reorientation of\neach CBZ molecule, resulting in a satisfying alignment for the reaction. The formation of alternate\nstacking conﬁgurations of CBZ and the corresponding coformers may hinder the approach of CBZ\nmolecules, thus preventing photodimerization, as reported for vitamin K3 by Zhu et al. [17]. CBZ–SAC\nform II also forms a heterosynthon through hydrogen bonds between CBZ and SAC [15]; however, this\npolymorphic form exhibited a lower photostability than CBZ itself. According to the thermodynamic\nstudy reported by Pagire et al., CBZ–SAC form I is a stable form, CBZ–SAC form II is a metastable form,\nand these forms are monotropically related polymorphs [31]. In the present study, the 1H T1 value of\nCBZ–SAC form II was signiﬁcantly lower than the other crystal forms, suggesting that the molecular\nmobility was suﬃciently high to allow for a photoreaction. This higher reactivity and instability of\nCBZ–SAC form II was supported by the ﬁndings from previous reports that CBZ–SAC form II is easily\nconverted to form I in a slurry at room temperature [15,31].\nIn summary, CBZ–SUC and CBZ–SAC form I are photostable crystal forms, and cocrystallization\nwas conﬁrmed to be an eﬀective approach to improving the photostability of a photolabile drug in the\npresent study.",
+          "bbox": {
+            "x0": 76.11699676513672,
+            "y0": 90.62938690185547,
+            "x1": 519.9863891601562,
+            "y1": 424.88909912109375
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Supplementary Materials: The following are available online at http://www.mdpi.com/2073-4352/9/11/553/s1,\nFigure S1: Powder X-Ray Diffractometry (PXRD) patterns of CBZ polymorphs, coformers, PMs, and cocrystals; Figure\nS2: Differential scanning calorimetry (DSC) profiles of CBZ polymorphs, coformers, PMs, and cocrystals; Figure S3:\nStandard low-frequency Raman spectra of CBZ form III, CBZ–SUC, CBZ–SAC form II, and microcrystalline cellulose;\nFigure S4: The relationship between the discoloration rate constant and degradation rate constant.",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 442.96588134765625,
+            "x1": 519.864990234375,
+            "y1": 493.20062255859375
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Author Contributions: Conceptualization, R.T. and T.F.; formal analysis, R.Y. and R.T.; investigation, R.Y., R.H.,\nand C.T.; writing of original draft preparation, R.Y. and R.H.; writing of review and editing, R.T., C.T., T.K., and\nT.F.; visualization, R.Y. and R.H.; supervision, S.K., T.S., and T.F.; project administration, R.T. and T.F.",
+          "bbox": {
+            "x0": 76.18600463867188,
+            "y0": 500.2593688964844,
+            "x1": 519.85986328125,
+            "y1": 529.5745849609375
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Funding: This work was supported in part by JSPS KAKENHI, a Grant-in-Aid for the Scientiﬁc Research (C),\n(grant number: 17K08253) (to T.F.).",
+          "bbox": {
+            "x0": 76.23899841308594,
+            "y0": 536.63232421875,
+            "x1": 519.8574829101562,
+            "y1": 555.8155517578125
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Acknowledgments: The authors would like to thank Ryota Hamada for providing technical assistance regarding\nthe experiments.",
+          "bbox": {
+            "x0": 76.18599700927734,
+            "y0": 562.8743286132812,
+            "x1": 518.7410278320312,
+            "y1": 582.0576171875
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Conﬂicts of Interest: The authors declare no conﬂicts of interest.",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 589.1163330078125,
+            "x1": 332.3907165527344,
+            "y1": 598.1676025390625
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "References",
+          "bbox": {
+            "x0": 76.53499603271484,
+            "y0": 614.6931762695312,
+            "x1": 126.3380355834961,
+            "y1": 624.65576171875
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "1.\nCoelho, L.; Almeida, I.F.; Sousa Lobo, J.M.; Sousa e Silva, J.P. Photostabilization strategies of photosensitive\ndrugs. Int. J. Pharm. 2018, 541, 19–25. [CrossRef]\n2.\nJanga, K.Y.; King, T.; Ji, N.; Sarabu, S.; Shadambikar, G.; Sawant, S.; Xu, P.; Repka, M.A.; Murthy, S.N. Photostability\nissues in pharmaceutical dosage forms and photostabilization. AAPS Pharm. Sci. Tech. 2018, 19, 48–59. [CrossRef]\n3.\nTønnesen, H.H. Formulation and stability testing of photolabile drugs. Int. J. Pharm. 2001, 225, 1–14. [CrossRef]\n4.\nGrzesiak, A.L.; Lang, M.; Kim, K.; Matzger, A.J. Comparison of the four anhydrous polymorphs of\ncarbamazepine and the crystal structure of form I. J. Pharm. Sci. 2003, 92, 2260–2271. [CrossRef] [PubMed]\n5.\nHarris, R.K.; Ghi, P.Y.; Puschmann, H.; Apperley, D.C.; Griesser, U.J.; Hammond, R.B.; Ma, C.; Roberts, K.J.;\nPearce, G.J.; Yates, J.R.; et al. Structural studies of the polymorphs of carbamazepine, its dihydrate, and two\nsolvates. Org. Process Res. Dev. 2005, 9, 902–910. [CrossRef]",
+          "bbox": {
+            "x0": 76.53499603271484,
+            "y0": 634.3911743164062,
+            "x1": 519.8629760742188,
+            "y1": 759.5625610351562
+          }
+        }
+      ],
+      "render_path": "assets/page-0009.png"
+    },
+    {
+      "number": 10,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Crystals 2019, 9, 553\n10 of 11\n6.\nMcMahon, L.E.; Timmins, P.; Williams, A.C.; York, P. Characterization of dihydrates prepared from\ncarbamazepine polymorphs. J. Pharm. Sci. 1996, 85, 1064–1069. [CrossRef]\n7.\nLowes, M.M.J.; Caira, M.R.; Lotter, A.P.; Van Watt, J.G.D. Physicochemical properties and x-ray structural\nstudies of the trigonal polymorph of carbamazepine. J. Pharm. Sci. 1987, 76, 744–752. [CrossRef]\n8.\nKobayashi, Y.; Ito, S.; Itai, S.; Yamamoto, K. Physicochemical properties and bioavailability of carbamazepine\npolymorphs and dihydrate. Int. J. Pharm. 2000, 193, 137–146. [CrossRef]\n9.\nAakeröy, C.B.; Salmon, D.J. Building co-crystals with molecular sense and supramolecular sensibility.\nCryst. Eng. Comm. 2005, 7, 439–448. [CrossRef]\n10.\nQiao, N.; Li, M.; Schlindwein, W.; Malek, N.; Davies, A.; Trappitt, G. Pharmaceutical cocrystals: An overview.\nInt. J. Pharm. 2011, 419, 1–11. [CrossRef]\n11.\nAakeröy, C.B.; Fasulo, M.E.; Desper, J. Cocrystal or salt: Does it really matter? Mol. Pharm. 2007, 4, 317–322.\n[CrossRef]\n12.\nChilds, S.L.; Rodríguez-Hornedo, N.; Reddy, L.S.; Jayasankar, A.; Maheshwari, C.; McCausland, L.;\nShipplett, R.; Stahly, B.C. Screening strategies based on solubility and solution composition generate\npharmaceutically acceptable cocrystals of carbamazepine. Cryst. Eng. Comm. 2008, 10, 856–864. [CrossRef]\n13.\nUllah, M.; Hussain, I.; Sun, C.C. The development of carbamazepine-succinic acid cocrystal tablet formulations\nwith improved in vitro and in vivo performance. Drug Dev. Ind. Pharm. 2016, 42, 969–976. [CrossRef] [PubMed]\n14.\nHickey, M.B.; Peterson, M.L.; Scoppettuolo, L.A.; Morrisette, S.L.; Vetter, A.; Guzmán, H.; Remenar, J.F.;\nZhang, Z.; Tawa, M.D.; Haley, S.; et al. Performance comparison of a co-crystal of carbamazepine with\nmarketed product. Eur. J. Pharm. Biopharm. 2007, 67, 112–119. [CrossRef] [PubMed]\n15.\nPorter, W.W., III; Elie, S.C.; Matzger, A.J. Polymorphism in carbamazepine cocrystals. Cryst. Growth Des.\n2008, 8, 14–16. [CrossRef]\n16.\nWang, J.-R.; Zhou, C.; Yu, X.; Mei, X. Stabilizing vitamin D3 by conformationally selective co-crystallization.\nChem. Commun. 2014, 50, 855–858. [CrossRef]\n17.\nZhu, B.; Wang, J.-R.; Zhang, Q.; Mei, X. Improving dissolution and photostability of vitamin K3 via\ncocrystallization with naphthoic acids and sulfamerazine. Cryst. Growth Des. 2016, 16, 483–492. [CrossRef]\n18.\nYu, Q.; Yan, Z.; Bao, J.; Wang, J.-R.; Mei, X. Taming photo-induced oxidation degradation of dihydropyridine\ndrugs through cocrystallization. Chem. Commun. 2017, 53, 12266–12269. [CrossRef]\n19.\nShinozaki, T.; Ono, M.; Higashi, K.; Moribe, K. A novel drug-drug cocrystal of levoﬂoxacin and metacetamol:\nReduced hygroscopicity and improved photostability of levoﬂoxacin. J. Pharm. Sci. 2019, 108, 2383–2390.\n[CrossRef]\n20.\nKaneniwa, N.; Yamaguchi, T.; Watari, N.; Otsuka, M. Hygroscopicity of carbamazepine crystalline powders.\nYakugaku Zasshi 1984, 104, 184–190. [CrossRef]\n21.\nMatsuda, Y.; Teraoka, R.; Sugimoto, I. Comparative evaluation of photostability of solid-state nifedipine\nunder ordinary and intensive light irradiation conditions. Int. J. Pharm. 1989, 54, 211–221. [CrossRef]\n22.\nMatsuda, Y.;\nAkazawa, R.;\nTeraoka, R.;\nOtsuka, M. Pharmaceutical evaluation of carbamazepine\nmodifications: Comparative study for photostability of carbamazepine polymorphs by using Fourier-transformed\nreflection-absorption infrared spectroscopy and colorimetric measurement. J. Pharm. Pharmacol. 1994, 46, 162–167.\n[CrossRef] [PubMed]\n23.\nKoide, T.; Fukami, T.; Hisada, H.; Inoue, M.; Carriere, J.; Heyler, R.; Katori, N.; Okuda, H.; Goda, Y.\nIdentiﬁcation of pseudopolymorphism of magnesium stearate by using low-frequency Raman spectroscopy.\nOrg. Process. Res. Dev. 2016, 20, 1906–1910. [CrossRef]\n24.\nWalker, G.; Römann, P.; Poller, B.; Löbmann, K.; Grohganz, H.; Rooney, J.S.; Huﬀ, G.S.; Smith, G.P.S.; Rades, T.;\nGordon, K.C.; et al. Probing pharmaceutical mixtures during milling: The potency of low-frequency Raman\nspectroscopy in identifying disorder. Mol. Pharm. 2017, 14, 4675–4684. [CrossRef]\n25.\nTeraoka,\nR.;\nOtsuka,\nM.;\nMatsuda,\nY.\nEvaluation\nof\nphotostability\nof\nsolid-state\ndimethyl\n1,4-dihydro-2,6-dimethyl-4-(2-nitro-phenyl)-3, 5-pyridinedicarboxylate by using Fourier-transformed\nreﬂection-absorption infrared spectroscopy. Int. J. Pharm. 1999, 184, 35–43. [CrossRef]\n26.\nTeraoka, R.; Otsuka, M.; Matsuda, Y. Evaluation of photostability of solid-state nicardipine hydrochloride\npolymorphs by using Fourier-transformed reﬂection-absorption infrared spectroscopy—Eﬀect of grinding\non the photostability of crystal form. Int. J. Pharm. 2004, 286, 1–8. [CrossRef]\n",
+      "blocks": [
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Crystals 2019, 9, 553\n10 of 11",
+          "bbox": {
+            "x0": 76.27200317382812,
+            "y0": 57.12507629394531,
+            "x1": 518.739990234375,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "6.\nMcMahon, L.E.; Timmins, P.; Williams, A.C.; York, P. Characterization of dihydrates prepared from\ncarbamazepine polymorphs. J. Pharm. Sci. 1996, 85, 1064–1069. [CrossRef]\n7.\nLowes, M.M.J.; Caira, M.R.; Lotter, A.P.; Van Watt, J.G.D. Physicochemical properties and x-ray structural\nstudies of the trigonal polymorph of carbamazepine. J. Pharm. Sci. 1987, 76, 744–752. [CrossRef]\n8.\nKobayashi, Y.; Ito, S.; Itai, S.; Yamamoto, K. Physicochemical properties and bioavailability of carbamazepine\npolymorphs and dihydrate. Int. J. Pharm. 2000, 193, 137–146. [CrossRef]\n9.\nAakeröy, C.B.; Salmon, D.J. Building co-crystals with molecular sense and supramolecular sensibility.\nCryst. Eng. Comm. 2005, 7, 439–448. [CrossRef]\n10.\nQiao, N.; Li, M.; Schlindwein, W.; Malek, N.; Davies, A.; Trappitt, G. Pharmaceutical cocrystals: An overview.\nInt. J. Pharm. 2011, 419, 1–11. [CrossRef]\n11.\nAakeröy, C.B.; Fasulo, M.E.; Desper, J. Cocrystal or salt: Does it really matter? Mol. Pharm. 2007, 4, 317–322.\n[CrossRef]\n12.\nChilds, S.L.; Rodríguez-Hornedo, N.; Reddy, L.S.; Jayasankar, A.; Maheshwari, C.; McCausland, L.;\nShipplett, R.; Stahly, B.C. Screening strategies based on solubility and solution composition generate\npharmaceutically acceptable cocrystals of carbamazepine. Cryst. Eng. Comm. 2008, 10, 856–864. [CrossRef]\n13.\nUllah, M.; Hussain, I.; Sun, C.C. The development of carbamazepine-succinic acid cocrystal tablet formulations\nwith improved in vitro and in vivo performance. Drug Dev. Ind. Pharm. 2016, 42, 969–976. [CrossRef] [PubMed]\n14.\nHickey, M.B.; Peterson, M.L.; Scoppettuolo, L.A.; Morrisette, S.L.; Vetter, A.; Guzmán, H.; Remenar, J.F.;\nZhang, Z.; Tawa, M.D.; Haley, S.; et al. Performance comparison of a co-crystal of carbamazepine with\nmarketed product. Eur. J. Pharm. Biopharm. 2007, 67, 112–119. [CrossRef] [PubMed]\n15.\nPorter, W.W., III; Elie, S.C.; Matzger, A.J. Polymorphism in carbamazepine cocrystals. Cryst. Growth Des.\n2008, 8, 14–16. [CrossRef]\n16.\nWang, J.-R.; Zhou, C.; Yu, X.; Mei, X. Stabilizing vitamin D3 by conformationally selective co-crystallization.\nChem. Commun. 2014, 50, 855–858. [CrossRef]\n17.\nZhu, B.; Wang, J.-R.; Zhang, Q.; Mei, X. Improving dissolution and photostability of vitamin K3 via\ncocrystallization with naphthoic acids and sulfamerazine. Cryst. Growth Des. 2016, 16, 483–492. [CrossRef]\n18.\nYu, Q.; Yan, Z.; Bao, J.; Wang, J.-R.; Mei, X. Taming photo-induced oxidation degradation of dihydropyridine\ndrugs through cocrystallization. Chem. Commun. 2017, 53, 12266–12269. [CrossRef]\n19.\nShinozaki, T.; Ono, M.; Higashi, K.; Moribe, K. A novel drug-drug cocrystal of levoﬂoxacin and metacetamol:\nReduced hygroscopicity and improved photostability of levoﬂoxacin. J. Pharm. Sci. 2019, 108, 2383–2390.\n[CrossRef]\n20.\nKaneniwa, N.; Yamaguchi, T.; Watari, N.; Otsuka, M. Hygroscopicity of carbamazepine crystalline powders.\nYakugaku Zasshi 1984, 104, 184–190. [CrossRef]\n21.\nMatsuda, Y.; Teraoka, R.; Sugimoto, I. Comparative evaluation of photostability of solid-state nifedipine\nunder ordinary and intensive light irradiation conditions. Int. J. Pharm. 1989, 54, 211–221. [CrossRef]\n22.\nMatsuda, Y.;\nAkazawa, R.;\nTeraoka, R.;\nOtsuka, M. Pharmaceutical evaluation of carbamazepine\nmodifications: Comparative study for photostability of carbamazepine polymorphs by using Fourier-transformed\nreflection-absorption infrared spectroscopy and colorimetric measurement. J. Pharm. Pharmacol. 1994, 46, 162–167.\n[CrossRef] [PubMed]\n23.\nKoide, T.; Fukami, T.; Hisada, H.; Inoue, M.; Carriere, J.; Heyler, R.; Katori, N.; Okuda, H.; Goda, Y.\nIdentiﬁcation of pseudopolymorphism of magnesium stearate by using low-frequency Raman spectroscopy.\nOrg. Process. Res. Dev. 2016, 20, 1906–1910. [CrossRef]\n24.\nWalker, G.; Römann, P.; Poller, B.; Löbmann, K.; Grohganz, H.; Rooney, J.S.; Huﬀ, G.S.; Smith, G.P.S.; Rades, T.;\nGordon, K.C.; et al. Probing pharmaceutical mixtures during milling: The potency of low-frequency Raman\nspectroscopy in identifying disorder. Mol. Pharm. 2017, 14, 4675–4684. [CrossRef]\n25.\nTeraoka,\nR.;\nOtsuka,\nM.;\nMatsuda,\nY.\nEvaluation\nof\nphotostability\nof\nsolid-state\ndimethyl\n1,4-dihydro-2,6-dimethyl-4-(2-nitro-phenyl)-3, 5-pyridinedicarboxylate by using Fourier-transformed\nreﬂection-absorption infrared spectroscopy. Int. J. Pharm. 1999, 184, 35–43. [CrossRef]\n26.\nTeraoka, R.; Otsuka, M.; Matsuda, Y. Evaluation of photostability of solid-state nicardipine hydrochloride\npolymorphs by using Fourier-transformed reﬂection-absorption infrared spectroscopy—Eﬀect of grinding\non the photostability of crystal form. Int. J. Pharm. 2004, 286, 1–8. [CrossRef]",
+          "bbox": {
+            "x0": 76.53498840332031,
+            "y0": 91.35120391845703,
+            "x1": 520.3126831054688,
+            "y1": 745.9625854492188
+          }
+        }
+      ],
+      "render_path": "assets/page-0010.png"
+    },
+    {
+      "number": 11,
+      "width": 595.2760009765625,
+      "height": 841.8900146484375,
+      "text": "Crystals 2019, 9, 553\n11 of 11\n27.\nLubach, J.W.; Xu, D.; Segmuller, B.E.; Munson, E.J. Investigation of the eﬀects of pharmaceutical processing\nupon solid-state NMR relaxation times and implications to solid-state formulation stability. J. Pharm. Sci.\n2007, 96, 777–787. [CrossRef]\n28.\nHudson, S.P.; Owens, E.; Hughes, H.; McLoughlin, P. Enhancement and restriction of chain motion in\npolymer networks. Int. J. Pharm. 2012, 430, 34–41. [CrossRef]\n29.\nRobson, J.K.; Sharples, D. Photoirradiation products of cyproheptadine and carbamazepine. J. Pharm. Pharmacol.\n1984, 36, 843–844. [CrossRef]\n30.\nShenmin, X.; Dang, L.; Wei, H. Solid-liquid phase equilibrium and phase diagram for the ternary carbamazepine-\nsuccinic acid-ethanol or acetone system at (298.15 and 308.15) K. J. Chem. Eng. Data 2011, 56, 2746–2750. [CrossRef]\n31.\nPagire, S.K.; Jadav, N.; Vangala, V.R.; Whiteside, B.; Paradkar, A. Thermodynamic investigation of\ncarbamazepine-saccharin co-crystal polymorphs. J. Pharm. Sci. 2017, 106, 2009–2014. [CrossRef] [PubMed]\n© 2019 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access\narticle distributed under the terms and conditions of the Creative Commons Attribution\n(CC BY) license (http://creativecommons.org/licenses/by/4.0/).\n",
+      "blocks": [
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Crystals 2019, 9, 553\n11 of 11",
+          "bbox": {
+            "x0": 76.27200317382812,
+            "y0": 57.12507629394531,
+            "x1": 518.739990234375,
+            "y1": 65.2310791015625
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "27.\nLubach, J.W.; Xu, D.; Segmuller, B.E.; Munson, E.J. Investigation of the eﬀects of pharmaceutical processing\nupon solid-state NMR relaxation times and implications to solid-state formulation stability. J. Pharm. Sci.\n2007, 96, 777–787. [CrossRef]\n28.\nHudson, S.P.; Owens, E.; Hughes, H.; McLoughlin, P. Enhancement and restriction of chain motion in\npolymer networks. Int. J. Pharm. 2012, 430, 34–41. [CrossRef]\n29.\nRobson, J.K.; Sharples, D. Photoirradiation products of cyproheptadine and carbamazepine. J. Pharm. Pharmacol.\n1984, 36, 843–844. [CrossRef]\n30.\nShenmin, X.; Dang, L.; Wei, H. Solid-liquid phase equilibrium and phase diagram for the ternary carbamazepine-\nsuccinic acid-ethanol or acetone system at (298.15 and 308.15) K. J. Chem. Eng. Data 2011, 56, 2746–2750. [CrossRef]\n31.\nPagire, S.K.; Jadav, N.; Vangala, V.R.; Whiteside, B.; Paradkar, A. Thermodynamic investigation of\ncarbamazepine-saccharin co-crystal polymorphs. J. Pharm. Sci. 2017, 106, 2009–2014. [CrossRef] [PubMed]",
+          "bbox": {
+            "x0": 76.53500366210938,
+            "y0": 90.6749038696289,
+            "x1": 520.2319946289062,
+            "y1": 229.49757385253906
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "© 2019 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access\narticle distributed under the terms and conditions of the Creative Commons Attribution\n(CC BY) license (http://creativecommons.org/licenses/by/4.0/).",
+          "bbox": {
+            "x0": 167.7779998779297,
+            "y0": 241.69589233398438,
+            "x1": 518.7437133789062,
+            "y1": 277.2256164550781
+          }
+        }
+      ],
+      "render_path": "assets/page-0011.png"
+    }
+  ],
+  "tables": [
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 162.7840118408203,
+        "y0": 659.808837890625,
+        "x1": 436.476806640625,
+        "y1": 765.9776000976562
+      },
+      "rows": [
+        [
+          "Sample",
+          "ApparentDiscolorationRateConstant(h−1)"
+        ],
+        [
+          "CBZformI",
+          "0032\n."
+        ],
+        [
+          "CBZformII",
+          "0054\n."
+        ],
+        [
+          "CBZformIII",
+          "0026\n."
+        ],
+        [
+          "CBZ SUCPM\n–",
+          "0024\n."
+        ],
+        [
+          "CBZ SUC\n–",
+          "0004\n."
+        ],
+        [
+          "CBZ SACPM\n–",
+          "0026\n."
+        ],
+        [
+          "CBZ –SAC form I",
+          "0008\n."
+        ],
+        [
+          "CBZ –SAC form II",
+          "0064\n."
+        ]
+      ],
+      "caption": "Table 1. Apparent discoloration rate constants of CBZ polymorphs, PMs, and cocrystals."
+    },
+    {
+      "page": 8,
+      "bbox": {
+        "x0": 184.3829803466797,
+        "y0": 108.98487854003906,
+        "x1": 413.69281005859375,
+        "y1": 217.7942657470703
+      },
+      "rows": [
+        [
+          "Sample",
+          "DegradationRateConstant(h−1)"
+        ],
+        [
+          "CBZformI",
+          "553×10−4\n."
+        ],
+        [
+          "CBZformII",
+          "651×10−4\n."
+        ],
+        [
+          "CBZformIII",
+          "378×10−4\n."
+        ],
+        [
+          "CBZ SUCPM\n–",
+          "486×10−4\n."
+        ],
+        [
+          "CBZ SUC\n–",
+          "379×10−5\n."
+        ],
+        [
+          "CBZ SACPM\n–",
+          "263×10−4\n."
+        ],
+        [
+          "CBZ –SAC form I",
+          "423×10−5\n."
+        ],
+        [
+          "CBZ –SAC form II",
+          "182×10−3\n."
+        ]
+      ],
+      "caption": "Table 2. Degradation rate constants for CBZ polymorphs, PMs, and cocrystals."
+    }
+  ],
+  "figures": [
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 476.36346435546875,
+        "y0": 55.09886932373047,
+        "x1": 517.9633178710938,
+        "y1": 82.57470703125
+      },
+      "asset_path": "assets/page-0001-image-001.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 476.36346435546875,
+        "y0": 55.09886932373047,
+        "x1": 517.9633178710938,
+        "y1": 82.57470703125
+      },
+      "asset_path": "assets/page-0001-image-002.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 476.36346435546875,
+        "y0": 55.09886932373047,
+        "x1": 517.9633178710938,
+        "y1": 82.57470703125
+      },
+      "asset_path": "assets/page-0001-image-003.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 476.36346435546875,
+        "y0": 55.09886932373047,
+        "x1": 517.9633178710938,
+        "y1": 82.57470703125
+      },
+      "asset_path": "assets/page-0001-image-004.png",
+      "caption": null
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 347.6780090332031,
+        "y0": 624.5350341796875,
+        "x1": 350.5580139160156,
+        "y1": 667.3750610351562
+      },
+      "asset_path": "assets/page-0002-image-001.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 260.197998046875,
+        "y0": 616.4949951171875,
+        "x1": 270.75799560546875,
+        "y1": 659.3350219726562
+      },
+      "asset_path": "assets/page-0002-image-002.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 270.75799560546875,
+        "y0": 616.4949951171875,
+        "x1": 273.63800048828125,
+        "y1": 659.3350219726562
+      },
+      "asset_path": "assets/page-0002-image-003.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 280.9580078125,
+        "y0": 640.5549926757812,
+        "x1": 287.6780090332031,
+        "y1": 683.39501953125
+      },
+      "asset_path": "assets/page-0002-image-004.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 464.7980041503906,
+        "y0": 649.9749755859375,
+        "x1": 470.5580139160156,
+        "y1": 693.5349731445312
+      },
+      "asset_path": "assets/page-0002-image-005.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 474.39801025390625,
+        "y0": 636.8349609375,
+        "x1": 485.4380187988281,
+        "y1": 678.9549560546875
+      },
+      "asset_path": "assets/page-0002-image-006.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 485.4380187988281,
+        "y0": 636.8349609375,
+        "x1": 487.3580322265625,
+        "y1": 678.9549560546875
+      },
+      "asset_path": "assets/page-0002-image-007.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 469.2980041503906,
+        "y0": 607.9749755859375,
+        "x1": 476.01800537109375,
+        "y1": 651.5349731445312
+      },
+      "asset_path": "assets/page-0002-image-008.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 151.8979949951172,
+        "y0": 640.85498046875,
+        "x1": 157.65798950195312,
+        "y1": 682.614990234375
+      },
+      "asset_path": "assets/page-0002-image-009.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 137.3179931640625,
+        "y0": 664.85498046875,
+        "x1": 144.03799438476562,
+        "y1": 708.0549926757812
+      },
+      "asset_path": "assets/page-0002-image-010.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 165.87799072265625,
+        "y0": 664.9749755859375,
+        "x1": 176.91798400878906,
+        "y1": 706.7349853515625
+      },
+      "asset_path": "assets/page-0002-image-011.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 176.91799926757812,
+        "y0": 664.9749755859375,
+        "x1": 178.35800170898438,
+        "y1": 706.7349853515625
+      },
+      "asset_path": "assets/page-0002-image-012.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 179.37799072265625,
+        "y0": 668.8150024414062,
+        "x1": 182.7379913330078,
+        "y1": 700.135009765625
+      },
+      "asset_path": "assets/page-0002-image-013.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 2,
+      "bbox": {
+        "x0": 337.1180114746094,
+        "y0": 624.5350341796875,
+        "x1": 347.6780090332031,
+        "y1": 667.3750610351562
+      },
+      "asset_path": "assets/page-0002-image-014.png",
+      "caption": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC)."
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 383.0702209472656,
+        "x1": 398.00958251953125,
+        "y1": 394.44622802734375
+      },
+      "asset_path": "assets/page-0005-image-001.jpeg",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 394.44622802734375,
+        "x1": 398.00958251953125,
+        "y1": 405.8222351074219
+      },
+      "asset_path": "assets/page-0005-image-002.png",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 405.8222351074219,
+        "x1": 398.00958251953125,
+        "y1": 417.1982421875
+      },
+      "asset_path": "assets/page-0005-image-003.png",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 417.1982421875,
+        "x1": 398.00958251953125,
+        "y1": 428.5742492675781
+      },
+      "asset_path": "assets/page-0005-image-004.jpeg",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 428.57421875,
+        "x1": 398.00958251953125,
+        "y1": 439.9502258300781
+      },
+      "asset_path": "assets/page-0005-image-005.jpeg",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 439.9502258300781,
+        "x1": 398.00958251953125,
+        "y1": 451.32623291015625
+      },
+      "asset_path": "assets/page-0005-image-006.png",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 451.32623291015625,
+        "x1": 398.00958251953125,
+        "y1": 462.7022399902344
+      },
+      "asset_path": "assets/page-0005-image-007.png",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 462.7022399902344,
+        "x1": 398.00958251953125,
+        "y1": 474.0782470703125
+      },
+      "asset_path": "assets/page-0005-image-008.jpeg",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 474.0782470703125,
+        "x1": 398.00958251953125,
+        "y1": 485.4542541503906
+      },
+      "asset_path": "assets/page-0005-image-009.png",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 485.4542541503906,
+        "x1": 398.00958251953125,
+        "y1": 496.83026123046875
+      },
+      "asset_path": "assets/page-0005-image-010.png",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 496.8302307128906,
+        "x1": 398.00958251953125,
+        "y1": 508.20623779296875
+      },
+      "asset_path": "assets/page-0005-image-011.jpeg",
+      "caption": "Figure 2. Time courses of the discoloration of CBZ polymorphs, physical mixtures (PMs), and cocrystals.\nThe symbols represent changes in ∆E*ab of CBZ form I (#), form II (\b), form III (\b), CBZ–SUC PM (△),\nCBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC form II (■). Data are presented\nas the means ± SD of 3 values."
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 508.2062683105469,
+        "x1": 398.00958251953125,
+        "y1": 519.582275390625
+      },
+      "asset_path": "assets/page-0005-image-012.jpeg",
+      "caption": "Figure 2. Time courses of the discoloration of CBZ polymorphs, physical mixtures (PMs), and cocrystals.\nThe symbols represent changes in ∆E*ab of CBZ form I (#), form II (\b), form III (\b), CBZ–SUC PM (△),\nCBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC form II (■). Data are presented\nas the means ± SD of 3 values."
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 519.582275390625,
+        "x1": 398.00958251953125,
+        "y1": 530.958251953125
+      },
+      "asset_path": "assets/page-0005-image-013.png",
+      "caption": "Figure 2. Time courses of the discoloration of CBZ polymorphs, physical mixtures (PMs), and cocrystals.\nThe symbols represent changes in ∆E*ab of CBZ form I (#), form II (\b), form III (\b), CBZ–SUC PM (△),\nCBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC form II (■). Data are presented\nas the means ± SD of 3 values."
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 530.958251953125,
+        "x1": 398.00958251953125,
+        "y1": 542.334228515625
+      },
+      "asset_path": "assets/page-0005-image-014.png",
+      "caption": "Figure 2. Time courses of the discoloration of CBZ polymorphs, physical mixtures (PMs), and cocrystals.\nThe symbols represent changes in ∆E*ab of CBZ form I (#), form II (\b), form III (\b), CBZ–SUC PM (△),\nCBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC form II (■). Data are presented\nas the means ± SD of 3 values."
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 542.334228515625,
+        "x1": 398.00958251953125,
+        "y1": 553.710205078125
+      },
+      "asset_path": "assets/page-0005-image-015.jpeg",
+      "caption": "Figure 2. Time courses of the discoloration of CBZ polymorphs, physical mixtures (PMs), and cocrystals.\nThe symbols represent changes in ∆E*ab of CBZ form I (#), form II (\b), form III (\b), CBZ–SUC PM (△),\nCBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC form II (■). Data are presented\nas the means ± SD of 3 values."
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 553.7102661132812,
+        "x1": 398.00958251953125,
+        "y1": 565.0862426757812
+      },
+      "asset_path": "assets/page-0005-image-016.jpeg",
+      "caption": "Figure 2. Time courses of the discoloration of CBZ polymorphs, physical mixtures (PMs), and cocrystals.\nThe symbols represent changes in ∆E*ab of CBZ form I (#), form II (\b), form III (\b), CBZ–SUC PM (△),\nCBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC form II (■). Data are presented\nas the means ± SD of 3 values."
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 194.51199340820312,
+        "y0": 565.0862426757812,
+        "x1": 398.00958251953125,
+        "y1": 575.6942138671875
+      },
+      "asset_path": "assets/page-0005-image-017.jpeg",
+      "caption": "Figure 2. Time courses of the discoloration of CBZ polymorphs, physical mixtures (PMs), and cocrystals.\nThe symbols represent changes in ∆E*ab of CBZ form I (#), form II (\b), form III (\b), CBZ–SUC PM (△),\nCBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC form II (■). Data are presented\nas the means ± SD of 3 values."
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 100.66070556640625,
+        "y0": 305.4436340332031,
+        "x1": 181.66070556640625,
+        "y1": 379.6936340332031
+      },
+      "asset_path": "assets/page-0006-image-001.jpeg",
+      "caption": null
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 197.2126922607422,
+        "y0": 269.6416015625,
+        "x1": 289.0126953125,
+        "y1": 414.7935791015625
+      },
+      "asset_path": "assets/page-0006-image-002.png",
+      "caption": null
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 304.51068115234375,
+        "y0": 305.4436340332031,
+        "x1": 384.8626708984375,
+        "y1": 379.6936340332031
+      },
+      "asset_path": "assets/page-0006-image-003.jpeg",
+      "caption": null
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 401.06268310546875,
+        "y0": 269.6416015625,
+        "x1": 492.8626708984375,
+        "y1": 414.7935791015625
+      },
+      "asset_path": "assets/page-0006-image-004.png",
+      "caption": null
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 100.66070556640625,
+        "y0": 495.7935791015625,
+        "x1": 181.66070556640625,
+        "y1": 570.0435791015625
+      },
+      "asset_path": "assets/page-0006-image-005.jpeg",
+      "caption": "Figure 3. Cont."
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 197.2126922607422,
+        "y0": 459.99163818359375,
+        "x1": 289.0126953125,
+        "y1": 605.1436157226562
+      },
+      "asset_path": "assets/page-0006-image-006.png",
+      "caption": "Figure 3. Cont."
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 305.21270751953125,
+        "y0": 495.7935791015625,
+        "x1": 384.8627014160156,
+        "y1": 570.0435791015625
+      },
+      "asset_path": "assets/page-0006-image-007.jpeg",
+      "caption": "Figure 3. Cont."
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 401.06268310546875,
+        "y0": 459.99163818359375,
+        "x1": 492.8626708984375,
+        "y1": 605.1436157226562
+      },
+      "asset_path": "assets/page-0006-image-008.png",
+      "caption": "Figure 3. Cont."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 100.97570037841797,
+        "y0": 124.596435546875,
+        "x1": 181.9757080078125,
+        "y1": 198.846435546875
+      },
+      "asset_path": "assets/page-0007-image-001.jpeg",
+      "caption": "Figure 3. Low-frequency Raman images and representative spectra of the red domain (upper panels)\nand blue domain (lower panels) before irradiation (left panels) and after 343 h of irradiation (right\npanels): (a) CBZ form III, (b) CBZ–SUC, and (c) CBZ–SAC form II. The Raman spectra of each domain\nwere obtained ten times."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 197.52767944335938,
+        "y0": 88.79441833496094,
+        "x1": 289.3276672363281,
+        "y1": 233.9464111328125
+      },
+      "asset_path": "assets/page-0007-image-002.png",
+      "caption": "Figure 3. Low-frequency Raman images and representative spectra of the red domain (upper panels)\nand blue domain (lower panels) before irradiation (left panels) and after 343 h of irradiation (right\npanels): (a) CBZ form III, (b) CBZ–SUC, and (c) CBZ–SAC form II. The Raman spectra of each domain\nwere obtained ten times."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 304.82568359375,
+        "y0": 124.596435546875,
+        "x1": 385.17767333984375,
+        "y1": 198.846435546875
+      },
+      "asset_path": "assets/page-0007-image-003.jpeg",
+      "caption": "Figure 3. Low-frequency Raman images and representative spectra of the red domain (upper panels)\nand blue domain (lower panels) before irradiation (left panels) and after 343 h of irradiation (right\npanels): (a) CBZ form III, (b) CBZ–SUC, and (c) CBZ–SAC form II. The Raman spectra of each domain\nwere obtained ten times."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 401.3776550292969,
+        "y0": 88.79441833496094,
+        "x1": 493.1776428222656,
+        "y1": 233.9464111328125
+      },
+      "asset_path": "assets/page-0007-image-004.png",
+      "caption": "Figure 3. Low-frequency Raman images and representative spectra of the red domain (upper panels)\nand blue domain (lower panels) before irradiation (left panels) and after 343 h of irradiation (right\npanels): (a) CBZ form III, (b) CBZ–SUC, and (c) CBZ–SAC form II. The Raman spectra of each domain\nwere obtained ten times."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 547.6248168945312,
+        "x1": 389.47125244140625,
+        "y1": 558.9197998046875
+      },
+      "asset_path": "assets/page-0007-image-005.png",
+      "caption": null
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 558.9197998046875,
+        "x1": 389.47125244140625,
+        "y1": 570.2147827148438
+      },
+      "asset_path": "assets/page-0007-image-006.jpeg",
+      "caption": null
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 570.2147827148438,
+        "x1": 389.47125244140625,
+        "y1": 581.509765625
+      },
+      "asset_path": "assets/page-0007-image-007.jpeg",
+      "caption": null
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 581.509765625,
+        "x1": 389.47125244140625,
+        "y1": 592.8047485351562
+      },
+      "asset_path": "assets/page-0007-image-008.png",
+      "caption": null
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 592.8047485351562,
+        "x1": 389.47125244140625,
+        "y1": 604.0997314453125
+      },
+      "asset_path": "assets/page-0007-image-009.jpeg",
+      "caption": null
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 604.0997924804688,
+        "x1": 389.47125244140625,
+        "y1": 615.394775390625
+      },
+      "asset_path": "assets/page-0007-image-010.jpeg",
+      "caption": null
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 615.394775390625,
+        "x1": 389.47125244140625,
+        "y1": 626.6897583007812
+      },
+      "asset_path": "assets/page-0007-image-011.jpeg",
+      "caption": null
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 626.6898193359375,
+        "x1": 389.47125244140625,
+        "y1": 637.9848022460938
+      },
+      "asset_path": "assets/page-0007-image-012.jpeg",
+      "caption": null
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 637.9848022460938,
+        "x1": 389.47125244140625,
+        "y1": 649.27978515625
+      },
+      "asset_path": "assets/page-0007-image-013.png",
+      "caption": "Figure 4. The apparent ﬁrst-order plots for the photodegradation of CBZ polymorphs, PMs, and\ncocrystals. The symbols represent changes in the remaining percentages of CBZ form I (#), form II (\b),\nform III (\b), CBZ–SUC PM (△), CBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC\nform II (■). Data are presented as the means ± SD of 3 values."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 649.2798461914062,
+        "x1": 389.47125244140625,
+        "y1": 660.5748291015625
+      },
+      "asset_path": "assets/page-0007-image-014.jpeg",
+      "caption": "Figure 4. The apparent ﬁrst-order plots for the photodegradation of CBZ polymorphs, PMs, and\ncocrystals. The symbols represent changes in the remaining percentages of CBZ form I (#), form II (\b),\nform III (\b), CBZ–SUC PM (△), CBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC\nform II (■). Data are presented as the means ± SD of 3 values."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 660.5748291015625,
+        "x1": 389.47125244140625,
+        "y1": 671.8698120117188
+      },
+      "asset_path": "assets/page-0007-image-015.jpeg",
+      "caption": "Figure 4. The apparent ﬁrst-order plots for the photodegradation of CBZ polymorphs, PMs, and\ncocrystals. The symbols represent changes in the remaining percentages of CBZ form I (#), form II (\b),\nform III (\b), CBZ–SUC PM (△), CBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC\nform II (■). Data are presented as the means ± SD of 3 values."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 671.8698120117188,
+        "x1": 389.47125244140625,
+        "y1": 683.164794921875
+      },
+      "asset_path": "assets/page-0007-image-016.png",
+      "caption": "Figure 4. The apparent ﬁrst-order plots for the photodegradation of CBZ polymorphs, PMs, and\ncocrystals. The symbols represent changes in the remaining percentages of CBZ form I (#), form II (\b),\nform III (\b), CBZ–SUC PM (△), CBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC\nform II (■). Data are presented as the means ± SD of 3 values."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 683.164794921875,
+        "x1": 389.47125244140625,
+        "y1": 694.4597778320312
+      },
+      "asset_path": "assets/page-0007-image-017.jpeg",
+      "caption": "Figure 4. The apparent ﬁrst-order plots for the photodegradation of CBZ polymorphs, PMs, and\ncocrystals. The symbols represent changes in the remaining percentages of CBZ form I (#), form II (\b),\nform III (\b), CBZ–SUC PM (△), CBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC\nform II (■). Data are presented as the means ± SD of 3 values."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 694.4597778320312,
+        "x1": 389.47125244140625,
+        "y1": 705.7547607421875
+      },
+      "asset_path": "assets/page-0007-image-018.jpeg",
+      "caption": "Figure 4. The apparent ﬁrst-order plots for the photodegradation of CBZ polymorphs, PMs, and\ncocrystals. The symbols represent changes in the remaining percentages of CBZ form I (#), form II (\b),\nform III (\b), CBZ–SUC PM (△), CBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC\nform II (■). Data are presented as the means ± SD of 3 values."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 207.1875,
+        "y0": 705.7547607421875,
+        "x1": 389.47125244140625,
+        "y1": 716.9597778320312
+      },
+      "asset_path": "assets/page-0007-image-019.jpeg",
+      "caption": "Figure 4. The apparent ﬁrst-order plots for the photodegradation of CBZ polymorphs, PMs, and\ncocrystals. The symbols represent changes in the remaining percentages of CBZ form I (#), form II (\b),\nform III (\b), CBZ–SUC PM (△), CBZ–SUC (▲), CBZ–SAC PM (□), CBZ–SAC form I (■), and CBZ–SAC\nform II (■). Data are presented as the means ± SD of 3 values."
+    },
+    {
+      "page": 8,
+      "bbox": {
+        "x0": 186.6959991455078,
+        "y0": 370.53900146484375,
+        "x1": 406.0559997558594,
+        "y1": 581.4990234375
+      },
+      "asset_path": "assets/page-0008-image-001.png",
+      "caption": "Figure 5. The relationship between the 1H spin–lattice relaxation time (T1) and degradation rate\nconstant of CBZ polymorphs and cocrystals: CBZ form I (#), form II (\b), form III (\b), CBZ–SUC (▲),\nCBZ–SAC form I (■), and CBZ–SAC form II (■)."
+    },
+    {
+      "page": 11,
+      "bbox": {
+        "x0": 77.55999755859375,
+        "y0": 242.45343017578125,
+        "x1": 160.6959991455078,
+        "y1": 271.551025390625
+      },
+      "asset_path": "assets/page-0011-image-001.png",
+      "caption": null
+    }
+  ],
+  "marker_markdown_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/Comparative_Evaluation_of_the_Photostability_of_Ca.md"
+}
