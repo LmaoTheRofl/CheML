@@ -5,6 +5,9 @@ FROM python:3.11-slim-bookworm
 ARG INSTALL_CODEX=1
 ARG INSTALL_MOLSCRIBE=1
 ARG DOWNLOAD_MODELS=1
+ARG CHEMX_MODEL_DOWNLOAD_ATTEMPTS=20
+ARG CHEMX_MODEL_DOWNLOAD_READ_TIMEOUT_SECONDS=180
+ARG CHEMX_MODEL_DOWNLOAD_CONNECT_TIMEOUT_SECONDS=20
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
@@ -14,6 +17,9 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     XDG_CACHE_HOME=/opt/chemx-cache \
     CHEMX_MOLSCRIBE_MODEL=/opt/chemx-models/molscribe/swin_base_char_aux_1m680k.pth \
     CHEMX_MARKER_PAGE_CHUNK_SIZE=1 \
+    CHEMX_MODEL_DOWNLOAD_ATTEMPTS=$CHEMX_MODEL_DOWNLOAD_ATTEMPTS \
+    CHEMX_MODEL_DOWNLOAD_READ_TIMEOUT_SECONDS=$CHEMX_MODEL_DOWNLOAD_READ_TIMEOUT_SECONDS \
+    CHEMX_MODEL_DOWNLOAD_CONNECT_TIMEOUT_SECONDS=$CHEMX_MODEL_DOWNLOAD_CONNECT_TIMEOUT_SECONDS \
     CHEMX_OCR_COMMAND="tesseract {image} stdout -l eng" \
     CHEMX_MOLSCRIBE_COMMAND="/opt/molscribe-venv/bin/python /workspace/scripts/molscribe_predict.py --model /opt/chemx-models/molscribe/swin_base_char_aux_1m680k.pth {image}"
 
@@ -50,7 +56,7 @@ RUN if [ "$INSTALL_CODEX" = "1" ]; then npm install -g @openai/codex; fi
 
 RUN if [ "$INSTALL_MOLSCRIBE" = "1" ]; then \
         uv python install 3.10 \
-        && uv venv --python 3.10 /opt/molscribe-venv \
+        && uv venv --seed --python 3.10 /opt/molscribe-venv \
         && /opt/molscribe-venv/bin/python -m pip install --upgrade pip \
         && /opt/molscribe-venv/bin/pip install --extra-index-url https://download.pytorch.org/whl/cpu torch==1.13.1 torchvision==0.14.1 \
         && /opt/molscribe-venv/bin/pip install molscribe; \
