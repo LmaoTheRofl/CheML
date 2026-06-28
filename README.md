@@ -32,6 +32,8 @@ Docker-запуск нужен, если локальные Linux/WSL-завис
 MolScribe runtime, `/opt/chemx-models` для MolScribe checkpoint и системный
 `tesseract` для OCR. По умолчанию `docker compose build chemx` скачивает
 обязательные Marker/Surya weights и MolScribe `.pth` внутрь image.
+Незавершённая загрузка Marker/Surya сохраняется в BuildKit cache: после сетевого
+сбоя повторите ту же команду без `--no-cache`, и загрузка продолжится с `.part`.
 Ollama/Gemma включены в Compose profile `ollama`: отдельный `ollama` service
 хранит модель в named volume, `ollama-pull` скачивает
 `lukaspetrik/gemma3-tools:27b`, а `ollama-adapter` даёт ChemX-compatible

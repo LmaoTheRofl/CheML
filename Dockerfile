@@ -64,8 +64,11 @@ RUN if [ "$INSTALL_MOLSCRIBE" = "1" ]; then \
         python -m venv /opt/molscribe-venv; \
     fi
 
-RUN if [ "$DOWNLOAD_MODELS" = "1" ]; then \
-        uv run --no-sync python scripts/download_datalab_cache.py --include-weights; \
+RUN --mount=type=cache,target=/opt/chemx-download-cache \
+    if [ "$DOWNLOAD_MODELS" = "1" ]; then \
+        XDG_CACHE_HOME=/opt/chemx-download-cache \
+            uv run --no-sync python scripts/download_datalab_cache.py --include-weights \
+        && cp -a /opt/chemx-download-cache/. /opt/chemx-cache/; \
     fi
 
 RUN if [ "$INSTALL_MOLSCRIBE" = "1" ] && [ "$DOWNLOAD_MODELS" = "1" ]; then \

@@ -10,6 +10,8 @@ def test_docker_build_downloads_required_parser_models() -> None:
     assert "ARG DOWNLOAD_MODELS=1" in dockerfile
     assert "ARG CHEMX_MODEL_DOWNLOAD_READ_TIMEOUT_SECONDS=180" in dockerfile
     assert "scripts/download_datalab_cache.py --include-weights" in dockerfile
+    assert "--mount=type=cache,target=/opt/chemx-download-cache" in dockerfile
+    assert "cp -a /opt/chemx-download-cache/. /opt/chemx-cache/" in dockerfile
     assert "scripts/download_molscribe_model.py" in dockerfile
     assert "uv venv --seed --python 3.10 /opt/molscribe-venv" in dockerfile
     assert "/opt/chemx-models/molscribe/swin_base_char_aux_1m680k.pth" in dockerfile

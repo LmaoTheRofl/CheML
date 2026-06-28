@@ -23,9 +23,16 @@ molscribe = load_script("download_molscribe_model", ROOT / "scripts/download_mol
 
 
 class FakeStreamResponse:
-    def __init__(self, body: bytes, status_code: int = 206) -> None:
+    def __init__(
+        self,
+        body: bytes,
+        status_code: int = 206,
+        error: Exception | None = None,
+    ) -> None:
         self.body = body
+        self.content = body
         self.status_code = status_code
+        self.error = error
 
     def __enter__(self) -> "FakeStreamResponse":
         return self
@@ -39,6 +46,11 @@ class FakeStreamResponse:
     def iter_bytes(self, chunk_size: int):
         yield self.body
 
+    def iter_raw(self, chunk_size: int):
+        yield self.body
+        if self.error is not None:
+            raise self.error
+
 
 class FakeRangeClient:
     def __init__(self, payload: bytes) -> None:
@@ -51,7 +63,13 @@ class FakeRangeClient:
     def __exit__(self, *args: object) -> None:
         return None
 
-    def stream(self, method: str, url: str, headers: dict[str, str]):
+    def stream(
+        self,
+        method: str,
+        url: str,
+        headers: dict[str, str],
+        timeout: object = None,
+    ):
         assert method == "GET"
         assert url.startswith("https://example.test/model")
         range_header = headers["Range"]
@@ -60,6 +78,9 @@ class FakeRangeClient:
         start = int(start_text)
         end = int(end_text)
         return FakeStreamResponse(self.payload[start : end + 1])
+
+    def get(self, url: str, headers: dict[str, str]) -> FakeStreamResponse:
+        return self.stream("GET", url, headers)
 
 
 def test_datalab_cache_downloads_manifests_and_weights_when_requested(
@@ -138,6 +159,43 @@ def test_datalab_downloader_fetches_known_size_files_by_range(
 
     assert destination.read_bytes() == payload
     assert client.calls == ["bytes=0-2", "bytes=3-5", "bytes=6-8"]
+
+
+def test_datalab_downloader_falls_back_after_stalled_large_range(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    payload = b"abcdefghi"
+    client = FakeRangeClient(payload)
+    destination = tmp_path / "model.bin"
+    original_stream = client.stream
+    first_request = True
+
+    def stalling_stream(
+        method: str,
+        url: str,
+        headers: dict[str, str],
+        timeout: object = None,
+    ):
+        nonlocal first_request
+        if first_request:
+            first_request = False
+            client.calls.append(headers["Range"])
+            return FakeStreamResponse(payload[:3], error=datalab.httpx.ReadTimeout("stalled"))
+        return original_stream(method, url, headers)
+
+    monkeypatch.setattr(client, "stream", stalling_stream)
+    monkeypatch.setattr(datalab, "CHUNK_SIZE", 6)
+    monkeypatch.setattr(datalab, "STREAM_BLOCK_SIZE", 3)
+    monkeypatch.setattr(datalab, "FALLBACK_RANGE_SIZE", 3)
+    monkeypatch.setattr(datalab, "FALLBACK_WORKERS", 2)
+    monkeypatch.setattr(datalab, "model_root", lambda: tmp_path)
+    monkeypatch.setattr(datalab.httpx, "Client", lambda **kwargs: client)
+
+    datalab.download("https://example.test/model.bin", destination, len(payload))
+
+    assert destination.read_bytes() == payload
+    assert client.calls[0] == "bytes=0-5"
+    assert sorted(client.calls[1:]) == ["bytes=3-5", "bytes=6-8"]
 
 
 def test_molscribe_downloader_fetches_known_size_files_by_range(
