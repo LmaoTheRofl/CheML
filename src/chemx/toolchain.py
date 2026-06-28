@@ -21,6 +21,40 @@ REQUIRED_TOOL_NAMES = (
 )
 
 
+def _project_root() -> Path:
+    return Path(__file__).resolve().parents[2]
+
+
+def _project_ocr_command() -> str | None:
+    root = _project_root()
+    prefix = root / "runs" / "tools" / "tesseract"
+    traineddata = prefix / "tessdata" / "eng.traineddata"
+    if not traineddata.is_file() or _which("tesseract") is None:
+        return None
+    return shlex.join(
+        [
+            sys.executable,
+            "-m",
+            "chemx.tesseract_ocr",
+            "--tessdata-prefix",
+            str(prefix),
+            "{image}",
+        ]
+    )
+
+
+def _project_molscribe_command() -> str | None:
+    root = _project_root()
+    python = root / "runs" / "tools" / "molscribe-py39" / "bin" / "python"
+    adapter = root / "scripts" / "molscribe_predict.py"
+    weights = root / "swin_base_char_aux_1m680k.pth"
+    if not all(path.is_file() for path in (python, adapter, weights)):
+        return None
+    return shlex.join(
+        [str(python), str(adapter), "--model", str(weights), "{image}"]
+    )
+
+
 class ToolchainError(RuntimeError):
     pass
 
@@ -96,10 +130,12 @@ class FullStackToolchain:
         codex_command: str = "codex",
     ) -> None:
         self.marker_command = marker_command
-        self.ocr_command_value = ocr_command or os.environ.get("CHEMX_OCR_COMMAND")
+        self.ocr_command_value = (
+            ocr_command or os.environ.get("CHEMX_OCR_COMMAND") or _project_ocr_command()
+        )
         self.molscribe_command_value = molscribe_command or os.environ.get(
             "CHEMX_MOLSCRIBE_COMMAND"
-        )
+        ) or _project_molscribe_command()
         self.codex_command = codex_command
 
     def check(self) -> list[ToolStatus]:
@@ -138,7 +174,10 @@ class FullStackToolchain:
     def molscribe_command(self, image: Path) -> list[str]:
         configured = self.molscribe_command_value
         if not configured:
-            raise ToolchainError("CHEMX_MOLSCRIBE_COMMAND is required")
+            raise ToolchainError(
+                "MolScribe runtime was not found; install the project-local runtime or set "
+                "CHEMX_MOLSCRIBE_COMMAND"
+            )
         parts = _split_command(configured)
         formatted = [part.format(image=str(image)) for part in parts]
         return formatted if "{image}" in configured else formatted + [str(image)]

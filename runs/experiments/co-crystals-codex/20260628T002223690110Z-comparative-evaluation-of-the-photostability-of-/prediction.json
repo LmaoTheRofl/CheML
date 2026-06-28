@@ -1,0 +1,1258 @@
+{
+  "schema_version": "1.0",
+  "domain": "co-crystals",
+  "records": [
+    {
+      "values": {
+        "pdf": "Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+        "doi": "10.3390/cryst9110553",
+        "supplementary": 0,
+        "authors": "Reiko Yutani, Ryotaro Haku, Reiko Teraoka, Chisato Tode, Tatsuo Koide, Shuji Kitagawa, Toshiyasu Sakane and Toshiro Fukami",
+        "title": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+        "journal": "Crystals",
+        "year": 2019,
+        "page": 553,
+        "access": 1,
+        "name_cocrystal": "CBZ-SUC",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "3",
+        "name_cocrystal_origin": 3,
+        "ratio_cocrystal": "2:1",
+        "ratio_cocrystal_page": "3",
+        "ratio_cocrystal_page.1": "3",
+        "ratio_cocrystal_origin": 3,
+        "name_drug": "carbamazepine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "text",
+        "name_drug_page": 2,
+        "SMILES_drug": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "figure",
+        "SMILES_drug_page": 2,
+        "name_coformer": "succinic acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "text",
+        "name_coformer_page": 3,
+        "SMILES_coformer": "O=C(O)CCC(=O)O",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "figure",
+        "SMILES_coformer_page": 2,
+        "photostability_change": "improved photostability; discoloration and degradation were suppressed (discoloration rate 0.004 h−1, degradation rate 3.79 × 10−5 h−1)",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "text/table",
+        "photostability_change_page": 8
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "Main article PDF source; supplementary=0.",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Reiko Yutani, Ryotaro Haku, Reiko Teraoka, Chisato Tode, Tatsuo Koide, Shuji Kitagawa, Toshiyasu Sakane and Toshiro Fukami",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Published: 24 October 2019",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "access": [
+          {
+            "page": 11,
+            "kind": "text",
+            "bbox": null,
+            "text": "This article is an open access article distributed under the Creative Commons Attribution (CC BY) license.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 2,
+            "kind": "caption",
+            "bbox": null,
+            "text": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": null,
+            "text": "CBZ (purity: ≥97.0%) was purchased; the chemical structures of CBZ, SUC, and SAC are shown in Figure 1.",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": null,
+            "text": "CBZ (purity: ≥97.0%) was purchased; the chemical structures of CBZ, SUC, and SAC are shown in Figure 1.",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": null,
+            "text": "CBZ (purity: ≥97.0%) was purchased; the chemical structures of CBZ, SUC, and SAC are shown in Figure 1.",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1(a) shows the carbamazepine (CBZ) structure used to derive SMILES NC(=O)N1c2ccccc2C=Cc2ccccc21.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1(a) shows the carbamazepine (CBZ) structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1(a) shows the carbamazepine (CBZ) structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1(a) shows the carbamazepine (CBZ) structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SUC, 1.00 g of CBZ and 0.25 g of SUC (molar ratio: 2:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1 shows the succinic acid structure used to derive SMILES O=C(O)CCC(=O)O.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1 shows the succinic acid structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1 shows the succinic acid structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1 shows the succinic acid structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 162.7840118408203,
+              "y0": 659.808837890625,
+              "x1": 436.476806640625,
+              "y1": 765.9776000976562
+            },
+            "text": "Table 1. Apparent discoloration rate constants: CBZ-SUC 0.004 h−1.",
+            "asset_path": "assets/page-0005.png"
+          },
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.3829803466797,
+              "y0": 108.98487854003906,
+              "x1": 413.69281005859375,
+              "y1": 217.7942657470703
+            },
+            "text": "Table 2. Degradation rate constants: CBZ-SUC 3.79 × 10−5 h−1.",
+            "asset_path": "assets/page-0008.png"
+          },
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": null,
+            "text": "Degradation rate constants for CBZ-SUC and CBZ-SAC form I were significantly lower; photostability was improved by formation of these cocrystals.",
+            "asset_path": "assets/page-0007.png"
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.3829803466797,
+              "y0": 108.98487854003906,
+              "x1": 413.69281005859375,
+              "y1": 217.7942657470703
+            },
+            "text": "Table 2. Degradation rate constants for CBZ polymorphs, PMs, and cocrystals.",
+            "asset_path": "assets/page-0008.png"
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.3829803466797,
+              "y0": 108.98487854003906,
+              "x1": 413.69281005859375,
+              "y1": 217.7942657470703
+            },
+            "text": "Table 2. Degradation rate constants for CBZ polymorphs, PMs, and cocrystals.",
+            "asset_path": "assets/page-0008.png"
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.3829803466797,
+              "y0": 108.98487854003906,
+              "x1": 413.69281005859375,
+              "y1": 217.7942657470703
+            },
+            "text": "Table 2 on page 8 reports the degradation rate constants for the cocrystal rows.",
+            "asset_path": "assets/page-0008.png"
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+        "doi": "10.3390/cryst9110553",
+        "supplementary": 0,
+        "authors": "Reiko Yutani, Ryotaro Haku, Reiko Teraoka, Chisato Tode, Tatsuo Koide, Shuji Kitagawa, Toshiyasu Sakane and Toshiro Fukami",
+        "title": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+        "journal": "Crystals",
+        "year": 2019,
+        "page": 553,
+        "access": 1,
+        "name_cocrystal": "CBZ-SAC form I",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "3",
+        "name_cocrystal_origin": 3,
+        "ratio_cocrystal": "1:1",
+        "ratio_cocrystal_page": "3",
+        "ratio_cocrystal_page.1": "3",
+        "ratio_cocrystal_origin": 3,
+        "name_drug": "carbamazepine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "text",
+        "name_drug_page": 2,
+        "SMILES_drug": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "figure",
+        "SMILES_drug_page": 2,
+        "name_coformer": "saccharin",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "text",
+        "name_coformer_page": 3,
+        "SMILES_coformer": "O=C1NS(=O)(=O)c2ccccc21",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "figure",
+        "SMILES_coformer_page": 2,
+        "photostability_change": "improved photostability; discoloration and degradation were suppressed (discoloration rate 0.008 h−1, degradation rate 4.23 × 10−5 h−1)",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "text/table",
+        "photostability_change_page": 8
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "Main article PDF source; supplementary=0.",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Reiko Yutani, Ryotaro Haku, Reiko Teraoka, Chisato Tode, Tatsuo Koide, Shuji Kitagawa, Toshiyasu Sakane and Toshiro Fukami",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Published: 24 October 2019",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "access": [
+          {
+            "page": 11,
+            "kind": "text",
+            "bbox": null,
+            "text": "This article is an open access article distributed under the Creative Commons Attribution (CC BY) license.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 2,
+            "kind": "caption",
+            "bbox": null,
+            "text": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": null,
+            "text": "CBZ (purity: ≥97.0%) was purchased; the chemical structures of CBZ, SUC, and SAC are shown in Figure 1.",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": null,
+            "text": "CBZ (purity: ≥97.0%) was purchased; the chemical structures of CBZ, SUC, and SAC are shown in Figure 1.",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": null,
+            "text": "CBZ (purity: ≥97.0%) was purchased; the chemical structures of CBZ, SUC, and SAC are shown in Figure 1.",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1(a) shows the carbamazepine (CBZ) structure used to derive SMILES NC(=O)N1c2ccccc2C=Cc2ccccc21.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1(a) shows the carbamazepine (CBZ) structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1(a) shows the carbamazepine (CBZ) structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1(a) shows the carbamazepine (CBZ) structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form I, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1 shows the saccharin structure used to derive SMILES O=C1NS(=O)(=O)c2ccccc21.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1 shows the saccharin structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1 shows the saccharin structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1 shows the saccharin structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 162.7840118408203,
+              "y0": 659.808837890625,
+              "x1": 436.476806640625,
+              "y1": 765.9776000976562
+            },
+            "text": "Table 1. Apparent discoloration rate constants: CBZ-SAC form I 0.008 h−1.",
+            "asset_path": "assets/page-0005.png"
+          },
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.3829803466797,
+              "y0": 108.98487854003906,
+              "x1": 413.69281005859375,
+              "y1": 217.7942657470703
+            },
+            "text": "Table 2. Degradation rate constants: CBZ-SAC form I 4.23 × 10−5 h−1.",
+            "asset_path": "assets/page-0008.png"
+          },
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": null,
+            "text": "Degradation rate constants for CBZ-SUC and CBZ-SAC form I were significantly lower; photostability was improved by formation of these cocrystals.",
+            "asset_path": "assets/page-0007.png"
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.3829803466797,
+              "y0": 108.98487854003906,
+              "x1": 413.69281005859375,
+              "y1": 217.7942657470703
+            },
+            "text": "Table 2. Degradation rate constants for CBZ polymorphs, PMs, and cocrystals.",
+            "asset_path": "assets/page-0008.png"
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.3829803466797,
+              "y0": 108.98487854003906,
+              "x1": 413.69281005859375,
+              "y1": 217.7942657470703
+            },
+            "text": "Table 2. Degradation rate constants for CBZ polymorphs, PMs, and cocrystals.",
+            "asset_path": "assets/page-0008.png"
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.3829803466797,
+              "y0": 108.98487854003906,
+              "x1": 413.69281005859375,
+              "y1": 217.7942657470703
+            },
+            "text": "Table 2 on page 8 reports the degradation rate constants for the cocrystal rows.",
+            "asset_path": "assets/page-0008.png"
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+        "doi": "10.3390/cryst9110553",
+        "supplementary": 0,
+        "authors": "Reiko Yutani, Ryotaro Haku, Reiko Teraoka, Chisato Tode, Tatsuo Koide, Shuji Kitagawa, Toshiyasu Sakane and Toshiro Fukami",
+        "title": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+        "journal": "Crystals",
+        "year": 2019,
+        "page": 553,
+        "access": 1,
+        "name_cocrystal": "CBZ-SAC form II",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "3",
+        "name_cocrystal_origin": 3,
+        "ratio_cocrystal": "1:1",
+        "ratio_cocrystal_page": "3",
+        "ratio_cocrystal_page.1": "3",
+        "ratio_cocrystal_origin": 3,
+        "name_drug": "carbamazepine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "text",
+        "name_drug_page": 2,
+        "SMILES_drug": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "figure",
+        "SMILES_drug_page": 2,
+        "name_coformer": "saccharin",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "text",
+        "name_coformer_page": 3,
+        "SMILES_coformer": "O=C1NS(=O)(=O)c2ccccc21",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "figure",
+        "SMILES_coformer_page": 2,
+        "photostability_change": "decreased photostability; discoloration and degradation were facilitated (discoloration rate 0.064 h−1, degradation rate 1.82 × 10−3 h−1)",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "text/table",
+        "photostability_change_page": 8
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "source_name: Comparative_Evaluation_of_the_Photostability_of_Ca.pdf",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "Main article PDF source; supplementary=0.",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Reiko Yutani, Ryotaro Haku, Reiko Teraoka, Chisato Tode, Tatsuo Koide, Shuji Kitagawa, Toshiyasu Sakane and Toshiro Fukami",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Published: 24 October 2019",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "text",
+            "bbox": null,
+            "text": "Crystals 2019, 9, 553; doi:10.3390/cryst9110553",
+            "asset_path": "assets/page-0001.png"
+          }
+        ],
+        "access": [
+          {
+            "page": 11,
+            "kind": "text",
+            "bbox": null,
+            "text": "This article is an open access article distributed under the Creative Commons Attribution (CC BY) license.",
+            "asset_path": "assets/page-0011.png"
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 2,
+            "kind": "caption",
+            "bbox": null,
+            "text": "Figure 1. Chemical structures of (a) carbamazepine (CBZ), (b) succinic acid (SUC), and (c) saccharin (SAC).",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": null,
+            "text": "CBZ (purity: ≥97.0%) was purchased; the chemical structures of CBZ, SUC, and SAC are shown in Figure 1.",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": null,
+            "text": "CBZ (purity: ≥97.0%) was purchased; the chemical structures of CBZ, SUC, and SAC are shown in Figure 1.",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 2,
+            "kind": "text",
+            "bbox": null,
+            "text": "CBZ (purity: ≥97.0%) was purchased; the chemical structures of CBZ, SUC, and SAC are shown in Figure 1.",
+            "asset_path": "assets/page-0002.png"
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1(a) shows the carbamazepine (CBZ) structure used to derive SMILES NC(=O)N1c2ccccc2C=Cc2ccccc21.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1(a) shows the carbamazepine (CBZ) structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1(a) shows the carbamazepine (CBZ) structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1(a) shows the carbamazepine (CBZ) structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 3,
+            "kind": "text",
+            "bbox": null,
+            "text": "For the preparation of CBZ-SAC form II, 1.04 g of CBZ and 0.81 g of SAC (molar ratio: 1:1) were dissolved.",
+            "asset_path": "assets/page-0003.png"
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1 shows the saccharin structure used to derive SMILES O=C1NS(=O)(=O)c2ccccc21.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1 shows the saccharin structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1 shows the saccharin structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 2,
+            "kind": "figure",
+            "bbox": null,
+            "text": "Figure 1 shows the saccharin structure.",
+            "asset_path": "marker/Comparative_Evaluation_of_the_Photostability_of_Ca/_page_1_Figure_8.jpeg"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 5,
+            "kind": "table",
+            "bbox": {
+              "x0": 162.7840118408203,
+              "y0": 659.808837890625,
+              "x1": 436.476806640625,
+              "y1": 765.9776000976562
+            },
+            "text": "Table 1. Apparent discoloration rate constants: CBZ-SAC form II 0.064 h−1.",
+            "asset_path": "assets/page-0005.png"
+          },
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.3829803466797,
+              "y0": 108.98487854003906,
+              "x1": 413.69281005859375,
+              "y1": 217.7942657470703
+            },
+            "text": "Table 2. Degradation rate constants: CBZ-SAC form II 1.82 × 10−3 h−1.",
+            "asset_path": "assets/page-0008.png"
+          },
+          {
+            "page": 7,
+            "kind": "text",
+            "bbox": null,
+            "text": "The degradation rate constant of CBZ-SAC form II was significantly increased, indicating that CBZ-SAC form II was a photolabile crystal form.",
+            "asset_path": "assets/page-0007.png"
+          },
+          {
+            "page": 9,
+            "kind": "text",
+            "bbox": null,
+            "text": "CBZ-SAC form II exhibited a lower photostability than CBZ itself.",
+            "asset_path": "assets/page-0009.png"
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.3829803466797,
+              "y0": 108.98487854003906,
+              "x1": 413.69281005859375,
+              "y1": 217.7942657470703
+            },
+            "text": "Table 2. Degradation rate constants for CBZ polymorphs, PMs, and cocrystals.",
+            "asset_path": "assets/page-0008.png"
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.3829803466797,
+              "y0": 108.98487854003906,
+              "x1": 413.69281005859375,
+              "y1": 217.7942657470703
+            },
+            "text": "Table 2. Degradation rate constants for CBZ polymorphs, PMs, and cocrystals.",
+            "asset_path": "assets/page-0008.png"
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 8,
+            "kind": "table",
+            "bbox": {
+              "x0": 184.3829803466797,
+              "y0": 108.98487854003906,
+              "x1": 413.69281005859375,
+              "y1": 217.7942657470703
+            },
+            "text": "Table 2 on page 8 reports the degradation rate constants for the cocrystal rows.",
+            "asset_path": "assets/page-0008.png"
+          }
+        ]
+      }
+    }
+  ]
+}

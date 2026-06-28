@@ -1,0 +1,957 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Comparative Evaluation of the Photostability of Carbamazepine Polymorphs and Cocrystals",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          75.06297229219143,
+          112.46660730186998
+        ],
+        [
+          470.28125,
+          112.46660730186998
+        ],
+        [
+          469.14357682619647,
+          150.70525378450577
+        ],
+        [
+          75.06297229219143,
+          152.119140625
+        ]
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          75.06297229219143,
+          673.8466796875
+        ],
+        [
+          144.87153652392948,
+          672.2021484375
+        ],
+        [
+          144.87153652392948,
+          683.047195013357
+        ],
+        [
+          75.06297229219143,
+          683.047195013357
+        ]
+      ]
+    },
+    {
+      "title": "2. Materials and Methods",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          75.06297229219143,
+          490.4814453125
+        ],
+        [
+          193.6624685138539,
+          490.4814453125
+        ],
+        [
+          193.6624685138539,
+          500.8512911843277
+        ],
+        [
+          75.06297229219143,
+          500.8512911843277
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Materials",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          75.06297229219143,
+          513.5048828125
+        ],
+        [
+          133.61209068010075,
+          513.5048828125
+        ],
+        [
+          133.61209068010075,
+          523.3446126447017
+        ],
+        [
+          75.06297229219143,
+          523.3446126447017
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Preparation of CBZ Polymorphs",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          75.06297229219143,
+          728.9384765625
+        ],
+        [
+          225.93954659949623,
+          728.9384765625
+        ],
+        [
+          225.93954659949623,
+          739.280498664292
+        ],
+        [
+          75.06297229219143,
+          739.280498664292
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Preparation of CBZ Cocrystals",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          75.06297229219143,
+          194.876953125
+        ],
+        [
+          219.18387909319898,
+          193.232421875
+        ],
+        [
+          219.18387909319898,
+          204.68922528940337
+        ],
+        [
+          74.791015625,
+          204.744140625
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Powder X-Ray Diffractometry (PXRD)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          75.06297229219143,
+          384.6357969723953
+        ],
+        [
+          253.71284634760704,
+          383.5869140625
+        ],
+        [
+          253.71284634760704,
+          395.1326803205699
+        ],
+        [
+          75.06297229219143,
+          395.9208984375
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Thermal Analysis",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          75.06297229219143,
+          468.69140625
+        ],
+        [
+          167.04296875,
+          467.046875
+        ],
+        [
+          166.63979848866498,
+          479.10774710596615
+        ],
+        [
+          75.06297229219143,
+          479.10774710596615
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Colorimetric Measurement",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          75.06297229219143,
+          537.3505859375
+        ],
+        [
+          203.419921875,
+          537.3505859375
+        ],
+        [
+          202.67002518891687,
+          548.0872662511131
+        ],
+        [
+          74.791015625,
+          547.3374888691006
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Low-Frequency Raman Spectroscopy",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          75.06297229219143,
+          146.206589492431
+        ],
+        [
+          243.20403022670024,
+          144.71875
+        ],
+        [
+          243.20403022670024,
+          155.95369545859305
+        ],
+        [
+          73.91796875,
+          156.23046875
+        ]
+      ]
+    },
+    {
+      "title": "2.8. FT-IR RAS",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          74.31234256926952,
+          390.576171875
+        ],
+        [
+          141.1183879093199,
+          390.576171875
+        ],
+        [
+          141.1183879093199,
+          400.3811219946572
+        ],
+        [
+          74.31234256926952,
+          400.3811219946572
+        ]
+      ]
+    },
+    {
+      "title": "2.9. SSNMR <sup>1</sup>H Spin\u2013Lattice Relaxation Time (T<sub>1</sub>)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          75.06297229219143,
+          530.0926090828139
+        ],
+        [
+          285.98992443324937,
+          528.716796875
+        ],
+        [
+          285.98992443324937,
+          539.8397150489759
+        ],
+        [
+          74.5,
+          540.228515625
+        ]
+      ]
+    },
+    {
+      "title": "3. Results",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          74.31234256926952,
+          626.1552734375
+        ],
+        [
+          121.60201511335012,
+          624.5107421875
+        ],
+        [
+          121.60201511335012,
+          635.8112199465717
+        ],
+        [
+          74.31234256926952,
+          635.8112199465717
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Characterization of CBZ Polymorphs and Cocrystals",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          74.31234256926952,
+          650.806767586821
+        ],
+        [
+          307.007556675063,
+          650.0009765625
+        ],
+        [
+          307.007556675063,
+          659.8040961709706
+        ],
+        [
+          74.31234256926952,
+          660.6904296875
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Changes in the Surface Color of Tablets",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          75.06297229219143,
+          194.19234194122885
+        ],
+        [
+          252.2115869017632,
+          193.232421875
+        ],
+        [
+          252.2115869017632,
+          203.9394479073909
+        ],
+        [
+          75.06297229219143,
+          204.744140625
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Evaluation of Photodegradation on the Surface of Tablets Using Low-Frequency Raman Spectroscopy",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          75.06297229219143,
+          89.973285841496
+        ],
+        [
+          500.67002518891684,
+          89.2158203125
+        ],
+        [
+          500.67002518891684,
+          99.72039180765806
+        ],
+        [
+          75.06297229219143,
+          99.9052734375
+        ]
+      ]
+    },
+    {
+      "title": "3.4. Evaluation of Photodegradation on the Surface of Tablets Using FT-IR RAS",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          75.06297229219143,
+          329.1522707034728
+        ],
+        [
+          399.3350125944584,
+          328.083984375
+        ],
+        [
+          399.3350125944584,
+          339.6491540516474
+        ],
+        [
+          74.208984375,
+          339.6491540516474
+        ]
+      ]
+    },
+    {
+      "title": "3.5. Investigation of the Relationship between Molecular Mobility and Photostability",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          75.06297229219143,
+          236.17987533392696
+        ],
+        [
+          418.1007556675063,
+          235.16796875
+        ],
+        [
+          418.1007556675063,
+          245.92698130008904
+        ],
+        [
+          75.06297229219143,
+          246.6796875
+        ]
+      ]
+    },
+    {
+      "title": "4. Discussion",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          75.06297229219143,
+          631.0888671875
+        ],
+        [
+          138.86649874055416,
+          629.4443359375
+        ],
+        [
+          138.86649874055416,
+          640.3098842386464
+        ],
+        [
+          75.06297229219143,
+          640.3098842386464
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          75.955078125,
+          613.8212890625
+        ],
+        [
+          126.3380355834961,
+          612.1767578125
+        ],
+        [
+          126.3380355834961,
+          624.7657928466797
+        ],
+        [
+          75.955078125,
+          624.7657928466797
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          66
+        ],
+        [
+          "Span",
+          36
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          51
+        ],
+        [
+          "Span",
+          41
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          68
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          57
+        ],
+        [
+          "Span",
+          46
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Equation",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          39
+        ],
+        [
+          "TableCell",
+          20
+        ],
+        [
+          "Span",
+          19
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          33
+        ],
+        [
+          "Span",
+          6
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          50
+        ],
+        [
+          "Span",
+          25
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          47
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "TableCell",
+          20
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          214
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          352
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "Reference",
+          20
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Comparative_Evaluation_of_the_Photostability_of_Ca"
+}

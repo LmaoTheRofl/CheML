@@ -1,0 +1,2097 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-06-28T01:58:54.488597Z",
+  "parser": "marker+pymupdf",
+  "metadata": {
+    "title": "mp4c00393 1..13",
+    "author": null,
+    "subject": null,
+    "keywords": null,
+    "creator": "Arbortext Publishing Engine",
+    "producer": "PDFlib+PDI 9.1.2p4 (C++/Win64)",
+    "page_count": 13,
+    "sha256": "5b0b8ca68ccd55052e4f525fb7ff0fafab1990b2e8150317501d69c8071170ca",
+    "source_name": "Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to\nPhotodegradation\nLuan F. Diniz,* Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes*\nCite This: Mol. Pharmaceutics 2024, 21, 3661−3673\nRead Online\nACCESS\nMetrics & More\nArticle Recommendations\n*\nsı\nSupporting Information\nABSTRACT: Dacarbazine (DTIC) is a widely prescribed\noncolytic agent to treat advanced malignant melanomas. Never-\ntheless, the drug is known for exhibiting low and pH-dependent\nsolubility, in addition to being photosensitive. These features imply\nthe formation of the inactive photodegradation product 2-\nazahypoxanthine (2-AZA) during pharmaceutical manufacturing\nand even drug administration. We have focused on developing\nnovel DTIC salt/cocrystal forms with enhanced solubility and\ndissolution behaviors to overcome or minimize this undesirable\nbiopharmaceutical profile. By cocrystallization techniques, two\nsalts, two cocrystals, and one salt-cocrystal have been successfully\nprepared through reactions with aliphatic carboxylic acids. A\ndetailed structural study of these new multicomponent crystals was\nconducted using X-ray diffraction (SCXRD, PXRD), spectroscopic (FT-IR and 1H NMR), and thermal (TG and DSC) analyses.\nMost DTIC crystal forms reported display substantial enhancements in solubility (up to 19-fold), with faster intrinsic dissolution\nrates (from 1.3 to 22-fold), contributing positively to reducing the photodegradation of DTIC in solution. These findings reinforce\nthe potential of these new solid forms to enhance the limited DTIC biopharmaceutical profile.\nKEYWORDS: dacarbazine, salt, cocrystal, cocrystallization, solubility, stability\n1. INTRODUCTION\nCrystal engineering is a powerful and well-established\ntechnology for generating improved multicomponent crystals,\ne.g., salts and cocrystals.1−3 Its extensive application in\ndeveloping innovative active pharmaceutical ingredients\n(APIs) and the reform of older ones has made this technology\nreceive widespread and unanimous acceptance from academia,\nindustry, and drug regulatory agencies.4−7 Assembling custom-\nmade crystalline arrangements by including API-complemen-\ntary molecules (coformers) within the crystal lattice without\nbreaking covalent bonds ensures the drug’s pharmacological\nactivity while offering a pathway for fine-tuning its\nphysicochemical properties (aqueous solubility, dissolution\nrate, solid-state stability, and hygroscopicity).8−11 Salt and\ncocrystal formation is the most effective and low-cost method\nemployed in API screening/selecting steps.12−14 Usually,\ncarboxylic acids recognized as safe (GRAS) are used as\ncoformers to interact with weak basic drugs,15 such as\ndacarbazine (DTIC, Scheme 1), through hydrogen-bonding,\nconverting it into salts or cocrystals.\nDTIC is an anticancer drug indicated for the treatment of\nmetastatic malignant melanoma and soft tissue sarcoma, being\nalso used in the treatment of early Hodgkin lymphoma.16,17\nAlthough it may be ionized, this API is commercialized in a\nneutral form as an intravenous formulation, exhibiting pH-\ndependent aqueous solubility and a pronounced photo-\ndegradation when exposed to light.18,19 The main photo-\ndegradation product, 2-azahypoxanthine (2-AZA), is pharma-\ncologically inactive and further responsible for some adverse\nReceived:\nApril 11, 2024\nRevised:\nJune 4, 2024\nAccepted:\nJune 4, 2024\nPublished: June 10, 2024\nScheme 1. Molecular Structure of Dacarbazine (DTIC) and\nthe Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric\nAcids\nArticle\npubs.acs.org/molecularpharmaceutics\n© 2024 The Authors. Published by\nAmerican Chemical Society\n3661\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\nThis article is licensed under CC-BY 4.0\n",
+      "blocks": [
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to\nPhotodegradation",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 111.18110656738281,
+            "x1": 555.439208984375,
+            "y1": 146.20770263671875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Luan F. Diniz,* Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes*",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 152.22206115722656,
+            "x1": 546.0322875976562,
+            "y1": 166.09295654296875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661−3673\nRead Online",
+          "bbox": {
+            "x0": 75.17479705810547,
+            "y0": 179.656982421875,
+            "x1": 385.89202880859375,
+            "y1": 188.656982421875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "ACCESS\nMetrics & More\nArticle Recommendations\n*\nsı\nSupporting Information",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 211.0999755859375,
+            "x1": 529.8231811523438,
+            "y1": 226.0999755859375
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "ABSTRACT: Dacarbazine (DTIC) is a widely prescribed\noncolytic agent to treat advanced malignant melanomas. Never-\ntheless, the drug is known for exhibiting low and pH-dependent\nsolubility, in addition to being photosensitive. These features imply\nthe formation of the inactive photodegradation product 2-\nazahypoxanthine (2-AZA) during pharmaceutical manufacturing\nand even drug administration. We have focused on developing\nnovel DTIC salt/cocrystal forms with enhanced solubility and\ndissolution behaviors to overcome or minimize this undesirable\nbiopharmaceutical profile. By cocrystallization techniques, two\nsalts, two cocrystals, and one salt-cocrystal have been successfully\nprepared through reactions with aliphatic carboxylic acids. A\ndetailed structural study of these new multicomponent crystals was\nconducted using X-ray diffraction (SCXRD, PXRD), spectroscopic (FT-IR and 1H NMR), and thermal (TG and DSC) analyses.\nMost DTIC crystal forms reported display substantial enhancements in solubility (up to 19-fold), with faster intrinsic dissolution\nrates (from 1.3 to 22-fold), contributing positively to reducing the photodegradation of DTIC in solution. These findings reinforce\nthe potential of these new solid forms to enhance the limited DTIC biopharmaceutical profile.\nKEYWORDS: dacarbazine, salt, cocrystal, cocrystallization, solubility, stability",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 239.04098510742188,
+            "x1": 555.4800415039062,
+            "y1": 439.0179748535156
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "1. INTRODUCTION",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 462.84600830078125,
+            "x1": 136.66151428222656,
+            "y1": 473.34600830078125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Crystal engineering is a powerful and well-established\ntechnology for generating improved multicomponent crystals,\ne.g., salts and cocrystals.1−3 Its extensive application in\ndeveloping innovative active pharmaceutical ingredients\n(APIs) and the reform of older ones has made this technology\nreceive widespread and unanimous acceptance from academia,\nindustry, and drug regulatory agencies.4−7 Assembling custom-\nmade crystalline arrangements by including API-complemen-\ntary molecules (coformers) within the crystal lattice without\nbreaking covalent bonds ensures the drug’s pharmacological\nactivity while offering a pathway for fine-tuning its\nphysicochemical properties (aqueous solubility, dissolution\nrate, solid-state stability, and hygroscopicity).8−11 Salt and\ncocrystal formation is the most effective and low-cost method\nemployed in API screening/selecting steps.12−14 Usually,\ncarboxylic acids recognized as safe (GRAS) are used as\ncoformers to interact with weak basic drugs,15 such as\ndacarbazine (DTIC, Scheme 1), through hydrogen-bonding,\nconverting it into salts or cocrystals.\nDTIC is an anticancer drug indicated for the treatment of\nmetastatic malignant melanoma and soft tissue sarcoma, being\nalso used in the treatment of early Hodgkin lymphoma.16,17",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 479.5889892578125,
+            "x1": 291.4850158691406,
+            "y1": 726.7909545898438
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Although it may be ionized, this API is commercialized in a\nneutral form as an intravenous formulation, exhibiting pH-",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 728.0737915039062,
+            "x1": 291.4460754394531,
+            "y1": 749.3547973632812
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "dependent aqueous solubility and a pronounced photo-\ndegradation when exposed to light.18,19 The main photo-\ndegradation product, 2-azahypoxanthine (2-AZA), is pharma-\ncologically inactive and further responsible for some adverse",
+          "bbox": {
+            "x0": 315.4371032714844,
+            "y0": 622.0587768554688,
+            "x1": 555.4600219726562,
+            "y1": 665.0519409179688
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Received:\nApril 11, 2024\nRevised:\nJune 4, 2024\nAccepted:\nJune 4, 2024\nPublished: June 10, 2024",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 681.2429809570312,
+            "x1": 409.5636901855469,
+            "y1": 723.2378540039062
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Scheme 1. Molecular Structure of Dacarbazine (DTIC) and\nthe Coformers: Oxalic, Maleic, Fumaric, Succinic, and Citric\nAcids",
+          "bbox": {
+            "x0": 315.43896484375,
+            "y0": 463.4309997558594,
+            "x1": 555.4649658203125,
+            "y1": 495.427001953125
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Article\npubs.acs.org/molecularpharmaceutics",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 85.2519760131836,
+            "x1": 548.4727172851562,
+            "y1": 93.44596099853516
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "© 2024 The Authors. Published by\nAmerican Chemical Society",
+          "bbox": {
+            "x0": 188.61700439453125,
+            "y0": 757.9650268554688,
+            "x1": 280.94476318359375,
+            "y1": 770.0471801757812
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "3661",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 769.0272827148438,
+            "x1": 311.5068054199219,
+            "y1": 776.5272216796875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 762.555419921875,
+            "x1": 555.4390258789062,
+            "y1": 768.555419921875
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673",
+          "bbox": {
+            "x0": 451.6143798828125,
+            "y0": 769.0744018554688,
+            "x1": 555.4654541015625,
+            "y1": 775.0744018554688
+          }
+        },
+        {
+          "page": 1,
+          "kind": "text",
+          "text": "This article is licensed under CC-BY 4.0",
+          "bbox": {
+            "x0": 405.70001220703125,
+            "y0": 68.4759750366211,
+            "x1": 529.4039916992188,
+            "y1": 78.09397888183594
+          }
+        }
+      ],
+      "render_path": "assets/page-0001.png"
+    },
+    {
+      "number": 2,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "reactions.20,21 To reduce photodegradation, freshly prepared\nDTIC solutions protected from light must be intravenously\nadministered as quickly as possible.22,23 Recently, Uchida et\nal.24 developed a photochemically stabilized formulation of\nDTIC using reactive oxygen species. The lack of scientific\nreports on this line reinforces the idea that the emergence of\nalternative and safe technologies to overcome DTIC issues\nremains highly demanded.\nIn the present work, we employ, for the first time, the crystal\nengineering strategy for the preparation of novel DTIC salt/\ncocrystal forms to elucidate how far cocrystallization can fine-\ntune the drug solubility and photostability. Through the\nproposition of a supramolecular synthesis protocol followed by\nan in-depth biopharmaceutical assessment, we introduce five\nnovel multicomponent crystals of DTIC obtained from the\ndrug’s reaction with pharmaceutically acceptable oxalic, maleic,\nfumaric, succinic, and citric carboxylic acids (Scheme 1). These\nnovel solid forms have been characterized by single-crystal and\npowder X-ray diffraction (SCXRD and PXRD), Fourier\ntransform infrared (FT-IR), proton nuclear magnetic reso-\nnance (1H NMR), thermogravimetry (TG), and differential\nscanning calorimetry (DSC). Equilibrium solubility, intrinsic\ndissolution, and photostability experiments were also carried\nout. All outcomes presented certainly insert valuable insights\nconcerning improved DTIC manufacturing practices and drug\nadministration, since their novel salts and cocrystals are\nbiopharmaceutically advantageous over commercial DTIC.\n2. MATERIALS AND METHODS\n2.1. Materials. Chromatographic-grade solvents were\nacquired commercially and used without further purification.\nAll coformers (oxalic, maleic, fumaric, succinic, and citric\nacids) and dacarbazine were purchased from Sigma-Aldrich\nand used as-received. The 2-azahypoxanthine reference\nstandard was purchased from the European Pharmacopoeia.\nUltrapure water was obtained from a Millipore Direct-Q 3 UV\nsystem and used directly.\n2.2. Preparation of DTIC Crystal Forms. 2.2.1. Dacar-\nbazine Hydrogen-Oxalate Salt (DTIC-HOXA). 50 mg of DTIC\n(0.274 mmol) and 24.7 mg of oxalic acid (0.274 mmol) were\nmanually ground in a pestle mortar by adding 1 mL of hot\nmethanol until a homogeneous mass was formed. The resulting\nground material was dissolved again in 5 mL of hot methanol\nfor recrystallization. Suitable colorless prismatic crystals were\nobserved within 1−2 days by slow evaporation of the solvent at\nroom temperature.\n2.2.2. Dacarbazine Hydrogen-Maleate Salt (DTIC-HMAL).\n50 mg of DTIC (0.274 mmol) and 31.8 mg of maleic acid\n(0.274 mmol) were mechanochemically reacted in a pestle\nmortar by adding 1 mL of a hot methanol/water (1:1, v/v)\nmixture until a homogeneous system was formed. Good-\nquality prismatic crystals of DTIC-HMAL appeared within 1−\n2 days by recrystallizing this material in 5 mL of hot methanol,\nmaintained under slow evaporation at room temperature.\n2.2.3. Dacarbazine-Fumaric Acid Cocrystal (DTIC-\nH2FUM). 50 mg of DTIC (0.274 mmol) and 31.8 mg of\nfumaric acid (0.274 mmol) were macerated together in a pestle\nmortar by adding 1 mL of hot methanol until a homogeneous\nmass appeared. The ground material formed was dissolved in 5\nmL of hot methanol for recrystallization using slow\nevaporation. Colorless block crystals were obtained within\n2−3 days.\n2.2.4. Dacarbazine-Succinic Acid Cocrystal (DTIC-H2SUC).\n50 mg of DTIC (0.274 mmol) and 32.4 mg of succinic acid\n(0.274 mmol) were mechanochemically reacted in a pestle\nmortar by adding 1 mL of hot methanol until a homogeneous\nmass was yielded. Suitable plate crystals of DTIC-H2SUC grew\nwithin 1−2 days by recrystallizing this material in 5 mL of hot\nmethanol, which was kept under slow evaporation at room\ntemperature.\n2.2.5. Dacarbazine Hydrogen-Citrate Salt-Cocrystal\n(DTIC-HCIT). 50 mg of DTIC (0.274 mmol) was weighed\nand dissolved in 5 mL of methanol/water (1:1, v/v) solution.\nThen, 52.7 mg (0.274 mmol) of citric acid was added, followed\nby stirring of the system at 60 °C for 20 min. Colorless block\ncrystals were obtained within 7 days upon slow solvent\nevaporation at room temperature.\n2.3. X-ray Diffraction Analysis. The single-crystal X-ray\ndiffraction (SCXRD) data of the DTIC crystal forms were\ncollected at room temperature (298 ± 2 K) in a Rigaku\nXtaLAB Synergy diffractometer with a HyPix detector and\nequipped with a Cu (λ = 1.54187 Å) microfocus radiation\nsource. CrysAlisPro software was used for acquisition,\nindexing, integration, and unit cell determination. Subse-\nquently, using Olex2,25 the structures were solved by intrinsic\nphasing with SHELXT26 and refined by full-matrix least-\nsquares minimization with SHELXL.27 All non-hydrogen\natoms were refined anisotropically. The hydrogen atoms,\nexcept those of the DTIC-HCIT structure, were located from\nelectron-density difference maps, positioned geometrically, and\nrefined freely. For DTIC-HCIT, the H atoms were also found\nfrom the electron-density difference map, but then they were\ngeometrically refined using the riding model [Uiso(H) = 1.2Ueq\nor 1.5Ueq]. The visualization of structures and graphic material\npreparation has been made by MERCURY 4.3.128 and\nORTEP329 for Windows programs. All CIF files are available\nat www.ccdc.cam.ac.uk under the CCDC30 numbers\n2334988−2334992.\nPowder X-ray diffraction (PXRD) measurements were\ncarried out on an Empyrean PANalytical diffractometer at\nroom temperature operating at 45 kV of voltage and 40 mA of\ncurrent, in a Bragg−Brentano geometry, using CuKα radiation\n(λ = 1.54187 Å), Ni filter, and PIXcel3D detector. The\ndiffractograms were acquired over an angular range of 2−50°\n(2θ) with a step size of 0.02° and a constant counting time of 4\ns per step.\n2.4. Spectroscopy Analysis. Fourier transform infrared\n(FT-IR) spectra were obtained on a PerkinElmer Spectrum\nOne spectrometer equipped with an attenuated total\nreflectance (ATR) accessory in the 4000−650 cm−1 range\nwith an average of 64 scans and a spectral resolution of 4 cm−1.\nThe 1H NMR data were acquired at room temperature on a\nBruker Avance NEO spectrometer operating at 600 MHz,\nspectrum resolution of 0.12 Hz, zg30 pulse program with ns\n16, d1 1s, acquisition time 4.09 s, and spectral width 20 ppm.\nUsing Bruker’s TopSpin 4.0 software package, all 1H NMR\nspectra have been recorded and processed. The phase and\nbaseline were manually corrected, and the TMS signals were\ncalibrated at 0.00 ppm. Besides, integration regions of the\nsignals were selected manually. Proton chemical shifts (δ) were\ngiven in ppm and coupling constants (J) in Hz. For the NMR\nexperiments, 10 mg of each DTIC crystal form was dissolved in\n600 μL of DMSO-d6 and transferred to NMR tubes for data\nacquisition.\nMolecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\n3662\n",
+      "blocks": [
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "reactions.20,21 To reduce photodegradation, freshly prepared\nDTIC solutions protected from light must be intravenously\nadministered as quickly as possible.22,23 Recently, Uchida et\nal.24 developed a photochemically stabilized formulation of\nDTIC using reactive oxygen species. The lack of scientific\nreports on this line reinforces the idea that the emergence of\nalternative and safe technologies to overcome DTIC issues\nremains highly demanded.\nIn the present work, we employ, for the first time, the crystal\nengineering strategy for the preparation of novel DTIC salt/\ncocrystal forms to elucidate how far cocrystallization can fine-\ntune the drug solubility and photostability. Through the\nproposition of a supramolecular synthesis protocol followed by\nan in-depth biopharmaceutical assessment, we introduce five\nnovel multicomponent crystals of DTIC obtained from the\ndrug’s reaction with pharmaceutically acceptable oxalic, maleic,\nfumaric, succinic, and citric carboxylic acids (Scheme 1). These\nnovel solid forms have been characterized by single-crystal and\npowder X-ray diffraction (SCXRD and PXRD), Fourier\ntransform infrared (FT-IR), proton nuclear magnetic reso-\nnance (1H NMR), thermogravimetry (TG), and differential\nscanning calorimetry (DSC). Equilibrium solubility, intrinsic\ndissolution, and photostability experiments were also carried\nout. All outcomes presented certainly insert valuable insights\nconcerning improved DTIC manufacturing practices and drug\nadministration, since their novel salts and cocrystals are\nbiopharmaceutically advantageous over commercial DTIC.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 55.751983642578125,
+            "x1": 291.483642578125,
+            "y1": 359.0810241699219
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "2. MATERIALS AND METHODS",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 372.9880065917969,
+            "x1": 191.74868774414062,
+            "y1": 383.4880065917969
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "2.1. Materials. Chromatographic-grade solvents were\nacquired commercially and used without further purification.\nAll coformers (oxalic, maleic, fumaric, succinic, and citric\nacids) and dacarbazine were purchased from Sigma-Aldrich\nand used as-received. The 2-azahypoxanthine reference\nstandard was purchased from the European Pharmacopoeia.\nUltrapure water was obtained from a Millipore Direct-Q 3 UV\nsystem and used directly.\n2.2. Preparation of DTIC Crystal Forms. 2.2.1. Dacar-\nbazine Hydrogen-Oxalate Salt (DTIC-HOXA). 50 mg of DTIC\n(0.274 mmol) and 24.7 mg of oxalic acid (0.274 mmol) were\nmanually ground in a pestle mortar by adding 1 mL of hot\nmethanol until a homogeneous mass was formed. The resulting\nground material was dissolved again in 5 mL of hot methanol\nfor recrystallization. Suitable colorless prismatic crystals were\nobserved within 1−2 days by slow evaporation of the solvent at\nroom temperature.\n2.2.2. Dacarbazine Hydrogen-Maleate Salt (DTIC-HMAL).\n50 mg of DTIC (0.274 mmol) and 31.8 mg of maleic acid\n(0.274 mmol) were mechanochemically reacted in a pestle\nmortar by adding 1 mL of a hot methanol/water (1:1, v/v)\nmixture until a homogeneous system was formed. Good-\nquality prismatic crystals of DTIC-HMAL appeared within 1−\n2 days by recrystallizing this material in 5 mL of hot methanol,\nmaintained under slow evaporation at room temperature.\n2.2.3. Dacarbazine-Fumaric Acid Cocrystal (DTIC-\nH2FUM). 50 mg of DTIC (0.274 mmol) and 31.8 mg of\nfumaric acid (0.274 mmol) were macerated together in a pestle\nmortar by adding 1 mL of hot methanol until a homogeneous\nmass appeared. The ground material formed was dissolved in 5\nmL of hot methanol for recrystallization using slow\nevaporation. Colorless block crystals were obtained within\n2−3 days.",
+          "bbox": {
+            "x0": 51.47745895385742,
+            "y0": 388.9540100097656,
+            "x1": 291.4831848144531,
+            "y1": 755.1949462890625
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "2.2.4. Dacarbazine-Succinic Acid Cocrystal (DTIC-H2SUC).\n50 mg of DTIC (0.274 mmol) and 32.4 mg of succinic acid\n(0.274 mmol) were mechanochemically reacted in a pestle\nmortar by adding 1 mL of hot methanol until a homogeneous\nmass was yielded. Suitable plate crystals of DTIC-H2SUC grew\nwithin 1−2 days by recrystallizing this material in 5 mL of hot\nmethanol, which was kept under slow evaporation at room\ntemperature.\n2.2.5. Dacarbazine Hydrogen-Citrate Salt-Cocrystal\n(DTIC-HCIT). 50 mg of DTIC (0.274 mmol) was weighed\nand dissolved in 5 mL of methanol/water (1:1, v/v) solution.\nThen, 52.7 mg (0.274 mmol) of citric acid was added, followed\nby stirring of the system at 60 °C for 20 min. Colorless block\ncrystals were obtained within 7 days upon slow solvent\nevaporation at room temperature.\n2.3. X-ray Diffraction Analysis. The single-crystal X-ray\ndiffraction (SCXRD) data of the DTIC crystal forms were\ncollected at room temperature (298 ± 2 K) in a Rigaku\nXtaLAB Synergy diffractometer with a HyPix detector and\nequipped with a Cu (λ = 1.54187 Å) microfocus radiation\nsource. CrysAlisPro software was used for acquisition,\nindexing, integration, and unit cell determination. Subse-\nquently, using Olex2,25 the structures were solved by intrinsic\nphasing with SHELXT26 and refined by full-matrix least-\nsquares minimization with SHELXL.27 All non-hydrogen\natoms were refined anisotropically. The hydrogen atoms,\nexcept those of the DTIC-HCIT structure, were located from\nelectron-density difference maps, positioned geometrically, and\nrefined freely. For DTIC-HCIT, the H atoms were also found\nfrom the electron-density difference map, but then they were\ngeometrically refined using the riding model [Uiso(H) = 1.2Ueq\nor 1.5Ueq]. The visualization of structures and graphic material\npreparation has been made by MERCURY 4.3.128 and\nORTEP329 for Windows programs. All CIF files are available\nat www.ccdc.cam.ac.uk under the CCDC30 numbers\n2334988−2334992.\nPowder X-ray diffraction (PXRD) measurements were\ncarried out on an Empyrean PANalytical diffractometer at\nroom temperature operating at 45 kV of voltage and 40 mA of\ncurrent, in a Bragg−Brentano geometry, using CuKα radiation\n(λ = 1.54187 Å), Ni filter, and PIXcel3D detector. The\ndiffractograms were acquired over an angular range of 2−50°\n(2θ) with a step size of 0.02° and a constant counting time of 4\ns per step.\n2.4. Spectroscopy Analysis. Fourier transform infrared\n(FT-IR) spectra were obtained on a PerkinElmer Spectrum\nOne spectrometer equipped with an attenuated total\nreflectance (ATR) accessory in the 4000−650 cm−1 range\nwith an average of 64 scans and a spectral resolution of 4 cm−1.\nThe 1H NMR data were acquired at room temperature on a\nBruker Avance NEO spectrometer operating at 600 MHz,\nspectrum resolution of 0.12 Hz, zg30 pulse program with ns\n16, d1 1s, acquisition time 4.09 s, and spectral width 20 ppm.\nUsing Bruker’s TopSpin 4.0 software package, all 1H NMR\nspectra have been recorded and processed. The phase and\nbaseline were manually corrected, and the TMS signals were\ncalibrated at 0.00 ppm. Besides, integration regions of the\nsignals were selected manually. Proton chemical shifts (δ) were\ngiven in ppm and coupling constants (J) in Hz. For the NMR\nexperiments, 10 mg of each DTIC crystal form was dissolved in\n600 μL of DMSO-d6 and transferred to NMR tubes for data\nacquisition.",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 59.45501708984375,
+            "x1": 555.4859619140625,
+            "y1": 755.1381225585938
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Molecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.4707641601562,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 765.8436279296875,
+            "x1": 555.4390258789062,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 2,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673\n3662",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 764.7186889648438,
+            "x1": 555.4654541015625,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0002.png"
+    },
+    {
+      "number": 3,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "2.5. Thermal Analysis. Thermogravimetric (TG) experi-\nments were performed on a Shimadzu DTG-60 thermoba-\nlance, placing approximately 2.0 ± 0.2 mg of each sample in\nalumina pans and then heating at 10 °C min−1 under a\nnitrogen flow (50 mL min−1) from 25 to 600 °C. Differential\nscanning calorimetry (DSC) curves were obtained using a\nShimadzu DSC-60 instrument. The samples (1.0 ± 0.2 mg)\nwere placed in aluminum pans and heated at a constant rate of\n10 °C min−1 under a nitrogen flow (50 mL min−1). According\nto TG data, the DSC measurements have been conducted until\nthe degradation temperature of each compound. Shimadzu\nTA-60 software was employed in the data analysis.\n2.6. Liquid Chromatography and Mass Spectrometry\nConditions. The quantitative analyses of DTIC and 2-AZA\nwere performed by liquid chromatography (LC) with UV\ndetection (LC-UV) in a Waters ACQUITY UPLC system\nequipped with an ultraviolet detector. Empower 3.0 software\nwas employed for data acquisition and analysis. A Waters\nCORTECS C18 column (150 mm length × 4.6 mm i.d., 2.7\nμm particle size), maintained at 40 °C, was used for separation.\nThe mobile phase consisted of a mixture of 0.1% (v/v)\naqueous formic acid solution (A) and acetonitrile (B), in a\ngradient elution mode (0.0−2.5 min: 0% B; 2.5−4.0 min: 0−\n6% B; 4.0−5.0 min: 6−0% B; and 5.0−7.0 min: 0% B),\ndelivered at a flow rate of 0.8 mL min−1. DTIC and 2-AZA\nwere detected at 240 nm, and the injection volume was 5 μL.\nThe method validation followed the ICH Q2 (R2) guideline.31\nThe parameters selectivity, linearity, precision, accuracy, and\nlimits of quantitation and detection were evaluated. The main\nresults found are summarized in Tables S1 and S2.\nLiquid chromatography−tandem mass spectrometry (LC-\nMS/MS) experiments were performed on an Agilent 1200\nsystem coupled to a Sciex QTRAP 5500 mass spectrometer\nequipped with a Turbo IonSpray ionization source in the\nelectrospray mode. The software Analyst ver. 1.6.2 was used\nfor data acquisition and analysis. Initially, the presence of\nDTIC and 2-AZA precursor ions in a photodegraded solution\n(see Section 2.8) was confirmed by direct infusion in a full scan\nmode, from 50 m/z 50 to 200. Then, 5 μL of the degraded\nsolution was injected into the LC-MS/MS system, employing\nthe same conditions used in the LC-UV analysis. For mass\nspectrometry detection, a product-ion monitoring scan mode\nwas used. The precursor ions of DTIC (m/z 183) and 2-AZA\n(m/z 138) have been monitored (declustering potentials of\n146 V to DTIC and 86 V to 2-AZA) and fragmented (collision\nenergies of 47 V to DTIC and 20 V to 2-AZA; collision cell\nexit potential of 10 V) to obtain their product ions. The\nconditions of the electrospray ionization source were set as\nfollows: ion-spray voltage, 5 kV; collision-activated dissocia-\ntion, medium; gas temperature, 750 °C; curtain gas, 15 psi;\nnebulizing gas, 50 psi; and auxiliary gas, 50 psi. Nitrogen was\nused as both a nebulizing and desolvation gas.\n2.7. Equilibrium Solubility and Intrinsic Dissolution.\nEquilibrium solubility values of DTIC crystal forms were stated\nby the shake-flask method32 at 37.0 ± 0.5 °C in buffered\naqueous media with pH ranging from 1.2 to 6.8. The\ndissolution media preparations, i.e., HCl solution pH 1.2,\nacetate buffer pH 4.5, and phosphate buffer pH 6.8, are listed\nin Table S3. Suspensions, in triplicate, were prepared by\nstirring an excess amount of solid, sufficient to reach saturation,\ninto 2 mL of each dissolution medium for 24 h. Then, these\nsuspensions were filtered through a 0.45 μm syringe filter and\ndiluted in their respective dissolution media before being\nquantified by LC-UV. After the equilibrium solubility experi-\nments, the solid sediment identity was checked by PXRD\nanalysis, and the pH value in each dissolution medium was\nmeasured by using a pH meter.\nIntrinsic dissolution tests were carried out in triplicate using\na rotating disk dissolution apparatus. Approximately 200 mg of\neach DTIC crystal form was compressed by a hydraulic pump\nat 1 kN for 1 min to form nonporous and compact 0.5 cm2\ndisks with a flat surface. The attachments containing the disks\nwere immersed into 500 mL of phosphate buffer, pH 6.8,\nmedium preheated at 37.0 ± 0.5 °C with the metallic rod\nrotating at 100 rpm. At specific time intervals (5, 10, 15, 20, 30,\n45, and 60 min), 5 mL of dissolution medium was withdrawn\nand immediately filtered through a 0.45 μm syringe filter\nbefore the quantification of dissolved DTIC by LC-UV.\n2.8. Stability Studies. First, all DTIC crystal forms were\nexposed under accelerated degradation conditions, specifically\nat 40 °C and 75% relative humidity (RH), for 90 days to assess\nthe drug’s solid-state stability. Each solid was stored in an open\nPetri dish before being placed inside a desiccator containing a\nsaturated sodium chloride solution (to generate 75% RH).\nSubsequently, the desiccator was maintained in a temperature-\ncontrolled oven at 40 °C. A thermohygrometer, kept with the\nsamples, proved that temperature and relative humidity\nremained constant over the 90 days. The solid-state stability\nof the new DTIC forms was also checked through photo-\ndegradation tests. For this, a dark woody chamber equipped\nwith a black UV lamp (300 mm, 15 W) was used. The DTIC\ncrystals were placed 30 cm from the light source in open Petri\ndishes for 15 days. In both studies, the DTIC content was\nverified by LC-UV.\nFinally, a photostability experiment in aqueous media was\nperformed to evaluate the degradation kinetics of DTIC and\nformation of photoproduct 2-AZA by dissolving the different\nDTIC crystal forms in 5 mL of phosphate buffer, pH 6.8. A\ntriplicate of freshly prepared solutions at a concentration of 5\nmM has been placed into clear glass vials and arranged at 30\ncm from a black UV lamp (300 mm, 15 W) to be\nphotoirradiated for 5 h. Hourly, the remaining DTIC and\nthe amount of 2-AZA in the samples were determined using\nthe validated LC-UV method described in the previous Section\n2.6.\n3. RESULT AND DISCUSSION\nOverall, considerable improvements in aqueous solubility are\nreached by multicomponent crystals that display structures\nwith a prevalence of hydrophilic domains over hydrophobic\nones. This structural attribute aids the accessibility of water\nmolecules during the dissolution process.33 Hence, DTIC salt/\ncocrystal formation from di- or tri carboxylic acids, inserting\nmolecules rich in polar domains (coformers) into a more\nhydrophilic structure, stabilized by hydrogen bond, fits\nperfectly with this requirement. On the other hand, the ability\nof these same supramolecular systems to improve API\nphotostability is not a straightforward task. There is little\nconsensus in the literature regarding the structural attributes\nrequired for the engineered API to become less susceptible to\nphotodegradation. We only know that the occurrence of strong\nand stabilizing intermolecular interactions in the crystal\nstructure, enhancing and diversifying the occurrence of\nsynthons, may be a prerequisite for photostability improve-\nment.34 Indirectly, improvements in solubility imply faster\npharmaceutical processes based on dissolution, minimizing\nMolecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\n3663\n",
+      "blocks": [
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "2.5. Thermal Analysis. Thermogravimetric (TG) experi-\nments were performed on a Shimadzu DTG-60 thermoba-\nlance, placing approximately 2.0 ± 0.2 mg of each sample in\nalumina pans and then heating at 10 °C min−1 under a\nnitrogen flow (50 mL min−1) from 25 to 600 °C. Differential\nscanning calorimetry (DSC) curves were obtained using a\nShimadzu DSC-60 instrument. The samples (1.0 ± 0.2 mg)\nwere placed in aluminum pans and heated at a constant rate of\n10 °C min−1 under a nitrogen flow (50 mL min−1). According\nto TG data, the DSC measurements have been conducted until\nthe degradation temperature of each compound. Shimadzu\nTA-60 software was employed in the data analysis.\n2.6. Liquid Chromatography and Mass Spectrometry\nConditions. The quantitative analyses of DTIC and 2-AZA\nwere performed by liquid chromatography (LC) with UV\ndetection (LC-UV) in a Waters ACQUITY UPLC system\nequipped with an ultraviolet detector. Empower 3.0 software\nwas employed for data acquisition and analysis. A Waters\nCORTECS C18 column (150 mm length × 4.6 mm i.d., 2.7\nμm particle size), maintained at 40 °C, was used for separation.\nThe mobile phase consisted of a mixture of 0.1% (v/v)\naqueous formic acid solution (A) and acetonitrile (B), in a\ngradient elution mode (0.0−2.5 min: 0% B; 2.5−4.0 min: 0−\n6% B; 4.0−5.0 min: 6−0% B; and 5.0−7.0 min: 0% B),\ndelivered at a flow rate of 0.8 mL min−1. DTIC and 2-AZA\nwere detected at 240 nm, and the injection volume was 5 μL.\nThe method validation followed the ICH Q2 (R2) guideline.31",
+          "bbox": {
+            "x0": 51.477996826171875,
+            "y0": 59.45501708984375,
+            "x1": 291.47509765625,
+            "y1": 357.4369812011719
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "The parameters selectivity, linearity, precision, accuracy, and\nlimits of quantitation and detection were evaluated. The main\nresults found are summarized in Tables S1 and S2.\nLiquid chromatography−tandem mass spectrometry (LC-\nMS/MS) experiments were performed on an Agilent 1200\nsystem coupled to a Sciex QTRAP 5500 mass spectrometer\nequipped with a Turbo IonSpray ionization source in the\nelectrospray mode. The software Analyst ver. 1.6.2 was used\nfor data acquisition and analysis. Initially, the presence of\nDTIC and 2-AZA precursor ions in a photodegraded solution\n(see Section 2.8) was confirmed by direct infusion in a full scan\nmode, from 50 m/z 50 to 200. Then, 5 μL of the degraded\nsolution was injected into the LC-MS/MS system, employing\nthe same conditions used in the LC-UV analysis. For mass\nspectrometry detection, a product-ion monitoring scan mode\nwas used. The precursor ions of DTIC (m/z 183) and 2-AZA\n(m/z 138) have been monitored (declustering potentials of\n146 V to DTIC and 86 V to 2-AZA) and fragmented (collision\nenergies of 47 V to DTIC and 20 V to 2-AZA; collision cell\nexit potential of 10 V) to obtain their product ions. The\nconditions of the electrospray ionization source were set as\nfollows: ion-spray voltage, 5 kV; collision-activated dissocia-\ntion, medium; gas temperature, 750 °C; curtain gas, 15 psi;\nnebulizing gas, 50 psi; and auxiliary gas, 50 psi. Nitrogen was\nused as both a nebulizing and desolvation gas.\n2.7. Equilibrium Solubility and Intrinsic Dissolution.\nEquilibrium solubility values of DTIC crystal forms were stated\nby the shake-flask method32 at 37.0 ± 0.5 °C in buffered\naqueous media with pH ranging from 1.2 to 6.8. The\ndissolution media preparations, i.e., HCl solution pH 1.2,\nacetate buffer pH 4.5, and phosphate buffer pH 6.8, are listed\nin Table S3. Suspensions, in triplicate, were prepared by\nstirring an excess amount of solid, sufficient to reach saturation,\ninto 2 mL of each dissolution medium for 24 h. Then, these\nsuspensions were filtered through a 0.45 μm syringe filter and\ndiluted in their respective dissolution media before being",
+          "bbox": {
+            "x0": 51.476985931396484,
+            "y0": 358.4930114746094,
+            "x1": 291.4839782714844,
+            "y1": 755.1939697265625
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "quantified by LC-UV. After the equilibrium solubility experi-\nments, the solid sediment identity was checked by PXRD\nanalysis, and the pH value in each dissolution medium was\nmeasured by using a pH meter.\nIntrinsic dissolution tests were carried out in triplicate using\na rotating disk dissolution apparatus. Approximately 200 mg of\neach DTIC crystal form was compressed by a hydraulic pump\nat 1 kN for 1 min to form nonporous and compact 0.5 cm2\ndisks with a flat surface. The attachments containing the disks\nwere immersed into 500 mL of phosphate buffer, pH 6.8,\nmedium preheated at 37.0 ± 0.5 °C with the metallic rod\nrotating at 100 rpm. At specific time intervals (5, 10, 15, 20, 30,\n45, and 60 min), 5 mL of dissolution medium was withdrawn\nand immediately filtered through a 0.45 μm syringe filter\nbefore the quantification of dissolved DTIC by LC-UV.\n2.8. Stability Studies. First, all DTIC crystal forms were\nexposed under accelerated degradation conditions, specifically\nat 40 °C and 75% relative humidity (RH), for 90 days to assess\nthe drug’s solid-state stability. Each solid was stored in an open\nPetri dish before being placed inside a desiccator containing a\nsaturated sodium chloride solution (to generate 75% RH).\nSubsequently, the desiccator was maintained in a temperature-\ncontrolled oven at 40 °C. A thermohygrometer, kept with the\nsamples, proved that temperature and relative humidity\nremained constant over the 90 days. The solid-state stability\nof the new DTIC forms was also checked through photo-\ndegradation tests. For this, a dark woody chamber equipped\nwith a black UV lamp (300 mm, 15 W) was used. The DTIC\ncrystals were placed 30 cm from the light source in open Petri\ndishes for 15 days. In both studies, the DTIC content was\nverified by LC-UV.\nFinally, a photostability experiment in aqueous media was\nperformed to evaluate the degradation kinetics of DTIC and\nformation of photoproduct 2-AZA by dissolving the different\nDTIC crystal forms in 5 mL of phosphate buffer, pH 6.8. A\ntriplicate of freshly prepared solutions at a concentration of 5\nmM has been placed into clear glass vials and arranged at 30\ncm from a black UV lamp (300 mm, 15 W) to be\nphotoirradiated for 5 h. Hourly, the remaining DTIC and\nthe amount of 2-AZA in the samples were determined using\nthe validated LC-UV method described in the previous Section\n2.6.",
+          "bbox": {
+            "x0": 315.43792724609375,
+            "y0": 60.178985595703125,
+            "x1": 555.4821166992188,
+            "y1": 521.1639404296875
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "3. RESULT AND DISCUSSION\nOverall, considerable improvements in aqueous solubility are\nreached by multicomponent crystals that display structures\nwith a prevalence of hydrophilic domains over hydrophobic\nones. This structural attribute aids the accessibility of water\nmolecules during the dissolution process.33 Hence, DTIC salt/\ncocrystal formation from di- or tri carboxylic acids, inserting\nmolecules rich in polar domains (coformers) into a more\nhydrophilic structure, stabilized by hydrogen bond, fits\nperfectly with this requirement. On the other hand, the ability\nof these same supramolecular systems to improve API\nphotostability is not a straightforward task. There is little\nconsensus in the literature regarding the structural attributes\nrequired for the engineered API to become less susceptible to\nphotodegradation. We only know that the occurrence of strong\nand stabilizing intermolecular interactions in the crystal\nstructure, enhancing and diversifying the occurrence of\nsynthons, may be a prerequisite for photostability improve-\nment.34 Indirectly, improvements in solubility imply faster\npharmaceutical processes based on dissolution, minimizing",
+          "bbox": {
+            "x0": 315.43896484375,
+            "y0": 531.72802734375,
+            "x1": 555.4829711914062,
+            "y1": 755.194580078125
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Molecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.4707641601562,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 765.8436279296875,
+            "x1": 555.4390258789062,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 3,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673\n3663",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 764.7186889648438,
+            "x1": 555.4654541015625,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0003.png"
+    },
+    {
+      "number": 4,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "hydrolysis and photodegradation reactions, justifying again the\nchoice of aliphatic carboxylic acids as coformers.\nAn interesting insight derived from a work that investigated\nthe photostabilizing effect of cysteine on the photodegradation\nof DTIC24 motivated us to employ amino acids as\ncocrystallization agents. We hypothesized that a multi-\ncomponent crystal composed of DTIC and biomolecules,\nknown to be photoprotective for DTIC, could address the drug\nphotostability issue. Nevertheless, the reactions and crystal-\nlization experiments between DTIC and several amino acids\ntested, including cysteine, have failed without any solid/crystal\nforming at the end.\nDTIC is a weak base (pKa = 4.4),35 and salt formation was\nexpected when the API reacted with the two shorter-chain\ncarboxylic acids considered relatively strong, i.e., oxalic and\nmaleic acids. The pKa difference (ΔpKa) found for these\nreactions is close to 3 units (Table S4), suggesting salt\nformation.36 The difference between the pKa values of DTIC\nand fumaric, succinic, and citric longer-chain carboxylic acids\ngives ΔpKa values within the range from 0 to 2 (Table S4).\nWithin this interval, referred to as the continuum region, salt or\ncocrystal forms are equally likely to be obtained.37 Thus, the\nassessment of spectroscopic data (FT-IR and\n1H NMR)\ncombined with bond length evaluation (C−O distances) and\nelectron density map interpretation (by SCXRD) proved each\nDTIC solid form’s ionic/nonionic nature.\n3.1. Crystallographic Evaluation. A total of five\nmulticomponent systems of DTIC were supramolecularly\nsynthesized: two salts, the first anhydrous with oxalic acid\n(DTIC-HOXA) and the second monohydrated with maleic\nacid (DTIC-HMAL), two anhydrous cocrystals with fumaric\nand succinic acids (DTIC-H2FUM and DTIC-H2SUC,\nrespectively), and finally a tetrahydrated salt-cocrystal with\ncitric acid (DTIC-HCIT). Herein, the novel crystals have been\nprepared through traditional recrystallization and solvent\nevaporation techniques (see Section 2.2). To understand the\nstructural aspects that govern the stabilization of these systems\nin the solid-state, crystallographic evaluations are provided\nbelow. The asymmetric units (ASUs) of the DTIC solid forms\nare shown in Figure S1. Tables 1 and S5 summarize the\ncrystallographic data and H-bond geometric parameters,\nrespectively. Figures S2−S4 display the electron density\nmaps of each DTIC crystal form, confirming unequivocally\nthe protonation and nonprotonation sites of the DTIC\nmolecules, assigning whether salt or cocrystal has been formed.\nThe prediction of salt/cocrystal formation based on the pKa\nrule38 and acid chain length39 was accurate. As expected,\nproton transfer from the acid to the base (DTIC) occurred\nwhen the ΔpKa of the reactions was superior to 2.5 units, as\nshown in Table S4. Not coincidentally, oxalic and maleic acids,\nwhich have slightly shorter carbon chain lengths, are the\ncoformers most likely to contribute to salt formation. In the\ncocrystal setting, increasing the aliphatic chain length of the\nacid/coformer contributes to the nonoccurrence of proton\ntransfer reactions. Indeed, we have achieved cocrystals from\nthe reactions between DTIC and fumaric, succinic, and citric\ncoformers (acids with slightly longer carbon chain lengths).\nCorroborating this, the resulting ΔpKa values between DTIC\nand these three coformers are less than 1.5 units (Table S4).\nAccording to the ΔpKa rule, the occurrence of cocrystals\nnotably increases when the ΔpKa values are less than 1.5 units,\nwhich is in line with our findings.\n3.1.1. Dacarbazine Hydrogen-Oxalate (DTIC-HOXA) Salt.\nThe DTIC-HOXA is a 1:1 salt crystallizing in the monoclinic\nP21/c space group with Z′ = 1, and its ASU (Figure S1)\ncomprises a dacarbazinum (DTICH+) cation and a hydrogen-\noxalate (HOXA−) anion. The DTIC-HOXA salt is formed by\ntransferring one proton from one of the two carboxylic groups\nof oxalic acid to the DTIC imidazole ring. After protonation to\nform a salt, the anion presents a carboxylate group with two\nsimilar C−O distances and a carboxylic group with distinct C−\nO distances. Then, the ionic pair of salt is stabilized by a single\nTable 1. Crystallographic Data and Refinement Parameters of the DTIC Solid Forms\nidentification code\nDTIC-HOXA\nDTIC-HMAL\nDTIC-H2FUM\nDTIC-H2SUC\nDTIC-HCIT\nchemical formula\nC8H12N6O5\nC10H16N6O6\nC10H14N6O5\nC10H16N6O5\nC18H36N12O13\nmolecular weight\n272.24\n316.29\n298.27\n300.29\n628.59\ntemperature (K)\n298(2)\n298(2)\n298(2)\n298(2)\n298(2)\ncrystal system\nmonoclinic\ntriclinic\nmonoclinic\nmonoclinic\nmonoclinic\nspace group\nP21/n\nP1̅\nI2/m\nP21/n\nP21\na (Å)\n7.01610(10)\n7.20630(10)\n14.9598(4)\n10.18050(10)\n7.50230(10)\nb (Å)\n14.5257(2)\n9.5417(2)\n6.5349(2)\n5.28880(10)\n23.4227(5)\nc (Å)\n11.4853(2)\n11.4641(2)\n14.7476(3)\n25.7639(4)\n8.5781(2)\nα (°)\n90\n111.919(2)\n90\n90\n90\nβ (°)\n100.475(2)\n94.2000(10)\n102.407(2)\n90.9610(10)\n103.211(2)\nγ (°)\n90\n90.5110(10)\n90\n90\n90\nvolume (Å)3\n1151.00(3)\n728.77(2)\n1408.07(6)\n1387.00(4)\n1467.49(5)\nZ/Z′\n4/1\n2/1\n4/1\n4/1\n2/2\nρcalc (g cm3)\n1.571\n1.441\n1.407\n1.438\n1.423\nμ (mm−1)\n1.142\n1.035\n0.985\n1.000\n1.045\nradiation type\nCu Kα\nCu Kα\nCu Kα\nCu Kα\nCu Kα\n2θ range for data collection/°\n9.92−140.11\n10−139.98\n9.50−140.14\n9.29−140.04\n10.6−140.11\nreflections collected\n11043\n13712\n7398\n13467\n10839\nindependent reflections\n2175\n2752\n1453\n2631\n4953\nunique reflections\n1968\n2508\n1280\n2392\n4713\nR1 [I ≥2σ(I)]\n0.0365\n0.0337\n0.0409\n0.0382\n0.0463\nwR2 [all data]\n0.1073\n0.0981\n0.1257\n0.1075\n0.1252\ngoodness-of-fit on F2\n1.018\n1.085\n1.062\n1.058\n1.063\nMolecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\n3664\n",
+      "blocks": [
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "hydrolysis and photodegradation reactions, justifying again the\nchoice of aliphatic carboxylic acids as coformers.\nAn interesting insight derived from a work that investigated\nthe photostabilizing effect of cysteine on the photodegradation\nof DTIC24 motivated us to employ amino acids as\ncocrystallization agents. We hypothesized that a multi-\ncomponent crystal composed of DTIC and biomolecules,\nknown to be photoprotective for DTIC, could address the drug\nphotostability issue. Nevertheless, the reactions and crystal-\nlization experiments between DTIC and several amino acids\ntested, including cysteine, have failed without any solid/crystal\nforming at the end.\nDTIC is a weak base (pKa = 4.4),35 and salt formation was\nexpected when the API reacted with the two shorter-chain\ncarboxylic acids considered relatively strong, i.e., oxalic and\nmaleic acids. The pKa difference (ΔpKa) found for these\nreactions is close to 3 units (Table S4), suggesting salt\nformation.36 The difference between the pKa values of DTIC\nand fumaric, succinic, and citric longer-chain carboxylic acids\ngives ΔpKa values within the range from 0 to 2 (Table S4).\nWithin this interval, referred to as the continuum region, salt or\ncocrystal forms are equally likely to be obtained.37 Thus, the\nassessment of spectroscopic data (FT-IR and\n1H NMR)\ncombined with bond length evaluation (C−O distances) and\nelectron density map interpretation (by SCXRD) proved each\nDTIC solid form’s ionic/nonionic nature.\n3.1. Crystallographic Evaluation. A total of five\nmulticomponent systems of DTIC were supramolecularly\nsynthesized: two salts, the first anhydrous with oxalic acid\n(DTIC-HOXA) and the second monohydrated with maleic\nacid (DTIC-HMAL), two anhydrous cocrystals with fumaric\nand succinic acids (DTIC-H2FUM and DTIC-H2SUC,\nrespectively), and finally a tetrahydrated salt-cocrystal with\ncitric acid (DTIC-HCIT). Herein, the novel crystals have been\nprepared through traditional recrystallization and solvent\nevaporation techniques (see Section 2.2). To understand the",
+          "bbox": {
+            "x0": 51.476959228515625,
+            "y0": 352.93701171875,
+            "x1": 291.4850158691406,
+            "y1": 755.1942749023438
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "structural aspects that govern the stabilization of these systems\nin the solid-state, crystallographic evaluations are provided\nbelow. The asymmetric units (ASUs) of the DTIC solid forms\nare shown in Figure S1. Tables 1 and S5 summarize the\ncrystallographic data and H-bond geometric parameters,\nrespectively. Figures S2−S4 display the electron density\nmaps of each DTIC crystal form, confirming unequivocally\nthe protonation and nonprotonation sites of the DTIC\nmolecules, assigning whether salt or cocrystal has been formed.\nThe prediction of salt/cocrystal formation based on the pKa\nrule38 and acid chain length39 was accurate. As expected,\nproton transfer from the acid to the base (DTIC) occurred\nwhen the ΔpKa of the reactions was superior to 2.5 units, as\nshown in Table S4. Not coincidentally, oxalic and maleic acids,\nwhich have slightly shorter carbon chain lengths, are the\ncoformers most likely to contribute to salt formation. In the\ncocrystal setting, increasing the aliphatic chain length of the\nacid/coformer contributes to the nonoccurrence of proton\ntransfer reactions. Indeed, we have achieved cocrystals from\nthe reactions between DTIC and fumaric, succinic, and citric\ncoformers (acids with slightly longer carbon chain lengths).\nCorroborating this, the resulting ΔpKa values between DTIC\nand these three coformers are less than 1.5 units (Table S4).\nAccording to the ΔpKa rule, the occurrence of cocrystals\nnotably increases when the ΔpKa values are less than 1.5 units,\nwhich is in line with our findings.\n3.1.1. Dacarbazine Hydrogen-Oxalate (DTIC-HOXA) Salt.\nThe DTIC-HOXA is a 1:1 salt crystallizing in the monoclinic\nP21/c space group with Z′ = 1, and its ASU (Figure S1)\ncomprises a dacarbazinum (DTICH+) cation and a hydrogen-\noxalate (HOXA−) anion. The DTIC-HOXA salt is formed by\ntransferring one proton from one of the two carboxylic groups\nof oxalic acid to the DTIC imidazole ring. After protonation to\nform a salt, the anion presents a carboxylate group with two\nsimilar C−O distances and a carboxylic group with distinct C−\nO distances. Then, the ionic pair of salt is stabilized by a single",
+          "bbox": {
+            "x0": 315.43896484375,
+            "y0": 352.9393005371094,
+            "x1": 555.4819946289062,
+            "y1": 755.1939697265625
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Table 1. Crystallographic Data and Refinement Parameters of the DTIC Solid Forms",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 60.685028076171875,
+            "x1": 399.2841796875,
+            "y1": 70.68502807617188
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "identification code\nDTIC-HOXA\nDTIC-HMAL\nDTIC-H2FUM\nDTIC-H2SUC\nDTIC-HCIT",
+          "bbox": {
+            "x0": 84.9259033203125,
+            "y0": 78.93507385253906,
+            "x1": 540.1498413085938,
+            "y1": 87.72881317138672
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "chemical formula\nC8H12N6O5\nC10H16N6O6\nC10H14N6O5\nC10H16N6O5\nC18H36N12O13\nmolecular weight\n272.24\n316.29\n298.27\n300.29\n628.59\ntemperature (K)\n298(2)\n298(2)\n298(2)\n298(2)\n298(2)\ncrystal system\nmonoclinic\ntriclinic\nmonoclinic\nmonoclinic\nmonoclinic\nspace group\nP21/n\nP1̅\nI2/m\nP21/n\nP21\na (Å)\n7.01610(10)\n7.20630(10)\n14.9598(4)\n10.18050(10)\n7.50230(10)\nb (Å)\n14.5257(2)\n9.5417(2)\n6.5349(2)\n5.28880(10)\n23.4227(5)\nc (Å)\n11.4853(2)\n11.4641(2)\n14.7476(3)\n25.7639(4)\n8.5781(2)\nα (°)\n90\n111.919(2)\n90\n90\n90\nβ (°)\n100.475(2)\n94.2000(10)\n102.407(2)\n90.9610(10)\n103.211(2)\nγ (°)\n90\n90.5110(10)\n90\n90\n90\nvolume (Å)3\n1151.00(3)\n728.77(2)\n1408.07(6)\n1387.00(4)\n1467.49(5)\nZ/Z′\n4/1\n2/1\n4/1\n4/1\n2/2\nρcalc (g cm3)\n1.571\n1.441\n1.407\n1.438\n1.423\nμ (mm−1)\n1.142\n1.035\n0.985\n1.000\n1.045\nradiation type\nCu Kα\nCu Kα\nCu Kα\nCu Kα\nCu Kα\n2θ range for data collection/°\n9.92−140.11\n10−139.98\n9.50−140.14\n9.29−140.04\n10.6−140.11\nreflections collected\n11043\n13712\n7398\n13467\n10839\nindependent reflections\n2175\n2752\n1453\n2631\n4953\nunique reflections\n1968\n2508\n1280\n2392\n4713\nR1 [I ≥2σ(I)]\n0.0365\n0.0337\n0.0409\n0.0382\n0.0463\nwR2 [all data]\n0.1073\n0.0981\n0.1257\n0.1075\n0.1252\ngoodness-of-fit on F2\n1.018\n1.085\n1.062\n1.058\n1.063",
+          "bbox": {
+            "x0": 67.01100158691406,
+            "y0": 91.91731262207031,
+            "x1": 541.8713989257812,
+            "y1": 340.5794372558594
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Molecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.4707641601562,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 765.8436279296875,
+            "x1": 555.4390258789062,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 4,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673\n3664",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 764.7186889648438,
+            "x1": 555.4654541015625,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0004.png"
+    },
+    {
+      "number": 5,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "N−H···O H-bond. The main supramolecular structure is a 1D\nchain of ionic pairs (Figure 1a). Along the [001] direction,\nthey are held together by an R2\n2(8) synthon between amide and\ncarboxylic groups. Along the chain, the cations are alternately\nextended with the anions, exposing the amide groups to the\nexterior of this motif. It allows two adjacent chains to form a\n2D sheet. As expected from the planar geometry of the ion\npairs, DTIC-HOXA consists of a layered structure. The 2D\nsheets are centrosymmetrically shifted and stacked with each\nother along the [101̅] direction, stabilized by C−H···O\nFigure 1. 2D sheet motifs from the chain assemblies and layered crystalline packings for (a) DTIC-HOXA, (b) DTIC-H2FUM, and (c) DTIC-\nH2SUC.\nFigure 2. 2D sheet arrangements of chains and layered crystalline assemblies for (a) DTIC-HMAL and (b) DTIC-HCIT.\nMolecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\n3665\n",
+      "blocks": [
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "N−H···O H-bond. The main supramolecular structure is a 1D\nchain of ionic pairs (Figure 1a). Along the [001] direction,\nthey are held together by an R2\n2(8) synthon between amide and\ncarboxylic groups. Along the chain, the cations are alternately\nextended with the anions, exposing the amide groups to the",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 693.0549926757812,
+            "x1": 291.4840087890625,
+            "y1": 755.1944580078125
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "exterior of this motif. It allows two adjacent chains to form a\n2D sheet. As expected from the planar geometry of the ion\npairs, DTIC-HOXA consists of a layered structure. The 2D\nsheets are centrosymmetrically shifted and stacked with each\nother along the [101̅] direction, stabilized by C−H···O",
+          "bbox": {
+            "x0": 315.43798828125,
+            "y0": 693.7755126953125,
+            "x1": 555.47607421875,
+            "y1": 755.1944580078125
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Figure 1. 2D sheet motifs from the chain assemblies and layered crystalline packings for (a) DTIC-HOXA, (b) DTIC-H2FUM, and (c) DTIC-\nH2SUC.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 357.86700439453125,
+            "x1": 555.4578857421875,
+            "y1": 377.70257568359375
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Figure 2. 2D sheet arrangements of chains and layered crystalline assemblies for (a) DTIC-HMAL and (b) DTIC-HCIT.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 672.9089965820312,
+            "x1": 480.1605529785156,
+            "y1": 681.9089965820312
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Molecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.4707641601562,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 765.8436279296875,
+            "x1": 555.4390258789062,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 5,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673\n3665",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 764.7186889648438,
+            "x1": 555.4654541015625,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0005.png"
+    },
+    {
+      "number": 6,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "interactions between adjacent cations to form a 3D structure,\nas shown in Figure 1a.\n3.1.2. Dacarbazine-Fumaric Acid (DTIC-H2FUM) Cocrys-\ntal. Reacting DTIC and fumaric acid (H2FUM) yielded a 1:1\ncocrystal, belonging to the monoclinic group I2/m with Z′ = 1.\nThe ASU is characterized by a H2FUM and a neutral DTIC\nmolecule (Figure S1). The cocrystal formation is confirmed by\nanalyzing the bond length ratios of C−O of COOH in H2FUM\nand the electron density map (Figure S3). The average\ndifference of 0.145 Å indicates that the acid structure is not\nderived from deprotonation. DTIC and H2FUM recognize\neach other, forming a 1D motif analogous to that observed in\nthe oxalate salt. Along the [001] direction, a DTIC molecule\nconnects to H2FUM via a single N−H···O H-bond. Besides,\nthese units assembled to each other by R2\n2(8) synthon connects\nthe adjacent unit carboxylic and imidazole groups. Due to the\nnonionization of APIs, adjacent chains are connected into a 2D\nsheet by a dimeric association of DTIC involving the imidazole\nand amide groups. Unlike the oxalate salt, 2D sheets align\ninfinitely in the ac plane through C−H···O H-bonds between\nneighboring DTIC and H2FUM molecules. These plane\nmotifs, in turn, stack centrosymmetrically to each other\nalong the [010] direction via C−H···O interactions, resulting\nin a layered structure (Figure 1).\n3.1.3. Dacarbazine-Succinic Acid (DTIC-H2SUC) Cocrystal.\nSuccinic acid (H2SUC) also forms cocrystals with DTIC\n(Figure S1). The DTIC-H2SUC cocrystal crystallized in the\nmonoclinic P21/c space group with Z′ = 1. Likewise, the\ndissimilarity of the carboxyl group’s C−O distances in H2SUC\ncorroborated by electron density map analysis (Figure S3)\nproves the nonionization of DTIC in the DTIC-H2SUC\nstructure. H2SUC and H2FUM differ only by the central\nportion saturation of the molecule such that H2SUC is\nassociated with DTIC forming a 2D sheet motif with analogues\nfound in the DTIC-H2FUM cocrystal (Figure 1c). However,\nDTIC-H2SUC and DTIC-H2FUM are not isomorphic\ncocrystals. In the DTIC-H2SUC cocrystal, the 2D sheet\nstructures stack to form a columnar arrangement along the\n[21̅4] direction. Unlike the fumarate cocrystal, along the [001]\ndirection, neighboring columns assemble almost orthogonally\nwith each other and are alternately arranged along this\ndirection, forming a 3D structure, as shown in Figure 1c.\n3.1.4. Dacarbazine Hydrogen-Maleate (DTIC-HMAL) Salt.\nMaleic acid is a cis-isomer of H2FUM and forms a hydrated salt\nwith DTIC. After acid deprotonation, the COO−of the anion\nexhibits two similar C−O distances, indicating the bond\nelectronic resonance due to the ionization. DTIC-HMAL is a\nhydrated salt that crystallizes in the triclinic P1̅ space group\nhaving Z′ = 1. The ASU comprises a dacarbazinum (DTICH+)\ncation, a hydrogen-maleate anion (HMAL−), and a water\nmolecule (Figure S1). Two ionic pairs form a dimeric unit in\nthe structure through NH+\nimidazol···COO−bonds (Figure 2a).\nIn this unit, the HMAL−anions connect two DTICH+ cations,\narranging them centrosymmetrically. Like the other multi-\ncomponent crystals reported here, the ionic pairs recognize\neach other, generating structural motifs for stacking in\nmolecular layers. The water molecules play an important\nstructure-forming role acting as bridges between the ionic pairs\nthrough a R2\n2(12) ring synthon formed by the amide group of\ncations, two water molecules, and the COO−groups of anions.\nHence, a 2D sheet motif runs along the [42̅4] direction.\nFinally, a layered structure (Figure 2a) is formed as a packing\nresult of these sheet motifs due to the presence of OwH···\nCOO−H-bonds.\nFigure 3. Experimental (exp) and calculated (calcd) diffractograms of DTIC and its new multicomponent crystals.\nMolecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\n3666\n",
+      "blocks": [
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "interactions between adjacent cations to form a 3D structure,\nas shown in Figure 1a.\n3.1.2. Dacarbazine-Fumaric Acid (DTIC-H2FUM) Cocrys-\ntal. Reacting DTIC and fumaric acid (H2FUM) yielded a 1:1\ncocrystal, belonging to the monoclinic group I2/m with Z′ = 1.\nThe ASU is characterized by a H2FUM and a neutral DTIC\nmolecule (Figure S1). The cocrystal formation is confirmed by\nanalyzing the bond length ratios of C−O of COOH in H2FUM\nand the electron density map (Figure S3). The average\ndifference of 0.145 Å indicates that the acid structure is not\nderived from deprotonation. DTIC and H2FUM recognize\neach other, forming a 1D motif analogous to that observed in\nthe oxalate salt. Along the [001] direction, a DTIC molecule\nconnects to H2FUM via a single N−H···O H-bond. Besides,\nthese units assembled to each other by R2\n2(8) synthon connects\nthe adjacent unit carboxylic and imidazole groups. Due to the\nnonionization of APIs, adjacent chains are connected into a 2D\nsheet by a dimeric association of DTIC involving the imidazole\nand amide groups. Unlike the oxalate salt, 2D sheets align\ninfinitely in the ac plane through C−H···O H-bonds between\nneighboring DTIC and H2FUM molecules. These plane\nmotifs, in turn, stack centrosymmetrically to each other\nalong the [010] direction via C−H···O interactions, resulting\nin a layered structure (Figure 1).\n3.1.3. Dacarbazine-Succinic Acid (DTIC-H2SUC) Cocrystal.\nSuccinic acid (H2SUC) also forms cocrystals with DTIC\n(Figure S1). The DTIC-H2SUC cocrystal crystallized in the\nmonoclinic P21/c space group with Z′ = 1. Likewise, the\ndissimilarity of the carboxyl group’s C−O distances in H2SUC\ncorroborated by electron density map analysis (Figure S3)\nproves the nonionization of DTIC in the DTIC-H2SUC\nstructure. H2SUC and H2FUM differ only by the central",
+          "bbox": {
+            "x0": 51.47699737548828,
+            "y0": 403.39300537109375,
+            "x1": 291.48101806640625,
+            "y1": 756.1166381835938
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "portion saturation of the molecule such that H2SUC is\nassociated with DTIC forming a 2D sheet motif with analogues\nfound in the DTIC-H2FUM cocrystal (Figure 1c). However,\nDTIC-H2SUC and DTIC-H2FUM are not isomorphic\ncocrystals. In the DTIC-H2SUC cocrystal, the 2D sheet\nstructures stack to form a columnar arrangement along the\n[21̅4] direction. Unlike the fumarate cocrystal, along the [001]\ndirection, neighboring columns assemble almost orthogonally\nwith each other and are alternately arranged along this\ndirection, forming a 3D structure, as shown in Figure 1c.\n3.1.4. Dacarbazine Hydrogen-Maleate (DTIC-HMAL) Salt.\nMaleic acid is a cis-isomer of H2FUM and forms a hydrated salt\nwith DTIC. After acid deprotonation, the COO−of the anion\nexhibits two similar C−O distances, indicating the bond\nelectronic resonance due to the ionization. DTIC-HMAL is a\nhydrated salt that crystallizes in the triclinic P1̅ space group\nhaving Z′ = 1. The ASU comprises a dacarbazinum (DTICH+)\ncation, a hydrogen-maleate anion (HMAL−), and a water\nmolecule (Figure S1). Two ionic pairs form a dimeric unit in\nthe structure through NH+\nimidazol···COO−bonds (Figure 2a).\nIn this unit, the HMAL−anions connect two DTICH+ cations,\narranging them centrosymmetrically. Like the other multi-\ncomponent crystals reported here, the ionic pairs recognize\neach other, generating structural motifs for stacking in\nmolecular layers. The water molecules play an important\nstructure-forming role acting as bridges between the ionic pairs\nthrough a R2\n2(12) ring synthon formed by the amide group of\ncations, two water molecules, and the COO−groups of anions.\nHence, a 2D sheet motif runs along the [42̅4] direction.\nFinally, a layered structure (Figure 2a) is formed as a packing\nresult of these sheet motifs due to the presence of OwH···\nCOO−H-bonds.",
+          "bbox": {
+            "x0": 315.43798828125,
+            "y0": 403.39300537109375,
+            "x1": 555.4829711914062,
+            "y1": 755.195068359375
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Figure 3. Experimental (exp) and calculated (calcd) diffractograms of DTIC and its new multicomponent crystals.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 382.58502197265625,
+            "x1": 454.385498046875,
+            "y1": 391.58502197265625
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Molecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.4707641601562,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 765.8436279296875,
+            "x1": 555.4390258789062,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 6,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673\n3666",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 764.7186889648438,
+            "x1": 555.4654541015625,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0006.png"
+    },
+    {
+      "number": 7,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "3.1.5. Dacarbazine Hydrogen-Citrate (DTIC-HCIT) Salt-\nCocrystal. As citric acid is triprotic, its reaction in equimolar\namounts with DTIC resulted in a hydrated salt-cocrystal.\nDTIC-HCIT crystallized in the monoclinic P21 space group\nwith Z′ = 2. The ASU contains a DTICH+ cation, a hydrogen-\ncitrate anion (H2CIT−), a neutral DTIC, and four independent\nwater molecules (Figure S1). In the salt-cocrystal structure, the\nDTICH+ and H2CIT−ions do not display their ionizable\ngroups directly H-bonded to each other. Still, they are\nstabilized by an R3\n2(10) synthon between both amide group\nand COO−groups and a water molecule (Figure 2b). This\nsystem binds to neutral DTIC through a (H2O)2 cluster and\nN−H···O H-bond between the charged and neutral API\nmolecules to form a structural cocrystal unit. These units are\nthen stacked along the [001] direction in a columnar\narrangement due to the incorporation of water molecules.\nAlong the [010] direction, adjacent columns assembled each\nother due to COOH···H2O H-bonds orienting the columns in\na zigzag fashion. Such columns are alternated with hydrophilic\nlayers consisting of anions and water molecules (Figure 2b).\n3.2. Powder X-ray Diffraction. Powder X-ray diffraction\nis a powerful solid-state characterization tool to check new\nmulticomponent crystal formation. When we observe that the\n2θ peak positions in the experimental diffractograms differ\ncompared to those for starting materials, we conclude that a\nnew and unambiguous crystalline phase has emerged. Addi-\ntionally, PXRD analysis proves that the single crystal selected\nfor the SCXRD data collection is representative of the whole\nsynthesized sample. As depicted in Figure 3, all experimental\nPXRD patterns of DTIC crystal forms are distinct concerning\npure DTIC. Also, it is noted that the experimental diffracto-\ngrams exhibit an excellent agreement with the theoretical ones,\ncalculated from the final CIF files generated in SCXRD\nanalyses. Hence, we confirm that all single crystals synthesized\ncorrespond to pure and unique crystalline phases and are\nrepresentative of the entire sample.\nFigure 4. DSC curves (red solid line) and TG thermograms (black dashed line) for the DTIC solid forms.\nMolecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\n3667\n",
+      "blocks": [
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "3.1.5. Dacarbazine Hydrogen-Citrate (DTIC-HCIT) Salt-\nCocrystal. As citric acid is triprotic, its reaction in equimolar\namounts with DTIC resulted in a hydrated salt-cocrystal.\nDTIC-HCIT crystallized in the monoclinic P21 space group\nwith Z′ = 2. The ASU contains a DTICH+ cation, a hydrogen-\ncitrate anion (H2CIT−), a neutral DTIC, and four independent\nwater molecules (Figure S1). In the salt-cocrystal structure, the\nDTICH+ and H2CIT−ions do not display their ionizable\ngroups directly H-bonded to each other. Still, they are\nstabilized by an R3\n2(10) synthon between both amide group\nand COO−groups and a water molecule (Figure 2b). This\nsystem binds to neutral DTIC through a (H2O)2 cluster and\nN−H···O H-bond between the charged and neutral API\nmolecules to form a structural cocrystal unit. These units are\nthen stacked along the [001] direction in a columnar\narrangement due to the incorporation of water molecules.\nAlong the [010] direction, adjacent columns assembled each\nother due to COOH···H2O H-bonds orienting the columns in",
+          "bbox": {
+            "x0": 51.478004455566406,
+            "y0": 541.4010009765625,
+            "x1": 291.4830017089844,
+            "y1": 756.1166381835938
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "a zigzag fashion. Such columns are alternated with hydrophilic\nlayers consisting of anions and water molecules (Figure 2b).\n3.2. Powder X-ray Diffraction. Powder X-ray diffraction\nis a powerful solid-state characterization tool to check new\nmulticomponent crystal formation. When we observe that the\n2θ peak positions in the experimental diffractograms differ\ncompared to those for starting materials, we conclude that a\nnew and unambiguous crystalline phase has emerged. Addi-\ntionally, PXRD analysis proves that the single crystal selected\nfor the SCXRD data collection is representative of the whole\nsynthesized sample. As depicted in Figure 3, all experimental\nPXRD patterns of DTIC crystal forms are distinct concerning\npure DTIC. Also, it is noted that the experimental diffracto-\ngrams exhibit an excellent agreement with the theoretical ones,\ncalculated from the final CIF files generated in SCXRD\nanalyses. Hence, we confirm that all single crystals synthesized\ncorrespond to pure and unique crystalline phases and are\nrepresentative of the entire sample.",
+          "bbox": {
+            "x0": 315.43792724609375,
+            "y0": 542.123046875,
+            "x1": 555.4739990234375,
+            "y1": 755.195068359375
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Figure 4. DSC curves (red solid line) and TG thermograms (black dashed line) for the DTIC solid forms.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 521.31201171875,
+            "x1": 428.8147277832031,
+            "y1": 530.31201171875
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Molecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.4707641601562,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 765.8436279296875,
+            "x1": 555.4390258789062,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 7,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673\n3667",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 764.7186889648438,
+            "x1": 555.4654541015625,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0007.png"
+    },
+    {
+      "number": 8,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "3.3. Infrared Spectroscopy. Infrared spectroscopy was\ndecisive in confirming the proton transfer and, accordingly, the\nreal position of the hydrogen atoms in the structures. By\nproviding structural information on the molecular vibrational\nmodes, this technique was complementarily used to character-\nize the new DTIC crystal forms. FT-IR spectra of unmodified\nDTIC and their multicomponent crystals are shown in Figure\nS5. For band assignments (Table S6) and spectra interpreta-\ntion, we rely on the crystallographic description (Section 3.1)\nand reference spectroscopic data available for DTIC-related\ncompounds.35,40,41 DTIC exhibits typical infrared stretching\nfrequencies at 3380 and 3170 cm−1 (amide N−H stretches),\n1655 cm−1 (amide C\u0001O stretch), and 1608 cm−1 (C\u0001C\nstretch). Salt/cocrystal formations have been proved by\nverification of these characteristic API vibrational modes,\nmainly due to the emergence of new absorption bands at\naround 1700 cm−1 in the DTIC multicomponent crystal FT-IR\nspectra. These bands have been attributed to the acid C\u0001O\nstretching modes of partially deprotonated (oxalate, maleate,\nand citrate anions) and fully protonated (fumaric and succinic\nacids) coformers molecules. We also noticed the presence of\nnew weak bands ranging from 1563 to 1405 cm−1, attributed to\nthe carboxylate antisymmetric and symmetric stretching modes\nof the DTIC salt forms. All these considerations follow the\npreviously presented crystallographic evaluations.\n3.4. Proton Nuclear Magnetic Resonance. The\n1H\nNMR experiments certified the stoichiometry of the DTIC:co-\nformer through integral values and further ascertained the\nsample purity in solution. Assignments of proton chemical\nshifts and spectra interpretation were performed using DTIC\n1H NMR spectra reported in the literature.35,41,42 Hence, the\n1H NMR spectra of DTIC salt/cocrystal forms (see Figures\nS7−S11) displayed the predicted DTIC signals and also the\ntypical signals, e.g., \u0001CH (olefinic) and −CH2 (methylene),\nof the carboxylic acid molecules that are absent in the DTIC\n1H NMR spectrum (Figure S6). The absence of unassigned\nproton signals in the 1H NMR spectra reinforces the purity of\nthe synthesized crystals. Finally, the integral values found in the\nsalt and cocrystal spectra corroborate that all crystal structures\ncomprise DTIC and the corresponding coformer molecule in\nthe composition established in crystallographic analyses.\n3.5. Thermal Characterization. The thermal behavior\nand phase purity of the DTIC crystal forms were assessed by\nDSC and TG, as illustrated in Figure 4. DSC and TG\nthermograms of pure DTIC were included for comparison.\nAccording to the TG curve, DTIC is thermally stable up to 208\n°C (Tonset = 206.5 °C), and its DSC curve shows a single\nexothermic degradation peak at 215.5 °C (Tonset = 210.8 °C).\nLikewise, the DTIC-HOXA DSC curve is also featured by a\nsingle degradation exothermic peak centered at 175.0 °C\n(Tonset = 170.2 °C). This unique thermal event agrees with the\nmass loss that occurs in the TG curve, beginning at around 166\n°C (Tonset = 161.7 °C). Following this trend, DSC curves of\nboth DTIC-H2FUM and DTIC-H2SUC cocrystals are\ncharacterized by a unique exothermic peak at 178.1 °C (Tonset\n= 172.1 °C) and 169.7 °C (Tonset = 165.2 °C), respectively,\nwhich were attributed to the sample decomposition. These\nvalues agree with the gradual mass loss that occurs in the TG\ncurves, which begins at around 163 °C (Tonset = 159.4 °C) for\nDTIC-H2FUM and at 156 °C (Tonset = 152.6 °C) for DTIC-\nH2SUC.\nFor DTIC-HMAL and DTIC-HCIT hydrated salts, both\nDSC curves displayed early endothermic peaks below 120 °C,\ncorresponding to sample dehydration, i.e., loss of water\nmolecules from the crystalline lattice. These events were\nfollowed by initial mass losses on TG curves of about 4.1 and\n12.0% in the same temperature interval, consistent with the\nnumber of structural water molecules expected for each salt\n(see Section 3.1). In sequence, the resulting DSC/TG profiles\nof the dehydrated salt phases become even more similar.\nExothermic degradation peaks centered at around 159 °C on\nDSC curves, accompanied by gradual mass losses on TG\nthermograms in this referred temperature, summarize the\nDTIC-HMAL and DTIC-HCIT thermal profiles. The differ-\nence between these salts refers to the discrete endothermic\nmelting peak at 151.4 °C, existing only in the citrate salt DSC\ncurve.\nIn terms of purity, we did not find any degradation traces in\nthe synthesis or crystallization process. All of the crystals\nobtained were colorless and did not show any light pink spots,\nwhich could indicate the presence of 2-azahypoxanthine. The\ndrug purity check by LC (Table 3) and a careful inspection of\neach chromatogram reinforce that there is no degradation\nduring the preparation of the solid forms. Furthermore, from\nthe DSC curve and PXRD pattern of pure 2-azahypoxanthine\n(Figure S12), it was concluded that the formation of this\nphotodegradation product did not occur during the prepara-\ntion of the multicomponent solids. From a pharmaceutical\nperspective, although the new solids have lower melting points\nthan DTIC, they still undergo fusion or degradation at\ntemperatures higher than those typically used in pharmaceut-\nical processing. Even in hydrated forms, the dehydrated\nstructures remain stable until they melt or degrade at around\n150 °C. High temperatures of above 70 °C are not commonly\nused in the storage and preparation of DTIC drug products.\nThus, the thermal profile of the new solid forms is adequate\nand safe with further processing without any negative impact.\n3.6. Solubility and Intrinsic Dissolution Profiles.\nSolubility and dissolution rate are the most important\nbiopharmaceutical attributes of APIs, since they directly\nimpact the pharmacological response.43 Enabling the fine-\ntuning of these properties, particularly for APIs with low and\npH-dependent solubility, a crystal engineering strategy has\nbeen extensively employed. For neutral DTIC, which exhibits\nhigh photodegradation in solution, i.e., cannot remain in\nsolution for a long time, the crystal form synthesis of high\nsolubility is a central requirement for a more efficient\npharmaceutical manufacturing process and drug administra-\ntion. Freeze-dried dacarbazine powder for injection, adminis-\ntered to oncology patients, is prepared by dissolving the API in\na solution containing citric acid as an acidifying agent in a step\nimmediately before lyophilization.44 At low pH, the faster\nsolubilization of DTIC is followed by its photodegradation.45\nTo alleviate this issue, the API needs to be solubilized at a pH\nabove 4.5, which is unfeasible given the pH-dependent\nsolubility of parent DTIC.18 The novel salt-cocrystal forms\ndescribed herein overcome, in part, this API deficiency.\nThe equilibrium solubility plot of unmodified DTIC and its\nnew crystal forms in media covering the physiological\nconditions (HCl solution, pH 1.2; acetate buffer, pH 4.5;\nand phosphate buffer, pH 6.8) is shown in Figure 5. Overall,\nconsiderable enhancements in drug solubility have been\nreached in all dissolution media evaluated. First, as a typical\nweak base, DTIC solubility is indeed pH-dependent and agrees\nMolecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\n3668\n",
+      "blocks": [
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "3.3. Infrared Spectroscopy. Infrared spectroscopy was\ndecisive in confirming the proton transfer and, accordingly, the\nreal position of the hydrogen atoms in the structures. By\nproviding structural information on the molecular vibrational\nmodes, this technique was complementarily used to character-\nize the new DTIC crystal forms. FT-IR spectra of unmodified\nDTIC and their multicomponent crystals are shown in Figure\nS5. For band assignments (Table S6) and spectra interpreta-\ntion, we rely on the crystallographic description (Section 3.1)\nand reference spectroscopic data available for DTIC-related\ncompounds.35,40,41 DTIC exhibits typical infrared stretching\nfrequencies at 3380 and 3170 cm−1 (amide N−H stretches),\n1655 cm−1 (amide C\u0001O stretch), and 1608 cm−1 (C\u0001C\nstretch). Salt/cocrystal formations have been proved by\nverification of these characteristic API vibrational modes,\nmainly due to the emergence of new absorption bands at\naround 1700 cm−1 in the DTIC multicomponent crystal FT-IR\nspectra. These bands have been attributed to the acid C\u0001O\nstretching modes of partially deprotonated (oxalate, maleate,\nand citrate anions) and fully protonated (fumaric and succinic\nacids) coformers molecules. We also noticed the presence of\nnew weak bands ranging from 1563 to 1405 cm−1, attributed to\nthe carboxylate antisymmetric and symmetric stretching modes\nof the DTIC salt forms. All these considerations follow the\npreviously presented crystallographic evaluations.\n3.4. Proton Nuclear Magnetic Resonance. The\n1H\nNMR experiments certified the stoichiometry of the DTIC:co-\nformer through integral values and further ascertained the\nsample purity in solution. Assignments of proton chemical\nshifts and spectra interpretation were performed using DTIC\n1H NMR spectra reported in the literature.35,41,42 Hence, the\n1H NMR spectra of DTIC salt/cocrystal forms (see Figures\nS7−S11) displayed the predicted DTIC signals and also the\ntypical signals, e.g., \u0001CH (olefinic) and −CH2 (methylene),\nof the carboxylic acid molecules that are absent in the DTIC\n1H NMR spectrum (Figure S6). The absence of unassigned\nproton signals in the 1H NMR spectra reinforces the purity of\nthe synthesized crystals. Finally, the integral values found in the\nsalt and cocrystal spectra corroborate that all crystal structures\ncomprise DTIC and the corresponding coformer molecule in\nthe composition established in crystallographic analyses.\n3.5. Thermal Characterization. The thermal behavior\nand phase purity of the DTIC crystal forms were assessed by\nDSC and TG, as illustrated in Figure 4. DSC and TG\nthermograms of pure DTIC were included for comparison.\nAccording to the TG curve, DTIC is thermally stable up to 208\n°C (Tonset = 206.5 °C), and its DSC curve shows a single\nexothermic degradation peak at 215.5 °C (Tonset = 210.8 °C).\nLikewise, the DTIC-HOXA DSC curve is also featured by a\nsingle degradation exothermic peak centered at 175.0 °C\n(Tonset = 170.2 °C). This unique thermal event agrees with the\nmass loss that occurs in the TG curve, beginning at around 166\n°C (Tonset = 161.7 °C). Following this trend, DSC curves of\nboth DTIC-H2FUM and DTIC-H2SUC cocrystals are\ncharacterized by a unique exothermic peak at 178.1 °C (Tonset\n= 172.1 °C) and 169.7 °C (Tonset = 165.2 °C), respectively,\nwhich were attributed to the sample decomposition. These\nvalues agree with the gradual mass loss that occurs in the TG\ncurves, which begins at around 163 °C (Tonset = 159.4 °C) for\nDTIC-H2FUM and at 156 °C (Tonset = 152.6 °C) for DTIC-\nH2SUC.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 59.45501708984375,
+            "x1": 291.4840087890625,
+            "y1": 756.1166381835938
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "For DTIC-HMAL and DTIC-HCIT hydrated salts, both\nDSC curves displayed early endothermic peaks below 120 °C,\ncorresponding to sample dehydration, i.e., loss of water\nmolecules from the crystalline lattice. These events were\nfollowed by initial mass losses on TG curves of about 4.1 and\n12.0% in the same temperature interval, consistent with the\nnumber of structural water molecules expected for each salt\n(see Section 3.1). In sequence, the resulting DSC/TG profiles\nof the dehydrated salt phases become even more similar.\nExothermic degradation peaks centered at around 159 °C on\nDSC curves, accompanied by gradual mass losses on TG\nthermograms in this referred temperature, summarize the\nDTIC-HMAL and DTIC-HCIT thermal profiles. The differ-\nence between these salts refers to the discrete endothermic\nmelting peak at 151.4 °C, existing only in the citrate salt DSC\ncurve.\nIn terms of purity, we did not find any degradation traces in\nthe synthesis or crystallization process. All of the crystals\nobtained were colorless and did not show any light pink spots,\nwhich could indicate the presence of 2-azahypoxanthine. The\ndrug purity check by LC (Table 3) and a careful inspection of\neach chromatogram reinforce that there is no degradation\nduring the preparation of the solid forms. Furthermore, from\nthe DSC curve and PXRD pattern of pure 2-azahypoxanthine\n(Figure S12), it was concluded that the formation of this\nphotodegradation product did not occur during the prepara-\ntion of the multicomponent solids. From a pharmaceutical\nperspective, although the new solids have lower melting points\nthan DTIC, they still undergo fusion or degradation at\ntemperatures higher than those typically used in pharmaceut-\nical processing. Even in hydrated forms, the dehydrated\nstructures remain stable until they melt or degrade at around\n150 °C. High temperatures of above 70 °C are not commonly\nused in the storage and preparation of DTIC drug products.\nThus, the thermal profile of the new solid forms is adequate\nand safe with further processing without any negative impact.\n3.6. Solubility and Intrinsic Dissolution Profiles.\nSolubility and dissolution rate are the most important\nbiopharmaceutical attributes of APIs, since they directly\nimpact the pharmacological response.43 Enabling the fine-\ntuning of these properties, particularly for APIs with low and\npH-dependent solubility, a crystal engineering strategy has\nbeen extensively employed. For neutral DTIC, which exhibits\nhigh photodegradation in solution, i.e., cannot remain in\nsolution for a long time, the crystal form synthesis of high\nsolubility is a central requirement for a more efficient\npharmaceutical manufacturing process and drug administra-\ntion. Freeze-dried dacarbazine powder for injection, adminis-\ntered to oncology patients, is prepared by dissolving the API in\na solution containing citric acid as an acidifying agent in a step\nimmediately before lyophilization.44 At low pH, the faster\nsolubilization of DTIC is followed by its photodegradation.45",
+          "bbox": {
+            "x0": 315.4372863769531,
+            "y0": 60.179107666015625,
+            "x1": 555.4860229492188,
+            "y1": 633.6449584960938
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "To alleviate this issue, the API needs to be solubilized at a pH\nabove 4.5, which is unfeasible given the pH-dependent\nsolubility of parent DTIC.18 The novel salt-cocrystal forms\ndescribed herein overcome, in part, this API deficiency.\nThe equilibrium solubility plot of unmodified DTIC and its\nnew crystal forms in media covering the physiological\nconditions (HCl solution, pH 1.2; acetate buffer, pH 4.5;\nand phosphate buffer, pH 6.8) is shown in Figure 5. Overall,\nconsiderable enhancements in drug solubility have been\nreached in all dissolution media evaluated. First, as a typical\nweak base, DTIC solubility is indeed pH-dependent and agrees",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 634.7009887695312,
+            "x1": 555.4819946289062,
+            "y1": 755.1939697265625
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Molecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.4707641601562,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 765.8436279296875,
+            "x1": 555.4390258789062,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 8,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673\n3668",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 764.7186889648438,
+            "x1": 555.4654541015625,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0008.png"
+    },
+    {
+      "number": 9,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "with data described in the literature with the highest value in\nan acidic medium (20.4 ± 0.2 mg mL−1). Similarly, the new\nsalt/cocrystal forms showed solubilities superior to 20 mg\nmL−1 in HCl solution at pH 1.2 (see Table 2). In contrast and\ncorroborating our expectations, DTIC-HOXA showed a\nremarkable solubility improvement above pH 4.5, approx-\nimately 20 and 10 times more soluble than pure DTIC in\nphosphate and acetate buffers, respectively. Also, the other\nDTIC crystal forms proved to be more soluble over pure APIs\nat both buffered media, following the solubility order: DTIC-\nHOXA > DTIC-HMAL > DTIC-H2FUM > DTIC-H2SUC >\nDTIC-HCIT > DTIC.\nRegarding the intrinsic dissolution rates (IDRs) measured at\nphosphate buffer, a medium of less contribution to drug\nphotodegradation, DTIC-HOXA is the fastest dissolving form,\ndisplaying a notable IDR of 5.58 ± 0.08 mg cm−2 min−1. This\n22-fold increase compared to the slow IDR of DTIC (0.26 ±\n0.02 mg cm−2 min−1) denotes that oxalate salt tends to be\nreadily solubilized at pH close to 6.8. DTIC-HMAL and\nDTIC-H2FUM further promoted an enhancement of approx-\nimately 7.3 and 5.1-fold in the drug dissolution rate, indicating\nthat cocrystallization of DTIC with oxalate, maleic, and\nfumaric acids has improved the IDR of the API, as depicted\nin Figure 6. For DTIC-H2SUC and DTIC-HCIT, IDR values\nremained equivalent to those of DTIC. It is essential to\nmention that all DTIC crystal forms were found to be stable in\nboth solubility and dissolution experiments. The final pH\nvalues, measured after the solubility tests, did not display\nsignificant variations (Table S8). Moreover, PXRD data\nshowed that the crystal structure of the solid residues and\nthe undissolved disks from the solubility and dissolution\nstudies remained the same as the initial ones (see Figure S13),\nexcluding any evidence of phase transitions.\n3.7. Stability Outcomes. Besides the encouraging\nsolubility and dissolution findings, the stability examinations\nof the DTIC crystal forms were quite interesting. Solid-state\nstability data of freshly synthesized crystals compared to solid\nsamples exposed to accelerated degradation conditions are\nsummarized in Table 3. All initial samples have a maximum\npurity (DTIC content of ∼100%), and the DTIC samples\ncocrystallized with carboxylic acids retain almost entirely their\nnative form after 15 days of exposure to UV radiation. The\nquantity of photoproduct 2-AZA formed was systematically\nlow (not exceeding 2.2%). For pure DTIC, the reduction of\n5.6% in the drug content during the photostability test suggests\nthat it is more rational and safer to formulate the API in the\nform of the new salts or cocrystals of DTIC described in this\nwork. Similar stability outcomes have been found after DTIC\nsolid samples are kept for 90 days at 40 °C and 75% RH,\nindicating that high temperature and relative humidity have a\nlow degradative potential for the samples.\nDespite the discrete solid-state photostability enhancement\nof DTIC occasioned by cocrystallization, this contribution has\nsubstantial value in the pharmaceutical field. Different from\naqueous solubility, which is widely improved by the crystal\nengineering approach, the generation of photostable APIs is\nconsiderably more complex. As already mentioned, the\nchemical-structural attributes recognized to mitigate the\nphotoinstability of APIs are scarce. According to the\nliterature,34 for photolabile drugs, especially photolytic ones,\nthree main strategies are recommended to avoid rapid solid-\nstate photodegradation. First, hindering π−π stacking inter-\nactions with appropriate coformers usually makes the drug\nFigure 5. Equilibrium solubility plot of DTIC and its salt and\ncocrystal forms in different dissolution media.\nTable 2. Equilibrium Solubility Values and Intrinsic Dissolution Rates (IDRs) of the DTIC Solid Formsa\ncrystal form\nsolubility(mg mL−1)\nIDR (mg cm−2 min−1) pH 6.8\npH 6.8\npH 4.5\npH 1.2\nDTIC\n1.9 ± 0.1\n3.4 ± 0.2\n20.4 ± 0.2\n0.26 ± 0.02\nDTIC-HOXA\n36.6 ± 0.9\n32.9 ± 0.3\n28.0 ± 0.5\n5.58 ± 0.08\nDTIC-HMAL\n19.0 ± 0.5\n25.5 ± 0.7\n43.4 ± 0.3\n1.90 ± 0.06\nDTIC-H2FUM\n16.9 ± 0.6\n17.5 ± 0.6\n21.4 ± 0.7\n1.31 ± 0.05\nDTIC-H2SUC\n6.9 ± 0.3\n10.2 ± 0.7\n28.8 ± 0.2\n0.43 ± 0.03\nDTIC-HCIT\n5.5 ± 0.4\n8.1 ± 0.2\n24.8 ± 0.4\n0.35 ± 0.01\naIDR: intrinsic dissolution rate.\nFigure 6. Intrinsic dissolution profile of DTIC and its salt/cocrystal\nforms in phosphate buffer, pH 6.8.\nMolecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\n3669\n",
+      "blocks": [
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "with data described in the literature with the highest value in\nan acidic medium (20.4 ± 0.2 mg mL−1). Similarly, the new\nsalt/cocrystal forms showed solubilities superior to 20 mg\nmL−1 in HCl solution at pH 1.2 (see Table 2). In contrast and\ncorroborating our expectations, DTIC-HOXA showed a\nremarkable solubility improvement above pH 4.5, approx-\nimately 20 and 10 times more soluble than pure DTIC in\nphosphate and acetate buffers, respectively. Also, the other\nDTIC crystal forms proved to be more soluble over pure APIs\nat both buffered media, following the solubility order: DTIC-\nHOXA > DTIC-HMAL > DTIC-H2FUM > DTIC-H2SUC >\nDTIC-HCIT > DTIC.\nRegarding the intrinsic dissolution rates (IDRs) measured at\nphosphate buffer, a medium of less contribution to drug\nphotodegradation, DTIC-HOXA is the fastest dissolving form,\ndisplaying a notable IDR of 5.58 ± 0.08 mg cm−2 min−1. This\n22-fold increase compared to the slow IDR of DTIC (0.26 ±\n0.02 mg cm−2 min−1) denotes that oxalate salt tends to be\nreadily solubilized at pH close to 6.8. DTIC-HMAL and\nDTIC-H2FUM further promoted an enhancement of approx-\nimately 7.3 and 5.1-fold in the drug dissolution rate, indicating\nthat cocrystallization of DTIC with oxalate, maleic, and\nfumaric acids has improved the IDR of the API, as depicted\nin Figure 6. For DTIC-H2SUC and DTIC-HCIT, IDR values\nremained equivalent to those of DTIC. It is essential to\nmention that all DTIC crystal forms were found to be stable in\nboth solubility and dissolution experiments. The final pH\nvalues, measured after the solubility tests, did not display\nsignificant variations (Table S8). Moreover, PXRD data\nshowed that the crystal structure of the solid residues and\nthe undissolved disks from the solubility and dissolution\nstudies remained the same as the initial ones (see Figure S13),\nexcluding any evidence of phase transitions.",
+          "bbox": {
+            "x0": 51.477081298828125,
+            "y0": 252.19302368164062,
+            "x1": 291.4850158691406,
+            "y1": 614.197998046875
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "3.7. Stability Outcomes. Besides the encouraging\nsolubility and dissolution findings, the stability examinations\nof the DTIC crystal forms were quite interesting. Solid-state\nstability data of freshly synthesized crystals compared to solid\nsamples exposed to accelerated degradation conditions are\nsummarized in Table 3. All initial samples have a maximum\npurity (DTIC content of ∼100%), and the DTIC samples\ncocrystallized with carboxylic acids retain almost entirely their\nnative form after 15 days of exposure to UV radiation. The\nquantity of photoproduct 2-AZA formed was systematically\nlow (not exceeding 2.2%). For pure DTIC, the reduction of\n5.6% in the drug content during the photostability test suggests\nthat it is more rational and safer to formulate the API in the\nform of the new salts or cocrystals of DTIC described in this\nwork. Similar stability outcomes have been found after DTIC\nsolid samples are kept for 90 days at 40 °C and 75% RH,\nindicating that high temperature and relative humidity have a\nlow degradative potential for the samples.\nDespite the discrete solid-state photostability enhancement\nof DTIC occasioned by cocrystallization, this contribution has\nsubstantial value in the pharmaceutical field. Different from\naqueous solubility, which is widely improved by the crystal\nengineering approach, the generation of photostable APIs is\nconsiderably more complex. As already mentioned, the\nchemical-structural attributes recognized to mitigate the\nphotoinstability of APIs are scarce. According to the\nliterature,34 for photolabile drugs, especially photolytic ones,\nthree main strategies are recommended to avoid rapid solid-\nstate photodegradation. First, hindering π−π stacking inter-\nactions with appropriate coformers usually makes the drug",
+          "bbox": {
+            "x0": 315.43792724609375,
+            "y0": 284.4700012207031,
+            "x1": 555.4789428710938,
+            "y1": 614.198974609375
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Figure 5. Equilibrium solubility plot of DTIC and its salt and\ncocrystal forms in different dissolution media.",
+          "bbox": {
+            "x0": 51.477081298828125,
+            "y0": 217.21202087402344,
+            "x1": 291.4422912597656,
+            "y1": 236.24612426757812
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Table 2. Equilibrium Solubility Values and Intrinsic Dissolution Rates (IDRs) of the DTIC Solid Formsa",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 624.99853515625,
+            "x1": 481.4440002441406,
+            "y1": 637.1599731445312
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "crystal form",
+          "bbox": {
+            "x0": 80.73069763183594,
+            "y0": 658.39404296875,
+            "x1": 117.54463958740234,
+            "y1": 666.3939819335938
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "solubility(mg mL−1)",
+          "bbox": {
+            "x0": 251.2621612548828,
+            "y0": 643.7542114257812,
+            "x1": 314.3709716796875,
+            "y1": 653.4685668945312
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "IDR (mg cm−2 min−1) pH 6.8\npH 6.8\npH 4.5\npH 1.2",
+          "bbox": {
+            "x0": 182.72265625,
+            "y0": 655.2750244140625,
+            "x1": 535.7542114257812,
+            "y1": 666.3939819335938
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "DTIC\n1.9 ± 0.1\n3.4 ± 0.2\n20.4 ± 0.2\n0.26 ± 0.02\nDTIC-HOXA\n36.6 ± 0.9\n32.9 ± 0.3\n28.0 ± 0.5\n5.58 ± 0.08\nDTIC-HMAL\n19.0 ± 0.5\n25.5 ± 0.7\n43.4 ± 0.3\n1.90 ± 0.06\nDTIC-H2FUM\n16.9 ± 0.6\n17.5 ± 0.6\n21.4 ± 0.7\n1.31 ± 0.05\nDTIC-H2SUC\n6.9 ± 0.3\n10.2 ± 0.7\n28.8 ± 0.2\n0.43 ± 0.03\nDTIC-HCIT\n5.5 ± 0.4\n8.1 ± 0.2\n24.8 ± 0.4\n0.35 ± 0.01",
+          "bbox": {
+            "x0": 75.96876525878906,
+            "y0": 670.7434692382812,
+            "x1": 506.5682067871094,
+            "y1": 734.0279541015625
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "aIDR: intrinsic dissolution rate.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 743.8824462890625,
+            "x1": 161.72299194335938,
+            "y1": 754.8731079101562
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Figure 6. Intrinsic dissolution profile of DTIC and its salt/cocrystal\nforms in phosphate buffer, pH 6.8.",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 252.98497009277344,
+            "x1": 555.4708251953125,
+            "y1": 272.0190734863281
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Molecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.4707641601562,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 765.8436279296875,
+            "x1": 555.4390258789062,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 9,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673\n3669",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 764.7186889648438,
+            "x1": 555.4654541015625,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0009.png"
+    },
+    {
+      "number": 10,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "more photostable. Second, diversifying the occurrence of\nheterosynthons on sensitive electronic moieties, i.e., preferably\nsubject to photolysis, also retards the API photodegradation.\nFinally, adopting lattice-spacer coformers that maintain\nphotoreactive species far apart also tends to lower photo-\ndegradation.46 For all reported DTIC salt and cocrystal forms,\nthe first two strategies are hardly applicable. The π−π stacking\ninteractions are absent in the novel structures, and the sensitive\nmoiety of DTIC, initially subject to photolysis, is not H-\nbonding interacting with coformers. Thus, the use of spacer\ncoformers seems to be the only feasible strategy to mitigate the\nphotoinstability of DTIC. All of these observations are in line\nwith the discrete drug solid-state photostability enhancement\nthat the salts and cocrystals of DTIC promoted.\nOn the other hand, it was verified that photodegradation\nfrom DTIC solutions exposed to UV radiation is quite\npronounced, following the literature evidence.18 Before\nconducting photodegradation kinetic studies, we first certified\nthe optimal pH of the solutions and DTIC concentration.\nComplete and rapid photodegradation of DTIC was observed\nfor low-pH and diluted solutions. Hence, the study had to be\nconducted at a pH of 6.8 and 5 mM concentration. As\nillustrated in Figure 7, LC-UV analysis showed only one\nphotoproduct peak in the chromatogram. This peak was\nconfirmed to be 2-AZA since its retention time, at the\ndegraded solution chromatogram, matched with that observed\nfor 2-AZA at the reference standard solution chromatogram\n(Figure S14). Furthermore, from LC-MS/MS experiments, the\nTable 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples\ncrystal form\nstability (% DTIC and 2-AZA found)\nfreshly prepared (initial)\nafter 15 days in photostability chamber\nafter 90 days at 40 °C and 75% RH\n% DTIC\n% 2-AZAa\n% DTIC\n% 2-AZA\n% DTIC\n% 2-AZAa\nDTIC\n100.0 ± 0.2\n-\n94.4 ± 0.5\n0.8 ± 0.2\n99.8 ± 0.3\n-\nDTIC-HOXA\n100.1 ± 0.1\n-\n97.1 ± 0.3\n2.2 ± 0.4\n99.9 ± 0.2\n-\nDTIC-HMAL\n99.6 ± 0.4\n-\n98.4 ± 0.2\n1.7 ± 0.2\n98.2 ± 0.4\n-\nDTIC-H2FUM\n99.5 ± 0.3\n-\n97.3 ± 0.2\n1.1 ± 0.1\n99.2 ± 0.2\n-\nDTIC-H2SUC\n99.7 ± 0.2\n-\n98.7 ± 0.3\n0.8 ± 0.1\n99.3 ± 0.3\n-\nDTIC-HCIT\n99.8 ± 0.4\n-\n97.0 ± 0.4\n1.8 ± 0.2\n96.0 ± 0.5\n±0.7\naDashes mean not detected.\nFigure 7. (a) Conversion of DTIC (1) to 2-AZA (2) under light. (b) Chromatogram highlighting the DTIC and 2-AZA separation. Kinetics of (c)\nDTIC photodegradation and (d) 2-AZA photogeneration from API solutions prepared with each DTIC crystal form.\nMolecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\n3670\n",
+      "blocks": [
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "more photostable. Second, diversifying the occurrence of\nheterosynthons on sensitive electronic moieties, i.e., preferably\nsubject to photolysis, also retards the API photodegradation.\nFinally, adopting lattice-spacer coformers that maintain\nphotoreactive species far apart also tends to lower photo-\ndegradation.46 For all reported DTIC salt and cocrystal forms,\nthe first two strategies are hardly applicable. The π−π stacking\ninteractions are absent in the novel structures, and the sensitive\nmoiety of DTIC, initially subject to photolysis, is not H-\nbonding interacting with coformers. Thus, the use of spacer\ncoformers seems to be the only feasible strategy to mitigate the\nphotoinstability of DTIC. All of these observations are in line\nwith the discrete drug solid-state photostability enhancement\nthat the salts and cocrystals of DTIC promoted.",
+          "bbox": {
+            "x0": 51.4770622253418,
+            "y0": 591.783935546875,
+            "x1": 291.47900390625,
+            "y1": 755.1939697265625
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "On the other hand, it was verified that photodegradation\nfrom DTIC solutions exposed to UV radiation is quite\npronounced, following the literature evidence.18 Before\nconducting photodegradation kinetic studies, we first certified\nthe optimal pH of the solutions and DTIC concentration.\nComplete and rapid photodegradation of DTIC was observed\nfor low-pH and diluted solutions. Hence, the study had to be\nconducted at a pH of 6.8 and 5 mM concentration. As\nillustrated in Figure 7, LC-UV analysis showed only one\nphotoproduct peak in the chromatogram. This peak was\nconfirmed to be 2-AZA since its retention time, at the\ndegraded solution chromatogram, matched with that observed\nfor 2-AZA at the reference standard solution chromatogram\n(Figure S14). Furthermore, from LC-MS/MS experiments, the",
+          "bbox": {
+            "x0": 315.43804931640625,
+            "y0": 591.7849731445312,
+            "x1": 555.4849853515625,
+            "y1": 755.1929931640625
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Table 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 60.685028076171875,
+            "x1": 509.0940856933594,
+            "y1": 70.68502807617188
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "crystal form",
+          "bbox": {
+            "x0": 73.13379669189453,
+            "y0": 104.84407043457031,
+            "x1": 109.94773864746094,
+            "y1": 112.8439712524414
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "stability (% DTIC and 2-AZA found)",
+          "bbox": {
+            "x0": 287.885498046875,
+            "y0": 78.93559265136719,
+            "x1": 405.5200500488281,
+            "y1": 86.93549346923828
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "freshly prepared (initial)\nafter 15 days in photostability chamber\nafter 90 days at 40 °C and 75% RH",
+          "bbox": {
+            "x0": 167.12942504882812,
+            "y0": 91.34264373779297,
+            "x1": 546.6822509765625,
+            "y1": 99.91853332519531
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "% DTIC\n% 2-AZAa\n% DTIC\n% 2-AZA\n% DTIC\n% 2-AZAa",
+          "bbox": {
+            "x0": 159.1358642578125,
+            "y0": 103.08055114746094,
+            "x1": 543.3159790039062,
+            "y1": 112.8439712524414
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "DTIC\n100.0 ± 0.2\n-\n94.4 ± 0.5\n0.8 ± 0.2\n99.8 ± 0.3\n-\nDTIC-HOXA\n100.1 ± 0.1\n-\n97.1 ± 0.3\n2.2 ± 0.4\n99.9 ± 0.2\n-\nDTIC-HMAL\n99.6 ± 0.4\n-\n98.4 ± 0.2\n1.7 ± 0.2\n98.2 ± 0.4\n-\nDTIC-H2FUM\n99.5 ± 0.3\n-\n97.3 ± 0.2\n1.1 ± 0.1\n99.2 ± 0.2\n-\nDTIC-H2SUC\n99.7 ± 0.2\n-\n98.7 ± 0.3\n0.8 ± 0.1\n99.3 ± 0.3\n-\nDTIC-HCIT\n99.8 ± 0.4\n-\n97.0 ± 0.4\n1.8 ± 0.2\n96.0 ± 0.5\n±0.7\naDashes mean not detected.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 117.19410705566406,
+            "x1": 534.4295043945312,
+            "y1": 193.7830047607422
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Figure 7. (a) Conversion of DTIC (1) to 2-AZA (2) under light. (b) Chromatogram highlighting the DTIC and 2-AZA separation. Kinetics of (c)\nDTIC photodegradation and (d) 2-AZA photogeneration from API solutions prepared with each DTIC crystal form.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 560.9409790039062,
+            "x1": 555.4699096679688,
+            "y1": 579.97509765625
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Molecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.4707641601562,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 765.8436279296875,
+            "x1": 555.4390258789062,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 10,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673\n3670",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 764.7186889648438,
+            "x1": 555.4654541015625,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0010.png"
+    },
+    {
+      "number": 11,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "mass spectra of DTIC and 2-AZA peaks were obtained. The\nfragments observed in the DTIC mass spectrum (m/z 166,\n138, and 123) coincided with those reported in the literature.35\nThe 2-AZA mass spectrum displayed only one fragment (m/z\n123), possibly the same as that observed in the DTIC mass\nspectrum (see Figure 8). Thus, this result strongly suggests 2-\nAZA as the only DTIC photoproduct under the experimental\nconditions employed, agreeing with the literature.18,47\nRegarding the kinetic study, DTIC is converted to 2-AZA\nwith a photodegradation rate constant of 0.756 mM h−1.\nRegardless of whether it is in its parent form or cocrystallized\nwith carboxylic acids, similar DTIC photodegradation and 2-\nAZA photogeneration rates have been found (Table 4). These\nobservations are more evident when we observe the plots in\nFigure 7c,d, which correlate these species concentrations as a\nfunction of time. The most plausible hypothesis concerning\nthis finding may be related to the absence of photoprotective\nproperties by the aliphatic carboxylic acids used as coformers\nin solution.\nIn a series of salts or cocrystals composed of dicarboxylic\nacids, the carbon chain length of the coformer alternately\naffects the melting points and solubilities of the solid forms in\nan odd−even manner.48 Generally, dicarboxylic acids with an\neven number of carbons increase melting points and decrease\nsolubilities compared with those with odd carbons. Structur-\nally, even-chained dicarboxylic acids in -trans orientation, such\nas fumaric and succinic acids, tend to generate more tight\ncrystal packing. On the other hand, odd-chained or cis-\nconfigurated carboxylic acids, such as maleic acid, exhibit\ntwisted molecular conformations and deviate from linearity\ncompared to their even-chained members, causing more strain\nwhen molecules are packed in the crystal. Recent studies have\nbeen addressing this topic.49,50 Although we have only\nreported DTIC forms with even acids, we have noted that\nthe structures with the -trans/symmetrical fumaric and succinic\nacids are thermally more stable (Table S7), less soluble, and\nhave slower dissolution (Table 2) than those with the -cis/\nasymmetrical maleic and citric acids, supporting the even−odd\nconcept. The DTIC photodegradation does not appear to be\naffected by these chemical-structural attributes.\nPragmatically, the new salts and cocrystals of DTIC offer\nadvantages over the original DTIC, making them suitable for\nthe development of a new drug product. Among the solid\nforms we synthesized, the DTIC oxalate salt stands out for its\nbiopharmaceutical profile. It is considerably more soluble and\nslightly more photostable in the solid state than DTIC. We\nanticipate that our future research using these new multi-\ncomponent solid forms, focused on enhanced formulations of\nDTIC, will support these initial findings. In terms of the scale-\nup of these potential new APIs, the mechanochemistry\napproach appeared promising, since the use of this technique\non a laboratory scale proved to be effective with adequate\nyield. Additionally, we may consider using seeding-based\ncrystallization experiments as a strategy for scaling up. To\nmitigate API photodegradation, it is recommended to employ\nthe shortest possible time for maintaining DTIC in water,\navoiding the acidic pH range and using a more soluble and\nfaster dissolving DTIC salt or cocrystal instead of pure DTIC,\nwhich is less soluble and dissolves more slowly. It is also\nimportant to keep all containers in which DTIC is dissolved\nprotected from light and, if possible, at a low temperature.\n4. CONCLUSIONS\nWithin our efforts to develop improved multicomponent\ncrystals of anticancer drugs, in this work, we reported five novel\nsalt/cocrystal forms of DTIC with pharmaceutically acceptable\ncarboxylic acids (oxalic, maleic, fumaric, succinic, and citric).\nFigure 8. Mass spectrum of (a) 2-AZA and (b) DTIC, showing the main product ions found in fragmentation. (c) Chromatogram of a freshly\nprepared DTIC sample (blue) compared to the chromatogram of a fully photodegraded DTIC sample (in red).\nTable 4. Photodegradation and Photogeneration Rate\nConstants of DTIC and 2-AZA for Each DTIC Crystal\nForma\nsolution\nkd (mM h−1)\nkg (mM h−1)\nDTIC (5 mM)\n0.767 ± 0.02\n0.361 ± 0.04\nDTIC-HOXA (5 mM)\n0.756 ± 0.03\n0.386 ± 0.03\nDTIC-HMAL (5 mM)\n0.773 ± 0.01\n0.371 ± 0.02\nDTIC-H2FUM (5 mM)\n0.755 ± 0.01\n0.363 ± 0.02\nDTIC-H2SUC (5 mM)\n0.747 ± 0.03\n0.378 ± 0.05\nDTIC-HCIT (5 mM)\n0.740 ± 0.02\n0.338 ± 0.03\nakd: photodegradation rate constant for DTIC; kg: photogeneration\nrate constant for 2-AZA.\nMolecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\n3671\n",
+      "blocks": [
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "mass spectra of DTIC and 2-AZA peaks were obtained. The\nfragments observed in the DTIC mass spectrum (m/z 166,\n138, and 123) coincided with those reported in the literature.35",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 299.1920166015625,
+            "x1": 291.4821472167969,
+            "y1": 331.1880187988281
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "The 2-AZA mass spectrum displayed only one fragment (m/z\n123), possibly the same as that observed in the DTIC mass\nspectrum (see Figure 8). Thus, this result strongly suggests 2-\nAZA as the only DTIC photoproduct under the experimental\nconditions employed, agreeing with the literature.18,47",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 332.18701171875,
+            "x1": 291.4801330566406,
+            "y1": 386.1800231933594
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Regarding the kinetic study, DTIC is converted to 2-AZA\nwith a photodegradation rate constant of 0.756 mM h−1.\nRegardless of whether it is in its parent form or cocrystallized\nwith carboxylic acids, similar DTIC photodegradation and 2-\nAZA photogeneration rates have been found (Table 4). These",
+          "bbox": {
+            "x0": 51.477596282958984,
+            "y0": 387.17901611328125,
+            "x1": 291.4819641113281,
+            "y1": 441.1730041503906
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "observations are more evident when we observe the plots in\nFigure 7c,d, which correlate these species concentrations as a\nfunction of time. The most plausible hypothesis concerning\nthis finding may be related to the absence of photoprotective\nproperties by the aliphatic carboxylic acids used as coformers\nin solution.\nIn a series of salts or cocrystals composed of dicarboxylic\nacids, the carbon chain length of the coformer alternately\naffects the melting points and solubilities of the solid forms in\nan odd−even manner.48 Generally, dicarboxylic acids with an\neven number of carbons increase melting points and decrease\nsolubilities compared with those with odd carbons. Structur-\nally, even-chained dicarboxylic acids in -trans orientation, such",
+          "bbox": {
+            "x0": 51.477996826171875,
+            "y0": 613.156005859375,
+            "x1": 291.48602294921875,
+            "y1": 755.1947631835938
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "as fumaric and succinic acids, tend to generate more tight\ncrystal packing. On the other hand, odd-chained or cis-\nconfigurated carboxylic acids, such as maleic acid, exhibit\ntwisted molecular conformations and deviate from linearity\ncompared to their even-chained members, causing more strain\nwhen molecules are packed in the crystal. Recent studies have\nbeen addressing this topic.49,50 Although we have only\nreported DTIC forms with even acids, we have noted that\nthe structures with the -trans/symmetrical fumaric and succinic\nacids are thermally more stable (Table S7), less soluble, and\nhave slower dissolution (Table 2) than those with the -cis/\nasymmetrical maleic and citric acids, supporting the even−odd\nconcept. The DTIC photodegradation does not appear to be\naffected by these chemical-structural attributes.\nPragmatically, the new salts and cocrystals of DTIC offer\nadvantages over the original DTIC, making them suitable for\nthe development of a new drug product. Among the solid\nforms we synthesized, the DTIC oxalate salt stands out for its\nbiopharmaceutical profile. It is considerably more soluble and\nslightly more photostable in the solid state than DTIC. We\nanticipate that our future research using these new multi-\ncomponent solid forms, focused on enhanced formulations of\nDTIC, will support these initial findings. In terms of the scale-\nup of these potential new APIs, the mechanochemistry\napproach appeared promising, since the use of this technique\non a laboratory scale proved to be effective with adequate\nyield. Additionally, we may consider using seeding-based\ncrystallization experiments as a strategy for scaling up. To\nmitigate API photodegradation, it is recommended to employ\nthe shortest possible time for maintaining DTIC in water,\navoiding the acidic pH range and using a more soluble and\nfaster dissolving DTIC salt or cocrystal instead of pure DTIC,\nwhich is less soluble and dissolves more slowly. It is also\nimportant to keep all containers in which DTIC is dissolved\nprotected from light and, if possible, at a low temperature.",
+          "bbox": {
+            "x0": 315.43798828125,
+            "y0": 299.1947937011719,
+            "x1": 555.4779663085938,
+            "y1": 683.1929931640625
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "4. CONCLUSIONS",
+          "bbox": {
+            "x0": 315.4389953613281,
+            "y0": 695.9677734375,
+            "x1": 395.9866027832031,
+            "y1": 706.4677734375
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Within our efforts to develop improved multicomponent\ncrystals of anticancer drugs, in this work, we reported five novel\nsalt/cocrystal forms of DTIC with pharmaceutically acceptable\ncarboxylic acids (oxalic, maleic, fumaric, succinic, and citric).",
+          "bbox": {
+            "x0": 315.43896484375,
+            "y0": 712.1997680664062,
+            "x1": 555.47900390625,
+            "y1": 755.1947631835938
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Figure 8. Mass spectrum of (a) 2-AZA and (b) DTIC, showing the main product ions found in fragmentation. (c) Chromatogram of a freshly\nprepared DTIC sample (blue) compared to the chromatogram of a fully photodegraded DTIC sample (in red).",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 268.3489990234375,
+            "x1": 555.4852294921875,
+            "y1": 287.3830871582031
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Table 4. Photodegradation and Photogeneration Rate\nConstants of DTIC and 2-AZA for Each DTIC Crystal\nForma",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 454.19000244140625,
+            "x1": 274.5420837402344,
+            "y1": 486.1860046386719
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "solution\nkd (mM h−1)\nkg (mM h−1)",
+          "bbox": {
+            "x0": 88.44090270996094,
+            "y0": 492.7242126464844,
+            "x1": 280.1849670410156,
+            "y1": 504.08197021484375
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "DTIC (5 mM)\n0.767 ± 0.02\n0.361 ± 0.04\nDTIC-HOXA (5 mM)\n0.756 ± 0.03\n0.386 ± 0.03\nDTIC-HMAL (5 mM)\n0.773 ± 0.01\n0.371 ± 0.02\nDTIC-H2FUM (5 mM)\n0.755 ± 0.01\n0.363 ± 0.02\nDTIC-H2SUC (5 mM)\n0.747 ± 0.03\n0.378 ± 0.05\nDTIC-HCIT (5 mM)\n0.740 ± 0.02\n0.338 ± 0.03\nakd: photodegradation rate constant for DTIC; kg: photogeneration\nrate constant for 2-AZA.",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 506.84429931640625,
+            "x1": 291.47662353515625,
+            "y1": 593.4114379882812
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Molecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.4707641601562,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 765.8436279296875,
+            "x1": 555.4390258789062,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 11,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673\n3671",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 764.7186889648438,
+            "x1": 555.4654541015625,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0011.png"
+    },
+    {
+      "number": 12,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "These crystal modifications were engineered to enhance DTIC\nsolubility and the dissolution rate, making the API less prone\nto photodegradation in pharmaceutical processes. Analysis of\nsalt/cocrystal structures by SCXRD revealed that 3D packings\nare layered structures stabilized mainly by H-bonds. The\nspectroscopic (FT-IR and\n1H NMR), PXRD, and thermal\n(DSC and TG) data were congruent with the crystallographic\nevaluation, confirming pure multicomponent crystal formation.\nAdditionally, in the solubility and dissolution tests, the values\nfound have demonstrated a meaningful increase in these\nproperties, especially for the DTIC-HOXA salt, which\ndisplayed a solubility and dissolution rate approximately 20\ntimes higher at pH 6.8 compared to pure DTIC. The DTIC\nphotodegradation and 2-AZA photogeneration in solution, in\nturn, have not changed regardless of DTIC being cocrystallized\nor being on its parent form. We have concluded that the\ncocrystallization of the antineoplastic agent dacarbazine with\naliphatic carboxylic acids offers one of the central require-\nments, i.e., prompt solubilization of the API, to optimize the\npharmaceutical product manufacturing process. This inves-\ntigation also extends the literature on new DTIC solid forms,\nproviding valuable insights into the design of future improved\nAPIs based on DTIC.\n■ASSOCIATED CONTENT\nData Availability Statement\nCCDC 2334988−2334992 contains the supplementary\ncrystallographic data for this paper. These data can be\nobtained free of charge via www.ccdc.cam.ac.uk/data_-\nrequest/cif, or by emailing data_request@ccdc.cam.ac.uk, or\nby contacting The Cambridge Crystallographic Data Centre,\n12 Union Road, Cambridge CB2 1EZ, UK; fax: + 44 1223\n336033.\n*\nsı Supporting Information\nThe Supporting Information is available free of charge at\nhttps://pubs.acs.org/doi/10.1021/acs.molpharma-\nceut.4c00393.\nAdditional Tables and Figures from crystal structure\nanalysis (including ASUs),\n1H NMR spectra, and\ncomplementary PXRD patterns of DTIC crystal forms\n(PDF)\n■AUTHOR INFORMATION\nCorresponding Authors\nLuan F. Diniz −Laboratório de Controle de Qualidade de\nMedicamentos e Cosméticos, Departamento de Produtos\nFarmacêuticos, Faculdade de Farmácia, Universidade Federal\nde Minas Gerais, 31270-901 Belo Horizonte, MG, Brazil;\norcid.org/0000-0003-4702-9065; Email: luandiniz@\nufmg.br\nChristian Fernandes −Laboratório de Controle de Qualidade\nde Medicamentos e Cosméticos, Departamento de Produtos\nFarmacêuticos, Faculdade de Farmácia, Universidade Federal\nde Minas Gerais, 31270-901 Belo Horizonte, MG, Brazil;\norcid.org/0000-0002-3905-3674; Email: cfernandes@\nfarmacia.ufmg.br\nAuthors\nPaulo S. Carvalho, Jr. −Instituto de Física, Universidade\nFederal do Mato Grosso do Sul, 79074-460 Campo Grande,\nMS, Brazil;\norcid.org/0000-0002-5551-9155\nMateus A. C. Souza −Laboratório de Controle de Qualidade\nde Medicamentos e Cosméticos, Departamento de Produtos\nFarmacêuticos, Faculdade de Farmácia, Universidade Federal\nde Minas Gerais, 31270-901 Belo Horizonte, MG, Brazil\nRenata Diniz −Departamento de Química, Instituto de\nCiências Exatas (ICEx), Universidade Federal de Minas\nGerais, 31270-901 Belo Horizonte, MG, Brazil\nComplete contact information is available at:\nhttps://pubs.acs.org/10.1021/acs.molpharmaceut.4c00393\nFunding\nThe Article Processing Charge for the publication of this\nresearch was funded by the Coordination for the Improvement\nof Higher Education Personnel - CAPES (ROR identifier:\n00x0ma614).\nNotes\nThe authors declare no competing financial interest.\n■ACKNOWLEDGMENTS\nThe authors acknowledge the Brazilian funding agencies\nCAPES, CNPq, FINEP, and FAPEMIG (Processes BPD-\n00173-22 and APQ-01945-21) for financial support. The\nauthors also thank Laboratório de Ressonância Magnética\nNuclear de Alta Resolução (LAREMAR - DQ/UFMG) for\nproviding 1H NMR results. The authors appreciate Laboratório\nde Cristalografia (LabCri - DF/UFMG) for allowing access to\nthe SCXRD facilities.\n■REFERENCES\n(1) Berry, D. J.; Steed, J. W. Pharmaceutical Cocrystals, Salts and\nMulticomponent Systems; Intermolecular Interactions and Property\nBased Design. Adv. Drug Deliv Rev. 2017, 117, 3−24.\n(2) Shan, N.; Zaworotko, M. J. The Role of Cocrystals in\nPharmaceutical Science. Drug Discov Today 2008, 13 (9−10), 440−\n446.\n(3) Liu, L.; Wang, J. R.; Mei, X. Enhancing the Stability of Active\nPharmaceutical Ingredients by the Cocrystal Strategy. CrystEngComm\n2022, 24 (11), 2002−2022.\n(4) Duggirala, N. K.; Perry, M. L.; Almarsson, Ö.; Zaworotko, M. J.\nPharmaceutical Cocrystals: Along the Path to Improved Medicines.\nChemComm 2016, 52 (4), 640−655.\n(5) Gadade, D. D.; Pekamwar, S. S. Pharmaceutical Cocrystals:\nRegulatory and Strategic Aspects. Design and Development. Adv.\nPharm. Bull. 2016, 6 (4), 479−494.\n(6) Kumar, A.; Kumar, S.; Nanda, A. A Review about Regulatory\nStatus and Recent Patents of Pharmaceutical Co-Crystals. Adv. Pharm.\nBull. 2018, 8 (3), 355−363.\n(7) Bolla, G.; Sarma, B.; Nangia, A. K. Crystal Engineering of\nPharmaceutical Cocrystals in the Discovery and Development of\nImproved Drugs. Chem. Rev. 2022, 122 (13), 11514−11603.\n(8) Dai, X. L.; Chen, J. M.; Lu, T. B. Pharmaceutical\nCocrystallization: An Effective Approach to Modulate the Phys-\nicochemical Properties of Solid-State Drugs. CrystEngComm 2018, 20\n(36), 5292−5316.\n(9) Desiraju, G. R. Crystal Engineering: From Molecule to Crystal. J.\nAm. Chem. Soc. 2013, 135 (27), 9952−9967.\n(10) Steed, J. W. The Role of Co-Crystals in Pharmaceutical Design.\nTrends Pharmacol. Sci. 2013, 34 (3), 185−193.\n(11) Bolla, G.; Nangia, A. Pharmaceutical Cocrystals: Walking the\nTalk. ChemComm 2016, 52 (54), 8342−8360.\n(12) Elder, D. P.; Holm, R.; De Diego, H. L. Use of Pharmaceutical\nSalts and Cocrystals to Address the Issue of Poor Solubility. Int. J.\nPharm. 2013, 453 (1), 88−100.\n(13) Karimi-Jafari, M.; Padrela, L.; Walker, G. M.; Croker, D. M.\nCreating Cocrystals: A Review of Pharmaceutical Cocrystal\nMolecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\n3672\n",
+      "blocks": [
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "These crystal modifications were engineered to enhance DTIC\nsolubility and the dissolution rate, making the API less prone\nto photodegradation in pharmaceutical processes. Analysis of\nsalt/cocrystal structures by SCXRD revealed that 3D packings\nare layered structures stabilized mainly by H-bonds. The\nspectroscopic (FT-IR and\n1H NMR), PXRD, and thermal\n(DSC and TG) data were congruent with the crystallographic\nevaluation, confirming pure multicomponent crystal formation.\nAdditionally, in the solubility and dissolution tests, the values\nfound have demonstrated a meaningful increase in these\nproperties, especially for the DTIC-HOXA salt, which\ndisplayed a solubility and dissolution rate approximately 20\ntimes higher at pH 6.8 compared to pure DTIC. The DTIC\nphotodegradation and 2-AZA photogeneration in solution, in\nturn, have not changed regardless of DTIC being cocrystallized\nor being on its parent form. We have concluded that the\ncocrystallization of the antineoplastic agent dacarbazine with\naliphatic carboxylic acids offers one of the central require-\nments, i.e., prompt solubilization of the API, to optimize the\npharmaceutical product manufacturing process. This inves-\ntigation also extends the literature on new DTIC solid forms,\nproviding valuable insights into the design of future improved\nAPIs based on DTIC.\n■ASSOCIATED CONTENT",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 60.175018310546875,
+            "x1": 291.4830322265625,
+            "y1": 346.43597412109375
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Data Availability Statement\nCCDC 2334988−2334992 contains the supplementary\ncrystallographic data for this paper. These data can be\nobtained free of charge via www.ccdc.cam.ac.uk/data_-\nrequest/cif, or by emailing data_request@ccdc.cam.ac.uk, or\nby contacting The Cambridge Crystallographic Data Centre,\n12 Union Road, Cambridge CB2 1EZ, UK; fax: + 44 1223\n336033.\n*\nsı Supporting Information\nThe Supporting Information is available free of charge at\nhttps://pubs.acs.org/doi/10.1021/acs.molpharma-\nceut.4c00393.",
+          "bbox": {
+            "x0": 51.477081298828125,
+            "y0": 340.0060119628906,
+            "x1": 291.4601135253906,
+            "y1": 476.2650146484375
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Additional Tables and Figures from crystal structure\nanalysis (including ASUs),\n1H NMR spectra, and\ncomplementary PXRD patterns of DTIC crystal forms\n(PDF)\n■AUTHOR INFORMATION",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 482.7060241699219,
+            "x1": 291.4670715332031,
+            "y1": 565.385009765625
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Corresponding Authors",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 558.9539794921875,
+            "x1": 149.30714416503906,
+            "y1": 568.4539794921875
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Luan F. Diniz −Laboratório de Controle de Qualidade de\nMedicamentos e Cosméticos, Departamento de Produtos\nFarmacêuticos, Faculdade de Farmácia, Universidade Federal\nde Minas Gerais, 31270-901 Belo Horizonte, MG, Brazil;",
+          "bbox": {
+            "x0": 61.455101013183594,
+            "y0": 570.427978515625,
+            "x1": 291.4511413574219,
+            "y1": 614.198974609375
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "orcid.org/0000-0003-4702-9065; Email: luandiniz@\nufmg.br\nChristian Fernandes −Laboratório de Controle de Qualidade\nde Medicamentos e Cosméticos, Departamento de Produtos\nFarmacêuticos, Faculdade de Farmácia, Universidade Federal\nde Minas Gerais, 31270-901 Belo Horizonte, MG, Brazil;",
+          "bbox": {
+            "x0": 61.45548629760742,
+            "y0": 615.197998046875,
+            "x1": 291.4624938964844,
+            "y1": 680.1890258789062
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "orcid.org/0000-0002-3905-3674; Email: cfernandes@\nfarmacia.ufmg.br",
+          "bbox": {
+            "x0": 69.4494857788086,
+            "y0": 681.18896484375,
+            "x1": 283.9534606933594,
+            "y1": 702.1869506835938
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Authors",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 710.9476928710938,
+            "x1": 84.39459991455078,
+            "y1": 720.4476928710938
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Paulo S. Carvalho, Jr. −Instituto de Física, Universidade\nFederal do Mato Grosso do Sul, 79074-460 Campo Grande,\nMS, Brazil;\norcid.org/0000-0002-5551-9155",
+          "bbox": {
+            "x0": 61.455101013183594,
+            "y0": 722.4782104492188,
+            "x1": 291.43609619140625,
+            "y1": 755.195068359375
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Mateus A. C. Souza −Laboratório de Controle de Qualidade\nde Medicamentos e Cosméticos, Departamento de Produtos\nFarmacêuticos, Faculdade de Farmácia, Universidade Federal\nde Minas Gerais, 31270-901 Belo Horizonte, MG, Brazil\nRenata Diniz −Departamento de Química, Instituto de\nCiências Exatas (ICEx), Universidade Federal de Minas\nGerais, 31270-901 Belo Horizonte, MG, Brazil",
+          "bbox": {
+            "x0": 325.4720153808594,
+            "y0": 59.4591064453125,
+            "x1": 555.4800415039062,
+            "y1": 136.16909790039062
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Complete contact information is available at:\nhttps://pubs.acs.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 315.4381408691406,
+            "y0": 141.19308471679688,
+            "x1": 540.2080688476562,
+            "y1": 162.19107055664062
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Funding\nThe Article Processing Charge for the publication of this\nresearch was funded by the Coordination for the Improvement\nof Higher Education Personnel - CAPES (ROR identifier:\n00x0ma614).\nNotes\nThe authors declare no competing financial interest.\n■ACKNOWLEDGMENTS\nThe authors acknowledge the Brazilian funding agencies\nCAPES, CNPq, FINEP, and FAPEMIG (Processes BPD-\n00173-22 and APQ-01945-21) for financial support. The\nauthors also thank Laboratório de Ressonância Magnética\nNuclear de Alta Resolução (LAREMAR - DQ/UFMG) for\nproviding 1H NMR results. The authors appreciate Laboratório\nde Cristalografia (LabCri - DF/UFMG) for allowing access to\nthe SCXRD facilities.\n■REFERENCES",
+          "bbox": {
+            "x0": 315.43896484375,
+            "y0": 173.72601318359375,
+            "x1": 555.4750366210938,
+            "y1": 402.56298828125
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "(1) Berry, D. J.; Steed, J. W. Pharmaceutical Cocrystals, Salts and\nMulticomponent Systems; Intermolecular Interactions and Property\nBased Design. Adv. Drug Deliv Rev. 2017, 117, 3−24.\n(2) Shan, N.; Zaworotko, M. J. The Role of Cocrystals in\nPharmaceutical Science. Drug Discov Today 2008, 13 (9−10), 440−\n446.\n(3) Liu, L.; Wang, J. R.; Mei, X. Enhancing the Stability of Active\nPharmaceutical Ingredients by the Cocrystal Strategy. CrystEngComm\n2022, 24 (11), 2002−2022.\n(4) Duggirala, N. K.; Perry, M. L.; Almarsson, Ö.; Zaworotko, M. J.\nPharmaceutical Cocrystals: Along the Path to Improved Medicines.\nChemComm 2016, 52 (4), 640−655.\n(5) Gadade, D. D.; Pekamwar, S. S. Pharmaceutical Cocrystals:\nRegulatory and Strategic Aspects. Design and Development. Adv.\nPharm. Bull. 2016, 6 (4), 479−494.\n(6) Kumar, A.; Kumar, S.; Nanda, A. A Review about Regulatory\nStatus and Recent Patents of Pharmaceutical Co-Crystals. Adv. Pharm.\nBull. 2018, 8 (3), 355−363.\n(7) Bolla, G.; Sarma, B.; Nangia, A. K. Crystal Engineering of\nPharmaceutical Cocrystals in the Discovery and Development of\nImproved Drugs. Chem. Rev. 2022, 122 (13), 11514−11603.\n(8) Dai, X. L.; Chen, J. M.; Lu, T. B. Pharmaceutical\nCocrystallization: An Effective Approach to Modulate the Phys-\nicochemical Properties of Solid-State Drugs. CrystEngComm 2018, 20\n(36), 5292−5316.\n(9) Desiraju, G. R. Crystal Engineering: From Molecule to Crystal. J.\nAm. Chem. Soc. 2013, 135 (27), 9952−9967.\n(10) Steed, J. W. The Role of Co-Crystals in Pharmaceutical Design.\nTrends Pharmacol. Sci. 2013, 34 (3), 185−193.\n(11) Bolla, G.; Nangia, A. Pharmaceutical Cocrystals: Walking the\nTalk. ChemComm 2016, 52 (54), 8342−8360.\n(12) Elder, D. P.; Holm, R.; De Diego, H. L. Use of Pharmaceutical\nSalts and Cocrystals to Address the Issue of Poor Solubility. Int. J.\nPharm. 2013, 453 (1), 88−100.\n(13) Karimi-Jafari, M.; Padrela, L.; Walker, G. M.; Croker, D. M.\nCreating Cocrystals: A Review of Pharmaceutical Cocrystal",
+          "bbox": {
+            "x0": 315.4391784667969,
+            "y0": 395.85101318359375,
+            "x1": 555.4835815429688,
+            "y1": 754.8727416992188
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Molecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.4707641601562,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 765.8436279296875,
+            "x1": 555.4390258789062,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 12,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673\n3672",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 764.7186889648438,
+            "x1": 555.4654541015625,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0012.png"
+    },
+    {
+      "number": 13,
+      "width": 607.4080200195312,
+      "height": 800.9010009765625,
+      "text": "Preparation Routes and Applications. Cryst. Growth Des 2018, 18\n(10), 6370−6387.\n(14) Serajuddin, A. T. M. Salt Formation to Improve Drug\nSolubility. Adv. Drug Deliv Rev. 2007, 59 (7), 603−616.\n(15) Wathoni, N.; Sari, W. A.; Elamin, K. M.; Mohammed, A. F. A.;\nSuharyani, I. A Review of Coformer Utilization in Multicomponent\nCrystal Formation. Molecules 2022, 27 (24), 8693−8707.\n(16) Jiang, G.; Li, R. H.; Sun, C.; Liu, Y. Q.; Zheng, J. N.\nDacarbazine Combined Targeted Therapy versus Dacarbazine Alone\nin Patients with Malignant Melanoma: A Meta-Analysis. PLoS One\n2014, 9 (12), No. e111920.\n(17) Eichenauer, D. A.; Engert, A. Advances in the Treatment of\nHodgkin Lymphoma. Int. J. Hematol 2012, 96 (5), 535−543.\n(18) Shetty, B. V.; Schowenj, R. L.; Slavikll, M.; Riley, C. M.\nDegradation of Dacarbazine in Aqueous Solution. J. Pharm. Biomed.\nAnal. 1992, 10 (9), 675−683.\n(19) Bahrpeyma, S.; Hemmateenejad, B.; Javidnia, K. Photo-\nDegradation Study of Dacarbazine by Spectrophotometric-Chemo-\nmetrics and HPLC Methods. J. Iran Chem. Soc. 2016, 13 (2), 221−\n229.\n(20) Koriech, O. M.; Shükla, V. S. Dacarbazine (DTIC) in\nMalignant Melanoma: Reduced Toxicity with Protection from\nLight. Clin. Radiol. 1981, 32 (1), 53−55.\n(21) Shükla, V. S. A Device to Prevent Photodegradation of\nDacarbazine (DTIC). Clin Radiol 1980, 31 (2), 239−240.\n(22) Tashiro, M.; Naito, T.; Yamamoto, C.; Katoh, S.-Y.; Kawakami,\nJ. Impact of Light Shielding on Photo-Degradation of Dacarbazine\nduring the Preparation Process. Biol. Pharm. Bull. 2019, 42 (12),\n2062−2068.\n(23) Horton, J. K.; Stevens, M. F. G. A New Light on the Photo-\ndecomposition of the Antitumour Drug DTIC. J. Pharm. Pharmacol.\n2011, 33 (1), 808−811.\n(24) Uchida, A.; Ohtake, H.; Suzuki, Y.; Sato, H.; Seto, Y.; Onoue,\nS.; Oguchi, T. Photochemically Stabilized Formulation of Dacarbazine\nwith Reduced Production of Algogenic Photodegradants. Int. J.\nPharm. 2019, 564, 492−498.\n(25) Dolomanov, O. V.; Bourhis, L. J.; Gildea, R. J.; Howard, J. A.\nK.; Puschmann, H. OLEX2: A Complete Structure Solution,\nRefinement and Analysis Program. J. Appl. Crystallogr. 2009, 42 (2),\n339−341.\n(26) Sheldrick, G. M. SHELXT - Integrated Space-Group and\nCrystal-Structure Determination. Acta Crystallogr. A 2015, 71 (1), 3−\n8.\n(27) Sheldrick, G. M. Crystal Structure Refinement with SHELXL.\nActa Crystallogr. C Struct Chem. 2015, 71 (1), 3−8.\n(28) Macrae, C. F.; Sovago, I.; Cottrell, S. J.; Galek, P. T. A.;\nMcCabe, P.; Pidcock, E.; Platings, M.; Shields, G. P.; Stevens, J. S.;\nTowler, M.; Wood, P. A. Mercury 4.0: From Visualization to Analysis,\nDesign and Prediction. J. Appl. Crystallogr. 2020, 53, 226−235.\n(29) Farrugia, L. J. WinGX and ORTEP for Windows: An Update. J.\nAppl. Crystallogr. 2012, 45 (4), 849−854.\n(30) Groom, C. R.; Bruno, I. J.; Lightfoot, M. P.; Ward, S. C. The\nCambridge Structural Database. Acta Crystallogr. B Struct Sci. Cryst.\nEng. Mater. 2016, 72 (2), 171−179.\n(31) ICH. ICH Topic Q2 (R1) Validation of Analytical Procedures:\nText and Methodology; ICH: Geneva, 2005.\n(32) Glomme, A.; März, J.; Dressman, J. B. Comparison of a\nMiniaturized Shake-Flask Solubility Method with Automated\nPotentiometric Acid/Base Titrations and Calculated Solubilities. J.\nPharm. Sci. 2005, 94 (1), 1−16.\n(33) Sathisaran, I.; Dalvi, S. V. Engineering Cocrystals of Poorly\nWater-Soluble Drugs to Enhance Dissolution in Aqueous Medium.\nPharmaceutics 2018, 10 (3), 108−182.\n(34) SeethaLekshmi, S.; Thakur, T. S.; Varughese, S. Photo-\ninstability in Active Pharmaceutical Ingredients: Crystal Engineering\nas a Mitigating Measure. J. Photo Chem. Rev. 2021, 49, No. 100455.\n(35) Al-Badr, A. A.; Alodhaib, M. M. Dacarbazine. In Profiles of Drug\nSubstances, Excipients and Related Methodology; Academic Press Inc.,\n2016; Vol. 41, pp. 323−377.\n(36) Cruz-Cabeza, A. J. Acid−Base Crystalline Complexes and the\nPKa Rule. CrystEngComm 2012, 14 (20), 6362−6365.\n(37) Childs, S. L.; Stahly, G. P.; Park, A. The Salt-Cocrystal\nContinuum: The Influence of Crystal Structure on Ionization State.\nMol. Pharmaceutics 2007, 4 (3), 323−338.\n(38) Cruz-Cabeza, A. J.; Lusi, M.; Wheatcroft, H. P.; Bond, A. D.\nThe Role of Solvation in Proton Transfer Reactions: Implications for\nPredicting Salt/Co-Crystal Formation Using the ΔpKa Rule. Faraday\nDiscuss. 2022, 235, 446−466.\n(39) Braga, D.; Maini, L.; De Sanctis, G.; Rubini, K.; Grepioni, F.;\nChierotti, M. R.; Gobetto, R. Mechanochemical Preparation of\nHydrogen-Bonded Adducts between the Diamine 1,4-Diazabicyclo\n[2.2.2] Octane and Dicarboxylic Acids of Variable Chain Length: An\nX-Ray Diffraction and Solid-State NMR Study. Chem.\u0002Eur. J. 2003,\n9 (22), 5538−5548.\n(40) Gunasekaran, S.; Kumaresan, S.; Arunbalaji, R.; Anand, G.;\nSrinivasan, S. Density Functional Theory Study of Vibrational Spectra,\nand Assignment of Fundamental Modes of Dacarbazine. J. Chem. Sci.\n2008, 120 (3), 315−324.\n(41) Świderski, G.; Lazny, R.; Sienkiewicz, M.; Kalinowska, M.;\nSwislocka, R.; Osman Acar, A.; Golonko, A.; Matejczyk, M.;\nLewandowski, W. Synthesis, Spectroscopic, Calculated and Thermal\nStudy of Copper and Cobalt Complexes with Dacarbazine. Materials\n2021, 14, 3274.\n(42) Quintana-Contardo, S.; Donoso-González, O.; Lang, E.;\nGuerrero, A. R.; Noyong, M.; Simon, U.; Kogan, M. J.; Yutronic,\nN.; Sierpe, R. Optimizing Dacarbazine Therapy: Design of a Laser-\nTriggered Delivery System Based on β-Cyclodextrin and Plasmonic\nGold Nanoparticles. Pharmaceutics 2023, 15 (2), 458.\n(43) Williams, H. D.; Trevaskis, N. L.; Charman, S. A.; Shanker, R.\nM.; Charman, W. N.; et al. Strategies to Address Low Drug Solubility\nin Discovery and Development. Pharmacol. Rev. 2013, 65 (1), 315−\n499.\n(44) Saifuzzaman, S. M.; Parimal, T.; Islam, M. M.; Biswas, M.\nLyophilization Technology for the Design, Development, Optimiza-\ntion and Evaluation of an Anticancer Drug: Dacarbazine. Cancer\n2019, 2 (1), 35−47.\n(45) Gupta, S. K.; Sachan, N.; Chandra, P.; Sharma, A. K. A Facile\nRP-HPLC Strategy for Sensitive Detection and Stability Study of\nDacarbazine in API and in Pharmaceutical Dosage Form. Res. J.\nPharm. Technol. 2023, 16 (4), 1674−1678.\n(46) Vangala, V. R.; Chow, P. S.; Tan, R. B. H. Characterization,\nPhysicochemical and Photo-Stability of a Co-Crystal Involving an\nAntibiotic Drug, Nitrofurantoin, and 4-Hydroxybenzoic Acid.\nCrystEngComm 2011, 13 (3), 759−762.\n(47) El Aatmani, M.; Poujol, S.; Astre, C.; Malosse, F.; Pinguet, F.\nStability of Dacarbazine in Amber Glass Vials and Polyvinyl Chloride\nBags. Am. J. Health-Syst. Pharm. 2002, 59 (14), 1351−1356.\n(48) Wang, L.; Liu, S.; Chen, J. M.; Wang, Y. X.; Sun, C. C. Novel\nSalt-Cocrystals of Berberine Hydrochloride with Aliphatic Dicarbox-\nylic Acids: Odd-Even Alternation in Physicochemical Properties. Mol.\nPharmaceutics 2021, 18 (4), 1758−1767.\n(49) Tothadi, S.; Phadkule, A. Does Stoichiometry Matter?\nCocrystals of Aliphatic Dicarboxylic Acids with Isonicotinamide:\nOdd-Even Alternation in Melting Points. CrystEngComm 2019, 21\n(15), 2481−2484.\n(50) Scheepers, M. C.; Lemmerer, A. The Design of a Series of\nCocrystals Featuring Dicarboxylic Acid with a Modified Isoniazid\nDerivative. CrystEngComm 2024, 26 (3), 268−276.\nMolecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle\nhttps://doi.org/10.1021/acs.molpharmaceut.4c00393\nMol. Pharmaceutics 2024, 21, 3661−3673\n3673\n",
+      "blocks": [
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "Preparation Routes and Applications. Cryst. Growth Des 2018, 18\n(10), 6370−6387.\n(14) Serajuddin, A. T. M. Salt Formation to Improve Drug\nSolubility. Adv. Drug Deliv Rev. 2007, 59 (7), 603−616.\n(15) Wathoni, N.; Sari, W. A.; Elamin, K. M.; Mohammed, A. F. A.;\nSuharyani, I. A Review of Coformer Utilization in Multicomponent\nCrystal Formation. Molecules 2022, 27 (24), 8693−8707.\n(16) Jiang, G.; Li, R. H.; Sun, C.; Liu, Y. Q.; Zheng, J. N.\nDacarbazine Combined Targeted Therapy versus Dacarbazine Alone\nin Patients with Malignant Melanoma: A Meta-Analysis. PLoS One\n2014, 9 (12), No. e111920.\n(17) Eichenauer, D. A.; Engert, A. Advances in the Treatment of\nHodgkin Lymphoma. Int. J. Hematol 2012, 96 (5), 535−543.\n(18) Shetty, B. V.; Schowenj, R. L.; Slavikll, M.; Riley, C. M.\nDegradation of Dacarbazine in Aqueous Solution. J. Pharm. Biomed.\nAnal. 1992, 10 (9), 675−683.\n(19) Bahrpeyma, S.; Hemmateenejad, B.; Javidnia, K. Photo-\nDegradation Study of Dacarbazine by Spectrophotometric-Chemo-\nmetrics and HPLC Methods. J. Iran Chem. Soc. 2016, 13 (2), 221−\n229.\n(20) Koriech, O. M.; Shükla, V. S. Dacarbazine (DTIC) in\nMalignant Melanoma: Reduced Toxicity with Protection from\nLight. Clin. Radiol. 1981, 32 (1), 53−55.\n(21) Shükla, V. S. A Device to Prevent Photodegradation of\nDacarbazine (DTIC). Clin Radiol 1980, 31 (2), 239−240.\n(22) Tashiro, M.; Naito, T.; Yamamoto, C.; Katoh, S.-Y.; Kawakami,\nJ. Impact of Light Shielding on Photo-Degradation of Dacarbazine\nduring the Preparation Process. Biol. Pharm. Bull. 2019, 42 (12),\n2062−2068.\n(23) Horton, J. K.; Stevens, M. F. G. A New Light on the Photo-\ndecomposition of the Antitumour Drug DTIC. J. Pharm. Pharmacol.\n2011, 33 (1), 808−811.\n(24) Uchida, A.; Ohtake, H.; Suzuki, Y.; Sato, H.; Seto, Y.; Onoue,\nS.; Oguchi, T. Photochemically Stabilized Formulation of Dacarbazine\nwith Reduced Production of Algogenic Photodegradants. Int. J.\nPharm. 2019, 564, 492−498.\n(25) Dolomanov, O. V.; Bourhis, L. J.; Gildea, R. J.; Howard, J. A.\nK.; Puschmann, H. OLEX2: A Complete Structure Solution,\nRefinement and Analysis Program. J. Appl. Crystallogr. 2009, 42 (2),\n339−341.\n(26) Sheldrick, G. M. SHELXT - Integrated Space-Group and\nCrystal-Structure Determination. Acta Crystallogr. A 2015, 71 (1), 3−\n8.\n(27) Sheldrick, G. M. Crystal Structure Refinement with SHELXL.\nActa Crystallogr. C Struct Chem. 2015, 71 (1), 3−8.\n(28) Macrae, C. F.; Sovago, I.; Cottrell, S. J.; Galek, P. T. A.;\nMcCabe, P.; Pidcock, E.; Platings, M.; Shields, G. P.; Stevens, J. S.;\nTowler, M.; Wood, P. A. Mercury 4.0: From Visualization to Analysis,\nDesign and Prediction. J. Appl. Crystallogr. 2020, 53, 226−235.\n(29) Farrugia, L. J. WinGX and ORTEP for Windows: An Update. J.\nAppl. Crystallogr. 2012, 45 (4), 849−854.\n(30) Groom, C. R.; Bruno, I. J.; Lightfoot, M. P.; Ward, S. C. The\nCambridge Structural Database. Acta Crystallogr. B Struct Sci. Cryst.\nEng. Mater. 2016, 72 (2), 171−179.\n(31) ICH. ICH Topic Q2 (R1) Validation of Analytical Procedures:\nText and Methodology; ICH: Geneva, 2005.\n(32) Glomme, A.; März, J.; Dressman, J. B. Comparison of a\nMiniaturized Shake-Flask Solubility Method with Automated\nPotentiometric Acid/Base Titrations and Calculated Solubilities. J.\nPharm. Sci. 2005, 94 (1), 1−16.\n(33) Sathisaran, I.; Dalvi, S. V. Engineering Cocrystals of Poorly\nWater-Soluble Drugs to Enhance Dissolution in Aqueous Medium.\nPharmaceutics 2018, 10 (3), 108−182.\n(34) SeethaLekshmi, S.; Thakur, T. S.; Varughese, S. Photo-\ninstability in Active Pharmaceutical Ingredients: Crystal Engineering\nas a Mitigating Measure. J. Photo Chem. Rev. 2021, 49, No. 100455.\n(35) Al-Badr, A. A.; Alodhaib, M. M. Dacarbazine. In Profiles of Drug\nSubstances, Excipients and Related Methodology; Academic Press Inc.,\n2016; Vol. 41, pp. 323−377.",
+          "bbox": {
+            "x0": 51.47706604003906,
+            "y0": 59.8320198059082,
+            "x1": 291.4837951660156,
+            "y1": 754.8723754882812
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "(36) Cruz-Cabeza, A. J. Acid−Base Crystalline Complexes and the\nPKa Rule. CrystEngComm 2012, 14 (20), 6362−6365.\n(37) Childs, S. L.; Stahly, G. P.; Park, A. The Salt-Cocrystal\nContinuum: The Influence of Crystal Structure on Ionization State.\nMol. Pharmaceutics 2007, 4 (3), 323−338.\n(38) Cruz-Cabeza, A. J.; Lusi, M.; Wheatcroft, H. P.; Bond, A. D.\nThe Role of Solvation in Proton Transfer Reactions: Implications for\nPredicting Salt/Co-Crystal Formation Using the ΔpKa Rule. Faraday\nDiscuss. 2022, 235, 446−466.\n(39) Braga, D.; Maini, L.; De Sanctis, G.; Rubini, K.; Grepioni, F.;\nChierotti, M. R.; Gobetto, R. Mechanochemical Preparation of\nHydrogen-Bonded Adducts between the Diamine 1,4-Diazabicyclo\n[2.2.2] Octane and Dicarboxylic Acids of Variable Chain Length: An\nX-Ray Diffraction and Solid-State NMR Study. Chem.\u0002Eur. J. 2003,\n9 (22), 5538−5548.\n(40) Gunasekaran, S.; Kumaresan, S.; Arunbalaji, R.; Anand, G.;\nSrinivasan, S. Density Functional Theory Study of Vibrational Spectra,\nand Assignment of Fundamental Modes of Dacarbazine. J. Chem. Sci.\n2008, 120 (3), 315−324.\n(41) Świderski, G.; Lazny, R.; Sienkiewicz, M.; Kalinowska, M.;\nSwislocka, R.; Osman Acar, A.; Golonko, A.; Matejczyk, M.;\nLewandowski, W. Synthesis, Spectroscopic, Calculated and Thermal\nStudy of Copper and Cobalt Complexes with Dacarbazine. Materials\n2021, 14, 3274.\n(42) Quintana-Contardo, S.; Donoso-González, O.; Lang, E.;\nGuerrero, A. R.; Noyong, M.; Simon, U.; Kogan, M. J.; Yutronic,\nN.; Sierpe, R. Optimizing Dacarbazine Therapy: Design of a Laser-\nTriggered Delivery System Based on β-Cyclodextrin and Plasmonic\nGold Nanoparticles. Pharmaceutics 2023, 15 (2), 458.\n(43) Williams, H. D.; Trevaskis, N. L.; Charman, S. A.; Shanker, R.\nM.; Charman, W. N.; et al. Strategies to Address Low Drug Solubility\nin Discovery and Development. Pharmacol. Rev. 2013, 65 (1), 315−\n499.\n(44) Saifuzzaman, S. M.; Parimal, T.; Islam, M. M.; Biswas, M.\nLyophilization Technology for the Design, Development, Optimiza-\ntion and Evaluation of an Anticancer Drug: Dacarbazine. Cancer\n2019, 2 (1), 35−47.\n(45) Gupta, S. K.; Sachan, N.; Chandra, P.; Sharma, A. K. A Facile\nRP-HPLC Strategy for Sensitive Detection and Stability Study of\nDacarbazine in API and in Pharmaceutical Dosage Form. Res. J.\nPharm. Technol. 2023, 16 (4), 1674−1678.\n(46) Vangala, V. R.; Chow, P. S.; Tan, R. B. H. Characterization,\nPhysicochemical and Photo-Stability of a Co-Crystal Involving an\nAntibiotic Drug, Nitrofurantoin, and 4-Hydroxybenzoic Acid.\nCrystEngComm 2011, 13 (3), 759−762.\n(47) El Aatmani, M.; Poujol, S.; Astre, C.; Malosse, F.; Pinguet, F.\nStability of Dacarbazine in Amber Glass Vials and Polyvinyl Chloride\nBags. Am. J. Health-Syst. Pharm. 2002, 59 (14), 1351−1356.\n(48) Wang, L.; Liu, S.; Chen, J. M.; Wang, Y. X.; Sun, C. C. Novel\nSalt-Cocrystals of Berberine Hydrochloride with Aliphatic Dicarbox-\nylic Acids: Odd-Even Alternation in Physicochemical Properties. Mol.\nPharmaceutics 2021, 18 (4), 1758−1767.\n(49) Tothadi, S.; Phadkule, A. Does Stoichiometry Matter?\nCocrystals of Aliphatic Dicarboxylic Acids with Isonicotinamide:\nOdd-Even Alternation in Melting Points. CrystEngComm 2019, 21\n(15), 2481−2484.\n(50) Scheepers, M. C.; Lemmerer, A. The Design of a Series of\nCocrystals Featuring Dicarboxylic Acid with a Modified Isoniazid\nDerivative. CrystEngComm 2024, 26 (3), 268−276.",
+          "bbox": {
+            "x0": 315.43902587890625,
+            "y0": 59.18408966064453,
+            "x1": 555.4853515625,
+            "y1": 648.8567504882812
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "Molecular Pharmaceutics\npubs.acs.org/molecularpharmaceutics\nArticle",
+          "bbox": {
+            "x0": 51.47710037231445,
+            "y0": 39.4420166015625,
+            "x1": 548.4707641601562,
+            "y1": 49.4420166015625
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+          "bbox": {
+            "x0": 423.4389953613281,
+            "y0": 765.8436279296875,
+            "x1": 555.4390258789062,
+            "y1": 771.8436279296875
+          }
+        },
+        {
+          "page": 13,
+          "kind": "text",
+          "text": "Mol. Pharmaceutics 2024, 21, 3661−3673\n3673",
+          "bbox": {
+            "x0": 295.427001953125,
+            "y0": 764.7186889648438,
+            "x1": 555.4654541015625,
+            "y1": 778.3626098632812
+          }
+        }
+      ],
+      "render_path": "assets/page-0013.png"
+    }
+  ],
+  "tables": [
+    {
+      "page": 4,
+      "bbox": {
+        "x0": 67.01100158691406,
+        "y0": 78.93507385253906,
+        "x1": 541.8713989257812,
+        "y1": 340.5794372558594
+      },
+      "rows": [
+        [
+          "identificationcode",
+          "DTICHOXA\n-",
+          "DTICHMAL\n-",
+          "DTICHFUM\n- 2",
+          "DTICHSUC\n- 2",
+          "DTICHCIT\n-"
+        ],
+        [
+          "chemicalformula",
+          "CH NO\n8 12 6 5",
+          "C H NO\n10 16 6 6",
+          "C H NO\n10 14 6 5",
+          "C H NO\n10 16 6 5",
+          "C H N O\n18 36 12 13"
+        ],
+        [
+          "molecularweight",
+          "27224\n.",
+          "31629\n.",
+          "29827\n.",
+          "30029\n.",
+          "62859\n."
+        ],
+        [
+          "temperature(K)",
+          "298(2)",
+          "298(2)",
+          "298(2)",
+          "298(2)",
+          "298(2)"
+        ],
+        [
+          "crystalsystem",
+          "monoclinic",
+          "triclinic",
+          "monoclinic",
+          "monoclinic",
+          "monoclinic"
+        ],
+        [
+          "spacegroup",
+          "P2 1/n",
+          "P1",
+          "I2/m",
+          "P2 1/n",
+          "P2\n1"
+        ],
+        [
+          "a(Å)",
+          "701610(10)\n.",
+          "720630(10)\n.",
+          "149598(4)\n.",
+          "1018050(10)\n.",
+          "750230(10)\n."
+        ],
+        [
+          "b(Å)",
+          "145257(2)\n.",
+          "95417(2)\n.",
+          "65349(2)\n.",
+          "528880(10)\n.",
+          "234227(5)\n."
+        ],
+        [
+          "c(Å)",
+          "114853(2)\n.",
+          "114641(2)\n.",
+          "147476(3)\n.",
+          "257639(4)\n.",
+          "85781(2)\n."
+        ],
+        [
+          "α(°)",
+          "90",
+          "111919(2)\n.",
+          "90",
+          "90",
+          "90"
+        ],
+        [
+          "β(°)",
+          "100475(2)\n.",
+          "942000(10)\n.",
+          "102407(2)\n.",
+          "909610(10)\n.",
+          "103211(2)\n."
+        ],
+        [
+          "γ(°)",
+          "90",
+          "905110(10)\n.",
+          "90",
+          "90",
+          "90"
+        ],
+        [
+          "volume(Å)3",
+          "115100(3)\n.",
+          "72877(2)\n.",
+          "140807(6)\n.",
+          "138700(4)\n.",
+          "146749(5)\n."
+        ],
+        [
+          "Z/Z′",
+          "4/1",
+          "2/1",
+          "4/1",
+          "4/1",
+          "2/2"
+        ],
+        [
+          "ρcalc (g cm3)",
+          "1571\n.",
+          "1441\n.",
+          "1407\n.",
+          "1438\n.",
+          "1423\n."
+        ],
+        [
+          "μ(mm−1)",
+          "1142\n.",
+          "1035\n.",
+          "0985\n.",
+          "1000\n.",
+          "1045\n."
+        ],
+        [
+          "radiationtype",
+          "CuKα",
+          "CuKα",
+          "CuKα",
+          "CuKα",
+          "CuKα"
+        ],
+        [
+          "2θrangefordatacollection/°",
+          "9 .92−140 .11",
+          "10−139 .98",
+          "9 .50−140 .14",
+          "9 .29−140 .04",
+          "10 .6−140 .11"
+        ],
+        [
+          "reflectionscollected",
+          "11043",
+          "13712",
+          "7398",
+          "13467",
+          "10839"
+        ],
+        [
+          "independentreflections",
+          "2175",
+          "2752",
+          "1453",
+          "2631",
+          "4953"
+        ],
+        [
+          "uniquereflections",
+          "1968",
+          "2508",
+          "1280",
+          "2392",
+          "4713"
+        ],
+        [
+          "R [I ≥2σ(I)]\n1",
+          "00365\n.",
+          "00337\n.",
+          "00409\n.",
+          "00382\n.",
+          "00463\n."
+        ],
+        [
+          "wR [all data]\n2",
+          "01073\n.",
+          "00981\n.",
+          "01257\n.",
+          "01075\n.",
+          "01252\n."
+        ],
+        [
+          "goodness-of -fit on F2",
+          "1018\n.",
+          "1085\n.",
+          "1062\n.",
+          "1058\n.",
+          "1063\n."
+        ]
+      ],
+      "caption": "Table 1. Crystallographic Data and Refinement Parameters of the DTIC Solid Forms"
+    },
+    {
+      "page": 9,
+      "bbox": {
+        "x0": 75.96876525878906,
+        "y0": 643.7542114257812,
+        "x1": 535.7542114257812,
+        "y1": 734.0279541015625
+      },
+      "rows": [
+        [
+          "",
+          "",
+          "solubility(mgmL−1)",
+          "",
+          ""
+        ],
+        [
+          "crystalform",
+          "pH 6 .8",
+          "pH 4 .5",
+          "pH 1 .2",
+          "IDR (mg cm−2 min−1) pH 6 .8"
+        ],
+        [
+          "DTIC",
+          "19±01\n. .",
+          "34±02\n. .",
+          "204±02\n. .",
+          "026±002\n. ."
+        ],
+        [
+          "DTICHOXA\n-",
+          "366±09\n. .",
+          "329±03\n. .",
+          "280±05\n. .",
+          "558±008\n. ."
+        ],
+        [
+          "DTICHMAL\n-",
+          "190±05\n. .",
+          "255±07\n. .",
+          "434±03\n. .",
+          "190±006\n. ."
+        ],
+        [
+          "DTICHFUM\n- 2",
+          "169±06\n. .",
+          "175±06\n. .",
+          "214±07\n. .",
+          "131±005\n. ."
+        ],
+        [
+          "DTICHSUC\n- 2",
+          "69±03\n. .",
+          "102±07\n. .",
+          "288±02\n. .",
+          "043±003\n. ."
+        ],
+        [
+          "DTICHCIT\n-",
+          "55±04\n. .",
+          "81±02\n. .",
+          "248±04\n. .",
+          "035±001\n. ."
+        ]
+      ],
+      "caption": "Table 2. Equilibrium Solubility Values and Intrinsic Dissolution Rates (IDRs) of the DTIC Solid Formsa"
+    },
+    {
+      "page": 10,
+      "bbox": {
+        "x0": 51.47710037231445,
+        "y0": 78.93559265136719,
+        "x1": 546.6822509765625,
+        "y1": 193.7830047607422
+      },
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "stability (% DTIC and 2-AZA found)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "freshlyprepared",
+          "(initial)",
+          "after15daysinphotostabilitychamber",
+          "",
+          "after90daysat40°Cand75%RH",
+          ""
+        ],
+        [
+          "crystalform",
+          "%DTIC",
+          "% 2-AZAa",
+          "%DTIC",
+          "% 2-AZA",
+          "%DTIC",
+          "% 2-AZAa"
+        ],
+        [
+          "DTIC",
+          "1000±02\n. .",
+          "-",
+          "944±05\n. .",
+          "08±02\n. .",
+          "998±03\n. .",
+          "-"
+        ],
+        [
+          "DTICHOXA\n-",
+          "1001±01\n. .",
+          "-",
+          "971±03\n. .",
+          "22±04\n. .",
+          "999±02\n. .",
+          "-"
+        ],
+        [
+          "DTICHMAL\n-",
+          "996±04\n. .",
+          "-",
+          "984±02\n. .",
+          "17±02\n. .",
+          "982±04\n. .",
+          "-"
+        ],
+        [
+          "DTICHFUM\n- 2",
+          "995±03\n. .",
+          "-",
+          "973±02\n. .",
+          "11±01\n. .",
+          "992±02\n. .",
+          "-"
+        ],
+        [
+          "DTICHSUC\n- 2",
+          "997±02\n. .",
+          "-",
+          "987±03\n. .",
+          "08±01\n. .",
+          "993±03\n. .",
+          "-"
+        ],
+        [
+          "DTICHCIT\n-",
+          "998±04\n. .",
+          "-",
+          "970±04\n. .",
+          "18±02\n. .",
+          "960±05\n. .",
+          "±07\n."
+        ],
+        [
+          "aDashes mean not detected .",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "caption": "Table 3. DTIC and 2-AZA Levels Found in Freshly Prepared and Accelerated-Degradation DTIC Solid Samples"
+    },
+    {
+      "page": 11,
+      "bbox": {
+        "x0": 51.47710037231445,
+        "y0": 492.7242126464844,
+        "x1": 291.47662353515625,
+        "y1": 593.4114379882812
+      },
+      "rows": [
+        [
+          "solution\nDTIC(5mM)",
+          "k (mM h−1)\nd\n0767±002\n. .",
+          "k (mM h−1)\ng\n0361±004\n. ."
+        ],
+        [
+          "DTIC -HOXA (5 mM)",
+          "0756±003\n. .",
+          "0386±003\n. ."
+        ],
+        [
+          "DTIC -HMAL (5 mM)",
+          "0773±001\n. .",
+          "0371±002\n. ."
+        ],
+        [
+          "DTIC -H 2FUM (5 mM)\nDTIC -H 2SUC (5 mM)",
+          "0755±001\n. .\n0747±003\n. .",
+          "0363±002\n. .\n0378±005\n. ."
+        ],
+        [
+          "DTIC -HCIT (5 mM)",
+          "0740±002\n. .",
+          "0338±003\n. ."
+        ],
+        [
+          "ak d: photodegradation rate",
+          "constant for DTIC; k g: photogeneration",
+          ""
+        ],
+        [
+          "rate constant for 2 -AZA\n.",
+          "",
+          ""
+        ]
+      ],
+      "caption": "Table 4. Photodegradation and Photogeneration Rate\nConstants of DTIC and 2-AZA for Each DTIC Crystal\nForma"
+    }
+  ],
+  "figures": [
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 545.4099731445312,
+        "y0": 67.85101318359375,
+        "x1": 555.1599731445312,
+        "y1": 78.1610107421875
+      },
+      "asset_path": "assets/page-0001-image-001.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 533.4099731445312,
+        "y0": 67.85101318359375,
+        "x1": 543.1599731445312,
+        "y1": 78.1610107421875
+      },
+      "asset_path": "assets/page-0001-image-002.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": null,
+      "asset_path": "assets/page-0001-image-003.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": null,
+      "asset_path": "assets/page-0001-image-004.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": null,
+      "asset_path": "assets/page-0001-image-005.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 516.530029296875,
+        "y0": 54.36097717285156,
+        "x1": 555.4100341796875,
+        "y1": 63.0009765625
+      },
+      "asset_path": "assets/page-0001-image-006.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 315.4389953613281,
+        "y0": 238.11099243164062,
+        "x1": 555.4199829101562,
+        "y1": 368.3909912109375
+      },
+      "asset_path": "assets/page-0001-image-007.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 515.5089721679688,
+        "y0": 677.3671264648438,
+        "x1": 553.3231811523438,
+        "y1": 735.13720703125
+      },
+      "asset_path": "assets/page-0001-image-008.png",
+      "caption": null
+    },
+    {
+      "page": 1,
+      "bbox": {
+        "x0": 315.4389953613281,
+        "y0": 501.22198486328125,
+        "x1": 555.4199829101562,
+        "y1": 605.593994140625
+      },
+      "asset_path": "assets/page-0001-image-009.png",
+      "caption": null
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 143.49000549316406,
+        "y0": 60.43499755859375,
+        "x1": 463.40802001953125,
+        "y1": 347.92498779296875
+      },
+      "asset_path": "assets/page-0005-image-001.png",
+      "caption": "Figure 1. 2D sheet motifs from the chain assemblies and layered crystalline packings for (a) DTIC-HOXA, (b) DTIC-H2FUM, and (c) DTIC-\nH2SUC."
+    },
+    {
+      "page": 5,
+      "bbox": {
+        "x0": 51.47719955444336,
+        "y0": 388.4599914550781,
+        "x1": 555.4771728515625,
+        "y1": 662.9669799804688
+      },
+      "asset_path": "assets/page-0005-image-002.png",
+      "caption": "Figure 1. 2D sheet motifs from the chain assemblies and layered crystalline packings for (a) DTIC-HOXA, (b) DTIC-H2FUM, and (c) DTIC-\nH2SUC."
+    },
+    {
+      "page": 6,
+      "bbox": {
+        "x0": 153.46800231933594,
+        "y0": 60.43499755859375,
+        "x1": 453.42999267578125,
+        "y1": 372.64300537109375
+      },
+      "asset_path": "assets/page-0006-image-001.png",
+      "caption": "Figure 3. Experimental (exp) and calculated (calcd) diffractograms of DTIC and its new multicomponent crystals."
+    },
+    {
+      "page": 7,
+      "bbox": {
+        "x0": 93.42990112304688,
+        "y0": 60.43499755859375,
+        "x1": 513.410888671875,
+        "y1": 511.3699951171875
+      },
+      "asset_path": "assets/page-0007-image-001.png",
+      "caption": "Figure 4. DSC curves (red solid line) and TG thermograms (black dashed line) for the DTIC solid forms."
+    },
+    {
+      "page": 9,
+      "bbox": {
+        "x0": 51.47719955444336,
+        "y0": 60.43501281738281,
+        "x1": 291.45819091796875,
+        "y1": 207.27001953125
+      },
+      "asset_path": "assets/page-0009-image-001.png",
+      "caption": "Figure 5. Equilibrium solubility plot of DTIC and its salt and\ncocrystal forms in different dissolution media."
+    },
+    {
+      "page": 9,
+      "bbox": {
+        "x0": 315.4389953613281,
+        "y0": 60.435028076171875,
+        "x1": 555.4199829101562,
+        "y1": 243.04302978515625
+      },
+      "asset_path": "assets/page-0009-image-002.png",
+      "caption": "Figure 5. Equilibrium solubility plot of DTIC and its salt and\ncocrystal forms in different dissolution media."
+    },
+    {
+      "page": 10,
+      "bbox": {
+        "x0": 51.47719955444336,
+        "y0": 205.45498657226562,
+        "x1": 555.4771728515625,
+        "y1": 551.0549926757812
+      },
+      "asset_path": "assets/page-0010-image-001.png",
+      "caption": "Figure 7. (a) Conversion of DTIC (1) to 2-AZA (2) under light. (b) Chromatogram highlighting the DTIC and 2-AZA separation. Kinetics of (c)\nDTIC photodegradation and (d) 2-AZA photogeneration from API solutions prepared with each DTIC crystal form."
+    },
+    {
+      "page": 11,
+      "bbox": {
+        "x0": 143.49000549316406,
+        "y0": 60.43498229980469,
+        "x1": 463.40802001953125,
+        "y1": 258.406982421875
+      },
+      "asset_path": "assets/page-0011-image-001.png",
+      "caption": "Figure 8. Mass spectrum of (a) 2-AZA and (b) DTIC, showing the main product ions found in fragmentation. (c) Chromatogram of a freshly\nprepared DTIC sample (blue) compared to the chromatogram of a fully photodegraded DTIC sample (in red)."
+    }
+  ],
+  "marker_markdown_path": "marker/Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to/Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.md"
+}

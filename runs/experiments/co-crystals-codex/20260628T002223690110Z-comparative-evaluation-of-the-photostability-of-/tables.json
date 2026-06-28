@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "tables": [
+    {
+      "source": "pymupdf",
+      "page": 5,
+      "bbox": {
+        "x0": 162.7840118408203,
+        "y0": 659.808837890625,
+        "x1": 436.476806640625,
+        "y1": 765.9776000976562
+      },
+      "caption": "Table 1. Apparent discoloration rate constants of CBZ polymorphs, PMs, and cocrystals.",
+      "rows": [
+        [
+          "Sample",
+          "ApparentDiscolorationRateConstant(h\u22121)"
+        ],
+        [
+          "CBZformI",
+          "0032\n."
+        ],
+        [
+          "CBZformII",
+          "0054\n."
+        ],
+        [
+          "CBZformIII",
+          "0026\n."
+        ],
+        [
+          "CBZ SUCPM\n\u2013",
+          "0024\n."
+        ],
+        [
+          "CBZ SUC\n\u2013",
+          "0004\n."
+        ],
+        [
+          "CBZ SACPM\n\u2013",
+          "0026\n."
+        ],
+        [
+          "CBZ \u2013SAC form I",
+          "0008\n."
+        ],
+        [
+          "CBZ \u2013SAC form II",
+          "0064\n."
+        ]
+      ]
+    },
+    {
+      "source": "pymupdf",
+      "page": 8,
+      "bbox": {
+        "x0": 184.3829803466797,
+        "y0": 108.98487854003906,
+        "x1": 413.69281005859375,
+        "y1": 217.7942657470703
+      },
+      "caption": "Table 2. Degradation rate constants for CBZ polymorphs, PMs, and cocrystals.",
+      "rows": [
+        [
+          "Sample",
+          "DegradationRateConstant(h\u22121)"
+        ],
+        [
+          "CBZformI",
+          "553\u00d710\u22124\n."
+        ],
+        [
+          "CBZformII",
+          "651\u00d710\u22124\n."
+        ],
+        [
+          "CBZformIII",
+          "378\u00d710\u22124\n."
+        ],
+        [
+          "CBZ SUCPM\n\u2013",
+          "486\u00d710\u22124\n."
+        ],
+        [
+          "CBZ SUC\n\u2013",
+          "379\u00d710\u22125\n."
+        ],
+        [
+          "CBZ SACPM\n\u2013",
+          "263\u00d710\u22124\n."
+        ],
+        [
+          "CBZ \u2013SAC form I",
+          "423\u00d710\u22125\n."
+        ],
+        [
+          "CBZ \u2013SAC form II",
+          "182\u00d710\u22123\n."
+        ]
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import shlex
 import subprocess
@@ -28,6 +29,18 @@ from chemx.toolchain import (
     write_tool_manifest,
 )
 
+SURYA_MARKER_CHECKPOINTS = (
+    "layout/2025_09_23",
+    "text_detection/2025_05_07",
+    "text_recognition/2025_09_23",
+    "table_recognition/2025_02_18",
+    "ocr_error_detection/2025_02_18",
+)
+MARKER_FONT_CANDIDATES = (
+    Path(__file__).resolve().parents[2] / "runs" / "tools" / "fonts" / "DejaVuSans.ttf",
+    Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"),
+)
+
 
 def _bbox(rect: Any) -> BoundingBox:
     return BoundingBox(x0=rect[0], y0=rect[1], x1=rect[2], y1=rect[3])
@@ -41,11 +54,17 @@ class BundleBuilder:
         use_marker: bool = False,
         require_full_stack: bool = False,
         toolchain: FullStackToolchain | None = None,
+        marker_timeout_seconds: float | None = None,
     ) -> None:
         self.render_scale = render_scale
         self.use_marker = use_marker
         self.require_full_stack = require_full_stack
         self.toolchain = toolchain or FullStackToolchain()
+        self.marker_timeout_seconds = (
+            marker_timeout_seconds
+            if marker_timeout_seconds is not None
+            else float(os.environ.get("CHEMX_MARKER_TIMEOUT_SECONDS", "10800"))
+        )
 
     def build(self, pdf: Path, output_dir: Path) -> ArticleBundle:
         pdf = pdf.resolve()
@@ -136,30 +155,81 @@ class BundleBuilder:
             return None
         marker_dir = output_dir / "marker"
         marker_dir.mkdir(exist_ok=True)
+        env = os.environ.copy()
+        if not env.get("XDG_CACHE_HOME"):
+            cache_home = Path(__file__).resolve().parents[2] / "runs" / "tools" / "cache"
+            cache_home.mkdir(parents=True, exist_ok=True)
+            env["XDG_CACHE_HOME"] = str(cache_home)
+        if not env.get("FONT_PATH"):
+            font = next((path for path in MARKER_FONT_CANDIDATES if path.is_file()), None)
+            if font is not None:
+                env["FONT_PATH"] = str(font.resolve())
+        env.setdefault("PARALLEL_DOWNLOAD_WORKERS", "1")
         try:
-            subprocess.run(
-                [
-                    executable,
-                    *marker_parts[1:],
-                    str(pdf),
-                    "--output_dir",
-                    str(marker_dir),
-                    "--output_format",
-                    "markdown",
-                ],
-                check=True,
-                capture_output=True,
-                text=True,
-                timeout=900,
-            )
+            self._require_marker_model_cache(env)
+        except RuntimeError:
+            if strict:
+                raise
+            return None
+        stdout_path = marker_dir / "stdout.log"
+        stderr_path = marker_dir / "stderr.log"
+        try:
+            with stdout_path.open("w", encoding="utf-8") as stdout_log, stderr_path.open(
+                "w", encoding="utf-8"
+            ) as stderr_log:
+                subprocess.run(
+                    [
+                        executable,
+                        *marker_parts[1:],
+                        str(pdf),
+                        "--output_dir",
+                        str(marker_dir),
+                        "--output_format",
+                        "markdown",
+                    ],
+                    check=True,
+                    stdout=stdout_log,
+                    stderr=stderr_log,
+                    text=True,
+                    timeout=self.marker_timeout_seconds,
+                    env=env,
+                )
         except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as exc:
             if strict:
-                raise RuntimeError(f"Marker failed for {pdf}") from exc
+                raise RuntimeError(
+                    f"Marker failed for {pdf}; see {stdout_path} and {stderr_path}"
+                ) from exc
             return None
         candidates = sorted(marker_dir.rglob("*.md"))
         if not candidates and strict:
             raise RuntimeError(f"Marker produced no markdown for {pdf}")
         return candidates[0] if candidates else None
+
+    @staticmethod
+    def _require_marker_model_cache(env: dict[str, str]) -> None:
+        cache_home = Path(env["XDG_CACHE_HOME"])
+        model_root = cache_home / "datalab" / "models"
+        missing: list[str] = []
+        for checkpoint in SURYA_MARKER_CHECKPOINTS:
+            checkpoint_dir = model_root / checkpoint
+            manifest_path = checkpoint_dir / "manifest.json"
+            if not manifest_path.is_file():
+                missing.append(f"{checkpoint}/manifest.json")
+                continue
+            try:
+                manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError as exc:
+                raise RuntimeError(f"invalid Marker model manifest: {manifest_path}") from exc
+            for file_name in manifest.get("files", []):
+                if not (checkpoint_dir / file_name).is_file():
+                    missing.append(f"{checkpoint}/{file_name}")
+        if missing:
+            preview = "\n".join(f"- {item}" for item in missing[:40])
+            extra = "" if len(missing) <= 40 else f"\n... and {len(missing) - 40} more"
+            raise RuntimeError(
+                "Marker model cache is incomplete; refusing to let Marker auto-download "
+                f"large model files. Missing files:\n{preview}{extra}"
+            )
 
     def _write_enriched_artifacts(
         self,

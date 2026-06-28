@@ -1,0 +1,1886 @@
+{
+  "schema_version": "1.0",
+  "domain": "co-crystals",
+  "records": [
+    {
+      "values": {
+        "pdf": "Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+        "doi": "10.1021/acs.molpharmaceut.4c00393",
+        "supplementary": 0,
+        "authors": "Luan F. Diniz, Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes",
+        "title": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+        "journal": "Mol. Pharmaceutics",
+        "year": 2024,
+        "page": 3661,
+        "access": 1,
+        "name_cocrystal": "Dacarbazine hydrogen-oxalate salt (DTIC-HOXA)",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": 2,
+        "ratio_cocrystal": "1:1",
+        "ratio_cocrystal_page": "4",
+        "ratio_cocrystal_page.1": "4",
+        "ratio_cocrystal_origin": 4.0,
+        "name_drug": "Dacarbazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "layout",
+        "name_drug_page": 2,
+        "SMILES_drug": "CN(C)/N=N/c1nc[nH]c1C(N)=O",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "ocsr",
+        "SMILES_drug_page": 1,
+        "name_coformer": "Oxalic acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "layout",
+        "name_coformer_page": 2,
+        "SMILES_coformer": "O=C(O)C(=O)O",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "ocsr",
+        "SMILES_coformer_page": 1,
+        "photostability_change": "Improved solid-state photostability; after 15 days UV: 97.1 +/- 0.3% DTIC and 2.2 +/- 0.4% 2-AZA (pure DTIC: 94.4 +/- 0.5% DTIC).",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "table",
+        "photostability_change_page": 10
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "bundle metadata source_name",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "main article PDF, not supplementary",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "author line lists Diniz, Carvalho, Souza, Diniz, Fernandes",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "title block",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661-3673",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661-3673",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "first page 3661",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "ACCESS and CC-BY 4.0 license",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.1 Dacarbazine Hydrogen-Oxalate Salt (DTIC-HOXA)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.1 Dacarbazine Hydrogen-Oxalate Salt (DTIC-HOXA)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.1 Dacarbazine Hydrogen-Oxalate Salt (DTIC-HOXA)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.1 Dacarbazine Hydrogen-Oxalate Salt (DTIC-HOXA)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 4,
+            "kind": "layout",
+            "bbox": null,
+            "text": "DTIC-HOXA is a 1:1 salt",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 4,
+            "kind": "layout",
+            "bbox": null,
+            "text": "DTIC-HOXA is a 1:1 salt",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 4,
+            "kind": "layout",
+            "bbox": null,
+            "text": "DTIC-HOXA is a 1:1 salt",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 4,
+            "kind": "layout",
+            "bbox": null,
+            "text": "DTIC-HOXA is a 1:1 salt",
+            "asset_path": null
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "All coformers and dacarbazine were purchased from Sigma-Aldrich",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name from PDF layout text",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name from PDF layout text",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name on page 2",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate: CN(C)/N=N/c1nc[nH]c1C(N)=O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from OCSR candidate",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from OCSR candidate",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from Scheme 1 on page 1",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and oxalic acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and oxalic acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and oxalic acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and oxalic acid",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Oxalic acid: O=C(O)C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Oxalic acid: O=C(O)C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Oxalic acid: O=C(O)C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Oxalic acid: O=C(O)C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-HOXA row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-HOXA row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-HOXA row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-HOXA row in Table 3",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+        "doi": "10.1021/acs.molpharmaceut.4c00393",
+        "supplementary": 0,
+        "authors": "Luan F. Diniz, Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes",
+        "title": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+        "journal": "Mol. Pharmaceutics",
+        "year": 2024,
+        "page": 3661,
+        "access": 1,
+        "name_cocrystal": "Dacarbazine hydrogen-maleate monohydrated salt (DTIC-HMAL)",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": 2,
+        "ratio_cocrystal": "1:1",
+        "ratio_cocrystal_page": "2",
+        "ratio_cocrystal_page.1": "2",
+        "ratio_cocrystal_origin": 2.0,
+        "name_drug": "Dacarbazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "layout",
+        "name_drug_page": 2,
+        "SMILES_drug": "CN(C)/N=N/c1nc[nH]c1C(N)=O",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "ocsr",
+        "SMILES_drug_page": 1,
+        "name_coformer": "Maleic acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "layout",
+        "name_coformer_page": 2,
+        "SMILES_coformer": "O=C(O)/C=C\\C(=O)O",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "ocsr",
+        "SMILES_coformer_page": 1,
+        "photostability_change": "Improved solid-state photostability; after 15 days UV: 98.4 +/- 0.2% DTIC and 1.7 +/- 0.2% 2-AZA (pure DTIC: 94.4 +/- 0.5% DTIC).",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "table",
+        "photostability_change_page": 10
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "bundle metadata source_name",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "main article PDF, not supplementary",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "author line lists Diniz, Carvalho, Souza, Diniz, Fernandes",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "title block",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661-3673",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661-3673",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "first page 3661",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "ACCESS and CC-BY 4.0 license",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.2 Dacarbazine Hydrogen-Maleate Salt (DTIC-HMAL)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.2 Dacarbazine Hydrogen-Maleate Salt (DTIC-HMAL)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.2 Dacarbazine Hydrogen-Maleate Salt (DTIC-HMAL)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.2 Dacarbazine Hydrogen-Maleate Salt (DTIC-HMAL)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "DTIC and maleic acid both 0.274 mmol; ASU has DTICH+ and HMAL-",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "DTIC and maleic acid both 0.274 mmol; ASU has DTICH+ and HMAL-",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "DTIC and maleic acid both 0.274 mmol; ASU has DTICH+ and HMAL-",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "DTIC and maleic acid both 0.274 mmol; ASU has DTICH+ and HMAL-",
+            "asset_path": null
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "All coformers and dacarbazine were purchased from Sigma-Aldrich",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name from PDF layout text",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name from PDF layout text",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name on page 2",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate: CN(C)/N=N/c1nc[nH]c1C(N)=O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from OCSR candidate",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from OCSR candidate",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from Scheme 1 on page 1",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and maleic acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and maleic acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and maleic acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and maleic acid",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Maleic acid: O=C(O)/C=C\\C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Maleic acid: O=C(O)/C=C\\C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Maleic acid: O=C(O)/C=C\\C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Maleic acid: O=C(O)/C=C\\C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-HMAL row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-HMAL row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-HMAL row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-HMAL row in Table 3",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+        "doi": "10.1021/acs.molpharmaceut.4c00393",
+        "supplementary": 0,
+        "authors": "Luan F. Diniz, Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes",
+        "title": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+        "journal": "Mol. Pharmaceutics",
+        "year": 2024,
+        "page": 3661,
+        "access": 1,
+        "name_cocrystal": "Dacarbazine-fumaric acid cocrystal (DTIC-H2FUM)",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": 2,
+        "ratio_cocrystal": "1:1",
+        "ratio_cocrystal_page": "6",
+        "ratio_cocrystal_page.1": "6",
+        "ratio_cocrystal_origin": 6.0,
+        "name_drug": "Dacarbazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "layout",
+        "name_drug_page": 2,
+        "SMILES_drug": "CN(C)/N=N/c1nc[nH]c1C(N)=O",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "ocsr",
+        "SMILES_drug_page": 1,
+        "name_coformer": "Fumaric acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "layout",
+        "name_coformer_page": 2,
+        "SMILES_coformer": "O=C(O)/C=C/C(=O)O",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "ocsr",
+        "SMILES_coformer_page": 1,
+        "photostability_change": "Improved solid-state photostability; after 15 days UV: 97.3 +/- 0.2% DTIC and 1.1 +/- 0.1% 2-AZA (pure DTIC: 94.4 +/- 0.5% DTIC).",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "table",
+        "photostability_change_page": 10
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "bundle metadata source_name",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "main article PDF, not supplementary",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "author line lists Diniz, Carvalho, Souza, Diniz, Fernandes",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "title block",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661-3673",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661-3673",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "first page 3661",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "ACCESS and CC-BY 4.0 license",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.3 Dacarbazine-Fumaric Acid Cocrystal (DTIC-H2FUM)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.3 Dacarbazine-Fumaric Acid Cocrystal (DTIC-H2FUM)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.3 Dacarbazine-Fumaric Acid Cocrystal (DTIC-H2FUM)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.3 Dacarbazine-Fumaric Acid Cocrystal (DTIC-H2FUM)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 6,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Reacting DTIC and fumaric acid yielded a 1:1 cocrystal",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 6,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Reacting DTIC and fumaric acid yielded a 1:1 cocrystal",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 6,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Reacting DTIC and fumaric acid yielded a 1:1 cocrystal",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 6,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Reacting DTIC and fumaric acid yielded a 1:1 cocrystal",
+            "asset_path": null
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "All coformers and dacarbazine were purchased from Sigma-Aldrich",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name from PDF layout text",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name from PDF layout text",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name on page 2",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate: CN(C)/N=N/c1nc[nH]c1C(N)=O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from OCSR candidate",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from OCSR candidate",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from Scheme 1 on page 1",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and fumaric acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and fumaric acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and fumaric acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and fumaric acid",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Fumaric acid: O=C(O)/C=C/C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Fumaric acid: O=C(O)/C=C/C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Fumaric acid: O=C(O)/C=C/C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Fumaric acid: O=C(O)/C=C/C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-H2FUM row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-H2FUM row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-H2FUM row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-H2FUM row in Table 3",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+        "doi": "10.1021/acs.molpharmaceut.4c00393",
+        "supplementary": 0,
+        "authors": "Luan F. Diniz, Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes",
+        "title": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+        "journal": "Mol. Pharmaceutics",
+        "year": 2024,
+        "page": 3661,
+        "access": 1,
+        "name_cocrystal": "Dacarbazine-succinic acid cocrystal (DTIC-H2SUC)",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": 2,
+        "ratio_cocrystal": "1:1",
+        "ratio_cocrystal_page": "2",
+        "ratio_cocrystal_page.1": "2",
+        "ratio_cocrystal_origin": 2.0,
+        "name_drug": "Dacarbazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "layout",
+        "name_drug_page": 2,
+        "SMILES_drug": "CN(C)/N=N/c1nc[nH]c1C(N)=O",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "ocsr",
+        "SMILES_drug_page": 1,
+        "name_coformer": "Succinic acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "layout",
+        "name_coformer_page": 2,
+        "SMILES_coformer": "O=C(O)CCC(=O)O",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "ocsr",
+        "SMILES_coformer_page": 1,
+        "photostability_change": "Improved solid-state photostability; after 15 days UV: 98.7 +/- 0.3% DTIC and 0.8 +/- 0.1% 2-AZA (pure DTIC: 94.4 +/- 0.5% DTIC).",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "table",
+        "photostability_change_page": 10
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "bundle metadata source_name",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "main article PDF, not supplementary",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "author line lists Diniz, Carvalho, Souza, Diniz, Fernandes",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "title block",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661-3673",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661-3673",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "first page 3661",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "ACCESS and CC-BY 4.0 license",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.4 Dacarbazine-Succinic Acid Cocrystal (DTIC-H2SUC)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.4 Dacarbazine-Succinic Acid Cocrystal (DTIC-H2SUC)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.4 Dacarbazine-Succinic Acid Cocrystal (DTIC-H2SUC)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.4 Dacarbazine-Succinic Acid Cocrystal (DTIC-H2SUC)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "DTIC and succinic acid both 0.274 mmol",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "DTIC and succinic acid both 0.274 mmol",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "DTIC and succinic acid both 0.274 mmol",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "DTIC and succinic acid both 0.274 mmol",
+            "asset_path": null
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "All coformers and dacarbazine were purchased from Sigma-Aldrich",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name from PDF layout text",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name from PDF layout text",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name on page 2",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate: CN(C)/N=N/c1nc[nH]c1C(N)=O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from OCSR candidate",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from OCSR candidate",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from Scheme 1 on page 1",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and succinic acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and succinic acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and succinic acid",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "50 mg DTIC and succinic acid",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Succinic acid: O=C(O)CCC(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Succinic acid: O=C(O)CCC(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Succinic acid: O=C(O)CCC(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Succinic acid: O=C(O)CCC(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-H2SUC row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-H2SUC row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-H2SUC row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-H2SUC row in Table 3",
+            "asset_path": null
+          }
+        ]
+      }
+    },
+    {
+      "values": {
+        "pdf": "Highly_Soluble_Dacarbazine_Multicomponent_Crystals_Less_Prone_to.pdf",
+        "doi": "10.1021/acs.molpharmaceut.4c00393",
+        "supplementary": 0,
+        "authors": "Luan F. Diniz, Paulo S. Carvalho, Jr., Mateus A. C. Souza, Renata Diniz, and Christian Fernandes",
+        "title": "Highly Soluble Dacarbazine Multicomponent Crystals Less Prone to Photodegradation",
+        "journal": "Mol. Pharmaceutics",
+        "year": 2024,
+        "page": 3661,
+        "access": 1,
+        "name_cocrystal": "Dacarbazine hydrogen-citrate tetrahydrated salt-cocrystal (DTIC-HCIT)",
+        "name_cocrystal_type_file": "pdf",
+        "name_cocrystal_page": "2",
+        "name_cocrystal_origin": 2,
+        "ratio_cocrystal": "2:1",
+        "ratio_cocrystal_page": "7",
+        "ratio_cocrystal_page.1": "7",
+        "ratio_cocrystal_origin": 7.0,
+        "name_drug": "Dacarbazine",
+        "name_drug_type_file": "pdf",
+        "name_drug_origin": "layout",
+        "name_drug_page": 2,
+        "SMILES_drug": "CN(C)/N=N/c1nc[nH]c1C(N)=O",
+        "SMILES_drug_type_file": "pdf",
+        "SMILES_drug_origin": "ocsr",
+        "SMILES_drug_page": 1,
+        "name_coformer": "Citric acid",
+        "name_coformer_type file": "pdf",
+        "name_coformer_origin": "layout",
+        "name_coformer_page": 2,
+        "SMILES_coformer": "O=C(O)CC(O)(CC(=O)O)C(=O)O",
+        "SMILES_coformer_type file": "pdf",
+        "SMILES_coformer_origin": "ocsr",
+        "SMILES_coformer_page": 1,
+        "photostability_change": "Improved solid-state photostability; after 15 days UV: 97.0 +/- 0.4% DTIC and 1.8 +/- 0.2% 2-AZA (pure DTIC: 94.4 +/- 0.5% DTIC).",
+        "photostability_change_type_file": "pdf",
+        "photostability_change_origin": "table",
+        "photostability_change_page": 10
+      },
+      "evidence": {
+        "pdf": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "bundle metadata source_name",
+            "asset_path": null
+          }
+        ],
+        "doi": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "https://doi.org/10.1021/acs.molpharmaceut.4c00393",
+            "asset_path": null
+          }
+        ],
+        "supplementary": [
+          {
+            "page": 1,
+            "kind": "metadata",
+            "bbox": null,
+            "text": "main article PDF, not supplementary",
+            "asset_path": null
+          }
+        ],
+        "authors": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "author line lists Diniz, Carvalho, Souza, Diniz, Fernandes",
+            "asset_path": null
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "title block",
+            "asset_path": null
+          }
+        ],
+        "journal": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661-3673",
+            "asset_path": null
+          }
+        ],
+        "year": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "Cite This: Mol. Pharmaceutics 2024, 21, 3661-3673",
+            "asset_path": null
+          }
+        ],
+        "page": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "first page 3661",
+            "asset_path": null
+          }
+        ],
+        "access": [
+          {
+            "page": 1,
+            "kind": "layout",
+            "bbox": null,
+            "text": "ACCESS and CC-BY 4.0 license",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.5 Dacarbazine Hydrogen-Citrate Salt-Cocrystal (DTIC-HCIT)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_type_file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.5 Dacarbazine Hydrogen-Citrate Salt-Cocrystal (DTIC-HCIT)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.5 Dacarbazine Hydrogen-Citrate Salt-Cocrystal (DTIC-HCIT)",
+            "asset_path": null
+          }
+        ],
+        "name_cocrystal_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "2.2.5 Dacarbazine Hydrogen-Citrate Salt-Cocrystal (DTIC-HCIT)",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal": [
+          {
+            "page": 7,
+            "kind": "layout",
+            "bbox": null,
+            "text": "ASU contains DTICH+ cation, hydrogencitrate anion, neutral DTIC, and four waters",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page": [
+          {
+            "page": 7,
+            "kind": "layout",
+            "bbox": null,
+            "text": "ASU contains DTICH+ cation, hydrogencitrate anion, neutral DTIC, and four waters",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_page.1": [
+          {
+            "page": 7,
+            "kind": "layout",
+            "bbox": null,
+            "text": "ASU contains DTICH+ cation, hydrogencitrate anion, neutral DTIC, and four waters",
+            "asset_path": null
+          }
+        ],
+        "ratio_cocrystal_origin": [
+          {
+            "page": 7,
+            "kind": "layout",
+            "bbox": null,
+            "text": "ASU contains DTICH+ cation, hydrogencitrate anion, neutral DTIC, and four waters",
+            "asset_path": null
+          }
+        ],
+        "name_drug": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "All coformers and dacarbazine were purchased from Sigma-Aldrich",
+            "asset_path": null
+          }
+        ],
+        "name_drug_type_file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name from PDF layout text",
+            "asset_path": null
+          }
+        ],
+        "name_drug_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name from PDF layout text",
+            "asset_path": null
+          }
+        ],
+        "name_drug_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "drug name on page 2",
+            "asset_path": null
+          }
+        ],
+        "SMILES_drug": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate: CN(C)/N=N/c1nc[nH]c1C(N)=O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_type_file": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from OCSR candidate",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_origin": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from OCSR candidate",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_drug_page": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "SMILES from Scheme 1 on page 1",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "name_coformer": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "52.7 mg citric acid was added",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_type file": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "52.7 mg citric acid was added",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_origin": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "52.7 mg citric acid was added",
+            "asset_path": null
+          }
+        ],
+        "name_coformer_page": [
+          {
+            "page": 2,
+            "kind": "layout",
+            "bbox": null,
+            "text": "52.7 mg citric acid was added",
+            "asset_path": null
+          }
+        ],
+        "SMILES_coformer": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Citric acid: O=C(O)CC(O)(CC(=O)O)C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_type file": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Citric acid: O=C(O)CC(O)(CC(=O)O)C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_origin": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Citric acid: O=C(O)CC(O)(CC(=O)O)C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "SMILES_coformer_page": [
+          {
+            "page": 1,
+            "kind": "ocsr",
+            "bbox": null,
+            "text": "Scheme 1 OCSR candidate for Citric acid: O=C(O)CC(O)(CC(=O)O)C(=O)O",
+            "asset_path": "assets/page-0001-image-009.png"
+          }
+        ],
+        "photostability_change": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-HCIT row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_type_file": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-HCIT row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_origin": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-HCIT row in Table 3",
+            "asset_path": null
+          }
+        ],
+        "photostability_change_page": [
+          {
+            "page": 10,
+            "kind": "table",
+            "bbox": null,
+            "text": "DTIC-HCIT row in Table 3",
+            "asset_path": null
+          }
+        ]
+      }
+    }
+  ]
+}

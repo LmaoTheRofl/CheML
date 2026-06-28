@@ -16,7 +16,7 @@ from chemx.evaluate import (
     evaluate_run,
     evaluate_runs,
 )
-from chemx.pipeline import backend_from_name, batch_articles, parse_article
+from chemx.pipeline import backend_from_name, batch_articles, parse_article, resume_article
 from chemx.toolchain import FullStackToolchain
 
 app = typer.Typer(help="ChemX article extraction pipeline", no_args_is_help=True)
@@ -28,6 +28,9 @@ def parse(
     domain: Annotated[str, typer.Option(help="Domain slug or auto")] = "auto",
     backend: Annotated[str, typer.Option(help="codex or ollama")] = "codex",
     runs_dir: Annotated[Path, typer.Option(help="Run output directory")] = Path("runs"),
+    reviewer: Annotated[
+        bool, typer.Option("--reviewer/--no-reviewer", help="Run extraction reviewer")
+    ] = True,
 ) -> None:
     """Build a bundle and run one isolated extraction for one article."""
     if domain != "auto":
@@ -38,6 +41,7 @@ def parse(
             domain=domain,
             backend=backend_from_name(backend),
             runs_dir=runs_dir.resolve(),
+            skip_reviewer=not reviewer,
         )
     except ValueError as exc:
         raise typer.BadParameter(str(exc)) from exc
@@ -49,14 +53,43 @@ def batch(
     dataset_dir: Annotated[Path, typer.Argument(exists=True, file_okay=False, readable=True)],
     backend: Annotated[str, typer.Option(help="codex or ollama")] = "codex",
     runs_dir: Annotated[Path, typer.Option(help="Run output directory")] = Path("runs"),
+    reviewer: Annotated[
+        bool, typer.Option("--reviewer/--no-reviewer", help="Run extraction reviewer")
+    ] = True,
 ) -> None:
     """Process every PDF recursively."""
     try:
-        targets = batch_articles(dataset_dir, backend_name=backend, runs_dir=runs_dir.resolve())
+        targets = batch_articles(
+            dataset_dir,
+            backend_name=backend,
+            runs_dir=runs_dir.resolve(),
+            skip_reviewer=not reviewer,
+        )
     except ValueError as exc:
         raise typer.BadParameter(str(exc)) from exc
     for target in targets:
         typer.echo(target)
+
+
+@app.command()
+def resume(
+    run: Annotated[Path, typer.Argument(exists=True, file_okay=False, readable=True)],
+    backend: Annotated[str | None, typer.Option(help="codex or ollama; defaults to manifest")]
+    = None,
+    reviewer: Annotated[
+        bool, typer.Option("--reviewer/--no-reviewer", help="Run extraction reviewer")
+    ] = True,
+) -> None:
+    """Resume inference/review from an existing completed bundle."""
+    try:
+        target = resume_article(
+            run,
+            backend=backend_from_name(backend) if backend is not None else None,
+            skip_reviewer=not reviewer,
+        )
+    except ValueError as exc:
+        raise typer.BadParameter(str(exc)) from exc
+    typer.echo(target)
 
 
 @app.command("bundle")
