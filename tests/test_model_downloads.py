@@ -161,7 +161,7 @@ def test_datalab_downloader_fetches_known_size_files_by_range(
     assert client.calls == ["bytes=0-2", "bytes=3-5", "bytes=6-8"]
 
 
-def test_datalab_downloader_falls_back_after_stalled_large_range(
+def test_datalab_downloader_resumes_large_range_after_partial_timeout(
     tmp_path: Path, monkeypatch: pytest.MonkeyPatch
 ) -> None:
     payload = b"abcdefghi"
@@ -186,16 +186,32 @@ def test_datalab_downloader_falls_back_after_stalled_large_range(
     monkeypatch.setattr(client, "stream", stalling_stream)
     monkeypatch.setattr(datalab, "CHUNK_SIZE", 6)
     monkeypatch.setattr(datalab, "STREAM_BLOCK_SIZE", 3)
-    monkeypatch.setattr(datalab, "FALLBACK_RANGE_SIZE", 3)
-    monkeypatch.setattr(datalab, "FALLBACK_WORKERS", 2)
+    monkeypatch.setattr(datalab, "retry_delay", lambda attempt: 0)
     monkeypatch.setattr(datalab, "model_root", lambda: tmp_path)
     monkeypatch.setattr(datalab.httpx, "Client", lambda **kwargs: client)
 
     datalab.download("https://example.test/model.bin", destination, len(payload))
 
     assert destination.read_bytes() == payload
-    assert client.calls[0] == "bytes=0-5"
-    assert sorted(client.calls[1:]) == ["bytes=3-5", "bytes=6-8"]
+    assert client.calls == ["bytes=0-5", "bytes=3-5", "bytes=6-8"]
+
+
+def test_datalab_downloader_resumes_existing_partial_file(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    payload = b"abcdefghi"
+    client = FakeRangeClient(payload)
+    destination = tmp_path / "model.bin"
+    destination.with_suffix(".bin.part").write_bytes(payload[:3])
+
+    monkeypatch.setattr(datalab, "CHUNK_SIZE", 3)
+    monkeypatch.setattr(datalab, "model_root", lambda: tmp_path)
+    monkeypatch.setattr(datalab.httpx, "Client", lambda **kwargs: client)
+
+    datalab.download("https://example.test/model.bin", destination, len(payload))
+
+    assert destination.read_bytes() == payload
+    assert client.calls == ["bytes=3-5", "bytes=6-8"]
 
 
 def test_molscribe_downloader_fetches_known_size_files_by_range(

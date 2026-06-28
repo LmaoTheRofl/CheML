@@ -5,7 +5,6 @@ import json
 import os
 import time
 from collections.abc import Sequence
-from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import httpx
@@ -18,12 +17,8 @@ CHECKPOINTS = (
     "table_recognition/2025_02_18",
     "ocr_error_detection/2025_02_18",
 )
-CHUNK_SIZE = 4 * 1024 * 1024
-STREAM_BLOCK_SIZE = 16 * 1024
-FALLBACK_RANGE_SIZE = 8 * 1024
-FALLBACK_WORKERS = 16
-LARGE_RANGE_READ_TIMEOUT_SECONDS = 20
-SMALL_RANGE_READ_TIMEOUT_SECONDS = 20
+CHUNK_SIZE = 16 * 1024 * 1024
+STREAM_BLOCK_SIZE = 256 * 1024
 DOWNLOAD_ATTEMPTS = int(os.environ.get("CHEMX_MODEL_DOWNLOAD_ATTEMPTS", "20"))
 READ_TIMEOUT_SECONDS = float(os.environ.get("CHEMX_MODEL_DOWNLOAD_READ_TIMEOUT_SECONDS", "180"))
 CONNECT_TIMEOUT_SECONDS = float(
@@ -56,11 +51,6 @@ def content_length(url: str) -> int | None:
     return int(value) if value else None
 
 
-def cachebusted_url(url: str, attempt: int) -> str:
-    separator = "&" if "?" in url else "?"
-    return f"{url}{separator}cachebust={time.time_ns()}-{attempt}"
-
-
 def retry_delay(attempt: int) -> int:
     return min(30, 2 * attempt)
 
@@ -82,150 +72,79 @@ def retry_message(destination: Path, attempt: int, exc: Exception, partial: Path
     )
 
 
-def fetch_range(url: str, start: int, end: int) -> bytes:
-    for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
-        try:
-            with httpx.Client(
-                follow_redirects=True,
-                headers={
-                    "User-Agent": "Mozilla/5.0",
-                    "Cache-Control": "no-cache",
-                    "Pragma": "no-cache",
-                },
-                timeout=httpx.Timeout(
-                    SMALL_RANGE_READ_TIMEOUT_SECONDS,
-                    connect=CONNECT_TIMEOUT_SECONDS,
-                    read=SMALL_RANGE_READ_TIMEOUT_SECONDS,
-                ),
-            ) as client:
-                response = client.get(
-                    url,
-                    headers={"Range": f"bytes={start}-{end}"},
-                )
-            response.raise_for_status()
-            if response.status_code != 206:
-                raise RuntimeError(f"range request returned HTTP {response.status_code}")
-            expected = end - start + 1
-            if len(response.content) != expected:
-                raise RuntimeError(
-                    f"short range read: {len(response.content)} != {expected}"
-                )
-            return response.content
-        except (httpx.HTTPError, RuntimeError):
-            if attempt == DOWNLOAD_ATTEMPTS:
-                raise
-            time.sleep(retry_delay(attempt))
-    raise AssertionError("unreachable")
-
-
-def download_small_ranges(
-    url: str,
-    partial: Path,
-    expected_size: int,
-    offset: int,
-) -> None:
-    print(f"small-range fallback {partial.name}, offset={offset}", flush=True)
-    reported = offset
-    with partial.open("ab") as handle, ThreadPoolExecutor(
-        max_workers=FALLBACK_WORKERS
-    ) as executor:
-        while offset < expected_size:
-            ranges: list[tuple[int, int]] = []
-            for _ in range(FALLBACK_WORKERS):
-                if offset >= expected_size:
-                    break
-                end = min(offset + FALLBACK_RANGE_SIZE - 1, expected_size - 1)
-                ranges.append((offset, end))
-                offset = end + 1
-
-            chunks = executor.map(
-                lambda byte_range: fetch_range(url, *byte_range), ranges
-            )
-            for chunk in chunks:
-                handle.write(chunk)
-            handle.flush()
-            written = handle.tell()
-            if expected_size >= 1024 * 1024 and (
-                written == expected_size or written - reported >= 64 * 1024 * 1024
-            ):
-                print(
-                    f"download progress {partial.name}: "
-                    f"{written // (1024 * 1024)}/{expected_size // (1024 * 1024)} MiB",
-                    flush=True,
-                )
-                reported = written
-
-
 def download_known_size(url: str, destination: Path, partial: Path, expected_size: int) -> None:
     if partial.exists() and partial.stat().st_size > expected_size:
         partial.unlink()
 
     offset = partial.stat().st_size if partial.exists() else 0
+    reported = offset
     with httpx.Client(
         follow_redirects=True,
-        headers={
-            "User-Agent": "Mozilla/5.0",
-            "Cache-Control": "no-cache",
-            "Pragma": "no-cache",
-        },
+        headers={"User-Agent": "Mozilla/5.0"},
         timeout=request_timeout(),
     ) as client:
-        if expected_size <= CHUNK_SIZE or offset > 0:
-            download_small_ranges(url, partial, expected_size, offset)
-            return
-
         while offset < expected_size:
             range_end = min(offset + CHUNK_SIZE - 1, expected_size - 1)
-            try:
-                with client.stream(
-                    "GET",
-                    url,
-                    headers={"Range": f"bytes={offset}-{range_end}"},
-                    timeout=httpx.Timeout(
-                        LARGE_RANGE_READ_TIMEOUT_SECONDS,
-                        connect=CONNECT_TIMEOUT_SECONDS,
-                        read=LARGE_RANGE_READ_TIMEOUT_SECONDS,
-                    ),
-                ) as response:
-                    if response.status_code == 200 and offset == 0:
-                        mode = "wb"
-                    elif response.status_code == 206:
-                        mode = "ab"
-                    else:
-                        response.raise_for_status()
+            for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
+                request_start = offset
+                try:
+                    with client.stream(
+                        "GET",
+                        url,
+                        headers={"Range": f"bytes={request_start}-{range_end}"},
+                    ) as response:
+                        if response.status_code == 200 and request_start == 0:
+                            mode = "wb"
+                        elif response.status_code == 206:
+                            mode = "ab"
+                        else:
+                            response.raise_for_status()
+                            raise RuntimeError(
+                                f"range request failed for {destination}: "
+                                f"HTTP {response.status_code}"
+                            )
+
+                        with partial.open(mode) as handle:
+                            if mode == "wb":
+                                offset = 0
+                            for chunk in response.iter_raw(chunk_size=STREAM_BLOCK_SIZE):
+                                if chunk:
+                                    handle.write(chunk)
+                                    offset += len(chunk)
+
+                    if response.status_code == 206 and offset != range_end + 1:
                         raise RuntimeError(
-                            f"range request failed for {destination}: "
-                            f"HTTP {response.status_code}"
+                            f"short read for {destination}: {offset} < {range_end + 1}"
                         )
+                    break
+                except (httpx.HTTPError, RuntimeError) as exc:
+                    offset = partial.stat().st_size if partial.exists() else 0
+                    if offset == range_end + 1:
+                        break
+                    if (
+                        offset > range_end + 1
+                        or offset > expected_size
+                        or attempt == DOWNLOAD_ATTEMPTS
+                    ):
+                        raise
+                    retry_message(destination, attempt, exc, partial)
+                    time.sleep(retry_delay(attempt))
 
-                    with partial.open(mode) as handle:
-                        if mode == "wb":
-                            offset = 0
-                        for chunk in response.iter_raw(chunk_size=STREAM_BLOCK_SIZE):
-                            if chunk:
-                                handle.write(chunk)
-                                handle.flush()
-                                offset += len(chunk)
-
-                if response.status_code == 206 and offset != range_end + 1:
-                    raise RuntimeError(
-                        f"short read for {destination}: {offset} < {range_end + 1}"
-                    )
-            except (httpx.HTTPError, RuntimeError) as exc:
-                offset = partial.stat().st_size if partial.exists() else 0
-                retry_message(destination, 1, exc, partial)
-                download_small_ranges(url, partial, expected_size, offset)
-                return
+            if expected_size >= 64 * 1024 * 1024 and (
+                offset == expected_size or offset - reported >= 64 * 1024 * 1024
+            ):
+                print(
+                    f"download progress {partial.name}: "
+                    f"{offset // (1024 * 1024)}/{expected_size // (1024 * 1024)} MiB",
+                    flush=True,
+                )
+                reported = offset
 
 
 def download_unknown_size(url: str, destination: Path, partial: Path) -> None:
     with httpx.Client(
         follow_redirects=True,
-        headers={
-            "User-Agent": "Mozilla/5.0",
-            "Cache-Control": "no-cache",
-            "Pragma": "no-cache",
-        },
+        headers={"User-Agent": "Mozilla/5.0"},
         timeout=request_timeout(),
     ) as client:
         for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
@@ -234,7 +153,7 @@ def download_unknown_size(url: str, destination: Path, partial: Path) -> None:
             try:
                 with client.stream(
                     "GET",
-                    cachebusted_url(url, attempt),
+                    url,
                     headers=headers,
                 ) as response:
                     response.raise_for_status()
@@ -242,7 +161,7 @@ def download_unknown_size(url: str, destination: Path, partial: Path) -> None:
                         partial.unlink(missing_ok=True)
                         downloaded = 0
                     with partial.open("ab" if downloaded else "wb") as handle:
-                        for chunk in response.iter_bytes(chunk_size=CHUNK_SIZE):
+                        for chunk in response.iter_raw(chunk_size=STREAM_BLOCK_SIZE):
                             if chunk:
                                 handle.write(chunk)
                 break
