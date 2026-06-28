@@ -33,6 +33,8 @@ models_safetensors/
 tmp/
 temp/
 *.log
+runs/_ui_jobs/
+runs/_uploads/
 runs/tools/
 runs/experiments/_*/
 runs/experiments/*warmup*/

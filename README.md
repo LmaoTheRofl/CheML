@@ -7,9 +7,11 @@
 ```bash
 UV_CACHE_DIR=runs/tools/cache/uv UV_PYTHON_INSTALL_DIR=runs/tools/python uv python install 3.11
 UV_CACHE_DIR=runs/tools/cache/uv UV_PYTHON_INSTALL_DIR=runs/tools/python uv sync --extra dev
+UV_CACHE_DIR=runs/tools/cache/uv UV_PYTHON_INSTALL_DIR=runs/tools/python uv sync --extra ui
 uv run chemx inspect datasets/NANOMATERIALS/SelTox/d3ra07733k.pdf
 uv run chemx bundle datasets/NANOMATERIALS/SelTox/d3ra07733k.pdf --output-dir runs/seltox-bundle --no-marker
 uv run chemx parse datasets/NANOMATERIALS/SelTox/d3ra07733k.pdf --domain auto
+uv run chemx ui
 uv run chemx batch datasets/
 uv run chemx resume runs/<failed-run-id>
 uv run chemx doctor-tools
@@ -42,6 +44,7 @@ parse startup; the pipeline does not silently fall back to a weak mode.
 Codex runner использует `gpt-5.5`, `model_reasoning_effort="xhigh"`, `--ephemeral`, `--sandbox workspace-write` и domain-specific `--output-schema`. Для локального backend контракт тот же:
 
 ```bash
+OLLAMA_MODELS="$PWD/.ollama/models" ~/.local/bin/ollama pull lukaspetrik/gemma3-tools:27b
 scripts/ollama_serve.sh
 uv run chemx parse article.pdf --domain seltox --backend ollama
 ```
@@ -93,9 +96,36 @@ uv sync --extra ui
 uv run chemx ui
 ```
 
+Streamlit UI открывает одностраничное приложение для загрузки PDF, ручного
+выбора домена и запуска `codex` или `ollama` backend. В таблице результата
+показываются только поля, которые участвуют в оценке: список берётся из первого
+столбца соответствующего `metrics/*_from_single_agent.csv`. Домены без такого
+baseline-файла в UI не показываются. Во время запуска UI показывает краткий
+stage/log из текущего run workspace и обновляет его автоматически. Для отмены
+используйте кнопку `Stop extraction` внутри приложения: она завершает весь
+process group активного запуска, включая Marker/Codex/Ollama-потомков.
+Встроенные кнопки Streamlit `Rerun`/`Stop` относятся к перезапуску UI-скрипта и
+не являются штатным способом запуска или остановки ChemX extraction.
+
 Domain contracts находятся в `.agents/skills`; runtime JSON Schema генерируется из `domain.json`, поэтому prompt, validator и backend используют единый список полей. Архитектура и форматы описаны в [docs/architecture.md](docs/architecture.md) и [docs/contracts.md](docs/contracts.md).
 
-Marker, RDKit и `pymupdf_layout` являются обязательными runtime-зависимостями parser. MolScribe использует обнаруженное project-local окружение и установленный `.pth`; OCR использует project-local `eng.traineddata`. Пути можно переопределить через `CHEMX_MOLSCRIBE_COMMAND` и `CHEMX_OCR_COMMAND`.
+Команды подготовки пакетов и локальных моделей:
+
+```bash
+UV_CACHE_DIR=runs/tools/cache/uv UV_PYTHON_INSTALL_DIR=runs/tools/python uv sync --extra dev --extra ui --extra gold
+uv run python scripts/download_datalab_cache.py
+OLLAMA_MODELS="$PWD/.ollama/models" ~/.local/bin/ollama pull lukaspetrik/gemma3-tools:27b
+uv run chemx doctor-tools
+```
+
+`scripts/download_datalab_cache.py` заполняет Datalab/Marker cache из
+`https://models.datalab.to`, но не скачивает отсутствующий `model.safetensors`:
+этот вес должен уже лежать в ожидаемом cache path, иначе скрипт завершится
+ошибкой. Marker, RDKit и `pymupdf_layout` являются обязательными
+runtime-зависимостями parser. MolScribe использует обнаруженное project-local
+окружение `runs/tools/molscribe-py39` и установленный `.pth`; OCR использует
+project-local `runs/tools/tesseract/.../eng.traineddata`. Пути можно
+переопределить через `CHEMX_MOLSCRIBE_COMMAND` и `CHEMX_OCR_COMMAND`.
 
 ## Проверки
 
