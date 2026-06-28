@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import shutil
+from contextlib import contextmanager
 from pathlib import Path
 
 import fitz
@@ -26,6 +27,23 @@ class FakeBackend:
             encoding="utf-8",
         )
         return prediction
+
+
+class RuntimeBackend(FakeBackend):
+    def __init__(self) -> None:
+        self.active = False
+
+    @contextmanager
+    def runtime(self):
+        self.active = True
+        try:
+            yield
+        finally:
+            self.active = False
+
+    def run(self, workspace: Path, spec) -> Prediction:
+        assert self.active
+        return super().run(workspace, spec)
 
 
 def make_pdf(path: Path) -> None:

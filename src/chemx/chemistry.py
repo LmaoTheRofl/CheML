@@ -72,9 +72,10 @@ def canonicalize_smiles_required(value: object) -> tuple[str | None, bool]:
     if not raw:
         return raw, True
     try:
-        from rdkit import Chem
+        from rdkit import Chem, RDLogger
     except ImportError as exc:
         raise RuntimeError("RDKit is required for ChemX SMILES canonicalization") from exc
+    RDLogger.DisableLog("rdApp.error")
     molecule = Chem.MolFromSmiles(raw)
     if molecule is None:
         return raw, False

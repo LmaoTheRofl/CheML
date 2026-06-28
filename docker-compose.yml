@@ -1,0 +1,51 @@
+name: chemx
+
+x-chemx-common: &chemx-common
+  image: chemx-parser:local
+  build:
+    context: .
+    dockerfile: Dockerfile
+    args:
+      INSTALL_CODEX: "${INSTALL_CODEX:-1}"
+      INSTALL_MOLSCRIBE: "${INSTALL_MOLSCRIBE:-1}"
+  working_dir: /workspace
+  volumes:
+    - .:/workspace
+    - chemx-cache:/opt/chemx-cache
+    - uv-cache:/opt/uv-cache
+  environment:
+    XDG_CACHE_HOME: /opt/chemx-cache
+    UV_CACHE_DIR: /opt/uv-cache
+    UV_PROJECT_ENVIRONMENT: /opt/chemx-venv
+    CHEMX_MARKER_PAGE_CHUNK_SIZE: "${CHEMX_MARKER_PAGE_CHUNK_SIZE:-1}"
+    CHEMX_OCR_COMMAND: "tesseract {image} stdout -l eng"
+    CHEMX_MOLSCRIBE_COMMAND: "/opt/molscribe-venv/bin/python /workspace/scripts/molscribe_predict.py --model /workspace/swin_base_char_aux_1m680k.pth {image}"
+    OPENAI_API_KEY: "${OPENAI_API_KEY:-}"
+
+services:
+  chemx:
+    <<: *chemx-common
+    entrypoint: ["uv", "run", "--no-sync", "chemx"]
+    command: ["--help"]
+
+  ui:
+    <<: *chemx-common
+    entrypoint: ["uv", "run", "--no-sync", "chemx"]
+    command: ["ui", "--runs-dir", "/workspace/runs"]
+    ports:
+      - "${CHEMX_UI_PORT:-8501}:8501"
+    environment:
+      XDG_CACHE_HOME: /opt/chemx-cache
+      UV_CACHE_DIR: /opt/uv-cache
+      UV_PROJECT_ENVIRONMENT: /opt/chemx-venv
+      CHEMX_MARKER_PAGE_CHUNK_SIZE: "${CHEMX_MARKER_PAGE_CHUNK_SIZE:-1}"
+      CHEMX_OCR_COMMAND: "tesseract {image} stdout -l eng"
+      CHEMX_MOLSCRIBE_COMMAND: "/opt/molscribe-venv/bin/python /workspace/scripts/molscribe_predict.py --model /workspace/swin_base_char_aux_1m680k.pth {image}"
+      OPENAI_API_KEY: "${OPENAI_API_KEY:-}"
+      STREAMLIT_SERVER_ADDRESS: "0.0.0.0"
+      STREAMLIT_SERVER_PORT: "8501"
+      STREAMLIT_BROWSER_GATHER_USAGE_STATS: "false"
+
+volumes:
+  chemx-cache:
+  uv-cache:

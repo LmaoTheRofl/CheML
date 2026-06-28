@@ -17,6 +17,7 @@ from chemx.runner import (
     DeterministicReviewer,
     OllamaBackend,
     Reviewer,
+    backend_runtime,
     install_run_skills,
 )
 from chemx.validation import (
@@ -46,6 +47,12 @@ def backend_from_name(name: str) -> Backend:
 
 def _is_production_backend(backend: Backend) -> bool:
     return backend.name in {"codex", "ollama"}
+
+
+def _default_reviewer(backend: Backend) -> Reviewer:
+    if backend.name == "codex":
+        return CodexReviewer()
+    return DeterministicReviewer()
 
 
 def _candidate_count(workspace: Path) -> int:
@@ -347,11 +354,18 @@ def batch_articles(
     backend_name: str = "codex",
     runs_dir: Path | None = None,
     skip_reviewer: bool = False,
+    skip_reviewer: bool = False,
 ) -> list[Path]:
     pdfs = sorted(dataset_dir.rglob("*.pdf"))
     if not pdfs:
         raise ValueError(f"no PDF files below {dataset_dir}")
     return [
+        parse_article(
+            pdf,
+            backend=backend_from_name(backend_name),
+            runs_dir=runs_dir,
+            skip_reviewer=skip_reviewer,
+        )
         parse_article(
             pdf,
             backend=backend_from_name(backend_name),

@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import os
 import re
 import shlex
 import subprocess
@@ -41,9 +42,28 @@ MARKER_FONT_CANDIDATES = (
     Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"),
 )
 
+SURYA_MARKER_CHECKPOINTS = (
+    "layout/2025_09_23",
+    "text_detection/2025_05_07",
+    "text_recognition/2025_09_23",
+    "table_recognition/2025_02_18",
+    "ocr_error_detection/2025_02_18",
+)
+MARKER_FONT_CANDIDATES = (
+    Path(__file__).resolve().parents[2] / "runs" / "tools" / "fonts" / "DejaVuSans.ttf",
+    Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"),
+)
+
 
 def _bbox(rect: Any) -> BoundingBox:
     return BoundingBox(x0=rect[0], y0=rect[1], x1=rect[2], y1=rect[3])
+
+
+def _tail(text: str, limit: int = 2000) -> str:
+    text = text.strip()
+    if len(text) <= limit:
+        return text
+    return "..." + text[-limit:]
 
 
 class BundleBuilder:
@@ -55,11 +75,17 @@ class BundleBuilder:
         require_full_stack: bool = False,
         toolchain: FullStackToolchain | None = None,
         marker_timeout_seconds: float | None = None,
+        marker_timeout_seconds: float | None = None,
     ) -> None:
         self.render_scale = render_scale
         self.use_marker = use_marker
         self.require_full_stack = require_full_stack
         self.toolchain = toolchain or FullStackToolchain()
+        self.marker_timeout_seconds = (
+            marker_timeout_seconds
+            if marker_timeout_seconds is not None
+            else float(os.environ.get("CHEMX_MARKER_TIMEOUT_SECONDS", "10800"))
+        )
         self.marker_timeout_seconds = (
             marker_timeout_seconds
             if marker_timeout_seconds is not None
@@ -201,8 +227,6 @@ class BundleBuilder:
                 ) from exc
             return None
         candidates = sorted(marker_dir.rglob("*.md"))
-        if not candidates and strict:
-            raise RuntimeError(f"Marker produced no markdown for {pdf}")
         return candidates[0] if candidates else None
 
     @staticmethod

@@ -3,10 +3,17 @@ from __future__ import annotations
 import json
 import os
 import shutil
+import signal
+import socket
 import subprocess
+import sys
+import time
+from collections.abc import Iterator
+from contextlib import contextmanager
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Protocol
+from urllib.parse import urlsplit
 
 from chemx.domains import output_schema
 from chemx.evaluate import assert_gold_isolated
@@ -44,6 +51,14 @@ class CodexBackend:
     name: str = "codex"
 
     def command(self, workspace: Path) -> list[str]:
+        prompt = self._prompt()
+        feedback = workspace / "reviewer_feedback.md"
+        if feedback.is_file():
+            prompt = (
+                prompt
+                + "\n\nMandatory reviewer_feedback.md contents:\n"
+                + feedback.read_text(encoding="utf-8")
+            )
         return [
             self.executable,
             "exec",
@@ -61,7 +76,7 @@ class CodexBackend:
             str(workspace / "prediction.json"),
             "-C",
             str(workspace),
-            self._prompt(),
+            prompt,
         ]
 
     @staticmethod
@@ -123,8 +138,13 @@ class CodexBackend:
             raise RuntimeError(f"codex exec failed ({completed.returncode}):\n{tail}")
         assert_gold_isolated(workspace)
         return self._validate_prediction(
+        return self._validate_prediction(
             (workspace / "prediction.json").read_text(encoding="utf-8")
         )
+
+    @staticmethod
+    def _validate_prediction(text: str) -> Prediction:
+        return Prediction.model_validate_json(text)
 
     @staticmethod
     def _validate_prediction(text: str) -> Prediction:
@@ -136,13 +156,94 @@ class OllamaBackend(CodexBackend):
     model: str = "lukaspetrik/gemma3-tools:27b"
     name: str = "ollama"
 
+    def _adapter_address(self) -> tuple[str, int]:
+        value = os.environ.get("CHEMX_OLLAMA_ADAPTER_URL", "http://127.0.0.1:11434")
+        parsed = urlsplit(value if "://" in value else f"http://{value}")
+        return parsed.hostname or "127.0.0.1", parsed.port or 11434
+
+    def _adapter_ready(self) -> bool:
+        try:
+            with socket.create_connection(self._adapter_address(), timeout=0.25):
+                return True
+        except OSError:
+            return False
+
+    @staticmethod
+    def _stop_adapter(process: subprocess.Popen[str]) -> None:
+        if process.poll() is not None:
+            return
+        process.send_signal(signal.SIGINT)
+        try:
+            process.wait(timeout=10)
+        except subprocess.TimeoutExpired:
+            process.terminate()
+            try:
+                process.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                process.kill()
+                process.wait(timeout=5)
+
+    def _start_adapter(self) -> subprocess.Popen[str] | None:
+        if self._adapter_ready():
+            return None
+        ollama_bin = os.environ.get("OLLAMA_BIN") or shutil.which("ollama")
+        if not ollama_bin:
+            fallback = Path.home() / ".local" / "bin" / "ollama"
+            ollama_bin = str(fallback) if fallback.is_file() else None
+        if not ollama_bin:
+            raise RuntimeError("Ollama executable not found; set OLLAMA_BIN")
+        host, port = self._adapter_address()
+        process = subprocess.Popen(
+            [
+                sys.executable,
+                "-m",
+                "chemx.ollama_adapter",
+                "--listen",
+                f"{host}:{port}",
+                "--upstream",
+                os.environ.get("OLLAMA_UPSTREAM_URL", "127.0.0.1:11435"),
+                "--ollama-bin",
+                ollama_bin,
+            ],
+            env=os.environ.copy(),
+            text=True,
+        )
+        deadline = time.monotonic() + self.startup_timeout_seconds
+        while time.monotonic() < deadline:
+            if process.poll() is not None:
+                raise RuntimeError(
+                    f"ChemX Ollama adapter exited with code {process.returncode}"
+                )
+            if self._adapter_ready():
+                return process
+            time.sleep(0.2)
+        self._stop_adapter(process)
+        raise TimeoutError("ChemX Ollama adapter did not become ready")
+
+    @contextmanager
+    def runtime(self) -> Iterator[None]:
+        process = self._start_adapter()
+        try:
+            yield
+        finally:
+            if process is not None:
+                self._stop_adapter(process)
+
     def command(self, workspace: Path) -> list[str]:
+        instructions = workspace / "gemma-codex-instructions.txt"
+        instructions.write_text(GEMMA_CODEX_INSTRUCTIONS, encoding="utf-8")
         instructions = workspace / "gemma-codex-instructions.txt"
         instructions.write_text(GEMMA_CODEX_INSTRUCTIONS, encoding="utf-8")
         command = super().command(workspace)
         model_index = command.index("--model")
         command[model_index:model_index + 2] = []
         command[2:2] = ["--oss", "--local-provider", "ollama", "--model", self.model]
+        schema_index = command.index("--output-schema")
+        command[schema_index:schema_index + 2] = []
+        command[2:2] = [
+            "-c",
+            f"model_instructions_file={json.dumps(str(instructions.resolve()))}",
+        ]
         schema_index = command.index("--output-schema")
         command[schema_index:schema_index + 2] = []
         command[2:2] = [
@@ -336,6 +437,10 @@ def install_run_skills(project: Path, workspace: Path, spec: DomainSpec) -> None
         if not source.is_dir():
             raise FileNotFoundError(f"missing project skill: {source}")
         shutil.copytree(source, destination / name, dirs_exist_ok=True)
+    shutil.copy2(
+        project / ".agents" / "skills" / spec.slug / "domain.json",
+        workspace / "domain.json",
+    )
     shutil.copy2(
         project / ".agents" / "skills" / spec.slug / "domain.json",
         workspace / "domain.json",

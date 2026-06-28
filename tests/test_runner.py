@@ -1,9 +1,32 @@
+import signal
 from pathlib import Path
 
 import pytest
 
 from chemx.domains import load_domain
 from chemx.runner import CodexBackend, OllamaBackend, install_run_skills
+
+
+class FakeAdapterProcess:
+    def __init__(self, returncode=None) -> None:
+        self.returncode = returncode
+        self.signals = []
+
+    def poll(self):
+        return self.returncode
+
+    def send_signal(self, value) -> None:
+        self.signals.append(value)
+        self.returncode = 0
+
+    def wait(self, timeout=None):
+        return self.returncode
+
+    def terminate(self) -> None:
+        self.returncode = -15
+
+    def kill(self) -> None:
+        self.returncode = -9
 
 
 def test_codex_command_has_isolation_and_structured_output(tmp_path: Path) -> None:
@@ -22,6 +45,8 @@ def test_ollama_uses_same_output_contract(tmp_path: Path) -> None:
     command = OllamaBackend().command(tmp_path)
     assert "--oss" in command
     assert command[command.index("--local-provider") + 1] == "ollama"
+    assert command[command.index("--model") + 1] == "lukaspetrik/gemma3-tools:27b"
+    assert "--output-schema" not in command
     assert command[command.index("--model") + 1] == "lukaspetrik/gemma3-tools:27b"
     assert "--output-schema" not in command
     assert "--output-last-message" in command
@@ -117,5 +142,6 @@ def test_run_workspace_gets_only_router_and_selected_skill(tmp_path: Path) -> No
     install_run_skills(Path.cwd(), tmp_path, load_domain("seltox"))
     installed = {path.name for path in (tmp_path / ".agents" / "skills").iterdir()}
     assert installed == {"chemx-parser", "seltox"}
+    assert (tmp_path / "domain.json").is_file()
     assert (tmp_path / "domain.json").is_file()
     assert (tmp_path / "output-schema.json").is_file()

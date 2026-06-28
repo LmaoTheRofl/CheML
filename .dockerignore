@@ -1,0 +1,23 @@
+.git
+.venv
+.molscribe-venv
+.pytest_cache
+.ruff_cache
+.ctx-pytest-full
+.codex-home
+.codex-cache
+__pycache__
+*.py[cod]
+
+# Runtime/output data is mounted at container runtime, not baked into the image.
+runs
+.ollama
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+# Local secrets/config.
+.env
+.env.*

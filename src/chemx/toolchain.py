@@ -124,7 +124,9 @@ class FullStackToolchain:
     def __init__(
         self,
         *,
-        marker_command: str = "marker_single",
+        marker_command: str = (
+            "marker_single --disable_ocr --disable_multiprocessing --disable_tqdm"
+        ),
         ocr_command: str | None = None,
         molscribe_command: str | None = None,
         codex_command: str = "codex",

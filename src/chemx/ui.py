@@ -1,7 +1,12 @@
 from __future__ import annotations
 
 import csv
+import csv
 import json
+import os
+import re
+import signal
+import subprocess
 import os
 import re
 import signal
@@ -9,7 +14,28 @@ import subprocess
 import sys
 import time
 from datetime import UTC, datetime
+import time
+from datetime import UTC, datetime
 from pathlib import Path
+from typing import Any
+
+from chemx.domains import list_domains, project_root
+from chemx.pipeline import resolve_runs_dir
+
+METRIC_BASELINES_BY_DOMAIN = {
+    "benzimidazoles": "metrics_benzimidazole_from_single_agent.csv",
+    "co-crystals": "metrics_cocrystals_from_single_agent.csv",
+    "complexes": "metrics_complexes_from_single_agent.csv",
+    "cytotox": "metrics_cytotoxicity_from_single_agent.csv",
+    "nanomag": "metrics_magnetic_from_single_agent.csv",
+    "nanozymes": "metrics_nanozymes_from_single_agent.csv",
+    "oxazolidinones": "metrics_oxazolidinone_from_single_agent.csv",
+    "seltox": "metrics_seltox_from_single_agent.csv",
+    "synergy": "metrics_synergy_from_single_agent.csv",
+}
+UPLOADS_DIRNAME = "_uploads"
+JOBS_DIRNAME = "_ui_jobs"
+JOB_POLL_SECONDS = 2.0
 from typing import Any
 
 from chemx.domains import list_domains, project_root
@@ -341,7 +367,84 @@ def main(runs_dir: Path | None = None) -> None:
 
     requested_root = runs_dir or Path(sys.argv[1] if len(sys.argv) > 1 else "runs")
     st.set_page_config(page_title="ChemX Parser", layout="wide")
+    requested_root = runs_dir or Path(sys.argv[1] if len(sys.argv) > 1 else "runs")
+    st.set_page_config(page_title="ChemX Parser", layout="wide")
     st.title("ChemX Article Parser")
+
+    try:
+        root = resolve_runs_dir(requested_root)
+        root.mkdir(parents=True, exist_ok=True)
+    except ValueError as exc:
+        st.error(str(exc))
+        return
+
+    metric_domains = available_metric_domains()
+    specs = [spec for spec in list_domains() if spec.slug in metric_domains]
+    if not specs:
+        st.error("No evaluable ChemX domains found in metrics/")
+        return
+
+    active_job = None
+    active_job_path = st.session_state.get("active_job_path")
+    if active_job_path:
+        active_job = read_job_state(Path(str(active_job_path)))
+        if active_job:
+            active_job = refresh_job_state(active_job)
+            if active_job.get("run_dir"):
+                st.session_state["selected_run"] = str(active_job["run_dir"])
+            if active_job.get("status") in {"completed", "failed", "stopped"}:
+                st.session_state.pop("active_job_path", None)
+
+    active = job_is_active(active_job)
+    if active_job and active:
+        run_dir = Path(str(active_job["run_dir"])) if active_job.get("run_dir") else None
+        st.subheader("Active extraction")
+        st.caption(run_stage(run_dir, active_job))
+        log_lines = run_log_lines(run_dir, active_job)
+        if log_lines:
+            st.code("\n".join(log_lines), language="text")
+        if st.button("Stop extraction", type="primary"):
+            stopped = stop_extraction_job(active_job)
+            st.session_state.pop("active_job_path", None)
+            if stopped:
+                st.warning("Extraction stopped")
+            else:
+                st.error("Stop signal was sent, but the process is still running")
+            st.rerun()
+
+    with st.form("chemx_parse_form"):
+        uploaded = st.file_uploader("PDF article", type="pdf")
+        domain = st.selectbox(
+            "Domain",
+            [spec.slug for spec in specs],
+            format_func=lambda slug: next(
+                f"{spec.name} ({spec.slug})" for spec in specs if spec.slug == slug
+            ),
+        )
+        backend = st.radio("Backend", ["codex", "ollama"], horizontal=True)
+        reviewer = st.checkbox("Reviewer", value=True)
+        submitted = st.form_submit_button("Run extraction", disabled=active)
+
+    if submitted:
+        if uploaded is None:
+            st.error("Upload a PDF article first")
+        else:
+            try:
+                pdf_path = save_uploaded_pdf(uploaded, root)
+                job = start_extraction_job(
+                    pdf_path,
+                    domain=domain,
+                    backend=backend,
+                    runs_dir=root,
+                    reviewer=reviewer,
+                )
+                st.session_state["active_job_path"] = str(job["job_path"])
+                st.success("Extraction started")
+                st.rerun()
+            except Exception as exc:  # pragma: no cover - surfaced in Streamlit
+                st.exception(exc)
+
+    runs = discover_evaluable_runs(root, set(metric_domains))
 
     try:
         root = resolve_runs_dir(requested_root)
@@ -422,7 +525,24 @@ def main(runs_dir: Path | None = None) -> None:
         if active:
             time.sleep(JOB_POLL_SECONDS)
             st.rerun()
+        if active:
+            time.sleep(JOB_POLL_SECONDS)
+            st.rerun()
         return
+
+    selected_default = Path(st.session_state.get("selected_run", runs[0]))
+    if selected_default not in runs:
+        selected_default = runs[0]
+    selected = Path(
+        st.selectbox(
+            "Run",
+            runs,
+            index=runs.index(selected_default),
+            format_func=_run_label,
+        )
+    )
+    st.session_state["selected_run"] = str(selected)
+
 
     selected_default = Path(st.session_state.get("selected_run", runs[0]))
     if selected_default not in runs:
@@ -446,11 +566,25 @@ def main(runs_dir: Path | None = None) -> None:
     prediction_json_path = selected / "prediction.json"
     prediction_csv_path = selected / "prediction.csv"
     if not prediction_json_path.exists() or not prediction_csv_path.exists():
+    st.caption(run_stage(selected))
+    log_lines = run_log_lines(selected)
+    if log_lines:
+        st.code("\n".join(log_lines), language="text")
+    prediction_json_path = selected / "prediction.json"
+    prediction_csv_path = selected / "prediction.csv"
+    if not prediction_json_path.exists() or not prediction_csv_path.exists():
         st.warning("Inference is not complete")
         if active:
             time.sleep(JOB_POLL_SECONDS)
             st.rerun()
+        if active:
+            time.sleep(JOB_POLL_SECONDS)
+            st.rerun()
         return
+    prediction = json.loads(prediction_json_path.read_text(encoding="utf-8"))
+    frame, missing = prediction_frame(selected)
+    if missing:
+        st.warning(f"Missing evaluable columns: {', '.join(missing)}")
     prediction = json.loads(prediction_json_path.read_text(encoding="utf-8"))
     frame, missing = prediction_frame(selected)
     if missing:
@@ -463,16 +597,28 @@ def main(runs_dir: Path | None = None) -> None:
         "text/csv",
     )
     st.download_button(
+        "Export CSV",
+        frame.to_csv(index=False),
+        "prediction_evaluable.csv",
+        "text/csv",
+    )
+    st.download_button(
         "Export JSON",
+        prediction_json_path.read_bytes(),
         prediction_json_path.read_bytes(),
         "prediction.json",
         "application/json",
     )
     rows = [record["values"] for record in prediction["records"]]
+    rows = [record["values"] for record in prediction["records"]]
     index = st.number_input("Record", min_value=0, max_value=max(0, len(rows) - 1), step=1)
     if rows:
         st.subheader("Evidence")
         st.json(prediction["records"][int(index)].get("evidence", {}))
+
+    if active:
+        time.sleep(JOB_POLL_SECONDS)
+        st.rerun()
 
     if active:
         time.sleep(JOB_POLL_SECONDS)

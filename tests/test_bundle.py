@@ -1,9 +1,12 @@
+import subprocess
 from pathlib import Path
 import subprocess
 
 import fitz
 import pytest
+import pytest
 
+import chemx.bundle as bundle_module
 import chemx.bundle as bundle_module
 from chemx.bundle import BundleBuilder
 from chemx.models import ArticleBundle

@@ -186,6 +186,7 @@ name = "chemx-article-parser"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "httpx" },
     { name = "marker-pdf" },
     { name = "pydantic" },
     { name = "pymupdf" },
@@ -211,6 +212,7 @@ ui = [
 
 [package.metadata]
 requires-dist = [
+    { name = "httpx", specifier = ">=0.27,<1" },
     { name = "marker-pdf", specifier = ">=1.2" },
     { name = "openpyxl", marker = "extra == 'gold'", specifier = ">=3.1" },
     { name = "pandas", marker = "extra == 'gold'", specifier = ">=2.2" },
